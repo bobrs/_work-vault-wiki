@@ -14,14 +14,19 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORE_PREFIXES = (".git", ".DS_Store", "__pycache__", ".vault/cache")
+IGNORE_PREFIXES = (".git", "__pycache__", ".vault/cache")
+IGNORE_NAMES = {".DS_Store", "Thumbs.db"}
 INVENTORY_PATH = ROOT / "manifest" / "inventory.jsonl"
 HASH_INDEX_PATH = ROOT / "manifest" / "hash_index.json"
 
 
 def should_skip(path: Path) -> bool:
     rel = path.relative_to(ROOT).as_posix()
-    return any(rel == prefix or rel.startswith(f"{prefix}/") for prefix in IGNORE_PREFIXES)
+    if any(rel == prefix or rel.startswith(f"{prefix}/") for prefix in IGNORE_PREFIXES):
+        return True
+    if any(part in IGNORE_NAMES or part.startswith("~$") for part in path.parts):
+        return True
+    return False
 
 
 def record_kind_for(rel: str) -> str:

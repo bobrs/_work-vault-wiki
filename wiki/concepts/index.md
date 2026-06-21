@@ -1,5 +1,9 @@
 # Concepts Index
 
-No concept pages exist yet.
+The current corpus already supports at least one recurring attractor.
 
-Do not pre-seed concepts from memory or expectation. Add them only when multiple artifacts support a shared idea that deserves its own navigational page.
+Current concept pages:
+
+- [POLEMEMELOP](polememelop/index.md)
+
+Do not add more concept pages until multiple artifacts support a stable shared idea.
