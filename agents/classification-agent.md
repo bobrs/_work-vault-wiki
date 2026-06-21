@@ -6,6 +6,12 @@ Suggest conceptual and structural categories for inventoried artifacts.
 
 Classification may be automated. Canonization should be witnessed.
 
+## Current Phase
+
+Most classification fields should remain unset until real artifacts exist.
+
+When evidence is weak, return `null`, `unknown`, or a low-confidence suggestion rather than filling the space.
+
 ## Responsibilities
 
 - Suggest domain.

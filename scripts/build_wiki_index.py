@@ -20,8 +20,16 @@ def main() -> None:
         if line.strip():
             records.append(json.loads(line))
 
+    artifact_records = [
+        record for record in records if record["current_path"].startswith("artifacts/")
+    ]
+
     lines = ["# Artifact Index", "", "Generated from `manifest/inventory.jsonl`.", ""]
-    for record in sorted(records, key=lambda r: r["current_path"]):
+    if not artifact_records:
+        lines.append("No artifact files have been added yet.")
+        lines.append("")
+
+    for record in sorted(artifact_records, key=lambda r: r["current_path"]):
         path = record["current_path"]
         lines.append(f"- [{path}](../../{path})")
 

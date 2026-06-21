@@ -2,7 +2,9 @@
 
 A git-backed personal work vault, artifact wiki, and AI-managed continuity system.
 
-This repository is intended to hold a body of work in a form that can be inventoried, versioned, linked, classified, reconciled, and navigated over time.
+This repository is prepared to hold a body of work in a form that can be inventoried, versioned, linked, classified, reconciled, and navigated over time.
+
+Right now it is a blank operating scaffold: the structure, instructions, scripts, and review pages exist, but substantive vault content has not been added yet.
 
 The initial operating principle:
 
@@ -18,18 +20,23 @@ wiki/        human-readable navigation layer
 manifest/    machine-readable inventory, logs, and reconciliation state
 scripts/     executable maintenance tools
 agents/      instructions for AI management agents
-.vault/      configuration and schemas
+docs/        repository operating instructions
+.vault/      configuration and rules
 ```
 
-## First Steps
+## Current Phase
 
-1. Add unsorted files to `artifacts/incoming/`.
-2. Add already organized files under `artifacts/sorted/` or another deliberate substructure.
-3. Run or create the first inventory script.
-4. Commit the baseline inventory before moving or renaming anything.
-5. Use the wiki as a navigation layer, not the source of truth.
+The wiki should stay neutral until content exists. Do not pre-seed projects, concepts, canon pages, or named attractors without artifact evidence.
 
-## Source of Truth
+## First Content Intake
+
+1. Add source files to `artifacts/incoming/`.
+2. Run `python3 scripts/inventory.py`.
+3. Run `python3 scripts/detect_duplicates.py` when needed.
+4. Run `python3 scripts/build_wiki_index.py`.
+5. Review the generated state before any move, rename, merge, or canon decision.
+
+## Source Of Truth
 
 ```text
 Files     = what exists.
@@ -39,8 +46,9 @@ Wiki      = how humans navigate.
 Agents    = how coherence is maintained.
 ```
 
-## Root Protocol
+## Operating Instructions
 
 See:
 
-`20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-1__initial-vault-operating-protocol.md`
+- [`docs/README.md`](docs/README.md)
+- [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md)

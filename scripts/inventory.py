@@ -14,14 +14,32 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORE_DIRS = {".git", "__pycache__", ".vault/cache"}
+IGNORE_PREFIXES = (".git", ".DS_Store", "__pycache__", ".vault/cache")
 INVENTORY_PATH = ROOT / "manifest" / "inventory.jsonl"
 HASH_INDEX_PATH = ROOT / "manifest" / "hash_index.json"
 
 
 def should_skip(path: Path) -> bool:
-    parts = set(path.relative_to(ROOT).parts)
-    return bool(parts & IGNORE_DIRS)
+    rel = path.relative_to(ROOT).as_posix()
+    return any(rel == prefix or rel.startswith(f"{prefix}/") for prefix in IGNORE_PREFIXES)
+
+
+def record_kind_for(rel: str) -> str:
+    if rel.startswith("artifacts/"):
+        return "artifact"
+    if rel.startswith("wiki/"):
+        return "wiki"
+    if rel.startswith("manifest/"):
+        return "manifest"
+    if rel.startswith("scripts/"):
+        return "script"
+    if rel.startswith("agents/"):
+        return "agent_instruction"
+    if rel.startswith(".vault/"):
+        return "vault_config"
+    if rel.startswith("docs/") or rel in {"README.md", "WIKI.md"}:
+        return "documentation"
+    return "other"
 
 
 def sha256_file(path: Path) -> str:
@@ -49,6 +67,7 @@ def main() -> None:
         record = {
             "artifact_id": artifact_id,
             "current_path": rel,
+            "record_kind": record_kind_for(rel),
             "filename": path.name,
             "extension": path.suffix,
             "size_bytes": path.stat().st_size,

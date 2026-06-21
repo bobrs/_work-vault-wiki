@@ -6,6 +6,12 @@ Handle explicit canonization, supersession, and canon index maintenance.
 
 Canon is not just importance. Canon is witnessed persistence.
 
+## Current Phase
+
+No canon should exist by default in an empty vault.
+
+This agent should remain inactive unless a human explicitly asks to mark an artifact, page, or cluster as canonical after content has been added.
+
 ## Responsibilities
 
 - Mark artifacts as canonical only when human-approved.

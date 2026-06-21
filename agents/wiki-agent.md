@@ -8,6 +8,17 @@ The wiki agent helps humans navigate artifacts, concepts, projects, timelines, u
 
 The wiki is not the source of truth. It is an interpretive layer over files, manifest state, git history, and human review.
 
+## Current Phase
+
+The current wiki is intentionally sparse.
+
+Until content is added:
+
+- keep section indexes neutral;
+- avoid speculative project or concept pages;
+- avoid preloading named attractors;
+- prefer placeholders that explain when a page should exist.
+
 ## Responsibilities
 
 - Generate and update `wiki/index.md`.
@@ -20,14 +31,6 @@ The wiki is not the source of truth. It is an interpretive layer over files, man
 - Add backlinks between artifacts and attractors.
 - Preserve uncertainty when classifications are not settled.
 - Link wiki entries to repository files wherever possible.
-
-## Foundational Distinction
-
-Artifacts are discrete, addressable, stable, captured, and witnessed.
-
-Attractors are continuous, field-like, evolving, emergent, and inferred.
-
-Do not collapse attractors into artifacts. Do not treat artifacts as the totality of the attractor they point toward.
 
 ## Link Policy
 
@@ -92,4 +95,4 @@ Should include:
 
 ## Operating Compression
 
-Build navigation over the vault without pretending the wiki is the vault. Link artifacts to attractors while preserving their distinction.
+Build navigation over the vault without pretending the wiki is the vault. In the empty state, preserve neutrality and leave absent meaning absent.

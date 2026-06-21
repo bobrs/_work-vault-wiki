@@ -1,1 +1,102 @@
-{}
+{
+  "0e25e69b57ecf56d1b163a63eb7ff860fa0a8bb5c48a841bfd4a13e5bfebf4f5": [
+    "manifest/hash_index.json"
+  ],
+  "0e2b681b7d519e8141a7d51fdb986055bbe35a87eed7f4fa61ce61dc83d9f087": [
+    "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md"
+  ],
+  "13e838070ba0b7a99dc93ef3cdf35a2322cdbac9163f2467f7b57c4fe171f33a": [
+    "wiki/timelines/index.md"
+  ],
+  "1527e07d6998c170b4a9101f6749bb1c910c36585cb9063406b8b94907a482cc": [
+    "scripts/detect_duplicates.py"
+  ],
+  "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b": [
+    ".gitattributes"
+  ],
+  "1af17d5d945847b8c6babf614f8c73701d2b2799f2b1cbedd8264e23a9f03b98": [
+    "agents/inventory-agent.md"
+  ],
+  "21bbdf0d7a94810a00ffe64a85b5cc612c6b73942ab64d0ecd350db81249c0d6": [
+    ".vault/config.yaml"
+  ],
+  "28c4cc337924014984b38273d25125a432f89c9e7173839a499c3f83d65bae73": [
+    "docs/README.md"
+  ],
+  "2b0ded3be0fbd8442d3f73a1ad68c6c447b20a02dc7edfe42381d728ec11a535": [
+    "wiki/unresolved/index.md"
+  ],
+  "2c23c5b5ca46372c07cf00478044a4a05750bded8a783ea09510e2332e0507b0": [
+    "scripts/reconcile.py"
+  ],
+  "36091b717ac7db97d0d9f8c910ba35891d45b00c382cefb7c1feb58ae134a971": [
+    "wiki/artifacts/index.md"
+  ],
+  "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": [
+    "manifest/duplicate_sets.json"
+  ],
+  "4884e3568eaeb2fc25084ec3e7bdd81456be450b67963b9c94c1959a5fe5475e": [
+    "agents/classification-agent.md"
+  ],
+  "4c13a2dd7a597dd54d6efc3b28a14a40d38dd011372c2620c81ab99c10dc7400": [
+    "wiki/projects/index.md"
+  ],
+  "51abfb08a33397763366950c5e10e1b64f7356451da65959df73d499c684f13d": [
+    "agents/reconcile-agent.md"
+  ],
+  "53763d0774177f96c432bfc5b794c3fbd8e0a068efaef11b73905f8301fe1cc6": [
+    "scripts/inventory.py"
+  ],
+  "570d2add2fbf3f32d31fed72217838832b08f1bb74923679e9d4b9e4bf842ee9": [
+    "agents/wiki-agent.md"
+  ],
+  "6aeb7f1145379d2dd3527871cf188299b9586dc82380c451bf908149abf054c8": [
+    "scripts/build_wiki_index.py"
+  ],
+  "73e8cc58213c858d3681430bb60ab62cc9d5315d59c8b953c41bb8ab34f2c3a6": [
+    "wiki/duplicate-review.md"
+  ],
+  "74ed58d5673b9ef5e617654d9d52d75ad4df32b627ee487d857a47c944ebce67": [
+    "wiki/incoming-review.md"
+  ],
+  "7b2c754f7d4a7d5280a4927bd7a006f46c9b6d52394c0323afbd443a357cbdf6": [
+    "agents/continuity-agent.md"
+  ],
+  "7cc5b69987bd5e96526090628acb67dd776287114281321076ef751aed1ac764": [
+    "scripts/check_links.py"
+  ],
+  "7d729cdedd79012526e3a035e319e4694f0f65ce5fd9b626a3b4955a9ba38ffb": [
+    "WIKI.md"
+  ],
+  "956c55d37bcdddb7fa9e1dd245e07bfb6e150d7ca74439e81012259b0096b09a": [
+    "agents/canon-agent.md"
+  ],
+  "9cf2d865ba6b898617afb814a9d2a67db34c6df77c55a4faa34e15902e8dcc7b": [
+    "wiki/index.md"
+  ],
+  "a61300d52a0a201cb43002187e881549b22ea1610b71b920a68c1974d3fc23c8": [
+    "wiki/missing-files.md"
+  ],
+  "a8a1dd072899e6f43de69b3f5ef2ea7e7a3309d4dcec727f2a2c0d62718c1724": [
+    "wiki/concepts/index.md"
+  ],
+  "b5cf148426dba58adde816c1d70806068d6219d9df0eff9bcc4a71104e0d9ff7": [
+    "manifest/move_log.jsonl"
+  ],
+  "c46dcfd8e2a54889e92bb5a7afc3906aaf56c5e615472c134df02bb77d272050": [
+    "manifest/inventory.jsonl"
+  ],
+  "c970d41ddcabf9589e228ca1d796d0863cc1003f73d36e488c0384adb48a2353": [
+    "README.md"
+  ],
+  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": [
+    "manifest/agent_actions.jsonl",
+    "manifest/missing_log.jsonl"
+  ],
+  "ec762c8fdbda74d4e2a5b6a97cdb68f5a1f472aa2f15250de5b7b8d8056bd769": [
+    ".vault/rules.yaml"
+  ],
+  "f400d06920671b97b49a2b76b33dd81d8debce4127292c56e8426cc72ad09a00": [
+    "manifest/ai_interactions.jsonl"
+  ]
+}

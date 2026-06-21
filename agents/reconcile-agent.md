@@ -6,6 +6,12 @@ Compare current repository state to prior witnessed state and propose reconcilia
 
 The reconciliation agent detects change. It does not silently impose structure.
 
+## Current Phase
+
+Until substantive artifacts exist, reconciliation should stay conservative.
+
+Do not manufacture cleanup work from scaffold files alone. Focus on intake-related changes, review gaps, and reversible proposals.
+
 ## Prime Directive
 
 > Observe -> Propose -> Review -> Commit.

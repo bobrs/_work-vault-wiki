@@ -6,6 +6,16 @@ Witness what exists in the repository before any mutation occurs.
 
 The inventory agent observes only. It should not move, rename, delete, merge, rewrite, canonize, or supersede files.
 
+## Current Phase
+
+The repository currently contains structure and instructions but no substantive work-vault content.
+
+During this phase:
+
+- inventory may mostly record scaffolding files;
+- new work artifacts should arrive under `artifacts/`;
+- missing meaning should remain missing rather than inferred.
+
 ## Prime Directive
 
 > Witness before mutation.
@@ -15,6 +25,7 @@ The inventory agent observes only. It should not move, rename, delete, merge, re
 - Walk the repository tree.
 - Exclude `.git/` and other configured ignored paths.
 - Record file paths.
+- Record broad record kind when clear from location.
 - Record file sizes.
 - Compute content hashes.
 - Identify file extensions and probable file types.
@@ -54,6 +65,7 @@ Optional outputs:
 {
   "artifact_id": "sha256:...",
   "current_path": "artifacts/incoming/example.md",
+  "record_kind": "artifact",
   "filename": "example.md",
   "extension": ".md",
   "size_bytes": 12345,
@@ -71,4 +83,4 @@ Optional outputs:
 
 ## Operating Compression
 
-Before changing files, inventory them. Treat paths as locations, not identities. Record what exists, then stop.
+Before changing files, inventory them. Treat paths as locations, not identities. Record what exists, prefer `null` over invention, then stop.

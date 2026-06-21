@@ -1,26 +1,22 @@
 # Work Vault Index
 
+This wiki is a navigation layer over the repository.
+
+Current status: the vault structure exists, but no substantive work artifacts have been added yet.
+
 ## Main Entrances
 
-- [Projects](projects/)
-- [Concepts](concepts/)
-- [Artifacts](artifacts/)
-- [Timelines](timelines/)
-- [Unresolved](unresolved/)
+- [Projects](projects/index.md)
+- [Concepts](concepts/index.md)
+- [Artifacts](artifacts/index.md)
+- [Timelines](timelines/index.md)
+- [Unresolved](unresolved/index.md)
 - [Duplicate Review](duplicate-review.md)
 - [Missing Files](missing-files.md)
 - [Incoming Review](incoming-review.md)
 
-## Current Active Attractors
+## Empty-State Notes
 
-- Consentful Provenance
-- ULiUA
-- Abracadoo / HumanKey
-- Continuity Office
-- Semantic Integrity
-- Consent Backpropagation
-- Work Vault
-
-## Notes
-
-This wiki is a navigational layer. It should not be treated as the sole source of truth.
+- Add new source material under `artifacts/incoming/`.
+- Use the review pages to track intake and cleanup work.
+- Create project, concept, and timeline pages only when the repository contains enough evidence to justify them.
