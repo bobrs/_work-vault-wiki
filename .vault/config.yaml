@@ -1,0 +1,14 @@
+vault_name: Work Vault
+version: 0.1
+principle: Witness before mutation
+ignore_paths:
+  - .git
+  - .DS_Store
+  - __pycache__
+  - .vault/cache
+manifest:
+  inventory: manifest/inventory.jsonl
+  hash_index: manifest/hash_index.json
+  duplicate_sets: manifest/duplicate_sets.json
+  agent_actions: manifest/agent_actions.jsonl
+  ai_interactions: manifest/ai_interactions.jsonl

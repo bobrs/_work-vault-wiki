@@ -1,0 +1,11 @@
+rules:
+  - id: witness-before-mutation
+    text: No file should be renamed, moved, deleted, merged, or overwritten until it has first been inventoried.
+  - id: path-is-not-identity
+    text: File paths are mutable locations, not artifact identities.
+  - id: propose-before-high-impact-change
+    text: AI agents must propose and log high-impact changes before applying them.
+  - id: canon-requires-human-witness
+    text: Canonization and supersession require explicit human approval.
+  - id: preserve-artifact-attractor-distinction
+    text: Artifacts are discrete and witnessed; attractors are evolving and inferred.
