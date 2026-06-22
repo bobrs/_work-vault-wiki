@@ -169,6 +169,9 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 5- From Self to Substrate.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 5- From Self to Substrate.docx"
   ],
+  "0bf85fc48d33320b66e73ce2bf8c8727fae7d638fb58bd2c1c98f7f11a8590f9": [
+    "manifest/inventory.jsonl"
+  ],
   "0c0245237c9be0979d1a7af3ddb134c806b4635a3d1400ef72eb631fd344bd7d": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx"
@@ -216,9 +219,6 @@
   ],
   "0fc16d6060d99693ebdab5c712e52f594d703a171bb7ec81c43794dbd4e4ad78": [
     "wiki/projects/side-projects-desktop/consent-based-atomic-genesis-and-stream/index.md"
-  ],
-  "111314b0f72758d59cf3eb1e453f178c908a6a68652c003db2e949259d8d45ad": [
-    "manifest/hash_index.json"
   ],
   "11a467e6b63573b18c8c44dac86656e37d5c3973b61f0b81a3573ac505ca459b": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Provisional Patent Draft- Consent Ring Interface System.docx",
@@ -1065,6 +1065,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx"
   ],
+  "5e4c602d197091d149968cb46ec1dbd2e39ff7feca96fea19bbab59b9222c637": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/instructor-material/index.md"
+  ],
   "5e4cef4e042eb609ec67541a7b8d9cec78e0166e5ab1864c2cdee7b42b6db699": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Dark Arts Series/Dark Arts Series- Lesson One.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/Dark Arts Series/Dark Arts Series- Lesson One.docx",
@@ -1194,9 +1197,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250505/SCT-10- Witness Typology and the Expansion of Observation.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-10- Witness Typology and the Expansion of Observation.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-10- Witness Typology and the Expansion of Observation.docx"
-  ],
-  "670458af790ae2f448e592ac0899bf5e0371cbad6d4d1128aac4c6cba2f06c6d": [
-    "manifest/inventory.jsonl"
   ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx",
@@ -1656,6 +1656,9 @@
   "93d38245fc4cb5a814d43dabb898100937067f4359de20ed6d47e16b5f63ba54": [
     "artifacts/incoming/Side Projects Desktop/Art of Meaning/Creation Celebration Loop — Full Expansion.pdf"
   ],
+  "93f183b63b870271d64c7da8d3aa3512d68914a672be46caf3d1d73d6d79c557": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/lesson-sequence/index.md"
+  ],
   "958feae7df2a68caa338dea5c56d4e0e2941134a2ebdcd8e300d3c83f56611dc": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf"
@@ -1705,9 +1708,6 @@
   ],
   "9a502dc34b3390cf8fa9a51666abc01f3b09da35167a87facb20e80bfebee858": [
     "artifacts/incoming/Side Projects Desktop/Opportunity Studio/Opportunity_Studio_Vision (1).pdf"
-  ],
-  "9aad49b9c41a08e17f0acd71bc04cb2f34231d7d75eadaca327ccd6e26b4cda8": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/index.md"
   ],
   "9afb9e27cb09cd1ae8e2498b4ba6852557eb3f652bb9ec318b71e01aaf146bbe": [
     "artifacts/incoming/Patents/Abracadabra Protocol/Provisional_Patent_Filing_Abracadabradoo.docx"
@@ -2129,6 +2129,9 @@
     "artifacts/intake-archive/20260622__standard-named-tis-slice/Dialog Thread v1.docx",
     "artifacts/standard-named/20260622__TIS__THREADING__DIALOG-THREAD__v1__dialog-thread.docx"
   ],
+  "c17e49fcdb55df1f3de62a59d235edb8166b9dc6ef18ae8049e916dffcc7bcf0": [
+    "manifest/hash_index.json"
+  ],
   "c1e82d1e04a91e37a09705dea83109e51b9ad8929f3056486a5d963589b39eca": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Multiverse As Shimmering Potential.docx"
   ],
@@ -2136,6 +2139,9 @@
     "artifacts/incoming/Similar Projects/Mass As Loops.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/Mass As Loops.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__MASS-AS-LOOPS__v1__mass-as-loops.docx"
+  ],
+  "c3766d31e02afcec072e3a59f0905aeaa9429d2c5f32894aac86effdf8ede6f2": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/index.md"
   ],
   "c40d53c477f69efcb24794959a2819c4dde6175786bb070c9880b38aa4c98f0d": [
     "artifacts/incoming/Side Projects Desktop/Governance/Tribal Governance Consulting Opportunity.docx"
