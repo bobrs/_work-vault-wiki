@@ -2,6 +2,9 @@
   "003e046cf59364508e96e5c5f955c6822fed46ba5dda872e1625aa6c6a95a198": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx"
   ],
+  "0047509729f9116d0e8f89613d0af650a82316dbf5b039e4344845b978c7a829": [
+    "manifest/agent_actions.jsonl"
+  ],
   "005c9f3e41e524c4718cde14a3b0ce89a6d58424de83200e232421b84a12640e": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx"
@@ -71,9 +74,6 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🕰️ Lesson Nine- Rewriting Legacy Loops.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🕰️ Lesson Nine- Rewriting Legacy Loops.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v9__lesson-nine-rewriting-legacy-loops.docx"
-  ],
-  "05c04a4e219e75989444ee71372cf7081f59f797ce16e45a217aab3c2af4d48d": [
-    "wiki/artifacts/index.md"
   ],
   "05da2b44eba20075414df1c2c2e5aa2bf8dcf08f90d235e2cc32b16e3b4d4a06": [
     "artifacts/incoming/Side Projects Desktop/Misc Loop/Oop Consent Reality Guide.pdf"
@@ -774,6 +774,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx"
   ],
+  "43b14d9a1796fb42caf74c2137f7b500aa78288d9ead3fe551742496b07cc446": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/intent-consent/index.md"
+  ],
   "43c582e25990a885c4de5295815ff681e16902c7ca030db94d695c07abd4c2e9": [
     "wiki/projects/side-projects-desktop/personal/index.md"
   ],
@@ -942,6 +945,9 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
+  ],
+  "55ef19b093778e24f0b5d0590b8a02f22ac0f28637b1b62327b2985df1c9945b": [
+    "manifest/standard_named_sources.jsonl"
   ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx",
@@ -1149,6 +1155,9 @@
   "662dae442e4e287cb769406c831368b1f5203a8483724564ef39ffb65062f669": [
     "wiki/projects/humanlink-social-media/one-pager/index.md"
   ],
+  "663a554235b5b236b440f629d648f37bf46198a27ffeb04457d204bb788e3154": [
+    "wiki/artifacts/index.md"
+  ],
   "667fb19aca297aab84277802836e29453ed55b87b4a2c904f91a5064ccae5375": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/FractalIdentity- A Simple Guide to Your Flexible Digital Self.docx"
   ],
@@ -1349,9 +1358,6 @@
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/HumanKey Ad.mp4",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/HumanKey Ad.mp4"
   ],
-  "7b1a07d70e9904798cda1d05509e28daa321b8a6b228089ed9bbdcae26fc7a23": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md"
-  ],
   "7bc2e7d1d0a5a8756a6c5327716a38ee9b578f23e7e13830acfddbc16e88b848": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-dynamics-framework/loopnet-layer-zero/index.md"
   ],
@@ -1432,9 +1438,6 @@
     "artifacts/intake-archive/20260622__humankey-protocol-intake/Broken Human-Mediated_Double-TOTP_Full_Draft.docx",
     "artifacts/standard-named/20260622__HUMANKEY__DRAFT__DOUBLE-TOTP__v1__broken-human-mediated-double-totp-full-draft.docx"
   ],
-  "84143ca3b211367504f417fba75b86fb155e8b509d073baa93d3241640192b87": [
-    "manifest/standard_named_sources.jsonl"
-  ],
   "8454b5457df50ef95cb6144c301e1716c23142f2f76e1539b46c03fe7784c0ec": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
@@ -1443,7 +1446,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx"
   ],
   "84758a2170664b6efc5ea1bd01b9f6159ea9d9258cc198f9fb39e4c702a0c34b": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🧬 Intent-Consent Loops as the Fabric of the Universe.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🧬 Intent-Consent Loops as the Fabric of the Universe.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-intent-consent-intake/🧬 Intent-Consent Loops as the Fabric of the Universe.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx"
   ],
   "84af462ff84262a38b56c8f275a64c6598acf42dbfd45903dc433c3d0758008b": [
     "artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo Practical Consent Loop Extension.docx"
@@ -1496,9 +1501,6 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 4- From Awareness to Field Identity.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 4- From Awareness to Field Identity.docx"
   ],
-  "894b51729f381dc2533de12f15846aacfa707180be610920c1fc04ddb013e076": [
-    "manifest/hash_index.json"
-  ],
   "8958bd735c238c6b3786316174b40cca181bf437963459d3abece76fe7f28af3": [
     "artifacts/archived/Side Projects Desktop/Personal/ULiUA.docx",
     "artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx",
@@ -1514,6 +1516,9 @@
   "8a6780101631303adcf97bfec96d44c27f7eb9f0d11a208bd7ad6232c6c98445": [
     "artifacts/incoming/Side Projects Desktop/Library of Echoes/index.html"
   ],
+  "8b5fb4cd90cfafa3cd6479ba5db217d5571f48e649a6a12652262900ad1598a2": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md"
+  ],
   "8bb95070c37c29f711f9632a805cf84b074629c7d3560245914e942200a2032a": [
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx"
@@ -1523,6 +1528,9 @@
   ],
   "8c924a3fa541c730ebe81587a74d3918cfd9f30885c5d54fdda1bc7357ad6da6": [
     "agents/content-canon-agent.md"
+  ],
+  "8cc1f5c37cad83aa0282817c4c59a9f0a5771cf18db63f889d85e9a46363d32a": [
+    "manifest/hash_index.json"
   ],
   "8dd8888cd7f2341faf19198b99f7882cde5b17a25afbbbad3eaa09fb1fd68193": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Anglerfish Loop And The Shimmer Filter.docx",
@@ -1566,6 +1574,9 @@
   "9169b7a99c7c663e7e41528a881fe45b1216d0577769ec0433ba2bcb43334994": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Consent Resonance Multiverse v2.docx"
   ],
+  "91722aa61ebc8dc3d2306ac0a56fbdf89c52c839effb821b5eeffc7e156732d8": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md"
+  ],
   "91b967bc6e7b15479df96e3cd2abb2b91fa3705051c97c0438549209e47a79a2": [
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/Slide 6.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 6.png"
@@ -1604,6 +1615,9 @@
   ],
   "93d38245fc4cb5a814d43dabb898100937067f4359de20ed6d47e16b5f63ba54": [
     "artifacts/incoming/Side Projects Desktop/Art of Meaning/Creation Celebration Loop — Full Expansion.pdf"
+  ],
+  "941e165b26098c6dbe9f00f5b64eeb214a4f3ac511bfd723237a1bd001464ff0": [
+    "manifest/inventory.jsonl"
   ],
   "958feae7df2a68caa338dea5c56d4e0e2941134a2ebdcd8e300d3c83f56611dc": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf",
@@ -1774,6 +1788,9 @@
     "artifacts/incoming/Patents/LoopGuard Physical Integrity Validation/LoopGuard Verification Teaser.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopGuard Physical Integrity Validation/LoopGuard Verification Teaser.docx",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPGUARD-PHYSICAL-INTEGRITY-VALIDATION__v2__loopguard-verification-teaser.docx"
+  ],
+  "a6bdd18ee7b59498c0b923afb777a050be8bb01658ec2bd6afdb2881011228d1": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
   ],
   "a71dacb60cb4747b1b48614329c3507de85f77a2714effd2d5a298b40f5f5d1c": [
     "wiki/projects/polememelop/loop-collapse-resilience/index.md"
@@ -1987,9 +2004,6 @@
   ],
   "ba04587317b696a3f59b0a8c35f75fc5d37084851d31b911d1e14ff06497b588": [
     "artifacts/incoming/Side Projects Desktop/Sovereignty of the Butterfly/index.html"
-  ],
-  "ba44e7d26c439f888d281ce3e42fe00544dde71dc5f9301abd0f88537d6560a7": [
-    "manifest/agent_actions.jsonl"
   ],
   "baa357e0848d15b7477a1e6f06d28560daab40ff541635b9ac8826a8b18b3bd1": [
     "artifacts/incoming/Side Projects Desktop/FractalIdentity Tree/Loop-Synced Extension for the Graftable Identity Tree (FGIT).docx"
@@ -2241,9 +2255,6 @@
   ],
   "d71b7659b3e04941bda8249e01ae9346bfbcc5db62f783d23518d2e63c1bdbfa": [
     "wiki/projects/humankey-protocol/presentation-materials/index.md"
-  ],
-  "d731bd0d30b788bba634d544bfa2eda917df32b4a17b65dc2f4bffafcc75a7e1": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
   ],
   "d76e4a077f9342d462843688c582d50316da8a14d6649a9cbb7f5c705c5eb84a": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-cosmos-and-orientation/protocol-integration-and-reference/index.md"
@@ -2594,7 +2605,9 @@
     "scripts/build-site.mjs"
   ],
   "f3a00da7c8a2be624db8fa153a8b3aa084c136473418f9cc7c94ce7ced181a94": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🧼 Loop Maintenance Kit.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🧼 Loop Maintenance Kit.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-maintenance-kit-intake/🧼 Loop Maintenance Kit.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx"
   ],
   "f400d06920671b97b49a2b76b33dd81d8debce4127292c56e8426cc72ad09a00": [
     "manifest/ai_interactions.jsonl"
@@ -2604,9 +2617,6 @@
   ],
   "f59972093b898665b0a86f39c07223af1f1d30be3d09f4cb006a46b38e0b78d1": [
     "wiki/projects/polememelop/automeme-propagation-engine/index.md"
-  ],
-  "f5a624d386705dd78c09e8d66b176cef1b48899ab56206842025db4d87e76df7": [
-    "manifest/inventory.jsonl"
   ],
   "f5d4d6c7d7cbef31b46dcc2b2800612ec527ffc10d1adeb282c6213d36282edc": [
     "wiki/projects/consent-crystal-structure-research/daily-growth-ritual/index.md"
