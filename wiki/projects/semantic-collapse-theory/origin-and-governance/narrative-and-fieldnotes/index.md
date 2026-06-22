@@ -18,6 +18,17 @@ This cluster covers the explanatory companion material that orients the SCT bran
 
 This is the orientation layer: a fieldnote, a narrative map, and a genesis conversation that explain the branch in a more human-facing form.
 
+This cluster functions as the explanatory companion to SCT. It preserves the story of the branch: how the field was noticed, narrated, and converted into a durable line of work. That makes it the place where the theory is translated back into human speech without losing the underlying structure.
+
+It is not the protocol spine, but it keeps the branch intelligible by showing how the authors themselves framed the work.
+
+## Related Links
+
+- [Semantic Collapse Theory](../../index.md)
+- [Origin and Protocols](../origin-and-protocols/index.md)
+- [Witness and Governance](../witness-and-governance/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the narrative and fieldnote set together.

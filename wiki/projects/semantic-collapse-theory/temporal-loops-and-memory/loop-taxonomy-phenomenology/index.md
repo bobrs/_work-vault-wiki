@@ -17,6 +17,18 @@ This cluster covers structural classification and lived interpretation of loops.
 
 This is the interpretive branch: one document classifies loop structures, and the other describes how loops are experienced and recognized.
 
+The cluster’s deeper function is to convert loop structure into readable categories and lived interpretation. It is the place where SCT becomes an interpretive grammar: taxonomy gives the naming scheme, while phenomenology grounds it in experience and recognition.
+
+That makes this page a bridge between formal classification and human report.
+
+## Related Links
+
+- [Semantic Collapse Theory](../../index.md)
+- [Temporal Loops and Memory](../index.md)
+- [Witness, Synchrony, and Diads](../witness-synchrony-diads/index.md)
+- [Decay, Residue, and Memory](../decay-residue-memory/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the taxonomy/phenomenology pair together.

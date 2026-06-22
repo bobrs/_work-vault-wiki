@@ -18,6 +18,17 @@ This cluster covers the branch origin, the semantic entropy frame, and the first
 
 This is the genesis track: the charter, the collapse conditions, and the first diadic protocol that emerges from them.
 
+This cluster is where SCT explains its own starting point. It is the branch’s origin vocabulary, but it also establishes the first model for how collapse can be described without a full protocol stack. The page should therefore be read as the conceptual seed for the rest of SCT rather than as a miscellaneous early set.
+
+The trio of documents moves from origin statement to collapse condition to protocol-free diad, which makes this the most compressed statement of the theory’s opening logic.
+
+## Related Links
+
+- [Semantic Collapse Theory](../../index.md)
+- [Witness and Governance](../witness-and-governance/index.md)
+- [Narrative and Fieldnotes](../narrative-and-fieldnotes/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the origin and protocol trio together.

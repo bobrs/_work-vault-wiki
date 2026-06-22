@@ -22,6 +22,18 @@ This cluster covers witness roles, harmonics, consent-based synchrony, diads, en
 
 This is the structural and temporal coherence track for SCT: witnesses, synchrony, and the small-consent units that make higher-order collapse intelligible.
 
+The deeper role of this page is to hold the unit operations of the theory. It is where witness becomes a timing problem, synchrony becomes a consent problem, and diads become the minimal coherent unit that lets higher-order structures form at all.
+
+This makes the page a foundation for all later temporal work in SCT. It is the place where time, observation, and consent are treated as structurally linked rather than separate topics.
+
+## Related Links
+
+- [Semantic Collapse Theory](../../index.md)
+- [Temporal Loops and Memory](../index.md)
+- [Loop Taxonomy and Phenomenology](../loop-taxonomy-phenomenology/index.md)
+- [Decay, Residue, and Memory](../decay-residue-memory/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep this page stable.

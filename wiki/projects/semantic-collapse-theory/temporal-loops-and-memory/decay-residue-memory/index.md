@@ -19,6 +19,18 @@ This cluster covers loop expiration, semantic residue, déjà vu, and memory arc
 
 This is the persistence-and-fade track: how loops expire, echo, and remain retrievable as memory structures.
 
+This cluster describes the aftermath of structural collapse. It asks what remains when a loop is no longer active, how residue is recognized as memory, and how a system can still retrieve what has partially faded. In practice, this is the SCT memory archive in miniature.
+
+It complements the witness and taxonomy pages by showing the other side of temporal structure: not how loops are observed, but how they persist after use.
+
+## Related Links
+
+- [Semantic Collapse Theory](../../index.md)
+- [Temporal Loops and Memory](../index.md)
+- [Witness, Synchrony, and Diads](../witness-synchrony-diads/index.md)
+- [Loop Taxonomy and Phenomenology](../loop-taxonomy-phenomenology/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the decay/memory set stable.
