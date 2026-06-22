@@ -18,6 +18,13 @@ This branch is the EchoPad mirror set in the desktop intake.
 
 This is a single-file mirror of the EchoPad patent-family material. Keep the desktop intake visible, but treat the patent lineage as the canonical downstream branch.
 
+The page is best read as a mirror witness for the patent family. It stays useful because it preserves the desktop-side appearance of the material while the patent lineage carries the deeper downstream work.
+
+## Related Links
+
+- [Patents](../../patents/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the mirror page linked to the patent family.

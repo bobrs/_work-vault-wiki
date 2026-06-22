@@ -22,6 +22,15 @@ This branch collects the Crystalstream and consent-flow materials.
 
 This is a mirror branch of the shared stream/flow set. Keep the cross-link visible and treat the hub page as canonical for the duplicated protocol files.
 
+The page is the desktop-side mirror node for the stream/flow family. It keeps the protocol and consent-flow material visible while pointing back to the surviving hub lineage that carries the active mapping work.
+
+## Related Links
+
+- [Consent-based Atomic genesis and Stream](../consent-based-atomic-genesis-and-stream/index.md)
+- [Glyphlog](../glyphlog/index.md)
+- [Reference - Stored Crystals / Dialogica](../reference-stored-crystals/dialogica/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the flow branch together.

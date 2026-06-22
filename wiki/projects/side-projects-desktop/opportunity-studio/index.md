@@ -15,6 +15,12 @@ This branch is a compact published vision brief set.
 
 This is a single published branch with one HTML surface and one PDF companion.
 
+The branch behaves like a concise published opportunity node. The HTML page is the main surface; the PDF is a companion brief that helps preserve the same story in a second format.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the HTML and PDF together.

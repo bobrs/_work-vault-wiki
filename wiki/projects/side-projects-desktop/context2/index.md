@@ -16,6 +16,12 @@ This branch is a compact published HTML surface set.
 
 This is a small but durable web branch. The three pages should stay grouped because they read like a miniature published site.
 
+The branch functions as a compact published site node rather than a file bundle. The three HTML surfaces appear to belong to the same design language and should stay together as one navigable unit.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the HTML surfaces together.
