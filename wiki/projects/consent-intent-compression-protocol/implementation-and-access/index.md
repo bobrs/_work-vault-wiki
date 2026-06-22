@@ -7,22 +7,25 @@ This cluster covers the implementation surface: pairing, access control, decrypt
 ## Current Shape
 
 - 7 implementation and access documents.
+- 3 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Pairing and Field Access](pairing-and-field-access/index.md)
+- [Key Derivation and Decryption](key-derivation-and-decryption/index.md)
+- [Ritual Token Initialization](ritual-token-initialization/index.md)
 
 ## Representative Files
 
-- [🕯 Field Echo Protocol (v0.1).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
-- [Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
-- [Selective Decryption via Hierarchical Temporal Key Derivation.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Selective Decryption via Hierarchical Temporal Key Derivation.docx>)
-- [🔐 Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
-- [🌀 LOOPtLOOP Field Infrastructure Applications.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP Field Infrastructure Applications.docx>)
-- [🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
-- [🔁 Ritual Loop Token Initialization (NFC Write Flow).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (NFC Write Flow).docx>)
+- [Pairing and Field Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [Key Derivation and Decryption / Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
+- [Ritual Token Initialization / 🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
 
 ## Working Read
 
-This is the operational layer for the protocol family. It turns the abstract loop models into concrete pairing, cryptography, and device initialization workflows.
+This branch now separates into pairing and field access, key derivation and decryption, and ritual token initialization. The split follows the implementation flow from public-facing trust entry through cryptographic handling to physical token setup.
 
 ## Next Actions
 
-1. Keep this as the implementation branch.
-2. Split security or tokenization further only if a new sub-branch appears.
+1. Keep the three nested lineage pages stable.
+2. Split again only if one of the three tracks develops another durable seam.

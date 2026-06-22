@@ -7,21 +7,23 @@ This cluster covers outward-facing briefs, application concepts, and presentatio
 ## Current Shape
 
 - 6 outward-facing documents.
+- 2 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Vertical Application Briefs](vertical-application-briefs/index.md)
+- [Commercialization Materials](commercialization-materials/index.md)
 
 ## Representative Files
 
-- [Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
-- [Loop-Based Presence Platform- Partner Brief.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx>)
-- [Loop-Based Ritual Infrastructure for Gaming & Web3.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Ritual Infrastructure for Gaming & Web3.docx>)
-- [Loop-Based Toys- A New Frontier in Interactive Play.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx>)
-- [📝 Consent Ring Provisional Patent Draft.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
-- [Pitch Deck.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Pitch Deck.docx>)
+- [Vertical Application Briefs / Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
+- [Commercialization Materials / 📝 Consent Ring Provisional Patent Draft.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
 
 ## Working Read
 
-This is the outward-facing branch: vertical briefs, partner materials, a patent draft, and a pitch deck. It packages CICP for application and explanation rather than protocol definition.
+This is the outward-facing branch: market-specific application briefs plus the patent and pitch materials that package CICP for external explanation. The briefs form one family, and the commercialization assets form another.
 
 ## Next Actions
 
-1. Keep this as the outreach and application surface.
-2. Split off a dedicated subpage only if one application family expands further.
+1. Keep the two nested lineage pages stable.
+2. Split further only if one application family grows into its own document set.
