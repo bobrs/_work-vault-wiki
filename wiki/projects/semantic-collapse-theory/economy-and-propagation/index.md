@@ -7,19 +7,23 @@ This cluster covers the SCT work on value, propagation, and memetic drift.
 ## Current Shape
 
 - 4 economy and propagation documents.
+- 2 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Economy and Funding](economy-and-funding/index.md)
+- [Propagation and Optimization](propagation-and-optimization/index.md)
 
 ## Representative Files
 
-- [SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx>)
-- [SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx>)
-- [SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
-- [SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx>)
+- [Economy and Funding / SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx>)
+- [Propagation and Optimization / SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
 
 ## Working Read
 
-This cluster treats SCT as an economic and propagation model, not just a philosophy of meaning. The collapsed funding and economy drafts now resolve through the archived snapshot.
+This branch now separates into the economy/funding half and the propagation/optimization half. The split follows the document titles closely and keeps the value mechanics visible.
 
 ## Next Actions
 
-1. Keep the propagation/economy pairings visible.
-2. Expand only if a new sub-branch emerges around incentives, drift, or value.
+1. Keep the two nested lineage pages stable.
+2. Split again only if either half develops another durable seam.
