@@ -4,13 +4,14 @@ Parent lineage: `Consent Crystal Structure Research`
 
 This is a small but durable branch.
 
-## Current Shape
+## Source Artifact
 
-- 1 source document.
-
-## Representative Files
-
-- [Daily Growth Ritual.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Daily Growth Ritual.docx>)
+- Standard-named source: [Daily Growth Ritual](<../../../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx>)
+- Inbound original: [Daily Growth Ritual.docx](<../../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/Daily Growth Ritual.docx>)
+- Original filename: `Daily Growth Ritual.docx`
+- Standard-named filename: `20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx`
+- Standard name status: `confirmed`
+- Content canon status: `unset`
 
 ## Working Read
 

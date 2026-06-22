@@ -4,13 +4,14 @@ Parent lineage: `Consent Crystal Structure Research`
 
 This is a small but durable branch.
 
-## Current Shape
+## Source Artifact
 
-- 1 source document.
-
-## Representative Files
-
-- [Ego and Flow.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Ego and Flow.docx>)
+- Standard-named source: [Ego and Flow](<../../../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx>)
+- Inbound original: [Ego and Flow.docx](<../../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/Ego and Flow.docx>)
+- Original filename: `Ego and Flow.docx`
+- Standard-named filename: `20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx`
+- Standard name status: `confirmed`
+- Content canon status: `unset`
 
 ## Working Read
 

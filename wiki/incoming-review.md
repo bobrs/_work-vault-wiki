@@ -2,11 +2,11 @@
 
 This page is for newly added files that have been inventoried but not yet classified or moved.
 
-Current state: `artifacts/incoming/` now contains the active intake set under the branch folders for `HumanKey Protocol`, `HumanLink Social Media`, `New Ideas`, `Patents`, `Side Projects Desktop`, `Similar Projects`, and `Trust Interoperability Standard`; the `Consent Crystal Structure Research` lineage remains the archived reference set, the `Starting zips` mirror bundle has been archived, and the `Reference - Stored Crystals` and `Personal` mirror sets have been archived.
+Current state: `artifacts/incoming/` now contains the active intake set under the branch folders for `HumanKey Protocol`, `HumanLink Social Media`, `New Ideas`, `Patents`, `Side Projects Desktop`, `Similar Projects`, and `Trust Interoperability Standard`; the `Consent Crystal Structure Research` lineage remains the archived reference set, and the `Starting zips`, `Reference - Stored Crystals`, `Personal`, `Consent–Intent Compression Protocol (CICP)`, `Consent-based Atomic genesis and Stream`, `Semantic Collapse Theory`, and `LOOPtLOOP platform` mirror sets have been archived. The `POLEMEMELOP`, `FractalIdentity Tree`, and `Misc Loop` mirror slices have also been collapsed back into archive lineage paths, and the patent family now exposes durable subpages for `Color Alpha Codec Patent`, `Wrapped Bidirectional TOTP Patent`, `Client-to-client P2P TOTP + Message Patent`, `LoopLock Mutual-TOTP-based Physical Lock`, and `LoopGuard Physical Integrity Validation`.
 
 Observed shape:
 
-- 632 incoming files were inventoried.
+- 480 incoming files were inventoried.
 - The intake is mostly `.docx` files, with a small number of `.html`, `.zip`, and `.pdf` companions. `.zip` companions are auxiliary unless otherwise noted.
 - The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`, and each now has a lineage page.
 - The desktop vault still contains mirror-heavy bundles; collapse only the copies that are clearly auxiliary or exact duplicate lineage. The auxiliary zip bundle layer and the archived mirror vaults are now out of incoming.

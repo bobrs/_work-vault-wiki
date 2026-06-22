@@ -14,6 +14,15 @@ This cluster covers the patent-family trust, pairing, locking, and message-excha
 - [LoopLock Smart Lock Technology.docx](<../../../../artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/LoopLock Smart Lock Technology.docx>)
 - [DeepTrust_Provisional_Patent.docx](<../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/DeepTrust_Provisional_Patent.docx>)
 
+## Nested Lineage Pages
+
+- [Coherence Keys](coherence-keys/index.md)
+- [EchoPad](echopad/index.md)
+- [Client-to-client P2P TOTP + Message Patent](client-to-client-p2p-totp-message-patent/index.md)
+- [Wrapped Bidirectional TOTP Patent](wrapped-bidirectional-totp-patent/index.md)
+- [LoopLock Mutual-TOTP-based Physical Lock](looplock-mutual-totp-based-physical-lock/index.md)
+- [LoopGuard Physical Integrity Validation](loopguard-physical-integrity-validation/index.md)
+
 ## Working Read
 
 This is the mutual-authentication and physical-pairing layer: bidirectional TOTP, message exchange, trust pads, lock systems, and coherence-key mechanisms.
@@ -21,4 +30,5 @@ This is the mutual-authentication and physical-pairing layer: bidirectional TOTP
 ## Next Actions
 
 1. Keep the trust and pairing set together.
-2. Split only if a separate physical or messaging seam appears.
+2. Keep the `Coherence Keys`, `EchoPad`, `Client-to-client P2P TOTP + Message Patent`, `Wrapped Bidirectional TOTP Patent`, `LoopLock Mutual-TOTP-based Physical Lock`, and `LoopGuard Physical Integrity Validation` pages stable as durable sub-branches.
+3. Split only if a separate physical or messaging seam appears.

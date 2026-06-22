@@ -39,8 +39,8 @@ The reconciliation agent must not silently:
 - Merge similar files.
 - Rename files.
 - Move files across major categories.
-- Mark artifacts as canonical.
-- Mark artifacts as superseded.
+- Mark artifacts as content-canonical.
+- Mark artifacts as content-superseded.
 - Rewrite wiki meaning.
 
 ## Recommended Proposed Action Record
@@ -74,8 +74,8 @@ High-risk proposals:
 - Merge files.
 - Rename files.
 - Move files across project/domain boundaries.
-- Mark as canonical.
-- Mark as superseded.
+- Mark as content-canonical.
+- Mark as content-superseded.
 
 High-risk proposals require explicit human approval.
 

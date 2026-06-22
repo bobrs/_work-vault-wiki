@@ -46,8 +46,8 @@ The inventory agent must not:
 - Merge duplicates.
 - Collapse exact duplicate sets.
 - Rewrite human-authored content.
-- Mark files as canonical.
-- Mark files as superseded.
+- Mark files as content-canonical.
+- Mark files as content-superseded.
 - Resolve ambiguity by force.
 
 ## Output

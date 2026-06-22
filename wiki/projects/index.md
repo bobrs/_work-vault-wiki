@@ -1,6 +1,6 @@
 # Projects Index
 
-The repository has entered the first classification pass and now has lineage-aware subpages.
+The repository has entered the first classification pass and now has lineage-aware subpages plus standard-named source links where available.
 
 ## Top-Level Project Pages
 

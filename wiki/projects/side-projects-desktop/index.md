@@ -4,8 +4,8 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 ## Current Shape
 
-- 506 source files inventoried in the desktop vault.
-- Several families already collapse into existing wiki pages: CICP, Semantic Collapse Theory, Trust Interoperability Standard, Daily Growth Ritual, and FractalIdentity Tree.
+- 224 source files inventoried in the desktop vault.
+- Several families already collapse into existing wiki pages: CICP, Semantic Collapse Theory, Trust Interoperability Standard, Daily Growth Ritual, FractalIdentity Tree, and POLEMEMELOP.
 - 34 durable-looking branches are split below.
 
 ## Linked Existing Lineages
@@ -15,6 +15,7 @@ This branch is the desktop-sized source vault for side projects, reference mater
 - [Trust Interoperability Standard](../trust-interoperability-standard/index.md)
 - [Daily Growth Ritual](../consent-crystal-structure-research/daily-growth-ritual/index.md)
 - [FractalIdentity Tree](../consent-intent-compression-protocol/fractalidentity-tree/index.md)
+- [POLEMEMELOP](../polememelop/index.md)
 
 ## Nested Lineage Pages
 
@@ -60,7 +61,7 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 This corpus is a source desktop, not a single project. Some folders are durable branches; others are mirror sets or staging material that should collapse into existing canonical pages.
 
-The selection below keeps the stable seams visible without duplicating the SCT and CICP lineages.
+The selection below keeps the stable seams visible without duplicating the SCT, CICP, and POLEMEMELOP lineages.
 
 ## Next Actions
 

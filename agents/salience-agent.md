@@ -103,7 +103,7 @@ Use one or more of:
 - Wiki Agent maintains the human-readable surface.
 - Salience Agent extracts meaning into the wiki surface.
 - Continuity Agent watches for drift across time.
-- Canon Agent records human-approved canon and supersession decisions.
+- Content Canon Agent records human-approved content-canon and supersession decisions.
 
 ## Operating Compression
 

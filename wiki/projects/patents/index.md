@@ -20,13 +20,15 @@ This branch collects the patent-family intake corpus.
 
 - [Abracadabra Protocol / Abracadabra_Protocol_Specification.docx](<../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
 - [Trust and Pairing Systems / Wrapped Bidirectional TOTP Patent / DeepTrust_Provisional_Patent.docx](<../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/DeepTrust_Provisional_Patent.docx>)
-- [Platform and Field Applications / LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../artifacts/incoming/Patents/LOOPtLOOP platform/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
+- [Platform and Field Applications / LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx](<../../../artifacts/incoming/Patents/LOOPtLOOP platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx>)
 - [Encoding and Semantic Interfaces / Provisional_Patent_TOTP_Color_Symbol_Encoding.docx](<../../../artifacts/incoming/Patents/Color Alpha Codec Patent/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx>)
 - [Governance and Games / Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../artifacts/incoming/Patents/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
 
 ## Working Read
 
 This corpus splits cleanly into a core Abracadabra messaging branch, a broad trust-and-pairing family, platform/application materials, encoding/interface patents, and governance/game systems.
+
+The encoding/interface family now has a dedicated `Color Alpha Codec Patent` subpage for the HTML demo and encoder/decoder material.
 
 ## Next Actions
 

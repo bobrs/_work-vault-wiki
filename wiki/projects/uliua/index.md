@@ -6,14 +6,17 @@ Parent lineage: `POLEMEMELOP`
 
 The source file describes it as an automeme project by the POLEMEMELOP Foundation, so this page treats it as a project page rather than a concept page.
 
-## Current Shape
+## Source Artifact
 
-- 1 direct source document is currently visible in the intake corpus.
-- The document appears under the corpus root, not inside a deeper project folder.
+- Standard-named source: [ULiUA](<../../../artifacts/standard-named/20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.docx>)
+- Inbound original: [ULiUA.docx](<../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/ULiUA.docx>)
+- Original filename: `ULiUA.docx`
+- Standard-named filename: `20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.docx`
+- Standard name status: `confirmed`
+- Content canon status: `unset`
 
 ## Related Artifacts
 
-- [ULiUA.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx>)
 - [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
 - [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
 

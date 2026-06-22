@@ -90,6 +90,7 @@ The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 - The small root-level works now each have their own durable page.
+- A standard-named source pilot now exists for `Butterfly Bush Time Portals`, `Daily Growth Ritual`, `Ego and Flow`, `Thanks, Bobo - A Screenplay`, and `ULiUA`; those pages now prefer `artifacts/standard-named/` while preserving intake-archive provenance.
 
 ## Next Actions
 

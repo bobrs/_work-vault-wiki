@@ -15,9 +15,9 @@ This branch defines the trust interoperability stack in the current intake.
 
 ## Representative Files
 
-- [Core Standard and Semantics / Trust_Interoperability_Standard_v1.docx](<../../../artifacts/incoming/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx>)
-- [Dialogica Threading / Dialog Thread v1.docx](<../../../artifacts/incoming/Trust Interoperability Standard/Dialog Thread v1.docx>)
-- [Graph Mapping and Agent API / TIS Agent API v1.docx](<../../../artifacts/incoming/Trust Interoperability Standard/TIS Agent API v1.docx>)
+- [Core Standard and Semantics / Trust_Interoperability_Standard_v1.docx](<../../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx>) · [archive copy](<../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Trust_Interoperability_Standard_v1.docx>)
+- [Dialogica Threading / Dialog Thread v1.docx](<../../../artifacts/standard-named/20260622__TIS__THREADING__DIALOG-THREAD__v1__dialog-thread.docx>) · [archive copy](<../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Dialog Thread v1.docx>)
+- [Graph Mapping and Agent API / TIS Agent API v1.docx](<../../../artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx>) · [archive copy](<../../../artifacts/intake-archive/20260622__standard-named-tis-slice/TIS Agent API v1.docx>)
 
 ## Working Read
 

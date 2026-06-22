@@ -4,15 +4,15 @@ Parent lineage: `Consent Crystal Structure Research`
 
 This is a small but durable branch.
 
-## Current Shape
+## Source Artifact
 
-- 1 screenplay source document.
-- 1 PDF companion rendering.
-
-## Representative Files
-
-- [Thanks, Bobo - A Screenplay.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.docx>)
-- [Thanks, Bobo - A Screenplay.pdf](<../../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.pdf>)
+- Standard-named source: [Thanks, Bobo - A Screenplay](<../../../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__SCREENPLAY__THANKS-BOBO__v1__thanks-bobo-a-screenplay.docx>)
+- Inbound original: [Thanks, Bobo - A Screenplay.docx](<../../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/Thanks, Bobo - A Screenplay.docx>)
+- Original filename: `Thanks, Bobo - A Screenplay.docx`
+- Standard-named filename: `20260622__CONSENT-CRYSTAL__SCREENPLAY__THANKS-BOBO__v1__thanks-bobo-a-screenplay.docx`
+- Standard name status: `confirmed`
+- Content canon status: `unset`
+- Companion archive: [Thanks, Bobo - A Screenplay.pdf](<../../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/Thanks, Bobo - A Screenplay.pdf>)
 
 ## Working Read
 

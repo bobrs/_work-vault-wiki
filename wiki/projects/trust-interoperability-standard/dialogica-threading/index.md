@@ -8,9 +8,9 @@ This cluster covers the dialogue-level trust structures used by Dialogica.
 
 ## Representative Files
 
-- [Dialog Thread v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Dialog Thread v1.docx>)
-- [Dialog Turn v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Dialog Turn v1.docx>)
-- [Dialogica Integration Profile.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Dialogica Integration Profile.docx>)
+- [Dialog Thread v1.docx](<../../../../artifacts/standard-named/20260622__TIS__THREADING__DIALOG-THREAD__v1__dialog-thread.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Dialog Thread v1.docx>)
+- [Dialog Turn v1.docx](<../../../../artifacts/standard-named/20260622__TIS__THREADING__DIALOG-TURN__v1__dialog-turn.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Dialog Turn v1.docx>)
+- [Dialogica Integration Profile.docx](<../../../../artifacts/standard-named/20260622__TIS__PROFILE__DIALOGICA-INTEGRATION-PROFILE__v1__dialogica-integration-profile.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Dialogica Integration Profile.docx>)
 
 ## Working Read
 

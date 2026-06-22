@@ -34,6 +34,21 @@ def file_link(path: str) -> str:
     return f"../../{encoded}"
 
 
+def preferred_path(record: dict) -> str:
+    standard_named_path = record.get("standard_named_path")
+    if standard_named_path:
+        return standard_named_path
+    return record["current_path"]
+
+
+def file_label(record: dict) -> str:
+    current_path = record["current_path"]
+    preferred = preferred_path(record)
+    if preferred != current_path:
+        return f"{current_path} -> {preferred}"
+    return current_path
+
+
 def render_node(name: str, node: dict, level: int, lines: list[str]) -> None:
     count = subtree_count(node)
     lines.append("")
@@ -43,8 +58,8 @@ def render_node(name: str, node: dict, level: int, lines: list[str]) -> None:
         lines.append("")
         lines.append(f"Direct files ({len(node['files'])})")
         for record in sorted(node["files"], key=lambda r: r["current_path"]):
-            path = record["current_path"]
-            lines.append(f"- [{path}]({file_link(path)})")
+            path = preferred_path(record)
+            lines.append(f"- [{file_label(record)}]({file_link(path)})")
 
     for child_name in sorted(node["dirs"]):
         render_node(child_name, node["dirs"][child_name], min(level + 1, 6), lines)
@@ -61,7 +76,14 @@ def main() -> None:
 
     artifact_records = [record for record in records if record["current_path"].startswith("artifacts/")]
 
-    lines = ["# Artifact Index", "", "Generated from `manifest/inventory.jsonl`.", ""]
+    lines = [
+        "# Artifact Index",
+        "",
+        "Generated from `manifest/inventory.jsonl`.",
+        "",
+        "Where available, links prefer standard-named source files while preserving the inbound path in the label.",
+        "",
+    ]
     if not artifact_records:
         lines.append("No artifact files have been added yet.")
     else:

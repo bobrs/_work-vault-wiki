@@ -8,10 +8,10 @@ This cluster covers the TIS core standard plus the consent, identity, and reputa
 
 ## Representative Files
 
-- [Consent Semantics v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Consent Semantics v1.docx>)
-- [Identity Semantics v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Identity Semantics v1.docx>)
-- [Reputation Semantics v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Reputation Semantics v1.docx>)
-- [Trust_Interoperability_Standard_v1.docx](<../../../../artifacts/incoming/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx>)
+- [Consent Semantics v1.docx](<../../../../artifacts/standard-named/20260622__TIS__SEMANTICS__CONSENT-SEMANTICS__v1__consent-semantics.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Consent Semantics v1.docx>)
+- [Identity Semantics v1.docx](<../../../../artifacts/standard-named/20260622__TIS__SEMANTICS__IDENTITY-SEMANTICS__v1__identity-semantics.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Identity Semantics v1.docx>)
+- [Reputation Semantics v1.docx](<../../../../artifacts/standard-named/20260622__TIS__SEMANTICS__REPUTATION-SEMANTICS__v1__reputation-semantics.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Reputation Semantics v1.docx>)
+- [Trust_Interoperability_Standard_v1.docx](<../../../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__standard-named-tis-slice/Trust_Interoperability_Standard_v1.docx>)
 
 ## Working Read
 
