@@ -23,6 +23,16 @@ This branch collects the narrative, investor, and loopgame material around Loopl
 
 This is the narrative and pitch seam for the Looplang/Glyphstory family. The social-good material and the investor/loopgame material now sit on their own pages.
 
+The branch reads like a compact semantic node for the public story and the pitch story at once. One track frames social-good and narrative language, while the other track frames the investor brief and the loopgame form. Keeping both on separate child pages preserves the branch structure while making the split readable at a glance.
+
+That makes `GlyphStory` useful as the parent node for Looplang/Glyphstory framing rather than a loose folder of adjacent artifacts.
+
+## Related Links
+
+- [Narrative and Social Good](narrative-and-social-good/index.md)
+- [Investor Brief and Loopgame](investor-brief-and-loopgame/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

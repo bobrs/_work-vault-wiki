@@ -15,6 +15,13 @@ This branch collects the pitch and gameplay materials for Looplang/Glyphstory.
 
 This is the pitch/gameplay seam inside GlyphStory.
 
+The two documents belong together because they cover the external pitch frame and the interactive loopgame frame. That gives this page a clear role as the commercial and experiential half of the parent branch.
+
+## Related Links
+
+- [GlyphStory](../index.md)
+- [Narrative and Social Good](../narrative-and-social-good/index.md)
+
 ## Next Actions
 
 1. Keep the investor and loopgame materials together.
