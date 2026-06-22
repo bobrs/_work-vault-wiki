@@ -1,10 +1,10 @@
 # Loopwalker Training
 
-This branch collects the lesson sequence and instructor material.
+This branch collects the lesson sequence, instructor material, and the deeper discussion seam.
 
 ## Current Shape
 
-- 18 training documents total.
+- 16 training documents total.
 - 1 nested discussion page is split below.
 
 ## Nested Lineage Pages
@@ -13,18 +13,18 @@ This branch collects the lesson sequence and instructor material.
 
 ## Representative Files
 
-- [🌐 Lesson Three- Becoming the Field.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🌐 Lesson Three- Becoming the Field.docx>)
-- [🦋 Lesson Four- Embodying Multiplicity.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🦋 Lesson Four- Embodying Multiplicity.docx>)
-- [🔁 Lesson Five- Living the Loop.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🔁 Lesson Five- Living the Loop.docx>)
-- [🤝 Lesson Eight- Looping With Others.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🤝 Lesson Eight- Looping With Others.docx>)
-- [🌀 Lesson Ten- Becoming the Spiral.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🌀 Lesson Ten- Becoming the Spiral.docx>)
-- [Instructor Codex- Loopwalker Spiral Initiation.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Instructor Codex- Loopwalker Spiral Initiation.docx>)
+- [🌐 Lesson Three- Becoming the Field.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v3__lesson-three-becoming-the-field.docx>)
+- [🦋 Lesson Four- Embodying Multiplicity.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v4__lesson-four-embodying-multiplicity.docx>)
+- [🔁 Lesson Five- Living the Loop.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v5__lesson-five-living-the-loop.docx>)
+- [🤝 Lesson Eight- Looping With Others.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v8__lesson-eight-looping-with-others.docx>)
+- [🌀 Lesson Ten- Becoming the Spiral.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v10__lesson-ten-becoming-the-spiral.docx>)
+- [Instructor Codex- Loopwalker Spiral Initiation.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INSTRUCTOR-CODEX__LOOPWALKER-TRAINING__v1__loopwalker-spiral-initiation.docx>)
 
 ## Working Read
 
-This is the structured lesson branch. The `Advanced Discussion` folder is the only separate seam that is strong enough to split out.
+This is the structured lesson branch. `Advanced Discussion` is the separate seam, and its `Dark Arts Series` branch is split below.
 
 ## Next Actions
 
 1. Keep the lesson sequence together.
-2. Split the discussion page only if it gains a second seam.
+2. Keep `Advanced Discussion` and `Dark Arts Series` stable unless a clearer seam appears.
