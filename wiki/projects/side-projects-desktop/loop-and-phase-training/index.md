@@ -37,7 +37,11 @@ This branch collects the training, repair, and recursive-integration materials i
 
 ## Working Read
 
-The root folder is the training seam; `Loop Life` holds the linear phase sequence, `Loop Repair Guide` holds the repair-state branch, `Loop Maintenance Kit` holds the upkeep guide, `Intent-Consent` holds the essay seam, `Preface` holds the intro seam, `Glyph Glossary` holds the reference seam, `Loop Basics` holds the introductory cluster, `The Loop Codex` holds the codex seam, `Advanced` holds the deeper recursive material, and the consent-seed mirror has been archived against the dedicated `Consent Seed` page.
+The root folder is the training seam for the desktop vault. It collects the onboarding sequence, repair-state guides, maintenance notes, reference material, and recursive theory into one readable branch map.
+
+`Loop Life` covers the linear phase sequence. `Loop Repair Guide` and `Loop Maintenance Kit` handle repair and upkeep. `Intent-Consent` names the essay seam. `Preface`, `Glyph Glossary`, `Loop Basics`, and `The Loop Codex` each hold a distinct onboarding or reference role. `Advanced` is the deeper recursive stack and should be read as the place where the branch begins to bifurcate into more explicit sub-lineages.
+
+The `Consent Seed` copy has already been archived as mirrored lineage. Future work here should focus on semantic compression, deliberate link seeding, and only then further branching if a page proves durable enough to stand alone.
 
 ## Next Actions
 

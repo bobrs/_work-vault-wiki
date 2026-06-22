@@ -18,6 +18,15 @@ This is the catch-all loop and consent branch for mixed-format prototypes.
 
 This is an auxiliary catch-all branch. It stays useful as a landing zone for mixed consent/loop prototypes, the mirrored `Consent Seed` copy has been archived rather than kept in the live branch, the `Intent-Consent` essay lives in the training branch as a sibling seam, and the automeme propagation/resilience pair now live in the POLEMEMELOP lineage pages.
 
+This page should remain a compression node for mixed-format prototypes until a clearer split is justified. It is a useful place to seed links toward consent, loop, and identity material without pretending the folder is a single polished lineage.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Intent-Consent](../loop-and-phase-training/intent-consent/index.md)
+- [Consent Seed](../consent-seed/index.md)
+- [POLEMEMELOP](../../polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the branch bundled for now.

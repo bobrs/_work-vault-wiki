@@ -23,6 +23,15 @@ This branch collects the lesson sequence, instructor material, and the deeper di
 
 This is the structured lesson branch. `Instructor Material` holds the teaching frame, and `Advanced Discussion` is the separate theory seam with `Dark Arts Series` split below.
 
+This page should function as the semantic node for the loopwalker curriculum: one link path for the lesson sequence, one for the teaching frame, and one for the deeper discussion stack.
+
+## Related Links
+
+- [Lesson Sequence](lesson-sequence/index.md)
+- [Instructor Material](instructor-material/index.md)
+- [Advanced Discussion](advanced-discussion/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the lesson sequence stable.

@@ -36,7 +36,11 @@ This is the deeper training and theory seam under `Loop and Phase Training`.
 
 ## Working Read
 
-This branch reads like a deep training stack rather than a single document set. The internal folders are coherent enough to stand on their own now, and the remaining root-level theory docs have separated into their own durable seams.
+This branch reads like a deep training stack rather than a single document set. The internal folders are coherent enough to stand on their own now, and the remaining root-level theory docs have separated into durable seams that can each be read as a semantic node.
+
+The branch now functions as an interpretive map for the deeper training layer: `Loopwalker Retreat` and `Loopwalker Training` describe applied training structures, `Wold Building` and `Inventions` describe adjacent design and construction seams, and the remaining theory pages hold the recursive and conceptual materials that feed those branches.
+
+Use this page to orient the deeper stack, then follow the nested pages for the specific lineages and cross-links that matter. When a subfolder develops a second seam, split it; otherwise keep the branch readable through compression and link seeding.
 
 ## Next Actions
 
