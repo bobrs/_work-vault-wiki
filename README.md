@@ -2,9 +2,9 @@
 
 A git-backed personal work vault, artifact wiki, and AI-managed continuity system.
 
-This repository is prepared to hold a body of work in a form that can be inventoried, versioned, linked, classified, reconciled, and navigated over time.
+This repository is prepared to hold a body of work in a form that can be inventoried, versioned, linked, classified, reconciled, canonicalized into stable source-of-record filenames, semantically processed, and navigated over time.
 
-The repository now contains active intake content, archived snapshots, and lineage-aware project pages. The structure, instructions, scripts, and review pages exist to keep that content legible over time.
+The repository now contains active intake content, archived snapshots, lineage-aware project pages, and instructions for separating inbound originals from canonical source-of-record files. The structure, instructions, scripts, and review pages exist to keep that content legible over time.
 
 The initial operating principle:
 
@@ -15,8 +15,8 @@ No file should be renamed, moved, deleted, merged, or overwritten until it has f
 ## Directory Map
 
 ```text
-artifacts/   actual work files
-wiki/        human-readable navigation layer
+artifacts/   actual work files, intake archive, canonical source files, auxiliary material
+wiki/        human-readable semantic navigation layer
 manifest/    machine-readable inventory, logs, and reconciliation state
 scripts/     executable maintenance tools
 agents/      instructions for AI management agents
@@ -28,22 +28,34 @@ docs/        repository operating instructions
 
 The wiki should stay evidence-led. Small durable branches get their own pages. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
 
+The repository is also adopting a canonical source-of-record layer:
+
+```text
+artifacts/intake-archive/  original inbound files preserved as received
+artifacts/canonical/       flat directory of canonical source-of-record files
+```
+
+Inbound files are evidence. Canonical files are the future source of record. The wiki should prefer canonical source links once canonicalization has occurred, while preserving provenance back to inbound originals where useful.
+
 ## First Content Intake
 
-1. Add source files to `artifacts/incoming/`.
+1. Add received source files to a dated batch under `artifacts/intake-archive/`.
 2. Run `python3 scripts/inventory.py`.
 3. Run `python3 scripts/detect_duplicates.py` when needed.
-4. Run `python3 scripts/build_wiki_index.py`.
-5. Review the generated state before any move, rename, merge, or canon decision.
+4. Assign or propose canonical filenames for meaningful artifacts.
+5. Copy source-of-record files into the flat `artifacts/canonical/` directory.
+6. Run `python3 scripts/build_wiki_index.py`.
+7. Review the generated state before any move, rename, merge, canon decision, or irreversible consolidation.
 
 ## Source Of Truth
 
 ```text
-Files     = what exists.
-Manifest  = what the system knows.
-Git       = how things changed.
-Wiki      = how humans navigate.
-Agents    = how coherence is maintained.
+Inbound Archive   = what was received.
+Canonical Files   = current source of record.
+Manifest          = identity, provenance, roles, and relationships.
+Git               = witnessed state transitions.
+Wiki              = semantic navigation and interpretation.
+Agents            = coherence, reconciliation, canonicalization, and salience processing.
 ```
 
 ## Operating Instructions
@@ -53,6 +65,8 @@ See:
 - [`docs/README.md`](docs/README.md)
 - [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md)
 - [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md)
+- [`docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-5__wiki-digestion-addendum.md`](docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-5__wiki-digestion-addendum.md)
+- [`docs/20260622__WORKVAULT__INSTRUCTIONS__CANONICAL-SOURCE__v0-6__flat-source-of-record-addendum.md`](docs/20260622__WORKVAULT__INSTRUCTIONS__CANONICAL-SOURCE__v0-6__flat-source-of-record-addendum.md)
 
 ## Public Site
 
