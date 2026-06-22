@@ -8,6 +8,7 @@ const DIST = path.join(ROOT, "dist");
 const REPO_URL = "https://github.com/bobrs/_work-vault-wiki/blob/main";
 const SOURCE_MARKDOWN = [];
 const OUTPUT_FOR_SOURCE = new Map();
+const WORKER_PAGES = new Map();
 
 const NAV_ITEMS = [
   ["Home", "/index.html"],
@@ -69,6 +70,10 @@ function outputForSource(relPath) {
   }
   OUTPUT_FOR_SOURCE.set(relPath, out);
   return out;
+}
+
+function routeForOutput(outRel) {
+  return `/${outRel.split(path.sep).join("/")}`;
 }
 
 function escapeHtml(value) {
@@ -565,6 +570,56 @@ function renderVaultPage(records) {
   });
 }
 
+async function writeRenderedPage(outRel, html) {
+  const absOut = path.join(DIST, outRel);
+  await fs.mkdir(path.dirname(absOut), { recursive: true });
+  await fs.writeFile(absOut, html, "utf8");
+
+  const publicOut = path.join(DIST, "server", "public", outRel);
+  await fs.mkdir(path.dirname(publicOut), { recursive: true });
+  await fs.writeFile(publicOut, html, "utf8");
+
+  const route = routeForOutput(outRel);
+  WORKER_PAGES.set(route, html);
+  if (route === "/index.html") {
+    WORKER_PAGES.set("/", html);
+  } else if (route.endsWith("/index.html")) {
+    WORKER_PAGES.set(route.slice(0, -10), html);
+  }
+}
+
+async function writeWorkerEntrypoints() {
+  const pagesObject = Object.fromEntries(
+    [...WORKER_PAGES.entries()].sort(([a], [b]) => a.localeCompare(b))
+  );
+  const pagesModule = `export const PAGES = ${JSON.stringify(pagesObject, null, 2)};\n`;
+  const workerModule = `import { PAGES } from "./pages.js";\n\nfunction normalizePath(pathname) {\n  if (pathname === "/") return "/index.html";\n  if (pathname in PAGES) return pathname;\n  if (pathname.endsWith("/")) {\n    const indexPath = \`\${pathname}index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  if (!pathname.endsWith(".html")) {\n    const htmlPath = \`\${pathname}.html\`;\n    if (htmlPath in PAGES) return htmlPath;\n    const indexPath = \`\${pathname}/index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  return pathname;\n}\n\nexport default {\n  async fetch(request) {\n    const { pathname } = new URL(request.url);\n    const route = normalizePath(pathname);\n    const body = PAGES[route];\n    if (body) {\n      return new Response(body, {\n        headers: { "content-type": "text/html; charset=utf-8" },\n      });\n    }\n    return new Response("Not found", {\n      status: 404,\n      headers: { "content-type": "text/plain; charset=utf-8" },\n    });\n  },\n};\n`;
+  const serverIndexModule = `export { default } from "../index.js";\n`;
+
+  await fs.writeFile(path.join(DIST, "pages.js"), pagesModule, "utf8");
+  await fs.writeFile(path.join(DIST, "index.js"), workerModule, "utf8");
+  await fs.mkdir(path.join(DIST, "server"), { recursive: true });
+  await fs.writeFile(path.join(DIST, "server", "index.js"), serverIndexModule, "utf8");
+}
+
+async function copyHostingMetadata() {
+  const hostingSource = path.join(ROOT, ".openai", "hosting.json");
+  const hostingTarget = path.join(DIST, ".openai", "hosting.json");
+  await fs.mkdir(path.dirname(hostingTarget), { recursive: true });
+  await fs.copyFile(hostingSource, hostingTarget);
+
+  const drizzleSource = path.join(ROOT, "drizzle");
+  try {
+    const drizzleStat = await fs.stat(drizzleSource);
+    if (drizzleStat.isDirectory()) {
+      const drizzleTarget = path.join(DIST, ".openai", "drizzle");
+      await fs.cp(drizzleSource, drizzleTarget, { recursive: true });
+    }
+  } catch {
+    // No local drizzle directory yet.
+  }
+}
+
 async function main() {
   await fs.rm(DIST, { recursive: true, force: true });
   await fs.mkdir(DIST, { recursive: true });
@@ -597,16 +652,13 @@ async function main() {
     duplicateGroups: summary.duplicateGroups,
     rawCount: summary.raw,
   });
-  await fs.writeFile(path.join(DIST, "index.html"), rootPage, "utf8");
+  await writeRenderedPage("index.html", rootPage);
 
   const vaultPage = renderVaultPage(records);
-  await fs.mkdir(path.join(DIST, "vault"), { recursive: true });
-  await fs.writeFile(path.join(DIST, "vault", "index.html"), vaultPage, "utf8");
+  await writeRenderedPage(path.join("vault", "index.html"), vaultPage);
 
   for (const source of SOURCE_MARKDOWN) {
     const outRel = outputForSource(source);
-    const absOut = path.join(DIST, outRel);
-    await fs.mkdir(path.dirname(absOut), { recursive: true });
     const sourceText = await fs.readFile(path.join(ROOT, source), "utf8");
     const rendered = renderMarkdown(source, sourceText);
     const titleMatch = sourceText.match(/^#\s+(.+)$/m);
@@ -627,8 +679,11 @@ async function main() {
       body,
       navActive,
     });
-    await fs.writeFile(absOut, html, "utf8");
+    await writeRenderedPage(outRel, html);
   }
+
+  await writeWorkerEntrypoints();
+  await copyHostingMetadata();
 
   console.log(`Built ${SOURCE_MARKDOWN.length} markdown pages and the vault map in ${DIST}.`);
 }

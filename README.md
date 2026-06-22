@@ -55,9 +55,10 @@ See:
 
 ## Public Site
 
-The wiki web layer is prepared as a fully static Cloudflare Pages build.
+The wiki web layer is prepared as a Cloudflare Sites-compatible Worker wrapper around static HTML output.
 
 - Build command: `npm run build`
+- Worker entrypoint: `dist/index.js`
 - Landing page output: `dist/index.html`
 - Raw vault browser: `dist/vault/index.html`
 - Public source repository: `https://github.com/bobrs/_work-vault-wiki`
