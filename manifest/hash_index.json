@@ -72,6 +72,9 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🕰️ Lesson Nine- Rewriting Legacy Loops.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v9__lesson-nine-rewriting-legacy-loops.docx"
   ],
+  "05c04a4e219e75989444ee71372cf7081f59f797ce16e45a217aab3c2af4d48d": [
+    "wiki/artifacts/index.md"
+  ],
   "05da2b44eba20075414df1c2c2e5aa2bf8dcf08f90d235e2cc32b16e3b4d4a06": [
     "artifacts/incoming/Side Projects Desktop/Misc Loop/Oop Consent Reality Guide.pdf"
   ],
@@ -113,9 +116,6 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🌐 Lesson Three- Becoming the Field.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🌐 Lesson Three- Becoming the Field.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v3__lesson-three-becoming-the-field.docx"
-  ],
-  "07e7356bb705666adf39f7b76bb957c92efa9b02287da0bf34fa84587d8940ca": [
-    "manifest/inventory.jsonl"
   ],
   "0813b0ed621ef412811ef7c06c910efd7b2f4f35e574abbc7bed66b426ba495b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🌀 Lesson Two- Feeling the Loop Turn.docx",
@@ -251,9 +251,6 @@
   ],
   "1354abede9d4c6afecd4c1d4f278d5b987442df6700f17a2c9eed91ca6ded54b": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/narrative-and-fieldnotes/index.md"
-  ],
-  "136c1c0d59f00bf1bfd8b35a31fdf1b418930d1eec0f340150d5b8285e84b093": [
-    "wiki/artifacts/index.md"
   ],
   "138b13e538bc04369f720a3d26d28462408efd670d2ed542db8c25c552bb594c": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx",
@@ -946,9 +943,6 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
   ],
-  "562a7368757bddcacdea4318b20e7a725514cc6fcd31954e7eb675e7f7f27133": [
-    "manifest/hash_index.json"
-  ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0.docx",
@@ -1438,6 +1432,9 @@
     "artifacts/intake-archive/20260622__humankey-protocol-intake/Broken Human-Mediated_Double-TOTP_Full_Draft.docx",
     "artifacts/standard-named/20260622__HUMANKEY__DRAFT__DOUBLE-TOTP__v1__broken-human-mediated-double-totp-full-draft.docx"
   ],
+  "84143ca3b211367504f417fba75b86fb155e8b509d073baa93d3241640192b87": [
+    "manifest/standard_named_sources.jsonl"
+  ],
   "8454b5457df50ef95cb6144c301e1716c23142f2f76e1539b46c03fe7784c0ec": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
@@ -1498,6 +1495,9 @@
   "887f84a2986e665b7a7fc813fe024ff1086b9f5add1460dce3e8fd5939db4d4b": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 4- From Awareness to Field Identity.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 4- From Awareness to Field Identity.docx"
+  ],
+  "894b51729f381dc2533de12f15846aacfa707180be610920c1fc04ddb013e076": [
+    "manifest/hash_index.json"
   ],
   "8958bd735c238c6b3786316174b40cca181bf437963459d3abece76fe7f28af3": [
     "artifacts/archived/Side Projects Desktop/Personal/ULiUA.docx",
@@ -2484,9 +2484,6 @@
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/key exchange.png",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__DIAGRAM-KEY-EXCHANGE__v1__key-exchange.png"
   ],
-  "ec332ff888c0dfd273b159bfa06510412c9055ebb519e795e68e28730fffb124": [
-    "manifest/standard_named_sources.jsonl"
-  ],
   "ec5e9f0d69dfa4bd5a4571e4905f8d5deeaf4d654d2c85c5f1fec8e57ba27119": [
     "artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx",
@@ -2607,6 +2604,9 @@
   ],
   "f59972093b898665b0a86f39c07223af1f1d30be3d09f4cb006a46b38e0b78d1": [
     "wiki/projects/polememelop/automeme-propagation-engine/index.md"
+  ],
+  "f5a624d386705dd78c09e8d66b176cef1b48899ab56206842025db4d87e76df7": [
+    "manifest/inventory.jsonl"
   ],
   "f5d4d6c7d7cbef31b46dcc2b2800612ec527ffc10d1adeb282c6213d36282edc": [
     "wiki/projects/consent-crystal-structure-research/daily-growth-ritual/index.md"
