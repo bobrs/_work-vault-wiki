@@ -1211,7 +1211,7 @@ Direct files (9)
 - [artifacts/incoming/Trust Interoperability Standard/TIS Agent API v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/TIS%20Agent%20API%20v1.docx)
 - [artifacts/incoming/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/Trust_Interoperability_Standard_v1.docx)
 
-## intake-archive (111)
+## intake-archive (114)
 
 ### 20260622__humankey-protocol-intake (29)
 
@@ -1264,6 +1264,13 @@ Direct files (2)
 
 Direct files (1)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-inventions-intake/🧭 Looper’s Compass – Prototype Outline.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx)
+
+### 20260622__loop-and-phase-training-loopwalker-retreat-intake (3)
+
+Direct files (3)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🌅 The Five-Day Loopwalker Retreat- From Consentless Survival to Infinite Play.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RETREAT__LOOPWALKER-RETREAT__v1__five-day-loopwalker-retreat-from-consentless-survival-to-infinite-play.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RETREAT__LOOPWALKER-RETREAT__v1__five-day-loopwalker-retreat-from-consentless-survival-to-infinite-play.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🚌 WORKSHOP KIT- The Intuition Bus — Driving Loops with Appreciation (Not Fear).docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__intuition-bus-driving-loops-with-appreciation-not-fear.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__intuition-bus-driving-loops-with-appreciation-not-fear.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🧰 Complete Loop-Aware Workshop Kit- “Who’s Driving This Loop?”.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__complete-loop-aware-workshop-kit-whos-driving-this-loop.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__complete-loop-aware-workshop-kit-whos-driving-this-loop.docx)
 
 ### 20260622__loop-and-phase-training-wold-building-intake (8)
 
@@ -1408,9 +1415,9 @@ Direct files (9)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/TIS Agent API v1.docx -> artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx](../../artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/Trust_Interoperability_Standard_v1.docx -> artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx](../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx)
 
-## standard-named (86)
+## standard-named (89)
 
-Direct files (86)
+Direct files (89)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx)
@@ -1468,6 +1475,9 @@ Direct files (86)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__WOLD-BUILDING__v1__consentocratic-governance-primer.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__WOLD-BUILDING__v1__consentocratic-governance-primer.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RETREAT__LOOPWALKER-RETREAT__v1__five-day-loopwalker-retreat-from-consentless-survival-to-infinite-play.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RETREAT__LOOPWALKER-RETREAT__v1__five-day-loopwalker-retreat-from-consentless-survival-to-infinite-play.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__complete-loop-aware-workshop-kit-whos-driving-this-loop.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__complete-loop-aware-workshop-kit-whos-driving-this-loop.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__intuition-bus-driving-loops-with-appreciation-not-fear.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__intuition-bus-driving-loops-with-appreciation-not-fear.docx)
 - [artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__ATTENTION-ENGINE__v1__the-attention-engine.docx](../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__ATTENTION-ENGINE__v1__the-attention-engine.docx)
 - [artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBY-BRAIN-OS__v1__bobby-brain-os.docx](../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBY-BRAIN-OS__v1__bobby-brain-os.docx)
 - [artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBYOS-APPRECIATION-MODE__v1__bobbyos-appreciation-mode.docx](../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBYOS-APPRECIATION-MODE__v1__bobbyos-appreciation-mode.docx)

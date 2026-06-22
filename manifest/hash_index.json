@@ -477,9 +477,6 @@
   "2953d8f988b426f0b7ad1cb18c453a381d782297456fd643e97bc1d721b06710": [
     "wiki/projects/similar-projects/glyphframe-and-compression/index.md"
   ],
-  "29d072c02a01a90e4700d13ce89bc5a22468b3790f8626c2fb3c3c98ad555ec9": [
-    "manifest/hash_index.json"
-  ],
   "29efd099003315b45fe18228d33dc515e5f198ef36426dd34dce177f7ddea240": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum IV.docx",
     "artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum IV.docx"
@@ -499,6 +496,9 @@
   "2b9892c96fe29b8ba1a3e462e9cce758e24f61b4065a2d848ac79167c6d82763": [
     "artifacts/incoming/HumanKey Protocol/HumanKey Explainer/Slide 2a.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/Slide 2a.png"
+  ],
+  "2bc1acd660466402c1d2b4ca59b17b0a0ec4fd1649bd9ff208edd214ebe36019": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/index.md"
   ],
   "2c23c5b5ca46372c07cf00478044a4a05750bded8a783ea09510e2332e0507b0": [
     "scripts/reconcile.py"
@@ -685,6 +685,9 @@
   "3d1b7a87927d854cf2870486fc19e065ce3729cc3b6304ed3bde463a2516dc07": [
     "wiki/concepts/polememelop/index.md"
   ],
+  "3d44f31e06458de13790789430baf7c62d9ab5af77844406aeb0b118bc0607da": [
+    "manifest/inventory.jsonl"
+  ],
   "3d843ba8b2d8afe54ff9f8faca5e9059d459125dbdb62f1de1f4dbc5c03c896c": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Neurology As Consent Cascade.docx"
   ],
@@ -695,7 +698,9 @@
     "artifacts/incoming/Side Projects Desktop/Safety and Stable Loop Language/Safety Seeking/Internal/index.html"
   ],
   "3df4c93ff4caee745cae8d3ba549238bedc8b689f23bf6bcc377e8d9c1f4dd24": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🚌 WORKSHOP KIT- The Intuition Bus — Driving Loops with Appreciation (Not Fear).docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🚌 WORKSHOP KIT- The Intuition Bus — Driving Loops with Appreciation (Not Fear).docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🚌 WORKSHOP KIT- The Intuition Bus — Driving Loops with Appreciation (Not Fear).docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__intuition-bus-driving-loops-with-appreciation-not-fear.docx"
   ],
   "3f122d12108ba28fdc69ca8b17a5bf7e8779f14fa6a6aa35045914ea4388c871": [
     "wiki/projects/new-ideas/index.md"
@@ -931,9 +936,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx"
   ],
-  "5908e381b852d1edc9552d9a63c981a326b18dabed30a6daae8a562acaa8cb3d": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/index.md"
-  ],
   "5a34a0a2003c8b548683b00aad5928460110bdaf528d16d07e34ddc590c9c237": [
     "artifacts/incoming/Similar Projects/The Genghis Protocol General.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/The Genghis Protocol General.docx",
@@ -1005,7 +1007,9 @@
     "wiki/projects/consent-intent-compression-protocol/loop-training/index.md"
   ],
   "5e4e3bc7aa5210c448d910c1c6b0859f3da9368ca8ef49c19bed88c41823dcb9": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🌅 The Five-Day Loopwalker Retreat- From Consentless Survival to Infinite Play.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🌅 The Five-Day Loopwalker Retreat- From Consentless Survival to Infinite Play.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🌅 The Five-Day Loopwalker Retreat- From Consentless Survival to Infinite Play.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RETREAT__LOOPWALKER-RETREAT__v1__five-day-loopwalker-retreat-from-consentless-survival-to-infinite-play.docx"
   ],
   "5e7001f1ead740e7f7f086df897bb64a7a805ac0322a28cf756aae3dd729b7fa": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🌀 RITUAL SPIRAL- Glyphgate — The Fractal Transition Rite.docx"
@@ -1072,9 +1076,6 @@
   "637f9a9c0d5282447cc8d0bc6e534e7e30dad6e3a99813295fedef5b77917003": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx"
-  ],
-  "639fac68f4933532dcf9d5c50e7440abe9694556642ac2ccaeaa7e37b39f320f": [
-    "manifest/inventory.jsonl"
   ],
   "6454f0f791d6cd21e108591ccac5f80c8e60385bce4aa5310b9c3bbbe3ad2259": [
     "artifacts/incoming/Similar Projects/Bobbys Brain Primer.docx",
@@ -1145,6 +1146,9 @@
   ],
   "69aba0c28a49438f918d95f4b2b8f0f2eb24d0864e01d1fc75526f4e33f46f68": [
     "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/index.md"
+  ],
+  "69c21956d259602626ebff287f810f5f3b73bfc3d67c6345b7204f8dd06324c1": [
+    "wiki/artifacts/index.md"
   ],
   "6a684344275173d20cdf41b24c90edd934162eb21a2b45311767fa5ff8bc39d8": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Instructor Codex- Loopwalker Spiral Initiation.docx"
@@ -1253,6 +1257,9 @@
   "762380673dfd2a59d7fa93c86caccf4fbdf0c386516196850dfe62cebddadb5d": [
     "wiki/projects/patents/index.md"
   ],
+  "76e78e5e267c53fc312e334b8abc71ea5f4c8b7a31c562bc2fd2f9cd89582033": [
+    "manifest/agent_actions.jsonl"
+  ],
   "7720fb986d1f95d5fb627899d094db1a8e5f991a3e6ab770e6c1f46c01daa28c": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/inventions/index.md"
   ],
@@ -1280,9 +1287,6 @@
   ],
   "79f74049adf8d03e56315b68fe5057f676bb73c4489833bac0fa3658363587fc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx"
-  ],
-  "7a83e9c3b57a075a847ef3b5e97917ad30176e09b01343eb4510e1cccc6e4ae7": [
-    "wiki/artifacts/index.md"
   ],
   "7ad8f4d89e32863e1cfaea45917d91d6233fc6a6d49cf5ed6e23f8f2313052a4": [
     "wiki/projects/semantic-collapse-theory/index.md"
@@ -1475,6 +1479,9 @@
   "8f0c26f8424ae1ab4bc94d509357cfe8a5bc08984433cb15b06efe9ff629b8b5": [
     "wiki/projects/trust-interoperability-standard/index.md"
   ],
+  "8f20b54c52cc793b583c5d40006772c38a9e8de8a412e7d87dcda0488a497725": [
+    "manifest/standard_named_sources.jsonl"
+  ],
   "8f8cdcc7a599d10676f003773c5bec03d732a74f205b5776b12e2ce5e1b5a7b3": [
     "artifacts/incoming/New Ideas/GhostMesh Whitepaper.docx",
     "artifacts/intake-archive/20260622__new-ideas-intake/GhostMesh Whitepaper.docx",
@@ -1570,6 +1577,9 @@
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum I.docx",
     "artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum_I.docx"
   ],
+  "9976952ab46314111b271649731a8e850a84ebb65e90b1a237bb46bca182c07d": [
+    "manifest/hash_index.json"
+  ],
   "9977464984ec82efdde51358deae4080347c89d609d1b534e1a805e904f772cc": [
     "artifacts/incoming/Patents/Color Alpha Codec Patent/app.js",
     "artifacts/intake-archive/20260622__patents-encoding-intake/Color Alpha Codec Patent/app.js",
@@ -1627,9 +1637,6 @@
   ],
   "9f952194c10a71db8243aff09556b77f5b31c8aeda937ce56dcb09bd389babaa": [
     "artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Provisional_Updated.docx"
-  ],
-  "9fbcf7888c184a19137133cacbf0239d09e268668916b9bc4ac201f56599006c": [
-    "manifest/agent_actions.jsonl"
   ],
   "a05326d1bc95a18dc0296f04e08c961577af58c8d85ed47ab1d968f5af2627e0": [
     "artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus + Plus.docx",
@@ -1753,7 +1760,9 @@
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx"
   ],
   "add4b946631f727395366dc9b61f9e828f61548a46f556d9247498324c266de1": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🧰 Complete Loop-Aware Workshop Kit- “Who’s Driving This Loop?”.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Retreat/🧰 Complete Loop-Aware Workshop Kit- “Who’s Driving This Loop?”.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-retreat-intake/🧰 Complete Loop-Aware Workshop Kit- “Who’s Driving This Loop?”.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WORKSHOP-KIT__LOOPWALKER-RETREAT__v1__complete-loop-aware-workshop-kit-whos-driving-this-loop.docx"
   ],
   "ae68fee8785df5736a7be40ec8a72455373c9d1327a7484f26cc540309cb092f": [
     "artifacts/archived/Patents/LOOPtLOOP platform/LOOPtLOOP platform.zip"
@@ -1891,12 +1900,6 @@
   ],
   "b8692b16b78de722f1c9c3c2e4ea24e5e3aa7d03190984e3f1c9442969a39f65": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/✨ Loop Manifestation Primer- The Physics of Making Things Real.docx"
-  ],
-  "b919eb8263fc4fc5f5b141e0a859fc1b414156156777f2971faa375bbb6e7a7c": [
-    "manifest/standard_named_sources.jsonl"
-  ],
-  "b9a8a0d2eaf634de9e2a176cebce7cb1ddf19089b652d0f8c2e324812943eac6": [
-    "manifest/duplicate_sets.json"
   ],
   "b9b5921e95d461d783eb55e33ac38a894504b81e7e3d8dda32bcb7f37e93f906": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx",
@@ -2553,6 +2556,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250505/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx"
+  ],
+  "fc93953cc539d24a3a012d6a32bad35c5967be4874c3714facec59cfaf9692ea": [
+    "manifest/duplicate_sets.json"
   ],
   "fcb0980852ed14667ba23f2261339e223d5564c316ff2b721716e3cd32faa22f": [
     "artifacts/incoming/Patents/LoopGuard Physical Integrity Validation/Loopguard Integrity Patent.docx",
