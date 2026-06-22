@@ -21,9 +21,14 @@ This is the protocol half of LoopLink: how bilateral consent loops are formed, d
 
 This cluster defines the transport grammar for LoopLink itself. It is the place where handshake, artifact schema, and cryptographic posture come together into a usable protocol core. The implementation-agnostic posture matters because it keeps the branch portable across different trust surfaces.
 
+It also serves as the handoff point to sovereignty and recovery pages, because transport without trust memory is only half of the model.
+
 ## Related Links
 
 - [LoopLink and Trust](../index.md)
+- [Presence and Recovery](../presence-and-recovery/index.md)
+- [PDSP and Sovereignty](../../pdsp-and-sovereignty/index.md)
+- [Loop Dynamics Framework](../../loop-dynamics-framework/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

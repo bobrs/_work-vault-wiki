@@ -17,6 +17,15 @@ This cluster covers the Loop Cosmos bundle, the protocol comparison reference, a
 
 This is the connective layer: the Loop Cosmos bundle, the integration scaffold, and the comparison reference that situates the stack against other protocols.
 
+It is the comparison-and-siting page for the loop cosmos branch. The documents here do not define the stack so much as show where it sits, which makes this the natural bridge into the stack, training, and PDSP material.
+
+## Related Links
+
+- [Loop Cosmos and Orientation](../index.md)
+- [Stack Architecture](../stack-architecture/index.md)
+- [Training and Roadmap](../training-and-roadmap/index.md)
+- [PDSP and Sovereignty](../../pdsp-and-sovereignty/index.md)
+
 ## Next Actions
 
 1. Keep the integration/reference pair together.

@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Implementation
 
 This cluster covers physical token initialization flows for ESP32 and NFC-based ritual objects.
 
+It is the hardware-initiation layer of the implementation rail: the point where protocol becomes embodied in a device-facing event.
+
 ## Current Shape
 
 - 2 ritual token initialization documents.
@@ -23,10 +25,13 @@ The two documents likely belong together because they represent alternate views 
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Implementation and Access](../index.md)
+- [Protocol Foundations](../../protocol-foundations/index.md)
 - [Pairing and Field Access](../pairing-and-field-access/index.md)
 - [Key Derivation and Decryption](../key-derivation-and-decryption/index.md)
+- [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

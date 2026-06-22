@@ -23,15 +23,22 @@ This cluster is the reference and support branch for the loop-based economy.
 
 This is the umbrella over the loop-economy reference spine and its support appendices.
 
+It is the interpretive shelf for the economy branch. The documents here keep the core definitions, addenda, and infrastructure notes aligned so the operational units can stay intelligible.
+
 This page is the reference frame for the loop-economy branch. It holds the core definitions, addenda, and infrastructure notes that let the operational loop units stay intelligible. In other words, it is the theory and support shelf for the economic model rather than a transactional page itself.
 
 The stronger read is that this page defines the branch’s interpretive substrate. It stabilizes the vocabulary used by the operational units and keeps the appendices attached to the model rather than letting them drift into separate notes.
+
+That makes it the reference side of the economy line, and a natural bridge back to the loop primitives and out toward the broader propagation branch.
 
 ## Related Links
 
 - [Loop Economy Series](../index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+- [Loop Units](../loop-units/index.md)
+- [Core Loop Primitives](../../../core-loop-primitives/index.md)
+- [Economy and Propagation](../../../../economy-and-propagation/index.md)
 
 ## Next Actions
 

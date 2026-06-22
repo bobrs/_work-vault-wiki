@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)`
 
 This is a stand-alone lineage page under the CICP branch.
 
+It is the explanation and onboarding rail: the part of CICP that teaches the loop model in sequence.
+
 ## Current Shape
 
 - 6 training documents.
@@ -17,6 +19,15 @@ This is a stand-alone lineage page under the CICP branch.
 ## Working Read
 
 This sub-branch reads like onboarding and explanation material for the CICP family. It can stand alone without losing the parent lineage back to the protocol branch.
+
+The sectioned structure suggests a deliberate teaching sequence rather than a pile of notes. That makes it the clearest place in CICP for introductory framing, slow disclosure, and cross-referenced explanation.
+
+## Related Links
+
+- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../index.md)
+- [Protocol Foundations](../protocol-foundations/index.md)
+- [Working Notes](../working-notes/index.md)
 
 ## Next Actions
 

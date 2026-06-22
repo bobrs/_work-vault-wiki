@@ -1,6 +1,6 @@
 # The Loop Codex
 
-This branch collects the standalone codex-style introduction under `Loop and Phase Training`.
+This branch collects the standalone codex-style introduction under `Loop and Phase Training`. It compresses the training language into a reference surface that can point back into the spine without duplicating it.
 
 ## Current Shape
 
@@ -12,7 +12,14 @@ This branch collects the standalone codex-style introduction under `Loop and Pha
 
 ## Working Read
 
-This is a standalone codex introduction and should stay separate unless a second codex seam appears.
+Use this as the compact reference layer for `Loop Basics`, `Glyph Glossary`, and `Intent-Consent`. It should stay separate unless a second codex seam appears that really deserves its own branch.
+
+## Sibling Links
+
+- [Loop Basics](../loop-basics/index.md)
+- [Glyph Glossary](../glyph-glossary/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Loop Life](../loop-life/index.md)
 
 ## Next Actions
 

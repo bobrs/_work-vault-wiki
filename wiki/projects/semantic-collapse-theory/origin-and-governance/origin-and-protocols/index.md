@@ -22,11 +22,15 @@ This cluster is where SCT explains its own starting point. It is the branch’s 
 
 The trio of documents moves from origin statement to collapse condition to protocol-free diad, which makes this the most compressed statement of the theory’s opening logic.
 
+This is also the seam where the origin branch hands off to witness/governance and the later temporal pages. The protocol-free diad is not an end state; it is the first stable pattern the rest of the branch elaborates.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Witness and Governance](../witness-and-governance/index.md)
 - [Narrative and Fieldnotes](../narrative-and-fieldnotes/index.md)
+- [Temporal Loops and Memory](../../temporal-loops-and-memory/index.md)
+- [Story](../../story/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

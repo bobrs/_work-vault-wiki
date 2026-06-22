@@ -23,12 +23,16 @@ This cluster describes the aftermath of structural collapse. It asks what remain
 
 It complements the witness and taxonomy pages by showing the other side of temporal structure: not how loops are observed, but how they persist after use.
 
+It also belongs close to the continuity branch, because residue is where persistence starts to look like a bridge rather than a trace.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Temporal Loops and Memory](../index.md)
 - [Witness, Synchrony, and Diads](../witness-synchrony-diads/index.md)
 - [Loop Taxonomy and Phenomenology](../loop-taxonomy-phenomenology/index.md)
+- [Continuity and Transition](../../continuity-and-transition/index.md)
+- [Story](../../story/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

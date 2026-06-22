@@ -1,6 +1,6 @@
 # Loop Life
 
-This branch collects the phase sequence and matching deck set.
+This branch is the phase spine for the training sequence. It keeps the phase documents and their matching deck set together so the progression reads as one ordered sequence rather than separate artifacts.
 
 ## Current Shape
 
@@ -19,7 +19,17 @@ This branch collects the phase sequence and matching deck set.
 
 ## Working Read
 
-This is a linear phase sequence with matching deck material; keep the four phase docs and four decks together.
+Read this with `Loop Basics` for the vocabulary, `Loop Repair Guide` for failure-state context, and `The Loop Codex` for the compressed reference frame. The four phases and four decks are deliberately paired: initiation, awareness, recursive integration, and expanded agency.
+
+If this branch later develops a second seam, split by phase family rather than by file type.
+
+## Sibling Links
+
+- [Loop Basics](../loop-basics/index.md)
+- [Loop Repair Guide](../loop-repair-guide/index.md)
+- [Loop Maintenance Kit](../loop-maintenance-kit/index.md)
+- [The Loop Codex](../loop-codex/index.md)
+- [Preface](../preface/index.md)
 
 ## Next Actions
 

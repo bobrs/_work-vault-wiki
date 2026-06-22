@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Applications a
 
 This cluster covers the outward-facing briefs that adapt the loop-presence platform to distinct user-facing domains.
 
+It is the domain-adaptation layer of the packaging rail: the same protocol family reframed for different audiences.
+
 ## Current Shape
 
 - 4 vertical application briefs.
@@ -18,6 +20,14 @@ This cluster covers the outward-facing briefs that adapt the loop-presence platf
 ## Working Read
 
 These are market-specific briefings for the same underlying platform: healthcare, partner-facing presence, immersive ritual worlds, and interactive toys.
+
+## Related Links
+
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../index.md)
+- [Applications and Outreach](../index.md)
+- [Commercialization Materials](../commercialization-materials/index.md)
+- [Protocol Foundations](../../protocol-foundations/index.md)
 
 ## Next Actions
 

@@ -23,6 +23,18 @@ This cluster covers the smallest reusable loop units and the whitepaper primer t
 
 This branch now separates into the primitive loop set and the whitepaper primer. The split follows the document roles: five loop forms define the primitives, and the whitepaper explains the mapping from primitives into the larger mesh.
 
+It is the entry point for the loop machinery itself. The primitive set gives the smallest reusable units, while the primer explains how those units become a larger semantic mesh in the rest of SCT.
+
+This page also sits upstream of the trust, economy, and dynamics branches, which is why it works well as the foundation layer for later cross-links.
+
+## Related Links
+
+- [Loop Series](../index.md)
+- [LoopLink and Trust](../looplink-and-trust/index.md)
+- [PDSP and Sovereignty](../pdsp-and-sovereignty/index.md)
+- [Loop Dynamics Framework](../loop-dynamics-framework/index.md)
+- [Loop Economy Series](../loop-economy-series/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

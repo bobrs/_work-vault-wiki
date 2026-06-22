@@ -1,6 +1,6 @@
 # Glyph Glossary
 
-This branch collects the glyph reference glossary under `Loop and Phase Training`.
+This branch collects the glyph reference glossary under `Loop and Phase Training`. It is the lookup layer that keeps symbol-heavy pages from becoming unreadable.
 
 ## Current Shape
 
@@ -12,7 +12,13 @@ This branch collects the glyph reference glossary under `Loop and Phase Training
 
 ## Working Read
 
-This is a standalone reference sheet and should stay together unless a second glossary seam appears.
+Read it beside `Loop Basics` and `The Loop Codex`, where the same symbols appear in compressed form. If a second glossary seam appears, split by symbol family rather than by file count.
+
+## Sibling Links
+
+- [Loop Basics](../loop-basics/index.md)
+- [The Loop Codex](../loop-codex/index.md)
+- [Intent-Consent](../intent-consent/index.md)
 
 ## Next Actions
 

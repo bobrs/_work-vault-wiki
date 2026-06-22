@@ -1,6 +1,6 @@
 # Loop Maintenance Kit
 
-This branch collects the maintenance and hygiene guide under `Loop and Phase Training`.
+This branch is the maintenance and hygiene seam under `Loop and Phase Training`. It stays narrow by design: one guide, one operating role, no extra branching unless a second maintenance topic appears.
 
 ## Current Shape
 
@@ -12,7 +12,14 @@ This branch collects the maintenance and hygiene guide under `Loop and Phase Tra
 
 ## Working Read
 
-This is a single maintenance guide for the loop hygiene seam; keep it together unless a second seam appears.
+Read it beside `Loop Repair Guide` because the two pages form the operational pair. `Loop Basics` gives the shared vocabulary, and `Intent-Consent` explains why the maintenance language matters.
+
+## Sibling Links
+
+- [Loop Repair Guide](../loop-repair-guide/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Loop Basics](../loop-basics/index.md)
+- [Loop Life](../loop-life/index.md)
 
 ## Next Actions
 

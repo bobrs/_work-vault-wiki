@@ -1,16 +1,16 @@
 # Consent Crystal Structure Research
 
-Umbrella intake corpus currently stored under `artifacts/incoming/Consent Crystal Structure Research`.
+Umbrella intake corpus consolidated under `artifacts/intake-archive/20260622__consent-crystal-structure-research-intake`.
 
-This is the first major batch of added content. It remains in active intake, so the page tracks structure and review boundaries rather than final organization.
+This was the first major batch of added content. It is now archived, so the page tracks structure and review boundaries rather than final organization.
 
-The corpus now behaves like a small research field rather than a loose intake folder. `Semantic Collapse Theory` carries the theory-heavy material, `Consent–Intent Compression Protocol (CICP)` carries the protocol and implementation material, and `POLEMEMELOP` acts as the recurring conceptual attractor across both. The remaining root-level works are durable side branches rather than leftovers.
+The corpus now behaves like a small research field rather than a loose intake folder. `Semantic Collapse Theory` carries the theory-heavy material, `Consent–Intent Compression Protocol (CICP)` carries the protocol, training, and implementation material, and `POLEMEMELOP` acts as the recurring conceptual attractor across both. The remaining root-level works are durable side branches rather than leftovers.
 
-That makes this page the umbrella map for the corpus, not just a folder index.
+That makes this page the umbrella map for the corpus, not just a folder index. It tells you which rail a document belongs to, not just where the file landed.
 
 ## Current Shape
 
-- 117 files were inventoried in the active incoming corpus.
+- 117 files were inventoried in the original corpus before archive consolidation.
 - 21 files are archived under `artifacts/archived/Consent Crystal Structure Research`, including 19 in `SCT set 20050505`.
 - The corpus is mostly `.docx`, with a small number of `.html`, `.zip`, and `.pdf` companions.
 - The main structured branches are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`.
@@ -28,6 +28,18 @@ That makes this page the umbrella map for the corpus, not just a folder index.
 - [Daily Growth Ritual](daily-growth-ritual/index.md)
 - [Ego and Flow](ego-and-flow/index.md)
 - [Thanks, Bobo - A Screenplay](thanks-bobo-a-screenplay/index.md)
+
+## CICP Rail
+
+The CICP branch is the operational rail of the corpus. It carries the protocol spine, the implementation path, the outward-facing packaging, and the smaller companion branches that still read as coherent lines of work.
+
+- [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
+- [Protocol Foundations](../consent-intent-compression-protocol/protocol-foundations/index.md)
+- [Implementation and Access](../consent-intent-compression-protocol/implementation-and-access/index.md)
+- [Applications and Outreach](../consent-intent-compression-protocol/applications-and-outreach/index.md)
+- [Loop Training](../consent-intent-compression-protocol/loop-training/index.md)
+- [Working Notes](../consent-intent-compression-protocol/working-notes/index.md)
+- [FractalIdentity Tree](../consent-intent-compression-protocol/fractalidentity-tree/index.md)
 
 ## Branches
 

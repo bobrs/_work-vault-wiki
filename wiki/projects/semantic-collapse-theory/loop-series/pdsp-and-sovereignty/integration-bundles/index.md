@@ -17,6 +17,15 @@ This cluster covers the bundle layer that aligns Loop Cosmos assets with PDSP-li
 
 This is the packaging and alignment branch: it translates the sovereignty protocol into the Loop Cosmos integration context.
 
+It keeps the protocol executable without making the bundle the primary source of truth. That places it between the core protocol and the lighter PDSP-lite line, with clear links back to the rest of the loop stack.
+
+## Related Links
+
+- [PDSP and Sovereignty](../index.md)
+- [PDSP Core](../pdsp-core/index.md)
+- [PDSP-lite Specs](../pdsp-lite-specs/index.md)
+- [Loop Cosmos and Orientation](../../loop-cosmos-and-orientation/index.md)
+
 ## Next Actions
 
 1. Keep the bundle pair together.

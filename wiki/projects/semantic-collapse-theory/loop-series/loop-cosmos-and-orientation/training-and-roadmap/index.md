@@ -17,6 +17,15 @@ This cluster covers the training path for initiates and the project roadmap that
 
 This is the orientation-and-execution layer: a training narrative for adoption and a roadmap for the project arc.
 
+The page is deliberately smaller than the stack pages because it is meant to orient a reader, not re-specify the system. It says how to approach the branch and how to treat the roadmap as a directional artifact rather than a final plan.
+
+## Related Links
+
+- [Loop Cosmos and Orientation](../index.md)
+- [Stack Architecture](../stack-architecture/index.md)
+- [Protocol Integration and Reference](../protocol-integration-and-reference/index.md)
+- [Continuity and Transition](../../../../continuity-and-transition/index.md)
+
 ## Next Actions
 
 1. Keep the training/roadmap pair together.

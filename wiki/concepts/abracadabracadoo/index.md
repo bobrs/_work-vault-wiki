@@ -8,6 +8,10 @@ The live protocol site is [Abracadabracadoo.com](https://abracadabracadoo.com). 
 
 In practice, Abracadabracadoo is the layer that keeps the family coherent when the same pattern reappears in different clothes. It is not the whole corpus; it is the protocol framing that many of the surrounding pieces seem to be trying to express.
 
+The concept matters because it gives the corpus a stable way to distinguish the protocol surface from the adjacent motifs that support it. Intent language, witness language, governance language, and recovery language all appear here as subordinate behaviors, but none of them should be forced to swallow the others. That separation keeps the family legible while still allowing the protocol to act as the anchor.
+
+This page therefore sits at the center of the protocol cluster: it touches [Intent-Consent](../intent-consent/index.md) when consent becomes operational, [Witnessing](../witnessing/index.md) when a state must be certified, [Governance Diad](../governance-diad/index.md) when legitimacy needs a two-sided rule, [LoopLink](../looplink/index.md) when transport and recovery matter, [PDSP](../pdsp/index.md) when sovereignty is being modeled, [Loop Economy](../loop-economy/index.md) when circulation pressure shows up, and [POLEMEMELOP](../polememelop/index.md) when the protocol family is treated as a larger recursive system.
+
 ## Related Artifacts
 
 - [Abracadabra_Protocol_Specification.docx](<../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
@@ -25,6 +29,13 @@ In practice, Abracadabracadoo is the layer that keeps the family coherent when t
 - [Reference - Stored Crystals](../../projects/side-projects-desktop/reference-stored-crystals/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Witnessing](../witnessing/index.md)
+- [Governance Diad](../governance-diad/index.md)
+- [LoopLink](../looplink/index.md)
+- [PDSP](../pdsp/index.md)
+- [Loop Economy](../loop-economy/index.md)
+- [POLEMEMELOP](../polememelop/index.md)
 
 ## Notes
 

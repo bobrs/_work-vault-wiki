@@ -2,7 +2,7 @@
 
 Parent lineage: `POLEMEMELOP`
 
-This cluster covers the technical sibling pair for automeme propagation and collapse resilience.
+This cluster covers the technical sibling pair for automeme propagation and collapse resilience. It is the operational half of the spine, where the vocabulary becomes a working system rather than a naming exercise.
 
 ## Current Shape
 
@@ -15,7 +15,12 @@ This cluster covers the technical sibling pair for automeme propagation and coll
 
 ## Working Read
 
-This is the technical half of POLEMEMELOP: one document handles propagation and the other handles resilience. They read as a stable sibling pair.
+This is the technical half of POLEMEMELOP: one document handles propagation and the other handles resilience. They read as a stable sibling pair, and they bridge naturally into SCT where loop behavior, continuity, and collapse handling are already doing adjacent work.
+
+## Related Branches
+
+- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
+- [Semantic Collapse Theory](../../semantic-collapse-theory/index.md)
 
 ## Next Actions
 

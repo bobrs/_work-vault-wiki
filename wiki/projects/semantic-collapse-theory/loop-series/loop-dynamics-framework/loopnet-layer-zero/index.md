@@ -16,6 +16,15 @@ This cluster covers the semantic privacy layer for timing, distance, and mesh-le
 
 This is the privacy layer: it protects the loop mesh from timing inference, hop leakage, and relationship profiling.
 
+It belongs beside the loop cosmos and trust pages because privacy here is not an isolated feature; it is part of the mesh’s navigability and survivability.
+
+## Related Links
+
+- [Loop Dynamics Framework](../index.md)
+- [Loop Cosmos and Orientation](../../loop-cosmos-and-orientation/index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+- [Core Loop Primitives](../../core-loop-primitives/index.md)
+
 ## Next Actions
 
 1. Keep the LoopNet privacy layer visible as its own page.

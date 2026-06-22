@@ -1,6 +1,6 @@
 # Intent-Consent
 
-This branch collects the intent-consent essay under `Loop and Phase Training`.
+This branch is the intent-consent essay seam under `Loop and Phase Training`. It serves as the compact language node for how permission, intent, and care are described across the training material.
 
 ## Current Shape
 
@@ -14,15 +14,24 @@ This branch collects the intent-consent essay under `Loop and Phase Training`.
 
 This is the root essay copy for the intent-consent seam. A sibling title also exists in `Misc Loop`, but the content diverges enough to keep both branches separate for now.
 
-The essay branch now serves as a compact semantic node for intent and consent language inside `Loop and Phase Training`. It should eventually point to related training, protocol, and cautionary material where the same vocabulary reappears.
+The essay branch should point toward the operational pages that use the same vocabulary: `Loop Repair Guide`, `Loop Maintenance Kit`, `Loop Basics`, and `The Loop Codex`. Keep `Advanced` in view as the deeper theory shelf, but do not pull it forward unless a page clearly justifies the split.
 
 ## Related Links
 
 - [Loop and Phase Training](../index.md)
 - [Misc Loop](../../misc-loop/index.md)
 - [Loop Maintenance Kit](../loop-maintenance-kit/index.md)
+- [Loop Repair Guide](../loop-repair-guide/index.md)
+- [Loop Basics](../loop-basics/index.md)
+- [Loop Life](../loop-life/index.md)
 - [Advanced](../advanced/index.md)
 - [Intent-Consent concept](../../../../concepts/intent-consent/index.md)
+
+## Sibling Links
+
+- [Preface](../preface/index.md)
+- [Glyph Glossary](../glyph-glossary/index.md)
+- [The Loop Codex](../loop-codex/index.md)
 
 ## Next Actions
 

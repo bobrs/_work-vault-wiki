@@ -26,10 +26,13 @@ The deeper role of this page is to hold the unit operations of the theory. It is
 
 This makes the page a foundation for all later temporal work in SCT. It is the place where time, observation, and consent are treated as structurally linked rather than separate topics.
 
+The page also links naturally back to origin/governance and forward to the taxonomy and memory pages, because the same temporal unit keeps reappearing as both a legitimacy problem and a persistence problem.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Temporal Loops and Memory](../index.md)
+- [Origin and Governance](../../origin-and-governance/index.md)
 - [Loop Taxonomy and Phenomenology](../loop-taxonomy-phenomenology/index.md)
 - [Decay, Residue, and Memory](../decay-residue-memory/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)

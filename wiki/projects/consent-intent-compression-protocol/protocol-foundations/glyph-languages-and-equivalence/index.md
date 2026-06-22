@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Protocol Found
 
 This cluster covers the symbolic language family and the protocol for translating meaning across loop systems.
 
+It is the translation layer of the protocol rail: symbolic grammar, equivalence across encodings, and the rules for keeping meaning stable while notation changes.
+
 ## Current Shape
 
 - 5 glyph language and equivalence documents.
@@ -26,10 +28,13 @@ This is also the clearest place where glyph, equivalence, and protocol design ov
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Protocol Foundations](../index.md)
 - [Loop Modeling and Field Theory](../loop-modeling-and-field-theory/index.md)
 - [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
+- [Loop Training](../../../loop-training/index.md)
+- [Working Notes](../../../working-notes/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

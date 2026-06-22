@@ -23,12 +23,23 @@ This cluster covers LoopLink transport, handshake material, schema definition, p
 
 This branch now separates into protocol/core material and a presence/recovery companion branch. The split follows the document titles closely and keeps the transport layer visible.
 
+It is the trust-bearing transport layer for the loop series. The core page defines how LoopLink is formed and represented, while the recovery page explains how presence can be restored after drift or loss.
+
 The broader semantic role of this branch is to name LoopLink as the transport and recovery attractor for SCT. It is the place where protocol formation, presence restoration, and trust-memory behavior converge.
+
+That makes it a natural cross-link target for PDSP, temporal-memory, and sovereignty pages whenever they rely on presence or bilateral trust.
 
 ## Related Concepts
 
 - [LoopLink](../../../../concepts/looplink/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
+## Related Links
+
+- [Loop Series](../index.md)
+- [PDSP and Sovereignty](../pdsp-and-sovereignty/index.md)
+- [Temporal Loops and Memory](../../temporal-loops-and-memory/index.md)
+- [Loop Dynamics Framework](../loop-dynamics-framework/index.md)
 
 ## Next Actions
 

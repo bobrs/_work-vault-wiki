@@ -24,9 +24,14 @@ This page is the conceptual minimum of the SCT loop language. The five forms rea
 
 The page should stay focused on the primitive ladder because it serves as the base vocabulary for the rest of the `Loop Series`.
 
+It also bridges naturally into the trust, economy, and dynamics pages, because those later branches rely on the same primitive vocabulary.
+
 ## Related Links
 
 - [Core Loop Primitives](../index.md)
+- [Loop Dynamics Framework](../../loop-dynamics-framework/index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+- [Loop Economy Series](../../loop-economy-series/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

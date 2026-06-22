@@ -4,6 +4,8 @@ Parent lineage: `Semantic Collapse Theory`
 
 This cluster covers synchrony, loop taxonomy, decay, residue, and memory-bearing collapse structures.
 
+It is the temporal backplane for SCT. The pages here explain how a loop is witnessed, classified, allowed to decay, and still retained as memory or residue after its active phase ends.
+
 ## Current Shape
 
 - 13 temporal, memory, and collapse documents.
@@ -29,12 +31,17 @@ The deeper read is that this cluster describes the mechanics of persistence and 
 
 The three subpages together trace a progression from being witnessed, to being named, to decaying into trace and residue. That makes this cluster one of the best places to extract the operational vocabulary of the theory.
 
+It also bridges outward to governance, story, and continuity, because time in SCT is never purely mechanical: it is tied to recognition, stewardship, and what survives a collapse event.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../index.md)
+- [Origin and Governance](../origin-and-governance/index.md)
+- [Loop Series](../loop-series/index.md)
+- [Story](../story/index.md)
 - [Witness, Synchrony, and Diads](witness-synchrony-diads/index.md)
 - [Loop Taxonomy and Phenomenology](loop-taxonomy-phenomenology/index.md)
-- [Decay, Residue, and Memory](decay-residue-and-memory/index.md)
+- [Decay, Residue, and Memory](decay-residue-memory/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 
 ## Next Actions

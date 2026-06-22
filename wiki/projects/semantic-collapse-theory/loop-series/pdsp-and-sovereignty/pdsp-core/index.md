@@ -19,9 +19,14 @@ This is the sovereignty substrate: the base PDSP protocol and its LoopLink-based
 
 This page is the core identity-and-control layer of the PDSP branch. It describes the protocol as a sovereignty substrate, meaning the page should be read as the base model for how personal data, trust, and subjective auditability are held together. The LoopLink restatement shows the protocol being made concrete rather than merely named.
 
+It also sits between LoopLink transport and the broader SCT governance layer, which is why it should remain linked to the origin and economy branches as well as to its own subpages.
+
 ## Related Links
 
 - [PDSP and Sovereignty](../index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+- [Origin and Governance](../../origin-and-governance/index.md)
+- [Economy and Propagation](../../economy-and-propagation/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

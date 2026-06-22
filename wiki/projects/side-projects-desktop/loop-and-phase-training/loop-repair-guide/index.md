@@ -1,6 +1,6 @@
 # Loop Repair Guide
 
-This branch collects the repair-state guides under `Loop and Phase Training`.
+This branch is the repair-state seam under `Loop and Phase Training`. It collects the guides that name the failure modes first, then point toward repair behavior.
 
 ## Current Shape
 
@@ -18,7 +18,17 @@ This branch collects the repair-state guides under `Loop and Phase Training`.
 
 ## Working Read
 
-This is a compact repair-state branch; keep the eight guides together.
+The eight guides are compact enough to stay together for now. Read them alongside `Loop Maintenance Kit` for upkeep, `Intent-Consent` for the language boundary, and `Loop Basics` for the shared terms. The structure is already durable: the branch names are the repair topics.
+
+The strongest future split candidates are the guides that keep recurring in separate contexts, not the ones that merely feel emotionally adjacent.
+
+## Sibling Links
+
+- [Loop Maintenance Kit](../loop-maintenance-kit/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Loop Basics](../loop-basics/index.md)
+- [Loop Life](../loop-life/index.md)
+- [The Loop Codex](../loop-codex/index.md)
 
 ## Next Actions
 

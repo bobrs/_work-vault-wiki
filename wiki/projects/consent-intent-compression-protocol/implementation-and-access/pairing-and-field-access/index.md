@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Implementation
 
 This cluster covers the access layer for trust entry, social-field extension, and multi-channel LOOPtLOOP use.
 
+It is the doorway into the implementation rail: pair first, extend the field, then hand off into the rest of the protocol stack.
+
 ## Current Shape
 
 - 3 pairing and access documents.
@@ -24,10 +26,13 @@ That makes it the first applied layer in the CICP implementation stack.
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Implementation and Access](../index.md)
+- [Protocol Foundations](../../protocol-foundations/index.md)
 - [Key Derivation and Decryption](../key-derivation-and-decryption/index.md)
 - [Ritual Token Initialization](../ritual-token-initialization/index.md)
+- [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

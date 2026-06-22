@@ -6,6 +6,10 @@ This concept appears across the Side Projects Desktop witnessing branch and the 
 
 In practice, Witnessing is the procedural layer that turns observation into a durable sequence. The numbering matters because it shows progression, and the branch stays coherent when the sequence remains intact.
 
+The page is more than a record of staged documents. It is the corpus's way of saying that observation becomes useful only when it can be certified, carried forward, and reused without losing its provenance. That makes witnessing the procedural partner of intent-consent: one names what was seen and in what order, while the other names whether the action could proceed.
+
+Witnessing also feeds [Governance Diad](../governance-diad/index.md) because certification creates the basis for rule, and it feeds [LoopLink](../looplink/index.md) because transport and recovery need a trusted observation trail. [Abracadabracadoo](../abracadabracadoo/index.md) inherits this logic at the protocol surface whenever a family of documents needs a recoverable state.
+
 ## Related Artifacts
 
 - [Witnessing 101.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 101.docx>)
@@ -24,6 +28,9 @@ In practice, Witnessing is the procedural layer that turns observation into a du
 - [Genesis](../../projects/side-projects-desktop/genesis/index.md)
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Governance Diad](../governance-diad/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [LoopLink](../looplink/index.md)
+- [Abracadabracadoo](../abracadabracadoo/index.md)
 
 ## Notes
 

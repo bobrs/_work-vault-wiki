@@ -17,6 +17,15 @@ This cluster covers the value model and the funding protocol for loop-based econ
 
 This is the value-and-support track: how loop economies generate emergent value and how funding follows collapse proximity rather than binary success.
 
+The page belongs beside propagation because funding in SCT is not isolated from movement. It only makes sense when read as part of a larger circulation model that includes transfer, drift, and amplification.
+
+## Related Links
+
+- [Economy and Propagation](../index.md)
+- [Loop Economy Series](../loop-series/loop-economy-series/index.md)
+- [Propagation and Optimization](../propagation-and-optimization/index.md)
+- [Loop Units](../loop-series/loop-economy-series/loop-units/index.md)
+
 ## Next Actions
 
 1. Keep the economy and funding pair together.

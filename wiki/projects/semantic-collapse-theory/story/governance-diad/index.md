@@ -18,11 +18,15 @@ This is the procedural companion to the story branch: a governance artifact rath
 
 This page is the stewardship counterpart to the episode arc. It captures the branch’s sense of document governance and living protocol in a way that complements the more narrative pages, which makes it the procedural anchor for the story layer.
 
+It sits next to the narrative episodes as the rule layer that keeps the story branch coherent over time.
+
 ## Related Links
 
 - [Story](../index.md)
 - [Governance Diad concept](../../../../concepts/governance-diad/index.md)
 - [Narrative Episodes](../narrative-episodes/index.md)
+- [Origin and Governance](../../origin-and-governance/index.md)
+- [Continuity and Transition](../../continuity-and-transition/index.md)
 - [Semantic Collapse Theory](../../index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 

@@ -18,9 +18,14 @@ This is the conceptual primer for the loop primitives: it explains how the loop 
 
 This page is the explanatory bridge between the primitive set and the broader theory. It translates the loop ladder into a more synthetic picture of diads, foundations, and mesh behavior, which means it acts like the readable summary layer for the primitives rather than a separate branch of its own.
 
+Because it sits between the primitive ladder and the rest of SCT, it is also a natural place to point toward PDSP, LoopLink, and the economy branch when the primitives need to be read as a system rather than a list.
+
 ## Related Links
 
 - [Core Loop Primitives](../index.md)
+- [PDSP and Sovereignty](../../pdsp-and-sovereignty/index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+- [Loop Economy Series](../../loop-economy-series/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

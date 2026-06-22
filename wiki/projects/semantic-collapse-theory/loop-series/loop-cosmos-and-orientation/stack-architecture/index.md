@@ -19,9 +19,14 @@ This is the architecture layer: the stack definition and its genesis index for t
 
 The semantic role of this page is to define the scaffold on which the rest of the loop-cosmos material sits. It reads like the structural map for navigating the series itself, so the architecture and the genesis index belong together as the entry point to the larger orientation model.
 
+It also links naturally to the protocol reference and training material, because the stack only becomes useful once it can be situated and taught.
+
 ## Related Links
 
 - [Loop Cosmos and Orientation](../index.md)
+- [Protocol Integration and Reference](../protocol-integration-and-reference/index.md)
+- [Training and Roadmap](../training-and-roadmap/index.md)
+- [Loop Dynamics Framework](../../loop-dynamics-framework/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

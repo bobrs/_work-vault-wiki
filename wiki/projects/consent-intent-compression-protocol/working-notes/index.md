@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)`
 
 This cluster keeps the support notes and compendium material that inform the branch without needing a deeper split yet.
 
+It is the branch memory: the place for explanatory notes, compendium material, and intermediate writeups that support the main protocol rails without yet justifying their own lineage page.
+
 ## Current Shape
 
 - 2 working notes.
@@ -16,6 +18,15 @@ This cluster keeps the support notes and compendium material that inform the bra
 ## Working Read
 
 These are support notes and compilations that inform the branch without needing their own deeper split yet.
+
+The two items still behave like a paired note set rather than a new branch. They should stay attached to the parent CICP lineage until additional material makes the cluster more than a working notebook.
+
+## Related Links
+
+- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../index.md)
+- [Protocol Foundations](../protocol-foundations/index.md)
+- [Loop Training](../loop-training/index.md)
 
 ## Next Actions
 

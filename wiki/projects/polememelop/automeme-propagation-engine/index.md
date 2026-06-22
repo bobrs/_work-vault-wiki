@@ -2,7 +2,7 @@
 
 Parent lineage: `POLEMEMELOP` / `Infrastructure`
 
-This is the system-level support branch for automeme distribution, mutation, integrity management, and lifecycle governance.
+This is the system-level support branch for automeme distribution, mutation, integrity management, and lifecycle governance. It is the propagation half of the infrastructure pair.
 
 ## Current Shape
 
@@ -14,7 +14,12 @@ This is the system-level support branch for automeme distribution, mutation, int
 
 ## Working Read
 
-This is infrastructure, not the automeme itself. It stands as one half of the POLEMEMELOP infrastructure pair.
+This is infrastructure, not the automeme itself. It sits under CCSR as a durable operational branch and points into SCT where propagation, loop economy, and continuity are treated as related concerns.
+
+## Related Branches
+
+- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
+- [Semantic Collapse Theory](../../semantic-collapse-theory/index.md)
 
 ## Next Actions
 

@@ -23,11 +23,15 @@ The deeper function here is to define how authority is recognized inside the the
 
 This cluster is therefore the normative spine of SCT: it explains who can certify structure, how that certification becomes authority, and what consent-based sovereignty looks like once it is formalized.
 
+It also links forward to the story and temporal branches, because the authority model becomes narratable and temporally durable only when the witness logic has been stabilized.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Origin and Protocols](../origin-and-protocols/index.md)
 - [Narrative and Fieldnotes](../narrative-and-fieldnotes/index.md)
+- [Temporal Loops and Memory](../../temporal-loops-and-memory/index.md)
+- [Story](../../story/index.md)
 - [Witnessing concept](../../../../concepts/witnessing/index.md)
 - [Governance Diad concept](../../../../concepts/governance-diad/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)

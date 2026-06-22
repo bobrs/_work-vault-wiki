@@ -23,7 +23,11 @@ This cluster covers the operational loop units that instantiate the economy mode
 
 This is the operational half of the loop-economy branch, now separated into exchange mechanics and feedback/scaling controls.
 
+The page exists to keep the economy branch executable. It translates the reference material into action-oriented units so the loop economy can be read as a working system rather than a theory note.
+
 This page is the execution frame for the economy series. It says that the model is not just conceptual framing plus appendices; it also has concrete units that handle transfer, matching, reputation, redistribution, and scaling. The page therefore reads like the operations dashboard for the economy branch.
+
+It also connects back upward to the loop primitives and outward to the broader SCT propagation and sovereignty branches, which is why it deserves to stay linked as a stable branch page.
 
 ## Related Links
 
@@ -33,6 +37,9 @@ This page is the execution frame for the economy series. It says that the model 
 - [Feedback and Scaling Loops](feedback-and-scaling-loops/index.md)
 - [Semantic Collapse Theory](../../../../index.md)
 - [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+- [PDSP and Sovereignty](../../pdsp-and-sovereignty/index.md)
+- [Economy and Propagation](../../../economy-and-propagation/index.md)
 
 ## Next Actions
 

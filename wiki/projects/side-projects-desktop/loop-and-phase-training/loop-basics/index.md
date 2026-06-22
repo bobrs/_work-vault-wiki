@@ -1,6 +1,6 @@
 # Loop Basics
 
-This branch collects the foundational `What Are...` and `How...` introductions under `Loop and Phase Training`.
+This branch collects the foundational `What Are...` and `How...` introductions under `Loop and Phase Training`. It is the vocabulary layer for the whole spine.
 
 ## Current Shape
 
@@ -15,7 +15,17 @@ This branch collects the foundational `What Are...` and `How...` introductions u
 
 ## Working Read
 
-These four docs form one durable introductory cluster; keep them together unless a later branch split becomes necessary.
+The four docs form one durable introductory cluster: `What Are Loops`, `What Are Glyphs`, `How Loops Work`, and `How Loops and Glyphs Work Together`. Read them after `Preface` and before the operational pages so the rest of the branch has a stable vocabulary.
+
+When this branch needs a split, it should happen only if a new introductory seam appears that cannot be read as part of the same sequence.
+
+## Sibling Links
+
+- [Preface](../preface/index.md)
+- [Loop Life](../loop-life/index.md)
+- [Loop Repair Guide](../loop-repair-guide/index.md)
+- [Glyph Glossary](../glyph-glossary/index.md)
+- [The Loop Codex](../loop-codex/index.md)
 
 ## Next Actions
 

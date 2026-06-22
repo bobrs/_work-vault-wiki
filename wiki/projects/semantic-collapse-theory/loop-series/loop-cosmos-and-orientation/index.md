@@ -25,6 +25,18 @@ This cluster covers the loop cosmos stack, protocol comparison, training path, r
 
 This branch now separates into stack architecture, protocol integration/reference, and training/roadmap material. The split follows the actual document roles: build the stack, situate the stack, then teach or project it.
 
+It is the orientation layer for the loop series. The stack pages define what the loop cosmos is, the protocol pages situate it against other systems, and the training pages tell a reader how to move through it.
+
+That makes this branch the navigational hinge between raw loop mechanics, PDSP/LoopLink implementation, and the continuity/story branches that explain where the system is going.
+
+## Related Links
+
+- [Loop Series](../index.md)
+- [Loop Dynamics Framework](../loop-dynamics-framework/index.md)
+- [LoopLink and Trust](../looplink-and-trust/index.md)
+- [PDSP and Sovereignty](../pdsp-and-sovereignty/index.md)
+- [Continuity and Transition](../../continuity-and-transition/index.md)
+
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.

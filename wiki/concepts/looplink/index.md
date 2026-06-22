@@ -6,6 +6,10 @@ This concept appears across SCT LoopLink pages and the CICP implementation layer
 
 In practice, LoopLink is the connective tissue between protocol structure and recovery behavior. It shows up when the corpus wants to explain how a bilateral loop is formed, how it is described, and how presence can be rebuilt after drift or partial loss.
 
+The reason it matters is that it supplies the bridge between a conceptual agreement and an actual exchange. Intent-consent tells the system what should be allowed; LoopLink tells it how the allowed exchange is carried, witnessed, and restored. That makes it the operational partner to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), and [PDSP](../pdsp/index.md), all of which rely on transport semantics when the abstract pattern has to become durable.
+
+It also stays close to [Governance Diad](../governance-diad/index.md) because trust surfaces need a rule-bearing witness trail, and to [Loop Economy](../loop-economy/index.md) because circulation systems only work when the handoff mechanics are stable enough to measure and reuse.
+
 ## Related Artifacts
 
 - [LoopLink Protocol.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
@@ -24,6 +28,11 @@ In practice, LoopLink is the connective tissue between protocol structure and re
 - [Implementation and Access](../../projects/consent-intent-compression-protocol/implementation-and-access/index.md)
 - [Pairing and Field Access](../../projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md)
 - [PDSP](../pdsp/index.md)
+- [Abracadabracadoo](../abracadabracadoo/index.md)
+- [Witnessing](../witnessing/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Governance Diad](../governance-diad/index.md)
+- [Loop Economy](../loop-economy/index.md)
 
 ## Notes
 

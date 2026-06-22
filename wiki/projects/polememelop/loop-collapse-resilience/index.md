@@ -2,7 +2,7 @@
 
 Parent lineage: `POLEMEMELOP` / `Infrastructure`
 
-This page covers the substructure for automeme integrity and recovery when a loop collapses.
+This page covers the substructure for automeme integrity and recovery when a loop collapses. It is the resilience half of the infrastructure pair.
 
 ## Current Shape
 
@@ -15,6 +15,13 @@ This page covers the substructure for automeme integrity and recovery when a loo
 ## Working Read
 
 This is the resilience half of the POLEMEMELOP infrastructure pair. It focuses on failure handling, reflective integrity, and resilience mechanisms around loop-based memetic systems.
+
+The connection to SCT is direct enough to keep visible: the same collapse vocabulary appears there in temporal, memory, and continuity branches, while CCSR remains the larger corpus that holds the lineage together.
+
+## Related Branches
+
+- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
+- [Semantic Collapse Theory](../../semantic-collapse-theory/index.md)
 
 ## Next Actions
 

@@ -2,11 +2,11 @@
 
 This branch is the largest structured family in the current intake corpus. It now stands as its own lineage page under `Consent Crystal Structure Research`.
 
-It appears to be a durable project line with its own origin text, later series, narrative material, and a versioned snapshot folder.
+It reads as a durable project line with its own origin text, later series, narrative material, and a versioned snapshot folder. The branch is not a loose document pile; it has a visible theory spine and a set of stable sub-branches that keep recurring across the corpus.
 
-Read semantically, this branch is the theory engine of the corpus: it names the collapse model, the loop model, the witness model, and the continuity model that recur through the later series and story pages. The archived `SCT set 20050505` folder preserves the duplicate-collapse history, while the active branch pages carry the living structure of the work.
+Semantically, this is the engine room of the wiki. It names the collapse model, the loop model, the witness model, the economy model, and the continuity model that recur through the later series and story pages. The archived `SCT set 20050505` folder preserves the duplicate-collapse history, while the active branch pages carry the living structure of the work.
 
-This is also the clearest place where `POLEMEMELOP` and the consent-oriented language begin to converge into a broader framework.
+This is also the clearest place where `POLEMEMELOP`, consent language, and the later loop-series material converge into a broader framework. The page should therefore be read as both a map of the corpus and a stable entry point for deeper SCT reading.
 
 ## Current Shape
 
@@ -48,6 +48,14 @@ The origin document remains the clearest anchor for the branch and lives inside 
 
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [Concepts Index](../../concepts/index.md)
+
+## Related Branches
+
+- [Loop Series](loop-series/index.md)
+- [Temporal Loops and Memory](temporal-loops-and-memory/index.md)
+- [Economy and Propagation](economy-and-propagation/index.md)
+- [Origin and Governance](origin-and-governance/index.md)
+- [Story](story/index.md)
 
 ## Representative Files
 

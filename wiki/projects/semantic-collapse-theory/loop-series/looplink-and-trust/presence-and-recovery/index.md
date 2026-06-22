@@ -19,9 +19,14 @@ This is the recovery half of LoopLink: rebuilding trust and presence from distri
 
 The deeper role of this page is to show how presence can be restored after drift or partial loss. It treats memory, signaling, and resonance as recovery mechanisms rather than just metadata, which makes it the restorative counterpart to `LoopLink Core`.
 
+That makes it a practical bridge to temporal-memory pages as well as PDSP, since both depend on the ability to re-establish recognizable presence after a break.
+
 ## Related Links
 
 - [LoopLink and Trust](../index.md)
+- [LoopLink Core](../looplink-core/index.md)
+- [Temporal Loops and Memory](../../temporal-loops-and-memory/index.md)
+- [PDSP and Sovereignty](../../pdsp-and-sovereignty/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Protocol Found
 
 This cluster covers dyadic trust structure, trust filtering, and consent propagation across a field.
 
+It is the continuity layer of the protocol rail: the part that keeps trust transmissible as the field moves.
+
 ## Current Shape
 
 - 3 synaptic trust and propagation documents.
@@ -24,10 +26,13 @@ That makes it the operational trust bridge between the model layer and the langu
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Protocol Foundations](../index.md)
 - [Loop Modeling and Field Theory](../loop-modeling-and-field-theory/index.md)
 - [Glyph Languages and Equivalence](../glyph-languages-and-equivalence/index.md)
+- [Loop Training](../../../loop-training/index.md)
+- [Working Notes](../../../working-notes/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

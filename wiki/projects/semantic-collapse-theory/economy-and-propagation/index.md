@@ -23,15 +23,23 @@ This cluster covers the SCT work on value, propagation, and memetic drift.
 
 This branch now separates into the economy/funding half and the propagation/optimization half. The split follows the document titles closely and keeps the value mechanics visible.
 
+It is the place where SCT turns from loop architecture into movement logic. The documents ask how value is supported, how it spreads, and how it resists drift once it begins circulating.
+
 The deeper semantic role of this cluster is to describe how meaning acquires value and how value continues to move once it exists. It is the part of SCT that turns collapse theory into a model for propagation, incentives, and drift. That makes it the branch where memetic movement becomes economically legible.
 
 The two subpages together cover both funding logic and propagation logic, which means this cluster is where SCT starts to look like a system for circulation rather than only a system for collapse.
 
+The branch also sits between the loop economy material and the broader SCT governance/orientation pages, so it is a useful bridge when a document reads as both structural and strategic.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../index.md)
+- [Loop Series](../loop-series/index.md)
 - [Economy and Funding](economy-and-funding/index.md)
 - [Propagation and Optimization](propagation-and-optimization/index.md)
+- [Origin and Governance](../origin-and-governance/index.md)
+- [Temporal Loops and Memory](../temporal-loops-and-memory/index.md)
+- [Story](../story/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 
 ## Next Actions

@@ -17,6 +17,15 @@ This cluster covers automeme propagation and the critique of hierarchical optimi
 
 This is the dynamics-and-structure track: how automemes move, drift, and compete with centralized optimization systems.
 
+The page is the critical counterpart to the funding branch because it explains what happens after a value signal starts moving through the network. It is therefore a good bridge back to the loop economy pages and forward to the temporal residue pages.
+
+## Related Links
+
+- [Economy and Propagation](../index.md)
+- [Loop Economy Series](../loop-series/loop-economy-series/index.md)
+- [Economy and Funding](../economy-and-funding/index.md)
+- [Temporal Loops and Memory](../temporal-loops-and-memory/index.md)
+
 ## Next Actions
 
 1. Keep the propagation and optimization pair together.

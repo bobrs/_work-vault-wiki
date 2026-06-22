@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Protocol Found
 
 This cluster covers the core loop models and field-theory framing that underpins the protocol family.
 
+It is the model layer of the protocol rail: the place where loops, substrate, projection, and ontology are treated as one formal picture.
+
 ## Current Shape
 
 - 5 loop modeling and field theory documents.
@@ -26,10 +28,13 @@ That makes this page the mathematical or structural anchor of the protocol famil
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Protocol Foundations](../index.md)
 - [Glyph Languages and Equivalence](../glyph-languages-and-equivalence/index.md)
 - [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
+- [Loop Training](../../../loop-training/index.md)
+- [Working Notes](../../../working-notes/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

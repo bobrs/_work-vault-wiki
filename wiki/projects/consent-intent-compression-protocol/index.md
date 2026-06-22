@@ -1,10 +1,10 @@
 # Consent–Intent Compression Protocol (CICP)
 
-This branch is the structured mutuality/consent corpus inside the current intake. It now stands as its own lineage page under `Consent Crystal Structure Research`.
+This branch is the structured mutuality/consent corpus inside the current intake. It sits under `Consent Crystal Structure Research` as the operational rail of the field.
 
-Read semantically, this branch is the protocol and implementation side of the consent field: it collects the language of loops, mutuality, access, training, and identity scaffolding into a practical system family. The root cluster pages hold the major seams, while the `Loop Training` and `FractalIdentity Tree` pages preserve the durable sub-branches that read like their own working lines.
+Read semantically, this branch is the protocol side of the consent corpus: it gathers loop language, access control, training, outreach, and identity scaffolding into one system family. The root cluster pages hold the major seams, while `Loop Training`, `Working Notes`, and `FractalIdentity Tree` preserve the durable sub-branches that read like their own working lines.
 
-The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward operational protocol, access, and applied framing rather than theory narration.
+The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward protocol, implementation, and applied framing rather than theory narration.
 
 ## Current Shape
 
@@ -44,7 +44,7 @@ This corpus reads like a practical protocol family rather than a single abstract
 
 The root-level documents now split into protocol foundations, implementation and access, outward-facing applications, and working notes.
 
-The `Loop Training` and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
+The `Loop Training`, `Working Notes`, and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
 
 The branch-root `.zip` companion is archived and retained as lineage evidence.
 
@@ -53,6 +53,17 @@ The branch-root `.zip` companion is archived and retained as lineage evidence.
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Concepts Index](../../concepts/index.md)
+
+## Related Links
+
+- [Consent Crystal Structure Research](../index.md)
+- [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
+- [Protocol Foundations](protocol-foundations/index.md)
+- [Implementation and Access](implementation-and-access/index.md)
+- [Applications and Outreach](applications-and-outreach/index.md)
+- [Loop Training](loop-training/index.md)
+- [Working Notes](working-notes/index.md)
+- [FractalIdentity Tree](fractalidentity-tree/index.md)
 
 ## Next Actions
 

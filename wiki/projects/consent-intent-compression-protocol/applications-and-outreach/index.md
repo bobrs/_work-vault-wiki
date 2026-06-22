@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)`
 
 This cluster covers outward-facing briefs, application concepts, and presentation material.
 
+It is the packaging rail of CICP: the material that turns the protocol family into domain briefs, partner language, and circulation-ready artifacts.
+
 ## Current Shape
 
 - 6 outward-facing documents.
@@ -22,6 +24,18 @@ This cluster covers outward-facing briefs, application concepts, and presentatio
 ## Working Read
 
 This is the outward-facing branch: market-specific application briefs plus the patent and pitch materials that package CICP for external explanation. The briefs form one family, and the commercialization assets form another.
+
+Taken together, the two subpages separate audience-specific explanation from public-facing capture of the work. That makes this cluster the external narrative surface of the protocol branch.
+
+The page should stay readable as a packaging layer rather than as a generic document bucket.
+
+## Related Links
+
+- [Consent Crystal Structure Research](../../../consent-crystal-structure-research/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../index.md)
+- [Vertical Application Briefs](vertical-application-briefs/index.md)
+- [Commercialization Materials](commercialization-materials/index.md)
+- [Protocol Foundations](../protocol-foundations/index.md)
 
 ## Next Actions
 

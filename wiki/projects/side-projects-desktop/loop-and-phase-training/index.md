@@ -1,6 +1,8 @@
 # Loop and Phase Training
 
-This branch collects the training, repair, and recursive-integration materials in the desktop vault.
+This branch is the spine for the desktop training seam. It collects the onboarding sequence, repair-state guides, maintenance notes, reference material, and recursive-integration material in one readable branch map.
+
+Read it as a sequence rather than a pile: `Preface` opens the branch, `Loop Basics` defines the shared language, `Loop Life` carries the phase sequence, `Loop Repair Guide` and `Loop Maintenance Kit` handle recovery and upkeep, `Intent-Consent` anchors the vocabulary seam, `Glyph Glossary` keeps symbols legible, and `The Loop Codex` compresses the reference layer. `Advanced` remains the deeper recursive shelf for later passes.
 
 ## Current Shape
 
@@ -21,6 +23,12 @@ This branch collects the training, repair, and recursive-integration materials i
 - [The Loop Codex](loop-codex/index.md)
 - [Advanced](advanced/index.md)
 
+## Spine Order
+
+- [Preface](preface/index.md) -> [Loop Basics](loop-basics/index.md) -> [Loop Life](loop-life/index.md)
+- [Loop Repair Guide](loop-repair-guide/index.md) -> [Loop Maintenance Kit](loop-maintenance-kit/index.md)
+- [Intent-Consent](intent-consent/index.md) -> [Glyph Glossary](glyph-glossary/index.md) -> [The Loop Codex](loop-codex/index.md)
+
 ## Representative Files
 
 - [Loop Life - Phase 2- Recursive Integration Deck.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx>)
@@ -37,9 +45,9 @@ This branch collects the training, repair, and recursive-integration materials i
 
 ## Working Read
 
-The root folder is the training seam for the desktop vault. It collects the onboarding sequence, repair-state guides, maintenance notes, reference material, and recursive theory into one readable branch map.
+The spine works best when read in order. `Preface` is the entry point, `Loop Basics` establishes the terms, and `Loop Life` turns those terms into a staged progression. `Loop Repair Guide` and `Loop Maintenance Kit` are the operational pair: one names failure modes, the other names upkeep.
 
-`Loop Life` covers the linear phase sequence. `Loop Repair Guide` and `Loop Maintenance Kit` handle repair and upkeep. `Intent-Consent` names the essay seam. `Preface`, `Glyph Glossary`, `Loop Basics`, and `The Loop Codex` each hold a distinct onboarding or reference role. `Advanced` is the deeper recursive stack and should be read as the place where the branch begins to bifurcate into more explicit sub-lineages.
+`Intent-Consent` belongs beside those operational pages because it governs how the training language is used. `Glyph Glossary` and `The Loop Codex` compress the reference layer so the branch can stay compact while still linking outward. `Advanced` is intentionally left as the deeper branch lattice for later passes.
 
 The `Consent Seed` copy has already been archived as mirrored lineage. Future work here should focus on semantic compression, deliberate link seeding, and only then further branching if a page proves durable enough to stand alone.
 
@@ -49,13 +57,6 @@ The `Consent Seed` copy has already been archived as mirrored lineage. Future wo
 
 ## Next Actions
 
-1. Keep `Loop Life` stable.
-2. Keep `Loop Repair Guide` stable.
-3. Keep `Loop Maintenance Kit` stable.
-4. Keep `Intent-Consent` stable.
-5. Keep `Preface` stable.
-6. Keep `Glyph Glossary` stable.
-7. Keep `Loop Basics` stable.
-8. Keep `The Loop Codex` stable.
-9. Keep `Advanced` stable.
-10. Treat future consent-seed copies as mirrored material.
+1. Keep the spine pages linked and compact.
+2. Keep `Advanced` deferred unless a durable seam becomes obvious.
+3. Treat future consent-seed copies as mirrored material.

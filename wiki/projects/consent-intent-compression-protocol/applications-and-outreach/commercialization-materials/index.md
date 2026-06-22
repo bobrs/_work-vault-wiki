@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Applications a
 
 This cluster covers the patent draft and pitch deck that package the platform for external circulation.
 
+It is the circulation-ready end of the packaging rail: IP framing on one side, partner storytelling on the other.
+
 ## Current Shape
 
 - 2 commercialization documents.
@@ -16,6 +18,14 @@ This cluster covers the patent draft and pitch deck that package the platform fo
 ## Working Read
 
 This is the go-to-market layer: one document for IP framing, one for presentation and partner storytelling.
+
+## Related Links
+
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../index.md)
+- [Applications and Outreach](../index.md)
+- [Vertical Application Briefs](../vertical-application-briefs/index.md)
+- [Protocol Foundations](../../protocol-foundations/index.md)
 
 ## Next Actions
 

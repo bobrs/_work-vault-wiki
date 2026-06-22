@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)`
 
 This cluster covers the implementation surface: pairing, access control, decryption, and physical token initialization.
 
+It is the execution rail of CICP. The documents here move from trust entry into cryptographic handling and then into device-facing initialization.
+
 ## Current Shape
 
 - 7 implementation and access documents.
@@ -37,10 +39,13 @@ The three subpages form a clean implementation pipeline, which is why this clust
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../index.md)
 - [Pairing and Field Access](pairing-and-field-access/index.md)
 - [Key Derivation and Decryption](key-derivation-and-decryption/index.md)
 - [Ritual Token Initialization](ritual-token-initialization/index.md)
+- [Protocol Foundations](../protocol-foundations/index.md)
+- [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 
 ## Next Actions

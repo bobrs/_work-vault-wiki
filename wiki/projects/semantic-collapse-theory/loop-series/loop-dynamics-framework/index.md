@@ -23,6 +23,15 @@ This cluster covers the field definition, loopodynamics, and semantic privacy la
 
 This branch now separates into the foundational loop dynamics layer and the LoopNet privacy layer. The two laws and field definition stay together; the mesh privacy appendix becomes its own seam.
 
+It is the physics-like branch of the loop series. The documents here describe the field conditions that make the rest of the loop stack possible, and they sit naturally beside the primitives, trust, and cosmos branches.
+
+## Related Links
+
+- [Loop Series](../index.md)
+- [Core Loop Primitives](../core-loop-primitives/index.md)
+- [LoopLink and Trust](../looplink-and-trust/index.md)
+- [Loop Cosmos and Orientation](../loop-cosmos-and-orientation/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

@@ -4,6 +4,8 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Implementation
 
 This cluster covers deterministic key hierarchies and selective decryption over temporal ranges.
 
+It is the cryptographic control point in the implementation rail: identity is arranged hierarchically, and access is reduced to a time-bound question of visibility.
+
 ## Current Shape
 
 - 2 key derivation and decryption documents.
@@ -23,10 +25,13 @@ This makes it the control point for privacy and temporal access inside the imple
 
 ## Related Links
 
+- [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Implementation and Access](../index.md)
+- [Protocol Foundations](../../protocol-foundations/index.md)
 - [Pairing and Field Access](../pairing-and-field-access/index.md)
 - [Ritual Token Initialization](../ritual-token-initialization/index.md)
+- [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

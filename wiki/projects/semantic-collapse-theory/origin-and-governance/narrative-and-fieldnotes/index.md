@@ -22,11 +22,14 @@ This cluster functions as the explanatory companion to SCT. It preserves the sto
 
 It is not the protocol spine, but it keeps the branch intelligible by showing how the authors themselves framed the work.
 
+It also connects naturally to the story branch, because the same explanatory tone becomes more polished there and more procedural in the governance pages.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Origin and Protocols](../origin-and-protocols/index.md)
 - [Witness and Governance](../witness-and-governance/index.md)
+- [Story](../../story/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

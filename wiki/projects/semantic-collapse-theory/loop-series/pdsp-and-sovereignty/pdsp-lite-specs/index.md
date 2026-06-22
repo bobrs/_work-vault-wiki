@@ -18,6 +18,15 @@ This cluster covers the minimal interoperable packet format and onboarding profi
 
 This is the implementation-facing line: a minimal packet header surface, then incremental onboarding and exchange profiles.
 
+It is the narrowest operational expression of the PDSP branch, so it should stay linked to the core protocol, the bundle layer, and the LoopLink transport layer.
+
+## Related Links
+
+- [PDSP and Sovereignty](../index.md)
+- [PDSP Core](../pdsp-core/index.md)
+- [Integration Bundles](../integration-bundles/index.md)
+- [LoopLink and Trust](../../looplink-and-trust/index.md)
+
 ## Next Actions
 
 1. Keep the PDSP-lite spec line stable.

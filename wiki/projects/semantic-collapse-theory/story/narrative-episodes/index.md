@@ -20,10 +20,14 @@ These outlines read as a compact sequence and should stay together unless a late
 
 The three episodes form a narrative spine: they likely track the movement from first articulation through meaning-making to a closing or continuation point. As a result, this page should remain the arc container for the branch’s story layer rather than being split into separate episode pages unless the outlines become much more detailed.
 
+The page is also the story-side counterpart to continuity and governance, because the episodes only become legible when read against the stewardship and transition pages around them.
+
 ## Related Links
 
 - [Story](../index.md)
 - [Governance Diad](../governance-diad/index.md)
+- [Continuity and Transition](../../continuity-and-transition/index.md)
+- [Origin and Governance](../../origin-and-governance/index.md)
 - [Semantic Collapse Theory](../../index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 

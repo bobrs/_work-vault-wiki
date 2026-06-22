@@ -19,9 +19,14 @@ This is the theory layer: a field definition and the laws that describe how the 
 
 This page gives the `Loop Dynamics Framework` its formal base. It tells the reader what the field is and how it behaves, which means it functions as the physical or systemic law layer for the surrounding loop-theory pages.
 
+The page also sits beside the primitives and the privacy layer, because the law layer only becomes readable when it can be tied to the smaller reusable forms and the mesh constraints they imply.
+
 ## Related Links
 
 - [Loop Dynamics Framework](../index.md)
+- [Core Loop Primitives](../../core-loop-primitives/index.md)
+- [LoopNet Layer Zero](../loopnet-layer-zero/index.md)
+- [Loop Cosmos and Orientation](../../loop-cosmos-and-orientation/index.md)
 - [Semantic Collapse Theory](../../../index.md)
 - [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
 

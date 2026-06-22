@@ -21,12 +21,15 @@ The cluster’s deeper function is to convert loop structure into readable categ
 
 That makes this page a bridge between formal classification and human report.
 
+It also sits between witness and residue, because the act of naming the loop usually happens just before the loop is either stabilized or allowed to fade.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
 - [Temporal Loops and Memory](../index.md)
 - [Witness, Synchrony, and Diads](../witness-synchrony-diads/index.md)
 - [Decay, Residue, and Memory](../decay-residue-memory/index.md)
+- [Origin and Governance](../../origin-and-governance/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions
