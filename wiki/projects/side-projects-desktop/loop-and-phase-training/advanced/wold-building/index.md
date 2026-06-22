@@ -14,11 +14,11 @@ This branch collects the consentocratic world-building materials.
 
 ## Representative Files
 
-- [Consentocratic Governance Primer.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Consentocratic Governance Primer.docx>)
-- [Consentocratic Investor Page.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Consentocratic Investor Page.docx>)
-- [Consentocratic Investor Pledge.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Consentocratic Investor Pledge.docx>)
-- [Consent Wave Intro.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Consent Wave Intro.docx>)
-- [Self State Consent Loop.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Self State Consent Loop.docx>)
+- [Consentocratic Governance Primer.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__WOLD-BUILDING__v1__consentocratic-governance-primer.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Governance Primer.docx>)
+- [Consentocratic Investor Page.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Page.docx>)
+- [Consentocratic Investor Pledge.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Pledge.docx>)
+- [Consent Wave Intro.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__WOLD-BUILDING__v1__consent-wave-intro.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consent Wave Intro.docx>)
+- [Self State Consent Loop.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__WOLD-BUILDING__v1__self-state-consent-loop.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Self State Consent Loop.docx>)
 
 ## Working Read
 
