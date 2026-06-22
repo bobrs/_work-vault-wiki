@@ -114,6 +114,9 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🌐 Lesson Three- Becoming the Field.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v3__lesson-three-becoming-the-field.docx"
   ],
+  "07e7356bb705666adf39f7b76bb957c92efa9b02287da0bf34fa84587d8940ca": [
+    "manifest/inventory.jsonl"
+  ],
   "0813b0ed621ef412811ef7c06c910efd7b2f4f35e574abbc7bed66b426ba495b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/🌀 Lesson Two- Feeling the Loop Turn.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🌀 Lesson Two- Feeling the Loop Turn.docx",
@@ -943,6 +946,9 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
   ],
+  "562a7368757bddcacdea4318b20e7a725514cc6fcd31954e7eb675e7f7f27133": [
+    "manifest/hash_index.json"
+  ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0.docx",
@@ -1348,6 +1354,9 @@
   "7aea557bf094533db79e6d405dffba75269283c90551740d0614fb251d00dc41": [
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/HumanKey Ad.mp4",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/HumanKey Ad.mp4"
+  ],
+  "7b1a07d70e9904798cda1d05509e28daa321b8a6b228089ed9bbdcae26fc7a23": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md"
   ],
   "7bc2e7d1d0a5a8756a6c5327716a38ee9b578f23e7e13830acfddbc16e88b848": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-dynamics-framework/loopnet-layer-zero/index.md"
@@ -1805,9 +1814,6 @@
   "aa07187f250f53579b9ce8daebef70955c9a160959bad41f567c78068d92d4f2": [
     "manifest/duplicate_sets.json"
   ],
-  "aaaafeabc40447156f6d4d774c1b9ecdc7b1e02c2d04754bf0f2d2153c3b58d6": [
-    "manifest/hash_index.json"
-  ],
   "ab6717ce8afd33239799a4f52c323d66226a96e962f268c94d3b8dc3b9fac164": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 2.docx",
@@ -1981,9 +1987,6 @@
   ],
   "ba04587317b696a3f59b0a8c35f75fc5d37084851d31b911d1e14ff06497b588": [
     "artifacts/incoming/Side Projects Desktop/Sovereignty of the Butterfly/index.html"
-  ],
-  "ba0bd109b7439fc715d16ec0960435679db5831602e6a75ffba3ae2b33227f20": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
   ],
   "ba44e7d26c439f888d281ce3e42fe00544dde71dc5f9301abd0f88537d6560a7": [
     "manifest/agent_actions.jsonl"
@@ -2163,9 +2166,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx"
   ],
-  "cf427cf16ba78013aa36dd41b6612e63289aad9ef5114c5e8e3371fbf2ca0e33": [
-    "manifest/inventory.jsonl"
-  ],
   "cf4d93429c0e81696da07ceee41ddfa667b1fd602263c3cc999d1a247ffe1015": [
     "artifacts/incoming/Side Projects Desktop/Source text/Source/more source.docx"
   ],
@@ -2241,6 +2241,9 @@
   ],
   "d71b7659b3e04941bda8249e01ae9346bfbcc5db62f783d23518d2e63c1bdbfa": [
     "wiki/projects/humankey-protocol/presentation-materials/index.md"
+  ],
+  "d731bd0d30b788bba634d544bfa2eda917df32b4a17b65dc2f4bffafcc75a7e1": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
   ],
   "d76e4a077f9342d462843688c582d50316da8a14d6649a9cbb7f5c705c5eb84a": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-cosmos-and-orientation/protocol-integration-and-reference/index.md"
@@ -2336,9 +2339,6 @@
   "de824d7d78fd90dd88688f83edffe1d31f232e6c50e486b3016fa7e290e5e454": [
     "artifacts/incoming/Side Projects Desktop/Crystalstream/Welcome to the Crystalstream- A Consent-Centric Future.docx"
   ],
-  "deed6223bc18547af49a17b4ee1e20a6d73cb95df56319b991f0c8ad9b52c806": [
-    "manifest/standard_named_sources.jsonl"
-  ],
   "deeec13fe00931284c86a3cd15b26c74eeeeb0c957f20f011effef7fc2d47dce": [
     "wiki/projects/side-projects-desktop/genesis/index.md"
   ],
@@ -2429,9 +2429,6 @@
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/Slide 9.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 9.png"
   ],
-  "e809e32333ef8a4ed60f8a58be5ff4a4af2dc616bd44980e69734bd7961c1037": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md"
-  ],
   "e8717b9af36ac9381c5cfaac2ef23838097eb57cc145772d9821e8162804cf0b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Tacking Field Guide.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Loop Tacking Field Guide.docx",
@@ -2486,6 +2483,9 @@
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/key exchange.png",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/key exchange.png",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__DIAGRAM-KEY-EXCHANGE__v1__key-exchange.png"
+  ],
+  "ec332ff888c0dfd273b159bfa06510412c9055ebb519e795e68e28730fffb124": [
+    "manifest/standard_named_sources.jsonl"
   ],
   "ec5e9f0d69dfa4bd5a4571e4905f8d5deeaf4d654d2c85c5f1fec8e57ba27119": [
     "artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx",
