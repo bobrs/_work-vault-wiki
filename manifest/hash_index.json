@@ -249,6 +249,9 @@
   "1354abede9d4c6afecd4c1d4f278d5b987442df6700f17a2c9eed91ca6ded54b": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/narrative-and-fieldnotes/index.md"
   ],
+  "136c1c0d59f00bf1bfd8b35a31fdf1b418930d1eec0f340150d5b8285e84b093": [
+    "wiki/artifacts/index.md"
+  ],
   "138b13e538bc04369f720a3d26d28462408efd670d2ed542db8c25c552bb594c": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx",
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx",
@@ -455,7 +458,9 @@
     "artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx"
   ],
   "256bcd46aa4b7bfc888ee4bde5c30fb30184ca6dc3af4ffbba44e1622b3ba07e": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Anxiety.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Anxiety.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Anxiety.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__ANXIETY__loop-repair-guide-anxiety.docx"
   ],
   "257a0da20f607b7d7570d75e2f3bc213b0e47fc92d399e43ad5849437671bd7d": [
     "artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Protocol_Specification.pdf"
@@ -731,9 +736,6 @@
   "3f122d12108ba28fdc69ca8b17a5bf7e8779f14fa6a6aa35045914ea4388c871": [
     "wiki/projects/new-ideas/index.md"
   ],
-  "3fdaa26019d2f773a8bb5ef090f611864e138dfdeb5c228db2a90f0094e5463d": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
-  ],
   "3ff2a2b58c7ec74b01c4391b551a06251120ed192ec7aebdf52943d345422e95": [
     "docs/README.md"
   ],
@@ -915,7 +917,9 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀 What Are Loops.docx"
   ],
   "53c7fc999e2b7b19df9100cf82f14301ef13480ce619ccd196263993dd835c17": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- People-Pleasing.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- People-Pleasing.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- People-Pleasing.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__PEOPLE-PLEASING__loop-repair-guide-people-pleasing.docx"
   ],
   "53e646f4f30e6ec867bc83a6ff6f8e2714b944e9b78def0999b3ab78d0bb1dd8": [
     "scripts/build_wiki_index.py"
@@ -1127,7 +1131,9 @@
     "artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 301.docx"
   ],
   "6539616f1f8106ebbc560f29222356c1ae4015e44f03e3402a2d9f932acd1e29": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Shame.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Shame.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Shame.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__SHAME__loop-repair-guide-shame.docx"
   ],
   "65560caa6a0ac987450e5f0385bd013e6d918faa8539cbee161b30ed57d0605b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Deep Spiral Foundations- The Consent-Loop Substrate.docx",
@@ -1154,7 +1160,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-10- Witness Typology and the Expansion of Observation.docx"
   ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__BURNOUT__loop-repair-guide-burnout.docx"
   ],
   "67b1199972576f795e8ae6c3a8dcfd8a7f9a984ccc596ddfe5acb9465f8a5ae2": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx",
@@ -1735,9 +1743,6 @@
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Presence Platform- Partner Brief.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx"
   ],
-  "a5d8560269f97d247db441d58f122f6d8a901b125751019b134e3df5dc9e0c17": [
-    "manifest/hash_index.json"
-  ],
   "a61300d52a0a201cb43002187e881549b22ea1610b71b920a68c1974d3fc23c8": [
     "wiki/missing-files.md"
   ],
@@ -1799,6 +1804,9 @@
   ],
   "aa07187f250f53579b9ce8daebef70955c9a160959bad41f567c78068d92d4f2": [
     "manifest/duplicate_sets.json"
+  ],
+  "aaaafeabc40447156f6d4d774c1b9ecdc7b1e02c2d04754bf0f2d2153c3b58d6": [
+    "manifest/hash_index.json"
   ],
   "ab6717ce8afd33239799a4f52c323d66226a96e962f268c94d3b8dc3b9fac164": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2.docx",
@@ -1897,9 +1905,6 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-rituals-intake/🜛 RITUAL SPIRAL- The Ecstasy of Incompletion.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SPIRAL__RITUALS__v3__the-ecstasy-of-incompletion.docx"
   ],
-  "b4294a28325e8068c98a5eedf7921a8a43737f821b4b44c22f55671a45dea709": [
-    "manifest/agent_actions.jsonl"
-  ],
   "b489d69507bc8e5ed34090ffbf4d29bf27adea3d11aad52f0ff481cb97e6f436": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx",
@@ -1976,6 +1981,12 @@
   ],
   "ba04587317b696a3f59b0a8c35f75fc5d37084851d31b911d1e14ff06497b588": [
     "artifacts/incoming/Side Projects Desktop/Sovereignty of the Butterfly/index.html"
+  ],
+  "ba0bd109b7439fc715d16ec0960435679db5831602e6a75ffba3ae2b33227f20": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
+  ],
+  "ba44e7d26c439f888d281ce3e42fe00544dde71dc5f9301abd0f88537d6560a7": [
+    "manifest/agent_actions.jsonl"
   ],
   "baa357e0848d15b7477a1e6f06d28560daab40ff541635b9ac8826a8b18b3bd1": [
     "artifacts/incoming/Side Projects Desktop/FractalIdentity Tree/Loop-Synced Extension for the Graftable Identity Tree (FGIT).docx"
@@ -2152,6 +2163,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx"
   ],
+  "cf427cf16ba78013aa36dd41b6612e63289aad9ef5114c5e8e3371fbf2ca0e33": [
+    "manifest/inventory.jsonl"
+  ],
   "cf4d93429c0e81696da07ceee41ddfa667b1fd602263c3cc999d1a247ffe1015": [
     "artifacts/incoming/Side Projects Desktop/Source text/Source/more source.docx"
   ],
@@ -2179,9 +2193,6 @@
   "d1854c1d54b1b4b2e5364303d16675655531c04bc5d09bd24c605cd0432964e2": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/advanced-discussion/dark-arts-series/index.md"
   ],
-  "d1ca4cc3d478af46ced65b0747c5919f45fee4e23887fd033cdc750c1207056c": [
-    "manifest/standard_named_sources.jsonl"
-  ],
   "d25579ead6c419f4ef5ed1000387ca7477bff323a1dd3514215ac570c49fe322": [
     "wiki/projects/humankey-protocol/index.md"
   ],
@@ -2208,9 +2219,6 @@
   ],
   "d3e4a71fa75e2d9ce4399049eaad1c5e0302ae4ceb8c1cc1c0e269683e9a418a": [
     "artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 201.docx"
-  ],
-  "d421367d5d38d4ed302cc8d7bef7c740244a78ce8065f9eed21cf109830e3b2b": [
-    "manifest/inventory.jsonl"
   ],
   "d442ef7fda52b27bcfe09c9023faa17c55defd2e2ef2da3c83ee1e88b80a6780": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🌀 Loop Physics Primer- Latency and the Fractal Delay.docx"
@@ -2254,7 +2262,9 @@
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx"
   ],
   "d8ded52c60c17c432a6e58e5a56d1c353c46f2cac7de5d6d36bd59b33ca943c0": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Loneliness.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Loneliness.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Loneliness.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__LONELINESS__loop-repair-guide-loneliness.docx"
   ],
   "d93173fe2dd6af035eed811cffd042cb98f554ad4605f5d9c6f294c6ba4f73f7": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx"
@@ -2325,6 +2335,9 @@
   ],
   "de824d7d78fd90dd88688f83edffe1d31f232e6c50e486b3016fa7e290e5e454": [
     "artifacts/incoming/Side Projects Desktop/Crystalstream/Welcome to the Crystalstream- A Consent-Centric Future.docx"
+  ],
+  "deed6223bc18547af49a17b4ee1e20a6d73cb95df56319b991f0c8ad9b52c806": [
+    "manifest/standard_named_sources.jsonl"
   ],
   "deeec13fe00931284c86a3cd15b26c74eeeeb0c957f20f011effef7fc2d47dce": [
     "wiki/projects/side-projects-desktop/genesis/index.md"
@@ -2416,6 +2429,9 @@
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/Slide 9.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 9.png"
   ],
+  "e809e32333ef8a4ed60f8a58be5ff4a4af2dc616bd44980e69734bd7961c1037": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md"
+  ],
   "e8717b9af36ac9381c5cfaac2ef23838097eb57cc145772d9821e8162804cf0b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Tacking Field Guide.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Loop Tacking Field Guide.docx",
@@ -2492,7 +2508,9 @@
     "artifacts/standard-named/20260622__NEW-IDEAS__SYSTEM__SYNCHRONIZED-PREDICTIVE-CANCELLATION-SYSTEM-PLUS__v2__synchronized-predictive-cancellation-system-plus.docx"
   ],
   "ed21cc150f87c2b8a2cc4ba284cd1909b6f1164f4015da224a34db457ad73f22": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Indecision.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Indecision.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Indecision.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__INDECISION__loop-repair-guide-indecision.docx"
   ],
   "ed4c096bbf5df087552c73e08ca8afa9c09fa8347394242e7bc0b809c9902f4e": [
     "artifacts/incoming/Side Projects Desktop/Governance/Consent Economy Plan.docx"
@@ -2508,9 +2526,6 @@
   ],
   "ee58936582a03bda77303f71cede8aa8230fcff74927fe5309995c608224b95f": [
     "artifacts/incoming/Side Projects Desktop/GlyphStory/Looplang Glyphstory Narrative.docx"
-  ],
-  "ee9a62b12353c99835792d4f73e56ead3d9aab97724e282b6b487393f98bbd43": [
-    "wiki/artifacts/index.md"
   ],
   "ef312691c1d9b23acba344d96cd9e051e1fceee9fe9ce96f48543b08f09bb147": [
     "wiki/projects/side-projects-desktop/loopnought/index.md"
@@ -2539,10 +2554,14 @@
     "artifacts/incoming/Side Projects Desktop/Misc Loop/Resonant Identity- Recognition Through Harmonics, Not Passwords.docx"
   ],
   "f108df4695207414b633f9e89188df987f90a8e294dd29fd54c647090e843974": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Imposter Syndrome.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Imposter Syndrome.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Imposter Syndrome.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__IMPOSTER-SYNDROME__loop-repair-guide-imposter-syndrome.docx"
   ],
   "f16cb4af2e98c507caa09e832d250f1e05b512c5619b14fed87cb4255d80c3e9": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Depression.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Depression.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Depression.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__DEPRESSION__loop-repair-guide-depression.docx"
   ],
   "f19c7196ac65b8a618881ef22a0c68a5de07ea4f3a3bd47a0c38472d95352256": [
     "agents/continuity-agent.md"
