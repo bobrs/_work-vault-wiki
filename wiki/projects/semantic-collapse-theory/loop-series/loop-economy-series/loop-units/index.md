@@ -7,23 +7,23 @@ This cluster covers the operational loop units that instantiate the economy mode
 ## Current Shape
 
 - 8 loop unit documents.
+- 2 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Exchange and Transaction Loops](exchange-and-transaction-loops/index.md)
+- [Feedback and Scaling Loops](feedback-and-scaling-loops/index.md)
 
 ## Representative Files
 
-- [LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
-- [LE-Loop 2 — The Escrow Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 2 — The Escrow Loop.docx>)
-- [LE-Loop 3 — The Market Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx>)
-- [LE-Loop 4 — The Demand-Signal Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 4 — The Demand-Signal Loop.docx>)
-- [LE-Loop 5 — The Reputation Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
-- [LE-Loop 6 — The Redistribution Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 6 — The Redistribution Loop.docx>)
-- [LE-Loop 7 — The Inflation:Deflation Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 7 — The Inflation:Deflation Loop.docx>)
-- [LE-Loop 8 — The Bonding Curve Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 8 — The Bonding Curve Loop.docx>)
+- [Exchange and Transaction Loops / LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
+- [Feedback and Scaling Loops / LE-Loop 5 — The Reputation Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
 
 ## Working Read
 
-This is the operational half of the loop-economy branch, where the economic logic is expressed as named loop mechanisms.
+This is the operational half of the loop-economy branch, now separated into exchange mechanics and feedback/scaling controls.
 
 ## Next Actions
 
-1. Keep the loop-unit set stable.
+1. Keep the two nested lineage pages stable.
 2. Split only if a third operational seam appears.
