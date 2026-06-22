@@ -1211,7 +1211,7 @@ Direct files (9)
 - [artifacts/incoming/Trust Interoperability Standard/TIS Agent API v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/TIS%20Agent%20API%20v1.docx)
 - [artifacts/incoming/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/Trust_Interoperability_Standard_v1.docx)
 
-## intake-archive (165)
+## intake-archive (167)
 
 ### 20260622__humankey-protocol-intake (29)
 
@@ -1275,6 +1275,11 @@ Direct files (11)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Shimmer Triangle Social Unit.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SOCIAL-UNIT__EXTRA-SHIMMER__v1__shimmer-triangle-social-unit.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SOCIAL-UNIT__EXTRA-SHIMMER__v1__shimmer-triangle-social-unit.docx)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Triad Family Structure.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx)
 
+### 20260622__loop-and-phase-training-intent-consent-intake (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-intent-consent-intake/🧬 Intent-Consent Loops as the Fabric of the Universe.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx)
+
 ### 20260622__loop-and-phase-training-inventions-intake (1)
 
 Direct files (1)
@@ -1291,6 +1296,11 @@ Direct files (8)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 2.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-2__loop-life-phase-2.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-2__loop-life-phase-2.docx)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 3- Transcendent Recursive Agency Deck.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-3__transcendent-recursive-agency-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-3__transcendent-recursive-agency-deck.docx)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 3.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx)
+
+### 20260622__loop-and-phase-training-loop-maintenance-kit-intake (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-maintenance-kit-intake/🧼 Loop Maintenance Kit.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx)
 
 ### 20260622__loop-and-phase-training-loop-repair-guide-intake (8)
 
@@ -1490,9 +1500,9 @@ Direct files (9)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/TIS Agent API v1.docx -> artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx](../../artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/Trust_Interoperability_Standard_v1.docx -> artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx](../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx)
 
-## standard-named (140)
+## standard-named (142)
 
-Direct files (140)
+Direct files (142)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx)
@@ -1552,6 +1562,7 @@ Direct files (140)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-3__transcendent-recursive-agency-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-3__transcendent-recursive-agency-deck.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DISCUSSION__LOOPWALKER-TRAINING__v1__consent-multiplexing-the-infrastructure-of-reality.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DISCUSSION__LOOPWALKER-TRAINING__v1__consent-multiplexing-the-infrastructure-of-reality.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__EXTENDED__WOLD-BUILDING__v1__consent-wave-extended.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__EXTENDED__WOLD-BUILDING__v1__consent-wave-extended.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FALLACY__EXTRA-SHIMMER__v1__resource-consent-fallacy.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FALLACY__EXTRA-SHIMMER__v1__resource-consent-fallacy.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx)
@@ -1574,6 +1585,7 @@ Direct files (140)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v9__lesson-nine-rewriting-legacy-loops.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v9__lesson-nine-rewriting-legacy-loops.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__EXTRA-SHIMMER__v1__breath-consent-loop.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__EXTRA-SHIMMER__v1__breath-consent-loop.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__WOLD-BUILDING__v1__self-state-consent-loop.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__WOLD-BUILDING__v1__self-state-consent-loop.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx)

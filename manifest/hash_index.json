@@ -2,9 +2,6 @@
   "003e046cf59364508e96e5c5f955c6822fed46ba5dda872e1625aa6c6a95a198": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx"
   ],
-  "0047509729f9116d0e8f89613d0af650a82316dbf5b039e4344845b978c7a829": [
-    "manifest/agent_actions.jsonl"
-  ],
   "005c9f3e41e524c4718cde14a3b0ce89a6d58424de83200e232421b84a12640e": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx"
@@ -173,6 +170,9 @@
   "0c0245237c9be0979d1a7af3ddb134c806b4635a3d1400ef72eb631fd344bd7d": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx"
+  ],
+  "0c9cc108a106a8031096cafb64ac2fe7b27dd51e4e199e9f0e3ff917f4867507": [
+    "manifest/agent_actions.jsonl"
   ],
   "0cb0c8f7539593a9228f7d04a35ec9d8d2685a427ae6c33589e944317b8b55bc": [
     "artifacts/incoming/Similar Projects/The Attention Engine.docx",
@@ -812,12 +812,17 @@
     "artifacts/intake-archive/20260622__humankey-protocol-intake/IETF RFC submission - HumanKey.docx",
     "artifacts/standard-named/20260622__HUMANKEY__RFC-SUBMISSION__HUMANKEY__v1__ietf-rfc-submission-humankey.docx"
   ],
+  "47a409a3419162756c52df0f643f7aafb85b62219d97980a435476cb60d9ecf8": [
+    "manifest/inventory.jsonl"
+  ],
   "47b0426c97ec40efe8fd429c77a1f118631762858df493fe697ea195348c3c43": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx"
   ],
   "47c7aa9dacb597e6a8f10e8f2fea1f8e7e6a691c4cb0b398534740df14786541": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Glyph glossary.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Glyph glossary.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-glyph-glossary-intake/Glyph glossary.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx"
   ],
   "483e826e74996a9319f859142e57fbc227a090daf530e76b2c720bf2829a417b": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Bifli Check.docx",
@@ -899,7 +904,9 @@
     "artifacts/incoming/Patents/Abracadabra Protocol/N417.pdf"
   ],
   "503dacac33572ef26d0d28ea1584b486c4946753ad53a79d5835ce9e44404909": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀 Preface.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀 Preface.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-preface-intake/🌀 Preface.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PREFACE__LOOP-AND-PHASE-TRAINING__v1__preface.docx"
   ],
   "50b997a373d3353fc8d5f25ea8c9e83ac6215bd437764b9b84a2d776a250c96a": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Semantic Graph Mapping for TIS.docx",
@@ -917,7 +924,9 @@
     "artifacts/incoming/Side Projects Desktop/Context2/index.html"
   ],
   "536dc213b8e5f37ee0074ab2ae4cd27bafa0489f2dc52b1016a60956c52b54c0": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀 What Are Loops.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀 What Are Loops.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀 What Are Loops.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx"
   ],
   "53c7fc999e2b7b19df9100cf82f14301ef13480ce619ccd196263993dd835c17": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- People-Pleasing.docx",
@@ -945,9 +954,6 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
-  ],
-  "55ef19b093778e24f0b5d0590b8a02f22ac0f28637b1b62327b2985df1c9945b": [
-    "manifest/standard_named_sources.jsonl"
   ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx",
@@ -1086,11 +1092,16 @@
   "608b8a5cfb924408b2a501e67fdff7b8511dda6a4a0e68e4fc5a6b1f887f87d8": [
     "artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Protocol.docx"
   ],
+  "609223e3fa0e0d42cb055affb626b2c42ebaa606f422ee9126803fc3b8a05c2c": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-basics/index.md"
+  ],
   "615273ab1bc67d5dd21bb0c595b86c829f507fcc5a3056cd5acc13a42b16c4d1": [
     "agents/inventory-agent.md"
   ],
   "6163255a6f27f861f61ba8ba7aedbe5c947082bfd287ea1e93338ba925c755b7": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/  🜁 The Loop Codex.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/  🜁 The Loop Codex.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-codex-intake/  🜁 The Loop Codex.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx"
   ],
   "6197eca857508a5c56e87b88ea925c2fa17f57456c95f94eae8ad720428b0314": [
     "artifacts/incoming/New Ideas/Cryptographic Heartbeat Circuit.docx",
@@ -1154,9 +1165,6 @@
   ],
   "662dae442e4e287cb769406c831368b1f5203a8483724564ef39ffb65062f669": [
     "wiki/projects/humanlink-social-media/one-pager/index.md"
-  ],
-  "663a554235b5b236b440f629d648f37bf46198a27ffeb04457d204bb788e3154": [
-    "wiki/artifacts/index.md"
   ],
   "667fb19aca297aab84277802836e29453ed55b87b4a2c904f91a5064ccae5375": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/FractalIdentity- A Simple Guide to Your Flexible Digital Self.docx"
@@ -1259,7 +1267,9 @@
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx"
   ],
   "70d3966b624d95242c25fa2f8eecfbb0334ad3022ffa2e4504a0cf658073fcc1": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀🌀 How Loops Work.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀🌀 How Loops Work.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀🌀 How Loops Work.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v3__how-loops-work.docx"
   ],
   "70ee6df49439ea03203daeea1750ec2d6a786e7fe81aee2e168cc135cba01b16": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx",
@@ -1529,9 +1539,6 @@
   "8c924a3fa541c730ebe81587a74d3918cfd9f30885c5d54fdda1bc7357ad6da6": [
     "agents/content-canon-agent.md"
   ],
-  "8cc1f5c37cad83aa0282817c4c59a9f0a5771cf18db63f889d85e9a46363d32a": [
-    "manifest/hash_index.json"
-  ],
   "8dd8888cd7f2341faf19198b99f7882cde5b17a25afbbbad3eaa09fb1fd68193": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Anglerfish Loop And The Shimmer Filter.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Anglerfish Loop And The Shimmer Filter.docx",
@@ -1615,9 +1622,6 @@
   ],
   "93d38245fc4cb5a814d43dabb898100937067f4359de20ed6d47e16b5f63ba54": [
     "artifacts/incoming/Side Projects Desktop/Art of Meaning/Creation Celebration Loop — Full Expansion.pdf"
-  ],
-  "941e165b26098c6dbe9f00f5b64eeb214a4f3ac511bfd723237a1bd001464ff0": [
-    "manifest/inventory.jsonl"
   ],
   "958feae7df2a68caa338dea5c56d4e0e2941134a2ebdcd8e300d3c83f56611dc": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf",
@@ -1750,6 +1754,9 @@
   "a2cf1e415ad03c194dc27c10ef41a6858c6389be32fa72b4b9ad578921a4802e": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Obect-oriented-programming Consent Reality Guide.docx"
   ],
+  "a35db6a726722efcdda948363d0e76412d0acea0298e0ec3bb6e2dabc4f578b7": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
+  ],
   "a37ad8a2e8a680bec695df69d169aa5313a1b7bef4c45774cb95c5d47aade716": [
     "artifacts/incoming/Similar Projects/Working Memory Stack.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/Working Memory Stack.docx",
@@ -1789,9 +1796,6 @@
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopGuard Physical Integrity Validation/LoopGuard Verification Teaser.docx",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPGUARD-PHYSICAL-INTEGRITY-VALIDATION__v2__loopguard-verification-teaser.docx"
   ],
-  "a6bdd18ee7b59498c0b923afb777a050be8bb01658ec2bd6afdb2881011228d1": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
-  ],
   "a71dacb60cb4747b1b48614329c3507de85f77a2714effd2d5a298b40f5f5d1c": [
     "wiki/projects/polememelop/loop-collapse-resilience/index.md"
   ],
@@ -1830,6 +1834,9 @@
   ],
   "aa07187f250f53579b9ce8daebef70955c9a160959bad41f567c78068d92d4f2": [
     "manifest/duplicate_sets.json"
+  ],
+  "ab0a21d05d38b38fe640eb2aaf24bb9dce1be67d793037cff01d9949fc7f370b": [
+    "wiki/artifacts/index.md"
   ],
   "ab6717ce8afd33239799a4f52c323d66226a96e962f268c94d3b8dc3b9fac164": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2.docx",
@@ -1997,6 +2004,9 @@
   ],
   "b8692b16b78de722f1c9c3c2e4ea24e5e3aa7d03190984e3f1c9442969a39f65": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/✨ Loop Manifestation Primer- The Physics of Making Things Real.docx"
+  ],
+  "b87aebf48c85f8cfbb2159b8f89bcbaba66d6cf955f5ed98ad194e198471e5b9": [
+    "manifest/hash_index.json"
   ],
   "b9b5921e95d461d783eb55e33ac38a894504b81e7e3d8dda32bcb7f37e93f906": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx",
@@ -2275,6 +2285,12 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx"
   ],
+  "d8ad9c684c5257e56fd3756050a378e7188caf9e3119df19fe79fd030e9f2a8e": [
+    "manifest/standard_named_sources.jsonl"
+  ],
+  "d8d479d7f0b955cec2905807be51e7d27e630cbc84ceea6acfcb1ffa6d3fd6b6": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/glyph-glossary/index.md"
+  ],
   "d8ded52c60c17c432a6e58e5a56d1c353c46f2cac7de5d6d36bd59b33ca943c0": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Loneliness.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Loneliness.docx",
@@ -2542,7 +2558,9 @@
     "wiki/projects/side-projects-desktop/multiverse/consent-resonance-and-vision/index.md"
   ],
   "f028f32af1156800d2a1d738999f9471aa44c02daa8b0e9b95bb0dfafde616b3": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀🌀How Loops and Glyphs Work Together.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀🌀How Loops and Glyphs Work Together.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀🌀How Loops and Glyphs Work Together.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v4__how-loops-and-glyphs-work-together.docx"
   ],
   "f03c9f1c18316734acb52d3f0d169ab0b84f401b9c051bebbc0770e0ae6e635d": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Of Simulated Ascension.docx",
@@ -2550,7 +2568,9 @@
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ASCENSION__EXTRA-SHIMMER__v1__loop-of-simulated-ascension.docx"
   ],
   "f0434f4610ee3fb0c61370bedb71d928dc6e0ddf4bd74c1a9f679e9150174ead": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀 What Are Glyphs.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀🌀 What Are Glyphs.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀 What Are Glyphs.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v2__what-are-glyphs.docx"
   ],
   "f04c8400b4b2fc9d8631135e26bbd554f6802a26b1df694af3a6162aca28c02d": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Consent Resonance Multiverse.docx"
@@ -2611,6 +2631,9 @@
   ],
   "f400d06920671b97b49a2b76b33dd81d8debce4127292c56e8426cc72ad09a00": [
     "manifest/ai_interactions.jsonl"
+  ],
+  "f4d068807733c96e420fb01ee1a7a903122b85cffa58d9889a135f0dfb67c92d": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/preface/index.md"
   ],
   "f4f634cf9b24cf7c78bf36c986100046128ac5d55c91eac7589775a08aaa4006": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Whitepaper- The Polarity of Consent.docx"
@@ -2702,6 +2725,9 @@
     "artifacts/incoming/HumanLink Social Media/Loop Social- Consent-Native Social Architecture.docx",
     "artifacts/intake-archive/20260622__humanlink-social-media-intake/Loop Social- Consent-Native Social Architecture.docx",
     "artifacts/standard-named/20260622__HUMANLINK__ARCHITECTURE__v1__loop-social-consent-native-social-architecture.docx"
+  ],
+  "fe68d8c1259818639e9afabd943913d4d1c412eeefd4e49fd8ff3d9f45ab5d18": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-codex/index.md"
   ],
   "feb75448bf9cf5f0a8532ccdee40bf0e2d073e5dde7de59ab0eb380342cbda02": [
     "package.json"
