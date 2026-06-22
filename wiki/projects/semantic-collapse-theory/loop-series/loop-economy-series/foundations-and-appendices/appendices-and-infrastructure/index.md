@@ -18,6 +18,15 @@ This cluster covers the appendices that extend the loop-economy model into cultu
 
 This is the operational support layer for the loop economy.
 
+This page explains how the loop-economy model is meant to travel into practice. The appendices do not just decorate the theory; they translate it into cultural framing, infrastructure, and funding mechanics. That makes this the applied support shelf for the branch’s economic language.
+
+## Related Links
+
+- [Loop Economy Series](../index.md)
+- [Loop Units](../loop-units/index.md)
+- [Semantic Collapse Theory](../../../../index.md)
+- [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the appendix set together.

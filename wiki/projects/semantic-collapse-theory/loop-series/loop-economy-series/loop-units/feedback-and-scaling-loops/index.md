@@ -21,6 +21,8 @@ This is the memory, redistribution, and scarcity-control layer of the loop econo
 
 This page covers the feedback side of the branch: reputation accumulates memory, redistribution corrects imbalance, and inflation/deflation plus bonding-curve mechanics describe how the system scales or contracts. That makes it the adaptive-control layer of the loop economy.
 
+The page functions as the correction and growth-control counterpart to exchange and transaction. It tracks how the system learns from prior activity, how imbalance is redistributed, and how the model expands or contracts under pressure.
+
 ## Related Links
 
 - [Loop Units](../index.md)

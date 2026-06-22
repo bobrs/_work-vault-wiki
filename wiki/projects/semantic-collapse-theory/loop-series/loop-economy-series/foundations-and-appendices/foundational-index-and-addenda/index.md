@@ -18,6 +18,15 @@ This cluster covers the index and addenda that define and interpret the loop-eco
 
 This is the conceptual framing spine for the loop economy.
 
+This page is the interpretive anchor for the economic branch. It names the core idea behind the model and the addenda that elaborate it, which makes it the place where the loop economy is explained as a participatory system rather than just a list of units. The index/addendum split suggests the branch wants to define the economic theory first and then extend it with separate clarifying layers.
+
+## Related Links
+
+- [Loop Economy Series](../index.md)
+- [Loop Units](../loop-units/index.md)
+- [Semantic Collapse Theory](../../../../index.md)
+- [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the index and addenda together.

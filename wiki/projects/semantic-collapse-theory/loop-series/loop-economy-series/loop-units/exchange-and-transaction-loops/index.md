@@ -21,6 +21,8 @@ This is the transaction and matching layer of the loop economy.
 
 The deeper role of this page is to describe how value moves through the system. Reward, escrow, market matching, and demand signal are different control surfaces for exchange, and together they make the economy branch legible as a routing problem as much as a value problem.
 
+The page is best read as the circulation half of the economy model: it defines how participation is converted into transfer, matching, or signal. That makes it the branch’s entry point for how value becomes actionable.
+
 ## Related Links
 
 - [Loop Units](../index.md)
