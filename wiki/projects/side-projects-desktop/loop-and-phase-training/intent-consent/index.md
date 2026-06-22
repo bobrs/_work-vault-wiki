@@ -12,9 +12,9 @@ This branch collects the intent-consent essay under `Loop and Phase Training`.
 
 ## Working Read
 
-This is the root essay copy for the intent-consent seam. A sibling title also exists in `Misc Loop`; keep that variant separate until a duplicate decision is made.
+This is the root essay copy for the intent-consent seam. A sibling title also exists in `Misc Loop`, but the content diverges enough to keep both branches separate for now.
 
 ## Next Actions
 
 1. Keep the essay stable.
-2. Review the `Misc Loop` sibling separately before any collapse.
+2. Keep the `Misc Loop` sibling separate unless a later duplicate decision changes that boundary.
