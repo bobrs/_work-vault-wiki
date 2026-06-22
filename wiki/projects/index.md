@@ -14,6 +14,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [New Ideas](new-ideas/index.md)
 - [Similar Projects](similar-projects/index.md)
 - [Patents](patents/index.md)
+- [Side Projects Desktop](side-projects-desktop/index.md)
 
 ## Lineage Pages
 
