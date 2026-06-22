@@ -15,6 +15,12 @@ This branch collects the butterfly sovereignty page and its source component.
 
 This is a small published branch with source attached. Keep the HTML surface visible.
 
+The page is a compact published node with its source component attached. It should stay together as the visible surface for the butterfly sovereignty material, with the JSX acting as the source witness rather than a separate narrative branch.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the HTML and JSX together.

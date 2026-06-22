@@ -16,6 +16,13 @@ This branch collects the consent-seed HTML page and its companion document.
 
 This is the cleaner survivor for the consent-seed file. Keep the page and docx together; the copy in `Loop and Phase Training` was archived as mirrored lineage.
 
+The page functions as the survivor node for the consent-seed material. It should stay visible as the place where the HTML surface and the DOCX companion remain paired, while the archived duplicate in `Loop and Phase Training` acts as lineage evidence rather than a second live surface.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Loop and Phase Training](../loop-and-phase-training/index.md)
+
 ## Next Actions
 
 1. Keep the HTML and DOCX together.

@@ -15,6 +15,12 @@ This branch collects the keeper page and its single-file React source.
 
 This is a small published branch with source attached.
 
+The page works as a compact published node with a single source companion. It should stay together as the live lanterns surface, while the React source remains attached as the implementation witness.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the HTML and JSX together.

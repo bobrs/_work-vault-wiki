@@ -14,6 +14,12 @@ This branch is a single published page.
 
 This is a durable one-off page.
 
+The page is a standalone published surface and should be treated as a single semantic node. Its value is in being a complete one-off rather than a branch with internal seams.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the HTML page as its own branch.
