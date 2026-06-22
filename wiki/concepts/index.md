@@ -8,6 +8,8 @@ Current concept pages:
 - [LoopLink](looplink/index.md)
 - [PDSP](pdsp/index.md)
 - [Loop Economy](loop-economy/index.md)
+- [Witnessing](witnessing/index.md)
+- [Governance Diad](governance-diad/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

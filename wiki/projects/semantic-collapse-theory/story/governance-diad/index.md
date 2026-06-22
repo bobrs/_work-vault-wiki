@@ -21,6 +21,7 @@ This page is the stewardship counterpart to the episode arc. It captures the bra
 ## Related Links
 
 - [Story](../index.md)
+- [Governance Diad concept](../../../../concepts/governance-diad/index.md)
 - [Narrative Episodes](../narrative-episodes/index.md)
 - [Semantic Collapse Theory](../../index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)

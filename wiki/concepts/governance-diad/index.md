@@ -1,0 +1,26 @@
+# Governance Diad
+
+Working definition: a two-sided governance pattern that pairs witness and rule so living documents can stay legitimate without collapsing into static hierarchy.
+
+This concept appears in the SCT story and origin/governance pages, where document stewardship is described as a dyadic protocol rather than a generic policy bucket.
+
+In practice, Governance Diad is the minimal structure for recognizing authority. Witness establishes what can be certified, and governance names the rule that follows from that certification.
+
+## Related Artifacts
+
+- [SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
+
+## Related Pages
+
+- [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
+- [Story](../../projects/semantic-collapse-theory/story/index.md)
+- [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md)
+- [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
+- [Witnessing](../witnessing/index.md)
+- [POLEMEMELOP](../polememelop/index.md)
+
+## Notes
+
+- This is a concept page, not a canon claim.
+- Keep it distinct from generic governance language.
+- Split only if a second stewardship seam becomes durable on its own.

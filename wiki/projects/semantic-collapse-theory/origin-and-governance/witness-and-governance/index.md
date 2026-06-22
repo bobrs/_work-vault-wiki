@@ -28,6 +28,8 @@ This cluster is therefore the normative spine of SCT: it explains who can certif
 - [Semantic Collapse Theory](../../index.md)
 - [Origin and Protocols](../origin-and-protocols/index.md)
 - [Narrative and Fieldnotes](../narrative-and-fieldnotes/index.md)
+- [Witnessing concept](../../../../concepts/witnessing/index.md)
+- [Governance Diad concept](../../../../concepts/governance-diad/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
 
 ## Next Actions

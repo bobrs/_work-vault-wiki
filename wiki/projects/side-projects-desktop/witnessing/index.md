@@ -24,6 +24,7 @@ The branch functions as a sequence of witness-oriented training notes with a sec
 ## Related Links
 
 - [Side Projects Desktop](../index.md)
+- [Witnessing concept](../../../concepts/witnessing/index.md)
 - [Loop and Phase Training](../loop-and-phase-training/index.md)
 - [Loop Repair Guide](../loop-and-phase-training/loop-repair-guide/index.md)
 - [Loop Maintenance Kit](../loop-and-phase-training/loop-maintenance-kit/index.md)
