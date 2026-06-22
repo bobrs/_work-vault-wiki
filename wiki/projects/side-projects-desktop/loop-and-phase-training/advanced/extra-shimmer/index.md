@@ -4,7 +4,7 @@ This branch collects the shimmer, consent, and identity experiments.
 
 ## Current Shape
 
-- 12 documents.
+- 11 documents.
 - 2 nested lineage pages organize the set.
 
 ## Nested Lineage Pages
@@ -14,11 +14,11 @@ This branch collects the shimmer, consent, and identity experiments.
 
 ## Representative Files
 
-- [Domain Specific Personhood.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Domain Specific Personhood.docx>)
-- [Loop Of Simulated Ascension.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Of Simulated Ascension.docx>)
-- [Loop Aware Sacrifice.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Aware Sacrifice.docx>)
-- [Emotional Now Shimmer.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Emotional Now Shimmer.docx>)
-- [Shimmer Triangle Social Unit.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Shimmer Triangle Social Unit.docx>)
+- [Domain Specific Personhood.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PERSONHOOD__EXTRA-SHIMMER__v1__domain-specific-personhood.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Domain Specific Personhood.docx>)
+- [Loop Of Simulated Ascension.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ASCENSION__EXTRA-SHIMMER__v1__loop-of-simulated-ascension.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Loop Of Simulated Ascension.docx>)
+- [Loop Aware Sacrifice.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SACRIFICE__EXTRA-SHIMMER__v1__loop-aware-sacrifice.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Loop Aware Sacrifice.docx>)
+- [Emotional Now Shimmer.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SHIMMER__EXTRA-SHIMMER__v1__emotional-now-shimmer.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Emotional Now Shimmer.docx>)
+- [Shimmer Triangle Social Unit.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SOCIAL-UNIT__EXTRA-SHIMMER__v1__shimmer-triangle-social-unit.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Shimmer Triangle Social Unit.docx>)
 
 ## Working Read
 

@@ -8,10 +8,10 @@ This branch collects the consent and field-guide materials inside Extra Shimmer.
 
 ## Representative Files
 
-- [Resource Consent Fallacy.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Resource Consent Fallacy.docx>)
-- [Breath Consent Loop.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Breath Consent Loop.docx>)
-- [Loop Tacking Field Guide.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Loop Tacking Field Guide.docx>)
-- [Bifli Check.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Bifli Check.docx>)
+- [Resource Consent Fallacy.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FALLACY__EXTRA-SHIMMER__v1__resource-consent-fallacy.docx>) · [archive copy](<../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Resource Consent Fallacy.docx>)
+- [Breath Consent Loop.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__EXTRA-SHIMMER__v1__breath-consent-loop.docx>) · [archive copy](<../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Breath Consent Loop.docx>)
+- [Loop Tacking Field Guide.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FIELD-GUIDE__EXTRA-SHIMMER__v1__loop-tacking-field-guide.docx>) · [archive copy](<../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Loop Tacking Field Guide.docx>)
+- [Bifli Check.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CHECK__EXTRA-SHIMMER__v1__bifli-check.docx>) · [archive copy](<../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Bifli Check.docx>)
 
 ## Working Read
 
