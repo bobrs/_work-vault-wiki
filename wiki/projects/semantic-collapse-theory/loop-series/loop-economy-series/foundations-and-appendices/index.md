@@ -25,6 +25,8 @@ This is the umbrella over the loop-economy reference spine and its support appen
 
 This page is the reference frame for the loop-economy branch. It holds the core definitions, addenda, and infrastructure notes that let the operational loop units stay intelligible. In other words, it is the theory and support shelf for the economic model rather than a transactional page itself.
 
+The stronger read is that this page defines the branch’s interpretive substrate. It stabilizes the vocabulary used by the operational units and keeps the appendices attached to the model rather than letting them drift into separate notes.
+
 ## Related Links
 
 - [Loop Economy Series](../index.md)

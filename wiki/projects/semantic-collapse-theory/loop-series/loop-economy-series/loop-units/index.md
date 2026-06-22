@@ -23,6 +23,17 @@ This cluster covers the operational loop units that instantiate the economy mode
 
 This is the operational half of the loop-economy branch, now separated into exchange mechanics and feedback/scaling controls.
 
+This page is the execution frame for the economy series. It says that the model is not just conceptual framing plus appendices; it also has concrete units that handle transfer, matching, reputation, redistribution, and scaling. The page therefore reads like the operations dashboard for the economy branch.
+
+## Related Links
+
+- [Loop Economy Series](../index.md)
+- [Foundations and Appendices](../foundations-and-appendices/index.md)
+- [Exchange and Transaction Loops](exchange-and-transaction-loops/index.md)
+- [Feedback and Scaling Loops](feedback-and-scaling-loops/index.md)
+- [Semantic Collapse Theory](../../../../index.md)
+- [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.
