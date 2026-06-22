@@ -13,6 +13,10 @@ The repository has entered the first classification pass and now has lineage-awa
 
 ### Consent–Intent Compression Protocol (CICP)
 
+- [Protocol Foundations](consent-intent-compression-protocol/protocol-foundations/index.md)
+- [Implementation and Access](consent-intent-compression-protocol/implementation-and-access/index.md)
+- [Applications and Outreach](consent-intent-compression-protocol/applications-and-outreach/index.md)
+- [Working Notes](consent-intent-compression-protocol/working-notes/index.md)
 - [Loop Training](consent-intent-compression-protocol/loop-training/index.md)
 - [FractalIdentity Tree](consent-intent-compression-protocol/fractalidentity-tree/index.md)
 
