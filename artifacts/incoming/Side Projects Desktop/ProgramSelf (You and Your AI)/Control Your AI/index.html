@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Control Your AI — Free Training Module</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A free, practical guide to controlling the elements that ensure AI systems follow your wishes: prompts, structure, feedback, and session control." />
+  <meta name="theme-color" content="#020617" />
+  <style>
+    :root {
+      --bg: #020617;
+      --surface: #020617;
+      --panel: #020617;
+      --panel2: #020617;
+      --border-subtle: rgba(148,163,184,.3);
+      --border-strong: rgba(59,130,246,.6);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56,189,248,.08);
+      --accent-2: #6366f1;
+      --accent-soft-2: rgba(99,102,241,.15);
+      --good: #22c55e;
+      --shadow: 0 18px 45px rgba(15,23,42,.8);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; height: 100%; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(1200px 800px at 75% 0%, rgba(59,130,246,.32), transparent 60%),
+        radial-gradient(900px 600px at 15% 100%, rgba(56,189,248,.2), transparent 50%),
+        #020617;
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: min(1100px, 92%); margin: 0 auto; }
+    header {
+      position: sticky; top: 0; z-index: 40;
+      backdrop-filter: blur(10px);
+      background: linear-gradient(to bottom, rgba(2,6,23,.92), rgba(2,6,23,.82));
+      border-bottom: 1px solid rgba(148,163,184,.25);
+    }
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: .8rem 0;
+    }
+    .logo {
+      display: flex; align-items: center; gap: .55rem;
+      font-weight: 800; letter-spacing: .04em; font-size: .9rem;
+      text-transform: uppercase;
+    }
+    .logo-mark {
+      width: 26px; height: 26px; border-radius: 999px;
+      background: conic-gradient(from 210deg, #22c55e, #38bdf8, #6366f1, #22c55e);
+      display: grid; place-items: center;
+      box-shadow: 0 0 0 1px rgba(15,23,42,.9), 0 0 18px rgba(59,130,246,.6);
+    }
+    .logo-mark span {
+      width: 16px; height: 16px; border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #e5e7eb, #020617);
+    }
+    .logo-text span {
+      background: linear-gradient(120deg, #e5e7eb, #93c5fd);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .nav-links a {
+      margin-left: 1.4rem; font-size: .9rem; color: var(--muted);
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    main { padding-bottom: 4rem; }
+
+    /* Hero */
+    .hero {
+      padding: 4.2rem 0 3.2rem;
+      display: grid; grid-template-columns: 1.35fr .9fr; gap: 2.2rem;
+      align-items: center;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: .4rem;
+      padding: .3rem .7rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,.4);
+      background: radial-gradient(circle at 0 0, rgba(56,189,248,.4), transparent 55%);
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted);
+    }
+    .badge-dot {
+      width: 7px; height: 7px; border-radius: 999px;
+      background: var(--good);
+      box-shadow: 0 0 16px rgba(34,197,94,.7);
+    }
+    h1 {
+      font-size: clamp(2.2rem, 4vw, 3.1rem);
+      line-height: 1.05;
+      margin: .9rem 0 .7rem;
+    }
+    h1 span {
+      background: linear-gradient(120deg, #e5e7eb, #60a5fa);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero-lead {
+      color: var(--muted);
+      font-size: 1rem; max-width: 34rem;
+    }
+    .hero-cta {
+      display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.2rem;
+    }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+      border-radius: 999px;
+      padding: .8rem 1.3rem;
+      font-weight: 600; font-size: .95rem;
+      border: none; cursor: pointer;
+      background: linear-gradient(130deg, #22c55e, #38bdf8);
+      color: #020617;
+      box-shadow: var(--shadow);
+      transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.05);
+      box-shadow: 0 22px 36px rgba(15,23,42,.9);
+    }
+    .btn-outline {
+      background: rgba(15,23,42,.8);
+      color: var(--text);
+      border: 1px solid rgba(148,163,184,.4);
+      box-shadow: none;
+    }
+    .btn-outline:hover {
+      box-shadow: 0 10px 28px rgba(15,23,42,.9);
+    }
+    .hero-meta {
+      margin-top: .7rem; font-size: .82rem; color: var(--muted);
+      display: flex; flex-wrap: wrap; gap: .75rem;
+    }
+    .hero-meta span {
+      display: inline-flex; align-items: center; gap: .4rem;
+    }
+    .hero-meta small {
+      padding: .1rem .5rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,.45);
+      background: rgba(15,23,42,.9);
+    }
+
+    .hero-card {
+      border-radius: var(--radius);
+      border: 1px solid rgba(148,163,184,.35);
+      background: radial-gradient(circle at 0 0, rgba(56,189,248,.16), transparent 55%),
+                  rgba(15,23,42,.98);
+      box-shadow: var(--shadow);
+      padding: 1.1rem 1.1rem 1rem;
+    }
+    .hero-card h2 {
+      margin: 0 0 .5rem;
+      font-size: 1rem; text-transform: uppercase; letter-spacing: .12em;
+      color: var(--muted);
+    }
+    .hero-card h3 {
+      margin: 0 0 .4rem; font-size: 1.05rem;
+    }
+    .hero-card ul {
+      margin: .4rem 0 .6rem;
+      padding-left: 1.1rem;
+      font-size: .92rem;
+      color: var(--muted);
+    }
+    .hero-card li + li { margin-top: .35rem; }
+    .hero-chip-row {
+      display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .4rem;
+    }
+    .chip {
+      font-size: .7rem; text-transform: uppercase; letter-spacing: .09em;
+      padding: .25rem .55rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,.4);
+      color: var(--muted);
+    }
+
+    /* Sections */
+    section { padding: 3rem 0 0; }
+    .section-title {
+      font-size: 1.5rem; margin: 0 0 .4rem;
+    }
+    .section-lead {
+      color: var(--muted); max-width: 40rem; font-size: .98rem;
+    }
+    .two-col {
+      display: grid; grid-template-columns: 1.1fr 1fr; gap: 2rem; align-items: flex-start;
+    }
+
+    .panel {
+      border-radius: var(--radius);
+      border: 1px solid rgba(148,163,184,.35);
+      background: rgba(15,23,42,.94);
+      box-shadow: var(--shadow);
+      padding: 1.2rem 1.2rem 1rem;
+    }
+    .panel-soft {
+      border-radius: var(--radius);
+      border: 1px solid rgba(148,163,184,.25);
+      background: rgba(15,23,42,.9);
+      padding: 1.1rem 1.2rem;
+    }
+
+    .label {
+      font-size: .75rem; text-transform: uppercase; letter-spacing: .1em;
+      color: var(--muted);
+      margin-bottom: .25rem;
+    }
+    .tagline {
+      font-size: .9rem; color: var(--muted); margin-top: .3rem;
+    }
+
+    /* Grid cards */
+    .grid-3 {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem;
+    }
+    .grid-card {
+      border-radius: var(--radius);
+      border: 1px solid rgba(148,163,184,.3);
+      background: rgba(15,23,42,.96);
+      padding: 1rem;
+      font-size: .9rem;
+      box-shadow: 0 16px 30px rgba(15,23,42,.75);
+      transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+    }
+    .grid-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 38px rgba(15,23,42,.9);
+      border-color: rgba(59,130,246,.8);
+    }
+    .grid-card h3 {
+      margin: 0 0 .35rem; font-size: .98rem;
+    }
+    .grid-card p { margin: 0; color: var(--muted); }
+
+    .code-block {
+      font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      font-size: .82rem;
+      background: #020617;
+      border-radius: 10px;
+      border: 1px solid rgba(15,23,42,1);
+      padding: .7rem .8rem;
+      color: #e5e7eb;
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+    .code-label {
+      font-size: .72rem; color: var(--muted);
+      margin-bottom: .25rem;
+    }
+
+    .checklist {
+      list-style: none;
+      padding-left: 0; margin: .5rem 0 0;
+      font-size: .9rem;
+      color: var(--muted);
+    }
+    .checklist li {
+      display: flex; align-items: flex-start; gap: .45rem;
+    }
+    .checklist li + li { margin-top: .35rem; }
+    .bullet {
+      margin-top: .25rem;
+      width: 10px; height: 10px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 12px rgba(34,197,94,.7);
+      flex-shrink: 0;
+    }
+
+    /* FAQ */
+    .faq-list {
+      margin-top: .9rem;
+      display: grid; gap: .7rem;
+    }
+    details {
+      border-radius: 12px;
+      border: 1px solid rgba(148,163,184,.35);
+      background: rgba(15,23,42,.96);
+      padding: .75rem .9rem;
+      font-size: .9rem;
+    }
+    summary {
+      cursor: pointer;
+      list-style: none;
+      font-weight: 600;
+    }
+    summary::-webkit-details-marker { display: none; }
+    details[open] {
+      border-color: var(--border-strong);
+      box-shadow: 0 14px 30px rgba(15,23,42,.9);
+    }
+    details p {
+      margin: .45rem 0 0;
+      color: var(--muted);
+    }
+
+    /* Footer */
+    footer {
+      padding: 2.8rem 0 3rem;
+      border-top: 1px solid rgba(148,163,184,.25);
+      color: var(--muted);
+      font-size: .85rem;
+    }
+    .foot-meta {
+      display: flex; flex-wrap: wrap; gap: .5rem; justify-content: space-between;
+      align-items: center;
+    }
+
+    .label-pill {
+      display: inline-flex; align-items: center; gap: .35rem;
+      border-radius: 999px;
+      padding: .2rem .6rem;
+      border: 1px solid rgba(148,163,184,.4);
+      background: rgba(15,23,42,.95);
+      font-size: .75rem;
+    }
+    .label-pill span {
+      width: 8px; height: 8px; border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 12px rgba(56,189,248,.7);
+    }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      .hero { grid-template-columns: 1fr; padding-top: 3.2rem; }
+      .two-col { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: minmax(0, 1fr); }
+      .nav-links a { display: none; }
+    }
+
+    /* Subtle entrance */
+    .fade {
+      opacity: 0; transform: translateY(8px);
+      animation: fadeUp .6s ease forwards;
+    }
+    .fade:nth-child(2) { animation-delay: .05s; }
+    .fade:nth-child(3) { animation-delay: .1s; }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <div class="logo-mark"><span></span></div>
+          <div class="logo-text">
+            <div>CONTROL YOUR</div>
+            <span>AI</span>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#variables">Variables</a>
+          <a href="#modules">Training</a>
+          <a href="#quickstart">Quickstart</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="fade">
+        <div class="badge">
+          <div class="badge-dot"></div>
+          Free Training • AI Control Basics
+        </div>
+        <h1><span>Make AI Actually Do<br />What You Mean</span></h1>
+        <p class="hero-lead">
+          This free module shows you how to control the key elements that determine whether
+          an AI system follows your wishes: how you ask, what you specify, how you steer,
+          and when you reset. No coding required — just clear levers you can pull.
+        </p>
+        <div class="hero-cta">
+          <a href="#quickstart" class="btn">
+            Start the Free Module
+          </a>
+          <a href="#variables" class="btn btn-outline">
+            See the Control Map
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span>⏱ <small>~40 minutes total</small></span>
+          <span>📎 <small>Reusable prompt templates</small></span>
+          <span>💡 <small>Beginner-friendly • Power-user ready</small></span>
+        </div>
+      </div>
+
+      <aside class="hero-card fade">
+        <h2>Core Promise</h2>
+        <h3>By the end of this module, you’ll be able to:</h3>
+        <ul>
+          <li>Frame requests so AI understands what you actually care about</li>
+          <li>Specify format, depth, and tone for predictable output</li>
+          <li>Course-correct mid-conversation without starting over</li>
+          <li>Use a simple checklist before sending any important prompt</li>
+        </ul>
+        <div class="hero-chip-row">
+          <div class="chip">Prompt Craft</div>
+          <div class="chip">Session Control</div>
+          <div class="chip">Output Shaping</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- VARIABLES MAP -->
+    <section id="variables" class="container">
+      <h2 class="section-title">The AI Control Map</h2>
+      <p class="section-lead">
+        When you talk to an AI, a handful of controllable elements decide what you get back.
+        This module focuses on the ones <em>you</em> can directly influence — in plain language.
+      </p>
+      <div class="grid-3" style="margin-top: 1.4rem;">
+        <article class="grid-card">
+          <h3>1. Instruction</h3>
+          <p>
+            What you ask for: the task, goal, and constraints. Vague instruction is the #1
+            cause of disappointing outputs.
+          </p>
+        </article>
+        <article class="grid-card">
+          <h3>2. Structure</h3>
+          <p>
+            The requested format, steps, and headings. Structure tells the AI how to
+            organize its answer so it’s usable for you.
+          </p>
+        </article>
+        <article class="grid-card">
+          <h3>3. Style & Tone</h3>
+          <p>
+            How it should sound: concise vs. detailed, formal vs. casual, technical vs. simple.
+            Style massively changes usefulness.
+          </p>
+        </article>
+        <article class="grid-card">
+          <h3>4. Examples</h3>
+          <p>
+            Concrete samples of what “good” looks like. Examples let the AI imitate exactly
+            the flavor and shape you want.
+          </p>
+        </article>
+        <article class="grid-card">
+          <h3>5. Session State</h3>
+          <p>
+            What’s already been said, what’s still relevant, and when to reset. Good
+            sessions are well-maintained sessions.
+          </p>
+        </article>
+        <article class="grid-card">
+          <h3>6. Feedback</h3>
+          <p>
+            How you respond to outputs: accept, refine, or correct. Precise feedback teaches
+            the AI how to course-correct fast.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- MODULES -->
+    <section id="modules" class="container">
+      <div class="two-col">
+        <div class="fade">
+          <h2 class="section-title">Free Training — 4 Short Modules</h2>
+          <p class="section-lead">
+            You can treat this page as a mini-course: follow the modules from top to bottom,
+            and copy the examples into your own AI tool as you go.
+          </p>
+          <p class="tagline">
+            Every module ends with a concrete “Try this now” prompt you can paste and adapt.
+          </p>
+        </div>
+        <div class="panel-soft fade">
+          <div class="label">Tip</div>
+          <div class="code-label">Use a fresh AI chat titled “Control Module Practice”</div>
+          <div class="code-block">
+Paste each practice prompt into that chat, and tweak it for your own use-case.
+This keeps all your experiments in one place you can revisit.
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 1 -->
+      <section style="margin-top: 2.4rem;">
+        <div class="panel">
+          <div class="label">Module 1</div>
+          <h3 style="margin:.1rem 0 .5rem;">Instruction: Say What You Actually Want</h3>
+          <p class="tagline">
+            Most people describe a topic. You’re going to describe a task.
+          </p>
+          <div style="display:grid; gap:1rem; margin-top:.8rem;">
+            <div>
+              <div class="code-label">Weak prompt</div>
+              <div class="code-block">
+“Tell me about marketing funnels.”
+              </div>
+            </div>
+            <div>
+              <div class="code-label">Controlled prompt</div>
+              <div class="code-block">
+“You are helping me <b>design</b> a simple 3-step marketing funnel
+for a small online course. 
+
+Goal: outline the funnel and tell me what to do at each step.
+Constraints:
+- Audience: solo creators with limited time
+- Channel: email + one social platform
+- Output: bullet list with 3 sections (Top / Middle / Bottom), 
+  each with:
+  - goal
+  - 2–3 example actions
+  - 1 metric to watch”
+              </div>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li><div class="bullet"></div><span>State the goal (“design”, “debug”, “outline”, “compare”…)</span></li>
+            <li><div class="bullet"></div><span>Give 2–3 key constraints (who it’s for, where it lives, limits)</span></li>
+            <li><div class="bullet"></div><span>Say what the output should look like (bullets, steps, table, etc.)</span></li>
+          </ul>
+          <div style="margin-top:1rem;">
+            <div class="code-label">Try this now — swap in your topic</div>
+            <div class="code-block">
+“You are helping me &lt;ACTION&gt; about &lt;TOPIC&gt;.
+
+Goal: &lt;WHAT YOU WANT DONE&gt;.
+Constraints:
+- Audience: &lt;WHO IT’S FOR&gt;
+- Context: &lt;WHERE/HOW IT’S USED&gt;
+- Limits: &lt;WHAT TO AVOID OR KEEP SHORT&gt;
+
+Output: &lt;FORMAT YOU WANT (e.g., 5 bullet points, a 3-step plan, etc.)&gt;”
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Module 2 -->
+      <section style="margin-top: 2rem;">
+        <div class="panel">
+          <div class="label">Module 2</div>
+          <h3 style="margin:.1rem 0 .5rem;">Structure: Shape How the Answer Arrives</h3>
+          <p class="tagline">
+            Structure turns a generic answer into something you can plug directly into your work.
+          </p>
+          <div class="two-col" style="gap:1.4rem; margin-top:.8rem;">
+            <div>
+              <div class="code-label">With no structure</div>
+              <div class="code-block">
+“Explain this contract to me in simple terms.”
+              </div>
+              <p class="tagline">You’ll get a wall of text.</p>
+            </div>
+            <div>
+              <div class="code-label">With clear structure</div>
+              <div class="code-block">
+“Explain this contract to me in simple terms.
+
+Structure your answer in 4 sections, with headings:
+1. ‘Summary in 3 bullets’
+2. ‘What I am responsible for’
+3. ‘What the other party is responsible for’
+4. ‘Risks or things to watch’
+
+In each section, use short bullet points.”
+              </div>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li><div class="bullet"></div><span>Tell the AI how many sections or steps you want</span></li>
+            <li><div class="bullet"></div><span>Give each section a heading so you can skim</span></li>
+            <li><div class="bullet"></div><span>Specify bullets / numbered steps / tables explicitly</span></li>
+          </ul>
+          <div style="margin-top:1rem;">
+            <div class="code-label">Template — describe the format before you send</div>
+            <div class="code-block">
+“Answer in this format:
+
+1. &lt;HEADING 1&gt;
+   - &lt;bullet&gt;
+   - &lt;bullet&gt;
+
+2. &lt;HEADING 2&gt;
+   - &lt;bullet&gt;
+
+3. &lt;HEADING 3&gt;
+   - &lt;bullet&gt;
+
+Keep each bullet under 20 words.”
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Module 3 -->
+      <section style="margin-top: 2rem;">
+        <div class="panel">
+          <div class="label">Module 3</div>
+          <h3 style="margin:.1rem 0 .5rem;">Style & Tone: Make It Sound Useful</h3>
+          <p class="tagline">
+            Same information, different tone = different usability. You control this up front.
+          </p>
+          <div style="display:grid; gap:1rem; margin-top:.8rem;">
+            <div>
+              <div class="code-label">Style options you can name</div>
+              <div class="code-block">
+“Explain this:
+- as if to a smart 14-year-old” 
+- in concise bullet points only
+- in 3 levels: basic / intermediate / expert
+- in a friendly but professional tone
+- using examples from &lt;YOUR DOMAIN&gt;
+              </div>
+            </div>
+            <div>
+              <ul class="checklist">
+                <li><div class="bullet"></div><span>Audience: who is this for?</span></li>
+                <li><div class="bullet"></div><span>Density: brief overview vs. deep dive?</span></li>
+                <li><div class="bullet"></div><span>Vibe: formal report, casual note, or something in between?</span></li>
+              </ul>
+            </div>
+          </div>
+          <div style="margin-top:1rem;">
+            <div class="code-label">Try this combo</div>
+            <div class="code-block">
+“Rewrite the explanation you just gave:
+
+- Audience: busy non-technical founder
+- Tone: calm, confident, practical
+- Format: 5 bullets total
+- Constraint: no sentence longer than 18 words”
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Module 4 -->
+      <section style="margin-top: 2rem;">
+        <div class="panel">
+          <div class="label">Module 4</div>
+          <h3 style="margin:.1rem 0 .5rem;">Session Control: Reset, Refine, and Steer</h3>
+          <p class="tagline">
+            Good AI work is iterative. You’re allowed — encouraged — to steer as you go.
+          </p>
+          <div class="two-col" style="gap:1.4rem; margin-top:.9rem;">
+            <div>
+              <div class="code-label">Mid-conversation steering phrases</div>
+              <div class="code-block">
+“Summarize what we’re doing in one sentence.”
+
+“Restate my goal in your own words.”
+
+“You’re focusing too much on X. Shift to Y instead.”
+
+“Stop. Propose 3 alternative directions we could take next.”
+              </div>
+            </div>
+            <div>
+              <div class="code-label">Resetting when things drift</div>
+              <div class="code-block">
+“We’ve drifted from my goal. Ignore all previous details.
+
+New goal: &lt;STATE IT&gt;.
+
+Based only on this new goal, suggest a clean 3-step plan.” 
+              </div>
+              <p class="tagline">
+                When conversation gets messy, don’t wrestle it.
+                Reset and re-state the goal clearly.
+              </p>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li><div class="bullet"></div><span>Ask the AI to summarize your shared goal</span></li>
+            <li><div class="bullet"></div><span>Call out what’s off (“too generic”, “too theoretical”, “missing examples”)</span></li>
+            <li><div class="bullet"></div><span>Start a clean thread for large pivots</span></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- QUICKSTART -->
+    <section id="quickstart" class="container" style="margin-top: 3rem;">
+      <div class="two-col">
+        <div class="fade">
+          <h2 class="section-title">Quickstart Checklist</h2>
+          <p class="section-lead">
+            Before you send any important AI prompt, run this 15-second check. It alone will
+            dramatically improve your results.
+          </p>
+          <ul class="checklist" style="margin-top:.6rem;">
+            <li><div class="bullet"></div><span><strong>Goal: </strong>Did I say what I want done, not just the topic?</span></li>
+            <li><div class="bullet"></div><span><strong>Constraints: </strong>Did I mention audience, context, and limits?</span></li>
+            <li><div class="bullet"></div><span><strong>Format: </strong>Did I specify bullets / steps / sections?</span></li>
+            <li><div class="bullet"></div><span><strong>Style: </strong>Did I set tone and depth?</span></li>
+            <li><div class="bullet"></div><span><strong>Next move: </strong>Do I know what I’ll ask for after the first answer?</span></li>
+          </ul>
+        </div>
+        <div class="panel-soft fade">
+          <div class="label">Copy-paste starter</div>
+          <div class="code-block">
+“You are helping me &lt;ACTION&gt; about &lt;TOPIC&gt;.
+
+Goal:
+- &lt;WHAT YOU WANT DONE&gt;
+
+Constraints:
+- Audience: &lt;WHO THIS IS FOR&gt;
+- Context: &lt;WHERE/HOW THIS IS USED&gt;
+- Limit: &lt;WHAT TO KEEP SHORT / AVOID&gt;
+
+Output:
+- Format: &lt;BULLETS / STEPS / SECTIONS&gt;
+- Style: &lt;TONE + DEPTH&gt;
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container" style="margin-top: 3rem;">
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Is this about one specific AI tool?</summary>
+          <p>
+            No. These principles apply to any modern text-based AI assistant. The knobs and
+            buttons may look different, but the underlying behavior is similar: it continues
+            whatever pattern you set.
+          </p>
+        </details>
+        <details>
+          <summary>Do I need to understand how the model works inside?</summary>
+          <p>
+            Not for this module. Think of this as learning the controls on the dashboard,
+            not rebuilding the engine. If you can write plain English, you can use this.
+          </p>
+        </details>
+        <details>
+          <summary>Can I share or adapt this module?</summary>
+          <p>
+            Yes. You’re welcome to share, remix, and customize the templates for your team,
+            students, or clients. Just keep it free and keep the spirit: help people get
+            better results, safely.
+          </p>
+        </details>
+        <details>
+          <summary>How does this connect to “inner work” or personal development?</summary>
+          <p>
+            That part is optional. Many people notice that the skills are similar: when you
+            get better at stating goals, setting constraints, and giving feedback to AI,
+            you often get better at doing the same with yourself and others. But this module
+            stays focused on AI behavior.
+          </p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot-meta">
+      <div>© <span id="year"></span> Control Your AI — Free training module.</div>
+      <div class="label-pill">
+        <span></span>
+        No login • No upsell • Just usable skills
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

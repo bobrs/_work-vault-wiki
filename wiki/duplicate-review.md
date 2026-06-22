@@ -6,9 +6,11 @@ No duplicate should be deleted or merged until reviewed.
 
 Current state:
 
-- no exact duplicate hash groups currently exist;
+- exact duplicate hash groups currently exist again after the fresh intake scan;
+- the largest clusters are the mirror-heavy `Side Projects Desktop` bundles and the SCT lineage copies, with a few exact companion duplicates in the personal and training folders;
 - the previous empty-manifest pair was normalized by recording the reconciliation action in `manifest/agent_actions.jsonl`, leaving `manifest/missing_log.jsonl` as the lone empty sentinel;
-- eighteen exact duplicate pairs were previously collapsed within the archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot, and that lineage remains canonical.
+- eighteen exact duplicate pairs were previously collapsed within the archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot, and that lineage remains canonical;
+- the `Daily Growth Ritual` and `Consent Seed` mirror copies from `Side Projects Desktop` have now been archived back to their survivor lineages.
 
 Current handling:
 

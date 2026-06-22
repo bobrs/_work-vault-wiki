@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Causation Delirium: The 5-Step Spiral</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-soft: #020617;
+      --card: #020617;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.12);
+      --accent-strong: #0ea5e9;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --danger: #f97373;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.85);
+      --max-width: 920px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at top, #0b1220 0, #020617 42%, #000 100%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 32px 16px 64px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .page {
+      width: 100%;
+      max-width: var(--max-width);
+    }
+
+    header {
+      margin-bottom: 32px;
+      padding: 24px 20px 20px;
+      border-radius: 26px;
+      background: radial-gradient(circle at top left, rgba(56,189,248,0.14), transparent 55%),
+                  linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.9));
+      border: 1px solid rgba(148,163,184,0.2);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 120% -20%, rgba(248,250,252,0.18), transparent 55%);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    .header-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.8);
+      border: 1px solid rgba(148,163,184,0.45);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 12px rgba(56,189,248,0.9);
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 3vw, 2.7rem);
+      line-height: 1.1;
+      margin-bottom: 8px;
+      letter-spacing: -0.03em;
+    }
+
+    h1 span.highlight {
+      background: linear-gradient(120deg, #38bdf8, #a855f7, #f97316);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .subtitle {
+      font-size: 0.97rem;
+      color: var(--muted);
+      max-width: 640px;
+      margin-bottom: 18px;
+    }
+
+    .spoiler-line {
+      font-size: 0.9rem;
+      color: var(--accent-strong);
+      background: rgba(15,23,42,0.9);
+      border-radius: 999px;
+      border: 1px solid rgba(56,189,248,0.3);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      margin-bottom: 18px;
+    }
+
+    .spoiler-tag {
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(56,189,248,0.16);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 9px 18px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #0b1120;
+      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+      box-shadow: 0 14px 32px rgba(8,47,73,0.85);
+      text-decoration: none;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary span.icon {
+      font-size: 1.1rem;
+      transform: translateY(1px);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.05);
+      box-shadow: 0 18px 40px rgba(8,47,73,0.95);
+    }
+
+    .cta-note {
+      font-size: 0.8rem;
+      color: var(--muted);
+      max-width: 340px;
+    }
+
+    main {
+      display: grid;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: radial-gradient(circle at top left, rgba(15,23,42,0.96), rgba(15,23,42,0.96));
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(30,64,175,0.8);
+      box-shadow: var(--shadow-soft);
+      padding: 18px 18px 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(56,189,248,0.1), transparent 55%);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    .card-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 0.93rem;
+      margin-bottom: 8px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.35);
+      color: var(--muted);
+      background: rgba(15,23,42,0.85);
+      margin-bottom: 10px;
+    }
+
+    .pill-small {
+      font-size: 0.76rem;
+      opacity: 0.9;
+    }
+
+    .pill-number {
+      width: 20px;
+      height: 20px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.5);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .spoiler-inline {
+      font-size: 0.82rem;
+      color: var(--accent-strong);
+      margin-top: 4px;
+    }
+
+    .spoiler-inline strong {
+      font-weight: 600;
+    }
+
+    .example {
+      font-size: 0.86rem;
+      color: #cbd5f5;
+      background: rgba(15,23,42,0.9);
+      border-radius: 12px;
+      padding: 7px 10px;
+      border: 1px solid rgba(148,163,184,0.35);
+      margin-top: 6px;
+    }
+
+    .example strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .tag {
+      font-size: 0.78rem;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(30,64,175,0.7);
+      color: #cbd5f5;
+    }
+
+    .footer-cta {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.86rem;
+      color: var(--muted);
+    }
+
+    .footer-cta a {
+      color: var(--accent-strong);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .footer-cta a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px 40px;
+      }
+
+      header {
+        padding: 18px 16px 16px;
+      }
+
+      .card {
+        padding: 16px 14px 14px;
+      }
+
+      .cta-row {
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-inner">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span>Cognitive Pattern • Field Guide</span>
+        </div>
+        <h1>
+          Causation Delirium:
+          <span class="highlight">The 5-Step Spiral</span>
+        </h1>
+        <p class="subtitle">
+          Causation Delirium is the human compulsion to identify, project, and “solve” causes in chaotic systems
+          — even when the true cause is unknowable or too vast. The result is a spiral where each attempted
+          fix quietly accelerates the collapse.
+        </p>
+
+        <div class="spoiler-line">
+          <span class="spoiler-tag">Spoiler</span>
+          <span>The “real cause” is often our <strong>intolerance for uncertainty</strong>, not the thing we’re blaming.</span>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn-primary" href="Causation-Delirium-Guide.pdf" download>
+            <span class="icon">⬇️</span>
+            <span>Download the Causation Delirium Guide</span>
+          </a>
+          <p class="cta-note">
+            Get the printable guide with prompts, diagrams, and reflection exercises to spot the spiral in yourself,
+            your relationships, and your systems.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Definition -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="label">Definition</div>
+          <p>
+            <strong>Causation Delirium</strong> is the human tragedy of needing to know <em>why</em> —
+            even when “why” cannot be known. When we can’t tolerate uncertainty, we grab the nearest story about cause and effect,
+            then keep upgrading that story as reality refuses to cooperate.
+          </p>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> the spiral isn’t powered by the situation itself — it’s powered by our nervous system
+            trying to escape helplessness at all costs.
+          </p>
+        </div>
+      </section>
+
+      <!-- The Spiral Intro -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="label">The Spiral</div>
+          <p>
+            The spiral usually unfolds in five moves. You’ve seen this in families, workplaces, online communities,
+            and inside your own head.
+          </p>
+          <div class="example">
+            <strong>Relatable snapshot:</strong> A project fails, a relationship cracks, or a sudden crisis hits.
+            No one really knows why, but silence feels unbearable — so a “cause story” appears, and everything
+            starts organizing around it.
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 1 -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill">
+            <span class="pill-number">1</span>
+            <span>Identify a Cause</span>
+          </div>
+          <h2>Faced with chaos, we grab the nearest explanation.</h2>
+          <p>
+            When something painful or confusing happens, humans demand an explanation. Fast.
+            The chosen cause is usually:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 8px; font-size: 0.9rem;">
+            <li>Immediate and visible</li>
+            <li>Emotionally charged</li>
+            <li>Socially “available” (other people are already talking about it)</li>
+          </ul>
+          <div class="example">
+            <strong>Everyday example:</strong> A big work project tanks. Instead of admitting,
+            “This was a mix of market shifts, unclear goals, and random bad timing,” the team
+            decides, “It’s because Sam didn’t push hard enough,” or “It’s because leadership is clueless.”
+          </div>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> at this stage we’re not really seeking truth — we’re seeking
+            <strong>relief from uncertainty</strong>. The first plausible cause feels like a life raft.
+          </p>
+        </div>
+      </section>
+
+      <!-- Step 2 -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill">
+            <span class="pill-number">2</span>
+            <span>Project It Outward</span>
+          </div>
+          <h2>The cause becomes a target, and blame gets exported.</h2>
+          <p>
+            Once a cause is chosen, we push it onto something or someone “out there”:
+            scapegoating, accusations, punishment, moral outrage.
+            Externalization provides temporary relief:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 8px; font-size: 0.9rem;">
+            <li>“It’s not me, it’s them.”</li>
+            <li>“If they would just change, this would all be fixed.”</li>
+          </ul>
+          <div class="example">
+            <strong>Everyday example:</strong> In a family money crisis, one sibling becomes
+            “the irresponsible one,” or a single big purchase becomes “the reason we’re struggling,”
+            even though the reality is years of systemic pressure and under-earning.
+          </div>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> projection works like an emotional painkiller —
+            but it <em>also</em> blinds us to complex, system-level causes that don’t fit into a single villain.
+          </p>
+        </div>
+      </section>
+
+      <!-- Step 3 -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill">
+            <span class="pill-number">3</span>
+            <span>Fail to Prove It</span>
+          </div>
+          <h2>The scapegoat doesn’t fix the chaos.</h2>
+          <p>
+            The externalized solution is tested by reality. If it were the whole story, things would stabilize.
+            But the deeper system hasn’t changed, so the problem:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 8px; font-size: 0.9rem;">
+            <li>Persists</li>
+            <li>Migrates into a new form</li>
+            <li>Or briefly improves, then returns</li>
+          </ul>
+          <div class="example">
+            <strong>Everyday example:</strong> The team sidelines “the problem employee” or replaces a manager.
+            For a few weeks things feel better. Then deadlines slip again, morale drops, and suddenly there’s
+            a <em>new</em> person or policy to blame.
+          </div>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> this is where the system quietly reveals itself:
+            the “fix” failed because the original story was <strong>too simple for a complex reality</strong>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Step 4 -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill">
+            <span class="pill-number">4</span>
+            <span>Turn Inward</span>
+          </div>
+          <h2>When “them” doesn’t work, the blame boomerangs back to “me.”</h2>
+          <p>
+            With outward projection failing, the mind flips polarity. Instead of “It’s them,”
+            the story becomes “It’s me. I’m the curse. I’m broken.”
+            This stage is marked by:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 8px; font-size: 0.9rem;">
+            <li>Self-recrimination and over-confession</li>
+            <li>Fractured trust in self and others</li>
+            <li>Inner torment and shame spirals</li>
+          </ul>
+          <div class="example">
+            <strong>Everyday example:</strong> After a breakup, someone rewrites the whole
+            relationship as “It fell apart because I’m unlovable / too much / not enough,”
+            ignoring stress, timing, and both people’s patterns.
+          </div>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> the “I am the problem” story is just the
+            <strong>inverted twin</strong> of “They are the problem.” It still avoids
+            sitting with the raw fact that <em>no one is fully in control</em>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Step 5 -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill">
+            <span class="pill-number">5</span>
+            <span>Desperately Seek a Third Option</span>
+          </div>
+          <h2>When outward and inward blame both fail, the mind hunts for magic.</h2>
+          <p>
+            Neither scapegoating nor self-blame resolves the chaos. So the mind lunges toward
+            desperate alternatives:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 8px; font-size: 0.9rem;">
+            <li>Miracle fixes (“One course / coach / leader will save us”)</li>
+            <li>Grand bargains (“If I sacrifice enough, things will finally work”)</li>
+            <li>Elaborate delusions (“There must be a secret force sabotaging this”)</li>
+          </ul>
+          <div class="example">
+            <strong>Everyday example:</strong> A burned-out founder becomes convinced
+            that a single “10x hire” or one investor will magically repair a decade
+            of structural problems — or that the universe is personally conspiring against them.
+          </div>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> the “third option” usually isn’t a solution;
+            it’s a last-ditch attempt to escape the core truth:
+            <strong>some systems are too complex to control, only to navigate.</strong>
+          </p>
+        </div>
+      </section>
+
+      <!-- Key Characteristics -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill pill-small">Key Characteristics</div>
+          <h2>How Causation Delirium behaves in the wild.</h2>
+          <p><strong>Recursive:</strong> Each turn of the spiral amplifies the collapse.
+            Every new cause story sits on top of the old one, making the system harder to see clearly.</p>
+          <p><strong>False Resolution:</strong> Each “solution” produces momentary emotional relief
+            while feeding back into the problem, often locking in the very conditions we fear.</p>
+          <p><strong>Universality:</strong> The pattern shows up in folktales, theology, personal psychology,
+            group dynamics, and political systems — anywhere humans demand neat causes from messy reality.</p>
+          <p><strong>Tragic Inevitability:</strong> By the time Step 5 is reached, collapse feels unavoidable,
+            because every layer of the story has been built to avoid saying, “We don’t actually know why.”</p>
+          <p class="spoiler-inline">
+            <strong>Spoiler:</strong> the mechanism underneath all of this is simple:
+            <strong>uncertainty + threat + imagination</strong>. The spiral is what happens
+            when those three refuse to sit quietly together.
+          </p>
+        </div>
+      </section>
+
+      <!-- Applications -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="pill pill-small">Applications</div>
+          <h2>Where to look for Causation Delirium in your own life.</h2>
+          <p><strong>Art & Story Analysis:</strong> Decode characters’ choices in spiraling narratives:
+            tragedies, horror, family dramas, political thrillers. Ask, “Where do they <em>need</em>
+            a cause more than they need the truth?”</p>
+          <p><strong>Self-Reflection:</strong> Notice when you’re fabricating causes to control
+            the uncontrollable — especially during grief, sudden loss, or identity shifts.</p>
+          <p><strong>Systems Thinking:</strong> Watch for scapegoating and “silver bullet” fixes
+            in organizations, politics, or history. Wherever the story is too simple for the stakes,
+            the spiral is nearby.</p>
+          <div class="tags">
+            <span class="tag">Narrative Design</span>
+            <span class="tag">Leadership & Teams</span>
+            <span class="tag">Personal Growth</span>
+            <span class="tag">Crisis Response</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom CTA -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="label">Take this further</div>
+          <h2>Download the full Causation Delirium Guide.</h2>
+          <p>
+            Use the guide as a reflection companion for tough seasons, strategic offsites,
+            or story design. It includes:
+          </p>
+          <ul style="margin-left: 18px; margin-bottom: 12px; font-size: 0.9rem;">
+            <li>Question prompts for each step of the spiral</li>
+            <li>Space to map real-world examples (personal or systemic)</li>
+            <li>Signals that you’re exiting the spiral and re-entering reality</li>
+          </ul>
+          <a class="btn-primary" href="Causation-Delirium-Guide.pdf" download>
+            <span class="icon">⬇️</span>
+            <span>Download the Guide (PDF)</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer-cta">
+      Prefer a lighter format? You can paste this content into your favorite doc tool and
+      link the same <a href="Causation-Delirium-Guide.pdf">downloadable guide</a> for your readers.
+    </div>
+  </div>
+</body>
+</html>

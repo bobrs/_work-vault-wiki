@@ -4,10 +4,10 @@ This branch collects the training and recursive-integration materials in the des
 
 ## Current Shape
 
-- 97 files total.
-- 29 root files.
+- 96 files total.
+- 28 root files.
 - 68 files in `Advanced`.
-- 1 root-file duplicate mirrors the `Consent Seed` page.
+- 1 root-file duplicate has been archived against the `Consent Seed` lineage.
 
 ## Nested Lineage Pages
 
@@ -23,9 +23,9 @@ This branch collects the training and recursive-integration materials in the des
 
 ## Working Read
 
-The root folder is the training seam; `Advanced` holds the deeper recursive material, and one root file is a duplicate consent-seed copy that should collapse to the dedicated `Consent Seed` page.
+The root folder is the training seam; `Advanced` holds the deeper recursive material, and the consent-seed mirror has been archived against the dedicated `Consent Seed` page.
 
 ## Next Actions
 
 1. Keep `Advanced` stable.
-2. Treat the consent-seed copy as mirrored material.
+2. Treat future consent-seed copies as mirrored material.

@@ -4,7 +4,7 @@ This is the catch-all loop and consent branch for mixed-format prototypes.
 
 ## Current Shape
 
-- 14 files.
+- 13 files.
 
 ## Representative Files
 
@@ -16,7 +16,7 @@ This is the catch-all loop and consent branch for mixed-format prototypes.
 
 ## Working Read
 
-This is an auxiliary catch-all branch. It stays useful as a landing zone for mixed consent/loop prototypes, but it does not yet have a second durable seam.
+This is an auxiliary catch-all branch. It stays useful as a landing zone for mixed consent/loop prototypes, and the mirrored `Consent Seed` copy has been archived rather than kept in the live branch.
 
 ## Next Actions
 

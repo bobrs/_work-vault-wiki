@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TOTP Seed Encoder & Decoder</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; max-width: 960px; margin: auto; }
+    .block { display: inline-block; margin: 1em; padding: 1em; border-radius: 10px; color: white; text-align: center; width: 100px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 1em; }
+    .input { margin-bottom: 1em; font-size: 1.1em; padding: 0.4em; width: 300px; }
+    .label { margin-top: 2em; font-weight: bold; }
+    .symbol { font-size: 2em; font-weight: bold; }
+    .phonetic { font-size: 0.8em; opacity: 0.8; }
+    .Red { background-color: #ef4444; }
+    .Orange { background-color: #f97316; }
+    .Yellow { background-color: #fde047; color: black; }
+    .Green { background-color: #22c55e; }
+    .Blue { background-color: #3b82f6; }
+    .Purple { background-color: #8b5cf6; }
+    .Pink { background-color: #ec4899; color: black; }
+    .Gray { background-color: #6b7280; }
+    .Black { background-color: #000000; }
+    .border-red { border: 2px solid red; padding: 1em; border-radius: 10px; }
+    .border-green { border: 2px solid green; padding: 1em; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>TOTP Seed Encoder & Decoder</h1>
+
+  <h2>Encoder</h2>
+  <input id="hexInput" class="input" placeholder="Enter up to 12 hex characters" maxlength="12"/>
+  <div id="encoderOutput"></div>
+
+  <h2 class="label">Decoder</h2>
+  <div id="decoderBlocks" class="grid"></div>
+  <button onclick="validateDecoder()">Validate Decoder</button>
+  <div id="decoderResult"></div>
+
+  <script>
+    const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Gray", "Black"];
+    const symbols = ["A", "E", "F", "G", "H", "J", "K", "P", "R", "S", "T", "U", "V", "W", "X", "Y"];
+    const phonetics = {
+      A: "Alpha", E: "Echo", F: "Foxtrot", G: "Golf", H: "Hotel",
+      J: "Juliett", K: "Kilo", P: "Papa", R: "Romeo", S: "Sierra",
+      T: "Tango", U: "Uniform", V: "Victor", W: "Whiskey", X: "X-ray", Y: "Yankee"
+    };
+
+    let decoderSelections = Array(12).fill({ color: '', symbol: '' });
+
+    function getColorSymbol(index) {
+      const color = colors[Math.floor(index / symbols.length) % colors.length];
+      const symbol = symbols[index % symbols.length];
+      return { color, symbol };
+    }
+
+    function getIndex(color, symbol) {
+      const colorIndex = colors.indexOf(color);
+      const symbolIndex = symbols.indexOf(symbol);
+      return colorIndex >= 0 && symbolIndex >= 0 ? colorIndex * symbols.length + symbolIndex : -1;
+    }
+
+    function crc32(str) {
+      let crc = 0 ^ (-1);
+      for (let i = 0; i < str.length; i++) {
+        crc = (crc >>> 8) ^ table[(crc ^ str.charCodeAt(i)) & 0xFF];
+      }
+      return (crc ^ (-1)) >>> 0;
+    }
+
+    const table = (() => {
+      let c, table = [];
+      for (let n = 0; n < 256; n++) {
+        c = n;
+        for (let k = 0; k < 8; k++) {
+          c = ((c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1));
+        }
+        table[n] = c;
+      }
+      return table;
+    })();
+
+    function hexToBin(hex) {
+      return parseInt(hex, 16).toString(2).padStart(8, '0');
+    }
+
+    document.getElementById("hexInput").addEventListener("input", (e) => {
+      const value = e.target.value.replace(/[^0-9a-fA-F]/g, '').slice(0, 12);
+      if (value.length < 12) {
+        document.getElementById("encoderOutput").innerHTML = '';
+        return;
+      }
+
+      const bytes = value.match(/.{2}/g).map(h => parseInt(h, 16));
+      const output = [];
+
+      for (let g = 0; g < 3; g++) {
+        const data = bytes.slice(g * 3, g * 3 + 3);
+        const binary = data.map(b => hexToBin(b.toString(16))).join('');
+        const crc = (crc32(binary) >>> 0).toString(16).toUpperCase().slice(0, 2);
+        const full = [...data, parseInt(crc, 16)];
+        const group = full.map(i => getColorSymbol(i));
+        output.push(group);
+      }
+
+      document.getElementById("encoderOutput").innerHTML = output.map(group =>
+        '<div class="grid">' + group.map(({color, symbol}) =>
+          `<div class="block ${color}"><div class="symbol">${symbol}</div><div class="phonetic">${phonetics[symbol]}</div></div>`
+        ).join('') + '</div>'
+      ).join('');
+    });
+
+    function setupDecoderInputs() {
+      const container = document.getElementById('decoderBlocks');
+      container.innerHTML = '';
+      for (let i = 0; i < 12; i++) {
+        const div = document.createElement('div');
+        div.innerHTML = `
+          <label>Pair ${i + 1}</label><br/>
+          <select id="color${i}">${colors.map(c => `<option value="${c}">${c}</option>`)}</select><br/>
+          <select id="symbol${i}">${symbols.map(s => `<option value="${s}">${s} (${phonetics[s]})</option>`)}</select>
+        `;
+        container.appendChild(div);
+      }
+    }
+
+    function validateDecoder() {
+      for (let i = 0; i < 12; i++) {
+        decoderSelections[i] = {
+          color: document.getElementById(`color${i}`).value,
+          symbol: document.getElementById(`symbol${i}`).value
+        };
+      }
+
+      const indices = decoderSelections.map(s => getIndex(s.color, s.symbol));
+      const results = [];
+
+      for (let g = 0; g < 3; g++) {
+        const base = g * 4;
+        const group = indices.slice(base, base + 4);
+        if (group.some(i => i < 0)) continue;
+        const data = group.slice(0, 3);
+        const binary = data.map(i => i.toString(2).padStart(8, '0')).join('');
+        const crc = (crc32(binary) >>> 0).toString(16).toUpperCase().slice(0, 2);
+        const match = parseInt(crc, 16) === group[3];
+        results.push(match);
+      }
+
+      document.getElementById('decoderResult').innerHTML = results.map((valid, i) =>
+        `<p>Group ${i + 1}: <strong style="color:${valid ? 'green' : 'red'}">${valid ? 'Valid' : 'Invalid'}</strong></p>`
+      ).join('');
+    }
+
+    setupDecoderInputs();
+  </script>
+</body>
+</html>

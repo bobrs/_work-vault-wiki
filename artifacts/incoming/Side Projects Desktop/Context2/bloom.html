@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Context² Bloom — Family Contexts</title>
+  <meta name="description" content="Bloom is Context² for families — trust-first digital habits with shared context, progressive autonomy, and transparent consent.">
+  <meta property="og:title" content="Context² Bloom — Family Contexts">
+  <meta property="og:description" content="Safety isn’t censorship — it’s shared context.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0b1d3a/ffd166&text=Context%C2%B2+Bloom">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-gradient-brand { background: linear-gradient(135deg, #0b1d3a 0%, #1b3b72 65%, #b07d1b 120%); }
+    .btn { @apply px-5 py-3 rounded-2xl font-medium shadow hover:shadow-lg transition; }
+    .btn-primary { @apply bg-yellow-400 text-black; }
+    .btn-ghost { @apply border border-slate-500 text-white; }
+    .chip { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium border border-white/20; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100 selection:bg-yellow-300 selection:text-slate-950">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-slate-950/60 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-semibold tracking-tight">
+        <span class="inline-grid place-items-center w-8 h-8 rounded-xl bg-slate-900 ring-1 ring-white/10">²</span>
+        <span>Context<span class="align-super text-sm">²</span> Bloom</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html#family" class="hover:text-yellow-300">Back to site</a>
+        <a href="#features" class="hover:text-yellow-300">Features</a>
+        <a href="#how" class="hover:text-yellow-300">How it works</a>
+        <a href="#faq" class="hover:text-yellow-300">FAQ</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#waitlist" class="btn btn-primary">Join Family Beta</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-gradient-brand">
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28">
+      <div class="max-w-3xl">
+        <div class="chip mb-4">Family Feature Set</div>
+        <h1 class="text-4xl md:text-6xl font-semibold leading-tight">Bloom — raising digital natives with boundaries that grow.</h1>
+        <p class="mt-6 text-lg text-slate-200/90">Bloom turns parental controls into <strong>shared context</strong>. Co-create safe, age-appropriate boundaries that expand as your kids mature — teaching consent, not control.</p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="#waitlist" class="btn btn-primary">Join Family Beta</a>
+          <a href="#features" class="btn btn-ghost">Explore Features</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <h2 class="text-2xl md:text-4xl font-semibold">What Bloom adds to Context²</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Family Context Graph</h3>
+          <p class="text-slate-300">Define family values, tone, and age-appropriate topics once. Connected AIs honor it across devices.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Context Inheritance</h3>
+          <p class="text-slate-300">Each child profile inherits the family context with scoped overrides for maturity and needs.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Progressive Autonomy</h3>
+          <p class="text-slate-300">Create milestones (e.g., “age 12 research mode”) that gradually expand capability and access.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Conversation Bridge</h3>
+          <p class="text-slate-300">AIs can suggest family discussion prompts for sensitive topics — guiding, not tattling.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Privacy Ledger</h3>
+          <p class="text-slate-300">See which context was active during any session without exposing private content.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <h3 class="font-semibold text-yellow-300 mb-2">Emergency Freeze</h3>
+          <p class="text-slate-300">One-tap suspend that reverts AIs to a safe fallback context in case of issues.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <h2 class="text-2xl md:text-4xl font-semibold">How Bloom works</h2>
+      <ol class="mt-6 space-y-4 list-decimal list-inside text-slate-300">
+        <li>Create a <strong>Family Context</strong> with baseline tone, topics, and permissions.</li>
+        <li>Add each child as a <strong>profile</strong> with inherited rules and age-appropriate extensions.</li>
+        <li>Connect Bloom to your kids’ devices and AI apps via our <strong>browser bridge</strong> or partner integrations.</li>
+        <li>Use <strong>milestones</strong> to progressively unlock capabilities with transparency.</li>
+        <li>Review high-level activity through the <strong>privacy ledger</strong> — no spying, just context history.</li>
+      </ol>
+      <div class="mt-6 p-5 rounded-2xl bg-slate-900/60 border border-white/10 text-slate-300 text-sm">
+        <p><strong>Note:</strong> Bloom is not a surveillance tool. It’s a consent-forward framework that teaches digital citizenship. Kids can see their active context and request changes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <h2 class="text-2xl md:text-4xl font-semibold">FAQ</h2>
+      <div class="mt-8 space-y-6">
+        <details class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <summary class="font-semibold cursor-pointer">Is Bloom a content filter?</summary>
+          <p class="mt-3 text-slate-300">Bloom is context-first, not blacklist-first. It guides AIs to respond within family-defined boundaries. You can still use traditional filters with it.</p>
+        </details>
+        <details class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <summary class="font-semibold cursor-pointer">Does Bloom read my child’s messages?</summary>
+          <p class="mt-3 text-slate-300">No. Bloom tracks <em>which context</em> was active, not private content. Families can opt into summaries of sensitive topics generated by the AI, with everyone informed.</p>
+        </details>
+        <details class="p-5 rounded-2xl bg-slate-900/60 border border-white/10">
+          <summary class="font-semibold cursor-pointer">Can my teen manage their own context?</summary>
+          <p class="mt-3 text-slate-300">Yes. Bloom is designed for progressive autonomy. Teens can propose changes; parents can approve milestones that expand capabilities.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section id="waitlist" class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-2xl md:text-4xl font-semibold">Join the Family Beta</h2>
+        <p class="mt-3 text-slate-300">Be the first to try Bloom with your family. We’ll invite small cohorts and learn together.</p>
+        <form class="mt-6 grid gap-3" onsubmit="return handleBloomWaitlist(event)">
+          <input class="px-4 py-3 rounded-xl bg-slate-900/60 border border-white/10" type="email" placeholder="you@example.com" required>
+          <input class="px-4 py-3 rounded-xl bg-slate-900/60 border border-white/10" type="text" placeholder="Parent/guardian name (optional)">
+          <button class="btn btn-primary w-max">Join Family Beta</button>
+          <p id="bloomMsg" class="text-sm text-slate-400"></p>
+        </form>
+      </div>
+      <div class="p-6 rounded-2xl bg-slate-900/60 border border-white/10">
+        <h3 class="text-xl font-semibold text-yellow-300">Design principles</h3>
+        <ul class="mt-3 list-disc list-inside text-slate-300 space-y-2">
+          <li>Consent over control</li>
+          <li>Transparency by default</li>
+          <li>Growth through guided autonomy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-10 text-sm text-slate-400">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <p>© 2025 Context² Bloom.</p>
+        <nav class="flex gap-4">
+          <a href="index.html" class="hover:text-yellow-300">Main Site</a>
+          <a href="#" class="hover:text-yellow-300">Privacy &amp; Consent</a>
+          <a href="#" class="hover:text-yellow-300">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  function handleBloomWaitlist(e){
+    e.preventDefault();
+    const msg = document.getElementById('bloomMsg');
+    msg.textContent = "Thanks! We’ll email you about the beta.";
+    return false;
+  }
+</script>
+</body>
+</html>

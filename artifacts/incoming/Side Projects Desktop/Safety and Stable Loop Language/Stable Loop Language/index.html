@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stable Loop Language — Stop Saying “I Want to Feel X”</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta 
+    name="description" 
+    content="Learn a clean relational grammar that replaces 'I want to feel X' with stable, consent-safe, predictable language. Free mini-course included."
+  />
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-soft: #0b1220;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.12);
+      --accent-strong: #0ea5e9;
+      --text-main: #e5e7eb;
+      --text-soft: #9ca3af;
+      --text-muted: #6b7280;
+      --card-bg: rgba(15, 23, 42, 0.92);
+      --border-subtle: rgba(148, 163, 184, 0.18);
+      --radius-lg: 1.5rem;
+      --radius-md: 0.75rem;
+      --shadow-soft: 0 22px 45px rgba(15, 23, 42, 0.65);
+      --shadow-subtle: 0 10px 30px rgba(15, 23, 42, 0.75);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0f172a 0, #020617 55%);
+      color: var(--text-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .shell {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 20px 64px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 10%, #e0f2fe 0, #38bdf8 35%, #0f172a 90%);
+      box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.3),
+        0 18px 40px rgba(8, 47, 73, 0.9);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-name {
+      font-size: 0.98rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #e5f0ff;
+    }
+
+    .brand-tagline {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .header-cta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.86rem;
+      color: var(--text-soft);
+    }
+
+    .pill {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.6);
+      color: var(--accent-strong);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.3fr);
+      gap: 32px;
+      align-items: flex-start;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .shell {
+        padding: 20px 16px 48px;
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* HERO LEFT */
+    .hero-card {
+      background: linear-gradient(
+          135deg,
+          rgba(15, 23, 42, 0.96),
+          rgba(15, 23, 42, 0.98)
+        ),
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.09), transparent 55%);
+      border-radius: 1.8rem;
+      padding: 28px 24px 24px;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-accent-orbit {
+      position: absolute;
+      inset: -40%;
+      background:
+        radial-gradient(circle at 10% 0, rgba(56, 189, 248, 0.22), transparent 50%),
+        radial-gradient(circle at 80% 0, rgba(52, 211, 153, 0.12), transparent 52%);
+      opacity: 0.85;
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 3px 10px 3px 4px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.45);
+      margin-bottom: 16px;
+    }
+
+    .eyebrow-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: conic-gradient(from 190deg, #38bdf8, #a855f7, #22c55e, #38bdf8);
+      padding: 3px;
+    }
+
+    .eyebrow-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background: radial-gradient(circle at 30% 0%, #e0f2fe, #0f172a);
+    }
+
+    .eyebrow-text {
+      font-size: 0.75rem;
+      color: var(--text-soft);
+    }
+
+    .eyebrow-highlight {
+      color: #e0f2fe;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: clamp(2.15rem, 3.1vw, 2.7rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+      color: #f9fafb;
+    }
+
+    h1 span.accent {
+      background: linear-gradient(120deg, #38bdf8, #a855f7);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: var(--text-soft);
+      max-width: 34rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-subtitle strong {
+      color: #e5f0ff;
+      font-weight: 500;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1.1fr;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 600px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .hero-box {
+      background: rgba(15, 23, 42, 0.96);
+      border-radius: 1rem;
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      padding: 14px 14px 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-box-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .hero-box-heading {
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .hero-box-text {
+      font-size: 0.8rem;
+      color: var(--text-soft);
+    }
+
+    .hero-box-tag {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      padding: 2px 8px;
+      font-size: 0.68rem;
+      border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      color: var(--accent-strong);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      background: radial-gradient(circle at 20% 0, #e0f2fe, #38bdf8);
+      color: #0b1220;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 18px 40px rgba(8, 47, 73, 0.9);
+      transition: transform 0.11s ease-out, box-shadow 0.11s ease-out,
+        filter 0.11s ease-out;
+    }
+
+    .btn-primary span.icon {
+      font-size: 1rem;
+      transform: translateY(1px);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.02);
+      box-shadow: 0 20px 45px rgba(8, 47, 73, 0.95);
+    }
+
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--text-soft);
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: background 0.15s ease-out, border-color 0.15s ease-out,
+        color 0.15s ease-out;
+    }
+
+    .btn-outline:hover {
+      background: rgba(15, 23, 42, 0.98);
+      border-color: rgba(148, 163, 184, 0.95);
+      color: #e5f0ff;
+    }
+
+    .hero-footnote {
+      margin-top: 10px;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .hero-footnote span {
+      color: #e5f0ff;
+    }
+
+    /* RIGHT COLUMN: COURSE + EXPLANATION */
+
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .course-card {
+      background: var(--card-bg);
+      border-radius: var(--radius-lg);
+      padding: 20px 18px 18px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .course-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(34, 197, 94, 0.65);
+      font-size: 0.74rem;
+      color: #bbf7d0;
+      margin-bottom: 10px;
+    }
+
+    .course-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .course-subtitle {
+      font-size: 0.86rem;
+      color: var(--text-soft);
+      margin-bottom: 14px;
+    }
+
+    .course-list {
+      list-style: none;
+      margin: 0 0 12px;
+      padding: 0;
+      font-size: 0.8rem;
+      color: var(--text-soft);
+    }
+
+    .course-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .course-list li span.bullet {
+      font-size: 0.85rem;
+      color: var(--accent-strong);
+      line-height: 1.4;
+    }
+
+    .course-meta {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .course-meta strong {
+      color: #e5f0ff;
+      font-weight: 500;
+    }
+
+    .course-form {
+      margin-top: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .input-row input {
+      flex: 1 1 180px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      background: rgba(15, 23, 42, 0.98);
+      color: #e5e7eb;
+      font-size: 0.82rem;
+      outline: none;
+      transition: border-color 0.12s ease-out, box-shadow 0.12s ease-out;
+    }
+
+    .input-row input::placeholder {
+      color: #6b7280;
+    }
+
+    .input-row input:focus {
+      border-color: rgba(56, 189, 248, 0.9);
+      box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.5);
+    }
+
+    .course-note {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .course-note span {
+      color: #e5f0ff;
+    }
+
+    .course-float {
+      position: absolute;
+      inset: auto auto -40px 70%;
+      width: 120px;
+      height: 120px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 10%, #22c55e, #0f172a);
+      opacity: 0.18;
+      filter: blur(1px);
+      pointer-events: none;
+    }
+
+    .explain-card {
+      background: rgba(15, 23, 42, 0.95);
+      border-radius: var(--radius-md);
+      padding: 14px 14px 12px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+
+    .explain-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .explain-text {
+      font-size: 0.8rem;
+      color: var(--text-soft);
+      margin-bottom: 8px;
+    }
+
+    .three-pillars {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      font-size: 0.76rem;
+    }
+
+    @media (max-width: 600px) {
+      .three-pillars {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .pillar {
+      padding: 8px 9px;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: rgba(15, 23, 42, 0.98);
+    }
+
+    .pillar-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .pillar-example {
+      font-size: 0.78rem;
+      color: #e5f0ff;
+      margin-bottom: 2px;
+    }
+
+    .pillar-caption {
+      font-size: 0.74rem;
+      color: var(--text-soft);
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-top: 1px solid rgba(30, 64, 175, 0.7);
+      padding-top: 16px;
+    }
+
+    footer a {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .legal-muted {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="shell">
+      <header>
+        <div class="brand">
+          <div class="brand-icon"></div>
+          <div class="brand-text">
+            <div class="brand-name">Stable Loop Language</div>
+            <div class="brand-tagline">Relational grammar for predictable connection</div>
+          </div>
+        </div>
+        <div class="header-cta">
+          <span class="pill">New</span>
+          <span>Free micro-course • 35–45 minutes</span>
+        </div>
+      </header>
+
+      <main>
+        <!-- LEFT: HERO / CONCEPT -->
+        <section class="hero-card">
+          <div class="hero-accent-orbit"></div>
+          <div class="hero-inner">
+            <div class="eyebrow">
+              <div class="eyebrow-dot">
+                <div class="eyebrow-inner"></div>
+              </div>
+              <span class="eyebrow-text">
+                Retire <span class="eyebrow-highlight">“I want to feel X”</span> from your vocabulary
+              </span>
+            </div>
+
+            <h1>
+              Stop saying <span class="accent">“I want to feel X”</span>.  
+              Start speaking in stable loops.
+            </h1>
+
+            <p class="hero-subtitle">
+              “I want to feel valued / desired / safe / respected…” sounds honest, but structurally it
+              creates dependency, constant environmental measurement, and hidden pressure on the other person.
+              This page introduces a simple grammar that
+              <strong>replaces all of that with predictable, consent-safe language.</strong>
+            </p>
+
+            <div class="hero-grid">
+              <div class="hero-box">
+                <div class="hero-box-label">The problem</div>
+                <div class="hero-box-heading">Measurement spirals</div>
+                <p class="hero-box-text">
+                  “I want to feel X” forces you to constantly scan: <em>Do they value me? Do they desire me?
+                  Am I safe?</em> It’s an infinite measurement loop that no one can reliably satisfy.
+                </p>
+                <span class="hero-box-tag">Unstable loop</span>
+              </div>
+
+              <div class="hero-box">
+                <div class="hero-box-label">The shift</div>
+                <div class="hero-box-heading">Three clean sentence patterns</div>
+                <p class="hero-box-text">
+                  Instead of asking others to manage your internal state, you learn a
+                  three-part grammar: <strong>Identity statements, behavior requests,
+                  and shared-context design</strong>.
+                </p>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#free-course">
+                <button class="btn-primary">
+                  Get the free course
+                  <span class="icon">➜</span>
+                </button>
+              </a>
+              <a href="#grammar">
+                <button class="btn-outline">
+                  View the grammar first
+                </button>
+              </a>
+            </div>
+
+            <p class="hero-footnote">
+              Built for coaches, partners, founders, facilitators, and anyone tired of vague emotional
+              negotiations. <span>No jargon. Just clean language you can use today.</span>
+            </p>
+          </div>
+        </section>
+
+        <!-- RIGHT: COURSE + EXPLANATION -->
+        <div class="right-column">
+          <section id="free-course" class="course-card">
+            <div class="course-float"></div>
+            <div class="course-badge">
+              <span>●</span> Free micro-course
+            </div>
+            <h2 class="course-title">Learn the Stable Loop Language</h2>
+            <p class="course-subtitle">
+              A short, focused email or video series that walks you through the grammar and gives you
+              plug-and-play sentence templates for real conversations.
+            </p>
+
+            <ul class="course-list">
+              <li>
+                <span class="bullet">✦</span>
+                <span>
+                  Why “I want to feel X” creates unstable, hard-to-satisfy relationship dynamics.
+                </span>
+              </li>
+              <li>
+                <span class="bullet">✦</span>
+                <span>
+                  The three stable patterns: <strong>Identity, Behavior, Context</strong>.
+                </span>
+              </li>
+              <li>
+                <span class="bullet">✦</span>
+                <span>
+                  How to rewrite your own sentences without losing vulnerability or depth.
+                </span>
+              </li>
+              <li>
+                <span class="bullet">✦</span>
+                <span>
+                  Scripts you can use with partners, friends, clients, and teams.
+                </span>
+              </li>
+            </ul>
+
+            <div class="course-meta">
+              <span><strong>Format:</strong> 5 short lessons</span>
+              <span><strong>Time:</strong> 35–45 minutes total</span>
+            </div>
+
+            <!-- SIGNUP FORM: replace action with your email/platform URL -->
+            <form 
+              class="course-form" 
+              action="https://example.com/your-signup-endpoint" 
+              method="post"
+            >
+              <div class="input-row">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your email address"
+                  required
+                />
+                <button type="submit" class="btn-primary">
+                  Send me the course
+                </button>
+              </div>
+              <p class="course-note">
+                No spam, no upsell funnel. Just the course.  
+                You can unsubscribe in one click. <span>Use it, adapt it, share it.</span>
+              </p>
+            </form>
+          </section>
+
+          <section id="grammar" class="explain-card">
+            <h3 class="explain-title">The core idea, in one glance</h3>
+            <p class="explain-text">
+              Most “I want to feel X” sentences secretly bundle together three different things:
+              <strong>who I want to be, what I’d like you to do, and the kind of space I want us to share.</strong>
+              Stable Loop Language simply says: don’t compress those. Name them.
+            </p>
+
+            <div class="three-pillars">
+              <div class="pillar">
+                <div class="pillar-label">1 · Identity</div>
+                <p class="pillar-example">
+                  “I want to be someone who shows my value clearly.”
+                </p>
+                <p class="pillar-caption">
+                  You take responsibility for who you’re becoming, instead of asking others to manage your feelings.
+                </p>
+              </div>
+
+              <div class="pillar">
+                <div class="pillar-label">2 · Behavior</div>
+                <p class="pillar-example">
+                  “I respond well when you tell me what you appreciate in concrete terms.”
+                </p>
+                <p class="pillar-caption">
+                  You request specific, observable actions instead of vague emotional outcomes.
+                </p>
+              </div>
+
+              <div class="pillar">
+                <div class="pillar-label">3 · Context</div>
+                <p class="pillar-example">
+                  “Can we create a dynamic where appreciation is spoken out loud regularly?”
+                </p>
+                <p class="pillar-caption">
+                  You co-design the environment so good feelings emerge naturally, without pressure.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div>
+          © <span id="year"></span> Stable Loop Language. All rights reserved.
+        </div>
+        <div class="legal-muted">
+          This is not therapy or legal advice. It’s a communication pattern you can experiment with and adapt.
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Set current year automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

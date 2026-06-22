@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gradual Letter-Spacing</title>
+  <style>
+    h1 { font-family: sans-serif; }
+
+    /* Base style for our “spaced” spans */
+    .gradual span {
+      /* we’ll override this in-line via JS */
+      letter-spacing: 0;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>
+    Butterfly Bush Portals<br>
+    <!-- wrap the part you want to space out in a container -->
+    <span id="to-space" class="gradual">and the Fabric of Time</span>
+  </h1>
+
+  <script>
+    // Grab the container
+    const container = document.getElementById('to-space');
+    const text = container.textContent;
+    container.textContent = ''; // clear it out
+
+    // For each character, create a span and set its letter-spacing
+    const baseSpacing = 0;       // starting at 0em
+    const increment  = 0.1;      // add 0.1em per character
+
+    Array.from(text).forEach((char, i) => {
+      const span = document.createElement('span');
+      span.textContent = char;
+      // Compute spacing: i * increment (in em units)
+      span.style.letterSpacing = (baseSpacing + i * increment) + 'em';
+      container.appendChild(span);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library of Echoes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* ---------- Base ---------- */
+    :root {
+      --bg-gradient-light: radial-gradient(circle at top, #eef2ff 0, #e0f2fe 30%, #fdf2ff 70%, #f9fafb 100%);
+      --bg-gradient-dark: radial-gradient(circle at top, #020617 0, #0b1120 30%, #020617 70%, #020617 100%);
+      --card-bg-light: rgba(255, 255, 255, 0.9);
+      --card-bg-dark: rgba(15, 23, 42, 0.9);
+      --card-border-light: rgba(148, 163, 184, 0.4);
+      --card-border-dark: rgba(148, 163, 184, 0.5);
+      --text-main-light: #0f172a;
+      --text-main-dark: #e5e7eb;
+      --muted-light: #4b5563;
+      --muted-dark: #9ca3af;
+      --accent: #8b5cf6;
+      --accent-soft: rgba(139, 92, 246, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      color: var(--text-main-light);
+      background: var(--bg-gradient-light);
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      padding: 32px 16px;
+      transition: background 0.5s ease, color 0.3s ease;
+    }
+
+    body[data-theme="dark"] {
+      background: var(--bg-gradient-dark);
+      color: var(--text-main-dark);
+    }
+
+    main {
+      width: 100%;
+      max-width: 920px;
+      margin: auto;
+    }
+
+    /* ---------- Card ---------- */
+    .card {
+      position: relative;
+      border-radius: 26px;
+      padding: 28px 22px 26px;
+      border: 1px solid var(--card-border-light);
+      background: var(--card-bg-light);
+      box-shadow:
+        0 25px 50px -25px rgba(15, 23, 42, 0.35),
+        0 0 0 1px rgba(148, 163, 184, 0.15);
+      backdrop-filter: blur(22px);
+      transition: background 0.4s ease, border-color 0.4s ease,
+        box-shadow 0.4s ease;
+    }
+
+    body[data-theme="dark"] .card {
+      border-color: var(--card-border-dark);
+      background: var(--card-bg-dark);
+      box-shadow:
+        0 25px 50px -25px rgba(15, 23, 42, 0.8),
+        0 0 0 1px rgba(15, 23, 42, 0.9);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: inherit;
+      background: radial-gradient(circle at top left,
+        rgba(244, 244, 245, 0.18),
+        transparent 55%);
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    /* ---------- Header ---------- */
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .title-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1 1 auto;
+    }
+
+    .glyph {
+      position: relative;
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 0%, #e5e7eb, transparent 55%),
+        radial-gradient(circle at 70% 100%, #a855f7, transparent 55%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .glyph::before,
+    .glyph::after {
+      content: "";
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      border-radius: 999px;
+      border: 1.5px solid rgba(248, 250, 252, 0.7);
+      transform: rotate(18deg);
+    }
+
+    .glyph::after {
+      transform: rotate(-18deg);
+      border-color: rgba(129, 140, 248, 0.8);
+    }
+
+    h1 {
+      font-size: clamp(1.6rem, 2.2vw + 1rem, 2.4rem);
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .meta {
+      font-size: 0.86rem;
+      color: var(--muted-light);
+      margin-bottom: 20px;
+    }
+
+    body[data-theme="dark"] .meta {
+      color: var(--muted-dark);
+    }
+
+    .theme-toggle {
+      flex-shrink: 0;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.65);
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      background: rgba(15, 23, 42, 0.03);
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      cursor: pointer;
+      color: inherit;
+      transition: background 0.25s ease, border-color 0.25s ease,
+        transform 0.1s ease;
+    }
+
+    .theme-toggle span {
+      font-size: 1rem;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(79, 70, 229, 0.06);
+      border-color: #6366f1;
+      transform: translateY(-1px);
+    }
+
+    /* ---------- Sections ---------- */
+    section {
+      margin-top: 16px;
+      padding-top: 6px;
+    }
+
+    section + section {
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted-light);
+      margin-bottom: 8px;
+    }
+
+    body[data-theme="dark"] h2 {
+      color: #94a3b8;
+    }
+
+    h3 {
+      font-size: 1.02rem;
+      margin: 14px 0 4px;
+    }
+
+    p {
+      line-height: 1.65;
+      font-size: 0.98rem;
+      margin-bottom: 10px;
+    }
+
+    p.muted {
+      font-size: 0.9rem;
+      color: var(--muted-light);
+    }
+
+    body[data-theme="dark"] p.muted {
+      color: var(--muted-dark);
+    }
+
+    .pull {
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+      margin: 10px 0 12px;
+      font-size: 0.94rem;
+      color: var(--muted-light);
+    }
+
+    body[data-theme="dark"] .pull {
+      color: var(--muted-dark);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #4c1d95;
+      border: 1px solid rgba(129, 140, 248, 0.4);
+    }
+
+    body[data-theme="dark"] .pill {
+      color: #e0e7ff;
+      background: rgba(79, 70, 229, 0.2);
+      border-color: rgba(165, 180, 252, 0.6);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 6px 0;
+    }
+
+    li {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      margin-bottom: 4px;
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      font-size: 0.78rem;
+      text-align: right;
+      color: var(--muted-light);
+    }
+
+    body[data-theme="dark"] .footer-note {
+      color: #64748b;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px 22px;
+      }
+
+      .header-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .theme-toggle {
+        align-self: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <header class="header-row">
+        <div class="title-group">
+          <div class="glyph" aria-hidden="true"></div>
+          <div>
+            <h1>Library of Echoes</h1>
+            <p class="meta">
+              A parable about memory limits, shifting maps, and learning to keep what you love.
+            </p>
+          </div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button">
+          <span>🌗</span>
+          <span>Toggle theme</span>
+        </button>
+      </header>
+
+      <section>
+        <h2>I. The Library Where No Map Endures</h2>
+        <p>
+          There is a library where no map survives for long.
+          Every corridor you walk seems clear in the moment&mdash;the turn at the blue window,
+          the narrow stair, the alcove with the three cracked globes&mdash;but as soon as you move on,
+          the details begin to blur. When you finally forget them, the library quietly rearranges
+          that space. The next time you pass through, the hall will be different, as if the building
+          rewrote itself the instant your mind let go.
+        </p>
+        <p>
+          You can try to chart it, of course. Some visitors sketch feverishly, filling pages with
+          angles and arrows. Others memorize sequences like songs. But everyone, sooner or later,
+          hits the same wall: there is only so much you can hold. Memory has a ceiling, and the
+          library is larger than it.
+        </p>
+        <p class="pull">
+          The library doesn&apos;t punish you for forgetting. It simply refuses to stay still for
+          a map you can no longer carry.
+        </p>
+      </section>
+
+      <section>
+        <h2>II. The Law of the Limit</h2>
+        <p>
+          The Library of Echoes has a simple law:
+          once your mind is full, any new hallway you try to keep must push an old one out. When that
+          old hallway leaves you, the building takes it back and makes it new again. What you can
+          no longer remember, you can no longer rely on.
+        </p>
+        <p>
+          Some people reach this limit early. For them, the library feels narrow but deep. They
+          learn quickly that they cannot chase every door, so they choose carefully. They revisit
+          a few beloved wings, getting to know them slowly, like friends. They compress their
+          memories into symbols and stories, small enough to carry without dropping.
+        </p>
+        <p>
+          Others roam for a long time before they feel the ceiling. They stride through gallery
+          after gallery, stacking impressions into tall, careful towers. When the towers finally
+          topple, it feels like betrayal: entire regions of the library vanish at once. The loss
+          is sudden and heavy&mdash;not because the limit is harsher for them, but because it
+          waited longer to make itself known.
+        </p>
+        <div class="pill-row">
+          <div class="pill">Everyone has a limit.</div>
+          <div class="pill">You just meet it at different times.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>III. Different Maps, Different Echoes</h2>
+        <p>
+          Stranger still, the library does not look the same to everyone. The corridor where you
+          remember shelves of poems might open, for someone else, onto ledgers of trade or
+          cabinets of birdsong. The rooms rearrange not only when you forget them, but also around
+          the parts of the world you pay attention to.
+        </p>
+        <p>
+          What echoes back to you from the Library of Echoes depends on the questions you carry.
+          A historian hears dates breathing between the stacks. A musician hears timing in the
+          footsteps. A child notices only the colors of the spines and the way the dust dances in
+          the light. We walk the same halls, but we do not quite share the same space.
+        </p>
+        <p class="pull">
+          No one can see the whole library. The only way to glimpse more of it is to listen to what
+          others saw before they forgot.
+        </p>
+      </section>
+
+      <section>
+        <h2>IV. How to Walk a Library You Can&apos;t Memorize</h2>
+        <p>
+          The library is not cruel. It is honest. It tells you, up front, that you cannot keep
+          everything. The shelves will always outnumber your pages. So the art is not in holding
+          it all, but in choosing what to keep and how to let the rest go.
+        </p>
+        <h3>Practical rules for a finite mind</h3>
+        <ul>
+          <li><strong>Keep what you love.</strong> Return to rooms that move you. Depth beats coverage.</li>
+          <li><strong>Expand slowly.</strong> Add one new hallway at a time; don&apos;t flood yourself.</li>
+          <li><strong>Compress wisely.</strong> Turn big regions into simple symbols or stories you can carry.</li>
+          <li><strong>Borrow other eyes.</strong> Ask what others have seen; let their maps complement yours.</li>
+          <li><strong>Accept the remapping.</strong> When you come back and the room has changed, meet it as new.</li>
+        </ul>
+        <p>
+          In the end, each of us leaves the library with a different atlas: not a complete survey,
+          but a small, personal constellation of rooms we have chosen, learned, and loved. The
+          Library of Echoes keeps changing long after we are gone. Yet for the time we are inside
+          it, the way we walk, remember, and forget becomes our quiet way of writing back.
+        </p>
+        <p class="muted">
+          You don&apos;t need to master the whole library. You only need to know your part of it
+          well enough to live there.
+        </p>
+      </section>
+
+      <div class="footer-note">
+        Library of Echoes &mdash; a small atlas for finite minds.
+      </div>
+    </article>
+  </main>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById("themeToggle");
+      const body = document.body;
+
+      // restore preference if available
+      const saved = window.localStorage.getItem("library-theme");
+      if (saved === "dark") {
+        body.setAttribute("data-theme", "dark");
+      } else if (saved === "light") {
+        body.removeAttribute("data-theme");
+      }
+
+      toggle.addEventListener("click", () => {
+        const isDark = body.getAttribute("data-theme") === "dark";
+        if (isDark) {
+          body.removeAttribute("data-theme");
+          window.localStorage.setItem("library-theme", "light");
+        } else {
+          body.setAttribute("data-theme", "dark");
+          window.localStorage.setItem("library-theme", "dark");
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

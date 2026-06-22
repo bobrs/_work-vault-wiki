@@ -1,0 +1,527 @@
+total 0
+drwx------@ 4 bob  staff  128 Jul 10 17:17 DeepTrust Labs
+
+./DeepTrust Labs:
+total 0
+drwx------@ 21 bob  staff  672 Jul 31 21:42 DeepTrust Labs Shared
+
+./DeepTrust Labs/DeepTrust Labs Shared:
+total 440176
+-rw-r--r--@  1 bob  staff      18350 Jun  8  2025 AI Primer- Context Seeding for the Loopverse.docx
+drwx------@  4 bob  staff        128 Apr 30  2025 Business Development
+drwxr-xr-x@ 16 bob  staff        512 Nov 19 21:12 Corporation
+drwxr-xr-x@  3 bob  staff         96 Apr 24  2025 Correspondence
+drwxr-xr-x@  4 bob  staff        128 Apr 24  2025 Data Landscape
+drwxr-xr-x@  6 bob  staff        192 May 31  2025 DeepTrust
+drwxr-xr-x@  8 bob  staff        256 Jul 10 18:09 Dialogica
+-rw-r--r--@  1 bob  staff    7210909 May 11  2025 Dialogica.zip
+-rw-r--r--@  1 bob  staff      18972 Jun  8  2025 Glyph of Excited Unknowing (The Quantum of Wonder).docx
+drwxr-xr-x@  8 bob  staff        256 Jun 21  2025 HumanKey Protocol
+-rw-r--r--@  1 bob  staff  216251046 May 11  2025 HumanKey Protocol.zip
+drwxr-xr-x@  4 bob  staff        128 Jun 11  2025 HumanLink Social Media
+drwxr-xr-x@  4 bob  staff        128 May  5  2025 Industries and Applications
+-rw-r--r--@  1 bob  staff      18508 Jun 27 13:08 Loopwise Philosophy- The Paradoxical Consent Field.docx
+-rw-r--r--@  1 bob  staff      17813 Jun  8  2025 Resonant Identity- Recognition Through Harmonics, Not Passwords.docx
+drwxr-xr-x@ 11 bob  staff        352 Jun  9  2025 Trust Interoperability Standard
+-rw-r--r--@  1 bob  staff    1821440 May 11  2025 Trust Interoperability Standard.zip
+drwxr-xr-x@  7 bob  staff        224 May  1  2025 Websites
+
+./DeepTrust Labs/DeepTrust Labs Shared/Business Development:
+total 0
+-rw-------@ 1 bob  staff  26197 Apr 27  2025 Top 25 VC OKC.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation:
+total 2280
+-rw-r--r--@  1 bob  staff   37176 Apr  6  2025 83b_election_bobby_simpson.docx
+-rw-r--r--@  1 bob  staff  639451 Apr  9  2025 DT Labs Inc. 10157073.pdf
+-rw-r--r--@  1 bob  staff   37793 Apr 16  2025 DeepTrust_Labs_Benefits_Overview.docx
+-rw-r--r--@  1 bob  staff   15429 Apr 17  2025 EIN Confirmation.pdf
+drwxr-xr-x@  9 bob  staff     288 May  5  2025 Financial Projections
+drwxr-xr-x@ 16 bob  staff     512 Nov 19 21:12 Investor Pitch
+drwxr-xr-x@  3 bob  staff      96 May  5  2025 Planning and budget
+-rw-r--r--@  1 bob  staff  261745 Apr  6  2025 Receipt from DelawareInc.com - Order #INC739795.pdf
+-rw-r--r--@  1 bob  staff   37329 Apr  6  2025 board_consent_founder_issuance.docx
+-rw-r--r--@  1 bob  staff    8628 Apr  6  2025 deeptrust_cap_table.xlsx
+-rw-r--r--@  1 bob  staff   27333 Apr  6  2025 deeptrust_safe_500k_10M_cap.docx
+-rw-r--r--@  1 bob  staff   37214 Apr  6  2025 founder_stock_purchase_agreement.docx
+-rw-r--r--@  1 bob  staff   37064 Apr  6  2025 promissory_note_bobby_simpson.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Financial Projections:
+total 320
+-rw-r--r--@ 1 bob  staff  27853 Apr 28  2025 DeepTrust_Competitive_Landscape_and_Moat.docx
+-rw-r--r--@ 1 bob  staff  10041 Apr 27  2025 DeepTrust_Expense_Projection.xlsx
+-rw-r--r--@ 1 bob  staff  11519 Apr 27  2025 DeepTrust_MRR_2year_projection.xlsx
+-rw-r--r--@ 1 bob  staff  37031 Apr 27  2025 DeepTrust_Revenue_Assumptions.docx
+-rw-r--r--@ 1 bob  staff  37170 Apr 27  2025 SaaS_Unit_Economics_Benchmarks.docx
+-rw-r--r--@ 1 bob  staff  27086 Apr 28  2025 TAM_SAM_SOM_Analysis.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Investor Pitch:
+total 213312
+-rw-r--r--@  1 bob  staff     28995 Apr 19  2025 Deal_Memo_Menu_DeepTrust_FnC.docx
+-rw-r--r--@  1 bob  staff  23368158 Aug  1 16:00 DeepTrust_Investor_Pitch.pdf
+-rw-r--r--@  1 bob  staff  77802190 Aug  1 15:58 DeepTrust_Investor_Pitch.pptx
+-rw-r--r--@  1 bob  staff     28018 Apr 18  2025 FnC_Investment_Summary_DeepTrust.docx
+-rw-r--r--@  1 bob  staff     27601 Apr 19  2025 FnC_Liquidity_Option_Summary.docx
+-rw-r--r--@  1 bob  staff     21347 Jun  9  2025 Investor Brief - Loop-based Infrastructure Development.docx
+-rw-r--r--@  1 bob  staff     61138 Apr 26  2025 Investors - DeepTrust_Enterprise_Value_Proposition.docx
+-rw-r--r--@  1 bob  staff     22578 Apr 27  2025 Investors - The DeepTrust Technology Stack.docx
+-rw-r--r--@  1 bob  staff     70694 Apr 27  2025 Investors - The DeepTrust Why v2.docx
+-rw-r--r--@  1 bob  staff     25901 Apr 26  2025 Investors - The DeepTrust Why.docx
+-rw-r--r--@  1 bob  staff   7735960 May  5  2025 New Presentation.pptx
+drwxr-xr-x@ 10 bob  staff       320 Aug  1 16:09 Patent Information
+drwxr-xr-x@  5 bob  staff       160 May 13  2025 YC Videos
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Investor Pitch/Patent Information:
+total 17552
+-rw-r--r--@ 1 bob  staff    21288 Aug  1 16:06 Investor Brief- Abracadabradoo Protocol.docx
+-rw-r--r--@ 1 bob  staff    18072 Jun  5  2025 Investor Brief- DeepTrust TOTP – Trust Tokens for the Real World.docx
+-rw-r--r--@ 1 bob  staff    19396 May 27  2025 Investor Brief- Enhanced Offline-Capable Voting System.docx
+-rw-r--r--@ 1 bob  staff    20470 Jun  4  2025 Investor Brief-Offline Gaming (and simulation).docx
+-rw-r--r--@ 1 bob  staff   109569 Jun  5  2025 Provisional - Abracadabradoo_Auditable_E2EE_Transport_Protocol_Provisional_Patent_Filing.pdf
+-rw-r--r--@ 1 bob  staff  8571785 Jun  5  2025 Provisional - DeepTrust_Provisional_Patent.pdf
+-rw-r--r--@ 1 bob  staff   107362 Jun  5  2025 Provisional - Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.pdf
+-rw-r--r--@ 1 bob  staff   103734 Jun  5  2025 Provisional - Offline-Capable-Voting-Infrastructure_Provisional.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Investor Pitch/YC Videos:
+total 0
+drwxr-xr-x@ 3 bob  staff   96 May 14  2025 3 Minute
+drwxr-xr-x@ 4 bob  staff  128 May 14  2025 Founders
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Investor Pitch/YC Videos/3 Minute:
+total 175528
+-rw-r--r--@ 1 bob  staff  89866943 May 13  2025 YC - 3 Minute.mp4
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Investor Pitch/YC Videos/Founders:
+total 185536
+-rw-r--r--@ 1 bob  staff  94992974 May 13  2025 YC - Founders.mp4
+
+./DeepTrust Labs/DeepTrust Labs Shared/Corporation/Planning and budget:
+total 64
+-rw-r--r--@ 1 bob  staff  29029 Apr  8  2025 Lean_Canvas_DeepTrust_Draft.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Correspondence:
+total 64
+-rw-r--r--@ 1 bob  staff  28680 Apr 12  2025 Dr Finck DeepTrust Introduction.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Data Landscape:
+total 0
+drwxr-xr-x@ 4 bob  staff  128 Apr 24  2025 TrailHead
+
+./DeepTrust Labs/DeepTrust Labs Shared/Data Landscape/TrailHead:
+total 192
+-rw-r--r--@ 1 bob  staff  35071 Apr 24  2025 DJT_All_graph_coinmarketcap.csv
+-rw-r--r--@ 1 bob  staff  59979 Apr 24  2025 Polls - president_approval_polls.csv
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust:
+total 8
+drwxr-xr-x@  8 bob  staff  256 Aug 25 14:49 IP
+drwxr-xr-x@ 28 bob  staff  896 Jul 31 21:42 Media
+-rw-r--r--@  1 bob  staff  162 Apr  8  2025 ~$ogressive explainer.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP:
+total 0
+drwxr-xr-x@ 12 bob  staff  384 Apr 24  2025 DeepTrust Architecture
+drwxr-xr-x@  4 bob  staff  128 Apr 24  2025 DeepTrust Trademark
+drwxr-xr-x@  5 bob  staff  160 Jun 30 17:21 HumanKey Protocol
+drwxr-xr-x@  9 bob  staff  288 Aug  1 16:05 New Ideas
+drwxr-xr-x@ 19 bob  staff  608 Aug 25 14:52 Patents
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/DeepTrust Architecture:
+total 760
+-rw-r--r--@ 1 bob  staff   19544 Apr  6  2025 DeepTrust PGP Wrap ZK.docx
+-rw-r--r--@ 1 bob  staff    4463 Apr  6  2025 DeepTrust ZK Web of Trust.md
+-rw-r--r--@ 1 bob  staff   37935 Apr 11  2025 DeepTrust_Architecture_DID_Integrated.docx
+-rw-r--r--@ 1 bob  staff    1501 Apr  7  2025 DeepTrust_Developer_Task_List.csv
+-rw-r--r--@ 1 bob  staff    5746 Apr  7  2025 DeepTrust_Full_Architecture.md
+-rw-r--r--@ 1 bob  staff    2541 Apr  7  2025 DeepTrust_Recovery_Architecture.md
+-rw-r--r--@ 1 bob  staff  281542 Apr  7  2025 DeepTrust_Roadmap.png
+-rw-r--r--@ 1 bob  staff   18206 Apr  7  2025 Development Phases.docx
+drwxr-xr-x@ 4 bob  staff     128 Jun  8  2025 Integrations and future architecture
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/DeepTrust Architecture/Integrations and future architecture:
+total 11600
+-rw-r--r--@ 1 bob  staff  4102987 Apr 11  2025 Digital-Trust-A-Trust-Over-IP-Foundation-Primer-V2.1-2020-04-01.pdf
+-rw-r--r--@ 1 bob  staff  1834827 Apr 11  2025 Principles-of-SSI-V1.0-2021-05-19.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/DeepTrust Trademark:
+total 560
+-rw-r--r--@ 1 bob  staff  284665 Apr  6  2025 DeepTrust Trademark USPTO confirmation.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/HumanKey Protocol:
+total 256
+-rw-r--r--@ 1 bob  staff  36822 Apr 29  2025 Broken Human-Mediated_Double-TOTP_Full_Draft.docx
+-rw-r--r--@ 1 bob  staff  27086 Jun 30 16:51 IETF RFC submission - HumanKey.docx
+-rw-r--r--@ 1 bob  staff  64690 Jun 30 16:54 IETF RFC submission - HumanKey.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/New Ideas:
+total 288
+-rw-r--r--@ 1 bob  staff  20191 May  5  2025 Cryptographic Heartbeat Circuit.docx
+-rw-r--r--@ 1 bob  staff  20085 May  3  2025 GhostMesh - an RF Obfuscation Blanket.docx
+-rw-r--r--@ 1 bob  staff  18941 May  3  2025 GhostMesh Whitepaper.docx
+-rw-r--r--@ 1 bob  staff  19335 May  3  2025 Real-Time Adaptive Modulation Shield.docx
+-rw-r--r--@ 1 bob  staff  21306 May  3  2025 Synchronized Predictive Cancellation System + Plus + Plus.docx
+-rw-r--r--@ 1 bob  staff  19436 May  3  2025 Synchronized Predictive Cancellation System + Plus.docx
+-rw-r--r--@ 1 bob  staff  18796 May  3  2025 Synchronized Predictive Cancellation System.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents:
+total 256
+drwxr-xr-x@ 19 bob  staff     608 Jul 19 17:05 Abracadabra Protocol
+-rw-r--r--@  1 bob  staff  130628 May 16  2025 Abracadabradoo Protocol.zip
+drwxr-xr-x@  4 bob  staff     128 May 24  2025 Client-to-client P2P TOTP + Message Patent
+drwxr-xr-x@  3 bob  staff      96 Jul 31 12:05 Coherence Keys
+drwxr-xr-x@ 12 bob  staff     384 Apr 24  2025 Color Alpha Codec Patent
+drwxr-xr-x@  4 bob  staff     128 Jun 12  2025 EchoPad
+drwxr-xr-x@ 10 bob  staff     320 Aug  1 15:43 LOOPtLOOP platform
+drwxr-xr-x@  5 bob  staff     160 Aug  1 15:56 LoopGuard Physical Integrity Validation
+drwxr-xr-x@  5 bob  staff     160 Aug  1 15:53 LoopLock Mutual-TOTP-based Physical Lock
+drwxr-xr-x@  4 bob  staff     128 Jul 31 12:05 LoopPad
+drwxr-xr-x@  5 bob  staff     160 Jun 14  2025 Offline Gambling
+drwxr-xr-x@  3 bob  staff      96 Jun 21  2025 Progressive Resonance Gating
+drwxr-xr-x@  3 bob  staff      96 Jun  5  2025 Ring Semantic UI
+drwxr-xr-x@  5 bob  staff     160 Jul 31 12:05 Subatomic Semantic Compression
+drwxr-xr-x@  6 bob  staff     192 Jun  5  2025 Voting Machine
+drwxr-xr-x@  9 bob  staff     288 Jun  5  2025 Wrapped Bidirectional TOTP Patent
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Abracadabra Protocol:
+total 984
+-rw-r--r--@ 1 bob  staff   19727 Apr 22  2025 Abracadabra_Protocol_Specification.docx
+-rw-r--r--@ 1 bob  staff   22473 Jun 20  2025 Abracadabracadoo - The Promise of Self-sovereign Privacy.docx
+-rw-r--r--@ 1 bob  staff   13066 Jul 10 19:22 Abracadabracadoo Blockchain Extension.docx
+-rw-r--r--@ 1 bob  staff   13132 Jul 10 19:21 Abracadabracadoo Practical Consent Loop Extension.docx
+-rw-r--r--@ 1 bob  staff   12828 Jun 20  2025 Abracadabracadoo_Emotional Consensus Addendum.docx
+-rw-r--r--@ 1 bob  staff   19203 May  4  2025 Abracadabracadoo_Protocol_Addendum III.docx
+-rw-r--r--@ 1 bob  staff   20981 May  4  2025 Abracadabracadoo_Protocol_Addendum IV.docx
+-rw-r--r--@ 1 bob  staff   13346 Jul 10 17:04 Abracadabracadoo_Protocol_Addendum Vi.docx
+-rw-r--r--@ 1 bob  staff   18862 May  4  2025 Abracadabracadoo_Protocol_Addendum_I.docx
+-rw-r--r--@ 1 bob  staff   19117 May  4  2025 Abracadabracadoo_Protocol_Addendum_II.docx
+-rw-r--r--@ 1 bob  staff   13447 Jul  8 11:01 Abracadabracadoo_Protocol_Addendum_V.docx
+-rw-r--r--@ 1 bob  staff   22241 Jun 20  2025 Abracadabracadoo_Protocol_Specification.docx
+-rw-r--r--@ 1 bob  staff  164458 Jun 21  2025 Abracadabracadoo_Protocol_Specification.pdf
+-rw-r--r--@ 1 bob  staff   73156 Jun  5  2025 N417.pdf
+-rw-r--r--@ 1 bob  staff    1514 Jun  5  2025 Provisional_Patent_Cover_Sheet_Bobby_Simpson_Abracadabradoo.pdf
+-rw-r--r--@ 1 bob  staff   19213 Jun  5  2025 Provisional_Patent_Filing_Abracadabradoo.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Client-to-client P2P TOTP + Message Patent:
+total 160
+-rw-r--r--@ 1 bob  staff  39301 Apr 21  2025 DeepTrust_Enterprise_Provisional_Patent_Draft.docx
+-rw-r--r--@ 1 bob  staff  39498 Apr 22  2025 DeepTrust_Expanded_Provisional_Patent_Complete.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Coherence Keys:
+total 40
+-rw-r--r--@ 1 bob  staff  19405 Jun 12  2025 Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Color Alpha Codec Patent:
+total 344
+-rw-r--r--@ 1 bob  staff  95196 Apr  5  2025 Decoder UI.png
+-rw-r--r--@ 1 bob  staff   5800 Apr  5  2025 Decoder.ts
+-rw-r--r--@ 1 bob  staff   3841 Apr  5  2025 Decoder_Final.ts
+drwxr-xr-x@ 5 bob  staff    160 Apr 24  2025 Encoder Patent
+-rw-r--r--@ 1 bob  staff   3170 Apr  5  2025 Encoder.ts
+-rw-r--r--@ 1 bob  staff   3170 Apr  5  2025 Encoder_Final.ts
+-rw-r--r--@ 1 bob  staff  38978 Apr  5  2025 Provisional_Patent_TOTP_Color_Symbol_Encoding.docx
+-rw-r--r--@ 1 bob  staff   7413 Apr  5  2025 app.js
+-rw-r--r--@ 1 bob  staff   5994 Apr  5  2025 totp_seed_demo_with_decoder.html
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Color Alpha Codec Patent/Encoder Patent:
+total 3592
+-rw-r--r--@ 1 bob  staff  1022644 Apr  6  2025 Provisional_Patent_TOTP_Color_Symbol_Encoding.docx
+-rw-r--r--@ 1 bob  staff   812647 Apr  6  2025 TOTP Encoder Decoder.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/EchoPad:
+total 40
+-rw-r--r--@ 1 bob  staff  20389 Jun 12  2025 EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/LOOPtLOOP platform:
+total 328
+-rw-r--r--@ 1 bob  staff  20294 May 15  2025 LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx
+-rw-r--r--@ 1 bob  staff  18500 Jun 12  2025 LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx
+-rw-r--r--@ 1 bob  staff  18903 May 15  2025 LOOPtLOOP Field Infrastructure Applications.docx
+-rw-r--r--@ 1 bob  staff  18960 May 16  2025 Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx
+-rw-r--r--@ 1 bob  staff  20492 May 16  2025 Loop-Based Presence Platform- Partner Brief.docx
+-rw-r--r--@ 1 bob  staff  18941 May 16  2025 Loop-Based Ritual Infrastructure for Gaming & Web3.docx
+-rw-r--r--@ 1 bob  staff  17646 May 16  2025 Loop-Based Toys- A New Frontier in Interactive Play.docx
+-rw-r--r--@ 1 bob  staff  19351 May 16  2025 loop-based magic Pitch Deck.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/LoopGuard Physical Integrity Validation:
+total 120
+-rw-r--r--@ 1 bob  staff  17298 Jun 14  2025 LoopGuard Qr Teaser.docx
+-rw-r--r--@ 1 bob  staff  17323 Jun 14  2025 LoopGuard Verification Teaser.docx
+-rw-r--r--@ 1 bob  staff  17895 Jun 14  2025 Loopguard Integrity Patent.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/LoopLock Mutual-TOTP-based Physical Lock:
+total 120
+-rw-r--r--@ 1 bob  staff  18146 Jun 14  2025 Adaptive-Length Mutual TOTP-Based Physical Lock System.docx
+-rw-r--r--@ 1 bob  staff  18018 Jun 14  2025 LoopLock - Why Bidirectional.docx
+-rw-r--r--@ 1 bob  staff  17991 Jun 14  2025 LoopLock Smart Lock Technology.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/LoopPad:
+total 64
+-rw-r--r--@ 1 bob  staff  13110 Jun 14  2025 Looppad Device Doc (video loop).docx
+-rw-r--r--@ 1 bob  staff  12579 Jun 14  2025 Looppad Device Doc.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Offline Gambling:
+total 56
+-rw-r--r--@ 1 bob  staff  21007 May 26  2025 Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx
+-rw-r--r--@ 1 bob  staff   1527 Jun  5  2025 Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Progressive Resonance Gating:
+total 48
+-rw-r--r--@ 1 bob  staff  21257 Jun 11  2025 PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Ring Semantic UI:
+total 40
+-rw-r--r--@ 1 bob  staff  19081 May 19  2025 Provisional Patent Draft- Consent Ring Interface System.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Subatomic Semantic Compression:
+total 184
+-rw-r--r--@ 1 bob  staff  50855 Jun 12  2025 N417.pdf
+-rw-r--r--@ 1 bob  staff  16458 Jun 12  2025 PROVISIONAL PATENT COVER SHEET.docx
+-rw-r--r--@ 1 bob  staff  18885 Jun 12  2025 System_and_Method_for_Subatomic_Semantic_Compression_Engine_for_Identity_Interaction.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Voting Machine:
+total 160
+-rw-r--r--@ 1 bob  staff  49835 Jun  5  2025 N417.pdf
+-rw-r--r--@ 1 bob  staff  21670 May 27  2025 Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx
+-rw-r--r--@ 1 bob  staff   1548 Jun  5  2025 Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/IP/Patents/Wrapped Bidirectional TOTP Patent:
+total 28240
+-rw-r--r--@ 1 bob  staff  7063036 Apr  6  2025 DeepTrust_Provisional_Patent.docx
+-rw-r--r--@ 1 bob  staff   287795 Apr  6  2025 Patent application payment.pdf
+-rw-r--r--@ 1 bob  staff    27157 Apr  6  2025 SB15A_Certification_Micro_Entity_Bobby_Simpson.docx
+-rw-r--r--@ 1 bob  staff    36985 Apr  6  2025 USPTO_SB16_CoverSheet_Bobby_Simpson.docx
+-rw-r--r--@ 1 bob  staff  5820127 Apr  6  2025 authentication.png
+-rw-r--r--@ 1 bob  staff  1209201 Apr  4  2025 key exchange.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media:
+total 65056
+drwxr-xr-x@  9 bob  staff       288 Apr 30  2025 Ads
+drwxr-xr-x@  8 bob  staff       256 Apr 24  2025 Banners
+-rw-r--r--@  1 bob  staff     42655 Apr 26  2025 DeepTrust Enterprise logo black_back.png
+-rw-r--r--@  1 bob  staff   2047224 Apr 27  2025 DeepTrust HumanKey Protocol.png
+-rw-r--r--@  1 bob  staff    982771 Apr  9  2025 DeepTrust People Trust People.png
+-rw-r--r--@  1 bob  staff   2321547 Apr 23  2025 DeepTrust Problems Solved.png
+-rw-r--r--@  1 bob  staff     22494 Apr 24  2025 DeepTrust logo black_back.png
+-rw-r--r--@  1 bob  staff     20768 Apr 21  2025 DeepTrust logo.png
+-rw-r--r--@  1 bob  staff    100276 Apr 19  2025 DeepTrust-App-Border-Shadow.jpg
+-rw-------@  1 bob  staff    236234 Apr 19  2025 DeepTrust-App.PNG
+-rw-r--r--@  1 bob  staff      1415 Apr  8  2025 DeepTrust_Investor_Blurb.html
+drwxr-xr-x@ 16 bob  staff       512 Jun 21  2025 Explainers and briefs
+-rw-r--r--@  1 bob  staff   2643833 Apr 18  2025 Fear Doesn't Help.png
+-rw-r--r--@  1 bob  staff  11480326 Apr 18  2025 Fear Doesn't Help.xcf
+-rw-r--r--@  1 bob  staff   2492810 Apr 17  2025 Foreboding Fear.png
+-rw-r--r--@  1 bob  staff   2214599 Apr  9  2025 Headshot_sky.jpeg
+-rw-r--r--@  1 bob  staff    168928 Apr 18  2025 Impersonation trend graph
+-rw-r--r--@  1 bob  staff   1907118 Apr  8  2025 Keep Your Head In The Sky.png
+-rw-r--r--@  1 bob  staff   2459227 Apr  8  2025 Keep Your Head In the Sky (with Logo).png
+-rw-r--r--@  1 bob  staff   2128680 Apr 24  2025 People Celebrating.png
+-rw-r--r--@  1 bob  staff   1662854 Apr 23  2025 Record Album Blank.png
+drwxr-xr-x@  8 bob  staff       256 May  5  2025 Scripts
+drwxr-xr-x@  3 bob  staff        96 Apr 17  2025 Social Media
+drwxr-xr-x@  7 bob  staff       224 Apr 24  2025 Staff photos
+-rw-r--r--@  1 bob  staff    342103 Apr  8  2025 head.jpeg
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Ads:
+total 4792
+-rw-r--r--@ 1 bob  staff     2531 Apr  6  2025 DeepTrust_BlueOcean_Email.html
+-rw-r--r--@ 1 bob  staff     2122 Apr  8  2025 DeepTrust_Buzzword_vs_Techie.html
+-rw-r--r--@ 1 bob  staff     1478 Apr  8  2025 DeepTrust_Hero_Concepts.html
+-rw-r--r--@ 1 bob  staff  1409688 Apr 24  2025 DeepTrust_One_Page_Ad.docx
+-rw-r--r--@ 1 bob  staff   926818 Apr 24  2025 DeepTrust_One_Page_Ad.pdf
+-rw-r--r--@ 1 bob  staff    47652 Apr 17  2025 Deepfake_Confidence_Ad_Fixed.png
+-rw-r--r--@ 1 bob  staff    46731 Apr 17  2025 Deepfake_Confidence_Ad_Superscript.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Banners:
+total 22064
+-rw-r--r--@ 1 bob  staff  1483496 Apr  9  2025 deeptrust-logo-faces-wide-adams.png
+-rw-r--r--@ 1 bob  staff  1482861 Apr 13  2025 deeptrust-logo-faces-wide-red.png
+-rw-r--r--@ 1 bob  staff  2606536 Apr 18  2025 deeptrust-logo-faces-wide-red.xcf
+-rw-r--r--@ 1 bob  staff  1517217 Apr  9  2025 deeptrust-logo-faces-wide-text.png
+-rw-r--r--@ 1 bob  staff  2889821 Apr  9  2025 deeptrust-logo-faces-wide-text.xcf
+-rw-r--r--@ 1 bob  staff  1300444 Apr  8  2025 deeptrust-logo-faces-wide.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Explainers and briefs:
+total 8792
+-rw-r--r--@  1 bob  staff    17807 Jun 18  2025 Abracadabracadoo Why Terse.docx
+drwxr-xr-x@ 12 bob  staff      384 Jun 20  2025 Abracadabradoo explainer
+-rw-r--r--@  1 bob  staff  3091492 Apr 24  2025 DeepTrust Manifesto.docx
+-rw-r--r--@  1 bob  staff  1183086 Apr 24  2025 DeepTrust Manifesto.pdf
+drwxr-xr-x@ 18 bob  staff      576 Jun  9  2025 DeepTrust explainer
+-rw-r--r--@  1 bob  staff    37004 Apr  7  2025 DeepTrust_Human_Ritual_Message.docx
+-rw-r--r--@  1 bob  staff    37891 Apr 13  2025 Deepfake_Threat_Stakeholder_Brief.docx
+-rw-r--r--@  1 bob  staff    16220 Apr 13  2025 Frightening Stats.docx
+-rw-r--r--@  1 bob  staff    27893 Apr  8  2025 How is it similar to PGP WoT vision.docx
+-rw-r--r--@  1 bob  staff     2049 Apr  7  2025 How_DeepTrust_Works.html
+-rw-r--r--@  1 bob  staff    19485 Apr  8  2025 Progressive explainer.docx
+-rw-r--r--@  1 bob  staff    17271 Jun  8  2025 The Loop We Were Never Taught To See.docx
+-rw-r--r--@  1 bob  staff    29378 Apr  7  2025 ZK Trust Web.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Explainers and briefs/Abracadabradoo explainer:
+total 24848
+-rw-r--r--@ 1 bob  staff    19401 May  8  2025 Abracadabradoo Explainer Script.docx
+-rw-r--r--@ 1 bob  staff  1256078 May  8  2025 ChatGPT Image May 8, 2025, 05_33_54 AM.png
+-rw-r--r--@ 1 bob  staff  1384919 May  8  2025 ChatGPT Image May 8, 2025, 05_33_57 AM.png
+-rw-r--r--@ 1 bob  staff  1487867 May  8  2025 ChatGPT Image May 8, 2025, 05_34_00 AM.png
+-rw-r--r--@ 1 bob  staff  1375699 May  8  2025 ChatGPT Image May 8, 2025, 05_34_02 AM.png
+-rw-r--r--@ 1 bob  staff  1473887 May  8  2025 ChatGPT Image May 8, 2025, 05_34_06 AM.png
+-rw-r--r--@ 1 bob  staff  1304660 May  8  2025 ChatGPT Image May 8, 2025, 05_34_11 AM.png
+-rw-r--r--@ 1 bob  staff  1350612 May  8  2025 ChatGPT Image May 8, 2025, 05_34_20 AM.png
+-rw-r--r--@ 1 bob  staff  1518518 May  8  2025 ChatGPT Image May 8, 2025, 05_34_24 AM.png
+-rw-r--r--@ 1 bob  staff  1533784 May  8  2025 ChatGPT Image May 8, 2025, 05_34_27 AM.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Explainers and briefs/DeepTrust explainer:
+total 196720
+-rw-r--r--@ 1 bob  staff  18796873 Apr 25  2025 Archive.zip
+-rw-r--r--@ 1 bob  staff   2216940 Apr 24  2025 ChatGPT Image Apr 24, 2025, 11_30_01 PM.png
+-rw-r--r--@ 1 bob  staff   2209549 Apr 24  2025 ChatGPT Image Apr 24, 2025, 11_30_04 PM.png
+-rw-r--r--@ 1 bob  staff   2348044 Apr 25  2025 ChatGPT Image Apr 25, 2025, 10_22_05 AM.png
+-rw-r--r--@ 1 bob  staff  53630854 May 13  2025 DeepTrust Explainer.mp4
+-rw-r--r--@ 1 bob  staff      1022 Apr 25  2025 DeepTrust_Explainer_VO_Script.txt
+-rw-r--r--@ 1 bob  staff   2001832 Apr 25  2025 Slide 0.png
+-rw-r--r--@ 1 bob  staff   2664159 Apr 24  2025 Slide 1.png
+-rw-r--r--@ 1 bob  staff   2642352 Apr 25  2025 Slide 2.png
+-rw-r--r--@ 1 bob  staff   2188084 Apr 25  2025 Slide 3.png
+-rw-r--r--@ 1 bob  staff   2568934 Apr 25  2025 Slide 4.png
+-rw-r--r--@ 1 bob  staff   2411911 Apr 25  2025 Slide 5.png
+-rw-r--r--@ 1 bob  staff   1928550 Apr 25  2025 Slide 6.png
+-rw-r--r--@ 1 bob  staff   2754690 Apr 25  2025 Slide 7.png
+-rw-r--r--@ 1 bob  staff   2321547 Apr 23  2025 Slide 8.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Scripts:
+total 240
+-rw-r--r--@ 1 bob  staff  37476 Apr  7  2025 DeepTrust_Opening_Monologue.docx
+-rw-r--r--@ 1 bob  staff   2746 Apr  6  2025 DeepTrust_Presentation_Script.txt
+-rw-r--r--@ 1 bob  staff  14228 Apr 28  2025 HumanKey turns every device.docx
+-rw-r--r--@ 1 bob  staff  19394 Apr 18  2025 Sales script.docx
+-rw-r--r--@ 1 bob  staff  37668 Apr  7  2025 Script_DeepTrust_IS_Web3_Explainer.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Social Media:
+total 0
+
+./DeepTrust Labs/DeepTrust Labs Shared/DeepTrust/Media/Staff photos:
+total 11744
+-rw-------@ 1 bob  staff   226484 Sep 27  2024 IMG_4367.jpg
+-rw-r--r--@ 1 bob  staff    70134 Apr  8  2025 blazer and tie.jpg
+-rw-r--r--@ 1 bob  staff  1640616 Apr  8  2025 casual button-up.jpeg
+-rw-r--r--@ 1 bob  staff  2343533 Apr  8  2025 evil tech.jpeg
+-rw-r--r--@ 1 bob  staff  1716245 Apr  8  2025 silly glasses.jpeg
+
+./DeepTrust Labs/DeepTrust Labs Shared/Dialogica:
+total 232
+-rw-r--r--@ 1 bob  staff  38029 Apr 11  2025 DeepTrust_Dialogica_Protocol_Specification.docx
+-rw-r--r--@ 1 bob  staff  17837 Apr 11  2025 DeepTrust_Dialogica_Sample_Transcript.docx
+-rw-r--r--@ 1 bob  staff  30476 Apr 26  2025 DeepTrust_Dialogica_White_Paper_Full.docx
+drwxr-xr-x@ 7 bob  staff    224 Nov 19 21:12 Media
+-rw-r--r--@ 1 bob  staff  20537 Apr 11  2025 Regulatory Sandbox Proposal.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Dialogica/Media:
+total 68728
+-rw-r--r--@ 1 bob  staff  30504624 May 13  2025 Dialogica - Judge from Star Trek.mp4
+-rw-r--r--@ 1 bob  staff   2581649 May 13  2025 Dialogica - Judge from Star Trek.pptx
+drwxr-xr-x@ 8 bob  staff       256 Apr 25  2025 Judge from Star Trek
+-rw-r--r--@ 1 bob  staff   2094722 Apr 25  2025 Steampunk Digital Face.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/Dialogica/Media/Judge from Star Trek:
+total 4816
+-rw-r--r--@ 1 bob  staff  407618 Apr 25  2025 Slide1.png
+-rw-r--r--@ 1 bob  staff  411792 Apr 25  2025 Slide2.png
+-rw-r--r--@ 1 bob  staff  412444 Apr 25  2025 Slide3.png
+-rw-r--r--@ 1 bob  staff  407352 Apr 25  2025 Slide4.png
+-rw-r--r--@ 1 bob  staff  413182 Apr 25  2025 Slide5.png
+-rw-r--r--@ 1 bob  staff  405504 Apr 25  2025 Slide6.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/HumanKey Protocol:
+total 144
+-rw-r--r--@  1 bob  staff  20595 May  8  2025 FractalIdentity Protocol Specification (RFC Draft 0.1).docx
+drwxr-xr-x@ 15 bob  staff    480 May  1  2025 HumanKey Ad
+drwxr-xr-x@ 15 bob  staff    480 Nov 19 21:14 HumanKey Explainer
+-rw-r--r--@  1 bob  staff  23047 May  1  2025 HumanKey Protocol Practical Exploration.docx
+-rw-r--r--@  1 bob  staff  20539 May  1  2025 HumanKey x DAO.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/HumanKey Protocol/HumanKey Ad:
+total 176816
+-rw-r--r--@ 1 bob  staff  46250265 Apr 29  2025 HumanKey Ad.mp4
+-rw-r--r--@ 1 bob  staff  22155444 Apr 29  2025 HumanKey Ad.pptx
+-rw-r--r--@ 1 bob  staff   2129257 Apr 28  2025 Slide 1.png
+-rw-r--r--@ 1 bob  staff   2526254 Apr 28  2025 Slide 2.png
+-rw-r--r--@ 1 bob  staff   3129013 Apr 28  2025 Slide 3.png
+-rw-r--r--@ 1 bob  staff   2492029 Apr 28  2025 Slide 4.png
+-rw-r--r--@ 1 bob  staff   2253018 Apr 28  2025 Slide 5.png
+-rw-r--r--@ 1 bob  staff   2260907 Apr 28  2025 Slide 6.png
+-rw-r--r--@ 1 bob  staff   2534838 Apr 28  2025 Slide 7.png
+-rw-r--r--@ 1 bob  staff   2823275 Apr 28  2025 Slide 8.png
+-rw-r--r--@ 1 bob  staff   1953785 Apr 28  2025 Slide 9.png
+-rw-r--r--@ 1 bob  staff       165 Apr 29  2025 ~$HumanKey Ad.pptx
+
+./DeepTrust Labs/DeepTrust Labs Shared/HumanKey Protocol/HumanKey Explainer:
+total 248296
+-rw-r--r--@ 1 bob  staff  81355331 Apr 28  2025 HumanKey Explainer.mp4
+-rw-r--r--@ 1 bob  staff  22210287 Apr 28  2025 HumanKey Explainer.pptx
+-rw-r--r--@ 1 bob  staff   2337200 Apr 28  2025 Slide 0.png
+-rw-r--r--@ 1 bob  staff   2420751 Apr 28  2025 Slide 1.png
+-rw-r--r--@ 1 bob  staff   2237256 Apr 28  2025 Slide 2.png
+-rw-r--r--@ 1 bob  staff   1937588 Apr 27  2025 Slide 2a.png
+-rw-r--r--@ 1 bob  staff   2834032 Apr 28  2025 Slide 3.png
+-rw-r--r--@ 1 bob  staff   2347535 Apr 28  2025 Slide 4.png
+-rw-r--r--@ 1 bob  staff   2218140 Apr 28  2025 Slide 5.png
+-rw-r--r--@ 1 bob  staff   2904120 Apr 28  2025 Slide 6.png
+-rw-r--r--@ 1 bob  staff   1842301 Apr 28  2025 Slide 7.png
+-rw-r--r--@ 1 bob  staff   2452549 Apr 28  2025 Slide 8.png
+
+./DeepTrust Labs/DeepTrust Labs Shared/HumanLink Social Media:
+total 80
+-rw-r--r--@ 1 bob  staff  18041 Apr 30  2025 HumanLink one-pager.docx
+-rw-r--r--@ 1 bob  staff  19054 Jun  8  2025 Loop Social- Consent-Native Social Architecture.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Industries and Applications:
+total 80
+-rw-r--r--@ 1 bob  staff  17617 Apr 11  2025 DeepTrust Dialogica Industries.docx
+-rw-r--r--@ 1 bob  staff  16599 Apr 11  2025 DeepTrust.app industries.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Trust Interoperability Standard:
+total 3672
+-rw-r--r--@ 1 bob  staff    21353 May  3  2025 Consent Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    20458 May  3  2025 Dialog Thread v1.docx
+-rw-r--r--@ 1 bob  staff    20573 May  3  2025 Dialog Turn v1.docx
+-rw-r--r--@ 1 bob  staff    19536 May  3  2025 Dialogica Integration Profile.docx
+-rw-r--r--@ 1 bob  staff    19790 May  3  2025 Identity Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    19900 May  3  2025 Reputation Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    18956 May  3  2025 Semantic Graph Mapping for TIS.docx
+-rw-r--r--@ 1 bob  staff    19915 May  3  2025 TIS Agent API v1.docx
+-rw-r--r--@ 1 bob  staff  1707232 May  3  2025 Trust_Interoperability_Standard_v1.docx
+
+./DeepTrust Labs/DeepTrust Labs Shared/Websites:
+total 5536
+drwxr-xr-x@  5 bob  staff      160 Apr 24  2025 Dialogica_site
+drwxr-xr-x@  8 bob  staff      256 Apr 24  2025 deeptrust.app_site
+-rw-r--r--@  1 bob  staff  2832856 Apr 21  2025 deeptrust.app_site.zip
+drwxr-xr-x@ 16 bob  staff      512 Apr 24  2025 deeptrustconsulting.com_site
+
+./DeepTrust Labs/DeepTrust Labs Shared/Websites/Dialogica_site:
+total 136
+-rw-r--r--@ 1 bob  staff  62912 Apr 11  2025 DeepTrust_Dialogica_White_Paper_Full.pdf
+-rw-r--r--@ 1 bob  staff   3585 Apr 11  2025 index.html
+
+./DeepTrust Labs/DeepTrust Labs Shared/Websites/deeptrust.app_site:
+total 5688
+-rw-r--r--@ 1 bob  staff    20768 Apr 21  2025 DeepTrust-logo.png
+-rw-r--r--@ 1 bob  staff    75209 Apr 21  2025 DeepTrust_Investor_Brief.pdf
+-rw-r--r--@ 1 bob  staff  1494687 Apr  6  2025 deeptrust-logo-faces.png
+-rw-r--r--@ 1 bob  staff  1300444 Apr  8  2025 deeptrust-transition-wide.png
+-rw-r--r--@ 1 bob  staff    10123 Apr 21  2025 index.html
+
+./DeepTrust Labs/DeepTrust Labs Shared/Websites/deeptrustconsulting.com_site:
+total 14968
+-rw-------@ 1 bob  staff  1510389 Apr 18  2025 Bob.JPG
+-rw-r--r--@ 1 bob  staff   785085 Apr  9  2025 DeepTrust People Trust People.png
+-rw-r--r--@ 1 bob  staff  1074883 Apr  9  2025 DeepTrust People Trust People.xcf
+-rw-r--r--@ 1 bob  staff  1119190 Apr 12  2025 Jason.jpg
+-rw-r--r--@ 1 bob  staff   627222 Apr 21  2025 Jason_Upper.jpg
+-rw-r--r--@ 1 bob  staff     6328 Apr 18  2025 deeptrust_consulting_about_us.html
+-rw-r--r--@ 1 bob  staff     3892 Apr 18  2025 deeptrust_consulting_full_inverted_background.html
+-rw-r--r--@ 1 bob  staff     3775 Apr 18  2025 deeptrust_consulting_warm.html
+-rw-r--r--@ 1 bob  staff  1402611 Apr 18  2025 diversity-banner-inverse-transparent-1.png
+-rw-r--r--@ 1 bob  staff   749811 Apr 18  2025 diversity-banner-inverse-transparent.png
+-rw-r--r--@ 1 bob  staff   182372 Apr 18  2025 diversity-banner-inverse.jpeg
+-rw-r--r--@ 1 bob  staff   165839 Apr  9  2025 diversity-banner.jpeg
+-rw-r--r--@ 1 bob  staff     6499 Apr 19  2025 index.html

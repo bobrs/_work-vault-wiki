@@ -2,13 +2,14 @@
 
 This page is for newly added files that have been inventoried but not yet classified or moved.
 
-Current state: `artifacts/incoming/` now contains the active intake set under `Consent Crystal Structure Research`; the `SCT set 20050505` duplicate snapshot has been archived.
+Current state: `artifacts/incoming/` now contains the active intake set under the branch folders for `HumanKey Protocol`, `HumanLink Social Media`, `New Ideas`, `Patents`, `Side Projects Desktop`, `Similar Projects`, and `Trust Interoperability Standard`; the `Consent Crystal Structure Research` lineage remains the archived reference set.
 
 Observed shape:
 
-- 117 incoming files were inventoried.
+- 720 incoming files were inventoried.
 - The intake is mostly `.docx` files, with a small number of `.html`, `.zip`, and `.pdf` companions. `.zip` companions are auxiliary unless otherwise noted.
 - The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`, and each now has a lineage page.
+- The desktop vault still contains mirror-heavy bundles; collapse only the copies that are clearly auxiliary or exact duplicate lineage.
 - The small root-level works now have their own standalone pages: `Thanks, Bobo - A Screenplay`, `Butterfly Bush Time Portals`, `Daily Growth Ritual`, and `Ego and Flow`.
 - The archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot has already absorbed the exact duplicate SCT pairs, with collapse-parent metadata recorded elsewhere.
 

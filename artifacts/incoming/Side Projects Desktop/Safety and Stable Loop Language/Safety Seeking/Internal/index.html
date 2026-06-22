@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Safety Loop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An artistic meditation on the self-defeating loop of trying to feel safe." />
+  <style>
+    :root {
+      --bg: #050608;
+      --bg-alt: #090b11;
+      --text: #f5f5f5;
+      --muted: #a1a6b8;
+      --accent: #ffb86c;
+      --accent-soft: rgba(255, 184, 108, 0.12);
+      --accent-2: #6dd6ff;
+      --danger: #ff6b81;
+      --font-main: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", sans-serif;
+      --font-mono: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      --radius-xl: 24px;
+      --shadow-soft: 0 24px 80px rgba(0,0,0,0.6);
+      --shadow-subtle: 0 10px 40px rgba(0,0,0,0.35);
+      --transition-fast: 220ms ease-out;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      background: radial-gradient(circle at top, #151828 0, #040509 50%, #020309 100%);
+      color: var(--text);
+      font-family: var(--font-main);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.02);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(var(--accent), var(--accent-2));
+      border-radius: 999px;
+    }
+
+    /* Layout */
+    .shell {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px clamp(16px, 4vw, 32px) 64px;
+    }
+
+    header {
+      padding-top: 16px;
+      padding-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      opacity: 0.95;
+    }
+
+    .logo-word {
+      font-size: 14px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .tag-pill {
+      border-radius: 999px;
+      padding: 6px 12px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background: radial-gradient(circle at top left, rgba(255,184,108,0.15), rgba(0,0,0,0.6));
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tag-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: radial-gradient(circle at center, var(--accent), #ff4f81);
+      box-shadow: 0 0 10px rgba(255,184,108,0.7);
+    }
+
+    /* Hero */
+    .hero {
+      margin-top: 18px;
+      border-radius: var(--radius-xl);
+      background:
+        radial-gradient(circle at top left, rgba(255,184,108,0.16), transparent 55%),
+        radial-gradient(circle at top right, rgba(109,214,255,0.16), transparent 55%),
+        linear-gradient(135deg, rgba(255,255,255,0.03), rgba(8,10,20,0.95));
+      box-shadow: var(--shadow-soft);
+      padding: clamp(28px, 6vw, 42px);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.06);
+      backdrop-filter: blur(18px);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      inset: -40%;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.04);
+      filter: blur(0.4px);
+      pointer-events: none;
+    }
+
+    .hero-orbit:nth-child(1) {
+      transform: translate(12%, 10%) scale(1.1);
+    }
+    .hero-orbit:nth-child(2) {
+      transform: translate(-8%, -10%) scale(0.9);
+      border-color: rgba(255,184,108,0.14);
+    }
+    .hero-orbit:nth-child(3) {
+      transform: translate(2%, -5%) scale(0.7);
+      border-color: rgba(109,214,255,0.14);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-eyebrow {
+      font-size: 13px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .hero-title {
+      font-size: clamp(34px, 6vw, 46px);
+      line-height: 1.02;
+      margin-bottom: 18px;
+      letter-spacing: 0.01em;
+    }
+
+    .hero-title span.highlight {
+      background: linear-gradient(120deg, var(--accent-2), var(--accent));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      max-width: 580px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .hero-callout {
+      margin-top: 22px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background-color: rgba(3,4,8,0.85);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: 12px;
+      color: var(--muted);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-callout span.key {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 3px 7px;
+      border-radius: 6px;
+      background-color: rgba(255,255,255,0.06);
+      color: var(--accent);
+    }
+
+    /* Sections */
+    section {
+      margin-top: 40px;
+      border-radius: var(--radius-xl);
+      padding: clamp(24px, 4vw, 30px);
+      background: radial-gradient(circle at top left, rgba(255,255,255,0.04), rgba(5,6,12,0.95));
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: var(--shadow-subtle);
+      position: relative;
+      overflow: hidden;
+    }
+
+    section::before {
+      content: "";
+      position: absolute;
+      inset: -20%;
+      opacity: 0;
+      background: radial-gradient(circle at top, rgba(255,184,108,0.08), transparent 65%);
+      transition: opacity var(--transition-fast);
+      pointer-events: none;
+    }
+
+    section:hover::before {
+      opacity: 1;
+    }
+
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title span.bullet {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: radial-gradient(circle at center, var(--accent-2), var(--accent));
+      box-shadow: 0 0 12px rgba(109,214,255,0.8);
+    }
+
+    .section-body {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--muted);
+      max-width: 720px;
+    }
+
+    .section-body p + p {
+      margin-top: 14px;
+    }
+
+    .section-body strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* Special visual elements */
+    .quote-block {
+      margin-top: 14px;
+      padding: 14px 14px 14px 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: radial-gradient(circle at left, rgba(109,214,255,0.1), rgba(5,7,14,0.98));
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+      position: relative;
+    }
+
+    .quote-block::before {
+      content: "“";
+      position: absolute;
+      top: -18px;
+      left: 10px;
+      font-size: 40px;
+      color: rgba(255,255,255,0.08);
+      pointer-events: none;
+    }
+
+    .quote-caption {
+      display: block;
+      margin-top: 8px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .pill {
+      padding: 5px 11px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.1);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      background: radial-gradient(circle at top, rgba(255,255,255,0.03), rgba(5,6,10,0.9));
+    }
+
+    .pill.danger {
+      border-color: rgba(255,107,129,0.9);
+      color: var(--danger);
+    }
+
+    /* Loop Diagram */
+    .loop-diagram {
+      margin-top: 16px;
+      border-radius: 18px;
+      padding: 16px 16px 18px;
+      background: radial-gradient(circle at top left, rgba(255,184,108,0.17), rgba(8,10,18,0.98));
+      border: 1px dashed rgba(255,255,255,0.45);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .loop-ring {
+      position: absolute;
+      inset: -20%;
+      opacity: 0.08;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.4);
+      filter: blur(0.6px);
+    }
+
+    .loop-ring:nth-child(1) {
+      transform: translate(10%, 12%) scale(1.05);
+    }
+    .loop-ring:nth-child(2) {
+      transform: translate(-8%, -12%) scale(0.8);
+      border-color: rgba(0,0,0,0.5);
+    }
+
+    .loop-diagram-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .loop-node {
+      border-radius: 14px;
+      padding: 10px 12px 11px;
+      background: rgba(4,4,10,0.86);
+      border: 1px solid rgba(255,255,255,0.16);
+      font-size: 13px;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .loop-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: rgba(255,255,255,0.55);
+    }
+
+    .loop-arrow {
+      font-size: 13px;
+      text-align: center;
+      align-self: center;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* Two-column grid */
+    .columns {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: clamp(18px, 4vw, 26px);
+      margin-top: 16px;
+      align-items: start;
+    }
+
+    @media (max-width: 800px) {
+      .columns {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .tiny-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .list-soft {
+      list-style: none;
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+      display: grid;
+      gap: 6px;
+    }
+
+    .list-soft li::before {
+      content: "•";
+      display: inline-block;
+      margin-right: 7px;
+      color: var(--accent);
+    }
+
+    /* Choice / No-choice card */
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .choice-card {
+      border-radius: 16px;
+      padding: 14px 14px 16px;
+      background: radial-gradient(circle at top, rgba(109,214,255,0.12), rgba(8,9,16,0.98));
+      border: 1px solid rgba(109,214,255,0.4);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .choice-card.secondary {
+      background: radial-gradient(circle at top, rgba(255,107,129,0.1), rgba(8,9,16,0.98));
+      border-color: rgba(255,107,129,0.7);
+    }
+
+    .choice-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 6px;
+    }
+
+    .choice-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.24);
+    }
+
+    /* Final section */
+    .mantra {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.16);
+      background: radial-gradient(circle at center, rgba(255,255,255,0.06), rgba(4,5,10,0.98));
+      text-align: center;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .mantra-line {
+      display: block;
+    }
+
+    .mantra-line strong {
+      background: linear-gradient(120deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .mantra-sub {
+      margin-top: 8px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+    }
+
+    /* Footer */
+    footer {
+      padding: 20px 20px 28px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      opacity: 0.7;
+    }
+
+    footer a {
+      color: var(--accent-2);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(109,214,255,0.5);
+      padding-bottom: 1px;
+    }
+
+    footer a:hover {
+      opacity: 0.85;
+    }
+
+    /* Simple fade-in on scroll */
+    .reveal {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 500ms ease-out, transform 500ms ease-out;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="shell">
+
+      <header>
+        <div class="logo-word">Safety Loop Study</div>
+        <div class="tag-pill">
+          <span class="tag-dot"></span>
+          <span>Inner Paradox, Gently Explained</span>
+        </div>
+      </header>
+
+      <section class="hero reveal">
+        <div class="hero-orbit"></div>
+        <div class="hero-orbit"></div>
+        <div class="hero-orbit"></div>
+        <div class="hero-content">
+          <div class="hero-eyebrow">A quiet page for a loud pattern</div>
+          <h1 class="hero-title">
+            When <span class="highlight">“I want to feel safe”</span>
+            quietly makes sure you never do.
+          </h1>
+          <p class="hero-subtitle">
+            This is not a warning. It’s a love note to the part of you that keeps checking the locks.
+            The one that believes safety is a feeling it must earn, manage, or monitor into existence.
+          </p>
+          <div class="hero-callout">
+            <span class="key">Spoiler</span>
+            <span>Trying to feel safe is how we accidentally teach the body it isn’t.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 1: The Prayer -->
+      <section class="reveal">
+        <div class="section-label">I. Invocation</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>The most reasonable wish in the world</span>
+        </div>
+        <div class="section-body">
+          <p>
+            It starts with a whisper that sounds perfectly sane:
+            <br><strong>“I just want to feel safe.”</strong>
+          </p>
+          <p>
+            Who wouldn’t?  
+            Safety sounds like soft light, predictable mornings, no shoes by the door that shouldn’t be there.
+          </p>
+          <p>
+            But inside that wish is a hidden spell:
+          </p>
+
+          <div class="quote-block">
+            “Something out there decides how I feel in here.”
+            <span class="quote-caption">— the unspoken contract</span>
+          </div>
+
+          <p>
+            Even when we turn it inward —
+            <strong>“I want <em>myself</em> to feel safe”</strong> —
+            the spell stays.
+            Some part of us becomes the manager; another part becomes the problem.
+          </p>
+
+          <div class="pill-row">
+            <span class="pill">Experiencer</span>
+            <span class="pill">Manager</span>
+            <span class="pill danger">Me vs. Me</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: The Loop -->
+      <section class="reveal">
+        <div class="section-label">II. Mechanism</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>How a wish becomes a loop</span>
+        </div>
+        <div class="section-body">
+          <p>
+            Once “feeling safe” becomes a <strong>goal</strong>,  
+            the nervous system quietly reassigns itself:
+          </p>
+
+          <div class="loop-diagram">
+            <div class="loop-ring"></div>
+            <div class="loop-ring"></div>
+            <div class="loop-diagram-inner">
+              <div class="loop-node">
+                <div class="loop-label">Step 1</div>
+                <div><strong>I want to feel safe.</strong></div>
+                <div style="font-size:12px; color:rgba(255,255,255,0.7);">
+                  Safety becomes a project, not a background.
+                </div>
+              </div>
+              <div class="loop-arrow">⟶</div>
+              <div class="loop-node">
+                <div class="loop-label">Step 2</div>
+                <div>The body starts scanning for <em>proof</em> of safety.</div>
+                <div style="font-size:12px; color:rgba(255,255,255,0.7);">
+                  Reassurance becomes a currency you can run out of.
+                </div>
+              </div>
+              <div class="loop-arrow">⟶</div>
+              <div class="loop-node">
+                <div class="loop-label">Step 3</div>
+                <div>Every missing signal becomes evidence of danger.</div>
+                <div style="font-size:12px; color:rgba(255,255,255,0.7);">
+                  Monitoring <strong>is</strong> the feeling of being unsafe.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            The more you chase the feeling of safety,  
+            the more your system learns: <strong>“If we’re chasing it, we must not have it.”</strong>
+          </p>
+
+          <p>
+            It’s like trying to calm a lake with your hands.  
+            The gesture is loving. The effect is ripples.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 3: Unreliable Signals -->
+      <section class="reveal">
+        <div class="section-label">III. Signals</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>The problem with proof</span>
+        </div>
+        <div class="section-body">
+          <p>
+            A “safety project” runs on signals:
+          </p>
+
+          <div class="columns">
+            <div>
+              <div class="tiny-label">The hunt for evidence</div>
+              <ul class="list-soft">
+                <li>Is everyone happy with me?</li>
+                <li>Did I say the right thing?</li>
+                <li>Is my bank account safe <em>enough</em>?</li>
+                <li>Does my body look like it “should”?</li>
+                <li>Is my spiritual practice on track?</li>
+              </ul>
+            </div>
+            <div>
+              <div class="tiny-label">The glitch</div>
+              <p style="font-size:14px; line-height:1.7;">
+                These signals are <strong>expensive</strong>,<br>
+                <strong>ambiguous</strong>, and <strong>unstable</strong>.
+                They can’t deliver the thing you’re asking of them.
+              </p>
+              <p style="font-size:13px; margin-top:8px;">
+                External proof becomes a subscription you never quite pay off.
+              </p>
+            </div>
+          </div>
+
+          <div class="quote-block" style="margin-top:18px;">
+            “You cannot get enough of what doesn’t work.”
+            <span class="quote-caption">— the economics of chasing safety</span>
+          </div>
+
+          <p style="margin-top:14px;">
+            In this light, the system isn’t broken;  
+            it’s <em>overachieving</em>.  
+            It’s taking your wish literally and generating more “unsafety” to solve.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 4: Choice / No Choice -->
+      <section class="reveal">
+        <div class="section-label">IV. Double Bind</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>The paradox of choosing what can’t be chosen</span>
+        </div>
+        <div class="section-body">
+          <p>
+            Eventually, a quieter tension surfaces — usually around 3 a.m.:
+          </p>
+
+          <div class="choice-grid">
+            <div class="choice-card">
+              <div class="choice-header">
+                <span>Frame A</span>
+                <span class="choice-tag">I Can Choose</span>
+              </div>
+              <p>
+                “If I work hard enough, heal enough, understand enough,
+                I can finally <strong>choose to feel safe</strong>.”
+              </p>
+              <p style="font-size:12px; margin-top:6px;">
+                So you optimize, therapize, spiritualize. Safety as a skill tree.
+              </p>
+            </div>
+
+            <div class="choice-card secondary">
+              <div class="choice-header">
+                <span>Frame B</span>
+                <span class="choice-tag">I Can’t Choose</span>
+              </div>
+              <p>
+                “If I <em>could</em> just choose it, I’d already be there.
+                So something must be wrong with me, or with the world.”
+              </p>
+              <p style="font-size:12px; margin-top:6px;">
+                So you doubt, retreat, or numb out.
+              </p>
+            </div>
+          </div>
+
+          <p style="margin-top:14px;">
+            These two frames contradict each other,  
+            yet they often run <strong>at the same time</strong>.
+          </p>
+
+          <div class="quote-block" style="margin-top:14px;">
+            Try → Fail → Self-blame → Try → Doubt → Try-harder → Repeat.
+            <span class="quote-caption">— the “choice / no-choice” carousel</span>
+          </div>
+
+          <p style="margin-top:14px;">
+            The loop is not proof that you’re broken.
+            It’s proof that “feeling safe” cannot be installed like an app.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 5: Riddle Answer -->
+      <section class="reveal">
+        <div class="section-label">V. Turn</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>What if safety isn’t a project?</span>
+        </div>
+        <div class="section-body">
+          <p>
+            Here is the quiet pivot:
+          </p>
+
+          <div class="quote-block">
+            Safety is not a feeling you can hunt.<br>
+            It’s a <strong>background state</strong> that appears when you’re not hunting anything.
+            <span class="quote-caption">— the riddle, solved sideways</span>
+          </div>
+
+          <p style="margin-top:14px;">
+            Like sleep, you can’t make it happen on demand.  
+            You can only stop doing the things that keep it away.
+          </p>
+
+          <div class="columns" style="margin-top:18px;">
+            <div>
+              <div class="tiny-label">What you actually can choose</div>
+              <ul class="list-soft">
+                <li>The room you walk into.</li>
+                <li>The people you share your insides with.</li>
+                <li>The boundaries your body whispers for.</li>
+                <li>The pace at which you say “yes.”</li>
+                <li>The stories you no longer rehearse.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="tiny-label">What you actually can’t</div>
+              <p style="font-size:14px; line-height:1.7;">
+                You can’t directly choose the <strong>felt sense</strong> of safety, any more than
+                you can decide to feel “surprised” in three seconds.
+              </p>
+              <p style="font-size:13px; margin-top:8px;">
+                Feeling is what happens <em>after</em> you stop wrestling with what you’re feeling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: Closing Mantra -->
+      <section class="reveal">
+        <div class="section-label">VI. Release</div>
+        <div class="section-title">
+          <span class="bullet"></span>
+          <span>The gentler protocol</span>
+        </div>
+        <div class="section-body">
+          <p>
+            None of this asks you to stop wanting safety.  
+            The want itself is innocent.
+          </p>
+          <p>
+            The invitation is smaller and stranger:
+            <br>Let safety stop being something you’re trying to <strong>manufacture</strong>,
+            and let it go back to being something you occasionally <strong>notice</strong>.
+          </p>
+
+          <div class="mantra">
+            <span class="mantra-line">
+              <strong>I don’t have to make myself feel safe.</strong>
+            </span>
+            <span class="mantra-line">
+              I can choose my conditions, my boundaries, my pace —
+            </span>
+            <span class="mantra-line">
+              and let my body discover, on its own time,
+            </span>
+            <span class="mantra-line">
+              that nothing is stalking it from behind my eyes anymore.
+            </span>
+            <div class="mantra-sub">
+              the loop unwinds itself when we stop pulling on it
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    This page is a contemplative artwork.  
+    You may copy, adapt, or remix it for your own inner treaties of safety.
+  </footer>
+
+  <script>
+    // Simple "reveal on scroll" interaction
+    const reveals = document.querySelectorAll('.reveal');
+
+    const onScroll = () => {
+      const triggerBottom = window.innerHeight * 0.9;
+      reveals.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < triggerBottom) {
+          el.classList.add('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', onScroll);
+    window.addEventListener('load', onScroll);
+  </script>
+</body>
+</html>

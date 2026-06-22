@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sovereignty of the Butterfly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg-light: radial-gradient(circle at top, #fdf2ff 0, #e0f2fe 30%, #ecfeff 60%, #f9fafb 100%);
+      --bg-dark: radial-gradient(circle at top, #020617 0, #020617 40%, #0f172a 80%, #020617 100%);
+      --card-bg-light: rgba(255, 255, 255, 0.92);
+      --card-bg-dark: rgba(15, 23, 42, 0.95);
+      --card-border-light: rgba(148, 163, 184, 0.45);
+      --card-border-dark: rgba(148, 163, 184, 0.7);
+      --text-main-light: #020617;
+      --text-main-dark: #e5e7eb;
+      --muted-light: #4b5563;
+      --muted-dark: #9ca3af;
+      --accent: #a855f7;
+      --accent-soft: rgba(168, 85, 247, 0.1);
+      --accent-strong: #f97316;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: var(--bg-light);
+      color: var(--text-main-light);
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      padding: 32px 16px;
+      transition: background 0.5s ease, color 0.3s ease;
+    }
+
+    body[data-theme="dark"] {
+      background: var(--bg-dark);
+      color: var(--text-main-dark);
+    }
+
+    main {
+      width: 100%;
+      max-width: 920px;
+      margin: auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Floating butterfly glows */
+    .bg-orbs {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .orb {
+      position: absolute;
+      border-radius: 999px;
+      filter: blur(28px);
+      opacity: 0.55;
+      mix-blend-mode: screen;
+      animation: float 14s ease-in-out infinite alternate;
+    }
+
+    .orb:nth-child(1) {
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, #f9a8d4, transparent 60%);
+      top: 5%;
+      left: 10%;
+      animation-delay: 0s;
+    }
+
+    .orb:nth-child(2) {
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, #a5b4fc, transparent 60%);
+      top: 60%;
+      right: 5%;
+      animation-delay: 2s;
+    }
+
+    .orb:nth-child(3) {
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, #6ee7b7, transparent 60%);
+      bottom: 0%;
+      left: 40%;
+      animation-delay: 4s;
+    }
+
+    @keyframes float {
+      from {
+        transform: translate3d(0, 0, 0) scale(1);
+      }
+      to {
+        transform: translate3d(0, -18px, 0) scale(1.05);
+      }
+    }
+
+    /* Card */
+    .card {
+      position: relative;
+      border-radius: 26px;
+      padding: 26px 22px 24px;
+      border: 1px solid var(--card-border-light);
+      background: var(--card-bg-light);
+      box-shadow:
+        0 25px 50px -25px rgba(15, 23, 42, 0.45),
+        0 0 0 1px rgba(148, 163, 184, 0.18);
+      backdrop-filter: blur(22px);
+      transition: background 0.4s ease, border-color 0.4s ease,
+        box-shadow 0.4s ease;
+    }
+
+    body[data-theme="dark"] .card {
+      border-color: var(--card-border-dark);
+      background: var(--card-bg-dark);
+      box-shadow:
+        0 25px 55px -25px rgba(15, 23, 42, 0.9),
+        0 0 0 1px rgba(15, 23, 42, 0.9);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: inherit;
+      background:
+        radial-gradient(circle at top left, rgba(248, 250, 252, 0.16), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(56, 189, 248, 0.16), transparent 55%);
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    /* Header */
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .title-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1 1 auto;
+    }
+
+    .glyph {
+      position: relative;
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 30% 0%, #f4f4f5, transparent 60%),
+        radial-gradient(circle at 80% 100%, #a855f7, transparent 60%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .glyph::before,
+    .glyph::after {
+      content: "";
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      border-radius: 999px;
+      border: 1.5px solid rgba(248, 250, 252, 0.7);
+      transform: rotate(18deg);
+    }
+
+    .glyph::after {
+      transform: rotate(-18deg);
+      border-color: rgba(56, 189, 248, 0.8);
+    }
+
+    .glyph-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: radial-gradient(circle, #f97316, #db2777);
+      box-shadow: 0 0 10px rgba(249, 115, 22, 0.8);
+    }
+
+    h1 {
+      font-size: clamp(1.6rem, 2.2vw + 1rem, 2.4rem);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+    }
+
+    .meta {
+      font-size: 0.86rem;
+      color: var(--muted-light);
+      margin-top: 2px;
+    }
+
+    body[data-theme="dark"] .meta {
+      color: var(--muted-dark);
+    }
+
+    .theme-toggle {
+      flex-shrink: 0;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      background: rgba(15, 23, 42, 0.02);
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      cursor: pointer;
+      color: inherit;
+      transition: background 0.25s ease, border-color 0.25s ease,
+        transform 0.08s ease;
+    }
+
+    .theme-toggle span {
+      font-size: 1rem;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(129, 140, 248, 0.1);
+      border-color: #6366f1;
+      transform: translateY(-1px);
+    }
+
+    /* Tabs */
+    .tabs-row {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+      padding: 4px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.04);
+    }
+
+    body[data-theme="dark"] .tabs-row {
+      background: rgba(15, 23, 42, 0.7);
+    }
+
+    .tab-btn {
+      border-radius: 999px;
+      padding: 6px 14px;
+      border: 1px solid transparent;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: transparent;
+      color: var(--muted-light);
+      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+        transform 0.08s ease;
+    }
+
+    body[data-theme="dark"] .tab-btn {
+      color: var(--muted-dark);
+    }
+
+    .tab-btn.active {
+      background: white;
+      color: #111827;
+      border-color: rgba(148, 163, 184, 0.7);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px -10px rgba(15, 23, 42, 0.6);
+    }
+
+    body[data-theme="dark"] .tab-btn.active {
+      background: rgba(248, 250, 252, 0.96);
+      color: #020617;
+    }
+
+    .tab-btn:hover:not(.active) {
+      border-color: rgba(148, 163, 184, 0.7);
+      transform: translateY(-1px);
+    }
+
+    .copy-button {
+      margin-left: 10px;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      background: rgba(248, 250, 252, 0.9);
+      cursor: pointer;
+      color: #111827;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s ease, border-color 0.2s ease,
+        transform 0.08s ease;
+    }
+
+    body[data-theme="dark"] .copy-button {
+      background: rgba(15, 23, 42, 0.9);
+      color: #e5e7eb;
+      border-color: rgba(148, 163, 184, 0.9);
+    }
+
+    .copy-button:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+    }
+
+    .copy-check {
+      font-size: 0.9rem;
+      color: var(--accent-strong);
+      margin-left: 6px;
+    }
+
+    /* Content */
+    .content-wrap {
+      margin-top: 18px;
+    }
+
+    .tab-panels {
+      position: relative;
+    }
+
+    .tab-panel {
+      opacity: 0;
+      transform: translateY(6px);
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.25s ease, transform 0.25s ease,
+        max-height 0.25s ease;
+    }
+
+    .tab-panel.active {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 2000px; /* plenty */
+    }
+
+    section {
+      margin-top: 4px;
+      padding-top: 4px;
+    }
+
+    h2 {
+      font-size: 1.02rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted-light);
+      margin-bottom: 8px;
+    }
+
+    body[data-theme="dark"] h2 {
+      color: #94a3b8;
+    }
+
+    h3 {
+      font-size: 1.02rem;
+      margin: 14px 0 6px;
+    }
+
+    p {
+      line-height: 1.65;
+      font-size: 0.98rem;
+      margin-bottom: 10px;
+    }
+
+    .pull {
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+      margin: 10px 0 12px;
+      font-size: 0.94rem;
+      color: var(--muted-light);
+    }
+
+    body[data-theme="dark"] .pull {
+      color: var(--muted-dark);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 6px 0;
+    }
+
+    li {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      margin-bottom: 4px;
+    }
+
+    .mantra {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: var(--accent-soft);
+      border: 1px dashed rgba(168, 85, 247, 0.6);
+      font-size: 0.95rem;
+    }
+
+    .mantra strong {
+      color: #7c3aed;
+    }
+
+    body[data-theme="dark"] .mantra strong {
+      color: #c4b5fd;
+    }
+
+    .footer-note {
+      margin-top: 14px;
+      font-size: 0.78rem;
+      text-align: right;
+      color: var(--muted-light);
+    }
+
+    body[data-theme="dark"] .footer-note {
+      color: #64748b;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px;
+      }
+
+      .card {
+        padding: 22px 14px 20px;
+      }
+
+      .header-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .theme-toggle {
+        align-self: flex-end;
+      }
+
+      .tabs-row {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .copy-button {
+        margin-top: 8px;
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+  </div>
+
+  <main>
+    <article class="card">
+      <header class="header-row">
+        <div class="title-group">
+          <div class="glyph" aria-hidden="true">
+            <div class="glyph-dot"></div>
+          </div>
+          <div>
+            <h1>Sovereignty of the Butterfly</h1>
+            <p class="meta">
+              A braided page of myth, axiom, and practice—designed to feel like a wingbeat.
+            </p>
+          </div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button">
+          <span>🦋</span>
+          <span>Toggle theme</span>
+        </button>
+      </header>
+
+      <div class="tabs-row">
+        <button class="tab-btn active" data-tab="story" type="button">Story</button>
+        <button class="tab-btn" data-tab="axiom" type="button">Axiom</button>
+        <button class="tab-btn" data-tab="practice" type="button">Practice</button>
+        <button class="copy-button" id="copyButton" type="button">
+          <span>📋</span>
+          <span>Copy section</span>
+          <span class="copy-check" id="copyStatus" style="display:none;">✓</span>
+        </button>
+      </div>
+
+      <div class="content-wrap">
+        <div class="tab-panels">
+          <!-- Story -->
+          <section class="tab-panel active" data-panel="story">
+            <h2>Myth</h2>
+            <p>
+              <strong>Once, in the kingdom of the Wind,</strong> there was a butterfly.
+              She flapped her wings and made a breeze. Sometimes that breeze became a storm,
+              though she never knew how.
+            </p>
+            <p>
+              The butterfly grew afraid, because she heard the storm’s thunder say:
+              <em>“You made me.”</em> And fear whispered:
+              <em>“If I cause storms, I should never flap again.”</em>
+            </p>
+            <p class="pull">
+              But in that land there was a law, written in neither book nor sky,
+              called the <em>Axiom of the Butterfly Nation</em>:
+              <br />
+              <strong>“An agent retains sovereignty only if its act remains independent of feedback.”</strong>
+              <br />
+              If the wing waits for permission, it ceases to be a wing.
+              If the choice bends to the echo, it ceases to be a choice.
+            </p>
+            <p>
+              The old moth explained: “Noise is everywhere. It fills the valleys like mist.
+              Sometimes noise joins with your wingbeat and makes thunder. Sometimes it dies
+              without trace. But sovereignty is not in the thunder. It is in the flap.”
+            </p>
+            <p>
+              So the butterfly practiced. She flapped as though no ear were listening.
+              She flapped as though no storm could answer. The world shook sometimes—
+              <em>stochastic resonance</em> can raise even whispers when the noise is tuned.
+              Yet her sovereignty held, because she no longer asked,
+              “What storm will this cause?” She asked only,
+              “Am I the wing that flaps?”
+            </p>
+            <p>
+              And the kingdom of the Wind survived,
+              because the butterfly did not surrender her wings to the echo.
+            </p>
+          </section>
+
+          <!-- Axiom -->
+          <section class="tab-panel" data-panel="axiom">
+            <h2>Axiom</h2>
+            <p>
+              <strong>Axiom of Butterfly Sovereignty.</strong>
+              An agent retains sovereignty only if its action remains
+              locally determined and unconditioned by knowledge of systemic amplification.
+              <em>Feedback-aware paralysis destroys freedom; feedback-blind action preserves it.</em>
+            </p>
+
+            <h3>Distinctions</h3>
+            <ul>
+              <li>
+                <strong>Butterfly Effect</strong> — sensitive dependence:
+                any flap might cascade.
+              </li>
+              <li>
+                <strong>Stochastic Resonance</strong> — noise plus a weak signal
+                can cross thresholds together and suddenly matter.
+              </li>
+              <li>
+                <strong>Sovereignty Principle</strong> — act without consulting
+                the macro-feedback loop; otherwise choice collapses into simulation.
+              </li>
+            </ul>
+
+            <h3>Implications</h3>
+            <ul>
+              <li>Design buffers that soften immediate feedback that would enslave actors.</li>
+              <li>Act from integrity, not fear of optics.</li>
+              <li>
+                Acknowledge consequences, but don’t let their echo cancel
+                the possibility of action.
+              </li>
+            </ul>
+
+            <p class="pull">
+              <strong>Ethics note.</strong> This is independence, not indifference.
+              Consequences are real and borne after; they are not masters consulted
+              before sovereignty exists.
+            </p>
+          </section>
+
+          <!-- Practice -->
+          <section class="tab-panel" data-panel="practice">
+            <h2>Practice</h2>
+            <p>
+              Sovereignty is not just an idea; it can be felt in the body. These
+              practices are small wingbeats you can try in ordinary life.
+            </p>
+
+            <h3>Practice (Body)</h3>
+            <ul>
+              <li>
+                <strong>Breath of the Wing</strong> — 3 minutes.
+                Inhale: “Wings belong to me.”
+                Exhale: “Storms belong to the world.” Repeat.
+              </li>
+              <li>
+                <strong>One-True-Flap</strong> — Choose a small act you’ve delayed
+                from fear of reaction. Do it gently, as if unseen. Observe the aftermath
+                without self-judgment.
+              </li>
+              <li>
+                <strong>Design Buffer</strong> — In any system you build, insert a
+                delay or threshold so people act before algorithms echo back at them.
+                Prevent feedback-prison.
+              </li>
+            </ul>
+
+            <div class="mantra">
+              <strong>Mantra:</strong><br />
+              Flap anyway. Wings are mine; echoes are not my master.
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="footer-note">
+        Sovereignty of the Butterfly &mdash; myth, axiom, practice.
+      </div>
+    </article>
+  </main>
+
+  <script>
+    (function () {
+      const body = document.body;
+      const themeToggle = document.getElementById("themeToggle");
+      const tabButtons = Array.from(document.querySelectorAll(".tab-btn"));
+      const panels = Array.from(document.querySelectorAll(".tab-panel"));
+      const copyButton = document.getElementById("copyButton");
+      const copyStatus = document.getElementById("copyStatus");
+
+      // Restore theme
+      const savedTheme = localStorage.getItem("butterfly-theme");
+      if (savedTheme === "dark") {
+        body.setAttribute("data-theme", "dark");
+      } else if (savedTheme === "light") {
+        body.removeAttribute("data-theme");
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const isDark = body.getAttribute("data-theme") === "dark";
+        if (isDark) {
+          body.removeAttribute("data-theme");
+          localStorage.setItem("butterfly-theme", "light");
+        } else {
+          body.setAttribute("data-theme", "dark");
+          localStorage.setItem("butterfly-theme", "dark");
+        }
+      });
+
+      function setActiveTab(tabId) {
+        tabButtons.forEach(btn => {
+          btn.classList.toggle("active", btn.dataset.tab === tabId);
+        });
+        panels.forEach(panel => {
+          panel.classList.toggle("active", panel.dataset.panel === tabId);
+        });
+      }
+
+      tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const tabId = btn.dataset.tab;
+          setActiveTab(tabId);
+        });
+      });
+
+      copyButton.addEventListener("click", async () => {
+        const activePanel = panels.find(p => p.classList.contains("active"));
+        if (!activePanel) return;
+        const text = activePanel.innerText.trim();
+        try {
+          await navigator.clipboard.writeText(text);
+          copyStatus.style.display = "inline";
+          setTimeout(() => {
+            copyStatus.style.display = "none";
+          }, 1400);
+        } catch (e) {
+          console.error("Copy failed", e);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Five Modes of Operation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The Five Modes of Operation: Witness, Understand, Act, Bridge, and Rest. You only occupy one mode at a time." />
+
+  <!-- Optional Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-soft: #0b1020;
+      --bg-softer: #11182a;
+      --accent: #f97316;
+      --accent-soft: rgba(249, 115, 22, 0.12);
+      --accent-soft-2: rgba(249, 115, 22, 0.05);
+      --text: #f9fafb;
+      --muted: #9ca3af;
+      --border-soft: rgba(148, 163, 184, 0.3);
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.8);
+      --radius-xl: 18px;
+      --radius-2xl: 24px;
+      --transition-fast: 180ms ease-out;
+      --transition-med: 240ms ease-out;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 24px 20px 8px;
+    }
+
+    .shell {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      margin-top: 8px;
+      padding: 24px 22px 26px;
+      border-radius: var(--radius-2xl);
+      background: linear-gradient(
+          135deg,
+          rgba(15, 23, 42, 0.9),
+          rgba(15, 23, 42, 0.85),
+          rgba(15, 23, 42, 0.96)
+        );
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: -80px;
+      background:
+        radial-gradient(circle at 10% 0, rgba(59, 130, 246, 0.13), transparent 60%),
+        radial-gradient(circle at 90% 10%, rgba(249, 115, 22, 0.22), transparent 60%);
+      opacity: 0.8;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 2.3fr) minmax(0, 2fr);
+      gap: 24px;
+      align-items: center;
+    }
+
+    @media (max-width: 840px) {
+      .hero-inner {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .hero-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px 4px 4px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      margin-bottom: 14px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .hero-label-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--accent) 0, #facc15 45%, #22c55e 100%);
+      box-shadow: 0 0 14px rgba(249, 115, 22, 0.9);
+    }
+
+    .hero-title {
+      font-size: clamp(2.3rem, 3.1vw, 2.9rem);
+      line-height: 1.07;
+      margin-bottom: 10px;
+      letter-spacing: 0.01em;
+    }
+
+    .hero-title span {
+      background: linear-gradient(120deg, #f97316, #fb923c, #fde68a);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: var(--muted);
+      max-width: 32rem;
+      line-height: 1.7;
+    }
+
+    .hero-subtitle strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .hero-pill {
+      margin-top: 16px;
+      padding: 9px 11px;
+      border-radius: 999px;
+      border: 1px dashed rgba(148, 163, 184, 0.8);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    .hero-pill span.dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(248, 250, 252, 0.7);
+    }
+
+    .hero-orbit {
+      justify-self: center;
+      max-width: 320px;
+    }
+
+    @media (max-width: 840px) {
+      .hero-orbit {
+        max-width: 260px;
+        margin: 4px auto 0;
+      }
+    }
+
+    .orbit-shell {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 50% -20%, rgba(248, 250, 252, 0.08), transparent 60%),
+        radial-gradient(circle at 0 100%, rgba(56, 189, 248, 0.12), transparent 60%);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      box-shadow: 0 22px 50px rgba(15, 23, 42, 0.9);
+      overflow: hidden;
+    }
+
+    .orbit-core {
+      position: absolute;
+      inset: 24%;
+      border-radius: inherit;
+      background:
+        radial-gradient(circle, rgba(15, 23, 42, 0.2), transparent 65%),
+        conic-gradient(from 210deg, rgba(249, 115, 22, 0.9), rgba(14, 165, 233, 0.9), rgba(248, 250, 252, 0.1), rgba(249, 115, 22, 0.9));
+      opacity: 0.95;
+      filter: blur(0.4px);
+    }
+
+    .orbit-ring {
+      position: absolute;
+      inset: 9%;
+      border-radius: inherit;
+      border: 1px dashed rgba(148, 163, 184, 0.5);
+      box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.8);
+    }
+
+    .orbit-ring:nth-child(2) { inset: 21%; opacity: 0.7; }
+    .orbit-ring:nth-child(3) { inset: 33%; opacity: 0.5; }
+
+    .orbit-mode {
+      position: absolute;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      border: 1px solid rgba(148, 163, 184, 0.8);
+      background: rgba(15, 23, 42, 0.9);
+      color: #e5e7eb;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.9);
+      white-space: nowrap;
+    }
+
+    .orbit-mode span {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+
+    .orbit-mode--witness { top: 4%; left: 50%; transform: translateX(-50%); }
+    .orbit-mode--understand { top: 47%; right: -3%; transform: translateY(-50%); }
+    .orbit-mode--act { bottom: 5%; right: 16%; }
+    .orbit-mode--bridge { bottom: 5%; left: 14%; }
+    .orbit-mode--rest { top: 47%; left: -3%; transform: translateY(-50%); }
+
+    main {
+      flex: 1;
+      padding: 16px 20px 40px;
+    }
+
+    .section {
+      margin-top: 26px;
+    }
+
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .section-subtitle {
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .modes-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .modes-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .modes-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .mode-card {
+      border-radius: var(--radius-xl);
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.96));
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      padding: 14px 14px 12px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.9);
+      transition: transform var(--transition-med), box-shadow var(--transition-med), border-color var(--transition-med), background var(--transition-med);
+    }
+
+    .mode-card::before {
+      content: "";
+      position: absolute;
+      inset: -60%;
+      background: radial-gradient(circle at top, rgba(249, 115, 22, 0.16), transparent 60%);
+      opacity: 0;
+      transition: opacity var(--transition-med);
+      pointer-events: none;
+    }
+
+    .mode-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(251, 191, 36, 0.9);
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 1));
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.95);
+    }
+
+    .mode-card:hover::before {
+      opacity: 1;
+    }
+
+    .mode-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .mode-name {
+      font-size: 1.02rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .mode-name span {
+      font-weight: 400;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .mode-core {
+      font-size: 0.83rem;
+      color: #e5e7eb;
+      margin-bottom: 6px;
+      line-height: 1.55;
+    }
+
+    .mode-line {
+      border-top: 1px dashed rgba(148, 163, 184, 0.5);
+      margin: 6px 0 6px;
+    }
+
+    .mode-list {
+      list-style: none;
+      font-size: 0.78rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .mode-list li {
+      padding: 3px 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      background: rgba(15, 23, 42, 0.9);
+      white-space: nowrap;
+    }
+
+    .mode-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 4px;
+      font-style: italic;
+    }
+
+    .note-card {
+      margin-top: 20px;
+      border-radius: var(--radius-xl);
+      border: 1px dashed rgba(148, 163, 184, 0.6);
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.99));
+      padding: 12px 14px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .note-pill {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.15);
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      color: #e5e7eb;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-right: 6px;
+    }
+
+    .note-card strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .note-dot {
+      width: 8px;
+      height: 8px;
+      margin-top: 4px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #f97316 0, #fde047 45%, #22c55e 100%);
+      box-shadow: 0 0 12px rgba(249, 115, 22, 0.9);
+      flex-shrink: 0;
+    }
+
+    .usage-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+      gap: 16px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 840px) {
+      .usage-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .usage-card {
+      border-radius: var(--radius-xl);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.98));
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      padding: 12px 14px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.95);
+    }
+
+    .usage-card h3 {
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+      color: #e5e7eb;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .usage-card p {
+      line-height: 1.6;
+      margin-bottom: 6px;
+    }
+
+    .usage-card ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 6px 0 0;
+    }
+
+    .usage-card li::before {
+      content: "• ";
+      color: rgba(249, 115, 22, 0.9);
+    }
+
+    footer {
+      padding: 10px 20px 30px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer .shell {
+      border-top: 1px solid rgba(31, 41, 55, 0.9);
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    footer span {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="shell">
+      <div class="hero">
+        <div class="hero-inner">
+          <div>
+            <div class="hero-label">
+              <div class="hero-label-dot"></div>
+              <span>Attention has modes. You only occupy one at a time.</span>
+            </div>
+            <h1 class="hero-title">
+              The Five Modes<br />
+              <span>of Operation</span>
+            </h1>
+            <p class="hero-subtitle">
+              A simple map of how attention moves:
+              <strong>Witness</strong>,
+              <strong>Understand</strong>,
+              <strong>Act</strong>,
+              <strong>Bridge</strong>,
+              and <strong>Rest</strong>.
+              Each mode is valid. Each has a job.
+              The twist comes from trying to be in more than one at once.
+            </p>
+            <div class="hero-pill">
+              <span class="dot"></span>
+              <span><strong>Note:</strong> This page describes, not prescribes. You’re free to simply notice which mode you’re in.</span>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit-shell">
+              <div class="orbit-core"></div>
+              <div class="orbit-ring"></div>
+              <div class="orbit-ring"></div>
+              <div class="orbit-ring"></div>
+
+              <div class="orbit-mode orbit-mode--witness">
+                <span>Mode I</span> Witness
+              </div>
+              <div class="orbit-mode orbit-mode--understand">
+                <span>Mode II</span> Understand
+              </div>
+              <div class="orbit-mode orbit-mode--act">
+                <span>Mode III</span> Act
+              </div>
+              <div class="orbit-mode orbit-mode--bridge">
+                <span>Mode IV</span> Bridge
+              </div>
+              <div class="orbit-mode orbit-mode--rest">
+                <span>Mode V</span> Rest
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="shell">
+      <section class="section" id="modes">
+        <div class="section-header">
+          <h2 class="section-title">The Five Modes</h2>
+          <p class="section-subtitle">
+            You can move between modes, but you can’t actually occupy two at once. Confusion often comes from trying.
+          </p>
+        </div>
+
+        <div class="modes-grid">
+          <!-- Witness -->
+          <article class="mode-card">
+            <div class="mode-tag">Mode I</div>
+            <div class="mode-name">Witness <span>/ Seeing what is</span></div>
+            <p class="mode-core">
+              Attention rests in direct observation. You’re not fixing, narrating, or deciding.
+              You are simply allowing reality to appear as it is.
+            </p>
+            <div class="mode-line"></div>
+            <ul class="mode-list">
+              <li>witness</li>
+              <li>observe</li>
+              <li>record</li>
+              <li>notice</li>
+              <li>discover</li>
+            </ul>
+            <p class="mode-note">
+              Distortion enters when you try to “do something with it” before letting yourself fully see.
+            </p>
+          </article>
+
+          <!-- Understand -->
+          <article class="mode-card">
+            <div class="mode-tag">Mode II</div>
+            <div class="mode-name">Understand <span>/ Making sense</span></div>
+            <p class="mode-core">
+              Experience is metabolized into meaning. You connect dots, analyze, and integrate.
+              The focus is internal coherence, not external action.
+            </p>
+            <div class="mode-line"></div>
+            <ul class="mode-list">
+              <li>interpret</li>
+              <li>analyze</li>
+              <li>incorporate</li>
+              <li>consider</li>
+              <li>decide</li>
+            </ul>
+            <p class="mode-note">
+              Overlap with action here feels like pressure: “I must act before I’ve actually understood.”
+            </p>
+          </article>
+
+          <!-- Act -->
+          <article class="mode-card">
+            <div class="mode-tag">Mode III</div>
+            <div class="mode-name">Act <span>/ Moving reality</span></div>
+            <p class="mode-core">
+              Intention flows outward. You take steps, make moves, change things.
+              The system isn’t thinking about every angle; it’s committing.
+            </p>
+            <div class="mode-line"></div>
+            <ul class="mode-list">
+              <li>act</li>
+              <li>do</li>
+              <li>engage</li>
+              <li>direct</li>
+              <li>express</li>
+            </ul>
+            <p class="mode-note">
+              Trouble appears when you demand perfect understanding while already in motion.
+            </p>
+          </article>
+
+          <!-- Bridge -->
+          <article class="mode-card">
+            <div class="mode-tag">Mode IV</div>
+            <div class="mode-name">Bridge <span>/ Connecting worlds</span></div>
+            <p class="mode-core">
+              You stand between perspectives, translating and routing meaning.
+              The focus is relationship and mutual understanding, not personal clarity alone.
+            </p>
+            <div class="mode-line"></div>
+            <ul class="mode-list">
+              <li>bridge</li>
+              <li>translate</li>
+              <li>route</li>
+              <li>convey</li>
+              <li>relay</li>
+            </ul>
+            <p class="mode-note">
+              Overextension here feels like carrying everyone else’s processing at the cost of your own.
+            </p>
+          </article>
+
+          <!-- Rest -->
+          <article class="mode-card">
+            <div class="mode-tag">Mode V</div>
+            <div class="mode-name">Rest <span>/ Untwisting</span></div>
+            <p class="mode-core">
+              Attention lets go. No processing, no progress, no performance required.
+              The system returns to baseline so the other modes can be clear when they arise.
+            </p>
+            <div class="mode-line"></div>
+            <ul class="mode-list">
+              <li>be still</li>
+              <li>do nothing</li>
+              <li>float</li>
+              <li>decompress</li>
+              <li>reset</li>
+            </ul>
+            <p class="mode-note">
+              Rest is not failure. It’s what keeps all the other modes from twisting into each other.
+            </p>
+          </article>
+        </div>
+
+        <div class="note-card">
+          <div class="note-dot"></div>
+          <div>
+            <span class="note-pill">Key Insight</span>
+            <span>
+              <strong>Only one mode at a time.</strong>
+              Many internal knots come from trying to witness, understand, act, and bridge all at once.
+              Simply naming “which mode am I in right now?” can untangle a surprising amount of tension.
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="using">
+        <div class="section-header">
+          <h2 class="section-title">Using the Map</h2>
+          <p class="section-subtitle">
+            This isn’t a staircase to climb. It’s a way to notice how your attention is currently shaped.
+          </p>
+        </div>
+
+        <div class="usage-grid">
+          <article class="usage-card">
+            <h3>Simple self-check</h3>
+            <p>
+              From time to time, you can quietly ask:
+            </p>
+            <ul>
+              <li>Am I mainly witnessing right now?</li>
+              <li>Am I trying to understand?</li>
+              <li>Am I already acting?</li>
+              <li>Am I bridging between people or views?</li>
+              <li>Am I actually needing rest?</li>
+            </ul>
+            <p>
+              There’s no “correct” answer. The value is in seeing the mode clearly instead of fighting it.
+            </p>
+          </article>
+
+          <article class="usage-card">
+            <h3>When things feel twisted</h3>
+            <p>
+              Signs of mode-mixing often include:
+            </p>
+            <ul>
+              <li>Feeling like you must explain and heal and decide all at once</li>
+              <li>Trying to rest while secretly still processing</li>
+              <li>Acting while demanding total certainty</li>
+              <li>Bridging for others while your own understanding is half-formed</li>
+            </ul>
+            <p>
+              In those moments, it can help to consciously pick <strong>one</strong> mode and let the others go for now.
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <span>The Five Modes of Operation &mdash; a small map of how attention moves.</span>
+      <span>Witness first. The rest arranges itself.</span>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

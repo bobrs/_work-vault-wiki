@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The King Who Measured Everything</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-accent: #141b3b;
+      --page-bg: #fdfaf5;
+      --ink: #1b1333;
+      --muted: #6b637f;
+      --accent: #ffb347;
+      --accent-2: #7bd8ff;
+      --radius-xl: 24px;
+      --shadow-soft: 0 20px 40px rgba(0, 0, 0, 0.45);
+      --transition-fast: 220ms ease-out;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, #3b2b7d 0, transparent 55%),
+        radial-gradient(circle at bottom right, #ffb347 0, transparent 55%),
+        var(--bg);
+      color: var(--ink);
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+
+    main.story-shell {
+      max-width: 1120px;
+      margin: 24px auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    header.story-header {
+      color: #fdfaf5;
+      padding: 12px 16px 4px;
+    }
+
+    .story-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 4px;
+    }
+
+    .story-title {
+      font-size: clamp(1.9rem, 3vw, 2.4rem);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .story-title span.emoji {
+      font-size: 1.8em;
+      filter: drop-shadow(0 6px 12px rgba(0,0,0,0.5));
+    }
+
+    .story-subtitle {
+      margin-top: 4px;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.8);
+      max-width: 580px;
+    }
+
+    section.book {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr);
+      gap: 12px;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .page-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 720px;
+      perspective: 1600px;
+    }
+
+    .page-card {
+      background: var(--page-bg);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 26px 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: 18px;
+      transform-origin: left center;
+      transition:
+        transform var(--transition-fast),
+        box-shadow var(--transition-fast),
+        opacity 200ms ease-out;
+      opacity: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.1)
+      );
+      mix-blend-mode: soft-light;
+      pointer-events: none;
+    }
+
+    .page-card-turning {
+      transform: rotateY(-12deg) translateX(-6px);
+      box-shadow: 0 30px 55px rgba(0, 0, 0, 0.55);
+    }
+
+    .page-card-fading-out {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+
+    .page-card-fading-in {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .page-meta {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .page-illustration {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-right: 2px;
+    }
+
+    .clipart-orbit {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(255,255,255,0.95), transparent 55%),
+        linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .clipart-orbit::after {
+      content: "";
+      position: absolute;
+      inset: 18%;
+      border-radius: inherit;
+      border: 2px dashed rgba(255,255,255,0.7);
+      opacity: 0.8;
+    }
+
+    .clipart-icon {
+      font-size: 3.4rem;
+      filter:
+        drop-shadow(0 8px 14px rgba(0,0,0,0.45))
+        drop-shadow(0 0 10px rgba(255,255,255,0.6));
+      z-index: 1;
+    }
+
+    .clipart-caption {
+      font-size: 0.76rem;
+      text-align: center;
+      color: var(--muted);
+      max-width: 210px;
+    }
+
+    .page-text {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .page-heading {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .page-body p {
+      font-size: 0.98rem;
+      line-height: 1.65;
+      color: #3c314f;
+      margin-bottom: 4px;
+    }
+
+    .page-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .page-number {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+      max-width: 720px;
+      margin-top: 4px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    button.nav-btn {
+      border-radius: 999px;
+      border: none;
+      padding: 8px 14px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(253, 250, 245, 0.1);
+      color: #fdfaf5;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.4);
+      transition:
+        background var(--transition-fast),
+        transform 120ms ease-out,
+        box-shadow var(--transition-fast),
+        opacity 150ms ease-out;
+    }
+
+    button.nav-btn span.key-hint {
+      font-size: 0.74rem;
+      opacity: 0.75;
+    }
+
+    button.nav-btn:hover:not(:disabled) {
+      background: rgba(253, 250, 245, 0.2);
+      transform: translateY(-1px);
+      box-shadow: 0 14px 30px rgba(0,0,0,0.55);
+    }
+
+    button.nav-btn:active:not(:disabled) {
+      transform: translateY(1px) scale(0.98);
+      box-shadow: 0 8px 14px rgba(0,0,0,0.6);
+    }
+
+    button.nav-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+      box-shadow: none;
+    }
+
+    .progress-indicator {
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .progress-bar {
+      width: 140px;
+      height: 4px;
+      border-radius: 999px;
+      background: rgba(253, 250, 245, 0.2);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-fill {
+      position: absolute;
+      inset: 0;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      border-radius: inherit;
+      transition: width 200ms ease-out;
+    }
+
+    .hint-text {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    footer.story-footer {
+      margin-top: 6px;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.6);
+      padding: 0 16px 8px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      main.story-shell {
+        margin: 10px auto;
+        padding: 8px;
+      }
+
+      .page-card {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 18px 16px 18px;
+      }
+
+      .page-illustration {
+        order: -1;
+      }
+
+      .clipart-orbit {
+        max-width: 320px;
+        margin: 0 auto;
+      }
+
+      .story-title {
+        font-size: 1.6rem;
+      }
+
+      .story-subtitle {
+        font-size: 0.9rem;
+      }
+
+      .controls-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .nav-buttons {
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="story-shell" aria-label="Storybook: The King Who Measured Everything">
+    <header class="story-header">
+      <div class="story-kicker">Interactive Storybook</div>
+      <div class="story-title">
+        <span class="emoji">📖</span>
+        <span>The King Who Measured Everything</span>
+      </div>
+      <p class="story-subtitle">
+        A modern fairy tale about numbers, value, and the things we should never try to count.
+      </p>
+    </header>
+
+    <section class="book">
+      <div class="page-wrapper">
+        <article class="page-card" id="pageCard" aria-live="polite">
+          <div class="page-illustration">
+            <div class="page-meta" id="pageMeta">Chapter One</div>
+            <div class="clipart-orbit">
+              <div class="clipart-icon" id="clipartEmoji">👑</div>
+            </div>
+            <p class="clipart-caption" id="clipartCaption">
+              The King weighs everything he can measure.
+            </p>
+            <div class="page-number" id="pageNumber">Page 1 of 15</div>
+          </div>
+
+          <div class="page-text">
+            <h2 class="page-heading" id="pageTitle">
+              The King Who Measured Everything
+            </h2>
+            <div class="page-body" id="pageBody">
+              <!-- Story paragraphs will be injected here -->
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="controls-row">
+        <div class="nav-buttons">
+          <button class="nav-btn" id="prevBtn" aria-label="Previous page">
+            ← Previous
+            <span class="key-hint">[←]</span>
+          </button>
+          <button class="nav-btn" id="nextBtn" aria-label="Next page">
+            Next →
+            <span class="key-hint">[→]</span>
+          </button>
+        </div>
+
+        <div class="progress-indicator">
+          <div class="progress-bar" aria-hidden="true">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span id="progressLabel">1 / 15</span>
+        </div>
+
+        <div class="hint-text">
+          Tip: Use your keyboard arrows to turn pages.
+        </div>
+      </div>
+    </section>
+
+    <footer class="story-footer">
+      <span>Story &copy; You, the author.</span>
+      <span>Site design: simple, standalone HTML · no frameworks.</span>
+    </footer>
+  </main>
+
+  <script>
+    const pages = [
+      {
+        meta: "Once upon a time…",
+        title: "The King Who Measured Everything",
+        emoji: "👑",
+        clipartCaption: "The King holds his shining scales, proud of every number.",
+        body: [
+          "Once upon a time, there was a great King who believed that everything had a price.",
+          "He could tell you the cost of a diamond, a donkey, or a dream.",
+          "He measured gold, grain, and even giggles all the same."
+        ]
+      },
+      {
+        meta: "A very organized kingdom",
+        title: "Order, Fairness… and a Quiet Ache",
+        emoji: "🏙️",
+        clipartCaption: "A busy marketplace, where some faces still look wistful.",
+        body: [
+          "His people loved him.",
+          "He kept perfect order, fair trades, and full markets.",
+          "But not everyone was happy.",
+          "Some people couldn’t find a way to always have all the things that made them happiest."
+        ]
+      },
+      {
+        meta: "Enter the Merchant of More",
+        title: "The Merchant Arrives",
+        emoji: "💰",
+        clipartCaption: "A shiny briefcase of bottled golden happiness.",
+        body: [
+          "One day came a man in shiny shoes and a sly smile.",
+          "He bowed deeply and said, “Your Majesty, I can help you earn even more!",
+          "You see, happiness sells well. We’ll bottle it, weigh it, and sell it by the ounce!”"
+        ]
+      },
+      {
+        meta: "A tempting offer",
+        title: "More Happiness, For Sale",
+        emoji: "📦",
+        clipartCaption: "Coins swirl between a handshake shaped like a smile.",
+        body: [
+          "The King frowned. “You can sell happiness?”",
+          "“Oh yes,” said the Merchant of More.",
+          "“I’ll help your people measure their joy. Even the happiest will pay to be happier!”",
+          "The King, who really loved numbers, agreed, and saw nothing at all wrong with more happiness."
+        ]
+      },
+      {
+        meta: "The reign of More",
+        title: "Shops of Bottled Joy",
+        emoji: "🛍️",
+        clipartCaption: "Streets lined with glowing signs: Happiness for Sale.",
+        body: [
+          "Soon, the Merchant’s shops spread everywhere.",
+          "People carried little mirrors that showed how much happiness they had left to buy — and who wanted to buy from them."
+        ]
+      },
+      {
+        meta: "When joy has a price tag",
+        title: "Singing Only for Coins",
+        emoji: "🎵",
+        clipartCaption: "Songs and helping hands wait behind price tags.",
+        body: [
+          "They bought songs by their favorite artists, but stopped singing unless someone paid.",
+          "They purchased help with their homes and meals, but stopped helping unless someone paid."
+        ]
+      },
+      {
+        meta: "An aching kingdom",
+        title: "Laughing Less",
+        emoji: "😂",
+        clipartCaption: "Some laugh on golden coins; others sit quiet in the shadows.",
+        body: [
+          "Some could even afford to buy laughter that made them giggle whenever they liked.",
+          "But others stopped laughing. Because laughter, too, now had a price.",
+          "The King’s heart began to ache.",
+          "His beautiful kingdom had changed — now full of counting, but empty of caring."
+        ]
+      },
+      {
+        meta: "The Merchant’s towers",
+        title: "The Towers of More",
+        emoji: "🏰",
+        clipartCaption: "High above everyone, a golden tower of More.",
+        body: [
+          "But the Merchant of More grew richer and richer.",
+          "He built tall towers of gold, and from the top, he whispered to himself and everyone:",
+          "“Only I understand what people truly want.”",
+          "And almost everyone believed him."
+        ]
+      },
+      {
+        meta: "The Prince who listened",
+        title: "The Prince Walks Among the People",
+        emoji: "🤴",
+        clipartCaption: "The Prince listens quietly at a well in the village.",
+        body: [
+          "Now the King’s son — a curious young Prince — didn’t like how the world felt.",
+          "He walked among the people, listening to their stories and their sighs."
+        ]
+      },
+      {
+        meta: "Joy that multiplies",
+        title: "Gifts You Cannot Measure",
+        emoji: "🌞",
+        clipartCaption: "A small story sending ripples of light across the city.",
+        body: [
+          "He found that everyone was trying to be happy, but nobody felt it anymore.",
+          "So he began to share small gifts — a kind word, a song, a story — and he noticed something amazing:",
+          "Every time he gave freely, joy multiplied.",
+          "You couldn’t measure it, but you could feel it ripple out, like sunlight on a pond."
+        ]
+      },
+      {
+        meta: "The turning of the crown",
+        title: "The King Begins to See",
+        emoji: "⚖️",
+        clipartCaption: "The old scales rest unused beside the throne.",
+        body: [
+          "When the Prince returned, he told his father, “Father, the Merchant has made the people afraid to love.",
+          "They think value comes from gold, not from care.”",
+          "The King hung his head.",
+          "“My numbers have become chains,” he said. “It is time to uncount what should never be counted.”"
+        ]
+      },
+      {
+        meta: "A new kind of value",
+        title: "The Great Square",
+        emoji: "📣",
+        clipartCaption: "The King and the Prince speak to the gathered crowd.",
+        body: [
+          "Together, they called the people to the Great Square.",
+          "The King spoke first:",
+          "“I once believed that what we can count, we can control.",
+          "But I have learned that what we feel is even more important.”",
+          "The Prince lifted the crown and said:",
+          "“From this day on, we will value not just coins, but kindness, courage, and creativity.”"
+        ]
+      },
+      {
+        meta: "Song against numbers",
+        title: "What Can’t Be Bought",
+        emoji: "🎶",
+        clipartCaption: "The people’s song melts the Merchant’s golden tower.",
+        body: [
+          "The Merchant of More shouted, “You can’t rule without numbers!”",
+          "But the crowd began to sing — softly at first, then loudly — a song no one had written, but everyone somehow knew.",
+          "And when the song reached the King’s heart, he smiled, took his son’s hand, and said to the Merchant:",
+          "“I have found what can’t be bought — only shared.”",
+          "The Merchant’s towers melted into sunlight, and the people began to dance again."
+        ]
+      },
+      {
+        meta: "The new kingdom",
+        title: "Measuring Only What Can Be Measured",
+        emoji: "🌈",
+        clipartCaption: "A marketplace of shared food, music, and laughter.",
+        body: [
+          "From that day on, the King and the Prince ruled together — one with wisdom, one with wonder.",
+          "They still used money, yes — but only for things that could truly be measured.",
+          "For everything else — friendship, laughter, love — they used understanding instead."
+        ]
+      },
+      {
+        meta: "A song for every child",
+        title: "You May Count the Stars",
+        emoji: "⭐",
+        clipartCaption: "Children sing under a sky of starry, connected hearts.",
+        body: [
+          "And every child born into that land learned this song:",
+          "“You may count the stars if you wish,",
+          "but never the hearts that shine beneath them.",
+          "For those are seen only by the King who listens,",
+          "the Prince who understands,",
+          "and people whose own hearts resonate.”"
+        ]
+      }
+    ];
+
+    const pageCard = document.getElementById("pageCard");
+    const pageMeta = document.getElementById("pageMeta");
+    const pageTitle = document.getElementById("pageTitle");
+    const pageBody = document.getElementById("pageBody");
+    const clipartEmoji = document.getElementById("clipartEmoji");
+    const clipartCaption = document.getElementById("clipartCaption");
+    const pageNumber = document.getElementById("pageNumber");
+    const progressFill = document.getElementById("progressFill");
+    const progressLabel = document.getElementById("progressLabel");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let currentPage = 0;
+    let isAnimating = false;
+
+    function renderPage(index, direction = 0) {
+      if (index < 0 || index >= pages.length) return;
+
+      const animate = direction !== 0;
+
+      if (animate && isAnimating) return;
+      if (animate) {
+        isAnimating = true;
+        pageCard.classList.add("page-card-turning", "page-card-fading-out");
+      }
+
+      const doUpdate = () => {
+        const page = pages[index];
+        currentPage = index;
+
+        pageMeta.textContent = page.meta;
+        pageTitle.textContent = page.title;
+        clipartEmoji.textContent = page.emoji;
+        clipartCaption.textContent = page.clipartCaption;
+
+        pageBody.innerHTML = "";
+        page.body.forEach((line) => {
+          const p = document.createElement("p");
+          p.textContent = line;
+          pageBody.appendChild(p);
+        });
+
+        const humanIndex = index + 1;
+        pageNumber.textContent = `Page ${humanIndex} of ${pages.length}`;
+        progressLabel.textContent = `${humanIndex} / ${pages.length}`;
+        progressFill.style.width =
+          String((humanIndex / pages.length) * 100) + "%";
+
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === pages.length - 1;
+      };
+
+      if (animate) {
+        setTimeout(() => {
+          doUpdate();
+          pageCard.classList.remove("page-card-fading-out");
+          pageCard.classList.add("page-card-fading-in");
+        }, 140);
+
+        setTimeout(() => {
+          pageCard.classList.remove(
+            "page-card-turning",
+            "page-card-fading-in"
+          );
+          isAnimating = false;
+        }, 320);
+      } else {
+        doUpdate();
+      }
+    }
+
+    prevBtn.addEventListener("click", () => {
+      if (currentPage > 0) {
+        renderPage(currentPage - 1, -1);
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (currentPage < pages.length - 1) {
+        renderPage(currentPage + 1, 1);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight") {
+        nextBtn.click();
+      } else if (event.key === "ArrowLeft") {
+        prevBtn.click();
+      }
+    });
+
+    renderPage(0, 0);
+  </script>
+</body>
+</html>

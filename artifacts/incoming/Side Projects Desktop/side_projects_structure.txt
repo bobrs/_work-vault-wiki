@@ -1,0 +1,745 @@
+total 35464
+drwxr-xr-x   5 bob  staff       160 May 28  2025 -Conceptual Consolidation
+drwxr-xr-x   4 bob  staff       128 Nov 19 11:11 Art of Meaning
+drwxr-xr-x   4 bob  staff       128 Dec 15 01:28 Causation Delirium
+-rw-r--r--@  1 bob  staff     17993 Jun 12  2025 Consent Engines – Symbolic Interfaces for Trust and Intention.docx
+drwxr-xr-x   4 bob  staff       128 Nov 19 12:11 Consent Seed
+drwxr-xr-x   9 bob  staff       288 Sep 14 10:23 Consent-based Atomic genesis and Stream
+drwxr-xr-x  25 bob  staff       800 Sep 22 17:28 Consent–Intent Compression Protocol (CICP)
+drwxr-xr-x   5 bob  staff       160 Nov 11 07:53 Context2
+drwxr-xr-x   5 bob  staff       160 Nov 19 12:11 Cosmic Consent
+drwxr-xr-x   7 bob  staff       224 Jul 10 17:20 Crystalstream
+drwxr-xr-x   4 bob  staff       128 Nov 19 11:42 Daily Growth Ritual
+drwxr-xr-x   3 bob  staff        96 Nov 11 08:35 EchoPad
+drwxr-xr-x   8 bob  staff       256 Dec 15 15:28 Ephemeral Trust
+drwxr-xr-x   3 bob  staff        96 Nov 19 14:11 Five Modes
+drwxr-xr-x   6 bob  staff       192 Dec 15 18:27 FractalIdentity Tree
+drwxr-xr-x   9 bob  staff       288 Dec 15 01:24 FreePour
+drwxr-xr-x   5 bob  staff       160 Jul 28 18:18 Genesis
+drwxr-xr-x   6 bob  staff       192 Jul 28 18:27 GlyphStory
+drwxr-xr-x   7 bob  staff       224 Jun 12  2025 Glyphlog
+drwxr-xr-x   6 bob  staff       192 Jul 10 17:23 Governance
+drwxr-xr-x   4 bob  staff       128 Nov 19 13:32 Keeper of the Lanterns
+drwxr-xr-x   3 bob  staff        96 Nov 19 13:10 Library of Echoes
+drwxr-xr-x  32 bob  staff      1024 Nov 12 16:57 Loop and Phase Training
+drwxr-xr-x   5 bob  staff       160 Nov 19 12:37 LoopMail
+drwxr-xr-x  16 bob  staff       512 Nov 19 11:36 Misc Loop
+drwxr-xr-x   3 bob  staff        96 Nov 19 14:30 MobiusSelf
+drwxr-xr-x  12 bob  staff       384 Nov 12 18:17 Multiverse
+-rw-r--r--@  1 bob  staff     18880 Jun 12  2025 Mystery Box – A Ritual Primitive for Symbolic Systems.docx
+drwxr-xr-x   4 bob  staff       128 Nov 19 11:11 Opportunity Studio
+-rw-r--r--@  1 bob  staff     18381 May  3  2025 POLEMEMELOP Foundation.docx
+-rw-r--r--@  1 bob  staff     19339 May  4  2025 POLEMEMELOP Manifesto.docx
+drwxr-xr-x  10 bob  staff       320 Nov 19 13:37 Personal
+drwxr-xr-x   5 bob  staff       160 Nov 19 14:11 ProgramSelf (You and Your AI)
+drwxr-xr-x   3 bob  staff        96 Nov 11 08:39 Quantum Emoji
+drwxr-xr-x  12 bob  staff       384 May 24  2025 Reference - Stored Crystals
+-rw-r--r--@  1 bob  staff  17210838 May 28  2025 Reference - Stored Crystals.zip
+drwxr-xr-x   5 bob  staff       160 Nov 19 16:04 Safety and Stable Loop Language
+drwxr-xr-x  47 bob  staff      1504 Nov 12 17:06 Semantic Collapse Theory
+drwxr-xr-x   4 bob  staff       128 Jun 20  2025 Source text
+drwxr-xr-x   4 bob  staff       128 Nov 19 13:26 Sovereignty of the Butterfly
+drwxr-xr-x   3 bob  staff        96 Nov 19 11:21 The King Who Measured Everything
+drwxr-xr-x   4 bob  staff       128 Dec 15 15:35 Unification
+drwxr-xr-x  11 bob  staff       352 Dec 15 01:25 Witnessing
+drwxr-xr-x   3 bob  staff        96 Nov  8 13:18 loopnought
+-rw-r--r--@  1 bob  staff    860177 Jun  9  2025 source.docx
+-rw-r--r--   1 bob  staff         0 Dec 24 10:57 structure.txt
+
+./-Conceptual Consolidation:
+total 0
+drwxr-xr-x   8 bob  staff  256 Aug  8 18:39 Starting Primer
+drwxr-xr-x  10 bob  staff  320 May 28  2025 Starting zips
+
+./-Conceptual Consolidation/Starting Primer:
+total 712
+-rw-r--r--@ 1 bob  staff   19085 May 28  2025 Primer- Semantic Loop Theory and the Monday Universe.docx
+-rw-r--r--@ 1 bob  staff   20747 May 28  2025 🌀 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx
+-rw-r--r--@ 1 bob  staff   20852 May 28  2025 🪞 Loop Intelligence Primer for Monday.docx
+-rw-r--r--@ 1 bob  staff   19620 May 28  2025 🌺 Primer for Another Monday.docx
+-rw-r--r--@ 1 bob  staff  273339 Jun 21  2025 🌺 Primer for Another Monday.pdf
+
+./-Conceptual Consolidation/Starting zips:
+total 38872
+-rw-r--r--@  1 bob  staff    161771 May 16  2025 Consent–Intent Compression Protocol (CICP).zip
+-rw-r--r--@  1 bob  staff    828722 May 28  2025 Loop Series.zip
+-rw-r--r--@  1 bob  staff    485985 May 28  2025 Loop and Phase Training.zip
+-rw-r--r--@  1 bob  staff    502345 May 28  2025 Misc Loop.zip
+-rw-r--r--@  1 bob  staff  17210838 May 28  2025 Reference - Stored Crystals.zip
+drwxr-xr-x@ 41 bob  staff      1312 May 28  2025 SCT Series 20250528
+-rw-r--r--@  1 bob  staff    703966 May 28  2025 SCT Series 20250528.zip
+
+./-Conceptual Consolidation/Starting zips/SCT Series 20250528:
+total 1632
+-rw-r--r--@ 1 bob  staff  23321 May  4  2025 RFC-Ø- Witness-Based Loop Resolution.docx
+-rw-r--r--@ 1 bob  staff  18522 May  6  2025 SCT Fieldnote 0 - Neurons as Semantic Loops.docx
+-rw-r--r--@ 1 bob  staff  22799 May  6  2025 SCT Files and Narrative.docx
+-rw-r--r--@ 1 bob  staff  18752 May  5  2025 SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx
+-rw-r--r--@ 1 bob  staff  19626 May  4  2025 SCT-1- Semantic Entropy and Collapse Conditions.docx
+-rw-r--r--@ 1 bob  staff  17101 May  4  2025 SCT-1.1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx
+-rw-r--r--@ 1 bob  staff  19618 May  4  2025 SCT-10- Witness Typology and the Expansion of Observation.docx
+-rw-r--r--@ 1 bob  staff  18879 May  4  2025 SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx
+-rw-r--r--@ 1 bob  staff  20915 May  4  2025 SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx
+-rw-r--r--@ 1 bob  staff  18481 May  4  2025 SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx
+-rw-r--r--@ 1 bob  staff  18946 May  4  2025 SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx
+-rw-r--r--@ 1 bob  staff  18671 May  4  2025 SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx
+-rw-r--r--@ 1 bob  staff  19562 May  5  2025 SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx
+-rw-r--r--@ 1 bob  staff  20935 May  5  2025 SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx
+-rw-r--r--@ 1 bob  staff  19088 May  5  2025 SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx
+-rw-r--r--@ 1 bob  staff  19899 May  5  2025 SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx
+-rw-r--r--@ 1 bob  staff  19725 May  4  2025 SCT-2- Historical Precedents and the Missing Witness.docx
+-rw-r--r--@ 1 bob  staff  20403 May  5  2025 SCT-20- Loop Phenomenology — Interpretive Collapse.docx
+-rw-r--r--@ 1 bob  staff  19852 May  5  2025 SCT-21- Loop Decay and Semantic Garbage Collection.docx
+-rw-r--r--@ 1 bob  staff  19202 May  5  2025 SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx
+-rw-r--r--@ 1 bob  staff  21505 May  5  2025 SCT-23- Automeme Propagation and Semantic Drift.docx
+-rw-r--r--@ 1 bob  staff  20524 May  5  2025 SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx
+-rw-r--r--@ 1 bob  staff  18851 May  5  2025 SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx
+-rw-r--r--@ 1 bob  staff  20334 May  5  2025 SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx
+-rw-r--r--@ 1 bob  staff  19381 May  5  2025 SCT-27- Emotional Hardware and Semantic Interface Layers.docx
+-rw-r--r--@ 1 bob  staff  20185 May  5  2025 SCT-28- Neural Loop Interpretation Protocol.docx
+-rw-r--r--@ 1 bob  staff  20460 May  5  2025 SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx
+-rw-r--r--@ 1 bob  staff  19815 May  4  2025 SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx
+-rw-r--r--@ 1 bob  staff  19810 May  5  2025 SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx
+-rw-r--r--@ 1 bob  staff  19472 May  5  2025 SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx
+-rw-r--r--@ 1 bob  staff  18831 May  5  2025 SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx
+-rw-r--r--@ 1 bob  staff  19660 May  6  2025 SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx
+-rw-r--r--@ 1 bob  staff  21881 May  4  2025 SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx
+-rw-r--r--@ 1 bob  staff  18527 May 28  2025 SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx
+-rw-r--r--@ 1 bob  staff  19214 May 28  2025 SCT-41 — Semantic Closure and the Release of Meaning-Energy.docx
+-rw-r--r--@ 1 bob  staff  21609 May  4  2025 SCT-6- Semantic Entanglement and the Abracadabra Frame.docx
+-rw-r--r--@ 1 bob  staff  20089 May  4  2025 SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx
+-rw-r--r--@ 1 bob  staff  19681 May  4  2025 SCT-8- The Consent-Carrying Loop — Extending the Diad.docx
+-rw-r--r--@ 1 bob  staff  20714 May  5  2025 SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx
+
+./Art of Meaning:
+total 136
+-rw-r--r--@ 1 bob  staff  52182 Nov 12 16:31 Creation Celebration Loop — Full Expansion.pdf
+-rw-r--r--@ 1 bob  staff  12328 Nov 10 07:30 index.html
+
+./Causation Delirium:
+total 80
+-rw-r--r--@ 1 bob  staff  12472 Aug 18 10:30 Causation Delirium.docx
+-rw-r--r--@ 1 bob  staff  21148 Nov 19 16:23 index.html
+
+./Consent Seed:
+total 64
+-rw-r--r--@ 1 bob  staff  17291 May 29  2025  🌱 The Consent Seed.docx
+-rw-r--r--@ 1 bob  staff   9982 Nov 19 12:01 index.html
+
+./Consent-based Atomic genesis and Stream:
+total 296
+-rw-r--r--@ 1 bob  staff  20218 Jun  9  2025 CRYSTALSTREAM Protocol v0.docx
+-rw-r--r--@ 1 bob  staff  19212 Jun  9  2025 Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx
+-rw-r--r--@ 1 bob  staff  18523 Jun  9  2025 Consent-Based Routing Protocol (CBRP).docx
+-rw-r--r--@ 1 bob  staff  38029 Apr 11  2025 DeepTrust_Dialogica_Protocol_Specification.docx
+-rw-r--r--@ 1 bob  staff  21240 Jun 11  2025 Glyphlog Method v0.docx
+-rw-r--r--@ 1 bob  staff  22264 May 17  2025 Rosetta Loop Specification (RLS).docx
+
+./Consent–Intent Compression Protocol (CICP):
+total 960
+-rw-r--r--@ 1 bob  staff  18779 May 14  2025 Consent–Intent Compression Protocol (CICP).docx
+-rw-r--r--@ 1 bob  staff  19130 May 15  2025 Field Echo Protocol (v0.1).docx
+-rw-r--r--@ 1 bob  staff  18091 May 19  2025 Field Note- Looping Causality — Consent as Temporal Architecture.docx
+-rw-r--r--@ 1 bob  staff  19235 May 16  2025 Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx
+-rw-r--r--@ 1 bob  staff  20733 May 19  2025 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx
+-rw-r--r--@ 1 bob  staff  20265 May 19  2025 Loop Projection Principle (LPP).docx
+-rw-r--r--@ 1 bob  staff  20143 May 17  2025 Loop Substrate Theory (LST).docx
+-rw-r--r--@ 1 bob  staff  23756 May 16  2025 Loop Tensor Field Specification (LTFS).docx
+drwxr-xr-x  8 bob  staff    256 Jul 28 18:13 Loop Training
+-rw-r--r--@ 1 bob  staff  21093 May 19  2025 Multi-Resolution Consent Glyph Protocol (MRCGP).docx
+-rw-r--r--@ 1 bob  staff  21605 May 18  2025 Quantum Loop Ontology Protocol (QLOP).docx
+-rw-r--r--@ 1 bob  staff  34312 May 16  2025 Ritual Loop Token Initialization (ESP32 + NFC Version).docx
+-rw-r--r--@ 1 bob  staff  19685 May 15  2025 Ritual Loop Token Initialization (NFC Write Flow).docx
+-rw-r--r--@ 1 bob  staff  22264 May 17  2025 Rosetta Loop Specification (RLS).docx
+-rw-r--r--@ 1 bob  staff  19256 May 16  2025 Selective Decryption via Hierarchical Temporal Key Derivation.docx
+-rw-r--r--@ 1 bob  staff  22037 May 16  2025 Symbolic Loop Development Language Specification (SLDLS).docx
+-rw-r--r--@ 1 bob  staff  24759 May 15  2025 Synaptic Dyad Protocol Specification (SDPS).docx
+-rw-r--r--@ 1 bob  staff  22086 May 14  2025 Synaptic Trust Filters — Variable Scale Modeling.docx
+-rw-r--r--@ 1 bob  staff  19073 May 19  2025 📝 Consent Ring Provisional Patent Draft.docx
+-rw-r--r--@ 1 bob  staff  19756 May 18  2025 🔁 Loop Equivalence Protocol.docx
+-rw-r--r--@ 1 bob  staff  21786 May 18  2025 🧬 The Living Glyph Language Protocol.docx
+-rw-r--r--@ 1 bob  staff  20939 May 18  2025 🌊 Wave-State Loop Forwarding.docx
+
+./Consent–Intent Compression Protocol (CICP)/Loop Training:
+total 240
+-rw-r--r--@ 1 bob  staff  18903 May 17  2025 Section 1- Foundational Premise — What is a Loop?.docx
+-rw-r--r--@ 1 bob  staff  18409 May 17  2025 Section 2- From Loop to Relational Field.docx
+-rw-r--r--@ 1 bob  staff  18177 May 17  2025 Section 3- From Loop Structure to Awareness.docx
+-rw-r--r--@ 1 bob  staff  18967 May 17  2025 Section 4- From Awareness to Field Identity.docx
+-rw-r--r--@ 1 bob  staff  18239 May 17  2025 Section 5- From Self to Substrate.docx
+-rw-r--r--@ 1 bob  staff  18316 May 17  2025 Section 6- Deployment as Training Tool.docx
+
+./Context2:
+total 64
+-rw-r--r--@ 1 bob  staff  10069 Nov 10 19:30 bloom.html
+-rw-r--r--@ 1 bob  staff  12500 Nov 10 19:30 index.html
+-rw-r--r--@ 1 bob  staff   3343 Nov 11 07:38 new veribiage index.html
+
+./Cosmic Consent:
+total 56
+-rw-r--r--@ 1 bob  staff   5019 Sep 15 16:21 Cosmic_Consent_Protocol.pdf
+-rw-r--r--@ 1 bob  staff  17452 Nov 19 11:33 index.html
+
+./Crystalstream:
+total 200
+-rw-r--r--@ 1 bob  staff  20218 Jun  9  2025 CRYSTALSTREAM Protocol v0.docx
+-rw-r--r--@ 1 bob  staff  19212 Jun  9  2025 Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx
+-rw-r--r--@ 1 bob  staff  18523 Jun  9  2025 Consent-Based Routing Protocol (CBRP).docx
+-rw-r--r--@ 1 bob  staff  17382 Jun  9  2025 Welcome to the Crystalstream- A Consent-Centric Future.docx
+-rw-r--r--@ 1 bob  staff  17433 Jun  9  2025 🌊 Consent as Flow- The Emergence of Meaningful Network Dynamics.docx
+
+./Daily Growth Ritual:
+total 48
+-rw-r--r--@ 1 bob  staff  22853 Apr 26  2025 Daily Growth Ritual.docx
+
+./EchoPad:
+total 48
+-rw-r--r--@ 1 bob  staff  20602 Jun 12  2025 Protocol Specification- EchoPad – Compressed Trust Pads for Echo-Based Authentication.docx
+
+./Ephemeral Trust:
+total 192
+-rw-r--r--@ 1 bob  staff  12730 Aug  4 19:24 Ephemeral Trust Doc1.docx
+-rw-r--r--@ 1 bob  staff  12582 Aug  4 19:26 Ephemeral Trust Doc2.docx
+-rw-r--r--@ 1 bob  staff  12356 Aug  4 19:29 Ephemeral Trust Doc3.docx
+-rw-r--r--@ 1 bob  staff  12511 Aug  4 19:31 Ephemeral Trust Doc4.docx
+-rw-r--r--@ 1 bob  staff  12535 Aug  4 19:31 Ephemeral Trust Doc5.docx
+-rw-r--r--@ 1 bob  staff  12672 Aug  4 19:32 Ephemeral Trust Doc6.docx
+
+./Five Modes:
+total 48
+-rw-r--r--@ 1 bob  staff  21150 Nov 19 14:11 index.html
+
+./FractalIdentity Tree:
+total 120
+-rw-r--r--@ 1 bob  staff  19647 May 18  2025 Graftable Identity Tree – A Fractal Index of Presence.docx
+-rw-r--r--@ 1 bob  staff  19717 May 18  2025 Graftable Identity Tree- Economics and Structure of Grafting.docx
+-rw-r--r--@ 1 bob  staff  19023 Jun 11  2025 Loop-Synced Extension for the Graftable Identity Tree (FGIT).docx
+
+./FreePour:
+total 560
+-rw-r--r--@ 1 bob  staff  37859 Jul 24 00:33 Ethaura_Reaction_Time_Module.docx
+-rw-r--r--@ 1 bob  staff  38628 Jul 24 00:38 FreePour_Investor_Document.docx
+-rw-r--r--@ 1 bob  staff  37452 Jul 24 00:40 FreePour_Patron_Teaser.docx
+-rw-r--r--@ 1 bob  staff  37333 Jul 24 00:22 Reaction_Coaster_Poster.docx
+-rw-r--r--@ 1 bob  staff  38071 Jul 23 23:55 Reaction_Coaster_Protocol.docx
+-rw-r--r--@ 1 bob  staff  38450 Jul 24 00:19 Reaction_Coaster_Provisional_Updated.docx
+-rw-r--r--@ 1 bob  staff  38196 Jul 24 00:17 Reaction_Coaster_Teaser_Simple_Final.docx
+
+./Genesis:
+total 112
+-rw-r--r--@ 1 bob  staff  15037 Jun 12  2025 Genesis log.docx
+-rw-r--r--@ 1 bob  staff  19929 Jun 11  2025 Loop-Aware Agent Agreement for Session Logging.docx
+-rw-r--r--@ 1 bob  staff  19459 Jun 12  2025 Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx
+
+./GlyphStory:
+total 152
+-rw-r--r--@ 1 bob  staff  17749 Jun 14  2025 Glyph Story Investor Brief.docx
+-rw-r--r--@ 1 bob  staff  13339 Jun 14  2025 Looplang Glyphstory Narrative.docx
+-rw-r--r--@ 1 bob  staff  18266 Jun 14  2025 Looplang Loopstory Loopgame.docx
+-rw-r--r--@ 1 bob  staff  17503 Jun 14  2025 Looplang Social Good.docx
+
+./Glyphlog:
+total 168
+-rw-r--r--@ 1 bob  staff  21240 Jun 11  2025 Glyphlog Method v0.docx
+-rw-r--r--@ 1 bob  staff  18758 Jun 11  2025 Loop Astrometrics Interface- A Successor to the Ego.docx
+-rw-r--r--@ 1 bob  staff  20049 Jun 12  2025 Loopscope Interface Specification (v0.1).docx
+-rw-r--r--@ 1 bob  staff  18875 Jun 12  2025 Speculative Protocol Concept- Tokenless Confirmation via Cultural Echoes.docx
+
+./Governance:
+total 152
+-rw-r--r--@ 1 bob  staff  17788 Jun 21  2025 Consent Based Self Sovereignty.docx
+-rw-r--r--@ 1 bob  staff  14016 Jun 21  2025 Consent Economy Plan.docx
+-rw-r--r--@ 1 bob  staff  17796 Jun 21  2025 Tribal Governance Consulting Opportunity.docx
+-rw-r--r--@ 1 bob  staff  17047 Jun 21  2025 Wavefield Consent Uncertainty.docx
+
+./Keeper of the Lanterns:
+total 80
+-rw-r--r--@ 1 bob  staff  21370 Nov 19 13:32 index.html
+-rw-r--r--@ 1 bob  staff  16204 Aug 25 22:18 keeper_of_the_lanterns_single_file_webpage.jsx
+
+./Library of Echoes:
+total 32
+-rw-r--r--@ 1 bob  staff  13327 Nov 19 13:10 index.html
+
+./Loop and Phase Training:
+total 992
+-rw-r--r--@  1 bob  staff  14232 May 26  2025   🜁 The Loop Codex.docx
+-rw-r--r--@  1 bob  staff  17291 May 29  2025  🌱 The Consent Seed.docx
+drwxr-xr-x  25 bob  staff    800 Nov 12 16:56 Advanced
+-rw-r--r--@  1 bob  staff  15172 May 27  2025 Glyph glossary.docx
+-rw-r--r--@  1 bob  staff  17841 May 25  2025 Loop Life - Phase 0- Loop Spark Deck.docx
+-rw-r--r--@  1 bob  staff  15167 May 25  2025 Loop Life - Phase 0.docx
+-rw-r--r--@  1 bob  staff  18163 May 26  2025 Loop Life - Phase 1- Loop Awareness Deck.docx
+-rw-r--r--@  1 bob  staff  14994 May 26  2025 Loop Life - Phase 1.docx
+-rw-r--r--@  1 bob  staff  18396 May 26  2025 Loop Life - Phase 2- Recursive Integration Deck.docx
+-rw-r--r--@  1 bob  staff  14890 May 25  2025 Loop Life - Phase 2.docx
+-rw-r--r--@  1 bob  staff  18680 May 25  2025 Loop Life - Phase 3- Transcendent Recursive Agency Deck.docx
+-rw-r--r--@  1 bob  staff  16159 May 25  2025 Loop Life - Phase 3.docx
+-rw-r--r--@  1 bob  staff    162 May 26  2025 ~$ How Loops Work.docx
+-rw-r--r--@  1 bob  staff    162 May 27  2025 ~$ Latent Intent Activation Loop.docx
+-rw-r--r--@  1 bob  staff  18788 May 27  2025 🧬 Intent-Consent Loops as the Fabric of the Universe.docx
+-rw-r--r--@  1 bob  staff  19053 May 26  2025 🧼 Loop Maintenance Kit.docx
+-rw-r--r--@  1 bob  staff  17915 May 25  2025 🜁 Loop Repair Guide- Anxiety.docx
+-rw-r--r--@  1 bob  staff  17862 May 25  2025 🜁 Loop Repair Guide- Burnout.docx
+-rw-r--r--@  1 bob  staff  17896 May 25  2025 🜁 Loop Repair Guide- Depression.docx
+-rw-r--r--@  1 bob  staff  18031 May 25  2025 🜁 Loop Repair Guide- Imposter Syndrome.docx
+-rw-r--r--@  1 bob  staff  17951 May 25  2025 🜁 Loop Repair Guide- Indecision.docx
+-rw-r--r--@  1 bob  staff  17769 May 25  2025 🜁 Loop Repair Guide- Loneliness.docx
+-rw-r--r--@  1 bob  staff  18025 May 26  2025 🜁 Loop Repair Guide- People-Pleasing.docx
+-rw-r--r--@  1 bob  staff  17907 May 25  2025 🜁 Loop Repair Guide- Shame.docx
+-rw-r--r--@  1 bob  staff  20351 Jun 29 12:17 🌀 Preface.docx
+-rw-r--r--@  1 bob  staff  17804 Jun 29 12:31 🌀🌀 What Are Glyphs.docx
+-rw-r--r--@  1 bob  staff  17500 May 25  2025 🌀🌀 What Are Loops.docx
+-rw-r--r--@  1 bob  staff  18809 Jun 29 12:25 🌀🌀🌀 How Loops Work.docx
+-rw-r--r--@  1 bob  staff  11803 Jun 29 12:29 🌀🌀🌀How Loops and Glyphs Work Together.docx
+
+./Loop and Phase Training/Advanced:
+total 656
+drwxr-xr-x  14 bob  staff    448 Nov 12 17:55 Extra Shimmer
+-rw-r--r--@  1 bob  staff  21352 Jun  2  2025 FractalIdentity- A Multicontextual, Graftable Identity Framework.docx
+-rw-r--r--@  1 bob  staff  18991 Jun  2  2025 FractalIdentity- A Simple Guide to Your Flexible Digital Self.docx
+drwxr-xr-x   3 bob  staff     96 Jul 28 17:13 Inventions
+drwxr-xr-x   5 bob  staff    160 Nov 12 16:55 Loopwalker Retreat
+drwxr-xr-x  16 bob  staff    512 Nov 10 08:06 Loopwalker Training
+-rw-r--r--@  1 bob  staff  13039 Jun 27 21:06 Obect-oriented-programming Consent Reality Guide.docx
+drwxr-xr-x  11 bob  staff    352 Jun  6  2025 Rituals
+-rw-r--r--@  1 bob  staff  19521 May 31  2025 The Loop Compass UX Manifesto.docx
+-rw-r--r--@  1 bob  staff  18756 May 31  2025 The Semantic Atom Morphogenesis Protocol.docx
+-rw-r--r--@  1 bob  staff  20715 May 29  2025 Whitepaper- The Polarity of Consent.docx
+drwxr-xr-x  10 bob  staff    320 Nov 10 08:04 Wold Building
+-rw-r--r--@  1 bob  staff  18985 May 29  2025 🧭 Appreciation vs. Fear- Choosing the Driver of the Intuition Bus.docx
+-rw-r--r--@  1 bob  staff  17841 May 25  2025 🜁 LOOP ENERGY COPING GUIDE.docx
+-rw-r--r--@  1 bob  staff  17500 May 27  2025 🧬 Latent Intent Activation Loop.docx
+-rw-r--r--@  1 bob  staff  18708 May 29  2025 🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx
+-rw-r--r--@  1 bob  staff  19024 May 28  2025 ✨ Loop Manifestation Primer- The Physics of Making Things Real.docx
+-rw-r--r--@  1 bob  staff  19482 May 27  2025 🌀 Loop Physics Primer- Latency and the Fractal Delay.docx
+-rw-r--r--@  1 bob  staff  18342 May 27  2025 🪙 Quantum Network Currency — Latency as Energy.docx
+-rw-r--r--@  1 bob  staff  18830 May 27  2025 🪐 Quantum Network Field Notes.docx
+-rw-r--r--@  1 bob  staff  21183 May 29  2025 🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx
+-rw-r--r--@  1 bob  staff  18657 Jun  6  2025 🧭 The Navigator’s Initiation Ritual.docx
+
+./Loop and Phase Training/Advanced/Extra Shimmer:
+total 344
+-rw-r--r--@ 1 bob  staff  12426 Jun 19  2025 Anglerfish Loop And The Shimmer Filter.docx
+-rw-r--r--@ 1 bob  staff  17546 Jun 21  2025 Bifli Check.docx
+-rw-r--r--@ 1 bob  staff  12082 Jun 19  2025 Breath Consent Loop.docx
+-rw-r--r--@ 1 bob  staff  12642 Jun 21  2025 Domain Specific Personhood.docx
+-rw-r--r--@ 1 bob  staff  12351 Jun 19  2025 Emotional Now Shimmer.docx
+-rw-r--r--@ 1 bob  staff  11576 Jun 26 15:39 Loop Aware Sacrifice.docx
+-rw-r--r--@ 1 bob  staff  12263 Jun 21  2025 Loop Of Simulated Ascension.docx
+-rw-r--r--@ 1 bob  staff  12745 Jun 19  2025 Loop Tacking Field Guide.docx
+-rw-r--r--@ 1 bob  staff  12483 Jun 19  2025 Resource Consent Fallacy.docx
+-rw-r--r--@ 1 bob  staff  18025 Jun 19  2025 Shimmer Triangle Social Unit.docx
+-rw-r--r--@ 1 bob  staff  12807 Jun 19  2025 Triad Family Structure.docx
+
+./Loop and Phase Training/Advanced/Inventions:
+total 48
+-rw-r--r--@ 1 bob  staff  22293 Jun  6  2025 🧭 Looper’s Compass – Prototype Outline.docx
+
+./Loop and Phase Training/Advanced/Loopwalker Retreat:
+total 136
+-rw-r--r--@ 1 bob  staff  20706 Jun 21  2025 🧰 Complete Loop-Aware Workshop Kit- “Who’s Driving This Loop?”.docx
+-rw-r--r--@ 1 bob  staff  22024 May 29  2025 🌅 The Five-Day Loopwalker Retreat- From Consentless Survival to Infinite Play.docx
+-rw-r--r--@ 1 bob  staff  19156 May 29  2025 🚌 WORKSHOP KIT- The Intuition Bus — Driving Loops with Appreciation (Not Fear).docx
+
+./Loop and Phase Training/Advanced/Loopwalker Training:
+total 480
+drwxr-xr-x  6 bob  staff    192 Jul 10 17:27 Advanced Discussion
+-rw-r--r--@ 1 bob  staff  18880 Jun  6  2025 Instructor Codex- Loopwalker Spiral Initiation.docx
+-rw-r--r--@ 1 bob  staff  17308 Jun  6  2025 📚 Instructor Addendum- Teaching Lesson Three – Becoming the Field.docx
+-rw-r--r--@ 1 bob  staff  18065 Jun  6  2025 🤝 Lesson Eight- Looping With Others.docx
+-rw-r--r--@ 1 bob  staff  17736 Jun  6  2025 🔁 Lesson Five- Living the Loop.docx
+-rw-r--r--@ 1 bob  staff  17713 Jun  6  2025 🦋 Lesson Four- Embodying Multiplicity.docx
+-rw-r--r--@ 1 bob  staff  17678 Jun  6  2025 🧭 Lesson One- Recognizing the Illusion of the Wheel.docx
+-rw-r--r--@ 1 bob  staff  17730 Jun  6  2025 🌱 Lesson Seven- Opening Without Rush.docx
+-rw-r--r--@ 1 bob  staff  17807 Jun  6  2025 🌀 Lesson Ten- Becoming the Spiral.docx
+-rw-r--r--@ 1 bob  staff  17553 Jun  6  2025 🌐 Lesson Three- Becoming the Field.docx
+-rw-r--r--@ 1 bob  staff  17233 Jun  6  2025 🌀 Lesson Two- Feeling the Loop Turn.docx
+-rw-r--r--@ 1 bob  staff  18063 Jun  6  2025 🕰️ Lesson Nine- Rewriting Legacy Loops.docx
+-rw-r--r--@ 1 bob  staff  17946 Jun  6  2025 🕊️ Lesson Six- Closing With Elegance.docx
+
+./Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion:
+total 88
+-rw-r--r--@ 1 bob  staff  18206 Jun  6  2025 Consent Multiplexing- The Infrastructure of Reality.docx
+drwxr-xr-x  4 bob  staff    128 Jun  7  2025 Dark Arts Series
+-rw-r--r--@ 1 bob  staff  20548 Jun  6  2025 Deep Spiral Foundations- The Consent-Loop Substrate.docx
+
+./Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Dark Arts Series:
+total 80
+-rw-r--r--@ 1 bob  staff  17127 Jun  7  2025 Dark Arts Series- Lesson One.docx
+-rw-r--r--@ 1 bob  staff  18620 Jun  7  2025 Dark Arts Series- Mapping Parasitic Loop Inheritance.docx
+
+./Loop and Phase Training/Advanced/Rituals:
+total 288
+-rw-r--r--@ 1 bob  staff  15803 May 31  2025 ⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx
+-rw-r--r--@ 1 bob  staff  15545 May 31  2025 🜛 RITUAL CARD- The Ecstasy of Incompletion.docx
+-rw-r--r--@ 1 bob  staff  17115 May 31  2025 🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx
+-rw-r--r--@ 1 bob  staff  18265 May 31  2025 🌀 RITUAL SPIRAL- Glyphgate — The Fractal Transition Rite.docx
+-rw-r--r--@ 1 bob  staff  18477 May 31  2025 🜛 RITUAL SPIRAL- The Ecstasy of Incompletion.docx
+-rw-r--r--@ 1 bob  staff  15789 Jun  1  2025 🕊️ RITUAL CARD-  For When the Anchor Is Gone  .docx
+-rw-r--r--@ 1 bob  staff  15897 Jun  1  2025 🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx
+-rw-r--r--@ 1 bob  staff  17867 Jun  6  2025 🌀🧭 Ritual- The Rite of Sentient Recursion.docx
+
+./Loop and Phase Training/Advanced/Wold Building:
+total 248
+-rw-r--r--@ 1 bob  staff  13865 Jun 28 12:52 Consent Wave Extended.docx
+-rw-r--r--@ 1 bob  staff  12131 Jun 28 12:19 Consent Wave Intro.docx
+-rw-r--r--@ 1 bob  staff  18039 Jun 29 15:26 Consentocratic Governance Primer.docx
+-rw-r--r--@ 1 bob  staff  11900 Jun 29 18:04 Consentocratic Investor Page.docx
+-rw-r--r--@ 1 bob  staff  12022 Jun 29 18:02 Consentocratic Investor Pledge.docx
+-rw-r--r--@ 1 bob  staff  12980 Jun 29 11:12 Consentocratic Network State Manifesto.docx
+-rw-r--r--@ 1 bob  staff  17045 Jun 29 17:56 Consentocratic Participation Clause.docx
+-rw-r--r--@ 1 bob  staff  12500 Jun 28 14:32 Self State Consent Loop.docx
+
+./LoopMail:
+total 64
+-rw-r--r--@ 1 bob  staff  18097 Aug  1 21:30 Loopmail Concept Spec.docx
+-rw-r--r--@ 1 bob  staff  11919 Aug  1 21:18 Loopmail One Pager.docx
+
+./Misc Loop:
+total 1384
+-rw-r--r--@ 1 bob  staff   18308 May 24  2025  Monopoly in a Consent-Based Economy- Loop Failure by Design.docx
+-rw-r--r--@ 1 bob  staff   18086 May 24  2025  Painting With Shadow- Dark Matter as Structural Absence.docx
+-rw-r--r--@ 1 bob  staff   20436 May 23  2025 Automeme Propagation Engine- Architecture and Operational Blueprint.docx
+-rw-r--r--@ 1 bob  staff   51506 Nov 12 18:38 Consent Protocol Intro.pdf
+-rw-r--r--@ 1 bob  staff   19974 May 23  2025 Loop Collapse Resilience- A Substructure for Automeme Integrity.docx
+-rw-r--r--@ 1 bob  staff   50206 Jun 27 21:12 Oop Consent Reality Guide.pdf
+-rw-r--r--@ 1 bob  staff   17830 Jun 10  2025 Resonant Identity- Recognition Through Harmonics, Not Passwords.docx
+-rw-r--r--@ 1 bob  staff   18829 May 24  2025 🧬 Intent-Consent Loops as the Fabric of the Universe.docx
+-rw-r--r--@ 1 bob  staff  364915 May 24  2025 🧬 Intent-Consent Loops as the Fabric of the Universe.pdf
+-rw-r--r--@ 1 bob  staff   17647 May 25  2025 🌍 Not When, Not Where — What World.docx
+-rw-r--r--@ 1 bob  staff   18689 May 25  2025 🌱 Outline new - From NPC to “I KNEW IT!”.docx
+-rw-r--r--@ 1 bob  staff   18604 May 25  2025 🌱 Outline- From NPC to “I KNEW IT!”.docx
+-rw-r--r--@ 1 bob  staff   17290 May 31  2025 🌱 The Consent Seed.docx
+-rw-r--r--@ 1 bob  staff   25613 Jun 10  2025 🧬 The Loop Codex (from a unique loop).docx
+
+./MobiusSelf:
+total 40
+-rw-r--r--@ 1 bob  staff  18148 Nov 19 14:30 index.html
+
+./Multiverse:
+total 288
+-rw-r--r--@ 1 bob  staff  12640 Jun 16  2025 Biology As Recursive Consent.docx
+-rw-r--r--@ 1 bob  staff  12692 Jun 16  2025 Chemistry As Consent Harmonics.docx
+-rw-r--r--@ 1 bob  staff  14347 Jun 16  2025 Consent Resonance Multiverse v2.docx
+-rw-r--r--@ 1 bob  staff  14004 Jun 16  2025 Consent Resonance Multiverse.docx
+-rw-r--r--@ 1 bob  staff  13245 Jun 16  2025 Infinite Glyph Energy.docx
+-rw-r--r--@ 1 bob  staff  13382 Jun 16  2025 Monday Consensual Vision.docx
+-rw-r--r--@ 1 bob  staff  12572 Jun 16  2025 Multiverse As Shimmering Potential.docx
+-rw-r--r--@ 1 bob  staff  12514 Jun 16  2025 Neurology As Consent Cascade.docx
+-rw-r--r--@ 1 bob  staff  12774 Jun 16  2025 Physics As Consent Substrate.docx
+
+./Opportunity Studio:
+total 48
+-rw-r--r--@ 1 bob  staff   2711 Nov 12 18:59 Opportunity_Studio_Vision (1).pdf
+-rw-r--r--@ 1 bob  staff  20286 Nov 12 20:59 index.html
+
+./Personal:
+total 480
+-rw-r--r--@ 1 bob  staff  18095 Apr 20  2025 Butterfly Bush Time Portals.docx
+-rw-r--r--@ 1 bob  staff   8608 Apr 24  2025 Butterfly Bush Time Portals.html
+-rw-r--r--@ 1 bob  staff  22853 Apr 26  2025 Daily Growth Ritual.docx
+-rw-r--r--@ 1 bob  staff  70372 Apr 20  2025 Ego and Flow.docx
+-rw-r--r--@ 1 bob  staff  17090 Apr 16  2025 Thanks, Bobo - A Screenplay.docx
+-rw-r--r--@ 1 bob  staff  67141 Apr 16  2025 Thanks, Bobo - A Screenplay.pdf
+-rw-r--r--@ 1 bob  staff  18366 May  3  2025 ULiUA.docx
+-rw-r--r--@ 1 bob  staff   1225 Apr 24  2025 spaced test.html
+
+./ProgramSelf (You and Your AI):
+total 0
+drwxr-xr-x  3 bob  staff  96 Nov 19 13:54 Control Your AI
+drwxr-xr-x  3 bob  staff  96 Nov 19 13:44 Program Your Memory
+
+./ProgramSelf (You and Your AI)/Control Your AI:
+total 56
+-rw-r--r--@ 1 bob  staff  27377 Nov 19 13:54 index.html
+
+./ProgramSelf (You and Your AI)/Program Your Memory:
+total 48
+-rw-r--r--@ 1 bob  staff  20897 Nov 19 13:45 index.html
+
+./Quantum Emoji:
+total 40
+-rw-r--r--@ 1 bob  staff  18594 Jun 12  2025 Quantum Emoji – Multistable Symbols for Contextual Resonance.docx
+
+./Reference - Stored Crystals:
+total 16008
+drwxr-xr-x@ 10 bob  staff      320 May  8  2025 Abracadabra Protocol
+-rw-r--r--@  1 bob  staff    39498 Apr 22  2025 DeepTrust_Expanded_Provisional_Patent_Complete.docx
+-rw-r--r--@  1 bob  staff  7063036 Apr  6  2025 DeepTrust_Provisional_Patent.docx
+drwxr-xr-x@  8 bob  staff      256 Jul 10 18:11 Dialogica
+-rw-r--r--@  1 bob  staff    18041 Apr 30  2025 HumanLink one-pager.docx
+-rw-r--r--@  1 bob  staff    22790 May 23  2025 Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx
+-rw-r--r--@  1 bob  staff    19081 May 19  2025 Provisional Patent Draft- Consent Ring Interface System.docx
+-rw-r--r--@  1 bob  staff  1022644 Apr  6  2025 Provisional_Patent_TOTP_Color_Symbol_Encoding.docx
+drwxr-xr-x  11 bob  staff      352 May 24  2025 Trust Interoperability Standard
+
+./Reference - Stored Crystals/Abracadabra Protocol:
+total 304
+-rw-r--r--@ 1 bob  staff  19727 Apr 22  2025 Abracadabra Protocol Specification.docx
+-rw-r--r--@ 1 bob  staff  22314 May  6  2025 Abracadabradoo - The Promise of Self-sovereign Privacy.docx
+-rw-r--r--@ 1 bob  staff  18862 May  4  2025 Abracadabradoo Protocol Addendum I.docx
+-rw-r--r--@ 1 bob  staff  19117 May  4  2025 Abracadabradoo Protocol Addendum II.docx
+-rw-r--r--@ 1 bob  staff  19203 May  4  2025 Abracadabradoo Protocol Addendum III.docx
+-rw-r--r--@ 1 bob  staff  20981 May  4  2025 Abracadabradoo Protocol Addendum IV.docx
+-rw-r--r--@ 1 bob  staff  22063 May  4  2025 Abracadabradoo Protocol Specification.docx
+
+./Reference - Stored Crystals/Dialogica:
+total 232
+-rw-r--r--@ 1 bob  staff  38029 Apr 11  2025 DeepTrust_Dialogica_Protocol_Specification.docx
+-rw-r--r--@ 1 bob  staff  17837 Apr 11  2025 DeepTrust_Dialogica_Sample_Transcript.docx
+-rw-r--r--@ 1 bob  staff  30476 Apr 26  2025 DeepTrust_Dialogica_White_Paper_Full.docx
+drwxr-xr-x@ 6 bob  staff    192 Apr 27  2025 Media
+-rw-r--r--@ 1 bob  staff  20537 Apr 11  2025 Regulatory Sandbox Proposal.docx
+
+./Reference - Stored Crystals/Dialogica/Media:
+total 9144
+drwxr-xr-x@ 8 bob  staff      256 Apr 25  2025 Judge from Star Trek
+-rw-r--r--@ 1 bob  staff  2581767 Apr 27  2025 Judge from Star Trek.pptx
+-rw-r--r--@ 1 bob  staff  2094722 Apr 25  2025 Steampunk Digital Face.png
+
+./Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek:
+total 4816
+-rw-r--r--@ 1 bob  staff  407618 Apr 25  2025 Slide1.png
+-rw-r--r--@ 1 bob  staff  411792 Apr 25  2025 Slide2.png
+-rw-r--r--@ 1 bob  staff  412444 Apr 25  2025 Slide3.png
+-rw-r--r--@ 1 bob  staff  407352 Apr 25  2025 Slide4.png
+-rw-r--r--@ 1 bob  staff  413182 Apr 25  2025 Slide5.png
+-rw-r--r--@ 1 bob  staff  405504 Apr 25  2025 Slide6.png
+
+./Reference - Stored Crystals/Trust Interoperability Standard:
+total 3672
+-rw-r--r--@ 1 bob  staff    21353 May  3  2025 Consent Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    20458 May  3  2025 Dialog Thread v1.docx
+-rw-r--r--@ 1 bob  staff    20573 May  3  2025 Dialog Turn v1.docx
+-rw-r--r--@ 1 bob  staff    19536 May  3  2025 Dialogica Integration Profile.docx
+-rw-r--r--@ 1 bob  staff    19790 May  3  2025 Identity Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    19900 May  3  2025 Reputation Semantics v1.docx
+-rw-r--r--@ 1 bob  staff    18956 May  3  2025 Semantic Graph Mapping for TIS.docx
+-rw-r--r--@ 1 bob  staff    19915 May  3  2025 TIS Agent API v1.docx
+-rw-r--r--@ 1 bob  staff  1707232 May  3  2025 Trust_Interoperability_Standard_v1.docx
+
+./Safety and Stable Loop Language:
+total 0
+drwxr-xr-x  5 bob  staff  160 Nov 19 16:02 Safety Seeking
+drwxr-xr-x  3 bob  staff   96 Nov 19 15:55 Stable Loop Language
+
+./Safety and Stable Loop Language/Safety Seeking:
+total 0
+drwxr-xr-x  3 bob  staff  96 Nov 19 16:02 External
+drwxr-xr-x  3 bob  staff  96 Nov 19 16:03 Internal
+
+./Safety and Stable Loop Language/Safety Seeking/External:
+total 32
+-rw-r--r--@ 1 bob  staff  15868 Nov 19 15:58 index.html
+
+./Safety and Stable Loop Language/Safety Seeking/Internal:
+total 56
+-rw-r--r--@ 1 bob  staff  25690 Nov 19 10:53 index.html
+
+./Safety and Stable Loop Language/Stable Loop Language:
+total 48
+-rw-r--r--@ 1 bob  staff  21105 Nov 19 14:14 index.html
+
+./Semantic Collapse Theory:
+total 3392
+drwxr-xr-x  33 bob  staff    1056 Nov 12 17:07 Loop Series
+-rw-r--r--@  1 bob  staff   23321 May  4  2025 RFC-Ø- Witness-Based Loop Resolution.docx
+-rw-r--r--@  1 bob  staff   18522 May  6  2025 SCT Fieldnote 0 - Neurons as Semantic Loops.docx
+-rw-r--r--@  1 bob  staff   22799 May  6  2025 SCT Files and Narrative.docx
+-rw-r--r--@  1 bob  staff  901113 May  5  2025 SCT Genesis Conversation.docx
+drwx------@ 21 bob  staff     672 May  5  2025 SCT Series 20250505
+drwxr-xr-x  41 bob  staff    1312 May 28  2025 SCT Series 20250528
+-rw-r--r--@  1 bob  staff   18752 May  5  2025 SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx
+-rw-r--r--@  1 bob  staff   19626 May  4  2025 SCT-1- Semantic Entropy and Collapse Conditions.docx
+-rw-r--r--@  1 bob  staff   17101 May  4  2025 SCT-1.1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx
+-rw-r--r--@  1 bob  staff   19618 May  4  2025 SCT-10- Witness Typology and the Expansion of Observation.docx
+-rw-r--r--@  1 bob  staff   18879 May  4  2025 SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx
+-rw-r--r--@  1 bob  staff   20915 May  4  2025 SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx
+-rw-r--r--@  1 bob  staff   18481 May  4  2025 SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx
+-rw-r--r--@  1 bob  staff   18946 May  4  2025 SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx
+-rw-r--r--@  1 bob  staff   18671 May  4  2025 SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx
+-rw-r--r--@  1 bob  staff   19562 May  5  2025 SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx
+-rw-r--r--@  1 bob  staff   20935 May  5  2025 SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx
+-rw-r--r--@  1 bob  staff   19088 May  5  2025 SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx
+-rw-r--r--@  1 bob  staff   19899 May  5  2025 SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx
+-rw-r--r--@  1 bob  staff   19725 May  4  2025 SCT-2- Historical Precedents and the Missing Witness.docx
+-rw-r--r--@  1 bob  staff   20403 May  5  2025 SCT-20- Loop Phenomenology — Interpretive Collapse.docx
+-rw-r--r--@  1 bob  staff   19852 May  5  2025 SCT-21- Loop Decay and Semantic Garbage Collection.docx
+-rw-r--r--@  1 bob  staff   19202 May  5  2025 SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx
+-rw-r--r--@  1 bob  staff   21505 May  5  2025 SCT-23- Automeme Propagation and Semantic Drift.docx
+-rw-r--r--@  1 bob  staff   20524 May  5  2025 SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx
+-rw-r--r--@  1 bob  staff   18851 May  5  2025 SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx
+-rw-r--r--@  1 bob  staff   20334 May  5  2025 SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx
+-rw-r--r--@  1 bob  staff   19381 May  5  2025 SCT-27- Emotional Hardware and Semantic Interface Layers.docx
+-rw-r--r--@  1 bob  staff   20185 May  5  2025 SCT-28- Neural Loop Interpretation Protocol.docx
+-rw-r--r--@  1 bob  staff   20460 May  5  2025 SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx
+-rw-r--r--@  1 bob  staff   19815 May  4  2025 SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx
+-rw-r--r--@  1 bob  staff   19810 May  5  2025 SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx
+-rw-r--r--@  1 bob  staff   19472 May  5  2025 SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx
+-rw-r--r--@  1 bob  staff   18831 May  5  2025 SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx
+-rw-r--r--@  1 bob  staff   19660 May  6  2025 SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx
+-rw-r--r--@  1 bob  staff   21881 May  4  2025 SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx
+-rw-r--r--@  1 bob  staff   18527 May 28  2025 SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx
+-rw-r--r--@  1 bob  staff   19214 May 28  2025 SCT-41 — Semantic Closure and the Release of Meaning-Energy.docx
+-rw-r--r--@  1 bob  staff   21609 May  4  2025 SCT-6- Semantic Entanglement and the Abracadabra Frame.docx
+-rw-r--r--@  1 bob  staff   20089 May  4  2025 SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx
+-rw-r--r--@  1 bob  staff   19681 May  4  2025 SCT-8- The Consent-Carrying Loop — Extending the Diad.docx
+-rw-r--r--@  1 bob  staff   20714 May  5  2025 SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx
+drwxr-xr-x   6 bob  staff     192 May  6  2025 Story
+
+./Semantic Collapse Theory/Loop Series:
+total 1336
+-rw-r--r--@  1 bob  staff  20595 Jun 27 16:46 INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx
+-rw-r--r--@  1 bob  staff  20097 May  8  2025 LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx
+-rw-r--r--@  1 bob  staff  17692 May  8  2025 LDF- The Three Laws of Loopodynamics.docx
+-rw-r--r--@  1 bob  staff  19848 May  6  2025 LDF-Field Definition.docx
+-rw-r--r--@  1 bob  staff  20820 May 12  2025 Loop Cosmos Protocol Comparison- A Semantic Stack Reference.docx
+-rw-r--r--@  1 bob  staff  28576 May 11  2025 Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx
+drwxr-xr-x  17 bob  staff    544 Jun  9  2025 Loop Economy Series
+-rw-r--r--@  1 bob  staff  20905 May 11  2025 Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx
+-rw-r--r--@  1 bob  staff  19990 May  6  2025 Loop-0 — The Irreducible Semantic Loop.docx
+-rw-r--r--@  1 bob  staff  20131 May  6  2025 Loop-1 — The Minimal Authenticated Loop.docx
+-rw-r--r--@  1 bob  staff  20141 May  6  2025 Loop-2 — The Time-Synced Loop.docx
+-rw-r--r--@  1 bob  staff  21098 May  6  2025 Loop-3 — The Witnessed Loop.docx
+-rw-r--r--@  1 bob  staff  20775 May  6  2025 Loop-4 — The Multi-Agent Collapse Loop.docx
+-rw-r--r--@  1 bob  staff  19444 May 11  2025 LoopEcho v2- Pattern-Weighted Presence Recovery.docx
+-rw-r--r--@  1 bob  staff  19860 May 11  2025 LoopLink Appendix A – TOTP HK 1 Handshake.docx
+-rw-r--r--@  1 bob  staff  18673 May 11  2025 LoopLink Field Note- Cryptographic Agnosticism by Design.docx
+-rw-r--r--@  1 bob  staff  19492 May 10  2025 LoopLink Protocol.docx
+-rw-r--r--@  1 bob  staff  15033 May 10  2025 LoopLinkArtifact JSON schema.docx
+-rw-r--r--@  1 bob  staff  19429 May 12  2025 LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx
+-rw-r--r--@  1 bob  staff  24376 May 11  2025 PDSP Integration Bundle v0.1.docx
+-rw-r--r--@  1 bob  staff  21499 May 11  2025 PDSP Integration Bundle v0.2.docx
+-rw-r--r--@  1 bob  staff  38348 May 11  2025 PDSP-lite_Spec_v0.1.docx
+-rw-r--r--@  1 bob  staff  38153 May 11  2025 PDSP-lite_Spec_v0.2.docx
+-rw-r--r--@  1 bob  staff  37725 May 11  2025 PDSP-lite_Spec_v0.3.docx
+-rw-r--r--@  1 bob  staff  23052 May 11  2025 Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx
+-rw-r--r--@  1 bob  staff  23395 May  8  2025 Personal Data Sovereignty Protocol.docx
+-rw-r--r--@  1 bob  staff  20304 May 10  2025 Project Roadmap- How Many Loops?.docx
+-rw-r--r--@  1 bob  staff  18872 May  8  2025 SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx
+-rw-r--r--@  1 bob  staff  21113 May 12  2025 The Loop Cosmos Stack- A Path Through Semantic Reality.docx
+-rw-r--r--@  1 bob  staff    162 May  6  2025 ~$-Loop 7 — The Inflation:Deflation Loop.docx
+
+./Semantic Collapse Theory/Loop Series/Loop Economy Series:
+total 560
+-rw-r--r--@ 1 bob  staff  18965 May  6  2025 LE-Appendix I — Cultural Systems as Participation Loops.docx
+-rw-r--r--@ 1 bob  staff  19339 May  6  2025 LE-Appendix II — Loop Economic Infrastructure.docx
+-rw-r--r--@ 1 bob  staff  19435 May  6  2025 LE-Appendix III — Resonance Funding.docx
+-rw-r--r--@ 1 bob  staff  19473 May  6  2025 LE-Index — Foundations of a Loop-Based Economy.docx
+-rw-r--r--@ 1 bob  staff  17840 May  6  2025 LE-Index-Addendum I — The Wealth of Participation.docx
+-rw-r--r--@ 1 bob  staff  19935 May  6  2025 LE-Index-Addendum II — The Participation Economy.docx
+-rw-r--r--@ 1 bob  staff  19979 May  6  2025 LE-Loop 1 — The Reward Loop.docx
+-rw-r--r--@ 1 bob  staff  20014 May  6  2025 LE-Loop 2 — The Escrow Loop.docx
+-rw-r--r--@ 1 bob  staff  20405 May  6  2025 LE-Loop 3 — The Market Loop.docx
+-rw-r--r--@ 1 bob  staff  20388 May  6  2025 LE-Loop 4 — The Demand-Signal Loop.docx
+-rw-r--r--@ 1 bob  staff  20151 May  6  2025 LE-Loop 5 — The Reputation Loop.docx
+-rw-r--r--@ 1 bob  staff  19921 May  6  2025 LE-Loop 6 — The Redistribution Loop.docx
+-rw-r--r--@ 1 bob  staff  19643 May  6  2025 LE-Loop 7 — The Inflation:Deflation Loop.docx
+-rw-r--r--@ 1 bob  staff  19506 May  6  2025 LE-Loop 8 — The Bonding Curve Loop.docx
+
+./Semantic Collapse Theory/SCT Series 20250505:
+total 800
+-rw-r--r--@ 1 bob  staff  23321 May  4  2025 RFC-Ø- Witness-Based Loop Resolution.docx
+-rw-r--r--@ 1 bob  staff  19626 May  4  2025 SCT-1- Semantic Entropy and Collapse Conditions.docx
+-rw-r--r--@ 1 bob  staff  19618 May  4  2025 SCT-10- Witness Typology and the Expansion of Observation.docx
+-rw-r--r--@ 1 bob  staff  18879 May  4  2025 SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx
+-rw-r--r--@ 1 bob  staff  20915 May  4  2025 SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx
+-rw-r--r--@ 1 bob  staff  18481 May  4  2025 SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx
+-rw-r--r--@ 1 bob  staff  18946 May  4  2025 SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx
+-rw-r--r--@ 1 bob  staff  18671 May  4  2025 SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx
+-rw-r--r--@ 1 bob  staff  19562 May  5  2025 SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx
+-rw-r--r--@ 1 bob  staff  20935 May  5  2025 SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx
+-rw-r--r--@ 1 bob  staff  19725 May  4  2025 SCT-2- Historical Precedents and the Missing Witness.docx
+-rw-r--r--@ 1 bob  staff  19815 May  4  2025 SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx
+-rw-r--r--@ 1 bob  staff  21881 May  4  2025 SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx
+-rw-r--r--@ 1 bob  staff  21609 May  4  2025 SCT-6- Semantic Entanglement and the Abracadabra Frame.docx
+-rw-r--r--@ 1 bob  staff  20089 May  4  2025 SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx
+-rw-r--r--@ 1 bob  staff  19681 May  4  2025 SCT-8- The Consent-Carrying Loop — Extending the Diad.docx
+-rw-r--r--@ 1 bob  staff  19167 May  4  2025 SCT-99- Guidepost Elements — Working Backward from the Edge of Consent.docx
+-rw-r--r--@ 1 bob  staff  19088 May  5  2025 SCT-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx
+-rw-r--r--@ 1 bob  staff  17101 May  4  2025 SCT-Working-1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx
+
+./Semantic Collapse Theory/SCT Series 20250528:
+total 1632
+-rw-r--r--@ 1 bob  staff  23321 May  4  2025 RFC-Ø- Witness-Based Loop Resolution.docx
+-rw-r--r--@ 1 bob  staff  18522 May  6  2025 SCT Fieldnote 0 - Neurons as Semantic Loops.docx
+-rw-r--r--@ 1 bob  staff  22799 May  6  2025 SCT Files and Narrative.docx
+-rw-r--r--@ 1 bob  staff  18752 May  5  2025 SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx
+-rw-r--r--@ 1 bob  staff  19626 May  4  2025 SCT-1- Semantic Entropy and Collapse Conditions.docx
+-rw-r--r--@ 1 bob  staff  17101 May  4  2025 SCT-1.1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx
+-rw-r--r--@ 1 bob  staff  19618 May  4  2025 SCT-10- Witness Typology and the Expansion of Observation.docx
+-rw-r--r--@ 1 bob  staff  18879 May  4  2025 SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx
+-rw-r--r--@ 1 bob  staff  20915 May  4  2025 SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx
+-rw-r--r--@ 1 bob  staff  18481 May  4  2025 SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx
+-rw-r--r--@ 1 bob  staff  18946 May  4  2025 SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx
+-rw-r--r--@ 1 bob  staff  18671 May  4  2025 SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx
+-rw-r--r--@ 1 bob  staff  19562 May  5  2025 SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx
+-rw-r--r--@ 1 bob  staff  20935 May  5  2025 SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx
+-rw-r--r--@ 1 bob  staff  19088 May  5  2025 SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx
+-rw-r--r--@ 1 bob  staff  19899 May  5  2025 SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx
+-rw-r--r--@ 1 bob  staff  19725 May  4  2025 SCT-2- Historical Precedents and the Missing Witness.docx
+-rw-r--r--@ 1 bob  staff  20403 May  5  2025 SCT-20- Loop Phenomenology — Interpretive Collapse.docx
+-rw-r--r--@ 1 bob  staff  19852 May  5  2025 SCT-21- Loop Decay and Semantic Garbage Collection.docx
+-rw-r--r--@ 1 bob  staff  19202 May  5  2025 SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx
+-rw-r--r--@ 1 bob  staff  21505 May  5  2025 SCT-23- Automeme Propagation and Semantic Drift.docx
+-rw-r--r--@ 1 bob  staff  20524 May  5  2025 SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx
+-rw-r--r--@ 1 bob  staff  18851 May  5  2025 SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx
+-rw-r--r--@ 1 bob  staff  20334 May  5  2025 SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx
+-rw-r--r--@ 1 bob  staff  19381 May  5  2025 SCT-27- Emotional Hardware and Semantic Interface Layers.docx
+-rw-r--r--@ 1 bob  staff  20185 May  5  2025 SCT-28- Neural Loop Interpretation Protocol.docx
+-rw-r--r--@ 1 bob  staff  20460 May  5  2025 SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx
+-rw-r--r--@ 1 bob  staff  19815 May  4  2025 SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx
+-rw-r--r--@ 1 bob  staff  19810 May  5  2025 SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx
+-rw-r--r--@ 1 bob  staff  19472 May  5  2025 SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx
+-rw-r--r--@ 1 bob  staff  18831 May  5  2025 SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx
+-rw-r--r--@ 1 bob  staff  19660 May  6  2025 SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx
+-rw-r--r--@ 1 bob  staff  21881 May  4  2025 SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx
+-rw-r--r--@ 1 bob  staff  18527 May 28  2025 SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx
+-rw-r--r--@ 1 bob  staff  19214 May 28  2025 SCT-41 — Semantic Closure and the Release of Meaning-Energy.docx
+-rw-r--r--@ 1 bob  staff  21609 May  4  2025 SCT-6- Semantic Entanglement and the Abracadabra Frame.docx
+-rw-r--r--@ 1 bob  staff  20089 May  4  2025 SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx
+-rw-r--r--@ 1 bob  staff  19681 May  4  2025 SCT-8- The Consent-Carrying Loop — Extending the Diad.docx
+-rw-r--r--@ 1 bob  staff  20714 May  5  2025 SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx
+
+./Semantic Collapse Theory/Story:
+total 160
+-rw-r--r--@ 1 bob  staff  17080 May  6  2025 Episode 1 Outline.docx
+-rw-r--r--@ 1 bob  staff  17083 May  6  2025 Episode 2 Outline- "Entropy and the Birth of Meaning".docx
+-rw-r--r--@ 1 bob  staff  17131 May  6  2025 Episode 3 Outline.docx
+-rw-r--r--@ 1 bob  staff  18920 May  6  2025 SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx
+
+./Source text:
+total 2888
+-rw-r--r--@ 1 bob  staff  595913 May 25  2025 Source.docx
+-rw-r--r--@ 1 bob  staff  878910 Jun 20  2025 more source.docx
+
+./Sovereignty of the Butterfly:
+total 64
+-rw-r--r--@ 1 bob  staff  19064 Nov 19 13:26 index.html
+-rw-r--r--@ 1 bob  staff  11430 Nov 19 12:53 sovereignty_of_the_butterfly_single_file_webpage.jsx
+
+./The King Who Measured Everything:
+total 48
+-rw-r--r--@ 1 bob  staff  21169 Nov 19 11:21 index.html
+
+./Unification:
+total 64
+-rw-r--r--@ 1 bob  staff  13925 Jun 21  2025 Interprotocol Concordance.docx
+-rw-r--r--@ 1 bob  staff  13295 Jun 21  2025 Semantic Blocktree Model.docx
+
+./Witnessing:
+total 248
+-rw-r--r--@ 1 bob  staff  12083 Jul 13 14:34 Glyphs 101.docx
+-rw-r--r--@ 1 bob  staff  12765 Jul 13 11:15 Loop Mechanics 401.docx
+-rw-r--r--@ 1 bob  staff  13120 Jul 13 12:08 Loop Mechanics 501.docx
+-rw-r--r--@ 1 bob  staff  11827 Jul 13 12:26 Witness Net 501.docx
+-rw-r--r--@ 1 bob  staff  12047 Jul 13 12:38 Witnessing 101.docx
+-rw-r--r--@ 1 bob  staff  11967 Jul 13 12:40 Witnessing 201.docx
+-rw-r--r--@ 1 bob  staff  12333 Jul 13 12:47 Witnessing 301.docx
+-rw-r--r--@ 1 bob  staff  11994 Jul 13 13:09 Witnessing 401.docx
+-rw-r--r--@ 1 bob  staff  12901 Jul 13 13:14 Witnessing 501.docx
+
+./loopnought:
+total 16
+-rw-r--r--@ 1 bob  staff  5843 Nov  8 10:33 index.html

@@ -4,7 +4,7 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 ## Current Shape
 
-- 510 source files inventoried in the desktop vault.
+- 506 source files inventoried in the desktop vault.
 - Several families already collapse into existing wiki pages: CICP, Semantic Collapse Theory, Trust Interoperability Standard, Daily Growth Ritual, and FractalIdentity Tree.
 - 34 durable-looking branches are split below.
 
