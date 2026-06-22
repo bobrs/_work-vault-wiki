@@ -17,6 +17,14 @@ This cluster covers the layered loop cosmos stack itself and the genesis index t
 
 This is the architecture layer: the stack definition and its genesis index for traversing the loop cosmos.
 
+The semantic role of this page is to define the scaffold on which the rest of the loop-cosmos material sits. It reads like the structural map for navigating the series itself, so the architecture and the genesis index belong together as the entry point to the larger orientation model.
+
+## Related Links
+
+- [Loop Cosmos and Orientation](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the stack architecture pair together.

@@ -18,6 +18,15 @@ This cluster covers the three episode outlines that form the narrative arc aroun
 
 These outlines read as a compact sequence and should stay together unless a later draft creates a separate arc.
 
+The three episodes form a narrative spine: they likely track the movement from first articulation through meaning-making to a closing or continuation point. As a result, this page should remain the arc container for the branch’s story layer rather than being split into separate episode pages unless the outlines become much more detailed.
+
+## Related Links
+
+- [Story](../index.md)
+- [Governance Diad](../governance-diad/index.md)
+- [Semantic Collapse Theory](../../index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the episode sequence together.

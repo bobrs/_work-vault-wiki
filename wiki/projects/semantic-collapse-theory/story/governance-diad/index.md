@@ -16,6 +16,15 @@ This cluster covers the governance protocol for living document stewardship.
 
 This is the procedural companion to the story branch: a governance artifact rather than a narrative outline.
 
+This page is the stewardship counterpart to the episode arc. It captures the branch’s sense of document governance and living protocol in a way that complements the more narrative pages, which makes it the procedural anchor for the story layer.
+
+## Related Links
+
+- [Story](../index.md)
+- [Narrative Episodes](../narrative-episodes/index.md)
+- [Semantic Collapse Theory](../../index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep this governance protocol page stable.

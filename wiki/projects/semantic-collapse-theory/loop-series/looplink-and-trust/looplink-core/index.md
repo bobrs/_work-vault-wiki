@@ -19,6 +19,14 @@ This cluster covers the protocol core for LoopLink: the transport rules, the fal
 
 This is the protocol half of LoopLink: how bilateral consent loops are formed, described, and kept implementation-agnostic.
 
+This cluster defines the transport grammar for LoopLink itself. It is the place where handshake, artifact schema, and cryptographic posture come together into a usable protocol core. The implementation-agnostic posture matters because it keeps the branch portable across different trust surfaces.
+
+## Related Links
+
+- [LoopLink and Trust](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the core protocol set stable.

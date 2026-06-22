@@ -23,6 +23,14 @@ This cluster is the reference and support branch for the loop-based economy.
 
 This is the umbrella over the loop-economy reference spine and its support appendices.
 
+This page is the reference frame for the loop-economy branch. It holds the core definitions, addenda, and infrastructure notes that let the operational loop units stay intelligible. In other words, it is the theory and support shelf for the economic model rather than a transactional page itself.
+
+## Related Links
+
+- [Loop Economy Series](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

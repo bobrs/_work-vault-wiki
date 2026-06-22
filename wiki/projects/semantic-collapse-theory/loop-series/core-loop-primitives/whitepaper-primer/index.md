@@ -16,6 +16,14 @@ This cluster covers the whitepaper that frames the primitive loop set and its se
 
 This is the conceptual primer for the loop primitives: it explains how the loop ladder maps into diads, foundations, and the semantic mesh.
 
+This page is the explanatory bridge between the primitive set and the broader theory. It translates the loop ladder into a more synthetic picture of diads, foundations, and mesh behavior, which means it acts like the readable summary layer for the primitives rather than a separate branch of its own.
+
+## Related Links
+
+- [Core Loop Primitives](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the whitepaper visible as its own branch page.

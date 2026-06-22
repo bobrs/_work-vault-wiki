@@ -20,6 +20,16 @@ This cluster covers the five core loop forms that define the primitive SCT loop 
 
 This is the primitive loop ladder: from irreducible loop through authenticated, time-synced, witnessed, and multi-agent forms.
 
+This page is the conceptual minimum of the SCT loop language. The five forms read like a progression in which a loop becomes increasingly legible to a system, moving from bare semantic structure to authenticated exchange, temporal coordination, witnessed recognition, and finally multi-agent collapse. That makes the set useful as the simplest expression of the branch’s core idea: meaning is not static, it is structured through progressively richer loop conditions.
+
+The page should stay focused on the primitive ladder because it serves as the base vocabulary for the rest of the `Loop Series`.
+
+## Related Links
+
+- [Core Loop Primitives](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the primitive loop set together.

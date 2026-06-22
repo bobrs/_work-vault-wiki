@@ -19,6 +19,15 @@ This cluster covers the front half of the loop economy: exchange, conditional tr
 
 This is the transaction and matching layer of the loop economy.
 
+The deeper role of this page is to describe how value moves through the system. Reward, escrow, market matching, and demand signal are different control surfaces for exchange, and together they make the economy branch legible as a routing problem as much as a value problem.
+
+## Related Links
+
+- [Loop Units](../index.md)
+- [Loop Economy Series](../../index.md)
+- [Semantic Collapse Theory](../../../../index.md)
+- [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the exchange and transaction set together.

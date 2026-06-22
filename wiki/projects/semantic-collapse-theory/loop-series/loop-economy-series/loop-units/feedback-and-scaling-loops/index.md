@@ -19,6 +19,15 @@ This cluster covers the back half of the loop economy: reputation, redistributio
 
 This is the memory, redistribution, and scarcity-control layer of the loop economy.
 
+This page covers the feedback side of the branch: reputation accumulates memory, redistribution corrects imbalance, and inflation/deflation plus bonding-curve mechanics describe how the system scales or contracts. That makes it the adaptive-control layer of the loop economy.
+
+## Related Links
+
+- [Loop Units](../index.md)
+- [Loop Economy Series](../../index.md)
+- [Semantic Collapse Theory](../../../../index.md)
+- [POLEMEMELOP](../../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the feedback and scaling set together.

@@ -17,6 +17,14 @@ This cluster covers the canonical field definition and the three laws of loopody
 
 This is the theory layer: a field definition and the laws that describe how the field behaves.
 
+This page gives the `Loop Dynamics Framework` its formal base. It tells the reader what the field is and how it behaves, which means it functions as the physical or systemic law layer for the surrounding loop-theory pages.
+
+## Related Links
+
+- [Loop Dynamics Framework](../index.md)
+- [Semantic Collapse Theory](../../../index.md)
+- [POLEMEMELOP](../../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the foundations pair together.
