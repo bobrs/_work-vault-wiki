@@ -25,6 +25,18 @@ This cluster covers synchrony, loop taxonomy, decay, residue, and memory-bearing
 
 This branch now separates into a witness/synchrony/diad track, a taxonomy/phenomenology track, and a decay/residue/memory track. The split follows the document titles closely and keeps the archive relationship visible.
 
+The deeper read is that this cluster describes the mechanics of persistence and loss inside SCT. It handles how loops are observed, how a temporal structure becomes readable as a taxonomy, and how semantic residue remains after collapse. In that sense it is the memory engine of the branch.
+
+The three subpages together trace a progression from being witnessed, to being named, to decaying into trace and residue. That makes this cluster one of the best places to extract the operational vocabulary of the theory.
+
+## Related Links
+
+- [Semantic Collapse Theory](../index.md)
+- [Witness, Synchrony, and Diads](witness-synchrony-diads/index.md)
+- [Loop Taxonomy and Phenomenology](loop-taxonomy-phenomenology/index.md)
+- [Decay, Residue, and Memory](decay-residue-and-memory/index.md)
+- [POLEMEMELOP](../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.

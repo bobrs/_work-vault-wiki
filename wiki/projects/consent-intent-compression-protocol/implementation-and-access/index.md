@@ -25,6 +25,18 @@ This cluster covers the implementation surface: pairing, access control, decrypt
 
 This branch now separates into pairing and field access, key derivation and decryption, and ritual token initialization. The split follows the implementation flow from public-facing trust entry through cryptographic handling to physical token setup.
 
+This is the execution surface of CICP. It turns the protocol vocabulary into something operational: how a participant pairs, how secrets are derived and protected, and how a ritual or physical token can initialize the access path. The page therefore captures the movement from abstract protocol language into applied systems behavior.
+
+The three subpages form a clean implementation pipeline, which is why this cluster should stay readable as a flow rather than as a disconnected list of topics.
+
+## Related Links
+
+- [Consent–Intent Compression Protocol (CICP)](../index.md)
+- [Pairing and Field Access](pairing-and-field-access/index.md)
+- [Key Derivation and Decryption](key-derivation-and-decryption/index.md)
+- [Ritual Token Initialization](ritual-token-initialization/index.md)
+- [POLEMEMELOP](../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.
