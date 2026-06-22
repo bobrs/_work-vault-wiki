@@ -4,6 +4,8 @@ Working definition: the protocol-version anchor for the Abracadabra family, wher
 
 This concept appears across the Abracadabra Protocol branch and the archived reference vault, where `Abracadabracadoo` functions less like a single document title and more like the protocolized form of the broader family.
 
+The live protocol site is [Abracadabracadoo.com](https://abracadabracadoo.com). Keep that separate from the renamed PWA app lineage, which now lives under `Abracadoo`.
+
 In practice, Abracadabracadoo is the layer that keeps the family coherent when the same pattern reappears in different clothes. It is not the whole corpus; it is the protocol framing that many of the surrounding pieces seem to be trying to express.
 
 ## Related Artifacts
@@ -19,6 +21,7 @@ In practice, Abracadabracadoo is the layer that keeps the family coherent when t
 
 - [Patents](../../projects/patents/index.md)
 - [Abracadabra Protocol](../../projects/patents/abracadabra-protocol/index.md)
+- [Abracadoo](../../projects/abracadoo/index.md)
 - [Reference - Stored Crystals](../../projects/side-projects-desktop/reference-stored-crystals/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)

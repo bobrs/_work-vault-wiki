@@ -37,6 +37,8 @@ artifacts/standard-named/   flat directory of standard-named source files
 
 Inbound files are evidence. Standard-named files are named source copies under the Work Vault naming standard. The wiki should prefer standard-named source links once available, while preserving provenance back to inbound originals where useful.
 
+Abracadabracadoo is the protocol-family name and public site. Abracadoo is the renamed PWA app lineage and should stay separate from the protocol page and naming.
+
 ## First Content Intake
 
 1. Add received source files to a dated batch under `artifacts/intake-archive/`.
