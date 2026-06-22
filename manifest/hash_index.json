@@ -853,9 +853,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx"
   ],
-  "5904a09a63b52ce6e6c46b0330c82a0bb59b93350e9d4342ac7630384d0dca71": [
-    "README.md"
-  ],
   "5908e381b852d1edc9552d9a63c981a326b18dabed30a6daae8a562acaa8cb3d": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/index.md"
   ],
@@ -951,6 +948,9 @@
   ],
   "608b8a5cfb924408b2a501e67fdff7b8511dda6a4a0e68e4fc5a6b1f887f87d8": [
     "artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Protocol.docx"
+  ],
+  "61386e41be6e0f8824bf4b26fd1c91dfd885a5b97fae06cb4454783348e985d1": [
+    "manifest/hash_index.json"
   ],
   "615273ab1bc67d5dd21bb0c595b86c829f507fcc5a3056cd5acc13a42b16c4d1": [
     "agents/inventory-agent.md"
@@ -1153,9 +1153,6 @@
   "7639e322135fa9b6bd6b631bae080b39616219ba33f0547ff674a166e701df97": [
     "wiki/projects/patents/encoding-and-semantic-interfaces/color-alpha-codec-patent/index.md"
   ],
-  "763f1f8f653ef94f4865ca0cccf6fb1623eba4984cf782f0dcb99747d98bed9e": [
-    "wiki/artifacts/index.md"
-  ],
   "7778157c6a7799658ded2beac8dc98ef3efed589a366d8d4acd31b90b55a4211": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Consent Multiplexing- The Infrastructure of Reality.docx"
   ],
@@ -1332,9 +1329,6 @@
   "89baac5d933038bca137613d1e2900df79b11df0d9ab4f68048f54144b39c38e": [
     "wiki/projects/new-ideas/predictive-cancellation-and-liveness/index.md"
   ],
-  "89f504beba5d5ee8e53313c4cce234a46f2e506352c5bb371d90fd20986b342f": [
-    "scripts/build-site.mjs"
-  ],
   "8a2541b009c8221199e188702cf4f81eebd12429d9a3f451afe6810648e44194": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-dynamics-framework/loop-dynamics-foundations/index.md"
   ],
@@ -1382,9 +1376,6 @@
   ],
   "8fc80d304c4a832496fc16d15aa702f9f249605b41d57fc144e6f7f0f08a18b4": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx"
-  ],
-  "9102f8a14d31416fdd5bb8d615c0f62442c0049e1aa34c5e1c7ce1b4f70bd2cc": [
-    ".openai/hosting.json"
   ],
   "912c4b68514d2fe297812f4de3fed5a1a2abfbd9685f112a2d344405aacc8f9c": [
     "wiki/concepts/index.md"
@@ -1618,6 +1609,9 @@
   "abbeffc7cd938c41a5b76bb500643987b5589e4936ca06ddbee8760803ca344e": [
     "wiki/projects/side-projects-desktop/conceptual-consolidation/starting-primer/index.md"
   ],
+  "ac187ddcad7ad6eb7308e1ed3785ba7368ee57bd98e2a4507f8d98b213478afc": [
+    "manifest/inventory.jsonl"
+  ],
   "ac27dabb3feb1f2a902a38080064a73b69bcc2938db8f4d01202b46564b40359": [
     "artifacts/incoming/Side Projects Desktop/Ephemeral Trust/Ephemeral Trust Doc3.docx"
   ],
@@ -1844,6 +1838,9 @@
   "c1e82d1e04a91e37a09705dea83109e51b9ad8929f3056486a5d963589b39eca": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Multiverse As Shimmering Potential.docx"
   ],
+  "c21c44bf507126c67768d023549f32125a2273575bbf0dd40e07ea92826069a2": [
+    "wiki/artifacts/index.md"
+  ],
   "c2a1740cd19caa917c046af018efd68dc2d18579a23623505e3caedad9eb8f82": [
     "artifacts/incoming/Similar Projects/Mass As Loops.docx"
   ],
@@ -1984,9 +1981,6 @@
   ],
   "d54ee769fc1db738f7a896347467e7b39a81fc9856450b3acfda678736dd92cb": [
     "artifacts/incoming/Side Projects Desktop/Keeper of the Lanterns/index.html"
-  ],
-  "d5aeb6a4e0ce46506172854c36719395ad1aaae6bef126b8ed5877d642b98c44": [
-    "manifest/hash_index.json"
   ],
   "d5ccacafe4c43a3cf3cf0800b490cff2dae6623e0f9c007af1706bcf5b68ecfc": [
     "wiki/projects/semantic-collapse-theory/loop-series/core-loop-primitives/index.md"
@@ -2292,9 +2286,6 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx"
   ],
-  "f20de565d15b93c2624dcd6fe27fa35f48eebab193bca7c2dbc82d32d103f46e": [
-    "manifest/inventory.jsonl"
-  ],
   "f2a40172595b5dd02c4a3bbbea5e35edf7523443fd86947ca2901d925c02b114": [
     "artifacts/incoming/HumanKey Protocol/HumanKey Explainer/Slide 0.png"
   ],
@@ -2314,6 +2305,9 @@
   ],
   "f36c531fe23b39471a71619bfb1987a93755ef2b3deebf1add54a1521a93fd4d": [
     "wiki/projects/side-projects-desktop/programself-you-and-your-ai/control-your-ai/index.md"
+  ],
+  "f382fb7f208d14760a6d352110843c698f5216c7c005d77ff80b8bec8e3f5f97": [
+    "scripts/build-site.mjs"
   ],
   "f3a00da7c8a2be624db8fa153a8b3aa084c136473418f9cc7c94ce7ced181a94": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🧼 Loop Maintenance Kit.docx"
@@ -2359,6 +2353,9 @@
   ],
   "fa7a42d021e41797b068a42a2b55d2e0146fc57e77850b06baeceb049043f44d": [
     "artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 501.docx"
+  ],
+  "fa7b4fa7df96147c83e5604329d89c33335a3a987acc07f189f35b85f42cdd39": [
+    "README.md"
   ],
   "fb57c3473e9adf48ba77c0cddfe57686dbdac98d1b76af5340a2ef9d23d5a479": [
     "artifacts/incoming/Side Projects Desktop/Cosmic Consent/index.html"

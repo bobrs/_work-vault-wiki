@@ -602,24 +602,6 @@ async function writeWorkerEntrypoints() {
   await fs.writeFile(path.join(DIST, "server", "index.js"), serverIndexModule, "utf8");
 }
 
-async function copyHostingMetadata() {
-  const hostingSource = path.join(ROOT, ".openai", "hosting.json");
-  const hostingTarget = path.join(DIST, ".openai", "hosting.json");
-  await fs.mkdir(path.dirname(hostingTarget), { recursive: true });
-  await fs.copyFile(hostingSource, hostingTarget);
-
-  const drizzleSource = path.join(ROOT, "drizzle");
-  try {
-    const drizzleStat = await fs.stat(drizzleSource);
-    if (drizzleStat.isDirectory()) {
-      const drizzleTarget = path.join(DIST, ".openai", "drizzle");
-      await fs.cp(drizzleSource, drizzleTarget, { recursive: true });
-    }
-  } catch {
-    // No local drizzle directory yet.
-  }
-}
-
 async function main() {
   await fs.rm(DIST, { recursive: true, force: true });
   await fs.mkdir(DIST, { recursive: true });
@@ -683,7 +665,6 @@ async function main() {
   }
 
   await writeWorkerEntrypoints();
-  await copyHostingMetadata();
 
   console.log(`Built ${SOURCE_MARKDOWN.length} markdown pages and the vault map in ${DIST}.`);
 }

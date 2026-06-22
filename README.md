@@ -70,7 +70,7 @@ See:
 
 ## Public Site
 
-The wiki web layer is prepared as a Cloudflare Sites-compatible Worker wrapper around static HTML output.
+The wiki web layer is a static HTML build generated from the markdown wiki sources.
 
 - Build command: `npm run build`
 - Worker entrypoint: `dist/index.js`
