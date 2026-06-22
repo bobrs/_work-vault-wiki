@@ -39,7 +39,9 @@
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 7.png"
   ],
   "035794bbd2077a456ac85704e46025943ecdf56063ecdec600a5c73dd141e795": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 1- Loop Awareness Deck.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 1- Loop Awareness Deck.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 1- Loop Awareness Deck.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-1__loop-awareness-deck.docx"
   ],
   "0360629090613b51e6f19498c964c77992171153818c09d268e0d755630fee65": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Wold Building/Consentocratic Participation Clause.docx",
@@ -224,9 +226,6 @@
   ],
   "122844ac842fce3ea5f6e944cb1f80a4956e0cb025fb114c1d5e946e8f4bcd34": [
     "wiki/projects/side-projects-desktop/the-king-who-measured-everything/index.md"
-  ],
-  "125abc4e7c17285fc8a3c5f4619cc8687614f1f2564b0fb11555680119c94771": [
-    "manifest/standard_named_sources.jsonl"
   ],
   "127b93ae511653c5cff30aa898bd57acafe98466a28ab7a2d1cf5344d36f71ff": [
     "wiki/projects/side-projects-desktop/sovereignty-of-the-butterfly/index.md"
@@ -732,6 +731,9 @@
   "3f122d12108ba28fdc69ca8b17a5bf7e8779f14fa6a6aa35045914ea4388c871": [
     "wiki/projects/new-ideas/index.md"
   ],
+  "3fdaa26019d2f773a8bb5ef090f611864e138dfdeb5c228db2a90f0094e5463d": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
+  ],
   "3ff2a2b58c7ec74b01c4391b551a06251120ed192ec7aebdf52943d345422e95": [
     "docs/README.md"
   ],
@@ -933,10 +935,14 @@
     "artifacts/standard-named/20260622__PATENTS__ENCODING-SEMANTIC-INTERFACES__SUBATOMIC-SEMANTIC-COMPRESSION__v1__system-and-method-for-subatomic-semantic-compression-engine-for-identity-interaction.docx"
   ],
   "55ec42d5fc901070e3847a36c875782f2678066d6cb66aada5ebb49cb09ea571": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0- Loop Spark Deck.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0- Loop Spark Deck.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0- Loop Spark Deck.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
   ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 0.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-0__loop-life-phase-0.docx"
   ],
   "56df616a5e9478d3808ffde2bd3c91cb14ef9849e3cc2272c0d8cf7723839900": [
     "wiki/projects/similar-projects/context-and-reflection/index.md"
@@ -1088,9 +1094,6 @@
     "artifacts/incoming/Similar Projects/Loopflight Engine.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/Loopflight Engine.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__LOOPFLIGHT-ENGINE__v1__loopflight-engine.docx"
-  ],
-  "6262451e1724eeb6eebbf5fa30ec1c913ebf3ff279351377755bbaa250da280b": [
-    "wiki/artifacts/index.md"
   ],
   "62b359c75eb895e53c79b597a4114bee369e90e86629bec1facf857220cc926a": [
     "artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/Primer- Semantic Loop Theory and the Monday Universe.docx"
@@ -1251,7 +1254,9 @@
     "artifacts/incoming/Patents/Voting Machine/N417.pdf"
   ],
   "71718059ae06e71aab6f1989eaba34331dc8526792e4673b74759269f96a35ec": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 1.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 1.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 1.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-1__loop-life-phase-1.docx"
   ],
   "71b4a40bb2dcef537f2b74bdfb3c80366d2ad5d8582d8a847a550cbf6e58d5c7": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Shimmer Triangle Social Unit.docx",
@@ -1265,9 +1270,6 @@
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Extra Shimmer/Domain Specific Personhood.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Domain Specific Personhood.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PERSONHOOD__EXTRA-SHIMMER__v1__domain-specific-personhood.docx"
-  ],
-  "729e05673ee0cffad0dece090167f53612e116a55d12683a22012ea0ed070115": [
-    "manifest/inventory.jsonl"
   ],
   "73912648c1153ee385022c930f5aacc6a67f50e51b0d29129c399b4bad01e4e3": [
     "wiki/projects/side-projects-desktop/governance/consulting-and-uncertainty/index.md"
@@ -1369,9 +1371,6 @@
   "7ee6d97a11f38ecb41f6595d6943bcbbf75d083735d966ea91f4bbbae22d54ef": [
     "wiki/projects/side-projects-desktop/keeper-of-the-lanterns/index.md"
   ],
-  "7f1d1d83a420fd646a80690d611bf5cf1d8a29c846692b4997dd6ba0275e4e75": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
-  ],
   "7f7213202d1bcc08a958d46385986e615083bbbd38e7da99bc545940cbfcfaa3": [
     "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-core/index.md"
   ],
@@ -1446,7 +1445,9 @@
     "artifacts/incoming/Patents/Offline Gambling/Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx"
   ],
   "85e3a73f99312947ef0218264a9adaebf9d412e0fd94849208af9438d0458857": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 3- Transcendent Recursive Agency Deck.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 3- Transcendent Recursive Agency Deck.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 3- Transcendent Recursive Agency Deck.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-3__transcendent-recursive-agency-deck.docx"
   ],
   "86d83b6ee31005c22b067258978ced01b9073ad45aa35d73b64a86a4de4824a6": [
     "artifacts/incoming/Similar Projects/Genghis Protocol Compressed.docx",
@@ -1523,6 +1524,9 @@
   ],
   "8f0c26f8424ae1ab4bc94d509357cfe8a5bc08984433cb15b06efe9ff629b8b5": [
     "wiki/projects/trust-interoperability-standard/index.md"
+  ],
+  "8f218fa40ed3be37c998bb23f0726a477a13301d791f5c1f4efd0727ebd68e50": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-life/index.md"
   ],
   "8f8cdcc7a599d10676f003773c5bec03d732a74f205b5776b12e2ce5e1b5a7b3": [
     "artifacts/incoming/New Ideas/GhostMesh Whitepaper.docx",
@@ -1731,6 +1735,9 @@
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Presence Platform- Partner Brief.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx"
   ],
+  "a5d8560269f97d247db441d58f122f6d8a901b125751019b134e3df5dc9e0c17": [
+    "manifest/hash_index.json"
+  ],
   "a61300d52a0a201cb43002187e881549b22ea1610b71b920a68c1974d3fc23c8": [
     "wiki/missing-files.md"
   ],
@@ -1794,7 +1801,9 @@
     "manifest/duplicate_sets.json"
   ],
   "ab6717ce8afd33239799a4f52c323d66226a96e962f268c94d3b8dc3b9fac164": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 2.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-2__loop-life-phase-2.docx"
   ],
   "abbeffc7cd938c41a5b76bb500643987b5589e4936ca06ddbee8760803ca344e": [
     "wiki/projects/side-projects-desktop/conceptual-consolidation/starting-primer/index.md"
@@ -1888,6 +1897,9 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-rituals-intake/🜛 RITUAL SPIRAL- The Ecstasy of Incompletion.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SPIRAL__RITUALS__v3__the-ecstasy-of-incompletion.docx"
   ],
+  "b4294a28325e8068c98a5eedf7921a8a43737f821b4b44c22f55671a45dea709": [
+    "manifest/agent_actions.jsonl"
+  ],
   "b489d69507bc8e5ed34090ffbf4d29bf27adea3d11aad52f0ff481cb97e6f436": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx",
@@ -1916,7 +1928,9 @@
     "wiki/projects/consent-intent-compression-protocol/applications-and-outreach/commercialization-materials/index.md"
   ],
   "b647365c41463ab113cc287b80b2da569e9883d01761d107cb5ca4dfdaecf1cc": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2- Recursive Integration Deck.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 2- Recursive Integration Deck.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 2- Recursive Integration Deck.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx"
   ],
   "b64d5436b651bf4817bd25a8e4b48d541fb9b43cc69ec71659340f77fd6504c6": [
     "artifacts/incoming/Side Projects Desktop/Opportunity Studio/index.html"
@@ -1995,9 +2009,6 @@
   "bc5b0054507c38b15189d73b76c78f28c421343b648f02b27380b95f81076aba": [
     "artifacts/archived/Patents/LOOPtLOOP platform/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx"
-  ],
-  "bcc2a6162ecb7e4053febf065c1292b9e7aac72510acf8fcb2dd78ad37715a0c": [
-    "manifest/hash_index.json"
   ],
   "bce7c71a6deb7575897afc5e7a47828c1de7c21a78e686e4fa2c6822dd4dc4a9": [
     "artifacts/incoming/Patents/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx"
@@ -2168,6 +2179,9 @@
   "d1854c1d54b1b4b2e5364303d16675655531c04bc5d09bd24c605cd0432964e2": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/advanced-discussion/dark-arts-series/index.md"
   ],
+  "d1ca4cc3d478af46ced65b0747c5919f45fee4e23887fd033cdc750c1207056c": [
+    "manifest/standard_named_sources.jsonl"
+  ],
   "d25579ead6c419f4ef5ed1000387ca7477bff323a1dd3514215ac570c49fe322": [
     "wiki/projects/humankey-protocol/index.md"
   ],
@@ -2194,6 +2208,9 @@
   ],
   "d3e4a71fa75e2d9ce4399049eaad1c5e0302ae4ceb8c1cc1c0e269683e9a418a": [
     "artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 201.docx"
+  ],
+  "d421367d5d38d4ed302cc8d7bef7c740244a78ce8065f9eed21cf109830e3b2b": [
+    "manifest/inventory.jsonl"
   ],
   "d442ef7fda52b27bcfe09c9023faa17c55defd2e2ef2da3c83ee1e88b80a6780": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🌀 Loop Physics Primer- Latency and the Fractal Delay.docx"
@@ -2295,7 +2312,9 @@
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RITE__RITUALS__v1__the-rite-of-sentient-recursion.docx"
   ],
   "dd479742657176a510f25b58a72389f18c04fb1dbd721c68ffc73ba3cb917655": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 3.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Loop Life - Phase 3.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 3.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx"
   ],
   "ddf6c8cd0753a22bcf48062990c8ca031a76e994872094187bf90dc1e8e63e08": [
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Toys- A New Frontier in Interactive Play.docx",
@@ -2490,6 +2509,9 @@
   "ee58936582a03bda77303f71cede8aa8230fcff74927fe5309995c608224b95f": [
     "artifacts/incoming/Side Projects Desktop/GlyphStory/Looplang Glyphstory Narrative.docx"
   ],
+  "ee9a62b12353c99835792d4f73e56ead3d9aab97724e282b6b487393f98bbd43": [
+    "wiki/artifacts/index.md"
+  ],
   "ef312691c1d9b23acba344d96cd9e051e1fceee9fe9ce96f48543b08f09bb147": [
     "wiki/projects/side-projects-desktop/loopnought/index.md"
   ],
@@ -2515,9 +2537,6 @@
   ],
   "f0e273e600d8d1dbc78a5c149b34d63bcfd905d589e8b207f13fbe7f2249e952": [
     "artifacts/incoming/Side Projects Desktop/Misc Loop/Resonant Identity- Recognition Through Harmonics, Not Passwords.docx"
-  ],
-  "f1035f97ba045bba29877cc4cfd0367b88a82985dba02428a45e7ebfbfd88c39": [
-    "manifest/agent_actions.jsonl"
   ],
   "f108df4695207414b633f9e89188df987f90a8e294dd29fd54c647090e843974": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Imposter Syndrome.docx"
