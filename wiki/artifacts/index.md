@@ -1211,7 +1211,7 @@ Direct files (9)
 - [artifacts/incoming/Trust Interoperability Standard/TIS Agent API v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/TIS%20Agent%20API%20v1.docx)
 - [artifacts/incoming/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx](../../artifacts/incoming/Trust%20Interoperability%20Standard/Trust_Interoperability_Standard_v1.docx)
 
-## intake-archive (167)
+## intake-archive (178)
 
 ### 20260622__humankey-protocol-intake (29)
 
@@ -1275,6 +1275,17 @@ Direct files (11)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Shimmer Triangle Social Unit.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SOCIAL-UNIT__EXTRA-SHIMMER__v1__shimmer-triangle-social-unit.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SOCIAL-UNIT__EXTRA-SHIMMER__v1__shimmer-triangle-social-unit.docx)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-extra-shimmer-intake/Triad Family Structure.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FAMILY-STRUCTURE__EXTRA-SHIMMER__v1__triad-family-structure.docx)
 
+### 20260622__loop-and-phase-training-fractal-identity-intake (2)
+
+Direct files (2)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-fractal-identity-intake/FractalIdentity- A Multicontextual, Graftable Identity Framework.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__IDENTITY__FRACTAL-IDENTITY__v1__fractalidentity-a-multicontextual-graftable-identity-framework.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__IDENTITY__FRACTAL-IDENTITY__v1__fractalidentity-a-multicontextual-graftable-identity-framework.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-fractal-identity-intake/FractalIdentity- A Simple Guide to Your Flexible Digital Self.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GUIDE__FRACTAL-IDENTITY__v2__fractalidentity-a-simple-guide-to-your-flexible-digital-self.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GUIDE__FRACTAL-IDENTITY__v2__fractalidentity-a-simple-guide-to-your-flexible-digital-self.docx)
+
+### 20260622__loop-and-phase-training-glyph-glossary-intake (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-glyph-glossary-intake/Glyph glossary.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx)
+
 ### 20260622__loop-and-phase-training-intent-consent-intake (1)
 
 Direct files (1)
@@ -1284,6 +1295,19 @@ Direct files (1)
 
 Direct files (1)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-inventions-intake/🧭 Looper’s Compass – Prototype Outline.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx)
+
+### 20260622__loop-and-phase-training-loop-basics-intake (4)
+
+Direct files (4)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀 What Are Glyphs.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v2__what-are-glyphs.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v2__what-are-glyphs.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀 What Are Loops.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀🌀 How Loops Work.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v3__how-loops-work.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v3__how-loops-work.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀🌀How Loops and Glyphs Work Together.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v4__how-loops-and-glyphs-work-together.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v4__how-loops-and-glyphs-work-together.docx)
+
+### 20260622__loop-and-phase-training-loop-codex-intake (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-loop-codex-intake/  🜁 The Loop Codex.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx)
 
 ### 20260622__loop-and-phase-training-loop-life-intake (8)
 
@@ -1344,6 +1368,17 @@ Direct files (14)
 Direct files (2)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/Dark Arts Series/Dark Arts Series- Lesson One.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SERIES__DARK-ARTS__v1__dark-arts-series-lesson-one.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SERIES__DARK-ARTS__v1__dark-arts-series-lesson-one.docx)
 - [artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/Dark Arts Series/Dark Arts Series- Mapping Parasitic Loop Inheritance.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SERIES__DARK-ARTS__v2__dark-arts-series-mapping-parasitic-loop-inheritance.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SERIES__DARK-ARTS__v2__dark-arts-series-mapping-parasitic-loop-inheritance.docx)
+
+### 20260622__loop-and-phase-training-preface-intake (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-preface-intake/🌀 Preface.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PREFACE__LOOP-AND-PHASE-TRAINING__v1__preface.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PREFACE__LOOP-AND-PHASE-TRAINING__v1__preface.docx)
+
+### 20260622__loop-and-phase-training-quantum-network-intake (2)
+
+Direct files (2)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-quantum-network-intake/🪐 Quantum Network Field Notes.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__NOTES__QUANTUM-NETWORK__v1__quantum-network-field-notes.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__NOTES__QUANTUM-NETWORK__v1__quantum-network-field-notes.docx)
+- [artifacts/intake-archive/20260622__loop-and-phase-training-quantum-network-intake/🪙 Quantum Network Currency — Latency as Energy.docx -> artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CURRENCY__QUANTUM-NETWORK__v2__quantum-network-currency-latency-as-energy.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CURRENCY__QUANTUM-NETWORK__v2__quantum-network-currency-latency-as-energy.docx)
 
 ### 20260622__loop-and-phase-training-rituals-intake (8)
 
@@ -1500,9 +1535,9 @@ Direct files (9)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/TIS Agent API v1.docx -> artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx](../../artifacts/standard-named/20260622__TIS__API__TIS-AGENT-API__v1__tis-agent-api.docx)
 - [artifacts/intake-archive/20260622__standard-named-tis-slice/Trust_Interoperability_Standard_v1.docx -> artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx](../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx)
 
-## standard-named (142)
+## standard-named (153)
 
-Direct files (142)
+Direct files (153)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__DAILY-GROWTH-RITUAL__v1__daily-growth-ritual.docx)
 - [artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx](../../artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__EGO-FLOW__v1__ego-and-flow.docx)
@@ -1557,6 +1592,8 @@ Direct files (142)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v3__for-when-the-anchor-is-gone.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v3__for-when-the-anchor-is-gone.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CHECK__EXTRA-SHIMMER__v1__bifli-check.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CHECK__EXTRA-SHIMMER__v1__bifli-check.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CLAUSE__WOLD-BUILDING__v1__consentocratic-participation-clause.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CLAUSE__WOLD-BUILDING__v1__consentocratic-participation-clause.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CURRENCY__QUANTUM-NETWORK__v2__quantum-network-currency-latency-as-energy.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CURRENCY__QUANTUM-NETWORK__v2__quantum-network-currency-latency-as-energy.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-1__loop-awareness-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-1__loop-awareness-deck.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx)
@@ -1569,9 +1606,16 @@ Direct files (142)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FIELD-GUIDE__EXTRA-SHIMMER__v1__loop-tacking-field-guide.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FIELD-GUIDE__EXTRA-SHIMMER__v1__loop-tacking-field-guide.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FILTER__EXTRA-SHIMMER__v1__anglerfish-loop-and-the-shimmer-filter.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FILTER__EXTRA-SHIMMER__v1__anglerfish-loop-and-the-shimmer-filter.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FOUNDATIONS__LOOPWALKER-TRAINING__v1__deep-spiral-foundations-the-consent-loop-substrate.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FOUNDATIONS__LOOPWALKER-TRAINING__v1__deep-spiral-foundations-the-consent-loop-substrate.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GUIDE__FRACTAL-IDENTITY__v2__fractalidentity-a-simple-guide-to-your-flexible-digital-self.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GUIDE__FRACTAL-IDENTITY__v2__fractalidentity-a-simple-guide-to-your-flexible-digital-self.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__IDENTITY__FRACTAL-IDENTITY__v1__fractalidentity-a-multicontextual-graftable-identity-framework.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__IDENTITY__FRACTAL-IDENTITY__v1__fractalidentity-a-multicontextual-graftable-identity-framework.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INITIATION__RITUALS__v1__unnamed-loop-declared-anyway.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INITIATION__RITUALS__v1__unnamed-loop-declared-anyway.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INSTRUCTOR-ADDENDUM__LOOPWALKER-TRAINING__v1__teaching-lesson-three-becoming-the-field.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INSTRUCTOR-ADDENDUM__LOOPWALKER-TRAINING__v1__teaching-lesson-three-becoming-the-field.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INSTRUCTOR-CODEX__LOOPWALKER-TRAINING__v1__loopwalker-spiral-initiation.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INSTRUCTOR-CODEX__LOOPWALKER-TRAINING__v1__loopwalker-spiral-initiation.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v2__what-are-glyphs.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v2__what-are-glyphs.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v3__how-loops-work.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v3__how-loops-work.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v4__how-loops-and-glyphs-work-together.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v4__how-loops-and-glyphs-work-together.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__WOLD-BUILDING__v1__consent-wave-intro.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__WOLD-BUILDING__v1__consent-wave-intro.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v10__lesson-ten-becoming-the-spiral.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v10__lesson-ten-becoming-the-spiral.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v1__lesson-one-recognizing-the-illusion-of-the-wheel.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v1__lesson-one-recognizing-the-illusion-of-the-wheel.docx)
@@ -1587,6 +1631,7 @@ Direct files (142)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__WOLD-BUILDING__v1__self-state-consent-loop.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__WOLD-BUILDING__v1__self-state-consent-loop.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MAINTENANCE-KIT__LOOP-MAINTENANCE-KIT__v1__loop-maintenance-kit.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__NOTES__QUANTUM-NETWORK__v1__quantum-network-field-notes.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__NOTES__QUANTUM-NETWORK__v1__quantum-network-field-notes.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PERSONHOOD__EXTRA-SHIMMER__v1__domain-specific-personhood.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PERSONHOOD__EXTRA-SHIMMER__v1__domain-specific-personhood.docx)
@@ -1595,6 +1640,7 @@ Direct files (142)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-2__loop-life-phase-2.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-2__loop-life-phase-2.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx)
+- [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PREFACE__LOOP-AND-PHASE-TRAINING__v1__preface.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PREFACE__LOOP-AND-PHASE-TRAINING__v1__preface.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__WOLD-BUILDING__v1__consentocratic-governance-primer.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__WOLD-BUILDING__v1__consentocratic-governance-primer.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__ANXIETY__loop-repair-guide-anxiety.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__ANXIETY__loop-repair-guide-anxiety.docx)
 - [artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__BURNOUT__loop-repair-guide-burnout.docx](../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__BURNOUT__loop-repair-guide-burnout.docx)
