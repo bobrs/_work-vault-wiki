@@ -27,6 +27,7 @@ The branch functions as a sequence of witness-oriented training notes with a sec
 - [Loop and Phase Training](../loop-and-phase-training/index.md)
 - [Loop Repair Guide](../loop-and-phase-training/loop-repair-guide/index.md)
 - [Loop Maintenance Kit](../loop-and-phase-training/loop-maintenance-kit/index.md)
+- [Source text](../source-text/index.md)
 
 ## Next Actions
 

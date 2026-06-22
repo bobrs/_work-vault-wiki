@@ -20,6 +20,8 @@ The branch behaves like a concise published opportunity node. The HTML page is t
 ## Related Links
 
 - [Side Projects Desktop](../index.md)
+- [Art of Meaning](../art-of-meaning/index.md)
+- [Context2](../context2/index.md)
 
 ## Next Actions
 

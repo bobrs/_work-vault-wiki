@@ -16,6 +16,14 @@ This branch collects the genesis and session-logging materials.
 
 This reads like the foundational identity/session seam for the desktop vault.
 
+The page is a foundational node for identity and session discipline. It belongs with the other desktop branches that describe how work should be initiated, witnessed, and carried forward over time.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Witnessing](../witnessing/index.md)
+- [ProgramSelf (You and Your AI)](../programself-you-and-your-ai/index.md)
+
 ## Next Actions
 
 1. Keep the branch together.

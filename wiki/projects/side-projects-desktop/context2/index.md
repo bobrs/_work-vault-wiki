@@ -21,6 +21,8 @@ The branch functions as a compact published site node rather than a file bundle.
 ## Related Links
 
 - [Side Projects Desktop](../index.md)
+- [Library of Echoes](../library-of-echoes/index.md)
+- [Attention - Five Modes](../attention-five-modes/index.md)
 
 ## Next Actions
 
