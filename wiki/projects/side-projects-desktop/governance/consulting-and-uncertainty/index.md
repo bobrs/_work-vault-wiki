@@ -15,6 +15,13 @@ This branch collects the consulting-opportunity and uncertainty documents.
 
 This is the external-facing consulting seam inside Governance.
 
+The page should hold the outward-facing narrative: consulting opportunity, uncertainty language, and any future proposal-oriented material. That makes it the natural sibling to the policy/economics page.
+
+## Related Links
+
+- [Governance](../index.md)
+- [Consent Economy and Sovereignty](../consent-economy-and-sovereignty/index.md)
+
 ## Next Actions
 
 1. Keep the consulting and uncertainty pair together.

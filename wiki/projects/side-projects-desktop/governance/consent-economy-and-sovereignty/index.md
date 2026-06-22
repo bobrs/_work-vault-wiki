@@ -15,6 +15,13 @@ This branch collects the consent-economy and self-sovereignty documents.
 
 This is the policy/economics seam inside Governance.
 
+The page should stay focused on consent economy and self-sovereignty as a policy cluster. It is the natural place to attach future governance-specific links that follow the internal model rather than the external pitch.
+
+## Related Links
+
+- [Governance](../index.md)
+- [Consulting and Uncertainty](../consulting-and-uncertainty/index.md)
+
 ## Next Actions
 
 1. Keep the consent-economy pair together.

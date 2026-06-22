@@ -15,6 +15,13 @@ This branch collects the logging method and interface specification material.
 
 This is the implementation/interface seam inside Glyphlog.
 
+The page should stay focused on the practical side of the branch: method, interface shape, and how the glyphlog system is meant to be used. It is a natural place to seed future links into protocol implementation and interface design material.
+
+## Related Links
+
+- [Glyphlog](../index.md)
+- [Astrometrics and Tokenless Confirmation](../astrometrics-and-tokenless-confirmation/index.md)
+
 ## Next Actions
 
 1. Keep the method and interface pair together.

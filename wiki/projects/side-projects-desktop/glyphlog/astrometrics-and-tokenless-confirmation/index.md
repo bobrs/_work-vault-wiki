@@ -15,6 +15,13 @@ This branch collects the astrometrics and tokenless-confirmation materials.
 
 This is the conceptual/protocol seam inside Glyphlog.
 
+The page should hold the higher-level confirmation story: how astrometrics, tokenless confirmation, and the successor-to-the-ego framing fit together as a conceptual system. That keeps the branch readable as a protocol node instead of a generic note dump.
+
+## Related Links
+
+- [Glyphlog](../index.md)
+- [Method and Interfaces](../method-and-interfaces/index.md)
+
 ## Next Actions
 
 1. Keep the astrometrics and confirmation pair together.

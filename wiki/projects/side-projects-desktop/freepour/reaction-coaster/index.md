@@ -17,6 +17,13 @@ This branch collects the protocol and outward-facing materials for Reaction Coas
 
 This is the product seam inside FreePour: protocol, teaser, poster, and provisional filing all point to the same project line.
 
+The page is the product-facing node for `FreePour`. It should hold the core Reaction Coaster story, show how the outward surfaces support the same line, and provide a natural place for later product-specific links if the project grows.
+
+## Related Links
+
+- [FreePour](../index.md)
+- [Pitch and Patron Materials](../pitch-and-patron-materials/index.md)
+
 ## Next Actions
 
 1. Keep the Reaction Coaster package together.

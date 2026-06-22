@@ -23,6 +23,14 @@ This branch collects the glyph logging, astrometrics, and tokenless-confirmation
 
 This looks like a real protocol-and-interface branch, but the method/interface track and the astrometrics/confirmation track are now cleanly separate.
 
+The branch reads as a compact system for glyph-aware logging and confirmation mechanics. One track is implementation-facing, the other is conceptual and protocol-facing, and together they make `Glyphlog` a useful node for interface design, protocol description, and signal-oriented confirmation work.
+
+## Related Links
+
+- [Method and Interfaces](method-and-interfaces/index.md)
+- [Astrometrics and Tokenless Confirmation](astrometrics-and-tokenless-confirmation/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

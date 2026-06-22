@@ -16,6 +16,13 @@ This branch collects the FreePour investor and patron-facing materials.
 
 This is the audience-segment seam for FreePour. Keep the pitch and patron-facing materials together.
 
+The page is the external-facing node for `FreePour`. It keeps the investor and patron narrative in one place so future audience-targeted material can attach cleanly without mixing into the product seam.
+
+## Related Links
+
+- [FreePour](../index.md)
+- [Reaction Coaster](../reaction-coaster/index.md)
+
 ## Next Actions
 
 1. Keep the pitch materials together.
