@@ -1,16 +1,22 @@
 # Semantic Collapse Theory
 
-This branch is the largest structured family in the current intake corpus.
+This branch is the largest structured family in the current intake corpus. It now stands as its own lineage page under `Consent Crystal Structure Research`.
 
 It appears to be a durable project line with its own origin text, later series, narrative material, and a versioned snapshot folder.
 
 ## Current Shape
 
-- 84 files total.
+- 84 active files.
 - 38 direct root files under `Semantic Collapse Theory`.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
 - 19 archived files in `SCT set 20050505`.
+
+## Lineage Pages
+
+- [Loop Series](loop-series/index.md)
+- [Story](story/index.md)
+- [SCT set 20050505](sct-set-20050505/index.md)
 
 ## Origin
 
@@ -22,7 +28,8 @@ The origin document currently acts as the clearest anchor for the branch:
 
 - Eighteen exact duplicate pairs exist between the root `Semantic Collapse Theory` files and the archived `SCT set 20050505` copies.
 - That pattern looks more like a snapshot or branch fork than accidental duplication.
-- Nothing in this branch should be merged or canonized yet without review.
+- If exact duplicates are collapsed later, preserve the fact that the surviving record has multiple collapse parents.
+- The archive is a lineage snapshot, not a content rewrite target.
 
 ## Representative Files
 
@@ -32,14 +39,8 @@ The origin document currently acts as the clearest anchor for the branch:
 - [Story / Episode 1 Outline.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
 - [SCT set 20050505 / SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)
 
-## Open Questions
-
-- Should the archived `SCT set 20050505` snapshot remain intact, or be collapsed later under a canonical lineage decision?
-- Are the `Loop Series` and `Story` subfolders meant to remain attached to SCT, or should they become distinct pages later?
-- Which files, if any, are intended to become canonical references?
-
 ## Next Actions
 
-1. Resolve the duplicate pairs.
-2. Decide the status of `SCT set 20050505`.
-3. Then decide whether this branch needs a deeper project breakdown.
+1. Use the active branch pages for current work.
+2. Keep the archived snapshot visible as lineage evidence.
+3. Treat duplicate collapse as a metadata/navigation step, not a content edit.

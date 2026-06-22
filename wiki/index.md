@@ -2,7 +2,7 @@
 
 This wiki is a navigation layer over the repository.
 
-Current status: the vault structure exists, but no substantive work artifacts have been added yet.
+Current status: the vault now contains substantive work artifacts, archived snapshots, and lineage pages. Use the wiki to track intake, duplicate collapse, and branch splits without inventing extra meaning.
 
 ## Main Entrances
 
@@ -15,8 +15,9 @@ Current status: the vault structure exists, but no substantive work artifacts ha
 - [Missing Files](missing-files.md)
 - [Incoming Review](incoming-review.md)
 
-## Empty-State Notes
+## Intake Notes
 
 - Add new source material under `artifacts/incoming/`.
-- Use the review pages to track intake and cleanup work.
-- Create project, concept, and timeline pages only when the repository contains enough evidence to justify them.
+- Use the review pages to track intake, duplicate collapse, and archival work.
+- Split out evidence-backed subpages with lineage labels when a branch stabilizes.
+- Keep `.zip` companions auxiliary unless a page explicitly promotes them.

@@ -4,7 +4,7 @@ A git-backed personal work vault, artifact wiki, and AI-managed continuity syste
 
 This repository is prepared to hold a body of work in a form that can be inventoried, versioned, linked, classified, reconciled, and navigated over time.
 
-Right now it is a blank operating scaffold: the structure, instructions, scripts, and review pages exist, but substantive vault content has not been added yet.
+The repository now contains active intake content, archived snapshots, and lineage-aware project pages. The structure, instructions, scripts, and review pages exist to keep that content legible over time.
 
 The initial operating principle:
 
@@ -26,7 +26,7 @@ docs/        repository operating instructions
 
 ## Current Phase
 
-The wiki should stay neutral until content exists. Do not pre-seed projects, concepts, canon pages, or named attractors without artifact evidence.
+The wiki should stay evidence-led. Do not invent projects, concepts, canon pages, or named attractors without artifact evidence, but do split out supported sub-projects with lineage labels and keep auxiliary bundles separate from core source unless otherwise noted.
 
 ## First Content Intake
 
@@ -51,7 +51,7 @@ Agents    = how coherence is maintained.
 See:
 
 - [`docs/README.md`](docs/README.md)
-- [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md)
+- [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md)
 
 ## Public Site
 

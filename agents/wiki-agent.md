@@ -10,13 +10,14 @@ The wiki is not the source of truth. It is an interpretive layer over files, man
 
 ## Current Phase
 
-The current wiki is intentionally sparse.
+The current wiki is a live navigation layer over active intake and archived snapshots.
 
-Until content is added:
+When evidence is weak:
 
-- keep section indexes neutral;
+- keep section indexes evidence-led;
 - avoid speculative project or concept pages;
 - avoid preloading named attractors;
+- split out real lineage branches when the corpus supports them;
 - prefer placeholders that explain when a page should exist.
 
 ## Responsibilities
@@ -25,6 +26,7 @@ Until content is added:
 - Generate project index pages.
 - Generate concept index pages.
 - Generate artifact pages when appropriate.
+- Generate stand-alone lineage pages when a branch is supported by evidence.
 - Maintain duplicate review pages.
 - Maintain missing file pages.
 - Maintain incoming review pages.
@@ -47,6 +49,7 @@ The wiki agent must not silently:
 - Declare supersession.
 - Delete or merge files.
 - Hide uncertainty.
+- Flatten supported lineage branches back into a single page.
 
 ## Page Types
 
@@ -91,8 +94,9 @@ Should include:
 - Related concepts.
 - Open questions.
 - Deprecated or superseded material.
+- Lineage branches.
 - Next actions.
 
 ## Operating Compression
 
-Build navigation over the vault without pretending the wiki is the vault. In the empty state, preserve neutrality and leave absent meaning absent.
+Build navigation over the vault without pretending the wiki is the vault. In the active state, preserve lineage, keep auxiliary bundles separate unless promoted, and leave absent meaning absent.

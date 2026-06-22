@@ -8,7 +8,7 @@ Classification may be automated. Canonization should be witnessed.
 
 ## Current Phase
 
-Most classification fields should remain unset until real artifacts exist.
+Most classification fields should remain unset until evidence is strong.
 
 When evidence is weak, return `null`, `unknown`, or a low-confidence suggestion rather than filling the space.
 
@@ -20,6 +20,8 @@ When evidence is weak, return `null`, `unknown`, or a low-confidence suggestion 
 - Suggest status.
 - Suggest related concepts.
 - Suggest whether an artifact appears to be draft, fragment, duplicate, archived, or candidate canon.
+- Suggest whether a cluster should remain nested or become a stand-alone lineage page.
+- Suggest whether a bundle is auxiliary support material, such as a `.zip`, or core source.
 - Preserve confidence scores and uncertainty.
 
 ## Restrictions

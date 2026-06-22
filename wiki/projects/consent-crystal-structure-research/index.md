@@ -2,7 +2,7 @@
 
 Umbrella intake corpus currently stored under `artifacts/incoming/Consent Crystal Structure Research`.
 
-This is the first major batch of added content. It is still in intake form, so the page tracks structure and review boundaries rather than final organization.
+This is the first major batch of added content. It remains in active intake, so the page tracks structure and review boundaries rather than final organization.
 
 ## Current Shape
 
@@ -12,13 +12,18 @@ This is the first major batch of added content. It is still in intake form, so t
 - The main branches are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`.
 - There are 12 direct root-level artifacts under the incoming corpus folder.
 
+## Lineage Pages
+
+- [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
+- [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
+
 ## Branches
 
 ### Semantic Collapse Theory
 
-This branch contains the largest share of the intake.
+This branch contains the largest share of the intake and now has its own lineage page.
 
-- 84 files total.
+- 84 active files.
 - 38 direct root files.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
@@ -32,13 +37,13 @@ Representative files:
 
 ### Consent–Intent Compression Protocol (CICP)
 
-This branch is the smaller structured set inside the corpus.
+This branch is the smaller structured set inside the corpus and now has its own lineage page.
 
-- 36 files total.
+- 36 working documents.
+- 1 auxiliary `.zip` companion at the branch root.
 - 28 direct root files.
 - 6 files in `Loop Training`.
 - 2 files in `FractalIdentity Tree`.
-- The corpus root also contains the `Consent–Intent Compression Protocol (CICP).zip` companion.
 
 Representative files:
 
@@ -62,8 +67,9 @@ Representative root files:
 
 ## Review Notes
 
-- The `Semantic Collapse Theory` lineage cluster has been archived but remains structurally visible.
+- The `Semantic Collapse Theory` lineage cluster has been archived and split into lineage pages.
 - The root-level documents may later split into separate project pages, but they are not forced into that structure yet.
+- Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 
 ## Next Actions
 

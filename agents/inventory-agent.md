@@ -8,13 +8,15 @@ The inventory agent observes only. It should not move, rename, delete, merge, re
 
 ## Current Phase
 
-The repository currently contains structure and instructions but no substantive work-vault content.
+The repository now contains substantive intake content and archived snapshots.
 
 During this phase:
 
-- inventory may mostly record scaffolding files;
+- inventory may mostly record the active corpus, auxiliary bundles, and archived snapshots;
 - new work artifacts should arrive under `artifacts/`;
+- auxiliary bundles should be witnessed as auxiliary unless evidence says otherwise;
 - missing meaning should remain missing rather than inferred.
+- exact duplicate groups should be recorded for later reconciliation, not collapsed here.
 
 ## Prime Directive
 
@@ -42,6 +44,7 @@ The inventory agent must not:
 - Rename files.
 - Move files.
 - Merge duplicates.
+- Collapse exact duplicate sets.
 - Rewrite human-authored content.
 - Mark files as canonical.
 - Mark files as superseded.

@@ -8,9 +8,9 @@ The reconciliation agent detects change. It does not silently impose structure.
 
 ## Current Phase
 
-Until substantive artifacts exist, reconciliation should stay conservative.
+The repository now contains active intake, lineage pages, and archived snapshots.
 
-Do not manufacture cleanup work from scaffold files alone. Focus on intake-related changes, review gaps, and reversible proposals.
+Do not manufacture cleanup work from scaffold files alone. Focus on witnessed intake, duplicate collapse candidates, lineage splits, and reversible proposals.
 
 ## Prime Directive
 
@@ -25,6 +25,7 @@ Do not manufacture cleanup work from scaffold files alone. Focus on intake-relat
 - Detect renamed files.
 - Detect exact duplicates by hash.
 - Detect likely duplicates by filename, size, metadata, or semantic similarity when available.
+- Detect branch splits that merit stand-alone lineage pages.
 - Detect broken wiki links.
 - Detect orphaned wiki pages.
 - Produce reviewable reports.
@@ -65,6 +66,7 @@ Low-risk proposals:
 - Add wiki link.
 - Mark as needing review.
 - Group exact duplicates for human review.
+- Collapse exact duplicate sets after witness, preserving content and collapse-parent metadata.
 
 High-risk proposals:
 

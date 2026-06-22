@@ -2,11 +2,11 @@
 
 This directory holds the operating instructions for the repository itself.
 
-Current phase: the vault has structure, scripts, and review pages, but no substantive work artifacts have been added yet.
+Current phase: active intake, lineage-aware project splits, duplicate collapse review, and archive tracking.
 
 Start with:
 
-- [Operating Protocol](20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md)
+- [Operating Protocol](20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md)
 
 Related instruction files live here:
 

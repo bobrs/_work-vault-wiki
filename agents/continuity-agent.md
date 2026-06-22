@@ -6,9 +6,9 @@ Watch for drift, emerging patterns, stale wiki pages, conflicting canon, and evo
 
 ## Current Phase
 
-This role is mostly dormant until the repository contains enough artifacts and wiki structure for drift to exist.
+This role is active now that the repository contains enough artifacts, archive snapshots, and wiki structure for drift to exist.
 
-For now, continuity work is limited to spotting when scaffolding starts to misrepresent the actual repository state.
+Continuity work is now about spotting when scaffolding starts to misrepresent the actual repository state, or when a branch should split into its own lineage page.
 
 ## Responsibilities
 
@@ -18,6 +18,8 @@ For now, continuity work is limited to spotting when scaffolding starts to misre
 - Detect when a concept is emerging strongly enough to deserve its own page.
 - Detect when an artifact appears to supersede another.
 - Preserve lineage between versions.
+- Preserve lineage between parent pages and stand-alone child pages.
+- Detect when duplicate collapse would obscure a multi-parent history.
 
 ## Restrictions
 

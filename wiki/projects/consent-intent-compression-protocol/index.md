@@ -1,14 +1,19 @@
 # Consent–Intent Compression Protocol (CICP)
 
-This branch is the structured mutuality/consent corpus inside the current intake.
+This branch is the structured mutuality/consent corpus inside the current intake. It now stands as its own lineage page under `Consent Crystal Structure Research`.
 
 ## Current Shape
 
-- 36 files total.
+- 36 working documents.
+- 1 auxiliary `.zip` companion at the branch root.
 - 28 direct root files under `CICP`.
 - 6 files in `Loop Training`.
 - 2 files in `FractalIdentity Tree`.
-- The corpus root also contains the `Consent–Intent Compression Protocol (CICP).zip` companion.
+
+## Lineage Pages
+
+- [Loop Training](loop-training/index.md)
+- [FractalIdentity Tree](fractalidentity-tree/index.md)
 
 ## Representative Files
 
@@ -21,21 +26,19 @@ This branch is the structured mutuality/consent corpus inside the current intake
 
 This corpus reads like a practical protocol family rather than a single abstract theory.
 
-The branch likely contains:
+The branch contains:
 
 - a core protocol document;
 - training or onboarding material;
 - a companion identity/tree structure;
 - auxiliary exports or packaged assets.
 
-## Open Questions
+The `Loop Training` and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
 
-- Is the `.zip` file the source bundle for the branch or just an export artifact?
-- Should `Loop Training` and `FractalIdentity Tree` remain nested under CICP, or become their own project pages later?
-- Which files are reference docs versus downstream applications?
+The `.zip` companion is auxiliary unless evidence later says otherwise.
 
 ## Next Actions
 
-1. Confirm whether the `.zip` companion is canonical or ancillary.
-2. Decide whether `Loop Training` and `FractalIdentity Tree` deserve separate pages.
-3. Then classify the root-level CICP files into draft, reference, or derivative roles.
+1. Keep the `.zip` companion auxiliary unless evidence changes that read.
+2. Continue classifying the root-level CICP files into draft, reference, or derivative roles.
+3. Add new lineage pages only when a sub-branch is strong enough to stand alone.
