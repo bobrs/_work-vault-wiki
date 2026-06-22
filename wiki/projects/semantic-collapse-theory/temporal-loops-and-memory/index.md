@@ -7,28 +7,26 @@ This cluster covers synchrony, loop taxonomy, decay, residue, and memory-bearing
 ## Current Shape
 
 - 13 temporal, memory, and collapse documents.
+- 3 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Witness, Synchrony, and Diads](witness-synchrony-diads/index.md)
+- [Loop Taxonomy and Phenomenology](loop-taxonomy-phenomenology/index.md)
+- [Decay, Residue, and Memory](decay-residue-and-memory/index.md)
 
 ## Representative Files
 
-- [SCT-10- Witness Typology and the Expansion of Observation.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-10- Witness Typology and the Expansion of Observation.docx>)
-- [SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx>)
-- [SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx>)
-- [SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)
-- [SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx>)
-- [SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx>)
-- [SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx>)
-- [SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
-- [SCT-20- Loop Phenomenology — Interpretive Collapse.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-20- Loop Phenomenology — Interpretive Collapse.docx>)
-- [SCT-21- Loop Decay and Semantic Garbage Collection.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-21- Loop Decay and Semantic Garbage Collection.docx>)
-- [SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx>)
-- [SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx>)
-- [SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx>)
+- [Witness, Synchrony, and Diads / SCT-10- Witness Typology and the Expansion of Observation.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-10- Witness Typology and the Expansion of Observation.docx>)
+- [Loop Taxonomy and Phenomenology / SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
+- [Decay, Residue, and Memory / SCT-21- Loop Decay and Semantic Garbage Collection.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-21- Loop Decay and Semantic Garbage Collection.docx>)
 
 ## Working Read
 
-This is the mid-branch machinery: how loops persist, decay, echo, and remain legible over time.
+This branch now separates into a witness/synchrony/diad track, a taxonomy/phenomenology track, and a decay/residue/memory track. The split follows the document titles closely and keeps the archive relationship visible.
 
 ## Next Actions
 
-1. Keep the temporal and memory cluster stable.
-2. Split off a narrower memory or decay branch only if the material grows further.
+1. Keep the three nested lineage pages stable.
+2. Split again only if any one track grows into another durable seam.
+3. Preserve archive lineage on the collapsed SCT snapshot.

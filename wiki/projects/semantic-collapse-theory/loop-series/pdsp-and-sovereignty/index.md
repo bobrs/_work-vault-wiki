@@ -7,22 +7,25 @@ This cluster covers the personal data sovereignty protocol, its LoopLink-based v
 ## Current Shape
 
 - 7 PDSP and sovereignty documents.
+- 3 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [PDSP Core](pdsp-core/index.md)
+- [Integration Bundles](integration-bundles/index.md)
+- [PDSP-lite Specs](pdsp-lite-specs/index.md)
 
 ## Representative Files
 
-- [Personal Data Sovereignty Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
-- [Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx>)
-- [PDSP Integration Bundle v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
-- [PDSP Integration Bundle v0.2.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.2.docx>)
-- [PDSP-lite_Spec_v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
-- [PDSP-lite_Spec_v0.2.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx>)
-- [PDSP-lite_Spec_v0.3.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
+- [PDSP Core / Personal Data Sovereignty Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
+- [Integration Bundles / PDSP Integration Bundle v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
+- [PDSP-lite Specs / PDSP-lite_Spec_v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
 
 ## Working Read
 
-This is the implementation branch for sovereignty and auditable trust built on LoopLink.
+This branch now separates into the core sovereignty protocol, the integration bundles, and the PDSP-lite spec line. The split follows the document titles closely and keeps the implementation path visible.
 
 ## Next Actions
 
-1. Keep the PDSP branch stable.
-2. Split a PDSP-lite or integration sub-branch only if the material grows again.
+1. Keep the three nested lineage pages stable.
+2. Split again only if one of the three tracks develops another durable seam.
