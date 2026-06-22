@@ -61,7 +61,20 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 This corpus is a source desktop, not a single project. Some folders are durable branches; others are mirror sets or staging material that should collapse into existing canonical pages.
 
-The selection below keeps the stable seams visible without duplicating the SCT, CICP, and POLEMEMELOP lineages.
+The selection below keeps the stable seams visible without duplicating the SCT, CICP, and POLEMEMELOP lineages. Read this page as the top-level map of the desktop vault: some branches are deep semantic nodes, some are archive hubs, and some are still only useful as provenance anchors.
+
+## Related Links
+
+- [Personal](personal/index.md)
+- [FreePour](freepour/index.md)
+- [Multiverse](multiverse/index.md)
+- [LoopMail](loopmail/index.md)
+- [Glyphlog](glyphlog/index.md)
+- [Governance](governance/index.md)
+- [ProgramSelf (You and Your AI)](programself-you-and-your-ai/index.md)
+- [Safety and Stable Loop Language](safety-and-stable-loop-language/index.md)
+- [Source text](source-text/index.md)
+- [Witnessing](witnessing/index.md)
 
 ## Next Actions
 

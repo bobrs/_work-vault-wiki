@@ -25,7 +25,17 @@ This branch is the archived mirror hub for the routing, Rosetta, glyph, Dialogic
 
 This is the archived mirror hub for a shared routing/glyph/stream set. The same files also live in CICP, Glyphlog, Dialogica, and Crystalstream lineage pages.
 
+The branch should remain an archive evidence page: it records that these materials were once gathered together, while the live descendant lineages now carry the active interpretive work. It is useful mainly as a relationship map between the surviving branches.
+
+## Related Links
+
+- [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
+- [Glyphlog](../glyphlog/index.md)
+- [Reference - Stored Crystals / Dialogica](../reference-stored-crystals/dialogica/index.md)
+- [Crystalstream](../crystalstream/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the mirror-hub page stable as archive evidence.
-2. Collapse any new mirrored files back into the canonical branch pages first.
+2. Collapse any new mirrored files back into the surviving descendant branch pages first.

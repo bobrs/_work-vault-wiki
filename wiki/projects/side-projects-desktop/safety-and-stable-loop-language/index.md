@@ -21,6 +21,14 @@ This branch covers the safety-facing loop language and the companion safety-seek
 
 This is a small but durable safety branch: one published page, one empty metadata folder, and one stable language surface.
 
+The branch acts as a safety-facing semantic node for loop language. It keeps the published language surface visible while also preserving the empty companion folder as a reminder that the branch still has room to grow if actual content appears.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Stable Loop Language](stable-loop-language/index.md)
+- [Loop and Phase Training](../loop-and-phase-training/index.md)
+
 ## Next Actions
 
 1. Keep `Stable Loop Language` separate.

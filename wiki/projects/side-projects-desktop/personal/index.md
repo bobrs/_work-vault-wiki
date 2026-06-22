@@ -29,9 +29,19 @@ This branch gathers the personal, reflective, and presentation-facing material i
 
 ## Working Read
 
-This is a personal synthesis folder: several files already have canonical wiki pages elsewhere, the mirrored copies have been archived back into their lineage pages, and the remaining local surfaces should stay visible only when they are unique.
+This is a personal synthesis folder: several files already have descendant wiki pages elsewhere, the mirrored copies have been archived back into their lineage pages, and the remaining local surfaces should stay visible only when they are unique.
+
+The branch is a compact reflective surface for desktop materials that read as presentation, self-synthesis, or personal framing. It should stay readable as a personal node while pointing outward to the places where the same material already lives in more durable descendant pages.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Daily Growth Ritual](../../consent-crystal-structure-research/daily-growth-ritual/index.md)
+- [Butterfly Bush Time Portals](../../consent-crystal-structure-research/butterfly-bush-time-portals/index.md)
+- [Ego and Flow](../../consent-crystal-structure-research/ego-and-flow/index.md)
+- [Thanks, Bobo - A Screenplay](../../consent-crystal-structure-research/thanks-bobo-a-screenplay/index.md)
 
 ## Next Actions
 
-1. Keep the personal page linked to its existing canonical descendants.
+1. Keep the personal page linked to its existing descendant pages.
 2. Treat the archived mirrored companions as duplicate lineage.

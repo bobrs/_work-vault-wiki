@@ -25,6 +25,14 @@ This branch collects the multiverse and consent-resonance theory materials.
 
 This reads like a broad conceptual branch rather than a random note pile: one seam is the multiverse/vision stack, and the other is the domain-specific analogy stack.
 
+The page works as a conceptual hub for consent-resonance thinking. The two child pages separate broad visioning from domain analogies, which keeps the branch usable as a semantic map instead of a loose set of speculative notes.
+
+## Related Links
+
+- [Consent Resonance and Vision](consent-resonance-and-vision/index.md)
+- [Domain Analogies](domain-analogies/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

@@ -21,6 +21,14 @@ This branch collects the two published self-programming pages in the desktop int
 
 This reads like a pair of standalone published pages: one about governing the AI, the other about memory discipline.
 
+The branch is a compact self-programming node. It belongs alongside the other desktop pages that explain how a user or agent should orient, remember, and govern itself.
+
+## Related Links
+
+- [Side Projects Desktop](../index.md)
+- [Control Your AI](control-your-ai/index.md)
+- [Program Your Memory](program-your-memory/index.md)
+
 ## Next Actions
 
 1. Keep the two HTML pages separate.
