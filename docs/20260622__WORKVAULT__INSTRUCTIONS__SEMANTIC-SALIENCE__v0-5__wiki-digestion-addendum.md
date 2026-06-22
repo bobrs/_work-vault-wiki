@@ -155,6 +155,22 @@ Canonization remains a human decision.
 
 ---
 
+## 4.1 Concept Attractor Promotion
+
+When Tier 3 or Tier 4 extraction reveals a stable idea that recurs across multiple artifacts, promote that idea into the `Concepts` layer as an explicit attractor page or deepen the existing concept page.
+
+Use concept pages when the same formulation appears across more than one branch, project, or lineage page and is no longer just a local label.
+
+Concept pages should include:
+
+- a working definition
+- the artifacts that support the attractor
+- nearby project pages where the idea recurs
+- distinctions from adjacent concepts
+- open questions or unresolved boundaries
+
+Do not create concept pages for one-off motifs that have not yet stabilized across the corpus.
+
 # 4. Mature Artifact Page Template
 
 When a document is processed beyond basic navigation, use this structure where appropriate:

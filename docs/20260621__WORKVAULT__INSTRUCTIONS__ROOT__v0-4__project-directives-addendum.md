@@ -13,6 +13,8 @@ This addendum supplements the active intake protocol.
 - If a file or cluster reads like a durable branch, give it its own page even when the branch is small.
 - Keep the page attached to its parent corpus through lineage notes and links.
 - Do not force small but stable branches to stay buried under a larger umbrella page.
+- If a branch or artifact begins to recur as a stable idea across multiple pages, seed or deepen a concept page and link it from the relevant project pages and the `Concepts` index.
+- Do not leave a durable branch page as a pure navigation stub when the content supports a brief semantic read.
 
 ## 2. Published-Item Rule
 
