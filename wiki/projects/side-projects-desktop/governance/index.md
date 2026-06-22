@@ -5,6 +5,12 @@ This branch collects the governance, sovereignty, and consent-economy materials.
 ## Current Shape
 
 - 4 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Consent Economy and Sovereignty](consent-economy-and-sovereignty/index.md)
+- [Consulting and Uncertainty](consulting-and-uncertainty/index.md)
 
 ## Representative Files
 
@@ -15,9 +21,9 @@ This branch collects the governance, sovereignty, and consent-economy materials.
 
 ## Working Read
 
-This is a governance/economics branch: it mixes consulting opportunity framing with more formal consent-economy and sovereignty material.
+This is a governance/economics branch: the consent-economy and sovereignty materials sit separately from the consulting/opportunity and uncertainty materials.
 
 ## Next Actions
 
-1. Keep the governance set together.
-2. Split only if a later pass finds a clean policy or economic seam.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

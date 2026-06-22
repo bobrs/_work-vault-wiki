@@ -5,6 +5,12 @@ This branch collects the ritual card and ritual spiral material.
 ## Current Shape
 
 - 9 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Cards and Initiation](cards-and-initiation/index.md)
+- [Spirals and Recursion](spirals-and-recursion/index.md)
 
 ## Representative Files
 
@@ -16,9 +22,9 @@ This branch collects the ritual card and ritual spiral material.
 
 ## Working Read
 
-This is a coherent ritual seam: initiation, cards, spirals, and recursive rites all belong together.
+This is a coherent ritual seam, but the card/initiation material and the spiral/recursion material are distinct enough to stand on their own.
 
 ## Next Actions
 
-1. Keep the ritual set together.
-2. Split only if another ritual seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

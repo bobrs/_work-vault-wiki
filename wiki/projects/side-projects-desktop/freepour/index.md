@@ -5,6 +5,12 @@ This branch collects the FreePour and Reaction Coaster materials.
 ## Current Shape
 
 - 7 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Reaction Coaster](reaction-coaster/index.md)
+- [Pitch and Patron Materials](pitch-and-patron-materials/index.md)
 
 ## Representative Files
 
@@ -16,9 +22,9 @@ This branch collects the FreePour and Reaction Coaster materials.
 
 ## Working Read
 
-This is a compact pitch-and-protocol branch. The investor, patron, and teaser documents belong together.
+This is a compact branch with a protocol seam and a pitch/patron seam. The reaction-coaster documents sit together, and the investor material sits together.
 
 ## Next Actions
 
-1. Keep the reaction-coaster set together.
-2. Split only if a second durable seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

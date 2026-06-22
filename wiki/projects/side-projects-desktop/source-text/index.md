@@ -5,11 +5,11 @@ This branch holds the source-analysis material and the consolidated source view.
 ## Current Shape
 
 - 9 files total.
-- 2 root-level analysis views plus metadata.
-- 1 nested `Source` folder.
+- 2 nested lineage pages organize the set.
 
 ## Nested Lineage Pages
 
+- [Analysis and Consolidated View](analysis-and-consolidated-view/index.md)
 - [Source](source/index.md)
 
 ## Representative Files
@@ -21,9 +21,9 @@ This branch holds the source-analysis material and the consolidated source view.
 
 ## Working Read
 
-This is a source-analysis branch rather than a content branch; the `Source` folder holds the primary DOCX inputs, while the root files hold the analysis view.
+This is a source-analysis branch rather than a content branch. The root analysis views and the source bundle now sit on their own pages.
 
 ## Next Actions
 
-1. Keep the analysis and source folders paired.
-2. Split the `Source` folder only if a second stable seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

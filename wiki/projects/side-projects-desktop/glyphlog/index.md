@@ -5,6 +5,12 @@ This branch collects the glyph logging, astrometrics, and tokenless-confirmation
 ## Current Shape
 
 - 5 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Method and Interfaces](method-and-interfaces/index.md)
+- [Astrometrics and Tokenless Confirmation](astrometrics-and-tokenless-confirmation/index.md)
 
 ## Representative Files
 
@@ -15,9 +21,9 @@ This branch collects the glyph logging, astrometrics, and tokenless-confirmation
 
 ## Working Read
 
-This looks like a real protocol-and-interface branch: logging, astrometrics, and confirmation mechanics all hang together.
+This looks like a real protocol-and-interface branch, but the method/interface track and the astrometrics/confirmation track are now cleanly separate.
 
 ## Next Actions
 
-1. Keep the glyph logging seam together.
-2. Split only if another durable seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

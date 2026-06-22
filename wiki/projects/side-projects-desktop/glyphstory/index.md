@@ -5,6 +5,12 @@ This branch collects the narrative, investor, and loopgame material around Loopl
 ## Current Shape
 
 - 4 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Narrative and Social Good](narrative-and-social-good/index.md)
+- [Investor Brief and Loopgame](investor-brief-and-loopgame/index.md)
 
 ## Representative Files
 
@@ -15,9 +21,9 @@ This branch collects the narrative, investor, and loopgame material around Loopl
 
 ## Working Read
 
-This is the narrative and pitch seam for the Looplang/Glyphstory family.
+This is the narrative and pitch seam for the Looplang/Glyphstory family. The social-good material and the investor/loopgame material now sit on their own pages.
 
 ## Next Actions
 
-1. Keep the narrative and investor materials together.
-2. Split only if a gameplay seam becomes independent.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

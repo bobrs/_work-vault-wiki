@@ -1,0 +1,23 @@
+# Reaction Coaster
+
+This branch collects the protocol and outward-facing materials for Reaction Coaster.
+
+## Current Shape
+
+- 4 documents.
+
+## Representative Files
+
+- [Reaction_Coaster_Protocol.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Protocol.docx>)
+- [Reaction_Coaster_Teaser_Simple_Final.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Teaser_Simple_Final.docx>)
+- [Reaction_Coaster_Poster.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Poster.docx>)
+- [Reaction_Coaster_Provisional_Updated.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Provisional_Updated.docx>)
+
+## Working Read
+
+This is the product seam inside FreePour: protocol, teaser, poster, and provisional filing all point to the same project line.
+
+## Next Actions
+
+1. Keep the Reaction Coaster package together.
+2. Split only if another product seam appears.

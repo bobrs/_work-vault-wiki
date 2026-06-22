@@ -5,6 +5,12 @@ This branch collects the consentocratic world-building materials.
 ## Current Shape
 
 - 8 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Governance and Investor Materials](governance-and-investor-materials/index.md)
+- [Consent Wave and Self State](consent-wave-and-self-state/index.md)
 
 ## Representative Files
 
@@ -16,9 +22,9 @@ This branch collects the consentocratic world-building materials.
 
 ## Working Read
 
-This is the world-building seam for the advanced training branch.
+This is the world-building seam for the advanced training branch. The governance/investor material now sits separately from the consent-wave/self-state material.
 
 ## Next Actions
 
-1. Keep the consentocratic materials together.
-2. Split only if a second world-building seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.

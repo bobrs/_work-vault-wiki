@@ -4,7 +4,14 @@ This branch collects the multiverse and consent-resonance theory materials.
 
 ## Current Shape
 
-- 10 documents.
+- 9 documents.
+- 1 metadata artifact.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Consent Resonance and Vision](consent-resonance-and-vision/index.md)
+- [Domain Analogies](domain-analogies/index.md)
 
 ## Representative Files
 
@@ -16,9 +23,9 @@ This branch collects the multiverse and consent-resonance theory materials.
 
 ## Working Read
 
-This reads like a broad conceptual branch rather than a random note pile: the same consent-resonance idea is applied across multiple domains.
+This reads like a broad conceptual branch rather than a random note pile: one seam is the multiverse/vision stack, and the other is the domain-specific analogy stack.
 
 ## Next Actions
 
-1. Keep the multiverse concept set together.
-2. Split only if a later pass reveals a clean sub-branch.
+1. Keep the two nested lineage pages stable.
+2. Split again only if one of the two tracks develops another durable seam.
