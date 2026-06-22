@@ -13,6 +13,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Trust Interoperability Standard](trust-interoperability-standard/index.md)
 - [New Ideas](new-ideas/index.md)
 - [Similar Projects](similar-projects/index.md)
+- [Patents](patents/index.md)
 
 ## Lineage Pages
 
