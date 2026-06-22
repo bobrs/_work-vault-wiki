@@ -1,10 +1,10 @@
 # Reference - Stored Crystals
 
-This branch is the reference vault for Abracadabra, Dialogica, and Trust Interoperability Standard materials in the desktop intake.
+This branch is the archived reference vault for Abracadabra, Dialogica, and Trust Interoperability Standard materials in the desktop intake.
 
 ## Current Shape
 
-- 38 files total.
+- 38 archived files.
 - 14 Dialogica files.
 - 8 Abracadabra Protocol files.
 - 9 Trust Interoperability Standard files.
@@ -21,15 +21,15 @@ This branch is the reference vault for Abracadabra, Dialogica, and Trust Interop
 
 ## Representative Files
 
-- [Dialogica / DeepTrust_Dialogica_Protocol_Specification.docx](<../../../../artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx>)
-- [Dialogica / DeepTrust_Dialogica_White_Paper_Full.docx](<../../../../artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx>)
-- [Dialogica / Regulatory Sandbox Proposal.docx](<../../../../artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Regulatory Sandbox Proposal.docx>)
-- [Abracadabra Protocol / Abracadabra Protocol Specification.docx](<../../../../artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabra Protocol Specification.docx>)
-- [Trust Interoperability Standard / Trust_Interoperability_Standard_v1.docx](<../../../../artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx>)
+- [Dialogica / DeepTrust_Dialogica_Protocol_Specification.docx](<../../../../artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx>)
+- [Dialogica / DeepTrust_Dialogica_White_Paper_Full.docx](<../../../../artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx>)
+- [Dialogica / Regulatory Sandbox Proposal.docx](<../../../../artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Regulatory Sandbox Proposal.docx>)
+- [Abracadabra Protocol / Abracadabra Protocol Specification.docx](<../../../../artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabra Protocol Specification.docx>)
+- [Trust Interoperability Standard / Trust_Interoperability_Standard_v1.docx](<../../../../artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx>)
 
 ## Working Read
 
-This is a reference vault rather than a single project. `Abracadabra` and `Trust Interoperability Standard` already have canonical pages elsewhere; `Dialogica` is the remaining distinct seam here.
+This is an archived reference vault rather than a live intake branch. `Abracadabra` and `Trust Interoperability Standard` already have canonical pages elsewhere; `Dialogica` remains the distinct seam worth keeping visible here.
 
 ## Next Actions
 

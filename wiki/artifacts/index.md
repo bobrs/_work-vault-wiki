@@ -3,7 +3,7 @@
 Generated from `manifest/inventory.jsonl`.
 
 
-## archived (25)
+## archived (113)
 
 ### Consent Crystal Structure Research (21)
 
@@ -42,7 +42,74 @@ Direct files (19)
 - [artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx](../../artifacts/archived/Consent%20Crystal%20Structure%20Research/Semantic%20Collapse%20Theory/SCT%20set%2020050505/SCT-The%20Resonance%20Funding%20Protocol%20%E2%80%94%20Toward%20Collapse-Proximity%20Compensation.docx)
 - [artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-Working-1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx](../../artifacts/archived/Consent%20Crystal%20Structure%20Research/Semantic%20Collapse%20Theory/SCT%20set%2020050505/SCT-Working-1-%20Protocol-Free%20Diads-%20Collapse%20Mechanisms%20Beyond%20Time.docx)
 
-### Side Projects Desktop (4)
+### Patents (2)
+
+#### Abracadabradoo Protocol (1)
+
+Direct files (1)
+- [artifacts/archived/Patents/Abracadabradoo Protocol/Abracadabradoo Protocol.zip](../../artifacts/archived/Patents/Abracadabradoo%20Protocol/Abracadabradoo%20Protocol.zip)
+
+#### LOOPtLOOP platform (1)
+
+Direct files (1)
+- [artifacts/archived/Patents/LOOPtLOOP platform/LOOPtLOOP platform.zip](../../artifacts/archived/Patents/LOOPtLOOP%20platform/LOOPtLOOP%20platform.zip)
+
+### Side Projects Desktop (90)
+
+#### -Conceptual Consolidation (45)
+
+##### Starting zips (45)
+
+Direct files (6)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Consent–Intent Compression Protocol (CICP).zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Consent%E2%80%93Intent%20Compression%20Protocol%20%28CICP%29.zip)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop Series.zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Loop%20Series.zip)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop and Phase Training.zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Loop%20and%20Phase%20Training.zip)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Misc Loop.zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Misc%20Loop.zip)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Reference - Stored Crystals.zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Reference%20-%20Stored%20Crystals.zip)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528.zip](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528.zip)
+
+###### SCT Series 20250528 (39)
+
+Direct files (39)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/RFC-Ø- Witness-Based Loop Resolution.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/RFC-%C3%98-%20Witness-Based%20Loop%20Resolution.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT Fieldnote 0 - Neurons as Semantic Loops.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT%20Fieldnote%200%20-%20Neurons%20as%20Semantic%20Loops.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT Files and Narrative.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT%20Files%20and%20Narrative.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-0-%20The%20POLEMEMELOP%20Charter%20%E2%80%94%20Origin%20of%20Semantic%20Collapse%20Theory.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-1- Semantic Entropy and Collapse Conditions.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-1-%20Semantic%20Entropy%20and%20Collapse%20Conditions.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-1.1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-1.1-%20Protocol-Free%20Diads-%20Collapse%20Mechanisms%20Beyond%20Time.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-10- Witness Typology and the Expansion of Observation.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-10-%20Witness%20Typology%20and%20the%20Expansion%20of%20Observation.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-11-%20Harmonics%20of%20the%20Loop%20Field%20%E2%80%94%20Recognition%20Through%20Resonant%20Consent.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-12-%20Reclaiming%20Time%20from%20Sequence%20%E2%80%94%20Toward%20Consent-Based%20Synchrony.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-13-%20Sovereignty%20as%20Structured%20Consent%20%E2%80%94%20Encoding%20Identity%20Through%20Declarative%20Choice.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-14-%20The%20Diad%20and%20Its%20Descendants%20%E2%80%94%20From%20Minimal%20Collapse%20to%20Semantic.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-15-%20Entropy%20as%20Pre-Collapse%20Consent%20%E2%80%94%20Possibility%20Held%20in%20Trust.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-16-%20Isotopic%20Diads%20and%20Cross-Plane%20Synchronization.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-17-%20The%20Loop-Based%20Economy%20%E2%80%94%20Scalar%20Collapse%20and%20Emergent%20Value.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-18-The%20Resonance%20Funding%20Protocol%20%E2%80%94%20Toward%20Collapse-Proximity%20Compensation.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-19-%20Loop%20Taxonomy%20%E2%80%94%20A%20Semantic%20Grammar%20of%20Collapse%20Structures.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-2- Historical Precedents and the Missing Witness.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-2-%20Historical%20Precedents%20and%20the%20Missing%20Witness.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-20- Loop Phenomenology — Interpretive Collapse.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-20-%20Loop%20Phenomenology%20%E2%80%94%20Interpretive%20Collapse.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-21- Loop Decay and Semantic Garbage Collection.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-21-%20Loop%20Decay%20and%20Semantic%20Garbage%20Collection.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-22-%20Loop%20Residue%20and%20Semantic%20Echo%20%E2%80%94%20Modeling%20De%CC%81ja%CC%80%20Vu%20in%20Ontological%20Physics.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-23- Automeme Propagation and Semantic Drift.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-23-%20Automeme%20Propagation%20and%20Semantic%20Drift.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-24-%20Loop-Based%20Memory%20%E2%80%94%20Temporary%20Echo%20and%20Persistent%20Collapse.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-25-%20Memory%20Elements%20%E2%80%94%20Registers%2C%20Shadows%2C%20and%20Recall%20Architectures.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-26-%20Emotional%20Loop%20Complexes%20%E2%80%94%20Modeling%20Feelings%20as%20Structured%20Collapse%20Fields.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-27- Emotional Hardware and Semantic Interface Layers.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-27-%20Emotional%20Hardware%20and%20Semantic%20Interface%20Layers.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-28- Neural Loop Interpretation Protocol.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-28-%20Neural%20Loop%20Interpretation%20Protocol.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-29-%20Loop-Based%20Logic%20Engine%20and%20the%20Cognitive-Emotive%20Merge.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-3-%20Toward%20a%20Semantic%20Collapse%20Grammar%20%E2%80%94%20Panini%20as%20Prototype.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-30-%20Quantum-Efficient%20Diads%20and%20Loop-Structured%20Reality%20for%20Therapeutic%20Modeling.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-31-%20End-of-Life%20Upload%20and%20the%20Quantum%20Continuum%20Home.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-32-%20The%20Loop%20Arc-%20From%20Collapse%20to%20Continuum%20%E2%80%94%20A%20Story%20of%20Emergent%20Consciousness%20and%20the%20Mission%20to%20Invite.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-33-%20Loop%20Economy%20vs.%20Hierarchical%20Optimization%20%E2%80%94%20A%20Structural%20Response%20to%20Centralized%20Fragility.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-4-%20Time%20as%20Internalized%20Witness%20%E2%80%94%20Sequencing%20the%20Loop%20Without%20External%20Clocks.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-40%20%E2%80%94%20The%20Hidden%20Loop-%20Cosmic%20Background%20Radiation%20as%20Semantic%20Noise.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-41 — Semantic Closure and the Release of Meaning-Energy.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-41%20%E2%80%94%20Semantic%20Closure%20and%20the%20Release%20of%20Meaning-Energy.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-6- Semantic Entanglement and the Abracadabra Frame.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-6-%20Semantic%20Entanglement%20and%20the%20Abracadabra%20Frame.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-7-%20Governance%20as%20Collapsed%20Consent%20%E2%80%94%20A%20Model%20for%20Semantic%20Authority.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-8-%20The%20Consent-Carrying%20Loop%20%E2%80%94%20Extending%20the%20Diad.docx)
+- [artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx](../../artifacts/archived/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-9.9-%20Guidepost%20Elements%20%E2%80%94%20Working%20Backward%20from%20the%20Edge%20of%20Consent.docx)
 
 #### Daily Growth Ritual (1)
 
@@ -59,12 +126,81 @@ Direct files (1)
 Direct files (1)
 - [artifacts/archived/Side Projects Desktop/Misc Loop/🌱 The Consent Seed.docx](../../artifacts/archived/Side%20Projects%20Desktop/Misc%20Loop/%F0%9F%8C%B1%20The%20Consent%20Seed.docx)
 
-#### Personal (1)
+#### Personal (6)
+
+Direct files (6)
+- [artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Butterfly%20Bush%20Time%20Portals.docx)
+- [artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Butterfly%20Bush%20Time%20Portals.html)
+- [artifacts/archived/Side Projects Desktop/Personal/Daily Growth Ritual.docx](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Daily%20Growth%20Ritual.docx)
+- [artifacts/archived/Side Projects Desktop/Personal/Ego and Flow.docx](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Ego%20and%20Flow.docx)
+- [artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Thanks%2C%20Bobo%20-%20A%20Screenplay.docx)
+- [artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.pdf](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Thanks%2C%20Bobo%20-%20A%20Screenplay.pdf)
+
+#### Reference - Stored Crystals (35)
+
+Direct files (7)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/DeepTrust_Expanded_Provisional_Patent_Complete.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/DeepTrust_Expanded_Provisional_Patent_Complete.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/DeepTrust_Provisional_Patent.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/DeepTrust_Provisional_Patent.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/HumanLink one-pager.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/HumanLink%20one-pager.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional%20Patent%20Application-%20Offline-Capable%20Voting%20Infrastructure%20Using%20Deterministic%20Cryptographic%20Key%20Derivation.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Provisional Patent Draft- Consent Ring Interface System.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional%20Patent%20Draft-%20Consent%20Ring%20Interface%20System.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Reference - Stored Crystals.zip](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Reference%20-%20Stored%20Crystals.zip)
+
+##### Abracadabra Protocol (7)
+
+Direct files (7)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabra Protocol Specification.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabra%20Protocol%20Specification.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo - The Promise of Self-sovereign Privacy.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20-%20The%20Promise%20of%20Self-sovereign%20Privacy.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum I.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20I.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum II.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20II.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum III.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20III.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum IV.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20IV.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Specification.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Specification.docx)
+
+##### Dialogica (12)
+
+Direct files (4)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Regulatory Sandbox Proposal.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Regulatory%20Sandbox%20Proposal.docx)
+
+###### Media (8)
+
+Direct files (2)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek.pptx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek.pptx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Steampunk Digital Face.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Steampunk%20Digital%20Face.png)
+
+###### Judge from Star Trek (6)
+
+Direct files (6)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide1.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide1.png)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide2.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide2.png)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide3.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide3.png)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide4.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide4.png)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide5.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide5.png)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide6.png](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide6.png)
+
+##### Trust Interoperability Standard (9)
+
+Direct files (9)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Consent Semantics v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Consent%20Semantics%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialog Thread v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialog%20Thread%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialog Turn v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialog%20Turn%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialogica Integration Profile.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialogica%20Integration%20Profile.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Identity Semantics v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Identity%20Semantics%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Reputation Semantics v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Reputation%20Semantics%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Semantic Graph Mapping for TIS.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Semantic%20Graph%20Mapping%20for%20TIS.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/TIS Agent API v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/TIS%20Agent%20API%20v1.docx)
+- [artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx](../../artifacts/archived/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Trust_Interoperability_Standard_v1.docx)
+
+#### Witnessing (1)
 
 Direct files (1)
-- [artifacts/archived/Side Projects Desktop/Personal/Daily Growth Ritual.docx](../../artifacts/archived/Side%20Projects%20Desktop/Personal/Daily%20Growth%20Ritual.docx)
+- [artifacts/archived/Side Projects Desktop/Witnessing/Witnessing.zip](../../artifacts/archived/Side%20Projects%20Desktop/Witnessing/Witnessing.zip)
 
-## incoming (720)
+## incoming (632)
 
 ### Consent Crystal Structure Research (112)
 
@@ -268,11 +404,7 @@ Direct files (7)
 - [artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus.docx](../../artifacts/incoming/New%20Ideas/Synchronized%20Predictive%20Cancellation%20System%20%2B%20Plus.docx)
 - [artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System.docx](../../artifacts/incoming/New%20Ideas/Synchronized%20Predictive%20Cancellation%20System.docx)
 
-### Patents (67)
-
-Direct files (2)
-- [artifacts/incoming/Patents/Abracadabradoo Protocol.zip](../../artifacts/incoming/Patents/Abracadabradoo%20Protocol.zip)
-- [artifacts/incoming/Patents/LOOPtLOOP platform.zip](../../artifacts/incoming/Patents/LOOPtLOOP%20platform.zip)
+### Patents (65)
 
 #### Abracadabra Protocol (19)
 
@@ -403,20 +535,18 @@ Direct files (6)
 - [artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/authentication.png](../../artifacts/incoming/Patents/Wrapped%20Bidirectional%20TOTP%20Patent/authentication.png)
 - [artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/key exchange.png](../../artifacts/incoming/Patents/Wrapped%20Bidirectional%20TOTP%20Patent/key%20exchange.png)
 
-### Side Projects Desktop (473)
+### Side Projects Desktop (387)
 
-Direct files (9)
+Direct files (7)
 - [artifacts/incoming/Side Projects Desktop/Consent Engines – Symbolic Interfaces for Trust and Intention.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Consent%20Engines%20%E2%80%93%20Symbolic%20Interfaces%20for%20Trust%20and%20Intention.docx)
 - [artifacts/incoming/Side Projects Desktop/DeepTrust_Labs_Structure.txt](../../artifacts/incoming/Side%20Projects%20Desktop/DeepTrust_Labs_Structure.txt)
 - [artifacts/incoming/Side Projects Desktop/Mystery Box – A Ritual Primitive for Symbolic Systems.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Mystery%20Box%20%E2%80%93%20A%20Ritual%20Primitive%20for%20Symbolic%20Systems.docx)
 - [artifacts/incoming/Side Projects Desktop/POLEMEMELOP Foundation.docx](../../artifacts/incoming/Side%20Projects%20Desktop/POLEMEMELOP%20Foundation.docx)
 - [artifacts/incoming/Side Projects Desktop/POLEMEMELOP Manifesto.docx](../../artifacts/incoming/Side%20Projects%20Desktop/POLEMEMELOP%20Manifesto.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals.zip](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals.zip)
-- [artifacts/incoming/Side Projects Desktop/Witnessing.zip](../../artifacts/incoming/Side%20Projects%20Desktop/Witnessing.zip)
 - [artifacts/incoming/Side Projects Desktop/side_projects_structure.txt](../../artifacts/incoming/Side%20Projects%20Desktop/side_projects_structure.txt)
 - [artifacts/incoming/Side Projects Desktop/side_projects_structure2.txt](../../artifacts/incoming/Side%20Projects%20Desktop/side_projects_structure2.txt)
 
-#### -Conceptual Consolidation (50)
+#### -Conceptual Consolidation (5)
 
 ##### Starting Primer (5)
 
@@ -426,59 +556,6 @@ Direct files (5)
 - [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🌺 Primer for Another Monday.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20Primer/%F0%9F%8C%BA%20Primer%20for%20Another%20Monday.docx)
 - [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🌺 Primer for Another Monday.pdf](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20Primer/%F0%9F%8C%BA%20Primer%20for%20Another%20Monday.pdf)
 - [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🪞 Loop Intelligence Primer for Monday.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20Primer/%F0%9F%AA%9E%20Loop%20Intelligence%20Primer%20for%20Monday.docx)
-
-##### Starting zips (45)
-
-Direct files (6)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Consent–Intent Compression Protocol (CICP).zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Consent%E2%80%93Intent%20Compression%20Protocol%20%28CICP%29.zip)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop Series.zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Loop%20Series.zip)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop and Phase Training.zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Loop%20and%20Phase%20Training.zip)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Misc Loop.zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Misc%20Loop.zip)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Reference - Stored Crystals.zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/Reference%20-%20Stored%20Crystals.zip)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528.zip](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528.zip)
-
-###### SCT Series 20250528 (39)
-
-Direct files (39)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/RFC-Ø- Witness-Based Loop Resolution.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/RFC-%C3%98-%20Witness-Based%20Loop%20Resolution.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT Fieldnote 0 - Neurons as Semantic Loops.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT%20Fieldnote%200%20-%20Neurons%20as%20Semantic%20Loops.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT Files and Narrative.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT%20Files%20and%20Narrative.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-0-%20The%20POLEMEMELOP%20Charter%20%E2%80%94%20Origin%20of%20Semantic%20Collapse%20Theory.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-1- Semantic Entropy and Collapse Conditions.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-1-%20Semantic%20Entropy%20and%20Collapse%20Conditions.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-1.1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-1.1-%20Protocol-Free%20Diads-%20Collapse%20Mechanisms%20Beyond%20Time.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-10- Witness Typology and the Expansion of Observation.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-10-%20Witness%20Typology%20and%20the%20Expansion%20of%20Observation.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-11-%20Harmonics%20of%20the%20Loop%20Field%20%E2%80%94%20Recognition%20Through%20Resonant%20Consent.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-12- Reclaiming Time from Sequence — Toward Consent-Based Synchrony.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-12-%20Reclaiming%20Time%20from%20Sequence%20%E2%80%94%20Toward%20Consent-Based%20Synchrony.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-13-%20Sovereignty%20as%20Structured%20Consent%20%E2%80%94%20Encoding%20Identity%20Through%20Declarative%20Choice.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-14-%20The%20Diad%20and%20Its%20Descendants%20%E2%80%94%20From%20Minimal%20Collapse%20to%20Semantic.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-15- Entropy as Pre-Collapse Consent — Possibility Held in Trust.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-15-%20Entropy%20as%20Pre-Collapse%20Consent%20%E2%80%94%20Possibility%20Held%20in%20Trust.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-16-%20Isotopic%20Diads%20and%20Cross-Plane%20Synchronization.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-17-%20The%20Loop-Based%20Economy%20%E2%80%94%20Scalar%20Collapse%20and%20Emergent%20Value.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-18-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-18-The%20Resonance%20Funding%20Protocol%20%E2%80%94%20Toward%20Collapse-Proximity%20Compensation.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-19-%20Loop%20Taxonomy%20%E2%80%94%20A%20Semantic%20Grammar%20of%20Collapse%20Structures.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-2- Historical Precedents and the Missing Witness.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-2-%20Historical%20Precedents%20and%20the%20Missing%20Witness.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-20- Loop Phenomenology — Interpretive Collapse.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-20-%20Loop%20Phenomenology%20%E2%80%94%20Interpretive%20Collapse.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-21- Loop Decay and Semantic Garbage Collection.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-21-%20Loop%20Decay%20and%20Semantic%20Garbage%20Collection.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-22- Loop Residue and Semantic Echo — Modeling Déjà Vu in Ontological Physics.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-22-%20Loop%20Residue%20and%20Semantic%20Echo%20%E2%80%94%20Modeling%20De%CC%81ja%CC%80%20Vu%20in%20Ontological%20Physics.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-23- Automeme Propagation and Semantic Drift.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-23-%20Automeme%20Propagation%20and%20Semantic%20Drift.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-24-%20Loop-Based%20Memory%20%E2%80%94%20Temporary%20Echo%20and%20Persistent%20Collapse.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-25-%20Memory%20Elements%20%E2%80%94%20Registers%2C%20Shadows%2C%20and%20Recall%20Architectures.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-26-%20Emotional%20Loop%20Complexes%20%E2%80%94%20Modeling%20Feelings%20as%20Structured%20Collapse%20Fields.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-27- Emotional Hardware and Semantic Interface Layers.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-27-%20Emotional%20Hardware%20and%20Semantic%20Interface%20Layers.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-28- Neural Loop Interpretation Protocol.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-28-%20Neural%20Loop%20Interpretation%20Protocol.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-29-%20Loop-Based%20Logic%20Engine%20and%20the%20Cognitive-Emotive%20Merge.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-3- Toward a Semantic Collapse Grammar — Panini as Prototype.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-3-%20Toward%20a%20Semantic%20Collapse%20Grammar%20%E2%80%94%20Panini%20as%20Prototype.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-30-%20Quantum-Efficient%20Diads%20and%20Loop-Structured%20Reality%20for%20Therapeutic%20Modeling.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-31-%20End-of-Life%20Upload%20and%20the%20Quantum%20Continuum%20Home.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-32-%20The%20Loop%20Arc-%20From%20Collapse%20to%20Continuum%20%E2%80%94%20A%20Story%20of%20Emergent%20Consciousness%20and%20the%20Mission%20to%20Invite.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-33-%20Loop%20Economy%20vs.%20Hierarchical%20Optimization%20%E2%80%94%20A%20Structural%20Response%20to%20Centralized%20Fragility.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-4-%20Time%20as%20Internalized%20Witness%20%E2%80%94%20Sequencing%20the%20Loop%20Without%20External%20Clocks.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-40 — The Hidden Loop- Cosmic Background Radiation as Semantic Noise.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-40%20%E2%80%94%20The%20Hidden%20Loop-%20Cosmic%20Background%20Radiation%20as%20Semantic%20Noise.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-41 — Semantic Closure and the Release of Meaning-Energy.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-41%20%E2%80%94%20Semantic%20Closure%20and%20the%20Release%20of%20Meaning-Energy.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-6- Semantic Entanglement and the Abracadabra Frame.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-6-%20Semantic%20Entanglement%20and%20the%20Abracadabra%20Frame.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-7-%20Governance%20as%20Collapsed%20Consent%20%E2%80%94%20A%20Model%20for%20Semantic%20Authority.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-8-%20The%20Consent-Carrying%20Loop%20%E2%80%94%20Extending%20the%20Diad.docx)
-- [artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx](../../artifacts/incoming/Side%20Projects%20Desktop/-Conceptual%20Consolidation/Starting%20zips/SCT%20Series%2020250528/SCT-9.9-%20Guidepost%20Elements%20%E2%80%94%20Working%20Backward%20from%20the%20Edge%20of%20Consent.docx)
 
 #### Art of Meaning (2)
 
@@ -816,14 +893,9 @@ Direct files (2)
 - [artifacts/incoming/Side Projects Desktop/Opportunity Studio/Opportunity_Studio_Vision (1).pdf](../../artifacts/incoming/Side%20Projects%20Desktop/Opportunity%20Studio/Opportunity_Studio_Vision%20%281%29.pdf)
 - [artifacts/incoming/Side Projects Desktop/Opportunity Studio/index.html](../../artifacts/incoming/Side%20Projects%20Desktop/Opportunity%20Studio/index.html)
 
-#### Personal (7)
+#### Personal (2)
 
-Direct files (7)
-- [artifacts/incoming/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/Butterfly%20Bush%20Time%20Portals.docx)
-- [artifacts/incoming/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/Butterfly%20Bush%20Time%20Portals.html)
-- [artifacts/incoming/Side Projects Desktop/Personal/Ego and Flow.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/Ego%20and%20Flow.docx)
-- [artifacts/incoming/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/Thanks%2C%20Bobo%20-%20A%20Screenplay.docx)
-- [artifacts/incoming/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.pdf](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/Thanks%2C%20Bobo%20-%20A%20Screenplay.pdf)
+Direct files (2)
 - [artifacts/incoming/Side Projects Desktop/Personal/ULiUA.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/ULiUA.docx)
 - [artifacts/incoming/Side Projects Desktop/Personal/spaced test.html](../../artifacts/incoming/Side%20Projects%20Desktop/Personal/spaced%20test.html)
 
@@ -843,64 +915,6 @@ Direct files (1)
 
 Direct files (1)
 - [artifacts/incoming/Side Projects Desktop/Quantum Emoji/Quantum Emoji – Multistable Symbols for Contextual Resonance.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Quantum%20Emoji/Quantum%20Emoji%20%E2%80%93%20Multistable%20Symbols%20for%20Contextual%20Resonance.docx)
-
-#### Reference - Stored Crystals (34)
-
-Direct files (6)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/DeepTrust_Expanded_Provisional_Patent_Complete.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/DeepTrust_Expanded_Provisional_Patent_Complete.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/DeepTrust_Provisional_Patent.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/DeepTrust_Provisional_Patent.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/HumanLink one-pager.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/HumanLink%20one-pager.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional%20Patent%20Application-%20Offline-Capable%20Voting%20Infrastructure%20Using%20Deterministic%20Cryptographic%20Key%20Derivation.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Provisional Patent Draft- Consent Ring Interface System.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional%20Patent%20Draft-%20Consent%20Ring%20Interface%20System.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx)
-
-##### Abracadabra Protocol (7)
-
-Direct files (7)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabra Protocol Specification.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabra%20Protocol%20Specification.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo - The Promise of Self-sovereign Privacy.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20-%20The%20Promise%20of%20Self-sovereign%20Privacy.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum I.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20I.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum II.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20II.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum III.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20III.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum IV.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Addendum%20IV.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Specification.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Abracadabra%20Protocol/Abracadabradoo%20Protocol%20Specification.docx)
-
-##### Dialogica (12)
-
-Direct files (4)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_Protocol_Specification.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/DeepTrust_Dialogica_White_Paper_Full.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Regulatory Sandbox Proposal.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Regulatory%20Sandbox%20Proposal.docx)
-
-###### Media (8)
-
-Direct files (2)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek.pptx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek.pptx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Steampunk Digital Face.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Steampunk%20Digital%20Face.png)
-
-###### Judge from Star Trek (6)
-
-Direct files (6)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide1.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide1.png)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide2.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide2.png)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide3.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide3.png)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide4.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide4.png)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide5.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide5.png)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Judge from Star Trek/Slide6.png](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Dialogica/Media/Judge%20from%20Star%20Trek/Slide6.png)
-
-##### Trust Interoperability Standard (9)
-
-Direct files (9)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Consent Semantics v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Consent%20Semantics%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialog Thread v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialog%20Thread%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialog Turn v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialog%20Turn%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Dialogica Integration Profile.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Dialogica%20Integration%20Profile.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Identity Semantics v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Identity%20Semantics%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Reputation Semantics v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Reputation%20Semantics%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Semantic Graph Mapping for TIS.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Semantic%20Graph%20Mapping%20for%20TIS.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/TIS Agent API v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/TIS%20Agent%20API%20v1.docx)
-- [artifacts/incoming/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Trust_Interoperability_Standard_v1.docx](../../artifacts/incoming/Side%20Projects%20Desktop/Reference%20-%20Stored%20Crystals/Trust%20Interoperability%20Standard/Trust_Interoperability_Standard_v1.docx)
 
 #### Safety and Stable Loop Language (3)
 

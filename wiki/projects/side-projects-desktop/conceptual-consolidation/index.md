@@ -6,7 +6,7 @@ This branch is the staging and mirror workspace for the side-project desktop's s
 
 - 53 files total.
 - 6 files in `Starting Primer`.
-- 46 files in `Starting zips`.
+- 46 files archived in `Starting zips`.
 
 ## Linked Existing Lineage
 
@@ -19,9 +19,9 @@ This branch is the staging and mirror workspace for the side-project desktop's s
 
 ## Working Read
 
-This folder is mostly duplicate-collapsing material. The primers are useful entry points, but the `Starting zips` folder should collapse back into the canonical `Semantic Collapse Theory` lineage wherever possible.
+This folder is mostly duplicate-collapsing material. The primers are useful entry points, and the `Starting zips` folder is now archived lineage evidence for the canonical `Semantic Collapse Theory` lineage.
 
 ## Next Actions
 
 1. Keep the primer pages visible as orientation material.
-2. Treat the zip bundle as lineage evidence, not new canonical content.
+2. Keep the archived zip bundle visible as lineage evidence, not new canonical content.
