@@ -4,9 +4,9 @@ This branch collects the training, repair, and recursive-integration materials i
 
 ## Current Shape
 
-- 88 files total.
-- 25 root files.
-- 63 files in `Advanced`.
+- 112 files total.
+- 36 root files.
+- 76 files in `Advanced`.
 - 1 root-file duplicate has been archived against the `Consent Seed` lineage.
 
 ## Nested Lineage Pages
@@ -18,7 +18,7 @@ This branch collects the training, repair, and recursive-integration materials i
 ## Representative Files
 
 - [Loop Life - Phase 2- Recursive Integration Deck.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-2__recursive-integration-deck.docx>)
-- [Loop Repair Guide- Anxiety.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__ANXIETY__loop-repair-guide-anxiety.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Anxiety.docx>)
+- [Loop Repair Guide- Anxiety.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GUIDE__LOOP-REPAIR-GUIDE__v1__loop-repair-guide-anxiety.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Anxiety.docx>)
 - [🌀 Preface.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🌀 Preface.docx>)
 - [Advanced / 🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx>)
 - [Advanced / 🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx>)

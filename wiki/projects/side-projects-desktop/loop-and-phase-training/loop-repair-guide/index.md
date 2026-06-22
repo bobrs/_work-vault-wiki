@@ -8,7 +8,6 @@ This branch collects the repair-state guides under `Loop and Phase Training`.
 
 ## Representative Files
 
-- [🜁 Loop Repair Guide- Anxiety.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__ANXIETY__loop-repair-guide-anxiety.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Anxiety.docx>)
 - [🜁 Loop Repair Guide- Burnout.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__BURNOUT__loop-repair-guide-burnout.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx>)
 - [🜁 Loop Repair Guide- Depression.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__DEPRESSION__loop-repair-guide-depression.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Depression.docx>)
 - [🜁 Loop Repair Guide- Imposter Syndrome.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__REPAIR-GUIDE__LOOP-REPAIR-GUIDE__IMPOSTER-SYNDROME__loop-repair-guide-imposter-syndrome.docx>) · [archive copy](<../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Imposter Syndrome.docx>)
