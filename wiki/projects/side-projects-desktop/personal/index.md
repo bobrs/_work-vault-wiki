@@ -26,9 +26,9 @@ This branch gathers the personal, reflective, and presentation-facing material i
 
 ## Working Read
 
-This is a personal synthesis folder: several files already have canonical wiki pages elsewhere, and the HTML pages should stay visible as published surfaces.
+This is a personal synthesis folder: several files already have canonical wiki pages elsewhere, one `Daily Growth Ritual` copy mirrors the existing branch, and the HTML pages should stay visible as published surfaces.
 
 ## Next Actions
 
 1. Keep the personal page linked to its existing canonical descendants.
-2. Split again only if the scratch/test HTML becomes meaningful content.
+2. Treat the mirrored `Daily Growth Ritual` copy as duplicate lineage.

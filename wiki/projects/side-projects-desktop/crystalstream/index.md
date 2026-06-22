@@ -20,9 +20,9 @@ This branch collects the Crystalstream and consent-flow materials.
 
 ## Working Read
 
-This is a distinct stream/flow branch, but it overlaps the existing consent-based atomic stream lineage enough to keep the cross-link visible.
+This is a mirror branch of the shared stream/flow set. Keep the cross-link visible and treat the hub page as canonical for the duplicated protocol files.
 
 ## Next Actions
 
 1. Keep the flow branch together.
-2. Split only if a clean Dialogica or routing seam appears.
+2. Collapse mirrored protocol files back to the hub page if new copies appear.

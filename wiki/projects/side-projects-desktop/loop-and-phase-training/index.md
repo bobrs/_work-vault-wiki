@@ -7,6 +7,7 @@ This branch collects the training and recursive-integration materials in the des
 - 97 files total.
 - 29 root files.
 - 68 files in `Advanced`.
+- 1 root-file duplicate mirrors the `Consent Seed` page.
 
 ## Nested Lineage Pages
 
@@ -22,9 +23,9 @@ This branch collects the training and recursive-integration materials in the des
 
 ## Working Read
 
-The root folder is the training seam; `Advanced` holds the deeper recursive material, and its internal subfolders still look thematic rather than ready for another split.
+The root folder is the training seam; `Advanced` holds the deeper recursive material, and one root file is a duplicate consent-seed copy that should collapse to the dedicated `Consent Seed` page.
 
 ## Next Actions
 
 1. Keep `Advanced` stable.
-2. Split the advanced subfolders only if one of them develops a durable seam.
+2. Treat the consent-seed copy as mirrored material.
