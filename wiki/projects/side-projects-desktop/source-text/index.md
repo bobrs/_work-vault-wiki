@@ -23,6 +23,14 @@ This branch holds the source-analysis material and the consolidated source view.
 
 This is a source-analysis branch rather than a content branch. The root analysis views and the source bundle now sit on their own pages.
 
+The page functions as a semantic index for the analysis workflow: the `Analysis and Consolidated View` branch holds the reflective write-up, while `Source` holds the paired DOCX inputs and their generated analysis outputs. That separation is useful because it keeps the source inputs visible while letting the analysis layer become a readable map rather than a file dump.
+
+## Related Links
+
+- [Analysis and Consolidated View](analysis-and-consolidated-view/index.md)
+- [Source](source/index.md)
+- [Side Projects Desktop](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.
