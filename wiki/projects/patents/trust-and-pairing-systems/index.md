@@ -8,11 +8,11 @@ This cluster covers the patent-family trust, pairing, locking, and message-excha
 
 ## Representative Files
 
-- [Client-to-client P2P TOTP + Message Patent / DeepTrust_Enterprise_Provisional_Patent_Draft.docx](<../../../../artifacts/incoming/Patents/Client-to-client P2P TOTP + Message Patent/DeepTrust_Enterprise_Provisional_Patent_Draft.docx>)
-- [Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx](<../../../../artifacts/incoming/Patents/Coherence Keys/Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx>)
-- [EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx](<../../../../artifacts/incoming/Patents/EchoPad/EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx>)
-- [LoopLock Smart Lock Technology.docx](<../../../../artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/LoopLock Smart Lock Technology.docx>)
-- [DeepTrust_Provisional_Patent.docx](<../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/DeepTrust_Provisional_Patent.docx>)
+- [Client-to-client P2P TOTP + Message Patent / DeepTrust_Enterprise_Provisional_Patent_Draft.docx](<../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__CLIENT-TO-CLIENT-P2P-TOTP-MESSAGE-PATENT__v1__deeptrust-enterprise-provisional-patent-draft.docx>)
+- [Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx](<../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__COHERENCE-KEYS__v1__coherence-keys-trust-through-pattern-synchronization-and-phase-matching.docx>)
+- [EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx](<../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__ECHOPAD__v1__echopad-protocol-compressed-trust-pads-with-echo-based-indexing.docx>)
+- [LoopLock Smart Lock Technology.docx](<../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPLOCK-MUTUAL-TOTP-BASED-PHYSICAL-LOCK__v2__looplock-smart-lock-technology.docx>)
+- [DeepTrust_Provisional_Patent.docx](<../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__v1__deeptrust-provisional-patent.docx>)
 
 ## Nested Lineage Pages
 
@@ -25,7 +25,7 @@ This cluster covers the patent-family trust, pairing, locking, and message-excha
 
 ## Working Read
 
-This is the mutual-authentication and physical-pairing layer: bidirectional TOTP, message exchange, trust pads, lock systems, and coherence-key mechanisms.
+This is the mutual-authentication and physical-pairing layer: bidirectional TOTP, message exchange, trust pads, lock systems, and coherence-key mechanisms. The live manuscripts and supporting artifacts now have standard-named source copies.
 
 ## Next Actions
 

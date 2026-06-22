@@ -12,12 +12,12 @@ This branch covers the client-to-client mutual-authentication and message-exchan
 
 ## Representative Files
 
-- [DeepTrust_Enterprise_Provisional_Patent_Draft.docx](<../../../../../artifacts/incoming/Patents/Client-to-client P2P TOTP + Message Patent/DeepTrust_Enterprise_Provisional_Patent_Draft.docx>)
-- [DeepTrust_Expanded_Provisional_Patent_Complete.docx](<../../../../../artifacts/incoming/Patents/Client-to-client P2P TOTP + Message Patent/DeepTrust_Expanded_Provisional_Patent_Complete.docx>)
+- [DeepTrust_Enterprise_Provisional_Patent_Draft.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__CLIENT-TO-CLIENT-P2P-TOTP-MESSAGE-PATENT__v1__deeptrust-enterprise-provisional-patent-draft.docx>)
+- [DeepTrust_Expanded_Provisional_Patent_Complete.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__CLIENT-TO-CLIENT-P2P-TOTP-MESSAGE-PATENT__v2__deeptrust-expanded-provisional-patent-complete.docx>)
 
 ## Working Read
 
-This is the bilateral messaging seam inside the trust/pairing layer. The draft and complete manuscripts belong together as one stable branch, with the complete version providing the more developed expression.
+This is the bilateral messaging seam inside the trust/pairing layer. The draft and complete manuscripts belong together as one stable branch, with the complete version providing the more developed expression. Both now have standard-named source copies.
 
 ## Next Actions
 

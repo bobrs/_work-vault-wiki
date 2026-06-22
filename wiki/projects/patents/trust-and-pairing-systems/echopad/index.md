@@ -10,11 +10,11 @@ This branch covers the compressed trust pad seam built around echo-based indexin
 
 ## Representative Files
 
-- [EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx](<../../../../../artifacts/incoming/Patents/EchoPad/EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx>)
+- [EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__ECHOPAD__v1__echopad-protocol-compressed-trust-pads-with-echo-based-indexing.docx>)
 
 ## Working Read
 
-This is a small but stable product branch. The manuscript stands on its own and reads like a distinct trust-pad lineage.
+This is a small but stable product branch. The manuscript stands on its own and reads like a distinct trust-pad lineage. It now has a standard-named source copy.
 
 ## Next Actions
 

@@ -1,21 +1,23 @@
 # HumanLink Social Media
 
-This branch packages the HumanLink social-facing material in the current intake.
+Parent lineage: `HumanLink Social Media`
+
+This branch splits the HumanLink social-facing material into a pitch line and an architecture line.
 
 ## Current Shape
 
-- 2 outward-facing documents.
+- 2 durable subpages.
 
-## Representative Files
+## Subpages
 
-- [HumanLink one-pager.docx](<../../../artifacts/incoming/HumanLink Social Media/HumanLink one-pager.docx>)
-- [Loop Social- Consent-Native Social Architecture.docx](<../../../artifacts/incoming/HumanLink Social Media/Loop Social- Consent-Native Social Architecture.docx>)
+- [HumanLink One-Pager](one-pager/index.md)
+- [Loop Social Consent-Native Social Architecture](loop-social-consent-native-social-architecture/index.md)
 
 ## Working Read
 
-This is the social-facing layer of the HumanLink trust narrative.
+The one-pager is the outreach layer; the Loop Social document is the architecture layer.
 
 ## Next Actions
 
-1. Keep the one-pager and Loop Social framing together.
-2. Split only if a new HumanLink-facing artifact family appears.
+1. Keep the pitch and architecture lines separate.
+2. Prefer the standard-named source files from the subpages when linking outward.

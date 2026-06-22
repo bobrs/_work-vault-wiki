@@ -1,10 +1,12 @@
 # Similar Projects
 
-This branch collects the BobbyOS-adjacent runtime, cognitive, and semantic experiment family in the current intake.
+Parent lineage: `Similar Projects`
+
+This branch normalizes the BobbyOS-adjacent runtime, cognitive, and semantic experiment family into standard-named source copies.
 
 ## Current Shape
 
-- 21 runtime and cognitive documents.
+- 20 runtime and cognitive documents.
 - 5 nested lineage pages organize those documents.
 
 ## Nested Lineage Pages
@@ -17,11 +19,11 @@ This branch collects the BobbyOS-adjacent runtime, cognitive, and semantic exper
 
 ## Representative Files
 
-- [Cognitive Runtime / Bobby Brain OS.docx](<../../../artifacts/incoming/Similar Projects/Bobby Brain Os.docx>)
-- [Context and Reflection / Context Shifter Simple.docx](<../../../artifacts/incoming/Similar Projects/Context Shifter Simple.docx>)
-- [Temporal and Topological Models / Chronoglyph Doczip.docx](<../../../artifacts/incoming/Similar Projects/Chronoglyph Doczip.docx>)
-- [Protocol and Sovereignty / The Genghis Protocol General.docx](<../../../artifacts/incoming/Similar Projects/The Genghis Protocol General.docx>)
-- [Glyphframe and Compression / Glyphframe Spec.docx](<../../../artifacts/incoming/Similar Projects/Glyphframe Spec.docx>)
+- [Cognitive Runtime / Bobby Brain OS.docx](<../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBY-BRAIN-OS__v1__bobby-brain-os.docx>)
+- [Context and Reflection / Context Shifter Simple.docx](<../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__CONTEXT-REFLECTION__CONTEXT-SHIFTER-SIMPLE__v1__context-shifter-simple.docx>)
+- [Temporal and Topological Models / Chronoglyph Doczip.docx](<../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__CHRONOGLYPH__v1__chronoglyph-doczip.docx>)
+- [Protocol and Sovereignty / The Genghis Protocol General.docx](<../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__PROTOCOL-SOVEREIGNTY__GENGHIS-PROTOCOL__v3__the-genghis-protocol-general.docx>)
+- [Glyphframe and Compression / Glyphframe Spec.docx](<../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__GLYPHFRAME-COMPRESSION__GLYPHFRAME-SPEC__v1__glyphframe-spec.docx>)
 
 ## Working Read
 

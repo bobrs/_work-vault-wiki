@@ -12,13 +12,13 @@ This branch covers the physical integrity-validation seam for loop-based trust s
 
 ## Representative Files
 
-- [Loopguard Integrity Patent.docx](<../../../../../artifacts/incoming/Patents/LoopGuard Physical Integrity Validation/Loopguard Integrity Patent.docx>)
-- [LoopGuard Qr Teaser.docx](<../../../../../artifacts/incoming/Patents/LoopGuard Physical Integrity Validation/LoopGuard Qr Teaser.docx>)
-- [LoopGuard Verification Teaser.docx](<../../../../../artifacts/incoming/Patents/LoopGuard Physical Integrity Validation/LoopGuard Verification Teaser.docx>)
+- [Loopguard Integrity Patent.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPGUARD-PHYSICAL-INTEGRITY-VALIDATION__v1__loopguard-integrity-patent.docx>)
+- [LoopGuard Qr Teaser.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPGUARD-PHYSICAL-INTEGRITY-VALIDATION__v3__loopguard-qr-teaser.docx>)
+- [LoopGuard Verification Teaser.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPGUARD-PHYSICAL-INTEGRITY-VALIDATION__v2__loopguard-verification-teaser.docx>)
 
 ## Working Read
 
-This is the validation side of the physical trust layer. The teaser docs and the main integrity patent read as one small but durable branch.
+This is the validation side of the physical trust layer. The teaser docs and the main integrity patent read as one small but durable branch. All three now have standard-named source copies.
 
 ## Next Actions
 

@@ -8,6 +8,7 @@ This branch collects the HumanKey trust-authentication family in the current int
 - 2 presentation decks.
 - 2 companion videos.
 - slide image exports for the presentation decks.
+- standard-named source copies now exist for the 5 protocol/submission docs and the 2 presentation decks.
 - 2 nested lineage pages organize those artifacts.
 
 ## Nested Lineage Pages
@@ -17,12 +18,12 @@ This branch collects the HumanKey trust-authentication family in the current int
 
 ## Representative Files
 
-- [Presentation Materials / HumanKey Ad.pptx](<../../../artifacts/incoming/HumanKey Protocol/HumanKey Ad.pptx>)
-- [Protocol Drafts and Submission / IETF RFC submission - HumanKey.docx](<../../../artifacts/incoming/HumanKey Protocol/IETF RFC submission - HumanKey.docx>)
+- [Presentation Materials / HumanKey Ad.pptx](<../../../artifacts/standard-named/20260622__HUMANKEY__PRESENTATION__AD__v1__humankey-ad.pptx>) · [archive copy](<../../../artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/HumanKey Ad.pptx>)
+- [Protocol Drafts and Submission / IETF RFC submission - HumanKey.docx](<../../../artifacts/standard-named/20260622__HUMANKEY__RFC-SUBMISSION__HUMANKEY__v1__ietf-rfc-submission-humankey.docx>) · [archive copy](<../../../artifacts/intake-archive/20260622__humankey-protocol-intake/IETF RFC submission - HumanKey.docx>)
 
 ## Working Read
 
-HumanKey now separates cleanly into outward-facing presentation material and protocol/submission drafts. The RFC path and the FractalIdentity extension sit in the same trust-authentication lineage.
+HumanKey now separates cleanly into outward-facing presentation material and protocol/submission drafts. The RFC path and the FractalIdentity extension sit in the same trust-authentication lineage, with standard-named source copies available for the core docs.
 
 ## Next Actions
 

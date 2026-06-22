@@ -13,13 +13,13 @@ This branch covers the physical lock seam in the trust-and-pairing family: why t
 
 ## Representative Files
 
-- [LoopLock Smart Lock Technology.docx](<../../../../../artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/LoopLock Smart Lock Technology.docx>)
-- [LoopLock - Why Bidirectional.docx](<../../../../../artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/LoopLock - Why Bidirectional.docx>)
-- [Adaptive-Length Mutual TOTP-Based Physical Lock System.docx](<../../../../../artifacts/incoming/Patents/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx>)
+- [LoopLock Smart Lock Technology.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPLOCK-MUTUAL-TOTP-BASED-PHYSICAL-LOCK__v2__looplock-smart-lock-technology.docx>)
+- [LoopLock - Why Bidirectional.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPLOCK-MUTUAL-TOTP-BASED-PHYSICAL-LOCK__v3__looplock-why-bidirectional.docx>)
+- [Adaptive-Length Mutual TOTP-Based Physical Lock System.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__LOOPLOCK-MUTUAL-TOTP-BASED-PHYSICAL-LOCK__v1__adaptive-length-mutual-totp-based-physical-lock-system.docx>)
 
 ## Working Read
 
-This is the physical instantiation of the trust/pairing layer. The three documents read as one stable seam: product framing, rationale, and the lock mechanism itself.
+This is the physical instantiation of the trust/pairing layer. The three documents read as one stable seam: product framing, rationale, and the lock mechanism itself. All three now have standard-named source copies.
 
 ## Next Actions
 

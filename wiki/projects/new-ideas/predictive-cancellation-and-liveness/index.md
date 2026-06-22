@@ -8,10 +8,10 @@ This cluster covers the TOTP-watchdog and predictive cancellation systems.
 
 ## Representative Files
 
-- [Cryptographic Heartbeat Circuit.docx](<../../../../artifacts/incoming/New Ideas/Cryptographic Heartbeat Circuit.docx>)
-- [Synchronized Predictive Cancellation System.docx](<../../../../artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System.docx>)
-- [Synchronized Predictive Cancellation System + Plus.docx](<../../../../artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus.docx>)
-- [Synchronized Predictive Cancellation System + Plus + Plus.docx](<../../../../artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus + Plus.docx>)
+- [Cryptographic Heartbeat Circuit.docx](<../../../../artifacts/standard-named/20260622__NEW-IDEAS__LIVENESS__CRYPTOGRAPHIC-HEARTBEAT-CIRCUIT__v1__cryptographic-heartbeat-circuit.docx>)
+- [Synchronized Predictive Cancellation System.docx](<../../../../artifacts/standard-named/20260622__NEW-IDEAS__SYSTEM__SYNCHRONIZED-PREDICTIVE-CANCELLATION-SYSTEM__v1__synchronized-predictive-cancellation-system.docx>)
+- [Synchronized Predictive Cancellation System + Plus.docx](<../../../../artifacts/standard-named/20260622__NEW-IDEAS__SYSTEM__SYNCHRONIZED-PREDICTIVE-CANCELLATION-SYSTEM-PLUS__v2__synchronized-predictive-cancellation-system-plus.docx>)
+- [Synchronized Predictive Cancellation System + Plus + Plus.docx](<../../../../artifacts/standard-named/20260622__NEW-IDEAS__SYSTEM__SYNCHRONIZED-PREDICTIVE-CANCELLATION-SYSTEM-PLUS-PLUS__v3__synchronized-predictive-cancellation-system-plus-plus.docx>)
 
 ## Working Read
 

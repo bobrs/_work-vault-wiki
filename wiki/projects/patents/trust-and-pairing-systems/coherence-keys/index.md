@@ -10,11 +10,11 @@ This branch covers the pattern-synchronization and phase-matching trust concept.
 
 ## Representative Files
 
-- [Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx](<../../../../../artifacts/incoming/Patents/Coherence Keys/Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx>)
+- [Coherence Keys – Trust Through Pattern Synchronization and Phase Matching.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__COHERENCE-KEYS__v1__coherence-keys-trust-through-pattern-synchronization-and-phase-matching.docx>)
 
 ## Working Read
 
-This is a compact but durable trust-seam branch. The title itself reads like a stable concept and the manuscript is self-contained.
+This is a compact but durable trust-seam branch. The title itself reads like a stable concept and the manuscript is self-contained. It now has a standard-named source copy.
 
 ## Next Actions
 

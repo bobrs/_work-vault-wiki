@@ -15,12 +15,12 @@ This branch covers the wrapped bidirectional TOTP patent package, including the 
 
 ## Representative Files
 
-- [DeepTrust_Provisional_Patent.docx](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/DeepTrust_Provisional_Patent.docx>)
-- [USPTO_SB16_CoverSheet_Bobby_Simpson.docx](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/USPTO_SB16_CoverSheet_Bobby_Simpson.docx>)
-- [SB15A_Certification_Micro_Entity_Bobby_Simpson.docx](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx>)
-- [authentication.png](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/authentication.png>)
-- [key exchange.png](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/key exchange.png>)
-- [Patent application payment.pdf](<../../../../../artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf>)
+- [DeepTrust_Provisional_Patent.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__v1__deeptrust-provisional-patent.docx>)
+- [USPTO_SB16_CoverSheet_Bobby_Simpson.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__SB16-COVER-SHEET__v1__uspto-sb16-coversheet-bobby-simpson.docx>)
+- [SB15A_Certification_Micro_Entity_Bobby_Simpson.docx](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__SB15A-CERTIFICATION__v1__sb15a-certification-micro-entity-bobby-simpson.docx>)
+- [authentication.png](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__DIAGRAM-AUTHENTICATION__v1__authentication.png>)
+- [key exchange.png](<../../../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__DIAGRAM-KEY-EXCHANGE__v1__key-exchange.png>)
+- [Patent application payment.pdf](<../../../../../artifacts/intake-archive/20260622__patents-trust-pairing-intake/Wrapped Bidirectional TOTP Patent/Patent application payment.pdf>)
 
 ## Archived Witness
 
@@ -28,7 +28,7 @@ This branch covers the wrapped bidirectional TOTP patent package, including the 
 
 ## Working Read
 
-The live patent package stays together because the manuscript, filing forms, and diagrams function as one trust-and-pairing evidence set. The archived reference-vault copy remains visible as witness history, not as the active branch.
+The live patent package stays together because the manuscript, filing forms, and diagrams function as one trust-and-pairing evidence set. The archived reference-vault copy remains visible as witness history, not as the active branch, and the payment receipt stays auxiliary in intake archive.
 
 ## Next Actions
 

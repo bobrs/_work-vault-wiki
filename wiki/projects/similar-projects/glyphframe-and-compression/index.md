@@ -8,7 +8,7 @@ This cluster covers the standalone glyph compression standard in the intake.
 
 ## Representative Files
 
-- [Glyphframe Spec.docx](<../../../../artifacts/incoming/Similar Projects/Glyphframe Spec.docx>)
+- [Glyphframe Spec.docx](<../../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__GLYPHFRAME-COMPRESSION__GLYPHFRAME-SPEC__v1__glyphframe-spec.docx>)
 
 ## Working Read
 

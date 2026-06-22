@@ -14,8 +14,8 @@ This branch collects the experimental signal-protection concepts in the current 
 
 ## Representative Files
 
-- [Signal Obfuscation and Shielding / GhostMesh Whitepaper.docx](<../../../artifacts/incoming/New Ideas/GhostMesh Whitepaper.docx>)
-- [Predictive Cancellation and Liveness / Synchronized Predictive Cancellation System + Plus + Plus.docx](<../../../artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus + Plus.docx>)
+- [Signal Obfuscation and Shielding / GhostMesh Whitepaper.docx](<../../../artifacts/standard-named/20260622__NEW-IDEAS__WHITEPAPER__GHOSTMESH__v1__ghostmesh-whitepaper.docx>)
+- [Predictive Cancellation and Liveness / Synchronized Predictive Cancellation System + Plus + Plus.docx](<../../../artifacts/standard-named/20260622__NEW-IDEAS__SYSTEM__SYNCHRONIZED-PREDICTIVE-CANCELLATION-SYSTEM-PLUS-PLUS__v3__synchronized-predictive-cancellation-system-plus-plus.docx>)
 
 ## Working Read
 

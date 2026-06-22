@@ -8,9 +8,9 @@ This cluster covers the Genghis protocol family and its sovereignty framing.
 
 ## Representative Files
 
-- [Genghis Protocol.docx](<../../../../artifacts/incoming/Similar Projects/Genghis Protocol.docx>)
-- [Genghis Protocol Compressed.docx](<../../../../artifacts/incoming/Similar Projects/Genghis Protocol Compressed.docx>)
-- [The Genghis Protocol General.docx](<../../../../artifacts/incoming/Similar Projects/The Genghis Protocol General.docx>)
+- [Genghis Protocol.docx](<../../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__PROTOCOL-SOVEREIGNTY__GENGHIS-PROTOCOL__v1__genghis-protocol.docx>)
+- [Genghis Protocol Compressed.docx](<../../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__PROTOCOL-SOVEREIGNTY__GENGHIS-PROTOCOL__v2__genghis-protocol-compressed.docx>)
+- [The Genghis Protocol General.docx](<../../../../artifacts/standard-named/20260622__SIMILAR-PROJECTS__PROTOCOL-SOVEREIGNTY__GENGHIS-PROTOCOL__v3__the-genghis-protocol-general.docx>)
 
 ## Working Read
 
