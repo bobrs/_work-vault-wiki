@@ -6,11 +6,11 @@ Current state: `artifacts/incoming/` now contains the active intake set under `C
 
 Observed shape:
 
-- 132 incoming files were inventoried.
+- 117 incoming files were inventoried.
 - The intake is mostly `.docx` files, with a small number of `.html`, `.zip`, and `.pdf` companions. `.zip` companions are auxiliary unless otherwise noted.
-- The dominant subclusters are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`, both of which can be tracked as stand-alone lineage pages.
-- There are also direct root-level artifacts such as `Thanks, Bobo - A Screenplay`, `Butterfly Bush Time Portals`, `Daily Growth Ritual`, `POLEMEMELOP Manifesto`, `POLEMEMELOP Foundation`, and `ULiUA`.
-- Eighteen exact duplicate pairs were found in the archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot, which suggests a versioned snapshot rather than accidental duplication. Those copies can be collapsed into a coherent set after witness, provided file content is not altered and the collapse-parent metadata is preserved.
+- The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`, and each now has a lineage page.
+- The small root-level works now have their own standalone pages: `Thanks, Bobo - A Screenplay`, `Butterfly Bush Time Portals`, `Daily Growth Ritual`, and `Ego and Flow`.
+- The archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot has already absorbed the exact duplicate SCT pairs, with collapse-parent metadata recorded elsewhere.
 
 Use this page to list:
 
@@ -20,7 +20,7 @@ Use this page to list:
 
 Next actions:
 
-- Review the intake as one corpus before splitting it.
-- Use the project lineage pages for CICP and SCT once the branch structure is stable.
-- Review the archived snapshot only if you need to collapse copies or designate canon.
+- Use the project lineage pages for CICP, SCT, and POLEMEMELOP as the stable branch map.
+- Add only genuinely new intake here; the existing root-level works are already classified.
+- Review the archived snapshot only if you need to inspect lineage history.
 - Move only the files that are clearly understood enough to justify it.

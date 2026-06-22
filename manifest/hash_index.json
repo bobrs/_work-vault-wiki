@@ -86,8 +86,8 @@
   "1f6beb0a9ff7d4fedad30d5c46b074801eefcadd2d6869c635cf053e23c578dd": [
     "scripts/inventory.py"
   ],
-  "1ff049bee43d4f01de324c58b50b14ee93d2e761b5b6d59e8bdf9ad100e6804c": [
-    "manifest/hash_index.json"
+  "216018953b65b125381cbbaee1d74e8691f37c42642c27e3572e2287407be4df": [
+    "wiki/projects/consent-crystal-structure-research/index.md"
   ],
   "217e314826849e7d1d90b3b14dce839fcd86034fcb990b389297dfdf01376bbb": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx"
@@ -146,6 +146,9 @@
   "3243db2c37727d14fe0b5164ce9c8a060991a91f520662ef86969c65da9d4697": [
     "wiki/projects/index.md"
   ],
+  "33164510e6f5a814262a1ad5df07c5fdbffd927cbd74b1831052c9264c35a366": [
+    "wiki/incoming-review.md"
+  ],
   "37294ab6b34ce73467d7e6c3b5638e9de4cb9cf44bea2ca740b15ef7e1b76d54": [
     "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md"
   ],
@@ -166,12 +169,6 @@
   ],
   "3d1b7a87927d854cf2870486fc19e065ce3729cc3b6304ed3bde463a2516dc07": [
     "wiki/concepts/polememelop/index.md"
-  ],
-  "3ded067d691794380251362186afe53a1b3051405858ee47f18e0033bf049782": [
-    "manifest/inventory.jsonl"
-  ],
-  "429ca6bc20094e280304662d7fdfa7e803e9fc8be4c8c6f8dcca6ad60d3be58a": [
-    "wiki/projects/consent-crystal-structure-research/index.md"
   ],
   "4397c27c31c07316c9523da893289abc17abc2ee68945751ad9a1aefae3b9200": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx"
@@ -310,9 +307,6 @@
   ],
   "7cc5b69987bd5e96526090628acb67dd776287114281321076ef751aed1ac764": [
     "scripts/check_links.py"
-  ],
-  "7d40b28015f740f7f715d4b43b37814919c9ded528406a22430b3cde69583c70": [
-    "wiki/incoming-review.md"
   ],
   "7d729cdedd79012526e3a035e319e4694f0f65ce5fd9b626a3b4955a9ba38ffb": [
     "WIKI.md"
@@ -526,6 +520,12 @@
   ],
   "cef68357e60e1fc810ef3eada0b9b2a7c0f473cd26a2be57dbb39be8188a08d5": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx"
+  ],
+  "cf08ff0c750908d21f7edcf6c167aa65a78d9c16f7cbe7ff9f4a3c7f5edf1e0c": [
+    "manifest/inventory.jsonl"
+  ],
+  "d44e33a0f25d7e97cd61b9d75201982345aa845e617f09972b79521f3bc5b68c": [
+    "manifest/hash_index.json"
   ],
   "d7b86fb113df49392d2c458ba42239668b7469f62156424adca1a376e4158a03": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-4 — The Multi-Agent Collapse Loop.docx"

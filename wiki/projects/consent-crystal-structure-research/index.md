@@ -6,11 +6,11 @@ This is the first major batch of added content. It remains in active intake, so 
 
 ## Current Shape
 
-- 130 files were inventoried in the active incoming corpus.
+- 117 files were inventoried in the active incoming corpus.
 - 21 files are archived under `artifacts/archived/Consent Crystal Structure Research`, including 19 in `SCT set 20050505`.
 - The corpus is mostly `.docx`, with a small number of `.html`, `.zip`, and `.pdf` companions.
-- The main branches are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`.
-- There are 10 direct root-level artifacts under the incoming corpus folder.
+- The main structured branches are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`.
+- The remaining root-level artifacts are tracked as standalone pages.
 
 ## Lineage Pages
 
@@ -84,13 +84,15 @@ The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 ## Review Notes
 
 - The `Semantic Collapse Theory` lineage cluster has been archived and split into lineage pages.
+- The `Consent–Intent Compression Protocol (CICP)` lineage is split into protocol, implementation, outreach, training, and identity-tree pages.
 - The `Butterfly Bush Time Portals` DOCX companion has been archived because the HTML page is the published form.
 - The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
+- The small root-level works now each have their own durable page.
 
 ## Next Actions
 
-1. Review the `Semantic Collapse Theory` duplicate pairs first.
-2. Decide whether `SCT set 20050505` is archival snapshot material, a parallel working branch, or a staging copy.
-3. Classify the root-level documents only after the major branch structure is settled.
+1. Keep the existing lineage pages stable unless a new durable branch appears.
+2. Classify any new intake against the current branch map instead of restarting the intake review.
+3. Leave the archived companions and snapshots in place as lineage evidence.
