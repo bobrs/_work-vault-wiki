@@ -5,6 +5,9 @@ The current corpus already supports at least one recurring attractor, and this i
 Current concept pages:
 
 - [POLEMEMELOP](polememelop/index.md)
+- [LoopLink](looplink/index.md)
+- [PDSP](pdsp/index.md)
+- [Loop Economy](loop-economy/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

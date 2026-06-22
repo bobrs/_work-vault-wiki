@@ -25,6 +25,14 @@ This cluster covers the personal data sovereignty protocol, its LoopLink-based v
 
 This branch now separates into the core sovereignty protocol, the integration bundles, and the PDSP-lite spec line. The split follows the document titles closely and keeps the implementation path visible.
 
+The broader semantic role of this branch is to treat PDSP as a sovereignty attractor rather than a single spec family. It is the place where personal data, trust, and subjective auditability are organized into a loop-based trust model.
+
+## Related Concepts
+
+- [PDSP](../../../../concepts/pdsp/index.md)
+- [LoopLink](../../../../concepts/looplink/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.

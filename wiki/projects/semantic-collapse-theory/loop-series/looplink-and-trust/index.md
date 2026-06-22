@@ -23,6 +23,13 @@ This cluster covers LoopLink transport, handshake material, schema definition, p
 
 This branch now separates into protocol/core material and a presence/recovery companion branch. The split follows the document titles closely and keeps the transport layer visible.
 
+The broader semantic role of this branch is to name LoopLink as the transport and recovery attractor for SCT. It is the place where protocol formation, presence restoration, and trust-memory behavior converge.
+
+## Related Concepts
+
+- [LoopLink](../../../../concepts/looplink/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

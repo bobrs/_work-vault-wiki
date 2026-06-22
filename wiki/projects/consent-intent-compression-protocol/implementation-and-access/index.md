@@ -29,6 +29,12 @@ This is the execution surface of CICP. It turns the protocol vocabulary into som
 
 The three subpages form a clean implementation pipeline, which is why this cluster should stay readable as a flow rather than as a disconnected list of topics.
 
+## Related Concepts
+
+- [LoopLink](../../../concepts/looplink/index.md)
+- [PDSP](../../../concepts/pdsp/index.md)
+- [POLEMEMELOP](../../../concepts/polememelop/index.md)
+
 ## Related Links
 
 - [Consent–Intent Compression Protocol (CICP)](../index.md)

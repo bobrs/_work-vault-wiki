@@ -16,9 +16,9 @@ That makes this page a concept node, but also a bridge between theory pages, pro
 
 ## Related Pages
 
-- [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
-- [Semantic Collapse Theory](../../semantic-collapse-theory/index.md)
-- [Consent–Intent Compression Protocol (CICP)](../../consent-intent-compression-protocol/index.md)
+- [Consent Crystal Structure Research](../../projects/consent-crystal-structure-research/index.md)
+- [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Concepts Index](../index.md)
 
 ## Notes

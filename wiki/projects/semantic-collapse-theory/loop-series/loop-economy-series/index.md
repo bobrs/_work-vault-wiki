@@ -25,6 +25,11 @@ This branch bifurcates cleanly into economic framing material and operational lo
 
 The branch’s deeper semantic role is to model participation as an economy of loops. It describes how value is framed, how operational units move it, and how support material keeps the model legible. That makes the branch less like a finance sidebar and more like a theory of circulation, feedback, and participation under loop conditions.
 
+## Related Concepts
+
+- [Loop Economy](../../../../concepts/loop-economy/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Related Links
 
 - [Loop Series](../index.md)
