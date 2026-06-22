@@ -56,6 +56,23 @@ For canon-grade or highly connected files, the wiki page should include deeper s
 
 ---
 
+# 2.1 Working-Format Workflow
+
+When the source artifact is DOCX or PDF, extract into a Markdown wiki page as the working layer rather than trying to keep the source file as the editable primary.
+
+The source file remains the witness record. The Markdown page becomes the editable semantic surface.
+
+Use this sequence:
+
+1. Preserve the original DOCX or PDF as the archival witness.
+2. Create or update the Markdown page with the extracted working read, claims, motifs, links, and concept connections.
+3. Leave the source file linked on the page so the reader can return to the witness.
+4. Schedule any cleanup or wording normalization as a later pass after intake stabilizes.
+
+If the artifact is already HTML-native and web-published, keep HTML primary and treat Markdown as the wiki summary layer around it.
+
+---
+
 # 3. Processing Tiers
 
 Every file should be inventoried, but not every file deserves equal semantic treatment.
@@ -121,6 +138,8 @@ Recommended sections:
 - related concepts
 - recommended disposition
 
+Tier 3 should be written into Markdown, even when the source file is DOCX or PDF.
+
 ## Tier 4: Conceptual Integration
 
 The wiki relates the document to the larger work field.
@@ -135,6 +154,8 @@ Recommended sections:
 - possible attractor page links
 - synthesis notes
 - drift notes
+
+Tier 4 should seed or deepen Markdown concept links when recurring ideas are present.
 
 ## Tier 5: Canon / Lineage Treatment
 

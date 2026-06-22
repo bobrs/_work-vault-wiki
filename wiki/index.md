@@ -21,3 +21,4 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - Use the review pages to track intake, duplicate collapse, source naming, and archival work.
 - Split out evidence-backed subpages with lineage labels when a branch stabilizes.
 - Keep `.zip` companions auxiliary unless a page explicitly promotes them.
+- Treat `DOCX` and `PDF` as witness/reference files and use Markdown wiki pages as the working semantic layer for extraction, linking, and later cleanup passes.
