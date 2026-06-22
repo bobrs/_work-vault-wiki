@@ -5,11 +5,11 @@ This branch collects the Dialogica protocol and media materials inside the refer
 ## Current Shape
 
 - 14 Dialogica files.
-- 1 sample transcript.
-- 1 protocol specification.
-- 1 white paper.
-- 1 regulatory sandbox proposal.
-- 1 media folder with two visual/presentation assets.
+- 1 media branch with slide deck exports.
+
+## Nested Lineage Pages
+
+- [Media](media/index.md)
 
 ## Representative Files
 
@@ -22,9 +22,9 @@ This branch collects the Dialogica protocol and media materials inside the refer
 
 ## Working Read
 
-This is the distinct reference seam in the folder. The media folder stays bundled with the protocol materials for now.
+This is the distinct reference seam in the folder. The media branch now sits alongside the protocol and transcript materials instead of hiding inside the folder tree.
 
 ## Next Actions
 
 1. Keep the protocol and media together.
-2. Split again only if the media becomes a separate branch.
+2. Split again only if the media becomes a separate seam.

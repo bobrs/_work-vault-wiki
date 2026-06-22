@@ -6,7 +6,7 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 - 510 source files inventoried in the desktop vault.
 - Several families already collapse into existing wiki pages: CICP, Semantic Collapse Theory, Trust Interoperability Standard, Daily Growth Ritual, and FractalIdentity Tree.
-- 13 durable-looking branches are split below.
+- 34 durable-looking branches are split below.
 
 ## Linked Existing Lineages
 
@@ -31,6 +31,30 @@ This branch is the desktop-sized source vault for side projects, reference mater
 - [Genesis](genesis/index.md)
 - [Unification](unification/index.md)
 - [Conceptual Consolidation](conceptual-consolidation/index.md)
+
+## Additional Root Branches
+
+- [Personal](personal/index.md)
+- [FreePour](freepour/index.md)
+- [Multiverse](multiverse/index.md)
+- [LoopMail](loopmail/index.md)
+- [Glyphlog](glyphlog/index.md)
+- [GlyphStory](glyphstory/index.md)
+- [Governance](governance/index.md)
+- [Context2](context2/index.md)
+- [Crystalstream](crystalstream/index.md)
+- [Opportunity Studio](opportunity-studio/index.md)
+- [Causation Delirium](causation-delirium/index.md)
+- [Art of Meaning](art-of-meaning/index.md)
+- [Consent Seed](consent-seed/index.md)
+- [Quantum Emoji](quantum-emoji/index.md)
+- [Sovereignty of the Butterfly](sovereignty-of-the-butterfly/index.md)
+- [The King Who Measured Everything](the-king-who-measured-everything/index.md)
+- [loopnought](loopnought/index.md)
+- [Library of Echoes](library-of-echoes/index.md)
+- [Keeper of the Lanterns](keeper-of-the-lanterns/index.md)
+- [Attention - Five Modes](attention-five-modes/index.md)
+- [EchoPad](echo-pad/index.md)
 
 ## Working Read
 
