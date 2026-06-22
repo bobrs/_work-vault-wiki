@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORE_PREFIXES = (".git", "__pycache__", ".vault/cache")
+IGNORE_PREFIXES = (".git", "dist", "node_modules", "__pycache__", ".vault/cache")
 IGNORE_NAMES = {".DS_Store", "Thumbs.db"}
 INVENTORY_PATH = ROOT / "manifest" / "inventory.jsonl"
 HASH_INDEX_PATH = ROOT / "manifest" / "hash_index.json"

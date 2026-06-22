@@ -52,3 +52,12 @@ See:
 
 - [`docs/README.md`](docs/README.md)
 - [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md)
+
+## Public Site
+
+The wiki web layer is prepared as a fully static Cloudflare Pages build.
+
+- Build command: `npm run build`
+- Landing page output: `dist/index.html`
+- Raw vault browser: `dist/vault/index.html`
+- Public source repository: `https://github.com/bobrs/_work-vault-wiki`

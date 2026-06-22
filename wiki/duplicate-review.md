@@ -7,6 +7,6 @@ No duplicate should be deleted or merged until reviewed.
 Current state:
 
 - one exact duplicate hash group exists for the empty `manifest/agent_actions.jsonl` and `manifest/missing_log.jsonl` pair;
-- eighteen exact duplicate pairs exist within the `Semantic Collapse Theory` and `SCT set 20050505` corpus, which likely represent a versioned snapshot relationship.
+- eighteen exact duplicate pairs exist within the archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot, which likely represent a versioned snapshot relationship.
 
 Review those pairs before deciding whether any file should be merged, moved, or labeled canonical.

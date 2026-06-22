@@ -6,10 +6,11 @@ This is the first major batch of added content. It is still in intake form, so t
 
 ## Current Shape
 
-- 151 files were inventoried in the incoming corpus.
+- 132 files were inventoried in the active incoming corpus.
+- 19 files were archived to `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505`.
 - The corpus is mostly `.docx`, with a small number of `.html`, `.zip`, and `.pdf` companions.
 - The main branches are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`.
-- There are 12 direct root-level artifacts under the corpus folder.
+- There are 12 direct root-level artifacts under the incoming corpus folder.
 
 ## Branches
 
@@ -17,11 +18,11 @@ This is the first major batch of added content. It is still in intake form, so t
 
 This branch contains the largest share of the intake.
 
-- 103 files total.
+- 84 files total.
 - 38 direct root files.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
-- 19 files in `SCT set 20050505`.
+- 19 archived files in `SCT set 20050505`.
 
 Representative files:
 
@@ -61,7 +62,7 @@ Representative root files:
 
 ## Review Notes
 
-- The `Semantic Collapse Theory` / `SCT set 20050505` pairs are the clearest lineage cluster in the intake.
+- The `Semantic Collapse Theory` lineage cluster has been archived but remains structurally visible.
 - The root-level documents may later split into separate project pages, but they are not forced into that structure yet.
 
 ## Next Actions

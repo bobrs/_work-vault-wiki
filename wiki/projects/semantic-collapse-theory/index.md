@@ -6,11 +6,11 @@ It appears to be a durable project line with its own origin text, later series, 
 
 ## Current Shape
 
-- 103 files total.
+- 84 files total.
 - 38 direct root files under `Semantic Collapse Theory`.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
-- 19 files in `SCT set 20050505`.
+- 19 archived files in `SCT set 20050505`.
 
 ## Origin
 
@@ -20,7 +20,7 @@ The origin document currently acts as the clearest anchor for the branch:
 
 ## Lineage Notes
 
-- Eighteen exact duplicate pairs exist between the root `Semantic Collapse Theory` files and the `SCT set 20050505` copies.
+- Eighteen exact duplicate pairs exist between the root `Semantic Collapse Theory` files and the archived `SCT set 20050505` copies.
 - That pattern looks more like a snapshot or branch fork than accidental duplication.
 - Nothing in this branch should be merged or canonized yet without review.
 
@@ -30,11 +30,11 @@ The origin document currently acts as the clearest anchor for the branch:
 - [SCT-1- Semantic Entropy and Collapse Conditions.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-1- Semantic Entropy and Collapse Conditions.docx>)
 - [Loop Series / Loop-3 — The Witnessed Loop.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
 - [Story / Episode 1 Outline.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
-- [SCT set 20050505 / SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)
+- [SCT set 20050505 / SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)
 
 ## Open Questions
 
-- Is `SCT set 20050505` an archival snapshot or a deliberate parallel bundle?
+- Should the archived `SCT set 20050505` snapshot remain intact, or be collapsed later under a canonical lineage decision?
 - Are the `Loop Series` and `Story` subfolders meant to remain attached to SCT, or should they become distinct pages later?
 - Which files, if any, are intended to become canonical references?
 
