@@ -5,6 +5,12 @@ This branch collects the retreat and workshop-kit material.
 ## Current Shape
 
 - 3 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Retreat](retreat/index.md)
+- [Workshop Kits](workshop-kits/index.md)
 
 ## Representative Files
 
@@ -14,9 +20,9 @@ This branch collects the retreat and workshop-kit material.
 
 ## Working Read
 
-This is a compact retreat branch with a clear workshop-kit seam.
+This is a compact retreat branch with a clear retreat-versus-workshop-kit seam.
 
 ## Next Actions
 
-1. Keep the retreat and workshop-kit material together.
-2. Split only if a second seam appears.
+1. Keep the retreat page stable.
+2. Keep the workshop kits together.

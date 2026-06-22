@@ -217,7 +217,7 @@
   "0fc16d6060d99693ebdab5c712e52f594d703a171bb7ec81c43794dbd4e4ad78": [
     "wiki/projects/side-projects-desktop/consent-based-atomic-genesis-and-stream/index.md"
   ],
-  "1165b1c0780e4fe5f34c3163071455db7ad57502eb6e12c10dbf1ba89396c641": [
+  "111314b0f72758d59cf3eb1e453f178c908a6a68652c003db2e949259d8d45ad": [
     "manifest/hash_index.json"
   ],
   "11a467e6b63573b18c8c44dac86656e37d5c3973b61f0b81a3573ac505ca459b": [
@@ -532,12 +532,6 @@
     "artifacts/incoming/HumanKey Protocol/HumanKey Explainer/Slide 2a.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/Slide 2a.png"
   ],
-  "2bc1acd660466402c1d2b4ca59b17b0a0ec4fd1649bd9ff208edd214ebe36019": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/index.md"
-  ],
-  "2bd047607cca448b67f5be2026f365fd9740828a20dc693923e2b5c80c1215f8": [
-    "manifest/inventory.jsonl"
-  ],
   "2c23c5b5ca46372c07cf00478044a4a05750bded8a783ea09510e2332e0507b0": [
     "scripts/reconcile.py"
   ],
@@ -626,9 +620,6 @@
   ],
   "320eaf3e624ee44f490e7f064a7471886ad93da5f09717af7463437dfd2c4af8": [
     "artifacts/incoming/Side Projects Desktop/Misc Loop/ Monopoly in a Consent-Based Economy- Loop Failure by Design.docx"
-  ],
-  "334b119ca999efb563a653986820a14aa763042495f871b73108a56b5d19d955": [
-    "wiki/artifacts/index.md"
   ],
   "33994457954e6a142955bf5c4c26aaf97fb092f8f9c005775c2303d699eea9c4": [
     "wiki/projects/side-projects-desktop/quantum-emoji/index.md"
@@ -937,6 +928,9 @@
   "51f6db28d3a53fcd6487af7bc637c4235c375ce613b4c916be4714bf51a8350f": [
     "artifacts/archived/Side Projects Desktop/Misc Loop/🌱 The Consent Seed.docx"
   ],
+  "5205b065c4bae133fd95dffb9bf0ed4435e61f1075df165c913d087f0498436a": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/retreat/index.md"
+  ],
   "5226f6228f92f23b406b8469a96eb5668d0a61977f7b430d80bd35d6d6a0c13a": [
     "artifacts/incoming/Side Projects Desktop/Ephemeral Trust/Ephemeral Trust Doc6.docx"
   ],
@@ -1201,6 +1195,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-10- Witness Typology and the Expansion of Observation.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-10- Witness Typology and the Expansion of Observation.docx"
   ],
+  "670458af790ae2f448e592ac0899bf5e0371cbad6d4d1128aac4c6cba2f06c6d": [
+    "manifest/inventory.jsonl"
+  ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx",
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx",
@@ -1288,6 +1285,9 @@
     "artifacts/incoming/Similar Projects/Retropic Lift Equation.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/Retropic Lift Equation.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__RETROPIC-LIFT-EQUATION__v1__retropic-lift-equation.docx"
+  ],
+  "7005cccacc41c7c424985d1ca8cba231411fc14fb330ddb74317d83ac957c9c0": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/index.md"
   ],
   "708889b38c44cb56fbf0b99ae05f97cc2ccbab9bd5fd2917be16a31062676008": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx",
@@ -2369,6 +2369,9 @@
   "daab2f07a0964d7ccd6c0ab82f459b5f30a5e0f7f436dca0161110f755ba1e94": [
     "wiki/projects/side-projects-desktop/glyphstory/narrative-and-social-good/index.md"
   ],
+  "daaf85f752e846a3d5aaba169368cda9e5e02ae128b79fc5c65da51cdd619e33": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-retreat/workshop-kits/index.md"
+  ],
   "dab857919edc880689e7c9fd5fff340596c2973fe1f907b3ecd5080440d173fe": [
     "wiki/projects/side-projects-desktop/misc-loop/index.md"
   ],
@@ -2432,6 +2435,9 @@
   ],
   "e10b185d5f6415f214cae90616efc8caec31b1aea42bd08a57c36a6ee3878d12": [
     "artifacts/incoming/Patents/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx"
+  ],
+  "e1967a9ded5ea1a8484ddf872abe51c23600998d3c137be6d173a8971b585a38": [
+    "wiki/artifacts/index.md"
   ],
   "e1fa9d14a0893461a2a17ddb63dbf3eb23851682eea68cf1d5a3f28449b31998": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/origin-and-protocols/index.md"
