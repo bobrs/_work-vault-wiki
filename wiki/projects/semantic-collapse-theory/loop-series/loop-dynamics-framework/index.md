@@ -7,18 +7,23 @@ This cluster covers the field definition, loopodynamics, and semantic privacy la
 ## Current Shape
 
 - 3 loop dynamics documents.
+- 2 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Loop Dynamics Foundations](loop-dynamics-foundations/index.md)
+- [LoopNet Layer Zero](loopnet-layer-zero/index.md)
 
 ## Representative Files
 
-- [LDF-Field Definition.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
-- [LDF- The Three Laws of Loopodynamics.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF- The Three Laws of Loopodynamics.docx>)
-- [LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx>)
+- [Loop Dynamics Foundations / LDF-Field Definition.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
+- [LoopNet Layer Zero / LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx>)
 
 ## Working Read
 
-This is the field-theory branch for timing, distance, privacy, and loop dynamics.
+This branch now separates into the foundational loop dynamics layer and the LoopNet privacy layer. The two laws and field definition stay together; the mesh privacy appendix becomes its own seam.
 
 ## Next Actions
 
-1. Keep the field-definition branch stable.
-2. Split only if a distinct lower-level field or privacy sub-branch appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if either half develops another durable seam.

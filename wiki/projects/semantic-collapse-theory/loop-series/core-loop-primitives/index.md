@@ -7,21 +7,23 @@ This cluster covers the smallest reusable loop units and the whitepaper primer t
 ## Current Shape
 
 - 6 core loop documents.
+- 2 nested lineage pages organize those documents.
+
+## Nested Lineage Pages
+
+- [Primitive Loop Set](primitive-loop-set/index.md)
+- [Whitepaper Primer](whitepaper-primer/index.md)
 
 ## Representative Files
 
-- [Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
-- [Loop-1 — The Minimal Authenticated Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx>)
-- [Loop-2 — The Time-Synced Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-2 — The Time-Synced Loop.docx>)
-- [Loop-3 — The Witnessed Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
-- [Loop-4 — The Multi-Agent Collapse Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-4 — The Multi-Agent Collapse Loop.docx>)
-- [SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
+- [Primitive Loop Set / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
+- [Whitepaper Primer / SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
 
 ## Working Read
 
-This is the spine of the Loop Series: the minimal loop forms and the conceptual primer that explains why they matter.
+This branch now separates into the primitive loop set and the whitepaper primer. The split follows the document roles: five loop forms define the primitives, and the whitepaper explains the mapping from primitives into the larger mesh.
 
 ## Next Actions
 
-1. Keep the primitive loop set stable.
-2. Split only if a new primitive or whitepaper seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split again only if either half develops another durable seam.
