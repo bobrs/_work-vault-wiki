@@ -1,6 +1,6 @@
 # Automeme Propagation Engine
 
-Parent lineage: `POLEMEMELOP`
+Parent lineage: `POLEMEMELOP` / `Infrastructure`
 
 This is the system-level support branch for automeme distribution, mutation, integrity management, and lifecycle governance.
 
@@ -14,7 +14,7 @@ This is the system-level support branch for automeme distribution, mutation, int
 
 ## Working Read
 
-This is infrastructure, not the automeme itself. It can stand alone as the technical sibling of ULiUA within POLEMEMELOP lineage.
+This is infrastructure, not the automeme itself. It stands as one half of the POLEMEMELOP infrastructure pair.
 
 ## Next Actions
 

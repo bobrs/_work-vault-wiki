@@ -7,14 +7,15 @@ This branch groups the automeme and foundation material in the root intake corpu
 ## Current Shape
 
 - 5 directly relevant root-level documents.
-- 3 core identity/foundation docs.
+- 2 foundation documents.
+- 1 named automeme document.
 - 2 supporting infrastructure docs.
 
 ## Lineage Pages
 
+- [Foundations](foundations/index.md)
 - [ULiUA](../uliua/index.md)
-- [Automeme Propagation Engine](automeme-propagation-engine/index.md)
-- [Loop Collapse Resilience](loop-collapse-resilience/index.md)
+- [Infrastructure](infrastructure/index.md)
 
 ## Representative Files
 
@@ -26,12 +27,12 @@ This branch groups the automeme and foundation material in the root intake corpu
 
 ## Working Read
 
-This cluster is an explicit automeme lineage: the foundation and manifesto define the umbrella, ULiUA is the first named automeme, and the two technical documents describe how the automeme family propagates and survives collapse.
+This cluster is an explicit automeme lineage: the foundation pair define the umbrella, ULiUA is the first named automeme, and the infrastructure pair describe how the automeme family propagates and survives collapse.
 
 The page is standalone, but it stays linked back to the root corpus because additional related root-level works may still attach here later.
 
 ## Next Actions
 
-1. Keep ULiUA attached as the first automeme branch.
-2. Preserve the technical sibling relationship between propagation and collapse-resilience docs.
-3. Move only later if more evidence appears.
+1. Keep the foundation pair together.
+2. Keep ULiUA attached as the first automeme branch.
+3. Keep the infrastructure pair together.

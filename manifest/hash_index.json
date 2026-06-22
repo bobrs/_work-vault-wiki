@@ -77,6 +77,9 @@
   "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b": [
     ".gitattributes"
   ],
+  "1a1ea5359be3170fded973096b72e8a71ebad536dc9cd405fca3f4e53a20b6bd": [
+    "manifest/hash_index.json"
+  ],
   "1b796d1e0d098711f436f6b54956daa0aa66ab919b5c0b50e19a81dffc8c3d95": [
     ".gitignore"
   ],
@@ -143,9 +146,6 @@
   "31902bdd559d4434df5161205772a3673f7f07f78a0ea7d7793b9b310c841577": [
     "artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx"
   ],
-  "3243db2c37727d14fe0b5164ce9c8a060991a91f520662ef86969c65da9d4697": [
-    "wiki/projects/index.md"
-  ],
   "33164510e6f5a814262a1ad5df07c5fdbffd927cbd74b1831052c9264c35a366": [
     "wiki/incoming-review.md"
   ],
@@ -166,6 +166,9 @@
   ],
   "3c74d1ca52f95f8b89b4e4cbac811381fe05c0fddec3776c8f0d682f111f2d70": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 7 — The Inflation:Deflation Loop.docx"
+  ],
+  "3d0178b7ccd5124ed751260a8fea79f3782976c497f149ed66f70f1381e7b534": [
+    "wiki/projects/index.md"
   ],
   "3d1b7a87927d854cf2870486fc19e065ce3729cc3b6304ed3bde463a2516dc07": [
     "wiki/concepts/polememelop/index.md"
@@ -254,6 +257,9 @@
   "63095eb3eae67bc699fad22a68ce8bbeb712ed03971fad09484c3ed89b9931a4": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-1- Semantic Entropy and Collapse Conditions.docx"
   ],
+  "636c44ab3e1a19d92e8a62c5102b0b831894069d4014500c0cb1d603ff9b75b2": [
+    "wiki/projects/polememelop/foundations/index.md"
+  ],
   "637f9a9c0d5282447cc8d0bc6e534e7e30dad6e3a99813295fedef5b77917003": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx"
   ],
@@ -281,11 +287,11 @@
   "70ee6df49439ea03203daeea1750ec2d6a786e7fe81aee2e168cc135cba01b16": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx"
   ],
-  "7204e5d5f27bbad98d0cb485c7415c3a31e87ec9de733d8e198e822b91bdedb2": [
-    "wiki/projects/polememelop/index.md"
-  ],
   "742b7bf221febcb103bb6ec07458a0d5c781977a3408a45f1c5531231e315385": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx"
+  ],
+  "7434e7fce056d39267d42d33f7a0d3d1524eea687c43821127a89ebe2534d21c": [
+    "wiki/projects/polememelop/index.md"
   ],
   "751f1e8a2172443cb81d8eda6807a493de8146ccb257d53ff12b5fdefec762de": [
     "wiki/projects/polememelop/automeme-propagation-engine/index.md"
@@ -443,6 +449,9 @@
   "b24a7c1e5c15e528ee69b263ff397123f8bcdefcbbf3a10bda2d7a3e433ddc93": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx"
   ],
+  "b273c7632af901d4baaad4f2d16d23b5f2fc72979270c5ae39e6c006907c6f0b": [
+    "manifest/inventory.jsonl"
+  ],
   "b27582ac5219f4956da0d1e343db335b961aeb23917cf03aaffb797e46037ac5": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx"
   ],
@@ -520,12 +529,6 @@
   ],
   "cef68357e60e1fc810ef3eada0b9b2a7c0f473cd26a2be57dbb39be8188a08d5": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-8- The Consent-Carrying Loop — Extending the Diad.docx"
-  ],
-  "cf08ff0c750908d21f7edcf6c167aa65a78d9c16f7cbe7ff9f4a3c7f5edf1e0c": [
-    "manifest/inventory.jsonl"
-  ],
-  "d44e33a0f25d7e97cd61b9d75201982345aa845e617f09972b79521f3bc5b68c": [
-    "manifest/hash_index.json"
   ],
   "d7b86fb113df49392d2c458ba42239668b7469f62156424adca1a376e4158a03": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-4 — The Multi-Agent Collapse Loop.docx"

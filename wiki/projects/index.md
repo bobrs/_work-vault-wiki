@@ -22,9 +22,9 @@ The repository has entered the first classification pass and now has lineage-awa
 
 ### POLEMEMELOP
 
+- [Foundations](polememelop/foundations/index.md)
 - [ULiUA](uliua/index.md)
-- [Automeme Propagation Engine](polememelop/automeme-propagation-engine/index.md)
-- [Loop Collapse Resilience](polememelop/loop-collapse-resilience/index.md)
+- [Infrastructure](polememelop/infrastructure/index.md)
 
 ### Consent Crystal Structure Research
 

@@ -1,6 +1,6 @@
 # Loop Collapse Resilience
 
-Parent lineage: `POLEMEMELOP`
+Parent lineage: `POLEMEMELOP` / `Infrastructure`
 
 This page covers the substructure for automeme integrity and recovery when a loop collapses.
 
@@ -14,7 +14,7 @@ This page covers the substructure for automeme integrity and recovery when a loo
 
 ## Working Read
 
-This is a technical companion to the automeme propagation branch. It focuses on failure handling, reflective integrity, and resilience mechanisms around loop-based memetic systems.
+This is the resilience half of the POLEMEMELOP infrastructure pair. It focuses on failure handling, reflective integrity, and resilience mechanisms around loop-based memetic systems.
 
 ## Next Actions
 
