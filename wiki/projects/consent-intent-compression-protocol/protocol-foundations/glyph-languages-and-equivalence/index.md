@@ -20,6 +20,18 @@ This cluster covers the symbolic language family and the protocol for translatin
 
 This is the translation layer: symbolic grammar, cross-domain equivalence, and multi-resolution glyph encoding.
 
+The semantic function of this cluster is to define how CICP preserves meaning across notation changes, layered encodings, and translation boundaries. It is the part of the protocol family that keeps the system readable as a language rather than only as a sequence of implementation steps.
+
+This is also the clearest place where glyph, equivalence, and protocol design overlap into a durable language model.
+
+## Related Links
+
+- [Consent–Intent Compression Protocol (CICP)](../../index.md)
+- [Protocol Foundations](../index.md)
+- [Loop Modeling and Field Theory](../loop-modeling-and-field-theory/index.md)
+- [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the glyph language and equivalence set together.

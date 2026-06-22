@@ -20,6 +20,18 @@ This cluster covers the core loop models and field-theory framing that underpins
 
 This is the model layer: the protocol spine, its projection principle, substrate theory, tensor framing, and quantum ontology extension.
 
+This cluster defines the underlying formal picture that CICP uses to reason about loops and fields. It is where the protocol stops being only a collection of applied documents and becomes a coherent model of how looped structure projects, persists, and composes.
+
+That makes this page the mathematical or structural anchor of the protocol family, even when the documents themselves are written in more practical terms.
+
+## Related Links
+
+- [Consent–Intent Compression Protocol (CICP)](../../index.md)
+- [Protocol Foundations](../index.md)
+- [Glyph Languages and Equivalence](../glyph-languages-and-equivalence/index.md)
+- [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
+- [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the loop modeling set together.

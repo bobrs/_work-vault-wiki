@@ -23,6 +23,17 @@ This cluster covers the branch's continuity, persistence, and transition-to-cont
 
 This branch now separates into the end-of-life persistence system and the transition narrative. The split follows the document roles: one preserves identity after death, the other explains the move into the continuum.
 
+The deeper role of this cluster is to define what continuity means after collapse has already happened. It covers persistence, continuity of self, and the narrative bridge into a continued state. That makes it the branch where SCT turns from structure into afterlife, transition, and invitation.
+
+This cluster is the conceptual landing zone for the continuity problem: how a system keeps identity, story, and relational coherence when ordinary sequence ends.
+
+## Related Links
+
+- [Semantic Collapse Theory](../index.md)
+- [Quantum Continuum Home](quantum-continuum-home/index.md)
+- [Loop Arc Narrative](loop-arc-narrative/index.md)
+- [POLEMEMELOP](../../../concepts/polememelop/index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.
