@@ -4,6 +4,10 @@ Umbrella intake corpus currently stored under `artifacts/incoming/Consent Crysta
 
 This is the first major batch of added content. It remains in active intake, so the page tracks structure and review boundaries rather than final organization.
 
+The corpus now behaves like a small research field rather than a loose intake folder. `Semantic Collapse Theory` carries the theory-heavy material, `Consent–Intent Compression Protocol (CICP)` carries the protocol and implementation material, and `POLEMEMELOP` acts as the recurring conceptual attractor across both. The remaining root-level works are durable side branches rather than leftovers.
+
+That makes this page the umbrella map for the corpus, not just a folder index.
+
 ## Current Shape
 
 - 117 files were inventoried in the active incoming corpus.
@@ -91,6 +95,14 @@ The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 - The small root-level works now each have their own durable page.
 - A standard-named source pilot now exists for `Butterfly Bush Time Portals`, `Daily Growth Ritual`, `Ego and Flow`, `Thanks, Bobo - A Screenplay`, and `ULiUA`; those pages now prefer `artifacts/standard-named/` while preserving intake-archive provenance.
+
+## Related Links
+
+- [Projects Index](../index.md)
+- [Concepts Index](../../concepts/index.md)
+- [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
+- [POLEMEMELOP](../polememelop/index.md)
 
 ## Next Actions
 

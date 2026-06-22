@@ -4,6 +4,10 @@ This branch is the largest structured family in the current intake corpus. It no
 
 It appears to be a durable project line with its own origin text, later series, narrative material, and a versioned snapshot folder.
 
+Read semantically, this branch is the theory engine of the corpus: it names the collapse model, the loop model, the witness model, and the continuity model that recur through the later series and story pages. The archived `SCT set 20050505` folder preserves the duplicate-collapse history, while the active branch pages carry the living structure of the work.
+
+This is also the clearest place where `POLEMEMELOP` and the consent-oriented language begin to converge into a broader framework.
+
 ## Current Shape
 
 - 66 active files.
@@ -40,6 +44,11 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - The archive still functions as lineage evidence rather than a content rewrite target.
 - The active root corpus is now organized into five stable cluster pages.
 
+## Related Concepts
+
+- [POLEMEMELOP](../../concepts/polememelop/index.md)
+- [Concepts Index](../../concepts/index.md)
+
 ## Representative Files
 
 - [Origin and Governance / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
@@ -56,3 +65,4 @@ The origin document remains the clearest anchor for the branch and lives inside 
 1. Use the active branch pages for current work.
 2. Keep the archived snapshot visible as lineage evidence and canonical duplicate survivor.
 3. Treat duplicate collapse as a metadata/navigation step, not a content edit.
+4. Seed concept links when a recurring formulation is shared across more than one branch page.

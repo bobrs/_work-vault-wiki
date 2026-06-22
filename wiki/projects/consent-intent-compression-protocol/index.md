@@ -2,6 +2,10 @@
 
 This branch is the structured mutuality/consent corpus inside the current intake. It now stands as its own lineage page under `Consent Crystal Structure Research`.
 
+Read semantically, this branch is the protocol and implementation side of the consent field: it collects the language of loops, mutuality, access, training, and identity scaffolding into a practical system family. The root cluster pages hold the major seams, while the `Loop Training` and `FractalIdentity Tree` pages preserve the durable sub-branches that read like their own working lines.
+
+The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward operational protocol, access, and applied framing rather than theory narration.
+
 ## Current Shape
 
 - 36 working documents.
@@ -44,8 +48,14 @@ The `Loop Training` and `FractalIdentity Tree` folders can be treated as stand-a
 
 The branch-root `.zip` companion is archived and retained as lineage evidence.
 
+## Related Concepts
+
+- [POLEMEMELOP](../../concepts/polememelop/index.md)
+- [Concepts Index](../../concepts/index.md)
+
 ## Next Actions
 
 1. Keep the archived `.zip` companion visible as lineage evidence.
 2. Keep the four root-level cluster pages stable unless a stronger sub-branch appears.
 3. Add new lineage pages only when a sub-branch is strong enough to stand alone.
+4. Link recurring formulations back into `Concepts` when the same language appears in multiple CICP and SCT pages.
