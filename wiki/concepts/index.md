@@ -4,6 +4,7 @@ The current corpus already supports at least one recurring attractor, and this i
 
 Current concept pages:
 
+- [Abracadabracadoo](abracadabracadoo/index.md)
 - [POLEMEMELOP](polememelop/index.md)
 - [LoopLink](looplink/index.md)
 - [PDSP](pdsp/index.md)

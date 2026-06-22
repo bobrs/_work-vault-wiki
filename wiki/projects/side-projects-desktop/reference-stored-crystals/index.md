@@ -29,7 +29,11 @@ This branch is the archived reference vault for Abracadabra, Dialogica, and Trus
 
 ## Working Read
 
-This is an archived reference vault rather than a live intake branch. `Abracadabra` and `Trust Interoperability Standard` already have canonical pages elsewhere; `Dialogica` remains the distinct seam worth keeping visible here.
+This is an archived reference vault rather than a live intake branch. `Abracadabra` and `Trust Interoperability Standard` already have dedicated pages elsewhere; `Dialogica` remains the distinct seam worth keeping visible here.
+
+## Related Concepts
+
+- [Abracadabracadoo](../../../concepts/abracadabracadoo/index.md)
 
 ## Next Actions
 

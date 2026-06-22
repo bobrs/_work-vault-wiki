@@ -18,6 +18,10 @@ This cluster covers the Abracadabra/Abracadabracadoo protocol family and its add
 
 This is the nested-AEAD messaging branch: a core protocol plus consent, witness, quorum, TOTP, deniability, and emotional-signaling addenda.
 
+## Related Concepts
+
+- [Abracadabracadoo](../../../concepts/abracadabracadoo/index.md)
+
 ## Next Actions
 
 1. Keep the spec and addenda together.
