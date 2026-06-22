@@ -6,11 +6,11 @@ This is the first major batch of added content. It remains in active intake, so 
 
 ## Current Shape
 
-- 131 files were inventoried in the active incoming corpus.
-- 20 files are archived under `artifacts/archived/Consent Crystal Structure Research`, including 19 in `SCT set 20050505`.
+- 130 files were inventoried in the active incoming corpus.
+- 21 files are archived under `artifacts/archived/Consent Crystal Structure Research`, including 19 in `SCT set 20050505`.
 - The corpus is mostly `.docx`, with a small number of `.html`, `.zip`, and `.pdf` companions.
 - The main branches are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`.
-- There are 11 direct root-level artifacts under the incoming corpus folder.
+- There are 10 direct root-level artifacts under the incoming corpus folder.
 
 ## Lineage Pages
 
@@ -75,17 +75,17 @@ Representative files:
 - [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
 - [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
-### Residual Root-Level Companion
+### Archived Root-Level Companion
 
-The only remaining root-level companion that is not already represented by its own page is the `Consent–Intent Compression Protocol (CICP).zip` bundle.
+The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 
-- [Consent–Intent Compression Protocol (CICP).zip](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP).zip>)
+- [Consent–Intent Compression Protocol (CICP).zip](<../../../artifacts/archived/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).zip>)
 
 ## Review Notes
 
 - The `Semantic Collapse Theory` lineage cluster has been archived and split into lineage pages.
 - The `Butterfly Bush Time Portals` DOCX companion has been archived because the HTML page is the published form.
-- The remaining root-level companion is the `Consent–Intent Compression Protocol (CICP).zip` bundle.
+- The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 

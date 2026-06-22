@@ -5,7 +5,7 @@ This branch is the structured mutuality/consent corpus inside the current intake
 ## Current Shape
 
 - 36 working documents.
-- 1 auxiliary `.zip` companion at the branch root.
+- 1 archived `.zip` companion.
 - 28 direct root files under `CICP`.
 - 4 root-level cluster pages organize those root files.
 - 6 files in `Loop Training`.
@@ -30,9 +30,9 @@ This branch is the structured mutuality/consent corpus inside the current intake
 - [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
 - [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
 
-## Residual Root-Level Companion
+## Archived Root Companion
 
-- [Consent–Intent Compression Protocol (CICP).zip](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP).zip>)
+- [Consent–Intent Compression Protocol (CICP).zip](<../../../artifacts/archived/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).zip>)
 
 ## Working Read
 
@@ -42,10 +42,10 @@ The root-level documents now split into protocol foundations, implementation and
 
 The `Loop Training` and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
 
-The `.zip` companion is auxiliary unless evidence later says otherwise.
+The branch-root `.zip` companion is archived and retained as lineage evidence.
 
 ## Next Actions
 
-1. Keep the `.zip` companion auxiliary unless evidence changes that read.
+1. Keep the archived `.zip` companion visible as lineage evidence.
 2. Keep the four root-level cluster pages stable unless a stronger sub-branch appears.
 3. Add new lineage pages only when a sub-branch is strong enough to stand alone.

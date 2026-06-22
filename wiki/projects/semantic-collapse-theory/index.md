@@ -8,21 +8,30 @@ It appears to be a durable project line with its own origin text, later series, 
 
 - 84 active files.
 - 38 direct root files under `Semantic Collapse Theory`.
+- 5 root-level cluster pages organize those root files.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
 - 19 archived files in `SCT set 20050505`.
 
-## Lineage Pages
+## Root-Level Cluster Pages
+
+- [Origin and Governance](origin-and-governance/index.md)
+- [Temporal Loops and Memory](temporal-loops-and-memory/index.md)
+- [Economy and Propagation](economy-and-propagation/index.md)
+- [Affective Interfaces](affective-interfaces/index.md)
+- [Continuity and Transition](continuity-and-transition/index.md)
+
+## Origin
+
+The origin document remains the clearest anchor for the branch and lives inside `Origin and Governance`:
+
+- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
+
+## Nested Lineage Pages
 
 - [Loop Series](loop-series/index.md)
 - [Story](story/index.md)
 - [SCT set 20050505](sct-set-20050505/index.md)
-
-## Origin
-
-The origin document currently acts as the clearest anchor for the branch:
-
-- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
 
 ## Lineage Notes
 
@@ -30,11 +39,15 @@ The origin document currently acts as the clearest anchor for the branch:
 - That pattern looks more like a snapshot or branch fork than accidental duplication.
 - If exact duplicates are collapsed later, preserve the fact that the surviving record has multiple collapse parents.
 - The archive is a lineage snapshot, not a content rewrite target.
+- The active root corpus is now organized into five stable cluster pages.
 
 ## Representative Files
 
-- [RFC-Ø- Witness-Based Loop Resolution.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/RFC-Ø- Witness-Based Loop Resolution.docx>)
-- [SCT-1- Semantic Entropy and Collapse Conditions.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-1- Semantic Entropy and Collapse Conditions.docx>)
+- [Origin and Governance / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
+- [Temporal Loops and Memory / SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx>)
+- [Economy and Propagation / SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
+- [Affective Interfaces / SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx>)
+- [Continuity and Transition / SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx>)
 - [Loop Series / Loop-3 — The Witnessed Loop.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
 - [Story / Episode 1 Outline.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
 - [SCT set 20050505 / SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)

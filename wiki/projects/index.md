@@ -35,6 +35,11 @@ The repository has entered the first classification pass and now has lineage-awa
 
 ### Semantic Collapse Theory
 
+- [Origin and Governance](semantic-collapse-theory/origin-and-governance/index.md)
+- [Temporal Loops and Memory](semantic-collapse-theory/temporal-loops-and-memory/index.md)
+- [Economy and Propagation](semantic-collapse-theory/economy-and-propagation/index.md)
+- [Affective Interfaces](semantic-collapse-theory/affective-interfaces/index.md)
+- [Continuity and Transition](semantic-collapse-theory/continuity-and-transition/index.md)
 - [Loop Series](semantic-collapse-theory/loop-series/index.md)
 - [Loop Economy Series](semantic-collapse-theory/loop-series/loop-economy-series/index.md)
 - [Story](semantic-collapse-theory/story/index.md)
