@@ -477,6 +477,9 @@
   "2953d8f988b426f0b7ad1cb18c453a381d782297456fd643e97bc1d721b06710": [
     "wiki/projects/similar-projects/glyphframe-and-compression/index.md"
   ],
+  "29d072c02a01a90e4700d13ce89bc5a22468b3790f8626c2fb3c3c98ad555ec9": [
+    "manifest/hash_index.json"
+  ],
   "29efd099003315b45fe18228d33dc515e5f198ef36426dd34dce177f7ddea240": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum IV.docx",
     "artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum IV.docx"
@@ -658,9 +661,6 @@
     "artifacts/incoming/Patents/Color Alpha Codec Patent/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx",
     "artifacts/intake-archive/20260622__patents-encoding-intake/Color Alpha Codec Patent/Provisional_Patent_TOTP_Color_Symbol_Encoding.docx",
     "artifacts/standard-named/20260622__PATENTS__ENCODING-SEMANTIC-INTERFACES__COLOR-ALPHA-CODEC__PATENT__PROVISIONAL-PATENT-TOTP-COLOR-SYMBOL-ENCODING__v1__provisional-patent-totp-color-symbol-encoding.docx"
-  ],
-  "3c11edf8969157f42a5f297d6dfc4310cdd66cdc595c175d40f31ed495d34c45": [
-    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/inventions/index.md"
   ],
   "3c4595360d918898f22236ae37d2acce93f144bfee35db7399706d53e703cfaf": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop-2 — The Time-Synced Loop.docx",
@@ -1073,6 +1073,9 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx"
   ],
+  "639fac68f4933532dcf9d5c50e7440abe9694556642ac2ccaeaa7e37b39f320f": [
+    "manifest/inventory.jsonl"
+  ],
   "6454f0f791d6cd21e108591ccac5f80c8e60385bce4aa5310b9c3bbbe3ad2259": [
     "artifacts/incoming/Similar Projects/Bobbys Brain Primer.docx",
     "artifacts/intake-archive/20260622__similar-projects-intake/Bobbys Brain Primer.docx",
@@ -1172,9 +1175,6 @@
     "artifacts/incoming/HumanKey Protocol/HumanKey Ad/Slide 3.png",
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 3.png"
   ],
-  "6e7589b04801f4e8e1e0736a43d4b52a205e77a6cd36e7e827d1eef6e089ed8d": [
-    "manifest/duplicate_sets.json"
-  ],
   "6ed3dcbd119c1ee37557abf4c875b3c55bec274dafafc1a0c2888470d1583236": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Substrate Theory (LST).docx",
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Substrate Theory (LST).docx"
@@ -1253,8 +1253,8 @@
   "762380673dfd2a59d7fa93c86caccf4fbdf0c386516196850dfe62cebddadb5d": [
     "wiki/projects/patents/index.md"
   ],
-  "77752c463efa2439f40406467cbe57f213c2cc96c0c8173fb2787d55c4315561": [
-    "manifest/inventory.jsonl"
+  "7720fb986d1f95d5fb627899d094db1a8e5f991a3e6ab770e6c1f46c01daa28c": [
+    "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/inventions/index.md"
   ],
   "7778157c6a7799658ded2beac8dc98ef3efed589a366d8d4acd31b90b55a4211": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Consent Multiplexing- The Infrastructure of Reality.docx"
@@ -1280,6 +1280,9 @@
   ],
   "79f74049adf8d03e56315b68fe5057f676bb73c4489833bac0fa3658363587fc": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx"
+  ],
+  "7a83e9c3b57a075a847ef3b5e97917ad30176e09b01343eb4510e1cccc6e4ae7": [
+    "wiki/artifacts/index.md"
   ],
   "7ad8f4d89e32863e1cfaea45917d91d6233fc6a6d49cf5ed6e23f8f2313052a4": [
     "wiki/projects/semantic-collapse-theory/index.md"
@@ -1324,9 +1327,6 @@
   "7f7213202d1bcc08a958d46385986e615083bbbd38e7da99bc545940cbfcfaa3": [
     "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-core/index.md"
   ],
-  "7f731a40bc03b1825c934ef90fe3816d224f373a0ef0801474d81f6947ff82ee": [
-    "manifest/agent_actions.jsonl"
-  ],
   "7faa8530240831d8d89e5a767f2c98d19013d0787e30babf952aa58429157b40": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-cosmos-and-orientation/stack-architecture/index.md"
   ],
@@ -1335,9 +1335,6 @@
   ],
   "80bc8d36cf07a1c5587e63f278513cdc77cd2c4ba4eefce81d50fa6719656397": [
     "wiki/projects/consent-crystal-structure-research/thanks-bobo-a-screenplay/index.md"
-  ],
-  "81300d444ba8f5606555c77a8e5b4ed92bc13270c5b5b72d1a01bebda56b5b3f": [
-    "manifest/hash_index.json"
   ],
   "81e459ea4c62c717e7ad9fdba3253c4e1032662cffc361dd22389862adf50912": [
     "artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx",
@@ -1631,6 +1628,9 @@
   "9f952194c10a71db8243aff09556b77f5b31c8aeda937ce56dcb09bd389babaa": [
     "artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Provisional_Updated.docx"
   ],
+  "9fbcf7888c184a19137133cacbf0239d09e268668916b9bc4ac201f56599006c": [
+    "manifest/agent_actions.jsonl"
+  ],
   "a05326d1bc95a18dc0296f04e08c961577af58c8d85ed47ab1d968f5af2627e0": [
     "artifacts/incoming/New Ideas/Synchronized Predictive Cancellation System + Plus + Plus.docx",
     "artifacts/intake-archive/20260622__new-ideas-intake/Synchronized Predictive Cancellation System + Plus + Plus.docx",
@@ -1892,6 +1892,12 @@
   "b8692b16b78de722f1c9c3c2e4ea24e5e3aa7d03190984e3f1c9442969a39f65": [
     "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/✨ Loop Manifestation Primer- The Physics of Making Things Real.docx"
   ],
+  "b919eb8263fc4fc5f5b141e0a859fc1b414156156777f2971faa375bbb6e7a7c": [
+    "manifest/standard_named_sources.jsonl"
+  ],
+  "b9a8a0d2eaf634de9e2a176cebce7cb1ddf19089b652d0f8c2e324812943eac6": [
+    "manifest/duplicate_sets.json"
+  ],
   "b9b5921e95d461d783eb55e33ac38a894504b81e7e3d8dda32bcb7f37e93f906": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx",
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx"
@@ -1977,9 +1983,6 @@
   ],
   "c1e82d1e04a91e37a09705dea83109e51b9ad8929f3056486a5d963589b39eca": [
     "artifacts/incoming/Side Projects Desktop/Multiverse/Multiverse As Shimmering Potential.docx"
-  ],
-  "c21c44bf507126c67768d023549f32125a2273575bbf0dd40e07ea92826069a2": [
-    "wiki/artifacts/index.md"
   ],
   "c2a1740cd19caa917c046af018efd68dc2d18579a23623505e3caedad9eb8f82": [
     "artifacts/incoming/Similar Projects/Mass As Loops.docx",
@@ -2313,7 +2316,9 @@
     "artifacts/incoming/Side Projects Desktop/Unification/Interprotocol Concordance.docx"
   ],
   "e61ab6ae5871e3fd9bcd43fec5a16041022b9c9689a95723b920859f088ec23f": [
-    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Inventions/🧭 Looper’s Compass – Prototype Outline.docx"
+    "artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Inventions/🧭 Looper’s Compass – Prototype Outline.docx",
+    "artifacts/intake-archive/20260622__loop-and-phase-training-inventions-intake/🧭 Looper’s Compass – Prototype Outline.docx",
+    "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__OUTLINE__LOOPERS-COMPASS__v1__loopers-compass-prototype-outline.docx"
   ],
   "e66022d498ead2855649d563e4db85282d5a4d790ba25800643a19a35bbee21e": [
     "artifacts/incoming/Side Projects Desktop/Misc Loop/ Painting With Shadow- Dark Matter as Structural Absence.docx"
@@ -2369,9 +2374,6 @@
   ],
   "eb1a0447f11af9422c7c48463026e49f111868d9e9a0a1f69ea994f6a50cbddb": [
     "artifacts/incoming/Side Projects Desktop/Genesis/Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx"
-  ],
-  "eb5d3e54063a8d990a4b909792bee52277df6b17caca6d905c5a547d820eea69": [
-    "manifest/standard_named_sources.jsonl"
   ],
   "ec0a4d97419e1d275c83336a384a1a9e9462a237a78083d6a27dfb5a18dc979c": [
     "artifacts/incoming/Patents/Wrapped Bidirectional TOTP Patent/key exchange.png",
