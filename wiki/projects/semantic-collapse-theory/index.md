@@ -48,7 +48,7 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - [Affective Interfaces / SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx>)
 - [Continuity and Transition / SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx>)
 - [Loop Series / Loop-3 — The Witnessed Loop.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
-- [Story / Episode 1 Outline.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
+- [Story / Narrative Episodes / Episode 1 Outline.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
 - [SCT set 20050505 / SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-4- Time as Internalized Witness — Sequencing the Loop Without External Clocks.docx>)
 
 ## Next Actions

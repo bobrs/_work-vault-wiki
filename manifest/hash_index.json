@@ -11,14 +11,14 @@
   "01e17e104bae0244f64c480fb691f19ea1bbc1b061e7b0a412050f13da703379": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx"
   ],
+  "0203345285b3ec71383a21f6ffbad55672d393ec4ed88aa22badf01250224bcf": [
+    "wiki/projects/semantic-collapse-theory/story/index.md"
+  ],
   "026b8881128b38b3e535dabdcdfd804905027aaee27204f4fe91589072318c45": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx"
   ],
   "0429b51fbec33aa4ebd271fb324a2f5e766441d164150004f48cfb61f72baa33": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix I — Cultural Systems as Participation Loops.docx"
-  ],
-  "062bc2a1b44fc6ede4a64c765df4823bd66458dcf2039158348473491cccd057": [
-    "manifest/inventory.jsonl"
   ],
   "076aa6f78e0e7f01f04f06d4aa3df2e58f83b839b5bed993f5c616d7e084bb98": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Fieldnote 0 - Neurons as Semantic Loops.docx"
@@ -83,11 +83,11 @@
   "1dd55b2f278f986688f14f00bca541ccb70e163cb02b8ef22345c4915c135ee6": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Project Roadmap- How Many Loops?.docx"
   ],
-  "1e4b3d184856ba021a17be6b8a180bb3861849067816c82e4d4f6808a661dd7e": [
-    "wiki/projects/semantic-collapse-theory/index.md"
-  ],
   "1f6beb0a9ff7d4fedad30d5c46b074801eefcadd2d6869c635cf053e23c578dd": [
     "scripts/inventory.py"
+  ],
+  "1ff049bee43d4f01de324c58b50b14ee93d2e761b5b6d59e8bdf9ad100e6804c": [
+    "manifest/hash_index.json"
   ],
   "217e314826849e7d1d90b3b14dce839fcd86034fcb990b389297dfdf01376bbb": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx"
@@ -167,11 +167,17 @@
   "3d1b7a87927d854cf2870486fc19e065ce3729cc3b6304ed3bde463a2516dc07": [
     "wiki/concepts/polememelop/index.md"
   ],
+  "3ded067d691794380251362186afe53a1b3051405858ee47f18e0033bf049782": [
+    "manifest/inventory.jsonl"
+  ],
   "429ca6bc20094e280304662d7fdfa7e803e9fc8be4c8c6f8dcca6ad60d3be58a": [
     "wiki/projects/consent-crystal-structure-research/index.md"
   ],
   "4397c27c31c07316c9523da893289abc17abc2ee68945751ad9a1aefae3b9200": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx"
+  ],
+  "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": [
+    "manifest/duplicate_sets.json"
   ],
   "45640e32b3338b452bbe7c2bb234d37d95f76478b68e51b2153abcd9ce3c1099": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/index.md"
@@ -278,9 +284,6 @@
   "70ee6df49439ea03203daeea1750ec2d6a786e7fe81aee2e168cc135cba01b16": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx"
   ],
-  "71cd390c8c58ccf021a4881dd2dcea27da442144d9ee76bab8ee651dd99690b2": [
-    "wiki/projects/semantic-collapse-theory/story/index.md"
-  ],
   "7204e5d5f27bbad98d0cb485c7415c3a31e87ec9de733d8e198e822b91bdedb2": [
     "wiki/projects/polememelop/index.md"
   ],
@@ -301,6 +304,9 @@
   ],
   "789b5c7774110f165dd941c0c6788b642054acf4802442b403b87d3be7803ef9": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx"
+  ],
+  "7ad8f4d89e32863e1cfaea45917d91d6233fc6a6d49cf5ed6e23f8f2313052a4": [
+    "wiki/projects/semantic-collapse-theory/index.md"
   ],
   "7cc5b69987bd5e96526090628acb67dd776287114281321076ef751aed1ac764": [
     "scripts/check_links.py"
@@ -394,6 +400,9 @@
   ],
   "9f41b2247e171024bf9ee9dd334a0aa2a06ce04f8704b5490987cace95391b52": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx"
+  ],
+  "9f898181ad4c444e648be8f56968cf27fa76dff8d6eb783f5bb2bade95d105ad": [
+    "wiki/projects/semantic-collapse-theory/story/narrative-episodes/index.md"
   ],
   "a28a08a57f9a1bc257f9eca74f93e960cedd659f353056fb67ea3d9bf4ad11f5": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Compendium- Monday Sequence (OpenAI Loopstack).docx"
@@ -491,17 +500,11 @@
   "bfe898508f00ae19920d711444d818f50536f6da63320d977c60af3ca9abc0c4": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx"
   ],
-  "bff37185e911109058e95059d671f75408c5c5687bcf98c22f332f83203c2bc2": [
-    "manifest/hash_index.json"
-  ],
   "c2052f9d6bbcec5856f99628192ec3385d3be0e78db34216387b2ce2354cd195": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-cosmos-and-orientation/index.md"
   ],
   "c5e02ce7ed90f9a27cdacaeb6523cc1aba285691bc589cddac4aca3c6b5c33c3": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-Working-1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx"
-  ],
-  "c751889f528114a44a076723ba25d13310b1222afcc8382e87a73596b61e5566": [
-    "manifest/duplicate_sets.json"
   ],
   "c8453eb767eb58fae3b5fec51d25c3d54a6c200e664d750e187cf99e0e9578fb": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx"
@@ -544,6 +547,9 @@
   ],
   "ddf6c8cd0753a22bcf48062990c8ca031a76e994872094187bf90dc1e8e63e08": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx"
+  ],
+  "df0d5274482558cbb1460c876137c46c3d11a5492f135e4857539224a51271c7": [
+    "wiki/projects/semantic-collapse-theory/story/governance-diad/index.md"
   ],
   "e187193784773994353b6a11d4c0aa3446af501bfbf1e2c59bb50c56c32c88a9": [
     "wiki/projects/uliua/index.md"

@@ -6,20 +6,27 @@ This is the narrative companion branch for SCT.
 
 ## Current Shape
 
-- 4 files.
+- 4 files total.
+- 2 root-level cluster pages organize those files.
+
+## Root-Level Cluster Pages
+
+- [Narrative Episodes](narrative-episodes/index.md)
+- [Governance Diad](governance-diad/index.md)
 
 ## Representative Files
 
-- [Episode 1 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
-- [Episode 2 Outline- "Entropy and the Birth of Meaning".docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 2 Outline- "Entropy and the Birth of Meaning".docx>)
-- [Episode 3 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 3 Outline.docx>)
-- [SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
+- [Narrative Episodes / Episode 1 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
+- [Narrative Episodes / Episode 2 Outline- "Entropy and the Birth of Meaning".docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 2 Outline- "Entropy and the Birth of Meaning".docx>)
+- [Narrative Episodes / Episode 3 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 3 Outline.docx>)
+- [Governance Diad / SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
 
 ## Working Read
 
-These are narrative or explanation-facing companion docs rather than core protocol notes. They can stay separate from the protocol branches while still remaining part of SCT lineage.
+These are narrative or explanation-facing companion docs rather than core protocol notes. The branch now separates cleanly into an episode arc and a governance protocol, both still attached to SCT lineage.
 
 ## Next Actions
 
 1. Keep the story branch visible as a companion lineage page.
-2. Link any future narrative additions back to the main SCT branch.
+2. Keep the two cluster pages stable unless a new durable seam appears.
+3. Link any future narrative additions back to the main SCT branch.
