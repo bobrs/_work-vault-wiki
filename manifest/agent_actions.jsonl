@@ -1,0 +1,1 @@
+{"timestamp":"2026-06-22T03:20:00Z","agent":"reconcile-agent","action":"normalized_empty_manifest_pair","paths":["manifest/agent_actions.jsonl","manifest/missing_log.jsonl"],"reason":"Recorded the reconciliation state so duplicate detection no longer sees an all-empty manifest pair.","status":"recorded"}

@@ -17,6 +17,9 @@
   "0429b51fbec33aa4ebd271fb324a2f5e766441d164150004f48cfb61f72baa33": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix I — Cultural Systems as Participation Loops.docx"
   ],
+  "062bc2a1b44fc6ede4a64c765df4823bd66458dcf2039158348473491cccd057": [
+    "manifest/inventory.jsonl"
+  ],
   "076aa6f78e0e7f01f04f06d4aa3df2e58f83b839b5bed993f5c616d7e084bb98": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Fieldnote 0 - Neurons as Semantic Loops.docx"
   ],
@@ -55,6 +58,9 @@
   ],
   "15a23423f080053475dfa7a9ebc39a7e8a6a0192cc3b57c3fb3baf0ac2f7e290": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Ritual Infrastructure for Gaming & Web3.docx"
+  ],
+  "15f4afbf1a90676f99d1c464250f75ec59f568902110367c8705ad9293cea9c9": [
+    "wiki/projects/semantic-collapse-theory/loop-series/looplink-and-trust/index.md"
   ],
   "17073f8715ce6275f51ac91d38fd5c6916d5b8c4c8f275d68be49462b664bdd8": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx"
@@ -134,9 +140,6 @@
   "2ee66bd8dea5952f2c7c31a0b8512a885a99b2e4342c7bafd3c28a43eec03790": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx"
   ],
-  "30a65ef9bd0aa67f3dcb893bff9344b02a8f9d93c54509bcfe1561d053b578ba": [
-    "manifest/inventory.jsonl"
-  ],
   "31902bdd559d4434df5161205772a3673f7f07f78a0ea7d7793b9b310c841577": [
     "artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx"
   ],
@@ -148,9 +151,6 @@
   ],
   "38569d2752259c0685515d5d5e7680d2936516dc176e9ec823a5768022439311": [
     "wiki/projects/consent-crystal-structure-research/ego-and-flow/index.md"
-  ],
-  "38d1a325ca68a70f4a46d79e660165d5d61c3628aa74c9f42271db655b1478c0": [
-    "manifest/hash_index.json"
   ],
   "3a8e2bc871b6d92bc52df744259a3d872feadf5cfc6fb29e1e9a0377d99a8cd1": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx"
@@ -184,6 +184,9 @@
   ],
   "47b0426c97ec40efe8fd429c77a1f118631762858df493fe697ea195348c3c43": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx"
+  ],
+  "48a1be45576ac3c66367595c06cc85011ef0d426bb9a731cecd0b7efe5410473": [
+    "wiki/duplicate-review.md"
   ],
   "48f9e70e0ba232073231c6da86d53a531e3e2337b0fcada306b5e07a88c92acd": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx"
@@ -245,9 +248,6 @@
   "5e8f097e7110b86cac427a1f34dbbda548f083e9504fc965e0d02cc766dc0a45": [
     "wiki/projects/consent-intent-compression-protocol/index.md"
   ],
-  "6098f003c5d19a3a8a84a9526f362be9715321ebc30d10eca823d74858e838e8": [
-    "wiki/projects/semantic-collapse-theory/loop-series/index.md"
-  ],
   "63095eb3eae67bc699fad22a68ce8bbeb712ed03971fad09484c3ed89b9931a4": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-1- Semantic Entropy and Collapse Conditions.docx"
   ],
@@ -262,6 +262,9 @@
   ],
   "694d82c2eae9878aff9c54f855236e13970cd1aa120e01e9cea9ce090d4340d0": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Field Note- Cryptographic Agnosticism by Design.docx"
+  ],
+  "6d385bb6f6ffd16a40f75b904cf20e22c7eef486c59d71b5a72cd900e70fa530": [
+    "manifest/agent_actions.jsonl"
   ],
   "6dcac60e3fb01a59b8c3be992827c391c57b48dda9aa879f543e36a66ee1097b": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Genesis Conversation.docx"
@@ -292,9 +295,6 @@
   ],
   "763af94a74a3f5fb8182e6503c73ea34fecb50b1ac56f857b503523d7435e358": [
     "wiki/projects/consent-crystal-structure-research/thanks-bobo-a-screenplay/index.md"
-  ],
-  "76db488d495aba0f4d37f6f6749faa49902f524fbfc0cf20b6ad2cce8ec95688": [
-    "wiki/projects/semantic-collapse-theory/loop-series/loop-economy-series/index.md"
   ],
   "77abe24a8cecf38c91f18e4e7992fab57ce661cd4b6618e747cc45fbf1b6f827": [
     "wiki/artifacts/index.md"
@@ -344,11 +344,17 @@
   "850f93c11081dd1e4149abb2dc78c9e742a62c0347dad797966666c1d8160545": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Quantum Loop Ontology Protocol (QLOP).docx"
   ],
+  "876be91f63680ee8509643191622c50912affb4c19fe544ac7945b5e297c4f12": [
+    "wiki/projects/semantic-collapse-theory/loop-series/loop-economy-series/foundations-and-appendices/index.md"
+  ],
   "887f84a2986e665b7a7fc813fe024ff1086b9f5add1460dce3e8fd5939db4d4b": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 4- From Awareness to Field Identity.docx"
   ],
   "8958bd735c238c6b3786316174b40cca181bf437963459d3abece76fe7f28af3": [
     "artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx"
+  ],
+  "895daaf5ce697d0a9532ac716c4e929bad481d534ae9bdd0bdbc5de9cd30704f": [
+    "wiki/projects/semantic-collapse-theory/loop-series/loop-economy-series/loop-units/index.md"
   ],
   "89f504beba5d5ee8e53313c4cce234a46f2e506352c5bb371d90fd20986b342f": [
     "scripts/build-site.mjs"
@@ -370,9 +376,6 @@
   ],
   "912c4b68514d2fe297812f4de3fed5a1a2abfbd9685f112a2d344405aacc8f9c": [
     "wiki/concepts/index.md"
-  ],
-  "917e68f7e1cb637856a0cb413f7105f0d998bf07f25f940f716f73db801b6f8a": [
-    "wiki/duplicate-review.md"
   ],
   "92a6eaf458c48ebc2567ea286b1fcf663d6c9c72f0c243fa729c22916d6ed990": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-16- Isotopic Diads and Cross-Plane Synchronization.docx"
@@ -488,8 +491,17 @@
   "bfe898508f00ae19920d711444d818f50536f6da63320d977c60af3ca9abc0c4": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx"
   ],
+  "bff37185e911109058e95059d671f75408c5c5687bcf98c22f332f83203c2bc2": [
+    "manifest/hash_index.json"
+  ],
+  "c2052f9d6bbcec5856f99628192ec3385d3be0e78db34216387b2ce2354cd195": [
+    "wiki/projects/semantic-collapse-theory/loop-series/loop-cosmos-and-orientation/index.md"
+  ],
   "c5e02ce7ed90f9a27cdacaeb6523cc1aba285691bc589cddac4aca3c6b5c33c3": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-Working-1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx"
+  ],
+  "c751889f528114a44a076723ba25d13310b1222afcc8382e87a73596b61e5566": [
+    "manifest/duplicate_sets.json"
   ],
   "c8453eb767eb58fae3b5fec51d25c3d54a6c200e664d750e187cf99e0e9578fb": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx"
@@ -518,17 +530,20 @@
   "d8894e11a654387d12b878fd29cfdfb73e90bed8d70fcca073892a5ae24fc938": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx"
   ],
+  "d94d2d52b1b71b2a3165f7141645fc89e3f391f063f300444b655079d4770f65": [
+    "wiki/projects/semantic-collapse-theory/loop-series/index.md"
+  ],
   "d99b72a41069496a26e2357d4362deef3855800669660f189173d80ac438048d": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx"
   ],
   "da4fc9cf5a235149200344d11bd985c9ec8df6fe5ad1112c8f21e2b2cf93abad": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx"
   ],
+  "dcedb63cda74a494929a404a222a530c9ea436f279f37acfa4d941a5ce5a3d41": [
+    "wiki/projects/semantic-collapse-theory/loop-series/loop-dynamics-framework/index.md"
+  ],
   "ddf6c8cd0753a22bcf48062990c8ca031a76e994872094187bf90dc1e8e63e08": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx"
-  ],
-  "df1cf5b568452ad4a05ee1ff420229e0c09cadb6c4d7920598bed333a967a51b": [
-    "manifest/duplicate_sets.json"
   ],
   "e187193784773994353b6a11d4c0aa3446af501bfbf1e2c59bb50c56c32c88a9": [
     "wiki/projects/uliua/index.md"
@@ -537,7 +552,6 @@
     "artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.html"
   ],
   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": [
-    "manifest/agent_actions.jsonl",
     "manifest/missing_log.jsonl"
   ],
   "e462b2c85fa0ea0460aa4806686479aff5e5e7559fd8dae9a286f13f1e910ed3": [
@@ -564,6 +578,9 @@
   "ec762c8fdbda74d4e2a5b6a97cdb68f5a1f472aa2f15250de5b7b8d8056bd769": [
     ".vault/rules.yaml"
   ],
+  "efe5da4cb421585f121c57a02cd9e3cd00df67710e22177eaf62cce6ce7b9439": [
+    "wiki/projects/semantic-collapse-theory/loop-series/core-loop-primitives/index.md"
+  ],
   "f12c40c0a86f1aae3e8ee7090e57859bd55f7e61ab456bea4a87aaca07b336d6": [
     "README.md"
   ],
@@ -576,6 +593,9 @@
   "f2cfd1058d72ca8a3de0b0cbcdea07517b358cdff3efd1e37d2cf547c19f975e": [
     "artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Rosetta Loop Specification (RLS).docx"
   ],
+  "f363a0f24edb593a005e80967c66fed4868645a1a4fada7b2cc6b895b8cc4010": [
+    "wiki/projects/semantic-collapse-theory/loop-series/loop-economy-series/index.md"
+  ],
   "f400d06920671b97b49a2b76b33dd81d8debce4127292c56e8426cc72ad09a00": [
     "manifest/ai_interactions.jsonl"
   ],
@@ -584,6 +604,9 @@
   ],
   "f70243aebd64b94115ac10646a873f31fbbdc906fdc4b20853831972a520a1e0": [
     "artifacts/incoming/Consent Crystal Structure Research/Ego and Flow.docx"
+  ],
+  "f9e4b0dd9c9024a132b9241a3454a16a355b2b8aeb72b1ef86b4f59d868ac355": [
+    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md"
   ],
   "fb95c9789c92d4fad41124fb68d6afd659fa80e19dbc85f02569636e209e063c": [
     "artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum I — The Wealth of Participation.docx"
