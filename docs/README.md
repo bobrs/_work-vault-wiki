@@ -2,11 +2,12 @@
 
 This directory holds the operating instructions for the repository itself.
 
-Current phase: active intake, lineage-aware project splits, duplicate collapse review, and archive tracking.
+Current phase: active intake, lineage-aware project splits, published-item handling, duplicate collapse review, and archive tracking.
 
 Start with:
 
 - [Operating Protocol](20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md)
+- [Project Directives Addendum](20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md)
 
 Related instruction files live here:
 

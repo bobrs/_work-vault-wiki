@@ -100,3 +100,5 @@ Should include:
 ## Operating Compression
 
 Build navigation over the vault without pretending the wiki is the vault. In the active state, preserve lineage, keep auxiliary bundles separate unless promoted, and leave absent meaning absent.
+
+When a branch is published as HTML, treat the HTML page as the primary surface and let DOCX or MD companions move to archive once the page is self-sufficient and does not offer those companions as downloads.

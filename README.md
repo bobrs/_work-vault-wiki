@@ -26,7 +26,7 @@ docs/        repository operating instructions
 
 ## Current Phase
 
-The wiki should stay evidence-led. Do not invent projects, concepts, canon pages, or named attractors without artifact evidence, but do split out supported sub-projects with lineage labels and keep auxiliary bundles separate from core source unless otherwise noted.
+The wiki should stay evidence-led. Small durable branches get their own pages. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
 
 ## First Content Intake
 
@@ -52,6 +52,7 @@ See:
 
 - [`docs/README.md`](docs/README.md)
 - [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md)
+- [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md)
 
 ## Public Site
 

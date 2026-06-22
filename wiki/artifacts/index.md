@@ -3,9 +3,14 @@
 Generated from `manifest/inventory.jsonl`.
 
 
-## archived (19)
+## archived (20)
 
-### Consent Crystal Structure Research (19)
+### Consent Crystal Structure Research (20)
+
+#### Butterfly Bush Time Portals (1)
+
+Direct files (1)
+- [artifacts/archived/Consent Crystal Structure Research/Butterfly Bush Time Portals/Butterfly Bush Time Portals.docx](../../artifacts/archived/Consent%20Crystal%20Structure%20Research/Butterfly%20Bush%20Time%20Portals/Butterfly%20Bush%20Time%20Portals.docx)
 
 #### Semantic Collapse Theory (19)
 
@@ -32,13 +37,12 @@ Direct files (19)
 - [artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-The Resonance Funding Protocol — Toward Collapse-Proximity Compensation.docx](../../artifacts/archived/Consent%20Crystal%20Structure%20Research/Semantic%20Collapse%20Theory/SCT%20set%2020050505/SCT-The%20Resonance%20Funding%20Protocol%20%E2%80%94%20Toward%20Collapse-Proximity%20Compensation.docx)
 - [artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-Working-1- Protocol-Free Diads- Collapse Mechanisms Beyond Time.docx](../../artifacts/archived/Consent%20Crystal%20Structure%20Research/Semantic%20Collapse%20Theory/SCT%20set%2020050505/SCT-Working-1-%20Protocol-Free%20Diads-%20Collapse%20Mechanisms%20Beyond%20Time.docx)
 
-## incoming (132)
+## incoming (131)
 
-### Consent Crystal Structure Research (132)
+### Consent Crystal Structure Research (131)
 
-Direct files (12)
+Direct files (11)
 - [artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx](../../artifacts/incoming/Consent%20Crystal%20Structure%20Research/Automeme%20Propagation%20Engine-%20Architecture%20and%20Operational%20Blueprint.docx)
-- [artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.docx](../../artifacts/incoming/Consent%20Crystal%20Structure%20Research/Butterfly%20Bush%20Time%20Portals.docx)
 - [artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.html](../../artifacts/incoming/Consent%20Crystal%20Structure%20Research/Butterfly%20Bush%20Time%20Portals.html)
 - [artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP).zip](../../artifacts/incoming/Consent%20Crystal%20Structure%20Research/Consent%E2%80%93Intent%20Compression%20Protocol%20%28CICP%29.zip)
 - [artifacts/incoming/Consent Crystal Structure Research/Daily Growth Ritual.docx](../../artifacts/incoming/Consent%20Crystal%20Structure%20Research/Daily%20Growth%20Ritual.docx)

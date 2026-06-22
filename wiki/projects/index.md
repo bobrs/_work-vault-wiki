@@ -22,6 +22,13 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Automeme Propagation Engine](polememelop/automeme-propagation-engine/index.md)
 - [Loop Collapse Resilience](polememelop/loop-collapse-resilience/index.md)
 
+### Consent Crystal Structure Research
+
+- [Butterfly Bush Time Portals](consent-crystal-structure-research/butterfly-bush-time-portals/index.md)
+- [Daily Growth Ritual](consent-crystal-structure-research/daily-growth-ritual/index.md)
+- [Ego and Flow](consent-crystal-structure-research/ego-and-flow/index.md)
+- [Thanks, Bobo - A Screenplay](consent-crystal-structure-research/thanks-bobo-a-screenplay/index.md)
+
 ### Semantic Collapse Theory
 
 - [Loop Series](semantic-collapse-theory/loop-series/index.md)

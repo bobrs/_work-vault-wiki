@@ -6,17 +6,24 @@ This is the first major batch of added content. It remains in active intake, so 
 
 ## Current Shape
 
-- 132 files were inventoried in the active incoming corpus.
-- 19 files were archived to `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505`.
+- 131 files were inventoried in the active incoming corpus.
+- 20 files are archived under `artifacts/archived/Consent Crystal Structure Research`, including 19 in `SCT set 20050505`.
 - The corpus is mostly `.docx`, with a small number of `.html`, `.zip`, and `.pdf` companions.
 - The main branches are `Semantic Collapse Theory` and `Consent–Intent Compression Protocol (CICP)`.
-- There are 12 direct root-level artifacts under the incoming corpus folder.
+- There are 11 direct root-level artifacts under the incoming corpus folder.
 
 ## Lineage Pages
 
 - [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
 - [POLEMEMELOP](../polememelop/index.md)
+
+## Root-Level Branch Pages
+
+- [Butterfly Bush Time Portals](butterfly-bush-time-portals/index.md)
+- [Daily Growth Ritual](daily-growth-ritual/index.md)
+- [Ego and Flow](ego-and-flow/index.md)
+- [Thanks, Bobo - A Screenplay](thanks-bobo-a-screenplay/index.md)
 
 ## Branches
 
@@ -68,23 +75,17 @@ Representative files:
 - [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
 - [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
-### Root-Level Documents
+### Residual Root-Level Companion
 
-The direct root documents under the corpus folder that remain ungrouped are not yet grouped into stable subprojects. The POLEMEMELOP family has already been split out; the remaining root-level works stay here until more evidence appears.
+The only remaining root-level companion that is not already represented by its own page is the `Consent–Intent Compression Protocol (CICP).zip` bundle.
 
-Representative root files:
-
-- [Butterfly Bush Time Portals.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.docx>)
-- [Butterfly Bush Time Portals.html](<../../../artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.html>)
-- [Daily Growth Ritual.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Daily Growth Ritual.docx>)
-- [Ego and Flow.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Ego and Flow.docx>)
-- [Thanks, Bobo - A Screenplay.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.docx>)
-- [Thanks, Bobo - A Screenplay.pdf](<../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.pdf>)
+- [Consent–Intent Compression Protocol (CICP).zip](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP).zip>)
 
 ## Review Notes
 
 - The `Semantic Collapse Theory` lineage cluster has been archived and split into lineage pages.
-- The remaining root-level documents may later split into separate project pages, but they are not forced into that structure yet.
+- The `Butterfly Bush Time Portals` DOCX companion has been archived because the HTML page is the published form.
+- The remaining root-level companion is the `Consent–Intent Compression Protocol (CICP).zip` bundle.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 
