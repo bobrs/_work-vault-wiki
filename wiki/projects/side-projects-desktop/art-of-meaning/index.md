@@ -8,8 +8,8 @@ This branch is a tiny published art/meaning page.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Art of Meaning/index.html>)
-- [Creation Celebration Loop — Full Expansion.pdf](<../../../artifacts/incoming/Side Projects Desktop/Art of Meaning/Creation Celebration Loop — Full Expansion.pdf>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Art of Meaning/index.html>)
+- [Creation Celebration Loop — Full Expansion.pdf](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Art of Meaning/Creation Celebration Loop — Full Expansion.pdf>)
 
 ## Working Read
 

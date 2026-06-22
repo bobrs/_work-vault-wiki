@@ -10,10 +10,10 @@ This cluster covers the protocol core for LoopLink: the transport rules, the fal
 
 ## Representative Files
 
-- [LoopLink Protocol.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
-- [LoopLink Appendix A – TOTP HK 1 Handshake.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Appendix A – TOTP HK 1 Handshake.docx>)
-- [LoopLinkArtifact JSON schema.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLinkArtifact JSON schema.docx>)
-- [LoopLink Field Note- Cryptographic Agnosticism by Design.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Field Note- Cryptographic Agnosticism by Design.docx>)
+- [LoopLink Protocol.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
+- [LoopLink Appendix A – TOTP HK 1 Handshake.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Appendix A – TOTP HK 1 Handshake.docx>)
+- [LoopLinkArtifact JSON schema.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLinkArtifact JSON schema.docx>)
+- [LoopLink Field Note- Cryptographic Agnosticism by Design.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Field Note- Cryptographic Agnosticism by Design.docx>)
 
 ## Working Read
 

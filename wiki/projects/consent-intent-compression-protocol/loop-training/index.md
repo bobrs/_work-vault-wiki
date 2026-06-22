@@ -10,9 +10,9 @@ This is a stand-alone lineage page under the CICP branch.
 
 ## Representative Files
 
-- [Section 1- Foundational Premise — What is a Loop?.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
-- [Section 3- From Loop Structure to Awareness.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx>)
-- [Section 6- Deployment as Training Tool.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx>)
+- [Section 1- Foundational Premise — What is a Loop?.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
+- [Section 3- From Loop Structure to Awareness.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx>)
+- [Section 6- Deployment as Training Tool.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx>)
 
 ## Working Read
 

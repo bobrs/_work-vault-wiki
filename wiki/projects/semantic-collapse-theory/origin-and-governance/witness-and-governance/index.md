@@ -12,7 +12,7 @@ This cluster covers witness-based resolution, governance, guidepost elements, an
 
 - [RFC-Ø- Witness-Based Loop Resolution.docx](<../../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/RFC-Ø- Witness-Based Loop Resolution.docx>)
 - [SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx](<../../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx>)
-- [SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx>)
+- [SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx>)
 - [SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx](<../../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx>)
 
 ## Working Read

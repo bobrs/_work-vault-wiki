@@ -8,7 +8,7 @@ This is the published control page inside `ProgramSelf (You and Your AI)`.
 
 ## Representative Files
 
-- [Control Your AI / index.html](<../../../../../artifacts/incoming/Side Projects Desktop/ProgramSelf (You and Your AI)/Control Your AI/index.html>)
+- [Control Your AI / index.html](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/ProgramSelf (You and Your AI)/Control Your AI/index.html>)
 
 ## Working Read
 

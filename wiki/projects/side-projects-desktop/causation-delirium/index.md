@@ -8,9 +8,9 @@ This branch is a compact published page plus addendum set.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Causation Delirium/index.html>)
-- [Causation Delirium.docx](<../../../artifacts/incoming/Side Projects Desktop/Causation Delirium/Causation Delirium.docx>)
-- [Addendum_ From Causation Delirium To Placid Re‑entry.docx](<../../../artifacts/incoming/Side Projects Desktop/Causation Delirium/Addendum_ From Causation Delirium To Placid Re‑entry.docx>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Causation Delirium/index.html>)
+- [Causation Delirium.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Causation Delirium/Causation Delirium.docx>)
+- [Addendum_ From Causation Delirium To Placid Re‑entry.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Causation Delirium/Addendum_ From Causation Delirium To Placid Re‑entry.docx>)
 
 ## Working Read
 

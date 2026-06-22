@@ -10,9 +10,9 @@ This cluster covers the appendices that extend the loop-economy model into cultu
 
 ## Representative Files
 
-- [LE-Appendix I — Cultural Systems as Participation Loops.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix I — Cultural Systems as Participation Loops.docx>)
-- [LE-Appendix II — Loop Economic Infrastructure.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx>)
-- [LE-Appendix III — Resonance Funding.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix III — Resonance Funding.docx>)
+- [LE-Appendix I — Cultural Systems as Participation Loops.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix I — Cultural Systems as Participation Loops.docx>)
+- [LE-Appendix II — Loop Economic Infrastructure.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx>)
+- [LE-Appendix III — Resonance Funding.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix III — Resonance Funding.docx>)
 
 ## Working Read
 

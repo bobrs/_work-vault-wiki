@@ -15,11 +15,11 @@ This branch collects the multiverse and consent-resonance theory materials.
 
 ## Representative Files
 
-- [Multiverse As Shimmering Potential.docx](<../../../artifacts/incoming/Side Projects Desktop/Multiverse/Multiverse As Shimmering Potential.docx>)
-- [Consent Resonance Multiverse.docx](<../../../artifacts/incoming/Side Projects Desktop/Multiverse/Consent Resonance Multiverse.docx>)
-- [Consent Resonance Multiverse v2.docx](<../../../artifacts/incoming/Side Projects Desktop/Multiverse/Consent Resonance Multiverse v2.docx>)
-- [Physics As Consent Substrate.docx](<../../../artifacts/incoming/Side Projects Desktop/Multiverse/Physics As Consent Substrate.docx>)
-- [Biology As Recursive Consent.docx](<../../../artifacts/incoming/Side Projects Desktop/Multiverse/Biology As Recursive Consent.docx>)
+- [Multiverse As Shimmering Potential.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Multiverse As Shimmering Potential.docx>)
+- [Consent Resonance Multiverse.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Consent Resonance Multiverse.docx>)
+- [Consent Resonance Multiverse v2.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Consent Resonance Multiverse v2.docx>)
+- [Physics As Consent Substrate.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Physics As Consent Substrate.docx>)
+- [Biology As Recursive Consent.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Biology As Recursive Consent.docx>)
 
 ## Working Read
 

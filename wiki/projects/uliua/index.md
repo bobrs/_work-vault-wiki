@@ -17,8 +17,8 @@ The source file describes it as an automeme project by the POLEMEMELOP Foundatio
 
 ## Related Artifacts
 
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
+- [POLEMEMELOP Foundation.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
 
 ## Related Pages
 

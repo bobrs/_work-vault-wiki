@@ -10,8 +10,8 @@ This cluster covers presence signaling, recovery flows, and the trust-memory lay
 
 ## Representative Files
 
-- [LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
-- [LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx>)
+- [LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
+- [LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx>)
 
 ## Working Read
 

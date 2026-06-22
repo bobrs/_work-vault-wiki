@@ -16,8 +16,8 @@ This cluster covers the operational loop units that instantiate the economy mode
 
 ## Representative Files
 
-- [Exchange and Transaction Loops / LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
-- [Feedback and Scaling Loops / LE-Loop 5 — The Reputation Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
+- [Exchange and Transaction Loops / LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
+- [Feedback and Scaling Loops / LE-Loop 5 — The Reputation Loop.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
 
 ## Working Read
 

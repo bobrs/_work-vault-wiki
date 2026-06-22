@@ -15,7 +15,7 @@ This branch covers the safety-facing loop language and the companion safety-seek
 
 ## Representative Files
 
-- [Stable Loop Language / index.html](<../../../../artifacts/incoming/Side Projects Desktop/Safety and Stable Loop Language/Stable Loop Language/index.html>)
+- [Stable Loop Language / index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Safety and Stable Loop Language/Stable Loop Language/index.html>)
 
 ## Working Read
 

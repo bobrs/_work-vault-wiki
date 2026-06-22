@@ -8,8 +8,8 @@ This branch is a compact published vision brief set.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Opportunity Studio/index.html>)
-- [Opportunity_Studio_Vision (1).pdf](<../../../artifacts/incoming/Side Projects Desktop/Opportunity Studio/Opportunity_Studio_Vision (1).pdf>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Opportunity Studio/index.html>)
+- [Opportunity_Studio_Vision (1).pdf](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Opportunity Studio/Opportunity_Studio_Vision (1).pdf>)
 
 ## Working Read
 

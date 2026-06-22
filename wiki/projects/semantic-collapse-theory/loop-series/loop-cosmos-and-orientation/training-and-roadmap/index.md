@@ -10,8 +10,8 @@ This cluster covers the training path for initiates and the project roadmap that
 
 ## Representative Files
 
-- [INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx>)
-- [Project Roadmap- How Many Loops?.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Project Roadmap- How Many Loops?.docx>)
+- [INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx>)
+- [Project Roadmap- How Many Loops?.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Project Roadmap- How Many Loops?.docx>)
 
 ## Working Read
 

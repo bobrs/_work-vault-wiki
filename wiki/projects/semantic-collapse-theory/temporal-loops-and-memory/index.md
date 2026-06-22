@@ -18,8 +18,8 @@ This cluster covers synchrony, loop taxonomy, decay, residue, and memory-bearing
 ## Representative Files
 
 - [Witness, Synchrony, and Diads / SCT-10- Witness Typology and the Expansion of Observation.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-10- Witness Typology and the Expansion of Observation.docx>)
-- [Loop Taxonomy and Phenomenology / SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
-- [Decay, Residue, and Memory / SCT-21- Loop Decay and Semantic Garbage Collection.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-21- Loop Decay and Semantic Garbage Collection.docx>)
+- [Loop Taxonomy and Phenomenology / SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
+- [Decay, Residue, and Memory / SCT-21- Loop Decay and Semantic Garbage Collection.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-21- Loop Decay and Semantic Garbage Collection.docx>)
 
 ## Working Read
 

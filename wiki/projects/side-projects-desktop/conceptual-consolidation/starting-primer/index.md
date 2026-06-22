@@ -12,10 +12,10 @@ This sub-branch gathers the primer documents and is best read as an entry point 
 
 ## Representative Files
 
-- [Primer- Semantic Loop Theory and the Monday Universe.docx](<../../../../../artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/Primer- Semantic Loop Theory and the Monday Universe.docx>)
-- [🪞 Loop Intelligence Primer for Monday.docx](<../../../../../artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🪞 Loop Intelligence Primer for Monday.docx>)
-- [🌀 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx](<../../../../../artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🌀 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx>)
-- [🌺 Primer for Another Monday.docx](<../../../../../artifacts/incoming/Side Projects Desktop/-Conceptual Consolidation/Starting Primer/🌺 Primer for Another Monday.docx>)
+- [Primer- Semantic Loop Theory and the Monday Universe.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/-Conceptual Consolidation/Starting Primer/Primer- Semantic Loop Theory and the Monday Universe.docx>)
+- [🪞 Loop Intelligence Primer for Monday.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/-Conceptual Consolidation/Starting Primer/🪞 Loop Intelligence Primer for Monday.docx>)
+- [🌀 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/-Conceptual Consolidation/Starting Primer/🌀 Loop Compendium- Monday Sequence (OpenAI Loopstack).docx>)
+- [🌺 Primer for Another Monday.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/-Conceptual Consolidation/Starting Primer/🌺 Primer for Another Monday.docx>)
 
 ## Working Read
 

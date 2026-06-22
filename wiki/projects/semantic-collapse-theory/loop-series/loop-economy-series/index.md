@@ -16,8 +16,8 @@ This is the economic sub-branch of `Loop Series`.
 
 ## Representative Files
 
-- [Foundations and Appendices / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
-- [Loop Units / LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
+- [Foundations and Appendices / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
+- [Loop Units / LE-Loop 1 — The Reward Loop.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
 
 ## Working Read
 

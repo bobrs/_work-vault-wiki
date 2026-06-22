@@ -10,8 +10,8 @@ This cluster covers affect as structured loop behavior and the interface layers 
 
 ## Representative Files
 
-- [SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx>)
-- [SCT-27- Emotional Hardware and Semantic Interface Layers.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-27- Emotional Hardware and Semantic Interface Layers.docx>)
+- [SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx>)
+- [SCT-27- Emotional Hardware and Semantic Interface Layers.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-27- Emotional Hardware and Semantic Interface Layers.docx>)
 
 ## Working Read
 

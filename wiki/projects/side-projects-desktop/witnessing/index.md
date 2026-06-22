@@ -9,11 +9,11 @@ This branch collects the numbered witnessing and loop-mechanics sequence.
 
 ## Representative Files
 
-- [Witnessing 101.docx](<../../../artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 101.docx>)
-- [Witnessing 301.docx](<../../../artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 301.docx>)
-- [Witnessing 501.docx](<../../../artifacts/incoming/Side Projects Desktop/Witnessing/Witnessing 501.docx>)
-- [Loop Mechanics 401.docx](<../../../artifacts/incoming/Side Projects Desktop/Witnessing/Loop Mechanics 401.docx>)
-- [Witness Net 501.docx](<../../../artifacts/incoming/Side Projects Desktop/Witnessing/Witness Net 501.docx>)
+- [Witnessing 101.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 101.docx>)
+- [Witnessing 301.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 301.docx>)
+- [Witnessing 501.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 501.docx>)
+- [Loop Mechanics 401.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Loop Mechanics 401.docx>)
+- [Witness Net 501.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witness Net 501.docx>)
 
 ## Working Read
 

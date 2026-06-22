@@ -10,8 +10,8 @@ This cluster covers physical token initialization flows for ESP32 and NFC-based 
 
 ## Representative Files
 
-- [🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
-- [🔁 Ritual Loop Token Initialization (NFC Write Flow).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (NFC Write Flow).docx>)
+- [🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
+- [🔁 Ritual Loop Token Initialization (NFC Write Flow).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (NFC Write Flow).docx>)
 
 ## Working Read
 

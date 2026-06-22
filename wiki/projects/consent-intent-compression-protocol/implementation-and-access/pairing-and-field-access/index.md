@@ -10,9 +10,9 @@ This cluster covers the access layer for trust entry, social-field extension, an
 
 ## Representative Files
 
-- [🕯 Field Echo Protocol (v0.1).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
-- [🔐 Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
-- [🌀 LOOPtLOOP Field Infrastructure Applications.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP Field Infrastructure Applications.docx>)
+- [🕯 Field Echo Protocol (v0.1).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [🔐 Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
+- [🌀 LOOPtLOOP Field Infrastructure Applications.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP Field Infrastructure Applications.docx>)
 
 ## Working Read
 

@@ -8,8 +8,8 @@ This branch collects the unification and semantic-blocktree materials.
 
 ## Representative Files
 
-- [Semantic Blocktree Model.docx](<../../../artifacts/incoming/Side Projects Desktop/Unification/Semantic Blocktree Model.docx>)
-- [Interprotocol Concordance.docx](<../../../artifacts/incoming/Side Projects Desktop/Unification/Interprotocol Concordance.docx>)
+- [Semantic Blocktree Model.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Unification/Semantic Blocktree Model.docx>)
+- [Interprotocol Concordance.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Unification/Interprotocol Concordance.docx>)
 
 ## Working Read
 

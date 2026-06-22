@@ -14,10 +14,10 @@ This branch holds the source-analysis material and the consolidated source view.
 
 ## Representative Files
 
-- [Stage3_Meta_Analysis.md](<../../../../artifacts/incoming/Side Projects Desktop/Source text/Stage3_Meta_Analysis.md>)
-- [Stage3_Consolidated_View.md](<../../../../artifacts/incoming/Side Projects Desktop/Source text/Stage3_Consolidated_View.md>)
-- [Source / Source 2505.docx](<../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/Source 2505.docx>)
-- [Source / more source.docx](<../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/more source.docx>)
+- [Stage3_Meta_Analysis.md](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Stage3_Meta_Analysis.md>)
+- [Stage3_Consolidated_View.md](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Stage3_Consolidated_View.md>)
+- [Source / Source 2505.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/Source 2505.docx>)
+- [Source / more source.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/more source.docx>)
 
 ## Working Read
 

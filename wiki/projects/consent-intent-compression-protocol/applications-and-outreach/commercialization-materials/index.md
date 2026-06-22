@@ -10,8 +10,8 @@ This cluster covers the patent draft and pitch deck that package the platform fo
 
 ## Representative Files
 
-- [📝 Consent Ring Provisional Patent Draft.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
-- [Pitch Deck.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Pitch Deck.docx>)
+- [📝 Consent Ring Provisional Patent Draft.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
+- [Pitch Deck.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Pitch Deck.docx>)
 
 ## Working Read
 

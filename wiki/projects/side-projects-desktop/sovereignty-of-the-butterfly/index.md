@@ -8,8 +8,8 @@ This branch collects the butterfly sovereignty page and its source component.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Sovereignty of the Butterfly/index.html>)
-- [sovereignty_of_the_butterfly_single_file_webpage.jsx](<../../../artifacts/incoming/Side Projects Desktop/Sovereignty of the Butterfly/sovereignty_of_the_butterfly_single_file_webpage.jsx>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Sovereignty of the Butterfly/index.html>)
+- [sovereignty_of_the_butterfly_single_file_webpage.jsx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Sovereignty of the Butterfly/sovereignty_of_the_butterfly_single_file_webpage.jsx>)
 
 ## Working Read
 

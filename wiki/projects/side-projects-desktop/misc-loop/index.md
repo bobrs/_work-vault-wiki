@@ -8,11 +8,11 @@ This is the catch-all loop and consent branch for mixed-format prototypes.
 
 ## Representative Files
 
-- [Resonant Identity- Recognition Through Harmonics, Not Passwords.docx](<../../../artifacts/incoming/Side Projects Desktop/Misc Loop/Resonant Identity- Recognition Through Harmonics, Not Passwords.docx>)
-- [Consent Protocol Intro.pdf](<../../../artifacts/incoming/Side Projects Desktop/Misc Loop/Consent Protocol Intro.pdf>)
+- [Resonant Identity- Recognition Through Harmonics, Not Passwords.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/Resonant Identity- Recognition Through Harmonics, Not Passwords.docx>)
+- [Consent Protocol Intro.pdf](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/Consent Protocol Intro.pdf>)
 - [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/archived/Side Projects Desktop/Misc Loop/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 - [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/archived/Side Projects Desktop/Misc Loop/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
-- [🌱 Outline- From NPC to “I KNEW IT!”.docx](<../../../artifacts/incoming/Side Projects Desktop/Misc Loop/🌱 Outline- From NPC to “I KNEW IT!”.docx>)
+- [🌱 Outline- From NPC to “I KNEW IT!”.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/🌱 Outline- From NPC to “I KNEW IT!”.docx>)
 
 ## Working Read
 

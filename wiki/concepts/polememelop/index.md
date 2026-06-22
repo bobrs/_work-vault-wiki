@@ -10,9 +10,9 @@ That makes this page a concept node, but also a bridge between theory pages, pro
 
 ## Related Artifacts
 
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
-- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
+- [POLEMEMELOP Foundation.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
+- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
 
 ## Related Pages
 

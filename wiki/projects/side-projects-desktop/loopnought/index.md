@@ -8,7 +8,7 @@ This branch is a single published page.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/loopnought/index.html>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/loopnought/index.html>)
 
 ## Working Read
 

@@ -8,7 +8,7 @@ This is the published memory page inside `ProgramSelf (You and Your AI)`.
 
 ## Representative Files
 
-- [Program Your Memory / index.html](<../../../../../artifacts/incoming/Side Projects Desktop/ProgramSelf (You and Your AI)/Program Your Memory/index.html>)
+- [Program Your Memory / index.html](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/ProgramSelf (You and Your AI)/Program Your Memory/index.html>)
 
 ## Working Read
 

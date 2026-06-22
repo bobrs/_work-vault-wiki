@@ -10,10 +10,10 @@ This cluster covers the front half of the loop economy: exchange, conditional tr
 
 ## Representative Files
 
-- [LE-Loop 1 — The Reward Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
-- [LE-Loop 2 — The Escrow Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 2 — The Escrow Loop.docx>)
-- [LE-Loop 3 — The Market Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx>)
-- [LE-Loop 4 — The Demand-Signal Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 4 — The Demand-Signal Loop.docx>)
+- [LE-Loop 1 — The Reward Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 1 — The Reward Loop.docx>)
+- [LE-Loop 2 — The Escrow Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 2 — The Escrow Loop.docx>)
+- [LE-Loop 3 — The Market Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 3 — The Market Loop.docx>)
+- [LE-Loop 4 — The Demand-Signal Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 4 — The Demand-Signal Loop.docx>)
 
 ## Working Read
 

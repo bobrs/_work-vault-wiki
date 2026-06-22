@@ -10,11 +10,11 @@ This cluster covers the five core loop forms that define the primitive SCT loop 
 
 ## Representative Files
 
-- [Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
-- [Loop-1 — The Minimal Authenticated Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx>)
-- [Loop-2 — The Time-Synced Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-2 — The Time-Synced Loop.docx>)
-- [Loop-3 — The Witnessed Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
-- [Loop-4 — The Multi-Agent Collapse Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-4 — The Multi-Agent Collapse Loop.docx>)
+- [Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
+- [Loop-1 — The Minimal Authenticated Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-1 — The Minimal Authenticated Loop.docx>)
+- [Loop-2 — The Time-Synced Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-2 — The Time-Synced Loop.docx>)
+- [Loop-3 — The Witnessed Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx>)
+- [Loop-4 — The Multi-Agent Collapse Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-4 — The Multi-Agent Collapse Loop.docx>)
 
 ## Working Read
 

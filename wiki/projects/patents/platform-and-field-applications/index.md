@@ -10,7 +10,7 @@ This cluster now covers the surviving LOOPtLOOP addendum plus the archived compa
 
 ## Representative Files
 
-- [LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx](<../../../../artifacts/incoming/Patents/LOOPtLOOP platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx>)
+- [LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/LOOPtLOOP platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx>)
 - [LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../../artifacts/archived/Patents/LOOPtLOOP platform/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
 - [LOOPtLOOP Field Infrastructure Applications.docx](<../../../../artifacts/archived/Patents/LOOPtLOOP platform/LOOPtLOOP Field Infrastructure Applications.docx>)
 - [Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)

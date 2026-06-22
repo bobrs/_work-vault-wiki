@@ -10,8 +10,8 @@ This cluster covers the technical sibling pair for automeme propagation and coll
 
 ## Representative Files
 
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
-- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
+- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
 ## Working Read
 

@@ -8,8 +8,8 @@ This branch collects the root analysis markdown for `Source text`.
 
 ## Representative Files
 
-- [Stage3_Meta_Analysis.md](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Stage3_Meta_Analysis.md>)
-- [Stage3_Consolidated_View.md](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Stage3_Consolidated_View.md>)
+- [Stage3_Meta_Analysis.md](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Stage3_Meta_Analysis.md>)
+- [Stage3_Consolidated_View.md](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Stage3_Consolidated_View.md>)
 
 ## Working Read
 

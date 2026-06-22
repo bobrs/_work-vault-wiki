@@ -17,9 +17,9 @@ This cluster covers the personal data sovereignty protocol, its LoopLink-based v
 
 ## Representative Files
 
-- [PDSP Core / Personal Data Sovereignty Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
-- [Integration Bundles / PDSP Integration Bundle v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
-- [PDSP-lite Specs / PDSP-lite_Spec_v0.1.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
+- [PDSP Core / Personal Data Sovereignty Protocol.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
+- [Integration Bundles / PDSP Integration Bundle v0.1.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
+- [PDSP-lite Specs / PDSP-lite_Spec_v0.1.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
 
 ## Working Read
 

@@ -16,8 +16,8 @@ This cluster covers outward-facing briefs, application concepts, and presentatio
 
 ## Representative Files
 
-- [Vertical Application Briefs / Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
-- [Commercialization Materials / 📝 Consent Ring Provisional Patent Draft.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
+- [Vertical Application Briefs / Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
+- [Commercialization Materials / 📝 Consent Ring Provisional Patent Draft.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/📝 Consent Ring Provisional Patent Draft.docx>)
 
 ## Working Read
 

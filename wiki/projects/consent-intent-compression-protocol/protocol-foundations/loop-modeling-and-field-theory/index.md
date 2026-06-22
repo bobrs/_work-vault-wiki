@@ -10,11 +10,11 @@ This cluster covers the core loop models and field-theory framing that underpins
 
 ## Representative Files
 
-- [Consent–Intent Compression Protocol (CICP).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
-- [Loop Projection Principle (LPP).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx>)
-- [Loop Substrate Theory (LST).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Substrate Theory (LST).docx>)
-- [Loop Tensor Field Specification (LTFS).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Tensor Field Specification (LTFS).docx>)
-- [Quantum Loop Ontology Protocol (QLOP).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Quantum Loop Ontology Protocol (QLOP).docx>)
+- [Consent–Intent Compression Protocol (CICP).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
+- [Loop Projection Principle (LPP).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx>)
+- [Loop Substrate Theory (LST).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Substrate Theory (LST).docx>)
+- [Loop Tensor Field Specification (LTFS).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Tensor Field Specification (LTFS).docx>)
+- [Quantum Loop Ontology Protocol (QLOP).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Quantum Loop Ontology Protocol (QLOP).docx>)
 
 ## Working Read
 

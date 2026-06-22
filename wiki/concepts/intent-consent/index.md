@@ -10,7 +10,7 @@ In practice, Intent-Consent is the phrase-level attractor for work that tries to
 
 - [Intent-Consent Loops as the Fabric of the Universe.docx](<../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx>)
 - [Intent-Consent Loops as the Fabric of the Universe.docx](<../../../artifacts/intake-archive/20260622__loop-and-phase-training-intent-consent-intake/🧬 Intent-Consent Loops as the Fabric of the Universe.docx>)
-- [Consent Protocol Intro.pdf](<../../../artifacts/incoming/Side Projects Desktop/Misc Loop/Consent Protocol Intro.pdf>)
+- [Consent Protocol Intro.pdf](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/Consent Protocol Intro.pdf>)
 
 ## Related Pages
 

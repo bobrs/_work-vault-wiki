@@ -18,11 +18,11 @@ This branch collects the patent-family intake corpus.
 
 ## Representative Files
 
-- [Abracadabra Protocol / Abracadabra_Protocol_Specification.docx](<../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
+- [Abracadabra Protocol / Abracadabra_Protocol_Specification.docx](<../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
 - [Trust and Pairing Systems / Wrapped Bidirectional TOTP Patent / DeepTrust_Provisional_Patent.docx](<../../../artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__WRAPPED-BIDIRECTIONAL-TOTP-PATENT__v1__deeptrust-provisional-patent.docx>)
-- [Platform and Field Applications / LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx](<../../../artifacts/incoming/Patents/LOOPtLOOP platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx>)
+- [Platform and Field Applications / LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx](<../../../artifacts/intake-archive/20260622__patents-intake/LOOPtLOOP platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx>)
 - [Encoding and Semantic Interfaces / Provisional_Patent_TOTP_Color_Symbol_Encoding.docx](<../../../artifacts/standard-named/20260622__PATENTS__ENCODING-SEMANTIC-INTERFACES__COLOR-ALPHA-CODEC__PATENT__PROVISIONAL-PATENT-TOTP-COLOR-SYMBOL-ENCODING__v1__provisional-patent-totp-color-symbol-encoding.docx>)
-- [Governance and Games / Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../artifacts/incoming/Patents/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
+- [Governance and Games / Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
 
 ## Working Read
 

@@ -17,7 +17,7 @@ This cluster covers the SCT work on value, propagation, and memetic drift.
 ## Representative Files
 
 - [Economy and Funding / SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx>)
-- [Propagation and Optimization / SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
+- [Propagation and Optimization / SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
 
 ## Working Read
 

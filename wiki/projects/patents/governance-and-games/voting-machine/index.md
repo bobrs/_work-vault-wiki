@@ -12,9 +12,9 @@ This branch covers the offline-capable voting seam, including the core provision
 
 ## Representative Files
 
-- [Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../../../artifacts/incoming/Patents/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
-- [Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf](<../../../../../artifacts/incoming/Patents/Voting Machine/Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf>)
-- [N417.pdf](<../../../../../artifacts/incoming/Patents/Voting Machine/N417.pdf>)
+- [Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
+- [Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf>)
+- [N417.pdf](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/N417.pdf>)
 
 ## Working Read
 

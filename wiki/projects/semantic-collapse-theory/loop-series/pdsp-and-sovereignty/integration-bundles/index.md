@@ -10,8 +10,8 @@ This cluster covers the bundle layer that aligns Loop Cosmos assets with PDSP-li
 
 ## Representative Files
 
-- [PDSP Integration Bundle v0.1.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
-- [PDSP Integration Bundle v0.2.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.2.docx>)
+- [PDSP Integration Bundle v0.1.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
+- [PDSP Integration Bundle v0.2.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.2.docx>)
 
 ## Working Read
 

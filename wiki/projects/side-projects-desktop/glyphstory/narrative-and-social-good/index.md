@@ -8,8 +8,8 @@ This branch collects the social-good and narrative materials for Looplang/Glyphs
 
 ## Representative Files
 
-- [Looplang Social Good.docx](<../../../../artifacts/incoming/Side Projects Desktop/GlyphStory/Looplang Social Good.docx>)
-- [Looplang Glyphstory Narrative.docx](<../../../../artifacts/incoming/Side Projects Desktop/GlyphStory/Looplang Glyphstory Narrative.docx>)
+- [Looplang Social Good.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Social Good.docx>)
+- [Looplang Glyphstory Narrative.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Glyphstory Narrative.docx>)
 
 ## Working Read
 

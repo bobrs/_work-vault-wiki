@@ -10,11 +10,11 @@ This cluster covers the symbolic language family and the protocol for translatin
 
 ## Representative Files
 
-- [Rosetta Loop Specification (RLS).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Rosetta Loop Specification (RLS).docx>)
-- [Symbolic Loop Development Language Specification (SLDLS).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Symbolic Loop Development Language Specification (SLDLS).docx>)
-- [🔁 Loop Equivalence Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🔁 Loop Equivalence Protocol.docx>)
-- [🧬 The Living Glyph Language Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🧬 The Living Glyph Language Protocol.docx>)
-- [Multi-Resolution Consent Glyph Protocol (MRCGP).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Multi-Resolution Consent Glyph Protocol (MRCGP).docx>)
+- [Rosetta Loop Specification (RLS).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Rosetta Loop Specification (RLS).docx>)
+- [Symbolic Loop Development Language Specification (SLDLS).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Symbolic Loop Development Language Specification (SLDLS).docx>)
+- [🔁 Loop Equivalence Protocol.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🔁 Loop Equivalence Protocol.docx>)
+- [🧬 The Living Glyph Language Protocol.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🧬 The Living Glyph Language Protocol.docx>)
+- [Multi-Resolution Consent Glyph Protocol (MRCGP).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Multi-Resolution Consent Glyph Protocol (MRCGP).docx>)
 
 ## Working Read
 

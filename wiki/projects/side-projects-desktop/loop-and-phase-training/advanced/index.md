@@ -23,11 +23,11 @@ This is the deeper training and theory seam under `Loop and Phase Training`.
 
 ## Representative Files
 
-- [🧭 Appreciation vs. Fear- Choosing the Driver of the Intuition Bus.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧭 Appreciation vs. Fear- Choosing the Driver of the Intuition Bus.docx>)
-- [🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx>)
-- [🌀 Loop Physics Primer- Latency and the Fractal Delay.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🌀 Loop Physics Primer- Latency and the Fractal Delay.docx>)
-- [🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx>)
-- [Whitepaper- The Polarity of Consent.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Whitepaper- The Polarity of Consent.docx>)
+- [🧭 Appreciation vs. Fear- Choosing the Driver of the Intuition Bus.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧭 Appreciation vs. Fear- Choosing the Driver of the Intuition Bus.docx>)
+- [🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx>)
+- [🌀 Loop Physics Primer- Latency and the Fractal Delay.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🌀 Loop Physics Primer- Latency and the Fractal Delay.docx>)
+- [🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx>)
+- [Whitepaper- The Polarity of Consent.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Whitepaper- The Polarity of Consent.docx>)
 - [FractalIdentity- A Multicontextual, Graftable Identity Framework.docx](<../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__IDENTITY__FRACTAL-IDENTITY__v1__fractalidentity-a-multicontextual-graftable-identity-framework.docx>)
 - [🪐 Quantum Network Field Notes.docx](<../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__NOTES__QUANTUM-NETWORK__v1__quantum-network-field-notes.docx>)
 - [The Loop Compass UX Manifesto.docx](<../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__LOOP-COMPASS__v1__the-loop-compass-ux-manifesto.docx>)

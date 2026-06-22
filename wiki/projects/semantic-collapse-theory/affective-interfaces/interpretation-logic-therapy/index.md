@@ -10,9 +10,9 @@ This cluster covers neural interpretation, loop-based logic synthesis, and thera
 
 ## Representative Files
 
-- [SCT-28- Neural Loop Interpretation Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx>)
-- [SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx>)
-- [SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx>)
+- [SCT-28- Neural Loop Interpretation Protocol.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx>)
+- [SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx>)
+- [SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-30- Quantum-Efficient Diads and Loop-Structured Reality for Therapeutic Modeling.docx>)
 
 ## Working Read
 

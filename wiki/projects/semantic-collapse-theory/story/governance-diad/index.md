@@ -10,7 +10,7 @@ This cluster covers the governance protocol for living document stewardship.
 
 ## Representative Files
 
-- [SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
+- [SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
 
 ## Working Read
 

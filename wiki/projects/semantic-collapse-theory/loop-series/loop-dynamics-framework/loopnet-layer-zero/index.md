@@ -10,7 +10,7 @@ This cluster covers the semantic privacy layer for timing, distance, and mesh-le
 
 ## Representative Files
 
-- [LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx>)
+- [LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx>)
 
 ## Working Read
 

@@ -10,8 +10,8 @@ This cluster covers the base Personal Data Sovereignty Protocol and its LoopLink
 
 ## Representative Files
 
-- [Personal Data Sovereignty Protocol.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
-- [Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx>)
+- [Personal Data Sovereignty Protocol.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
+- [Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx>)
 
 ## Working Read
 

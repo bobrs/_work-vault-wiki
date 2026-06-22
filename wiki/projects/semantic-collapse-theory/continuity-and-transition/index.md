@@ -16,8 +16,8 @@ This cluster covers the branch's continuity, persistence, and transition-to-cont
 
 ## Representative Files
 
-- [Quantum Continuum Home / SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx>)
-- [Loop Arc Narrative / SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx>)
+- [Quantum Continuum Home / SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx>)
+- [Loop Arc Narrative / SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx>)
 
 ## Working Read
 

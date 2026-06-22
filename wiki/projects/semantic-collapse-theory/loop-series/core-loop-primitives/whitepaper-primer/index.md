@@ -10,7 +10,7 @@ This cluster covers the whitepaper that frames the primitive loop set and its se
 
 ## Representative Files
 
-- [SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
+- [SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
 
 ## Working Read
 

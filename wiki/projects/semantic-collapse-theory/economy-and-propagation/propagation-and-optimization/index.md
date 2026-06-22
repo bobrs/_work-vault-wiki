@@ -10,8 +10,8 @@ This cluster covers automeme propagation and the critique of hierarchical optimi
 
 ## Representative Files
 
-- [SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
-- [SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx>)
+- [SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
+- [SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-33- Loop Economy vs. Hierarchical Optimization — A Structural Response to Centralized Fragility.docx>)
 
 ## Working Read
 

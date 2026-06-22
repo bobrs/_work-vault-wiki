@@ -10,9 +10,9 @@ This cluster covers dyadic trust structure, trust filtering, and consent propaga
 
 ## Representative Files
 
-- [Synaptic Dyad Protocol Specification (SDPS).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx>)
-- [Synaptic Trust Filters — Variable Scale Modeling.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Synaptic Trust Filters — Variable Scale Modeling.docx>)
-- [🌊 Wave-State Loop Forwarding.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx>)
+- [Synaptic Dyad Protocol Specification (SDPS).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx>)
+- [Synaptic Trust Filters — Variable Scale Modeling.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Synaptic Trust Filters — Variable Scale Modeling.docx>)
+- [🌊 Wave-State Loop Forwarding.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx>)
 
 ## Working Read
 

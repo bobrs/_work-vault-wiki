@@ -8,10 +8,10 @@ This branch collects the discipline-specific multiverse analogies.
 
 ## Representative Files
 
-- [Biology As Recursive Consent.docx](<../../../../artifacts/incoming/Side Projects Desktop/Multiverse/Biology As Recursive Consent.docx>)
-- [Chemistry As Consent Harmonics.docx](<../../../../artifacts/incoming/Side Projects Desktop/Multiverse/Chemistry As Consent Harmonics.docx>)
-- [Neurology As Consent Cascade.docx](<../../../../artifacts/incoming/Side Projects Desktop/Multiverse/Neurology As Consent Cascade.docx>)
-- [Physics As Consent Substrate.docx](<../../../../artifacts/incoming/Side Projects Desktop/Multiverse/Physics As Consent Substrate.docx>)
+- [Biology As Recursive Consent.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Biology As Recursive Consent.docx>)
+- [Chemistry As Consent Harmonics.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Chemistry As Consent Harmonics.docx>)
+- [Neurology As Consent Cascade.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Neurology As Consent Cascade.docx>)
+- [Physics As Consent Substrate.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Physics As Consent Substrate.docx>)
 
 ## Working Read
 

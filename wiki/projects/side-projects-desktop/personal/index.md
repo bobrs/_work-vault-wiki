@@ -18,7 +18,7 @@ This branch gathers the personal, reflective, and presentation-facing material i
 
 ## Representative Files
 
-- [spaced test.html](<../../../artifacts/incoming/Side Projects Desktop/Personal/spaced test.html>)
+- [spaced test.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Personal/spaced test.html>)
 - [Butterfly Bush Time Portals.html](<../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html>)
 - [Butterfly Bush Time Portals.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx>)
 - [Daily Growth Ritual.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Daily Growth Ritual.docx>)

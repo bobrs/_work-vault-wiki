@@ -10,9 +10,9 @@ This cluster covers the explanatory companion material that orients the SCT bran
 
 ## Representative Files
 
-- [SCT Fieldnote 0 - Neurons as Semantic Loops.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Fieldnote 0 - Neurons as Semantic Loops.docx>)
-- [SCT Files and Narrative.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Files and Narrative.docx>)
-- [SCT Genesis Conversation.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Genesis Conversation.docx>)
+- [SCT Fieldnote 0 - Neurons as Semantic Loops.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT Fieldnote 0 - Neurons as Semantic Loops.docx>)
+- [SCT Files and Narrative.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT Files and Narrative.docx>)
+- [SCT Genesis Conversation.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT Genesis Conversation.docx>)
 
 ## Working Read
 

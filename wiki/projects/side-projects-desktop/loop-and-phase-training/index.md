@@ -31,9 +31,9 @@ This branch collects the training, repair, and recursive-integration materials i
 - [Glyph glossary.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__GLOSSARY__LOOP-AND-PHASE-TRAINING__v1__glyph-glossary.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__loop-and-phase-training-glyph-glossary-intake/Glyph glossary.docx>)
 - [What Are Loops.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INTRO__LOOP-BASICS__v1__what-are-loops.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-basics-intake/🌀🌀 What Are Loops.docx>)
 - [The Loop Codex.docx](<../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CODEX__LOOP-CODEX__v1__the-loop-codex.docx>) · [archive copy](<../../../../artifacts/intake-archive/20260622__loop-and-phase-training-loop-codex-intake/  🜁 The Loop Codex.docx>)
-- [Advanced / 🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx>)
-- [Advanced / 🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx>)
-- [Advanced / Whitepaper- The Polarity of Consent.docx](<../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Whitepaper- The Polarity of Consent.docx>)
+- [Advanced / 🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx>)
+- [Advanced / 🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx>)
+- [Advanced / Whitepaper- The Polarity of Consent.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Whitepaper- The Polarity of Consent.docx>)
 
 ## Working Read
 

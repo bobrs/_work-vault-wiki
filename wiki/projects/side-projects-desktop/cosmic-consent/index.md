@@ -10,8 +10,8 @@ This branch is a compact published HTML and PDF pair about cosmic consent.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Cosmic Consent/index.html>)
-- [Cosmic_Consent_Protocol.pdf](<../../../artifacts/incoming/Side Projects Desktop/Cosmic Consent/Cosmic_Consent_Protocol.pdf>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Cosmic Consent/index.html>)
+- [Cosmic_Consent_Protocol.pdf](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Cosmic Consent/Cosmic_Consent_Protocol.pdf>)
 
 ## Working Read
 

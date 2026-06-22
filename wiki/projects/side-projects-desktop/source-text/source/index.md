@@ -14,12 +14,12 @@ This is the DOCX source bundle under `Source text`.
 
 ## Representative Files
 
-- [Source 2505.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/Source 2505.docx>)
-- [Source 2505_Analysis.md](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/Source 2505_Analysis.md>)
-- [source1.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/source1.docx>)
-- [source1_Analysis.md](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/source1_Analysis.md>)
-- [more source.docx](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/more source.docx>)
-- [more source_Analysis.md](<../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/more source_Analysis.md>)
+- [Source 2505.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/Source 2505.docx>)
+- [Source 2505_Analysis.md](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/Source 2505_Analysis.md>)
+- [source1.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/source1.docx>)
+- [source1_Analysis.md](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/source1_Analysis.md>)
+- [more source.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/more source.docx>)
+- [more source_Analysis.md](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/more source_Analysis.md>)
 
 ## Working Read
 

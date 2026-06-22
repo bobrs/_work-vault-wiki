@@ -12,11 +12,11 @@ This branch collects the Crystalstream and consent-flow materials.
 
 ## Representative Files
 
-- [CRYSTALSTREAM Protocol v0.docx](<../../../artifacts/incoming/Side Projects Desktop/Crystalstream/CRYSTALSTREAM Protocol v0.docx>)
-- [Consent-Based Routing Protocol (CBRP).docx](<../../../artifacts/incoming/Side Projects Desktop/Crystalstream/Consent-Based Routing Protocol (CBRP).docx>)
-- [Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx](<../../../artifacts/incoming/Side Projects Desktop/Crystalstream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx>)
-- [🌊 Consent as Flow- The Emergence of Meaningful Network Dynamics.docx](<../../../artifacts/incoming/Side Projects Desktop/Crystalstream/🌊 Consent as Flow- The Emergence of Meaningful Network Dynamics.docx>)
-- [Welcome to the Crystalstream- A Consent-Centric Future.docx](<../../../artifacts/incoming/Side Projects Desktop/Crystalstream/Welcome to the Crystalstream- A Consent-Centric Future.docx>)
+- [CRYSTALSTREAM Protocol v0.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/CRYSTALSTREAM Protocol v0.docx>)
+- [Consent-Based Routing Protocol (CBRP).docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/Consent-Based Routing Protocol (CBRP).docx>)
+- [Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx>)
+- [🌊 Consent as Flow- The Emergence of Meaningful Network Dynamics.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/🌊 Consent as Flow- The Emergence of Meaningful Network Dynamics.docx>)
+- [Welcome to the Crystalstream- A Consent-Centric Future.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/Welcome to the Crystalstream- A Consent-Centric Future.docx>)
 
 ## Working Read
 

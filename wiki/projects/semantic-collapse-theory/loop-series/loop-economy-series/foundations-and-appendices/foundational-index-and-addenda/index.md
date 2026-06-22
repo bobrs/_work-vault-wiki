@@ -10,9 +10,9 @@ This cluster covers the index and addenda that define and interpret the loop-eco
 
 ## Representative Files
 
-- [LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
-- [LE-Index-Addendum I — The Wealth of Participation.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum I — The Wealth of Participation.docx>)
-- [LE-Index-Addendum II — The Participation Economy.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum II — The Participation Economy.docx>)
+- [LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
+- [LE-Index-Addendum I — The Wealth of Participation.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum I — The Wealth of Participation.docx>)
+- [LE-Index-Addendum II — The Participation Economy.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum II — The Participation Economy.docx>)
 
 ## Working Read
 

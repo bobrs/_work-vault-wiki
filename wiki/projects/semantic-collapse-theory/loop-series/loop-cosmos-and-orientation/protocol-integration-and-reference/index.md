@@ -10,8 +10,8 @@ This cluster covers the Loop Cosmos bundle, the protocol comparison reference, a
 
 ## Representative Files
 
-- [Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx>)
-- [Loop Cosmos Protocol Comparison- A Semantic Stack Reference.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Cosmos Protocol Comparison- A Semantic Stack Reference.docx>)
+- [Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx>)
+- [Loop Cosmos Protocol Comparison- A Semantic Stack Reference.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Cosmos Protocol Comparison- A Semantic Stack Reference.docx>)
 
 ## Working Read
 

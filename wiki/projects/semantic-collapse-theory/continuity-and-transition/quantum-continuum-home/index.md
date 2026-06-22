@@ -10,7 +10,7 @@ This cluster covers the end-of-life upload system and the semantic home that pre
 
 ## Representative Files
 
-- [SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx>)
+- [SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-31- End-of-Life Upload and the Quantum Continuum Home.docx>)
 
 ## Working Read
 

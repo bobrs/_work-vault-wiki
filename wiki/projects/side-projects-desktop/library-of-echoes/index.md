@@ -8,7 +8,7 @@ This branch is a single published page.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Library of Echoes/index.html>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Library of Echoes/index.html>)
 
 ## Working Read
 

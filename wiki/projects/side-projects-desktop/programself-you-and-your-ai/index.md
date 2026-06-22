@@ -14,8 +14,8 @@ This branch collects the two published self-programming pages in the desktop int
 
 ## Representative Files
 
-- [Control Your AI / index.html](<../../../../artifacts/incoming/Side Projects Desktop/ProgramSelf (You and Your AI)/Control Your AI/index.html>)
-- [Program Your Memory / index.html](<../../../../artifacts/incoming/Side Projects Desktop/ProgramSelf (You and Your AI)/Program Your Memory/index.html>)
+- [Control Your AI / index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/ProgramSelf (You and Your AI)/Control Your AI/index.html>)
+- [Program Your Memory / index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/ProgramSelf (You and Your AI)/Program Your Memory/index.html>)
 
 ## Working Read
 

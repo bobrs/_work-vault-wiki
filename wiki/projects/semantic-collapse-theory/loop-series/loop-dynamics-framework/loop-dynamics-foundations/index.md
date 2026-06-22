@@ -10,8 +10,8 @@ This cluster covers the canonical field definition and the three laws of loopody
 
 ## Representative Files
 
-- [LDF-Field Definition.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
-- [LDF- The Three Laws of Loopodynamics.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF- The Three Laws of Loopodynamics.docx>)
+- [LDF-Field Definition.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
+- [LDF- The Three Laws of Loopodynamics.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF- The Three Laws of Loopodynamics.docx>)
 
 ## Working Read
 

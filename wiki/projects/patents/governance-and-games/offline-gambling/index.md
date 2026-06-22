@@ -12,8 +12,8 @@ This branch covers the offline deterministic gaming seam: how hierarchical key d
 
 ## Representative Files
 
-- [Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx](<../../../../../artifacts/incoming/Patents/Offline Gambling/Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx>)
-- [Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf](<../../../../../artifacts/incoming/Patents/Offline Gambling/Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf>)
+- [Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx](<../../../../../artifacts/intake-archive/20260622__patents-intake/Offline Gambling/Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx>)
+- [Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf](<../../../../../artifacts/intake-archive/20260622__patents-intake/Offline Gambling/Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf>)
 
 ## Working Read
 

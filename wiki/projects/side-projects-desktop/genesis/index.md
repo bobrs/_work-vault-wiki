@@ -8,9 +8,9 @@ This branch collects the genesis and session-logging materials.
 
 ## Representative Files
 
-- [Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx](<../../../artifacts/incoming/Side Projects Desktop/Genesis/Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx>)
-- [Loop-Aware Agent Agreement for Session Logging.docx](<../../../artifacts/incoming/Side Projects Desktop/Genesis/Loop-Aware Agent Agreement for Session Logging.docx>)
-- [Genesis log.docx](<../../../artifacts/incoming/Side Projects Desktop/Genesis/Genesis log.docx>)
+- [Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Genesis/Vision Brief- Ephemeral Identity Infrastructure – Modular Trust Legos for a Resilient Future.docx>)
+- [Loop-Aware Agent Agreement for Session Logging.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Genesis/Loop-Aware Agent Agreement for Session Logging.docx>)
+- [Genesis log.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Genesis/Genesis log.docx>)
 
 ## Working Read
 

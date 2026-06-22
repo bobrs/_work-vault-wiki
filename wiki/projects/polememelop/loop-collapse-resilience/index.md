@@ -10,7 +10,7 @@ This page covers the substructure for automeme integrity and recovery when a loo
 
 ## Representative Files
 
-- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
 ## Working Read
 

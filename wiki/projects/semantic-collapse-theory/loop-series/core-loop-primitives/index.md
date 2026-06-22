@@ -16,8 +16,8 @@ This cluster covers the smallest reusable loop units and the whitepaper primer t
 
 ## Representative Files
 
-- [Primitive Loop Set / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
-- [Whitepaper Primer / SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
+- [Primitive Loop Set / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
+- [Whitepaper Primer / SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx>)
 
 ## Working Read
 

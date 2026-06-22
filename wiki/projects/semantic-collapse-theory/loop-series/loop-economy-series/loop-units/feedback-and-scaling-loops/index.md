@@ -10,10 +10,10 @@ This cluster covers the back half of the loop economy: reputation, redistributio
 
 ## Representative Files
 
-- [LE-Loop 5 — The Reputation Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
-- [LE-Loop 6 — The Redistribution Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 6 — The Redistribution Loop.docx>)
-- [LE-Loop 7 — The Inflation:Deflation Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 7 — The Inflation:Deflation Loop.docx>)
-- [LE-Loop 8 — The Bonding Curve Loop.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 8 — The Bonding Curve Loop.docx>)
+- [LE-Loop 5 — The Reputation Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 5 — The Reputation Loop.docx>)
+- [LE-Loop 6 — The Redistribution Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 6 — The Redistribution Loop.docx>)
+- [LE-Loop 7 — The Inflation:Deflation Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 7 — The Inflation:Deflation Loop.docx>)
+- [LE-Loop 8 — The Bonding Curve Loop.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 8 — The Bonding Curve Loop.docx>)
 
 ## Working Read
 

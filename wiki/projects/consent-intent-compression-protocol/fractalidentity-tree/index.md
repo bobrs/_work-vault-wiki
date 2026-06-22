@@ -10,8 +10,8 @@ This is a stand-alone lineage page under the CICP branch.
 
 ## Representative Files
 
-- [Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
-- [Graftable Identity Tree- Economics and Structure of Grafting.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree- Economics and Structure of Grafting.docx>)
+- [Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
+- [Graftable Identity Tree- Economics and Structure of Grafting.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree- Economics and Structure of Grafting.docx>)
 
 ## Working Read
 

@@ -19,7 +19,7 @@ This cluster gathers the genesis texts, witness framing, and governance scaffold
 
 - [Origin and Protocols / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
 - [Witness and Governance / RFC-Ø- Witness-Based Loop Resolution.docx](<../../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/RFC-Ø- Witness-Based Loop Resolution.docx>)
-- [Narrative and Fieldnotes / SCT Files and Narrative.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT Files and Narrative.docx>)
+- [Narrative and Fieldnotes / SCT Files and Narrative.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT Files and Narrative.docx>)
 
 ## Working Read
 

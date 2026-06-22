@@ -9,8 +9,8 @@ This branch collects the consent-seed HTML page and its companion document.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Consent Seed/index.html>)
-- [ 🌱 The Consent Seed.docx](<../../../artifacts/incoming/Side Projects Desktop/Consent Seed/ 🌱 The Consent Seed.docx>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Consent Seed/index.html>)
+- [ 🌱 The Consent Seed.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Consent Seed/ 🌱 The Consent Seed.docx>)
 
 ## Working Read
 

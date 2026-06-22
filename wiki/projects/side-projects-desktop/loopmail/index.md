@@ -8,8 +8,8 @@ This branch collects the LoopMail messaging and concept material.
 
 ## Representative Files
 
-- [Loopmail One Pager.docx](<../../../artifacts/incoming/Side Projects Desktop/LoopMail/Loopmail One Pager.docx>)
-- [Loopmail Concept Spec.docx](<../../../artifacts/incoming/Side Projects Desktop/LoopMail/Loopmail Concept Spec.docx>)
+- [Loopmail One Pager.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/LoopMail/Loopmail One Pager.docx>)
+- [Loopmail Concept Spec.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/LoopMail/Loopmail Concept Spec.docx>)
 
 ## Working Read
 

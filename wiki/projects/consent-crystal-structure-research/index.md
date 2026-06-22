@@ -43,9 +43,9 @@ This branch contains the largest share of the intake and now has its own lineage
 
 Representative files:
 
-- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx)
-- [RFC-Ø- Witness-Based Loop Resolution.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/RFC-Ø- Witness-Based Loop Resolution.docx>)
-- [Loop Series / Loop-0 — The Irreducible Semantic Loop.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
+- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx)
+- [RFC-Ø- Witness-Based Loop Resolution.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/RFC-Ø- Witness-Based Loop Resolution.docx>)
+- [Loop Series / Loop-0 — The Irreducible Semantic Loop.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
 
 ### Consent–Intent Compression Protocol (CICP)
 
@@ -59,9 +59,9 @@ This branch is the smaller structured set inside the corpus and now has its own 
 
 Representative files:
 
-- [Consent–Intent Compression Protocol (CICP).docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
-- [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
-- [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
+- [Consent–Intent Compression Protocol (CICP).docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
+- [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
+- [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
 
 ### POLEMEMELOP
 
@@ -73,11 +73,11 @@ This root-level family now has its own lineage page.
 
 Representative files:
 
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
-- [ULiUA.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx>)
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
-- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+- [POLEMEMELOP Foundation.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
+- [ULiUA.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/ULiUA.docx>)
+- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
+- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
 ### Archived Root-Level Companion
 

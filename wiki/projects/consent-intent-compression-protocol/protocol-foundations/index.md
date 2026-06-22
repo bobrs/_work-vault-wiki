@@ -17,9 +17,9 @@ This is the protocol and language spine of the CICP root intake. The documents h
 
 ## Representative Files
 
-- [Loop Modeling and Field Theory / Consent–Intent Compression Protocol (CICP).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
-- [Glyph Languages and Equivalence / 🧬 The Living Glyph Language Protocol.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/🧬 The Living Glyph Language Protocol.docx>)
-- [Synaptic Trust and Propagation / Synaptic Dyad Protocol Specification (SDPS).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx>)
+- [Loop Modeling and Field Theory / Consent–Intent Compression Protocol (CICP).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
+- [Glyph Languages and Equivalence / 🧬 The Living Glyph Language Protocol.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🧬 The Living Glyph Language Protocol.docx>)
+- [Synaptic Trust and Propagation / Synaptic Dyad Protocol Specification (SDPS).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx>)
 
 ## Working Read
 

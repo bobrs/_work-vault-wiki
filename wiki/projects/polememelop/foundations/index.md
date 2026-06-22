@@ -10,8 +10,8 @@ This cluster covers the founding statement and naming document for the automeme 
 
 ## Representative Files
 
-- [POLEMEMELOP Foundation.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
+- [POLEMEMELOP Foundation.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
 
 ## Working Read
 

@@ -25,12 +25,12 @@ This is a stand-alone lineage page under the SCT branch.
 
 ## Representative Files
 
-- [Core Loop Primitives / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
-- [LoopLink and Trust / LoopLink Protocol.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
-- [PDSP and Sovereignty / PDSP-lite_Spec_v0.3.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
-- [Loop Cosmos and Orientation / The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
-- [Loop Dynamics Framework / LDF-Field Definition.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
-- [Loop Economy Series / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
+- [Core Loop Primitives / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
+- [LoopLink and Trust / LoopLink Protocol.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
+- [PDSP and Sovereignty / PDSP-lite_Spec_v0.3.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
+- [Loop Cosmos and Orientation / The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
+- [Loop Dynamics Framework / LDF-Field Definition.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
+- [Loop Economy Series / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
 
 ## Working Read
 

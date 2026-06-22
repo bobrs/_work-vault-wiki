@@ -12,7 +12,7 @@ This branch is the EchoPad mirror set in the desktop intake.
 
 ## Representative Files
 
-- [Protocol Specification- EchoPad – Compressed Trust Pads for Echo-Based Authentication.docx](<../../../artifacts/incoming/Side Projects Desktop/EchoPad/Protocol Specification- EchoPad – Compressed Trust Pads for Echo-Based Authentication.docx>)
+- [Protocol Specification- EchoPad – Compressed Trust Pads for Echo-Based Authentication.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/EchoPad/Protocol Specification- EchoPad – Compressed Trust Pads for Echo-Based Authentication.docx>)
 
 ## Working Read
 

@@ -8,10 +8,10 @@ This branch collects the protocol and outward-facing materials for Reaction Coas
 
 ## Representative Files
 
-- [Reaction_Coaster_Protocol.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Protocol.docx>)
-- [Reaction_Coaster_Teaser_Simple_Final.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Teaser_Simple_Final.docx>)
-- [Reaction_Coaster_Poster.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Poster.docx>)
-- [Reaction_Coaster_Provisional_Updated.docx](<../../../../artifacts/incoming/Side Projects Desktop/FreePour/Reaction_Coaster_Provisional_Updated.docx>)
+- [Reaction_Coaster_Protocol.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Protocol.docx>)
+- [Reaction_Coaster_Teaser_Simple_Final.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Teaser_Simple_Final.docx>)
+- [Reaction_Coaster_Poster.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Poster.docx>)
+- [Reaction_Coaster_Provisional_Updated.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Provisional_Updated.docx>)
 
 ## Working Read
 

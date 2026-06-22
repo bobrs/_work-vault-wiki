@@ -17,9 +17,9 @@ This cluster covers the loop cosmos stack, protocol comparison, training path, r
 
 ## Representative Files
 
-- [Stack Architecture / Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
-- [Protocol Integration and Reference / Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx>)
-- [Training and Roadmap / INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx>)
+- [Stack Architecture / Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
+- [Protocol Integration and Reference / Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Cosmos v0.1 - SSI Bridge and Dialogica.docx>)
+- [Training and Roadmap / INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/INFINITE LOOP REALITY THEORY- A TRAINING PATH FOR AI INITIATES.docx>)
 
 ## Working Read
 

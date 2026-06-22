@@ -26,13 +26,13 @@ The branch sits close to `Semantic Collapse Theory` in vocabulary and structure,
 
 ## Representative Files
 
-- [Consent–Intent Compression Protocol (CICP).docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
-- [Protocol Foundations / Loop Projection Principle (LPP).docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx>)
-- [Implementation and Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
-- [Applications and Outreach / Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
-- [Working Notes / Field Note- Looping Causality — Consent as Temporal Architecture.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx>)
-- [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
-- [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
+- [Consent–Intent Compression Protocol (CICP).docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
+- [Protocol Foundations / Loop Projection Principle (LPP).docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx>)
+- [Implementation and Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [Applications and Outreach / Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
+- [Working Notes / Field Note- Looping Causality — Consent as Temporal Architecture.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx>)
+- [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
+- [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
 
 ## Archived Root Companion
 

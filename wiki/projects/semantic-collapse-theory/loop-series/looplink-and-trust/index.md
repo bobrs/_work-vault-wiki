@@ -16,8 +16,8 @@ This cluster covers LoopLink transport, handshake material, schema definition, p
 
 ## Representative Files
 
-- [LoopLink Core / LoopLink Protocol.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
-- [Presence and Recovery / LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
+- [LoopLink Core / LoopLink Protocol.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
+- [Presence and Recovery / LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
 
 ## Working Read
 

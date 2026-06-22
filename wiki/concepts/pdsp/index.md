@@ -8,13 +8,13 @@ In practice, PDSP is the branch where personal data, trust, and subjective audit
 
 ## Related Artifacts
 
-- [Personal Data Sovereignty Protocol.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
-- [Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx>)
-- [PDSP-lite_Spec_v0.1.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
-- [PDSP-lite_Spec_v0.2.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx>)
-- [PDSP-lite_Spec_v0.3.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
-- [PDSP Integration Bundle v0.1.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
-- [PDSP Integration Bundle v0.2.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.2.docx>)
+- [Personal Data Sovereignty Protocol.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
+- [Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol (PDSP)- A LoopLink Based Architecture for Subjective, Auditable, Decentralized Trust.docx>)
+- [PDSP-lite_Spec_v0.1.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
+- [PDSP-lite_Spec_v0.2.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx>)
+- [PDSP-lite_Spec_v0.3.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
+- [PDSP Integration Bundle v0.1.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.1.docx>)
+- [PDSP Integration Bundle v0.2.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP Integration Bundle v0.2.docx>)
 
 ## Related Pages
 

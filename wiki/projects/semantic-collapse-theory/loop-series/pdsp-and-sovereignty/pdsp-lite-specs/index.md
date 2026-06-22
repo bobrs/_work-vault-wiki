@@ -10,9 +10,9 @@ This cluster covers the minimal interoperable packet format and onboarding profi
 
 ## Representative Files
 
-- [PDSP-lite_Spec_v0.1.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
-- [PDSP-lite_Spec_v0.2.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx>)
-- [PDSP-lite_Spec_v0.3.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
+- [PDSP-lite_Spec_v0.1.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx>)
+- [PDSP-lite_Spec_v0.2.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.2.docx>)
+- [PDSP-lite_Spec_v0.3.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
 
 ## Working Read
 

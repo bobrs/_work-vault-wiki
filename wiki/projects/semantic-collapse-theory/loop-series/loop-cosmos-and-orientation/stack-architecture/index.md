@@ -10,8 +10,8 @@ This cluster covers the layered loop cosmos stack itself and the genesis index t
 
 ## Representative Files
 
-- [Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
-- [The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
+- [Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
+- [The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
 
 ## Working Read
 

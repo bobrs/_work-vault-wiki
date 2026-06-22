@@ -8,8 +8,8 @@ This branch collects the consulting-opportunity and uncertainty documents.
 
 ## Representative Files
 
-- [Tribal Governance Consulting Opportunity.docx](<../../../../artifacts/incoming/Side Projects Desktop/Governance/Tribal Governance Consulting Opportunity.docx>)
-- [Wavefield Consent Uncertainty.docx](<../../../../artifacts/incoming/Side Projects Desktop/Governance/Wavefield Consent Uncertainty.docx>)
+- [Tribal Governance Consulting Opportunity.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Tribal Governance Consulting Opportunity.docx>)
+- [Wavefield Consent Uncertainty.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Wavefield Consent Uncertainty.docx>)
 
 ## Working Read
 

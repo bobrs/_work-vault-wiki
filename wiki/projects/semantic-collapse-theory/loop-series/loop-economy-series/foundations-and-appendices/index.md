@@ -16,8 +16,8 @@ This cluster is the reference and support branch for the loop-based economy.
 
 ## Representative Files
 
-- [Foundational Index and Addenda / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
-- [Appendices and Infrastructure / LE-Appendix II — Loop Economic Infrastructure.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx>)
+- [Foundational Index and Addenda / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
+- [Appendices and Infrastructure / LE-Appendix II — Loop Economic Infrastructure.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx>)
 
 ## Working Read
 

@@ -8,11 +8,11 @@ This cluster covers the Abracadabra/Abracadabracadoo protocol family and its add
 
 ## Representative Files
 
-- [Abracadabra_Protocol_Specification.docx](<../../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
-- [Abracadabracadoo Practical Consent Loop Extension.docx](<../../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo Practical Consent Loop Extension.docx>)
-- [Abracadabracadoo_Protocol_Addendum_II.docx](<../../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum_II.docx>)
-- [Abracadabracadoo_Emotional Consensus Addendum.docx](<../../../../artifacts/incoming/Patents/Abracadabra Protocol/Abracadabracadoo_Emotional Consensus Addendum.docx>)
-- [Provisional_Patent_Filing_Abracadabradoo.docx](<../../../../artifacts/incoming/Patents/Abracadabra Protocol/Provisional_Patent_Filing_Abracadabradoo.docx>)
+- [Abracadabra_Protocol_Specification.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabra_Protocol_Specification.docx>)
+- [Abracadabracadoo Practical Consent Loop Extension.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo Practical Consent Loop Extension.docx>)
+- [Abracadabracadoo_Protocol_Addendum_II.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum_II.docx>)
+- [Abracadabracadoo_Emotional Consensus Addendum.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo_Emotional Consensus Addendum.docx>)
+- [Provisional_Patent_Filing_Abracadabradoo.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Provisional_Patent_Filing_Abracadabradoo.docx>)
 
 ## Working Read
 

@@ -10,8 +10,8 @@ This cluster covers structural classification and lived interpretation of loops.
 
 ## Representative Files
 
-- [SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
-- [SCT-20- Loop Phenomenology — Interpretive Collapse.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-20- Loop Phenomenology — Interpretive Collapse.docx>)
+- [SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx>)
+- [SCT-20- Loop Phenomenology — Interpretive Collapse.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-20- Loop Phenomenology — Interpretive Collapse.docx>)
 
 ## Working Read
 

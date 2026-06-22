@@ -16,10 +16,10 @@ This is the narrative companion branch for SCT.
 
 ## Representative Files
 
-- [Narrative Episodes / Episode 1 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
-- [Narrative Episodes / Episode 2 Outline- "Entropy and the Birth of Meaning".docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 2 Outline- "Entropy and the Birth of Meaning".docx>)
-- [Narrative Episodes / Episode 3 Outline.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/Episode 3 Outline.docx>)
-- [Governance Diad / SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
+- [Narrative Episodes / Episode 1 Outline.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/Episode 1 Outline.docx>)
+- [Narrative Episodes / Episode 2 Outline- "Entropy and the Birth of Meaning".docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/Episode 2 Outline- "Entropy and the Birth of Meaning".docx>)
+- [Narrative Episodes / Episode 3 Outline.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/Episode 3 Outline.docx>)
+- [Governance Diad / SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
 
 ## Working Read
 

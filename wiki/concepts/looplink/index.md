@@ -8,12 +8,12 @@ In practice, LoopLink is the connective tissue between protocol structure and re
 
 ## Related Artifacts
 
-- [LoopLink Protocol.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
-- [LoopLink Appendix A – TOTP HK 1 Handshake.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Appendix A – TOTP HK 1 Handshake.docx>)
-- [LoopLink Field Note- Cryptographic Agnosticism by Design.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopLink Field Note- Cryptographic Agnosticism by Design.docx>)
-- [LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
-- [🕯 Field Echo Protocol (v0.1).docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
-- [🌀 LOOPtLOOP Field Infrastructure Applications.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP Field Infrastructure Applications.docx>)
+- [LoopLink Protocol.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
+- [LoopLink Appendix A – TOTP HK 1 Handshake.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Appendix A – TOTP HK 1 Handshake.docx>)
+- [LoopLink Field Note- Cryptographic Agnosticism by Design.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Field Note- Cryptographic Agnosticism by Design.docx>)
+- [LoopEcho v2- Pattern-Weighted Presence Recovery.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopEcho v2- Pattern-Weighted Presence Recovery.docx>)
+- [🕯 Field Echo Protocol (v0.1).docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [🌀 LOOPtLOOP Field Infrastructure Applications.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP Field Infrastructure Applications.docx>)
 
 ## Related Pages
 

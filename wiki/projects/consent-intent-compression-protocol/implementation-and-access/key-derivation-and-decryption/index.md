@@ -10,8 +10,8 @@ This cluster covers deterministic key hierarchies and selective decryption over 
 
 ## Representative Files
 
-- [Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
-- [Selective Decryption via Hierarchical Temporal Key Derivation.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Selective Decryption via Hierarchical Temporal Key Derivation.docx>)
+- [Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
+- [Selective Decryption via Hierarchical Temporal Key Derivation.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Selective Decryption via Hierarchical Temporal Key Derivation.docx>)
 
 ## Working Read
 

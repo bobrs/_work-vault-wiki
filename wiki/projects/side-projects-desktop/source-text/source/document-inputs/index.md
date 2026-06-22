@@ -8,9 +8,9 @@ This branch collects the DOCX source inputs under `Source`.
 
 ## Representative Files
 
-- [Source 2505.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/Source 2505.docx>)
-- [source1.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/source1.docx>)
-- [more source.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Source text/Source/more source.docx>)
+- [Source 2505.docx](<../../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/Source 2505.docx>)
+- [source1.docx](<../../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/source1.docx>)
+- [more source.docx](<../../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/more source.docx>)
 
 ## Working Read
 

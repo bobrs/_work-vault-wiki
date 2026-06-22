@@ -19,11 +19,11 @@ This branch groups the automeme and foundation material in the root intake corpu
 
 ## Representative Files
 
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
-- [ULiUA.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx>)
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
-- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+- [POLEMEMELOP Foundation.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
+- [ULiUA.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/ULiUA.docx>)
+- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
+- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
 
 ## Working Read
 

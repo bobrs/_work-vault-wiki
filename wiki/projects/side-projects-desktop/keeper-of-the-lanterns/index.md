@@ -8,8 +8,8 @@ This branch collects the keeper page and its single-file React source.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/incoming/Side Projects Desktop/Keeper of the Lanterns/index.html>)
-- [keeper_of_the_lanterns_single_file_webpage.jsx](<../../../artifacts/incoming/Side Projects Desktop/Keeper of the Lanterns/keeper_of_the_lanterns_single_file_webpage.jsx>)
+- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Keeper of the Lanterns/index.html>)
+- [keeper_of_the_lanterns_single_file_webpage.jsx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Keeper of the Lanterns/keeper_of_the_lanterns_single_file_webpage.jsx>)
 
 ## Working Read
 

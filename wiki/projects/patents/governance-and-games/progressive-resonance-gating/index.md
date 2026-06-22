@@ -10,7 +10,7 @@ This branch covers the consent-based layered access and identity representation 
 
 ## Representative Files
 
-- [PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx](<../../../../../artifacts/incoming/Patents/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx>)
+- [PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx](<../../../../../artifacts/intake-archive/20260622__patents-intake/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx>)
 
 ## Working Read
 

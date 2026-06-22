@@ -8,9 +8,9 @@ This cluster covers the governance, access control, and game-system patent famil
 
 ## Representative Files
 
-- [Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx](<../../../../artifacts/incoming/Patents/Offline Gambling/Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx>)
-- [PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx](<../../../../artifacts/incoming/Patents/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx>)
-- [Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../../artifacts/incoming/Patents/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
+- [Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Offline Gambling/Offline Deterministic Gaming System Using Hierarchical Deterministic Key Derivation and Time-Based Entropy.docx>)
+- [PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx>)
+- [Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
 
 ## Nested Lineage Pages
 

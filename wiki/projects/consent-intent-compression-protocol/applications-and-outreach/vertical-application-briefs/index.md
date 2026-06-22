@@ -10,10 +10,10 @@ This cluster covers the outward-facing briefs that adapt the loop-presence platf
 
 ## Representative Files
 
-- [Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
-- [Loop-Based Presence Platform- Partner Brief.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx>)
-- [Loop-Based Ritual Infrastructure for Gaming & Web3.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Ritual Infrastructure for Gaming & Web3.docx>)
-- [Loop-Based Toys- A New Frontier in Interactive Play.docx](<../../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx>)
+- [Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx>)
+- [Loop-Based Presence Platform- Partner Brief.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx>)
+- [Loop-Based Ritual Infrastructure for Gaming & Web3.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Ritual Infrastructure for Gaming & Web3.docx>)
+- [Loop-Based Toys- A New Frontier in Interactive Play.docx](<../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx>)
 
 ## Working Read
 

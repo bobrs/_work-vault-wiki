@@ -16,8 +16,8 @@ This cluster covers emotional modeling, interface layers, neural interpretation,
 
 ## Representative Files
 
-- [Emotional Modeling / SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx>)
-- [Interpretation, Logic, and Therapy / SCT-28- Neural Loop Interpretation Protocol.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx>)
+- [Emotional Modeling / SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-26- Emotional Loop Complexes — Modeling Feelings as Structured Collapse Fields.docx>)
+- [Interpretation, Logic, and Therapy / SCT-28- Neural Loop Interpretation Protocol.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-28- Neural Loop Interpretation Protocol.docx>)
 
 ## Working Read
 

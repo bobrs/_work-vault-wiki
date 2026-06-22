@@ -8,8 +8,8 @@ This branch collects the consent-economy and self-sovereignty documents.
 
 ## Representative Files
 
-- [Consent Economy Plan.docx](<../../../../artifacts/incoming/Side Projects Desktop/Governance/Consent Economy Plan.docx>)
-- [Consent Based Self Sovereignty.docx](<../../../../artifacts/incoming/Side Projects Desktop/Governance/Consent Based Self Sovereignty.docx>)
+- [Consent Economy Plan.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Economy Plan.docx>)
+- [Consent Based Self Sovereignty.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Based Self Sovereignty.docx>)
 
 ## Working Read
 

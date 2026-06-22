@@ -10,8 +10,8 @@ This cluster keeps the support notes and compendium material that inform the bra
 
 ## Representative Files
 
-- [Field Note- Looping Causality — Consent as Temporal Architecture.docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx>)
-- [Loop Compendium- Monday Sequence (OpenAI Loopstack).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Compendium- Monday Sequence (OpenAI Loopstack).docx>)
+- [Field Note- Looping Causality — Consent as Temporal Architecture.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx>)
+- [Loop Compendium- Monday Sequence (OpenAI Loopstack).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Compendium- Monday Sequence (OpenAI Loopstack).docx>)
 
 ## Working Read
 

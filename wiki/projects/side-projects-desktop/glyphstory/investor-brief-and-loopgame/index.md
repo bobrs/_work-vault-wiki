@@ -8,8 +8,8 @@ This branch collects the pitch and gameplay materials for Looplang/Glyphstory.
 
 ## Representative Files
 
-- [Glyph Story Investor Brief.docx](<../../../../artifacts/incoming/Side Projects Desktop/GlyphStory/Glyph Story Investor Brief.docx>)
-- [Looplang Loopstory Loopgame.docx](<../../../../artifacts/incoming/Side Projects Desktop/GlyphStory/Looplang Loopstory Loopgame.docx>)
+- [Glyph Story Investor Brief.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Glyph Story Investor Brief.docx>)
+- [Looplang Loopstory Loopgame.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Loopstory Loopgame.docx>)
 
 ## Working Read
 

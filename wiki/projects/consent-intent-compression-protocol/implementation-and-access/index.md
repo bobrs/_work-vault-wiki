@@ -17,9 +17,9 @@ This cluster covers the implementation surface: pairing, access control, decrypt
 
 ## Representative Files
 
-- [Pairing and Field Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
-- [Key Derivation and Decryption / Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
-- [Ritual Token Initialization / 🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
+- [Pairing and Field Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [Key Derivation and Decryption / Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
+- [Ritual Token Initialization / 🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
 
 ## Working Read
 
