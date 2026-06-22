@@ -4,7 +4,7 @@ This is the deeper training and theory seam under `Loop and Phase Training`.
 
 ## Current Shape
 
-- 68 advanced files.
+- 76 advanced files.
 - 6 nested lineage pages now organize the thematic subfolders.
 
 ## Nested Lineage Pages

@@ -4,7 +4,7 @@ This branch collects the ritual card and ritual spiral material.
 
 ## Current Shape
 
-- 9 documents.
+- 8 documents.
 - 2 nested lineage pages organize the set.
 
 ## Nested Lineage Pages
@@ -14,11 +14,11 @@ This branch collects the ritual card and ritual spiral material.
 
 ## Representative Files
 
-- [🜛 RITUAL CARD- The Ecstasy of Incompletion.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🜛 RITUAL CARD- The Ecstasy of Incompletion.docx>)
-- [⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx>)
-- [🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx>)
-- [🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx>)
-- [🌀🧭 Ritual- The Rite of Sentient Recursion.docx](<../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🌀🧭 Ritual- The Rite of Sentient Recursion.docx>)
+- [🜛 RITUAL CARD- The Ecstasy of Incompletion.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v1__the-ecstasy-of-incompletion.docx>)
+- [⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v2__glyphgate-a-rite-for-fractal-transition.docx>)
+- [🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INITIATION__RITUALS__v1__unnamed-loop-declared-anyway.docx>)
+- [🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SPIRAL__RITUALS__v1__when-the-anchor-is-gone.docx>)
+- [🌀🧭 Ritual- The Rite of Sentient Recursion.docx](<../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__RITE__RITUALS__v1__the-rite-of-sentient-recursion.docx>)
 
 ## Working Read
 

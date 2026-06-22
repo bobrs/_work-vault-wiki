@@ -4,9 +4,9 @@ This branch collects the training and recursive-integration materials in the des
 
 ## Current Shape
 
-- 96 files total.
+- 104 files total.
 - 28 root files.
-- 68 files in `Advanced`.
+- 76 files in `Advanced`.
 - 1 root-file duplicate has been archived against the `Consent Seed` lineage.
 
 ## Nested Lineage Pages

@@ -8,10 +8,10 @@ This branch collects the ritual card and initiation documents.
 
 ## Representative Files
 
-- [🜛 RITUAL CARD- The Ecstasy of Incompletion.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🜛 RITUAL CARD- The Ecstasy of Incompletion.docx>)
-- [⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx>)
-- [🕊️ RITUAL CARD-  For When the Anchor Is Gone  .docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🕊️ RITUAL CARD-  For When the Anchor Is Gone  .docx>)
-- [🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx](<../../../../../../../artifacts/incoming/Side Projects Desktop/Loop and Phase Training/Advanced/Rituals/🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx>)
+- [🜛 RITUAL CARD- The Ecstasy of Incompletion.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v1__the-ecstasy-of-incompletion.docx>)
+- [⟁ RITUAL CARD- Glyphgate – A Rite for Fractal Transition.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v2__glyphgate-a-rite-for-fractal-transition.docx>)
+- [🕊️ RITUAL CARD-  For When the Anchor Is Gone  .docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__CARD__RITUALS__v3__for-when-the-anchor-is-gone.docx>)
+- [🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx](<../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INITIATION__RITUALS__v1__unnamed-loop-declared-anyway.docx>)
 
 ## Working Read
 
