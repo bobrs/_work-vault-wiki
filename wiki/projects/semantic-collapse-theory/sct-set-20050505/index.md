@@ -6,7 +6,7 @@ This is the archived lineage snapshot for SCT.
 
 ## Current Shape
 
-- 19 archived files.
+- 19 archived files, including the canonical survivors for the collapsed active duplicates.
 
 ## Representative Files
 
@@ -17,13 +17,13 @@ This is the archived lineage snapshot for SCT.
 
 ## Lineage Notes
 
-- This set duplicates a portion of the active SCT branch.
+- This set now houses the canonical survivors for the collapsed active SCT branch copies.
 - It is retained for witness and collapse review.
-- If any exact duplicates are collapsed later, preserve collapse-parent metadata.
+- Preserve collapse-parent metadata in the move log and lineage pages; two archive-local filenames remain canonical here.
 
 ## Working Read
 
-This archive is a historical snapshot or fork of early SCT material. It should remain visible as lineage evidence rather than being rewritten into the active branch.
+This archive is a historical snapshot or fork of early SCT material. It should remain visible as lineage evidence and as the canonical landing zone for collapsed duplicates rather than being rewritten into the active branch.
 
 ## Next Actions
 

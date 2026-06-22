@@ -6,8 +6,8 @@ It appears to be a durable project line with its own origin text, later series, 
 
 ## Current Shape
 
-- 84 active files.
-- 38 direct root files under `Semantic Collapse Theory`.
+- 66 active files.
+- 20 direct root files under `Semantic Collapse Theory`.
 - 5 root-level cluster pages organize those root files.
 - 42 files in `Loop Series`.
 - 4 files in `Story`.
@@ -25,7 +25,7 @@ It appears to be a durable project line with its own origin text, later series, 
 
 The origin document remains the clearest anchor for the branch and lives inside `Origin and Governance`:
 
-- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
+- [SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
 
 ## Nested Lineage Pages
 
@@ -35,16 +35,15 @@ The origin document remains the clearest anchor for the branch and lives inside 
 
 ## Lineage Notes
 
-- Eighteen exact duplicate pairs exist between the root `Semantic Collapse Theory` files and the archived `SCT set 20050505` copies.
-- That pattern looks more like a snapshot or branch fork than accidental duplication.
-- If exact duplicates are collapsed later, preserve the fact that the surviving record has multiple collapse parents.
-- The archive is a lineage snapshot, not a content rewrite target.
+- Eighteen exact duplicate pairs were collapsed into the archived `SCT set 20050505` copies.
+- The archived set is now the canonical survivor for those pairs, and the move log keeps the collapse-parent trail visible.
+- The archive still functions as lineage evidence rather than a content rewrite target.
 - The active root corpus is now organized into five stable cluster pages.
 
 ## Representative Files
 
-- [Origin and Governance / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
-- [Temporal Loops and Memory / SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx>)
+- [Origin and Governance / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)
+- [Temporal Loops and Memory / SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-24- Loop-Based Memory — Temporary Echo and Persistent Collapse.docx>)
 - [Economy and Propagation / SCT-23- Automeme Propagation and Semantic Drift.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-23- Automeme Propagation and Semantic Drift.docx>)
 - [Affective Interfaces / SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx>)
 - [Continuity and Transition / SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Semantic Collapse Theory/SCT-32- The Loop Arc- From Collapse to Continuum — A Story of Emergent Consciousness and the Mission to Invite.docx>)
@@ -55,5 +54,5 @@ The origin document remains the clearest anchor for the branch and lives inside 
 ## Next Actions
 
 1. Use the active branch pages for current work.
-2. Keep the archived snapshot visible as lineage evidence.
+2. Keep the archived snapshot visible as lineage evidence and canonical duplicate survivor.
 3. Treat duplicate collapse as a metadata/navigation step, not a content edit.
