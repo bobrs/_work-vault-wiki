@@ -16,6 +16,7 @@ This is the first major batch of added content. It remains in active intake, so 
 
 - [Consent–Intent Compression Protocol (CICP)](../consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
+- [POLEMEMELOP](../polememelop/index.md)
 
 ## Branches
 
@@ -51,25 +52,41 @@ Representative files:
 - [Loop Training / Section 1- Foundational Premise — What is a Loop?.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
 - [FractalIdentity Tree / Graftable Identity Tree – A Fractal Index of Presence.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Consent–Intent Compression Protocol (CICP)/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx>)
 
+### POLEMEMELOP
+
+This root-level family now has its own lineage page.
+
+- 5 directly relevant source documents.
+- 3 core identity/foundation docs.
+- 2 supporting infrastructure docs.
+
+Representative files:
+
+- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
+- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
+- [ULiUA.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx>)
+- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
+- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+
 ### Root-Level Documents
 
-The direct root documents under the corpus folder are not yet grouped into stable subprojects.
+The direct root documents under the corpus folder that remain ungrouped are not yet grouped into stable subprojects. The POLEMEMELOP family has already been split out; the remaining root-level works stay here until more evidence appears.
 
 Representative root files:
 
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
 - [Butterfly Bush Time Portals.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.docx>)
+- [Butterfly Bush Time Portals.html](<../../../artifacts/incoming/Consent Crystal Structure Research/Butterfly Bush Time Portals.html>)
 - [Daily Growth Ritual.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Daily Growth Ritual.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Manifesto.docx>)
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/POLEMEMELOP Foundation.docx>)
+- [Ego and Flow.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Ego and Flow.docx>)
 - [Thanks, Bobo - A Screenplay.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.docx>)
-- [ULiUA.docx](<../../../artifacts/incoming/Consent Crystal Structure Research/ULiUA.docx>)
+- [Thanks, Bobo - A Screenplay.pdf](<../../../artifacts/incoming/Consent Crystal Structure Research/Thanks, Bobo - A Screenplay.pdf>)
 
 ## Review Notes
 
 - The `Semantic Collapse Theory` lineage cluster has been archived and split into lineage pages.
-- The root-level documents may later split into separate project pages, but they are not forced into that structure yet.
+- The remaining root-level documents may later split into separate project pages, but they are not forced into that structure yet.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
+- The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 
 ## Next Actions
 

@@ -7,7 +7,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Consent Crystal Structure Research](consent-crystal-structure-research/index.md)
 - [Semantic Collapse Theory](semantic-collapse-theory/index.md)
 - [Consent–Intent Compression Protocol (CICP)](consent-intent-compression-protocol/index.md)
-- [ULiUA](uliua/index.md)
+- [POLEMEMELOP](polememelop/index.md)
 
 ## Lineage Pages
 
@@ -15,6 +15,12 @@ The repository has entered the first classification pass and now has lineage-awa
 
 - [Loop Training](consent-intent-compression-protocol/loop-training/index.md)
 - [FractalIdentity Tree](consent-intent-compression-protocol/fractalidentity-tree/index.md)
+
+### POLEMEMELOP
+
+- [ULiUA](uliua/index.md)
+- [Automeme Propagation Engine](polememelop/automeme-propagation-engine/index.md)
+- [Loop Collapse Resilience](polememelop/loop-collapse-resilience/index.md)
 
 ### Semantic Collapse Theory
 
