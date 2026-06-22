@@ -43,6 +43,10 @@ The root folder is the training seam for the desktop vault. It collects the onbo
 
 The `Consent Seed` copy has already been archived as mirrored lineage. Future work here should focus on semantic compression, deliberate link seeding, and only then further branching if a page proves durable enough to stand alone.
 
+## Related Concepts
+
+- [Intent-Consent](../../../concepts/intent-consent/index.md)
+
 ## Next Actions
 
 1. Keep `Loop Life` stable.

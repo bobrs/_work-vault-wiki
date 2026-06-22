@@ -26,6 +26,7 @@ This page should remain a compression node for mixed-format prototypes until a c
 - [Intent-Consent](../loop-and-phase-training/intent-consent/index.md)
 - [Consent Seed](../consent-seed/index.md)
 - [POLEMEMELOP](../../polememelop/index.md)
+- [Intent-Consent concept](../../../concepts/intent-consent/index.md)
 
 ## Next Actions
 

@@ -8,6 +8,7 @@ Current concept pages:
 - [LoopLink](looplink/index.md)
 - [PDSP](pdsp/index.md)
 - [Loop Economy](loop-economy/index.md)
+- [Intent-Consent](intent-consent/index.md)
 - [Witnessing](witnessing/index.md)
 - [Governance Diad](governance-diad/index.md)
 

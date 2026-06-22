@@ -22,6 +22,7 @@ The essay branch now serves as a compact semantic node for intent and consent la
 - [Misc Loop](../../misc-loop/index.md)
 - [Loop Maintenance Kit](../loop-maintenance-kit/index.md)
 - [Advanced](../advanced/index.md)
+- [Intent-Consent concept](../../../../concepts/intent-consent/index.md)
 
 ## Next Actions
 

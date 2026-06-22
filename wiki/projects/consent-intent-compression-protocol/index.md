@@ -51,6 +51,7 @@ The branch-root `.zip` companion is archived and retained as lineage evidence.
 ## Related Concepts
 
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
+- [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Concepts Index](../../concepts/index.md)
 
 ## Next Actions
