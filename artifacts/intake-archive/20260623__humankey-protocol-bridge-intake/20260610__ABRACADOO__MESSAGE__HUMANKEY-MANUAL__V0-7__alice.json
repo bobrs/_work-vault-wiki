@@ -1,0 +1,25 @@
+{
+  "schema": "ABRACADOO_HUMANKEY_MANUAL_MESSAGE",
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-10T07:22:39.037Z",
+  "note": "ENCRYPTED_MANUAL_MESSAGE_CONTAINS_NO_TOTP_SECRET_MATERIAL",
+  "message": {
+    "id": "00836623-b535-4739-90e0-e47e13ea1cd7",
+    "profile": "HK_MANUAL_MESSAGE_1",
+    "recipientPathId": "bb593dc3-3557-428e-8a12-5e073338f6b8",
+    "createdAt": "2026-06-10T07:22:39.037Z",
+    "encryption": {
+      "algorithm": "ECDH-P256-AES-GCM",
+      "senderEphemeralPublicKeyJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "TmBmP0nRrJh5R8_CmZMKKelsmWmnLNJGROQOLiXDhwg",
+        "y": "x-PN_arNCkY4Ayb-Ddz1foAG7bmSeLCSdiaH5NJMe8E"
+      },
+      "iv": "B+08vJWSG8cuN6Cn",
+      "ciphertext": "R4JebGzVCiT6gFcg3UvE+aTfkqJx5JVPcZBauJBlnndu"
+    }
+  }
+}

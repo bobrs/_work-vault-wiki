@@ -1,0 +1,29 @@
+{
+  "schema": "ABRACADOO_HUMANKEY_PATH_INVITE",
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-10T07:20:23.368Z",
+  "note": "PUBLIC_PATH_INVITE_CONTAINS_NO_TOTP_SECRET_MATERIAL",
+  "path": {
+    "inviteId": "bb593dc3-3557-428e-8a12-5e073338f6b8",
+    "profile": "HK_PATH_1",
+    "transport": {
+      "kind": "local",
+      "descriptor": "manual-path:42261cd7-8f5e-4d81-929a-e44e16cb07cd",
+      "receivePublicKeyJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [],
+        "kty": "EC",
+        "x": "bumLnSQgLCim257kW6oepSyL5mKRlLBcSSglIrLxDsY",
+        "y": "2A-tcalF1rlz9ieZ5d5tRrwr8s-que7iOsvlvhFNB-8"
+      }
+    },
+    "policy": {
+      "requiresCredentialIds": [
+        "9d141d27-082a-4e57-9f18-1d7dda995f84"
+      ],
+      "requiresHumanKeyEvent": false
+    },
+    "createdAt": "2026-06-10T07:19:47.082Z"
+  }
+}

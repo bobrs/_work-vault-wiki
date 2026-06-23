@@ -11,6 +11,7 @@ This is the renamed PWA app lineage that replaced the old DeepTrust app naming. 
 ## Nested Support Pages
 
 - [Brand and Overview](brand-and-overview/index.md)
+- [Site Variants](site-variants/index.md)
 
 ## External Links
 
@@ -36,4 +37,5 @@ The support material explains the public posture: warm, human-scale trust langua
 
 1. Keep the app and protocol lineages separate.
 2. Keep the brand and overview pages together as the public-facing support seam.
-3. Link durable app pages here as they appear.
+3. Keep the site-variant rail together as iteration evidence.
+4. Link durable app pages here as they appear.

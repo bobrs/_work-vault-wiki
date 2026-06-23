@@ -1,0 +1,15 @@
+{
+  "schema": "ABRACADOO_HUMANKEY_ENCRYPTED_BACKUP",
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-10T04:20:11.888Z",
+  "warning": "ENCRYPTED_HUMANKEY_BACKUP_REQUIRES_PASSPHRASE",
+  "encrypted": {
+    "version": 1,
+    "algorithm": "AES-GCM",
+    "kdf": "PBKDF2-SHA-256",
+    "iterations": 310000,
+    "salt": "DgiVFf/qj/lL3oOSNrJnsA==",
+    "iv": "NUu7TGmLskehenzA",
+    "ciphertext": "GfHQOYn5LvWgymdDN2l22Iy5cdPtl5y7aSc722Vi7pvbi2pAo5/Kqg94bkQgIO01UCUX1iryM8cbS1B36mbU8liPuIlql3h02ORjYEbP6/vbQ6Xg1QO9dVecu0+0nHVqFODRf0l3LivxkOSqzMcolehnZUma66nrYXDYcjd8MY050T8nwKOd3b8EgnHQc79KUKCicKWd5tuZaoez0iLC1Ns2RJr/E9MUvlkN59S8v/XdOkWDt3cGwHBlID7Xc04CI4R7mQvNWgqezYv3CQ3ehNEW0rUe/2h1TVnAGC+4OQPcB5b10KT8Ma/9cljGgbrYV3I="
+  }
+}

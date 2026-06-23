@@ -1,0 +1,21 @@
+{
+  "schema": "ABRACADOO_HUMANKEY_LANE_INVITE",
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-10T04:43:41.835Z",
+  "note": "PUBLIC_LANE_INVITE_CONTAINS_NO_TOTP_SECRET_MATERIAL",
+  "lane": {
+    "inviteId": "a7a87f5d-6f43-4002-9530-96e37039dacb",
+    "profile": "HK_LANE_1",
+    "transport": {
+      "kind": "local",
+      "descriptor": "manual-lane:efc20165-3627-4f76-a894-7c9c29fd8486"
+    },
+    "policy": {
+      "requiresCredentialIds": [
+        "6c4d1dab-d9d2-4795-a9cb-58c88f41fd8e"
+      ],
+      "requiresHumanKeyEvent": false
+    },
+    "createdAt": "2026-06-10T04:43:41.831Z"
+  }
+}

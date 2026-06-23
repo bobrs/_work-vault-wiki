@@ -1,0 +1,191 @@
+{
+  "schema": "ABRACADOO_HUMANKEY_BACKUP",
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-10T03:57:25.562Z",
+  "warning": "SENSITIVE_HUMANKEY_BACKUP_CONTAINS_SECRET_MATERIAL",
+  "contacts": [
+    {
+      "id": "213184a4-2d9b-4294-ac99-a8e744c3fc3e",
+      "displayName": "Bobby",
+      "state": "acquaintance",
+      "createdAt": "2026-06-10T03:57:10.289Z",
+      "updatedAt": "2026-06-10T03:57:10.289Z",
+      "credentialIds": [
+        "6c4d1dab-d9d2-4795-a9cb-58c88f41fd8e"
+      ],
+      "laneIds": [],
+      "eventIds": [
+        "cedb1525-ea03-4477-98f7-043241292de2",
+        "1047ca33-f25c-46bc-838d-b905abca027e"
+      ],
+      "metadata": {
+        "notes": "might be fake"
+      }
+    },
+    {
+      "id": "a3c8da00-d15c-4fef-bc79-d659c811183a",
+      "displayName": "Alice",
+      "state": "acquaintance",
+      "createdAt": "2026-06-10T03:54:22.184Z",
+      "updatedAt": "2026-06-10T03:56:42.290Z",
+      "credentialIds": [
+        "0c53db71-a758-4186-91a8-498b45f49ea8"
+      ],
+      "laneIds": [],
+      "eventIds": [
+        "51f6e9d9-c824-4d13-9790-a97fcf58c331",
+        "2bde2cb6-5dec-4aa0-9e18-9ed776f783d8",
+        "787c8773-d6f3-4c73-ae24-fab6c062dfc6"
+      ],
+      "metadata": {
+        "notes": "met at the water cooler"
+      }
+    }
+  ],
+  "credentials": [
+    {
+      "id": "6c4d1dab-d9d2-4795-a9cb-58c88f41fd8e",
+      "contactId": "213184a4-2d9b-4294-ac99-a8e744c3fc3e",
+      "profile": "HK_TOTP_1",
+      "direction": "i_verify_them",
+      "label": "Bob via Abracadoo",
+      "secretRef": "secret_f9dba4af-5c19-4b90-b537-b367145f798f",
+      "publicMaterial": {
+        "otpauthUri": "otpauth://totp/Abracadoo%3ABob%20via%20Abracadoo?secret=EZQP3Z7FCYKNFW4WIYHMPHS4DVJ5S4AU&issuer=Abracadoo&algorithm=SHA1&digits=6&period=30",
+        "qrLabel": "Bob via Abracadoo"
+      },
+      "parameters": {
+        "issuer": "Abracadoo",
+        "algorithm": "SHA1",
+        "digits": 6,
+        "period": 30,
+        "encoding": "base32"
+      },
+      "lifecycle": {
+        "createdAt": "2026-06-10T03:57:10.289Z"
+      }
+    },
+    {
+      "id": "0c53db71-a758-4186-91a8-498b45f49ea8",
+      "contactId": "a3c8da00-d15c-4fef-bc79-d659c811183a",
+      "profile": "HK_TOTP_1",
+      "direction": "i_verify_them",
+      "label": "Alice via Abracadoo",
+      "secretRef": "secret_49a2ff79-7eb7-426e-a00e-8d13c0360f49",
+      "publicMaterial": {
+        "otpauthUri": "otpauth://totp/Abracadoo%3AAlice%20via%20Abracadoo?secret=7UDZPAS2VOH3NV6AVYEMOPXIKSJSNP3T&issuer=Abracadoo&algorithm=SHA1&digits=6&period=30",
+        "qrLabel": "Alice via Abracadoo"
+      },
+      "parameters": {
+        "issuer": "Abracadoo",
+        "algorithm": "SHA1",
+        "digits": 6,
+        "period": 30,
+        "encoding": "base32"
+      },
+      "lifecycle": {
+        "createdAt": "2026-06-10T03:54:22.184Z",
+        "lastVerifiedAt": "2026-06-10T03:56:42.290Z"
+      }
+    }
+  ],
+  "lanes": [],
+  "events": [
+    {
+      "id": "1047ca33-f25c-46bc-838d-b905abca027e",
+      "contactId": "213184a4-2d9b-4294-ac99-a8e744c3fc3e",
+      "type": "credential.created",
+      "createdAt": "2026-06-10T03:57:10.289Z",
+      "credentialId": "6c4d1dab-d9d2-4795-a9cb-58c88f41fd8e",
+      "data": {
+        "profile": "HK_TOTP_1",
+        "direction": "i_verify_them"
+      }
+    },
+    {
+      "id": "cedb1525-ea03-4477-98f7-043241292de2",
+      "contactId": "213184a4-2d9b-4294-ac99-a8e744c3fc3e",
+      "type": "contact.created",
+      "createdAt": "2026-06-10T03:57:10.289Z"
+    },
+    {
+      "id": "2bde2cb6-5dec-4aa0-9e18-9ed776f783d8",
+      "contactId": "a3c8da00-d15c-4fef-bc79-d659c811183a",
+      "type": "credential.created",
+      "createdAt": "2026-06-10T03:54:22.184Z",
+      "credentialId": "0c53db71-a758-4186-91a8-498b45f49ea8",
+      "data": {
+        "profile": "HK_TOTP_1",
+        "direction": "i_verify_them"
+      }
+    },
+    {
+      "id": "51f6e9d9-c824-4d13-9790-a97fcf58c331",
+      "contactId": "a3c8da00-d15c-4fef-bc79-d659c811183a",
+      "type": "contact.created",
+      "createdAt": "2026-06-10T03:54:22.184Z"
+    },
+    {
+      "id": "787c8773-d6f3-4c73-ae24-fab6c062dfc6",
+      "contactId": "a3c8da00-d15c-4fef-bc79-d659c811183a",
+      "type": "credential.verified",
+      "createdAt": "2026-06-10T03:56:42.290Z",
+      "credentialId": "0c53db71-a758-4186-91a8-498b45f49ea8",
+      "data": {
+        "result": "valid"
+      }
+    }
+  ],
+  "secrets": [
+    {
+      "originalRef": "secret_f9dba4af-5c19-4b90-b537-b367145f798f",
+      "material": [
+        38,
+        96,
+        253,
+        231,
+        229,
+        22,
+        20,
+        210,
+        219,
+        150,
+        70,
+        14,
+        199,
+        158,
+        92,
+        29,
+        83,
+        217,
+        112,
+        20
+      ]
+    },
+    {
+      "originalRef": "secret_49a2ff79-7eb7-426e-a00e-8d13c0360f49",
+      "material": [
+        253,
+        7,
+        151,
+        130,
+        90,
+        171,
+        143,
+        182,
+        215,
+        192,
+        174,
+        8,
+        199,
+        62,
+        232,
+        84,
+        147,
+        38,
+        191,
+        115
+      ]
+    }
+  ]
+}
