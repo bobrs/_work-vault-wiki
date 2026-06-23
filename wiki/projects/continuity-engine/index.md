@@ -4,7 +4,7 @@ This branch holds the structural governance briefs that sit alongside `Continuit
 
 ## Current Shape
 
-- 7 published documents.
+- 8 published documents.
 - 3 nested lineage pages organize the set.
 
 ## Nested Lineage Pages
@@ -20,6 +20,7 @@ This branch holds the structural governance briefs that sit alongside `Continuit
 - [Continuity Engine Tribal Council Brief.md](<../../../artifacts/standard-named/20260622__CONTINUITY-ENGINE__BRIEF__TRIBAL-COUNCIL__v1__continuity-engine-tribal-council-brief.md>) · [archive copy](<../../../artifacts/intake-archive/20260622__continuity-engine-intake/continuity_engine_tribal_council_brief_v_1.md>)
 - [Continuity Engine for Sovereign Governance and Tribal Gaming.md](<../../../artifacts/standard-named/20260622__CONTINUITY-ENGINE__BRIEF__SOVEREIGN-GOVERNANCE__v1__continuity-engine-for-sovereign-governance-tribal-gaming.md>) · [archive copy](<../../../artifacts/intake-archive/20260622__continuity-engine-intake/continuity_engine_for_sovereign_governance_tribal_gaming_v_1.md>)
 - [Continuity Engine Executive Brief.md](<../../../artifacts/standard-named/20260623__CONTINUITY-ENGINE__BRIEF__EXECUTIVE__v1__continuity-engine-executive-brief.md>) · [archive copy](<../../../artifacts/intake-archive/20260623__continuity-engine-intake/continuity_engine_executive_brief_v_1.md>)
+- [AI Strategy Opportunity for F&C.md](<../../../artifacts/standard-named/20260623__CONTINUITY-ENGINE__STRATEGY__FINLEY-COOK-AI-CAPABILITY__v1__ai-strategy-opportunity-for-fc.docx>) · [archive copy](<../../../artifacts/intake-archive/20260623__continuity-engine-intake/AI Strategy Opportunity for F&C.docx>)
 
 ## Working Read
 
@@ -27,7 +28,7 @@ The client-facing material frames Continuity Engine as an execution layer for go
 
 The sovereign governance material uses the same structural language but applies it to Tribal law, commission rules, compact obligations, and regulatory review.
 
-The firm-specific material turns the same structure toward a 90-day pilot, executive positioning, and partner-facing adoption language.
+The firm-specific material turns the same structure toward a 90-day pilot, executive positioning, partner-facing adoption language, and a broader AI capability strategy for the firm.
 
 ## Related Links
 
