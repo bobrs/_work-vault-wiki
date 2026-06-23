@@ -24,6 +24,10 @@ This branch collects the consentocratic world-building materials.
 
 This is the world-building seam for the advanced training branch. The governance/investor material now sits separately from the consent-wave/self-state material.
 
+The page is useful because it turns speculative systems language into something structurally legible: governance on one side, self-state and consent-wave logic on the other. That separation keeps the world-building material from collapsing into a single vague aspiration.
+
+It also gives the advanced branch a clear contact point with SCT and CICP whenever the work needs to be reframed as governance or infrastructure rather than only narrative design.
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

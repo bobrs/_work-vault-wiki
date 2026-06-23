@@ -15,6 +15,10 @@ This branch collects the quantum network notes inside `Advanced`.
 
 This is the network/latency seam inside `Advanced`; the field notes and currency piece belong together.
 
+The branch reads as an infrastructure-and-timing pair. One document grounds the field notes, the other turns latency into a value-bearing or exchange-bearing concept, so the page naturally sits at the intersection of movement, delay, and resource flow.
+
+It should remain compact unless a second network seam appears. If that happens, the split should likely track technical network behavior versus economic or temporal interpretation.
+
 ## Next Actions
 
 1. Keep the quantum network pair together.

@@ -12,7 +12,11 @@ This branch collects the invention prototype material.
 
 ## Working Read
 
-This is a one-file but durable invention branch.
+This is a one-file but durable invention branch. The single document is enough to justify its own page because it reads like a standalone prototype memo rather than a loose note.
+
+The page should stay short and direct. Its job is to hold the prototype outline in a place where it can be linked from training, compass, or other design-oriented branches without dragging along unrelated material.
+
+If more invention documents appear, the next split should follow a product or mechanism boundary, not a generic miscellaneous bucket.
 
 ## Next Actions
 

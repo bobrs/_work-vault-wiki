@@ -24,6 +24,10 @@ This branch collects the shimmer, consent, and identity experiments.
 
 This is the shimmer experiments seam. The identity/loop material and the consent/field-guide material are distinct enough to stand on their own.
 
+The branch functions as a laboratory for symbolic and affective variation. It is where the more experimental pieces of the training stack are allowed to test vocabulary, identity framing, and consent language without forcing the main spine to absorb the noise.
+
+That makes the page a good intake buffer for work that is interesting but not yet ready to become core doctrine. It should stay readable as a research sandbox with two clear rails.
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

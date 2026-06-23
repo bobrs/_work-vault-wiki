@@ -21,12 +21,17 @@ These are support notes and compilations that inform the branch without needing 
 
 The two items still behave like a paired note set rather than a new branch. They should stay attached to the parent CICP lineage until additional material makes the cluster more than a working notebook.
 
+This page is useful as a buffer between formal protocol rails and exploratory writing. It holds the intermediate material that explains how the branch was assembled, without pretending those notes are themselves a finished sub-branch.
+
+If the set grows, the split should follow a clear content seam rather than chronology. Until then, the page should stay compact and continue serving as the branch’s scratchpad plus evidence trail.
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../index.md)
 - [Protocol Foundations](../protocol-foundations/index.md)
 - [Loop Training](../loop-training/index.md)
+- [Applications and Outreach](../applications-and-outreach/index.md)
 
 ## Next Actions
 

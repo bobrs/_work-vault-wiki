@@ -28,6 +28,10 @@ This makes the page a foundation for all later temporal work in SCT. It is the p
 
 The page also links naturally back to origin/governance and forward to the taxonomy and memory pages, because the same temporal unit keeps reappearing as both a legitimacy problem and a persistence problem.
 
+It is also the cleanest place in SCT to read witness as an operational role rather than a metaphor. That matters because the branch uses witness to describe how a loop is stabilized, not just who observes it.
+
+The diad language keeps the page compact, but it is not trivial: it defines the smallest stable social-semantic unit the rest of SCT can build on.
+
 ## Related Links
 
 - [Semantic Collapse Theory](../../index.md)
