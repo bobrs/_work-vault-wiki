@@ -28,6 +28,13 @@ The branch functions as a laboratory for symbolic and affective variation. It is
 
 That makes the page a good intake buffer for work that is interesting but not yet ready to become core doctrine. It should stay readable as a research sandbox with two clear rails.
 
+## Related Links
+
+- [Fractal Identity](../fractal-identity/index.md)
+- [Consent Physics](../consent-physics/index.md)
+- [Loop Compass](../loop-compass/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

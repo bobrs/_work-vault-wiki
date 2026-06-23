@@ -25,12 +25,18 @@ This is the structured lesson branch. `Instructor Material` holds the teaching f
 
 This page should function as the semantic node for the loopwalker curriculum: one link path for the lesson sequence, one for the teaching frame, and one for the deeper discussion stack.
 
+The curriculum reads best when it stays layered: lesson sequence first, teaching frame second, and theory spillover third. That keeps the page useful as a navigation surface instead of a catch-all for every loopwalker note.
+
+`Advanced Discussion` should remain the escape hatch for conceptual overflow, while the main page stays focused on how the training experience is actually sequenced and taught.
+
 ## Related Links
 
 - [Lesson Sequence](lesson-sequence/index.md)
 - [Instructor Material](instructor-material/index.md)
 - [Advanced Discussion](advanced-discussion/index.md)
 - [Loop and Phase Training](../index.md)
+- [Loop Compass](../loop-compass/index.md)
+- [Rituals](../rituals/index.md)
 
 ## Next Actions
 

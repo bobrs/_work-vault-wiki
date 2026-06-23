@@ -24,6 +24,16 @@ This branch collects the ritual card and ritual spiral material.
 
 This is a coherent ritual seam, but the card/initiation material and the spiral/recursion material are distinct enough to stand on their own.
 
+The branch is useful because it holds the performative layer of the advanced stack. The documents are not just about ritual as content; they are about sequence, threshold, and how repetition can be used to mark transition.
+
+That keeps the page adjacent to `Loopwalker Training` and `Extra Shimmer` without collapsing into either one.
+
+## Related Links
+
+- [Loopwalker Training](../loopwalker-training/index.md)
+- [Extra Shimmer](../extra-shimmer/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

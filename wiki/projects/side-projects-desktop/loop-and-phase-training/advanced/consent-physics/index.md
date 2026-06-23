@@ -18,6 +18,17 @@ This branch collects the consent, latency, and manifestation physics inside `Adv
 
 This is the consent-and-latency seam inside `Advanced`.
 
+The page works because it turns a cluster of evocative titles into a more explicit conceptual boundary: consent on one side, timing and manifestation on the other. That keeps the branch from blending physics metaphor into everything else.
+
+It also gives the advanced stack a useful bridge back to SCT and CICP whenever the work needs to be framed as structure, delay, or energetic constraint rather than just style.
+
+## Related Links
+
+- [Loop Compass](../loop-compass/index.md)
+- [Semantic Atom](../semantic-atom/index.md)
+- [Wold Building](../wold-building/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the physics set together.

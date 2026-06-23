@@ -42,6 +42,10 @@ The branch now functions as an interpretive map for the deeper training layer: `
 
 Use this page to orient the deeper stack, then follow the nested pages for the specific lineages and cross-links that matter. When a subfolder develops a second seam, split it; otherwise keep the branch readable through compression and link seeding.
 
+The practical rule here is that `Advanced` should stay readable as a map, not as a bag of leftovers. Each nested page now earns its place by carrying a distinct operational mode: curriculum, retreat, world-building, prototype, consent physics, or identity theory.
+
+That means the next passes should keep favoring semantic compression over expansion unless a subtree clearly splits into two durable families.
+
 ## Next Actions
 
 1. Keep the six nested lineage pages stable.

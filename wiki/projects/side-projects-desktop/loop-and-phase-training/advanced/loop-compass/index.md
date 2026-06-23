@@ -18,6 +18,17 @@ This branch collects the navigation, UX, and consent-guidance material inside `A
 
 This is the navigation and consent-guidance seam inside `Advanced`.
 
+The page is doing orientation work: it gives the advanced stack a navigation language, a consent language, and a small set of pragmatic guides for moving through the material. That makes it one of the cleaner connective tissues in the branch.
+
+It is also the natural place to anchor links back to the teaching and application layers, because the compass idea only works if it can orient behavior rather than just describe it.
+
+## Related Links
+
+- [Loopwalker Training](../loopwalker-training/index.md)
+- [Consent Physics](../consent-physics/index.md)
+- [Wold Building](../wold-building/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the compass set together.

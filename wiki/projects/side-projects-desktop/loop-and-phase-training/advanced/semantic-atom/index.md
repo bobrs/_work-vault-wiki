@@ -19,6 +19,13 @@ The two documents form a tight pair: one defines the morphogenesis protocol, and
 
 That makes the page a useful reference point whenever the surrounding advanced material starts to feel too diffuse. It keeps the formal language close to the branch and helps separate protocol-level thinking from more speculative experiment.
 
+## Related Links
+
+- [Wold Building](../wold-building/index.md)
+- [Fractal Identity](../fractal-identity/index.md)
+- [Loop Compass](../loop-compass/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the semantic atom pair together.

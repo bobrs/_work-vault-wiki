@@ -22,6 +22,16 @@ This branch collects the retreat and workshop-kit material.
 
 This is a compact retreat branch with a clear retreat-versus-workshop-kit seam.
 
+The branch reads as a concentrated offsite structure: one page for the retreat frame and one for the workshop delivery materials. That keeps the experience-oriented work separate from the teaching artifacts while still showing that they belong to the same event logic.
+
+The page should stay short unless a third retreat mode appears, because the current split is already clean enough to navigate without extra ceremony.
+
+## Related Links
+
+- [Loopwalker Training](../loopwalker-training/index.md)
+- [Rituals](../rituals/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the retreat page stable.

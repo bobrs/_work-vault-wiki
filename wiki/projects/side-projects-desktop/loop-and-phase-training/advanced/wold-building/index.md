@@ -28,6 +28,13 @@ The page is useful because it turns speculative systems language into something 
 
 It also gives the advanced branch a clear contact point with SCT and CICP whenever the work needs to be reframed as governance or infrastructure rather than only narrative design.
 
+## Related Links
+
+- [Consent Physics](../consent-physics/index.md)
+- [Semantic Atom](../semantic-atom/index.md)
+- [Loop Compass](../loop-compass/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.

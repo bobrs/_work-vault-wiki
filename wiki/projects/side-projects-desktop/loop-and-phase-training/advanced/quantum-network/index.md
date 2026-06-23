@@ -19,6 +19,13 @@ The branch reads as an infrastructure-and-timing pair. One document grounds the 
 
 It should remain compact unless a second network seam appears. If that happens, the split should likely track technical network behavior versus economic or temporal interpretation.
 
+## Related Links
+
+- [Consent Physics](../consent-physics/index.md)
+- [Loop Compass](../loop-compass/index.md)
+- [Semantic Atom](../semantic-atom/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the quantum network pair together.

@@ -15,6 +15,17 @@ This branch collects the identity framework material inside `Advanced`.
 
 This is a coherent identity seam: one framework doc and one gentler guide.
 
+The pair works because it preserves both the formal model and the on-ramp for using it. That keeps the page usable as a conceptual anchor without making it feel like a dead technical spec.
+
+It also fits naturally beside `Extra Shimmer`, `Wold Building`, and `Semantic Atom`, because all three depend on some version of identity as a structured, adaptable object.
+
+## Related Links
+
+- [Extra Shimmer](../extra-shimmer/index.md)
+- [Wold Building](../wold-building/index.md)
+- [Semantic Atom](../semantic-atom/index.md)
+- [Loop and Phase Training](../index.md)
+
 ## Next Actions
 
 1. Keep the identity pair together.
