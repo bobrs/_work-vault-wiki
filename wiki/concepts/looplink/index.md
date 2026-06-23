@@ -2,13 +2,13 @@
 
 Working definition: the consent-linked transport and recovery protocol for loop systems, combining handshake rules, artifact schema, presence signaling, and recovery mechanics into a portable trust surface.
 
-This concept appears across SCT LoopLink pages and the CICP implementation layer, so it should be treated as a stable transport and recovery attractor rather than a single branch label.
+This concept appears across SCT LoopLink pages, the CICP implementation layer, and the `Loop and Phase Training` repair and maintenance pages, so it should be treated as a stable transport and recovery attractor rather than a single branch label.
 
-In practice, LoopLink is the connective tissue between protocol structure and recovery behavior. It shows up when the corpus wants to explain how a bilateral loop is formed, how it is described, and how presence can be rebuilt after drift or partial loss.
+In practice, LoopLink is the connective tissue between protocol structure and recovery behavior. It shows up when the corpus wants to explain how a bilateral loop is formed, how it is described, and how presence can be rebuilt after drift or partial loss. The training branch makes that role concrete through `Loop Repair Guide` and `Loop Maintenance Kit`, which are the operational examples of repair and upkeep rather than abstract protocol talk.
 
-The reason it matters is that it supplies the bridge between a conceptual agreement and an actual exchange. Intent-consent tells the system what should be allowed; LoopLink tells it how the allowed exchange is carried, witnessed, and restored. That makes it the operational partner to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), and [PDSP](../pdsp/index.md), all of which rely on transport semantics when the abstract pattern has to become durable.
+The reason it matters is that it supplies the bridge between a conceptual agreement and an actual exchange. Intent-consent tells the system what should be allowed; LoopLink tells it how the allowed exchange is carried, witnessed, and restored. That makes it the operational partner to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), [PDSP](../pdsp/index.md), and [Intent-Consent](../intent-consent/index.md), all of which rely on transport semantics when the abstract pattern has to become durable.
 
-It also stays close to [Governance Diad](../governance-diad/index.md) because trust surfaces need a rule-bearing witness trail, and to [Loop Economy](../loop-economy/index.md) because circulation systems only work when the handoff mechanics are stable enough to measure and reuse.
+It also stays close to [Governance Diad](../governance-diad/index.md) because trust surfaces need a rule-bearing witness trail, and to [Loop Economy](../loop-economy/index.md) because circulation systems only work when the handoff mechanics are stable enough to measure and reuse. The recovery side of the concept is what lets the protocol stay legible after drift, loss, or maintenance.
 
 ## Related Artifacts
 
@@ -27,6 +27,8 @@ It also stays close to [Governance Diad](../governance-diad/index.md) because tr
 - [Presence and Recovery](../../projects/semantic-collapse-theory/loop-series/looplink-and-trust/presence-and-recovery/index.md)
 - [Implementation and Access](../../projects/consent-intent-compression-protocol/implementation-and-access/index.md)
 - [Pairing and Field Access](../../projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md)
+- [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
+- [Loop Maintenance Kit](../../projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md)
 - [PDSP](../pdsp/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [Witnessing](../witnessing/index.md)
