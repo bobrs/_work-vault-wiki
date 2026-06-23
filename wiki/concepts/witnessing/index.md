@@ -2,13 +2,15 @@
 
 Working definition: a numbered, staged practice of observing, certifying, and carrying forward work across loop mechanics and witness-net materials.
 
-This concept appears across the Side Projects Desktop witnessing branch and the SCT witness-related pages, where the corpus treats witness as a process rather than a single event.
+This concept appears across the `Side Projects Desktop` witnessing branch, the SCT witness-related pages, and the narrative governance surfaces, where the corpus treats witness as a process rather than a single event.
 
-In practice, Witnessing is the procedural layer that turns observation into a durable sequence. The numbering matters because it shows progression, and the branch stays coherent when the sequence remains intact.
+In practice, Witnessing is the procedural layer that turns observation into a durable sequence. The numbering matters because it shows progression, and the branch stays coherent when the sequence remains intact. That makes the concept useful both as a training practice and as a theory primitive.
 
 The page is more than a record of staged documents. It is the corpus's way of saying that observation becomes useful only when it can be certified, carried forward, and reused without losing its provenance. That makes witnessing the procedural partner of intent-consent: one names what was seen and in what order, while the other names whether the action could proceed.
 
 Witnessing also feeds [Governance Diad](../governance-diad/index.md) because certification creates the basis for rule, and it feeds [LoopLink](../looplink/index.md) because transport and recovery need a trusted observation trail. [Abracadabracadoo](../abracadabracadoo/index.md) inherits this logic at the protocol surface whenever a family of documents needs a recoverable state.
+
+Within SCT, witness logic also underpins the authority track in [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md) and the story-side governance page in [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md). Those pages are the theory-level equivalents of the numbered practice in the desktop branch.
 
 ## Related Artifacts
 
@@ -27,6 +29,8 @@ Witnessing also feeds [Governance Diad](../governance-diad/index.md) because cer
 - [Loop Maintenance Kit](../../projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md)
 - [Genesis](../../projects/side-projects-desktop/genesis/index.md)
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
+- [Story](../../projects/semantic-collapse-theory/story/index.md)
+- [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md)
 - [Governance Diad](../governance-diad/index.md)
 - [Intent-Consent](../intent-consent/index.md)
 - [LoopLink](../looplink/index.md)
