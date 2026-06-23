@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Continuity Office — Immediate Steps (10 minutes)</title>
+    <meta name="description" content="A one-page checklist to translate governance into safe automation momentum." />
+
+    <!-- Match main site theme loader approach -->
+    <link
+      id="themeStylesheet"
+      rel="stylesheet"
+      href="/20260217__CONTINUITYOFFICE__WEB__CSS__THEME__V2__PUBLIC__INSTITUTIONAL__styles.css"
+    />
+
+    <style>
+      /* Document-specific layout that should work with all themes */
+      :root {
+        --doc-max: 900px;
+      }
+
+      body { margin: 0; }
+      .doc-wrap {
+        max-width: var(--doc-max);
+        margin: 0 auto;
+        padding: 42px 20px;
+      }
+
+      .doc-card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 26px;
+      }
+
+      .doc-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 16px;
+      }
+
+      .brandline {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 1;
+        color: var(--muted);
+      }
+
+      .doc-title {
+        margin: 6px 0 0;
+        font-size: clamp(26px, 3.4vw, 42px);
+        line-height: 1.1;
+      }
+
+      .doc-subtitle {
+        margin: 8px 0 0;
+        color: var(--muted);
+        max-width: 74ch;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.85rem;
+        white-space: nowrap;
+      }
+
+      .grid {
+        display: grid;
+        gap: 14px;
+        grid-template-columns: 1fr;
+        margin-top: 16px;
+      }
+
+      @media (min-width: 920px) {
+        .grid { grid-template-columns: 1.25fr 0.75fr; }
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+        background: var(--card);
+      }
+
+      .panel h2 {
+        margin: 0 0 10px;
+      }
+
+      .steps {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .steps li {
+        margin: 12px 0;
+      }
+
+      .prompt {
+        margin-top: 10px;
+        padding: 12px;
+        border-radius: 12px;
+        background: rgba(0,0,0,0.03);
+        border: 1px dashed var(--line);
+      }
+
+      .prompt strong {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .fill-lines {
+        margin-top: 8px;
+        display: grid;
+        gap: 10px;
+      }
+
+      .fill-line {
+        height: 32px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .micro {
+        color: var(--muted);
+      }
+
+      .invariants {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .callout {
+        margin-top: 12px;
+        padding: 12px;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: var(--card);
+      }
+
+      .footer {
+        margin-top: 16px;
+        padding-top: 12px;
+        border-top: 1px solid var(--line);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .footer a { text-decoration: none; }
+
+      /* PRINT */
+      @media print {
+        @page { margin: 0.55in; }
+        body { background: #fff !important; }
+        .doc-wrap { padding: 0; max-width: none; }
+        .doc-card { border: none; box-shadow: none; padding: 0; }
+        a[href]:after { content: ""; }
+        .badge { border-color: #bbb !important; }
+        .prompt { background: #fff !important; }
+        .fill-line { border-bottom-color: #999 !important; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="doc-wrap">
+      <article class="doc-card">
+        <header class="doc-header">
+          <div>
+            <div class="brandline" aria-label="Continuity Office">
+              <span class="brand-mark" aria-hidden="true">◼︎</span>
+              <span class="micro">Continuity Office</span>
+            </div>
+            <h1 class="doc-title">Immediate Steps <span class="micro">(10 minutes)</span></h1>
+            <p class="doc-subtitle">
+              A fast, executive-friendly checklist for regulated automation: identify one real workflow, define what must not break,
+              and name the smallest next step with reversibility built in.
+            </p>
+          </div>
+          <div style="text-align:right;">
+            <div class="badge">Printable handout</div>
+            <div class="micro" style="margin-top:8px;">Version 1.1 • 2026-02-28</div>
+          </div>
+        </header>
+
+        <section class="grid" aria-label="Immediate steps content">
+          <div class="panel">
+            <h2 class="card-title">Run this in order</h2>
+            <ol class="steps">
+              <li>
+                <strong>Pick one real workflow (not the perfect one).</strong><br />
+                Choose a process that actually happens and touches real data.
+                <div class="prompt">
+                  <strong>Workflow:</strong>
+                  <div class="fill-lines" aria-hidden="true">
+                    <div class="fill-line"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <strong>List what must not break.</strong><br />
+                Name 3–5 constraints (audit trail, approvals, privacy boundaries, regulator expectations, segregation of duties).
+                <div class="prompt">
+                  <strong>Must-not-break constraints:</strong>
+                  <div class="fill-lines" aria-hidden="true">
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <strong>Name the real risk owner.</strong><br />
+                Who can say “yes”? Who carries consequences? (Often not the same person.)
+                <div class="prompt">
+                  <strong>Decision owner / Risk owner:</strong>
+                  <div class="fill-lines" aria-hidden="true">
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <strong>Define reversibility before you automate.</strong><br />
+                What does rollback mean? What is the exit path?
+                <div class="prompt">
+                  <strong>Rollback narrative / Exit path:</strong>
+                  <div class="fill-lines" aria-hidden="true">
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <strong>Choose the smallest next step that creates meaningful progress.</strong><br />
+                If it can’t be done in ≤2 weeks, it’s not the smallest step.
+                <div class="prompt">
+                  <strong>Smallest next step:</strong>
+                  <div class="fill-lines" aria-hidden="true">
+                    <div class="fill-line"></div>
+                    <div class="fill-line"></div>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <aside class="panel" aria-label="Continuity lens">
+            <h2 class="card-title">Continuity lens</h2>
+            <p class="micro" style="margin-top: 8px;">
+              Continuity Office preserves five invariants as tools, people, and systems change:
+            </p>
+            <ul class="invariants">
+              <li><strong>Intent persistence</strong></li>
+              <li><strong>Consent continuity</strong></li>
+              <li><strong>Legibility</strong></li>
+              <li><strong>Reversibility</strong></li>
+              <li><strong>Power-proportionate governance</strong></li>
+            </ul>
+
+            <div class="callout">
+              <strong>Reminder</strong>
+              <p class="micro" style="margin: 6px 0 0;">
+                Continuity Office does not veto decisions or approve tools. We preserve invariants; leadership decides.
+              </p>
+            </div>
+
+            <div class="callout">
+              <strong>One-sentence test</strong>
+              <p class="micro" style="margin: 6px 0 0;">
+                “If this automation scaled 10×, would we still be able to explain it, constrain it, and roll it back?”
+              </p>
+            </div>
+          </aside>
+        </section>
+
+        <footer class="footer" aria-label="Document footer">
+          <div class="micro">
+            Continuity illuminates consequences. Leadership decides.
+          </div>
+          <div class="micro">
+            continuityoffice.com • hello@continuityoffice.com
+          </div>
+          <div class="micro">
+            Artifact: 20260228__CONTINUITYOFFICE__DOC__HANDOUT__IMMEDIATE-STEPS__V1_1__PUBLIC__continuity-office-immediate-steps
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    <script>
+      // Keep theme consistent with the main site if user set it there
+      (function () {
+        const themeLink = document.getElementById("themeStylesheet");
+        const THEME_HREFS = {
+          INSTITUTIONAL: "/20260217__CONTINUITYOFFICE__WEB__CSS__THEME__V2__PUBLIC__INSTITUTIONAL__styles.css",
+          MODERN: "/20260217__CONTINUITYOFFICE__WEB__CSS__THEME__V2__PUBLIC__MODERN__styles.css",
+          MINIMAL: "/20260217__CONTINUITYOFFICE__WEB__CSS__THEME__V2__PUBLIC__MINIMAL__styles.css"
+        };
+        const saved = localStorage.getItem("co_theme");
+        if (saved && THEME_HREFS[saved]) {
+          themeLink.setAttribute("href", THEME_HREFS[saved]);
+        }
+      })();
+    </script>
+  </body>
+</html>
