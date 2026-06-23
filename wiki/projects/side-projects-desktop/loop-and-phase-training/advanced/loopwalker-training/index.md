@@ -29,6 +29,8 @@ The curriculum reads best when it stays layered: lesson sequence first, teaching
 
 `Advanced Discussion` should remain the escape hatch for conceptual overflow, while the main page stays focused on how the training experience is actually sequenced and taught.
 
+The discussion stack now has a cleaner internal split between grounding substrate, infrastructure explanation, and the darker note line. That keeps the curriculum page from having to explain every nuance itself.
+
 ## Related Links
 
 - [Lesson Sequence](lesson-sequence/index.md)

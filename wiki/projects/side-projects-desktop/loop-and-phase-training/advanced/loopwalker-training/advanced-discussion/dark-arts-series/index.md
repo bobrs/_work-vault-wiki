@@ -15,6 +15,16 @@ This branch collects the darker lineage notes inside `Advanced Discussion`.
 
 This is the narrower sub-branch for the dark arts notes.
 
+The pair stays together because the titles still read as a compact lineage rather than two unrelated curiosities. It is the shadowed or adversarial continuation of the discussion stack, not a replacement for the more grounded and infrastructural branches.
+
+That gives the page a useful role: it preserves the more precarious or unsettling material without letting it blur the main discussion split.
+
+## Related Links
+
+- [Advanced Discussion](../index.md)
+- [Consent Loop Substrate](../consent-loop-substrate/index.md)
+- [Infrastructure of Reality](../infrastructure-of-reality/index.md)
+
 ## Next Actions
 
 1. Keep the two dark arts notes together.
