@@ -10,6 +10,8 @@ The repository has entered the first classification pass and now has lineage-awa
 - [POLEMEMELOP](polememelop/index.md)
 - [HumanKey Protocol](humankey-protocol/index.md)
 - [HumanLink Social Media](humanlink-social-media/index.md)
+- [Continuity Office](continuity-office/index.md)
+- [Continuity Engine](continuity-engine/index.md)
 - [Abracadoo](abracadoo/index.md)
 - [How Intuition Works](how-intuition-works/index.md)
 - [Trust Interoperability Standard](trust-interoperability-standard/index.md)
