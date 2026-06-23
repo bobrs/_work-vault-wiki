@@ -26,6 +26,8 @@ That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/in
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Working Notes](../../projects/consent-intent-compression-protocol/working-notes/index.md)
 - [Loop Training](../../projects/consent-intent-compression-protocol/loop-training/index.md)
+- [Consent Physics](../consent-physics/index.md)
+- [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [Witnessing](../witnessing/index.md)
 - [Governance Diad](../governance-diad/index.md)

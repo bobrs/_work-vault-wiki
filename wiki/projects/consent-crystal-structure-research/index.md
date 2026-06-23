@@ -25,6 +25,7 @@ That makes this page the umbrella map for the corpus, not just a folder index. I
 ## Root-Level Branch Pages
 
 - [Butterfly Bush Time Portals](butterfly-bush-time-portals/index.md)
+- [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
 - [Daily Growth Ritual](daily-growth-ritual/index.md)
 - [Ego and Flow](ego-and-flow/index.md)
 - [Thanks, Bobo - A Screenplay](thanks-bobo-a-screenplay/index.md)
@@ -106,6 +107,7 @@ The `Consent–Intent Compression Protocol (CICP).zip` bundle has been archived.
 - Auxiliary `.zip` bundles stay auxiliary unless otherwise noted.
 - The POLEMEMELOP branch has been separated from the root-level document pile and should stay linked to the umbrella corpus.
 - The small root-level works now each have their own durable page.
+- `AI Did Not Break Consent` now has its own concept-layer page and should be treated as a durable consent branch.
 - A standard-named source pilot now exists for `Butterfly Bush Time Portals`, `Daily Growth Ritual`, `Ego and Flow`, `Thanks, Bobo - A Screenplay`, and `ULiUA`; those pages now prefer `artifacts/standard-named/` while preserving intake-archive provenance.
 
 ## Related Links
