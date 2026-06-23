@@ -11,6 +11,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [HumanKey Protocol](humankey-protocol/index.md)
 - [HumanLink Social Media](humanlink-social-media/index.md)
 - [Abracadoo](abracadoo/index.md)
+- [How Intuition Works](how-intuition-works/index.md)
 - [Trust Interoperability Standard](trust-interoperability-standard/index.md)
 - [New Ideas](new-ideas/index.md)
 - [Similar Projects](similar-projects/index.md)
@@ -33,6 +34,11 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Foundations](polememelop/foundations/index.md)
 - [ULiUA](uliua/index.md)
 - [Infrastructure](polememelop/infrastructure/index.md)
+
+### How Intuition Works
+
+- [Intuition and Navigation](how-intuition-works/intuition-and-navigation/index.md)
+- [Planning and Pull](how-intuition-works/planning-and-pull/index.md)
 
 ### Consent Crystal Structure Research
 
