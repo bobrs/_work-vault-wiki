@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HowGravity.work</title>
+  <meta name="description" content="A playful, careful invitation to notice gravity as a projection: what we experience in 3D as the effect of structure we don’t fully inhabit." />
+  <meta name="theme-color" content="#0b0f1a" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="HowGravity.work" />
+  <meta property="og:description" content="Viewing the effects of gravity is viewing the 3D effects of another dimension." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root{
+      --bg:#070a12;
+      --panel:rgba(255,255,255,.06);
+      --panel2:rgba(255,255,255,.08);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.68);
+      --faint:rgba(255,255,255,.52);
+      --line:rgba(255,255,255,.12);
+      --accent:rgba(152,206,255,.95);
+      --accent2:rgba(199,255,214,.92);
+      --shadow:0 20px 60px rgba(0,0,0,.55);
+      --radius:18px;
+      --radius2:26px;
+      --max:980px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 30% 20%, rgba(60,130,255,.20), transparent 60%),
+        radial-gradient(900px 600px at 70% 35%, rgba(130,255,200,.16), transparent 60%),
+        radial-gradient(900px 700px at 50% 80%, rgba(255,255,255,.06), transparent 60%),
+        var(--bg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      line-height:1.45;
+      letter-spacing:.2px;
+    }
+
+    a{color:inherit;text-decoration:none}
+    a.underline{border-bottom:1px solid rgba(255,255,255,.35)}
+    a.underline:hover{border-bottom-color:rgba(255,255,255,.75)}
+
+    .wrap{max-width:var(--max);margin:0 auto;padding:28px 18px 70px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 2px 26px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:650;letter-spacing:.6px}
+    .mark{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg, rgba(152,206,255,.85), rgba(199,255,214,.75));box-shadow:0 10px 35px rgba(0,0,0,.35)}
+
+    nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+    .chip{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(0,0,0,.18);backdrop-filter:blur(10px);font-size:13px;color:var(--muted)}
+    .chip:hover{border-color:rgba(255,255,255,.24);background:rgba(255,255,255,.06)}
+
+    .hero{padding:26px 0 18px}
+    .kicker{color:var(--muted);font-size:14px;letter-spacing:.5px;text-transform:uppercase;margin:0 0 10px}
+    h1{margin:0 0 12px;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.6px}
+    .sub{color:var(--muted);font-size:clamp(15px,2.1vw,18px);max-width:72ch;margin:0}
+
+    .grid{display:grid;grid-template-columns:1.4fr .9fr;gap:16px;margin-top:18px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}nav{justify-content:flex-start}}
+
+    .card{border:1px solid var(--line);background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));border-radius:var(--radius2);box-shadow:var(--shadow);overflow:hidden}
+    .inner{padding:18px}
+
+    .h2{font-size:14px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+    .post{font-size:18px;line-height:1.55;letter-spacing:.1px;margin:0}
+    .post b{color:rgba(255,255,255,.98)}
+    .break{display:block;height:10px}
+
+    .quoteBlock{margin-top:14px;padding:14px;border-radius:var(--radius);border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.16)}
+    .quoteEnd{margin-top:10px;font-weight:650}
+
+    .side h3{margin:2px 0 10px;font-size:18px;letter-spacing:-.2px}
+    .side p{margin:0 0 12px;color:var(--muted)}
+    .list{margin:0;padding-left:18px;color:var(--muted)}
+    .list li{margin:6px 0}
+    .divider{height:1px;background:var(--line);margin:14px 0}
+
+    footer{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);color:var(--faint);font-size:13px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="mark"></div>
+        <div>
+          <div style="font-size:14px">HowGravity<span style="opacity:.7">.work</span></div>
+          <div class="small" style="color:var(--faint)">A one-page thought experiment</div>
+        </div>
+      </div>
+      <nav>
+        <a class="chip" href="#the-claim">The Claim</a>
+        <a class="chip" href="#parses">Parses</a>
+        <a class="chip" href="#play">Play</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="kicker">Not a lesson. A lens.</p>
+      <h1>What if gravity is not a thing — but a shadow?</h1>
+      <p class="sub">This page isn’t here to replace physics. It’s here to loosen intuition just enough to notice that what we experience as gravity may be the visible effect of structure we don’t fully inhabit.</p>
+
+      <div class="grid">
+        <article id="the-claim" class="card">
+          <div class="inner">
+            <div class="h2">The Nugget</div>
+            <p class="post">
+              <b>Viewing the effects of gravity is viewing the 3D effects of another dimension.</b><span class="break"></span>
+
+              This sentence is intentionally underspecified. It can be parsed in several ways — some orthodox, some speculative, some poetic — and more than one of them is correct at the same time.
+            </p>
+
+            <div class="quoteBlock">
+              <div class="h2" style="margin:0 0 8px">A grounding reminder</div>
+              <p class="post" style="margin:0">
+                Nothing here denies experiments, equations, or predictions. This is about interpretation — about what kind of thing gravity might be.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="card">
+          <div class="inner side">
+            <div class="h2">Why bother?</div>
+            <h3>Because intuition matters.</h3>
+            <p>Most people learn gravity as a force. Modern physics treats it as geometry. That gap between words and reality is where confusion — and curiosity — live.</p>
+
+            <ul class="list">
+              <li>Forces push and pull</li>
+              <li>Geometry constrains motion</li>
+              <li>Projections create illusions</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <p class="small">This page invites you to hold gravity gently enough that multiple interpretations can coexist without collapsing into argument.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="parses" class="card" style="margin-top:16px">
+      <div class="inner">
+        <div class="h2">Several valid parses</div>
+        <p class="post">
+          <b>Spacetime curvature (General Relativity).</b><br />
+          Gravity is not a force but the result of curvature in four-dimensional spacetime. What looks like acceleration in 3D is straight-line motion in 4D.<span class="break"></span>
+
+          <b>Projection from higher-dimensional geometry.</b><br />
+          Curved spaces are often visualized by embedding them in higher dimensions. Gravity can be understood as the shadow of that curvature when viewed from within the space itself.<span class="break"></span>
+
+          <b>Potential as an extra coordinate.</b><br />
+          In classical physics, gravity arises from gradients in a scalar potential. Mathematically, this behaves like motion through an unseen dimension of value rather than location.<span class="break"></span>
+
+          <b>Information and entropy.</b><br />
+          In some modern theories, gravity emerges from information gradients and entropy. The “dimension” here is not spatial, but statistical.
+        </p>
+      </div>
+    </section>
+
+    <section id="play" class="card" style="margin-top:16px">
+      <div class="inner">
+        <div class="h2">A small experiment</div>
+        <p class="post">
+          Try this mental move:<span class="break"></span>
+          Imagine you live on a surface that can curve, but you cannot step off it. You never see the full shape — only how paths bend, clocks shift, and distances change.<span class="break"></span>
+          Now ask: <i>Would you describe what’s happening as a force — or as the consequence of shape?</i>
+        </p>
+
+        <div class="quoteBlock">
+          <div class="quoteEnd">What if gravity is how higher-dimensional structure feels from the inside?</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div class="mono" style="color:rgba(255,255,255,.75)">HowGravity.work</div>
+        <div class="small">A companion to HowGod.work. Shared in the same spirit.</div>
+      </div>
+      <div class="small">Not here to convince. Here to invite.</div>
+    </footer>
+  </div>
+</body>
+</html>

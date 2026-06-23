@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="How Now Works — Orientation, not explanation. A simple way to stay oriented in the moment." />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>How Now Works — Orientation, not explanation</title>
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --card:#111824;
+      --text:#e8eef7;
+      --muted:#a9b7c7;
+      --line:#223042;
+      --accent:#7dd3fc;
+      --accent2:#a7f3d0;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% 10%, rgba(125,211,252,.10), transparent 55%),
+                  radial-gradient(1000px 700px at 80% 30%, rgba(167,243,208,.08), transparent 60%),
+                  linear-gradient(180deg, #070a0f, var(--bg));
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 60px}
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; padding:8px 0 26px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+      letter-spacing:.2px;
+    }
+    .mark{
+      width:34px; height:34px; border-radius:10px;
+      background: linear-gradient(135deg, rgba(125,211,252,.85), rgba(167,243,208,.75));
+      box-shadow: 0 0 0 1px rgba(255,255,255,.10) inset, var(--shadow);
+    }
+    .brand h1{font-size:15px; margin:0; font-weight:700}
+    .brand span{display:block; font-size:12px; color:var(--muted); font-weight:500}
+    nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
+    nav a{font-size:13px; color:var(--muted)}
+    nav a:hover{color:var(--text); text-decoration:none}
+    .hero{
+      padding:28px 0 12px;
+      display:grid;
+      grid-template-columns: 1.3fr .9fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    @media (max-width: 860px){
+      .hero{grid-template-columns: 1fr; }
+      nav{justify-content:flex-start}
+    }
+    .panel{
+      background: rgba(17,24,36,.78);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .kicker{
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:13px; color:var(--muted);
+      margin:0 0 10px;
+    }
+    .dot{
+      width:8px; height:8px; border-radius:999px;
+      background: var(--accent2);
+      box-shadow: 0 0 0 4px rgba(167,243,208,.12);
+    }
+    .hero h2{
+      font-size:42px; line-height:1.08; margin:0 0 12px;
+      letter-spacing:-.6px;
+    }
+    @media (max-width: 520px){
+      .hero h2{font-size:34px}
+    }
+    .sub{
+      font-size:16px; color:var(--muted);
+      margin:0 0 18px;
+      max-width: 62ch;
+    }
+    .ctaRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:10px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      font-weight:650;
+      font-size:14px;
+      cursor:pointer;
+      user-select:none;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+    }
+    .btn:hover{transform: translateY(-1px); background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.18); text-decoration:none}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(125,211,252,.30), rgba(167,243,208,.22));
+      border-color: rgba(125,211,252,.35);
+    }
+    .btn.primary:hover{border-color: rgba(167,243,208,.35)}
+    .smallNote{font-size:12px; color:var(--muted); margin-top:10px}
+    .side h3{margin:0 0 10px; font-size:14px; color:var(--muted); font-weight:700; letter-spacing:.3px; text-transform:uppercase}
+    .quote{
+      margin:0;
+      padding:14px 14px 14px 16px;
+      border-left: 3px solid rgba(125,211,252,.55);
+      background: rgba(0,0,0,.14);
+      border-radius: 12px;
+      color: var(--text);
+    }
+    .quote p{margin:0 0 10px; font-size:16px}
+    .quote .sig{margin:0; font-size:12px; color:var(--muted)}
+    section{margin-top:18px}
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:14px;
+    }
+    @media (max-width: 860px){
+      .grid{grid-template-columns: 1fr;}
+    }
+    .card{
+      background: rgba(17,24,36,.72);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: 0 8px 22px rgba(0,0,0,.28);
+    }
+    .stepTop{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:8px}
+    .num{
+      width:32px; height:32px; border-radius: 12px;
+      display:flex; align-items:center; justify-content:center;
+      font-weight:800;
+      background: rgba(125,211,252,.14);
+      border: 1px solid rgba(125,211,252,.28);
+      color: var(--text);
+    }
+    .card h4{margin:0; font-size:18px}
+    .card p{margin:8px 0 0; color: var(--muted)}
+    .pillRow{display:flex; gap:8px; flex-wrap:wrap; margin-top:12px}
+    .pill{
+      font-size:12px;
+      color: var(--muted);
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.03);
+      padding:6px 10px;
+      border-radius: 999px;
+    }
+    .divider{
+      height:1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.10), transparent);
+      margin: 18px 0;
+    }
+    .twoCol{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:14px;
+      align-items:start;
+    }
+    @media (max-width: 860px){
+      .twoCol{grid-template-columns: 1fr;}
+    }
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 14px;
+      color: var(--text);
+      background: rgba(0,0,0,.18);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 16px;
+      padding: 14px;
+      overflow:auto;
+    }
+    details{
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 16px;
+      background: rgba(17,24,36,.60);
+      padding: 12px 14px;
+    }
+    details + details{margin-top:10px}
+    summary{
+      cursor:pointer;
+      font-weight:700;
+      color: var(--text);
+      list-style:none;
+    }
+    summary::-webkit-details-marker{display:none}
+    details p{margin:10px 0 0; color: var(--muted)}
+    footer{
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      color: var(--muted);
+      font-size: 12px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .footLinks{display:flex; gap:14px; flex-wrap:wrap}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand" aria-label="How Now Works">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <h1>HowNowWorks<span>Orientation, not explanation.</span></h1>
+        </div>
+      </div>
+      <nav aria-label="Site navigation">
+        <a href="#how">The How</a>
+        <a href="#pocket">Pocket</a>
+        <a href="#faq">FAQ</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero" id="top">
+        <div class="panel">
+          <p class="kicker"><span class="dot" aria-hidden="true"></span> A simple stance for real moments</p>
+          <h2>How Now Works</h2>
+          <p class="sub">
+            When expectations break, you don’t need a better story.
+            You need a way to stay oriented <em>in this moment</em>.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn primary" href="#how">Start with the 3 steps</a>
+            <button class="btn" type="button" id="copyBtn" aria-label="Copy pocket line">
+              Copy the pocket line
+            </button>
+            <a class="btn" href="https://howexpectationswork.com" rel="noopener">HowExpectationsWork →</a>
+          </div>
+
+          <p class="smallNote">
+            No ideology. No required beliefs. Just a repeatable orientation loop.
+          </p>
+        </div>
+
+        <aside class="panel side" aria-label="Center of the glyph">
+          <h3>The Center</h3>
+          <div class="quote">
+            <p><strong>Stay with what’s happening</strong><br/>without trying to flatten it.</p>
+            <p class="sig">A stance you can re-enter, even under stress.</p>
+          </div>
+          <div class="pillRow" aria-label="Keywords">
+            <span class="pill">Notice</span>
+            <span class="pill">Soften</span>
+            <span class="pill">Small move</span>
+            <span class="pill">Feedback</span>
+          </div>
+        </aside>
+      </div>
+
+      <section id="how" aria-label="The How">
+        <div class="divider" role="separator"></div>
+        <h3 style="margin:0 0 10px; font-size:14px; color:var(--muted); letter-spacing:.3px; text-transform:uppercase;">The How</h3>
+
+        <div class="grid">
+          <div class="card">
+            <div class="stepTop">
+              <div class="num">1</div>
+              <div class="pill">No narration</div>
+            </div>
+            <h4>Notice</h4>
+            <p>
+              Not analysis. Not labels. Just: <em>something is happening</em>.
+              If you can feel it in the body, you’re on the wave.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="stepTop">
+              <div class="num">2</div>
+              <div class="pill">Create options</div>
+            </div>
+            <h4>Soften</h4>
+            <p>
+              Soften is not collapse. It’s unclenching enough to steer:
+              longer exhale, jaw unhooked, shoulders down a few percent.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="stepTop">
+              <div class="num">3</div>
+              <div class="pill">Reversible</div>
+            </div>
+            <h4>Respond</h4>
+            <p>
+              Make a small move you can undo: one honest question, one step,
+              one pause before certainty. Let reality answer back.
+            </p>
+          </div>
+        </div>
+
+        <div class="twoCol" style="margin-top:14px">
+          <div class="card">
+            <h4 style="margin:0 0 8px;">What this is</h4>
+            <p style="margin:0; color:var(--muted)">
+              A micro-loop for staying oriented when the moment is real.
+              It works because it’s self-updating: your response changes the situation,
+              and the situation gives new information.
+            </p>
+
+            <div class="divider" role="separator"></div>
+
+            <h4 style="margin:0 0 8px;">What this is not</h4>
+            <p style="margin:0; color:var(--muted)">
+              Not positivity. Not suppression. Not “make it okay.” Not control.
+              It’s participation with enough looseness to learn.
+            </p>
+          </div>
+
+          <div class="card" aria-label="Anti-patterns">
+            <h4 style="margin:0 0 8px;">Anti-How (signals you left the wave)</h4>
+            <ul style="margin:10px 0 0; padding-left:18px; color:var(--muted)">
+              <li>Rushing to conclude</li>
+              <li>Freezing to be safe</li>
+              <li>Forcing agreement</li>
+              <li>Seeking purity or certainty</li>
+              <li>Trying to “win the moment”</li>
+            </ul>
+            <p style="margin:10px 0 0; color:var(--muted)">
+              When you notice these, you don’t need shame—just restart at Step 1.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pocket" aria-label="Pocket version">
+        <div class="divider" role="separator"></div>
+        <h3 style="margin:0 0 10px; font-size:14px; color:var(--muted); letter-spacing:.3px; text-transform:uppercase;">Pocket</h3>
+
+        <div class="twoCol">
+          <div class="card">
+            <h4 style="margin:0 0 10px;">Pocket line</h4>
+            <div class="mono" id="pocketLine" aria-label="Pocket line text">
+Feel first.
+Loosen second.
+Act small.
+            </div>
+            <p class="smallNote" style="margin:10px 0 0;">
+              Alternative: “Stay with it. Don’t clench. Move a little.”
+            </p>
+          </div>
+
+          <div class="card">
+            <h4 style="margin:0 0 10px;">30-second reset</h4>
+            <div class="mono" aria-label="30-second reset">
+1) Name the fact: “This is happening.”
+2) Exhale longer than inhale (x3).
+3) Choose the smallest reversible move.
+4) Let reality respond. Repeat.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" aria-label="Frequently asked questions">
+        <div class="divider" role="separator"></div>
+        <h3 style="margin:0 0 10px; font-size:14px; color:var(--muted); letter-spacing:.3px; text-transform:uppercase;">FAQ</h3>
+
+        <details>
+          <summary>Is this meditation?</summary>
+          <p>
+            It can include calm, but it’s not a retreat from action.
+            It’s an orientation loop you can use <em>during</em> life—mid-conversation, mid-decision, mid-chaos.
+          </p>
+        </details>
+
+        <details>
+          <summary>What if the situation is serious?</summary>
+          <p>
+            Then the loop matters more. “Act small” doesn’t mean “do nothing.”
+            It means: pick the smallest move that keeps options alive and improves information.
+          </p>
+        </details>
+
+        <details>
+          <summary>What if I keep failing at it?</summary>
+          <p>
+            That’s normal. Wipeouts are data. The skill is restarting without self-attack:
+            Notice → Soften → Respond.
+          </p>
+        </details>
+
+        <details>
+          <summary>How does this relate to expectations?</summary>
+          <p>
+            Expectations explain how we get disoriented. How Now Works is what you do
+            when the map stops matching the territory: regain stance, preserve variance, continue learning.
+          </p>
+        </details>
+      </section>
+
+      <section id="about" aria-label="About">
+        <div class="divider" role="separator"></div>
+        <div class="card">
+          <h4 style="margin:0 0 8px;">About</h4>
+          <p style="margin:0; color:var(--muted)">
+            HowNowWorks.com is a tiny public tool: a way to keep your footing when the moment is alive.
+            If you want the companion lens for projection and mismatch, see
+            <a href="https://howexpectationswork.com" rel="noopener">HowExpectationsWork.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> HowNowWorks.com — Orientation, not explanation.</div>
+      <div class="footLinks">
+        <a href="#top">Back to top</a>
+        <a href="https://howexpectationswork.com" rel="noopener">HowExpectationsWork</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Copy pocket line
+    const copyBtn = document.getElementById("copyBtn");
+    const pocketLine = document.getElementById("pocketLine").innerText.trim();
+
+    async function copyText(text){
+      try{
+        await navigator.clipboard.writeText(text);
+        return true;
+      }catch(e){
+        // Fallback for older browsers
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.top = "-1000px";
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        let ok = false;
+        try { ok = document.execCommand("copy"); } catch(_) {}
+        document.body.removeChild(ta);
+        return ok;
+      }
+    }
+
+    copyBtn.addEventListener("click", async () => {
+      const ok = await copyText(pocketLine.replace(/\n+/g, "\n"));
+      copyBtn.textContent = ok ? "Copied ✓" : "Copy failed";
+      setTimeout(() => copyBtn.textContent = "Copy the pocket line", 1200);
+    });
+  </script>
+</body>
+</html>

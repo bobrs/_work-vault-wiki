@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How Money Works — a consent-aware, plain-English map</title>
+  <meta name="description" content="A clear, consent-aware explanation of what money is, what it does, and what it costs — plus practical ways to relate to it without losing yourself." />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1621;
+      --panel2:#111c2a;
+      --text:#e9eef6;
+      --muted:#aab7c7;
+      --faint:#7f8da1;
+      --brand:#88c0ff;
+      --brand2:#baffc9;
+      --warn:#ffcc66;
+      --danger:#ff7b7b;
+      --ok:#8affc1;
+      --border:rgba(255,255,255,.10);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--text);
+      background:
+        radial-gradient(900px 450px at 15% 10%, rgba(136,192,255,.18), transparent 60%),
+        radial-gradient(900px 450px at 85% 30%, rgba(186,255,201,.12), transparent 60%),
+        radial-gradient(1200px 600px at 50% 110%, rgba(255,204,102,.08), transparent 60%),
+        var(--bg);
+      line-height:1.55;
+    }
+    a{color:var(--brand); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 18px 70px}
+    header{
+      display:flex; gap:18px; align-items:center; justify-content:space-between;
+      position:sticky; top:0; z-index:20;
+      backdrop-filter: blur(10px);
+      background: rgba(11,15,20,.72);
+      border-bottom:1px solid var(--border);
+      padding:14px 18px;
+    }
+    .brand{
+      display:flex; flex-direction:column;
+      gap:2px;
+    }
+    .brand .top{
+      display:flex; gap:10px; align-items:center;
+      font-weight:750;
+      letter-spacing:.2px;
+    }
+    .logo{
+      width:26px; height:26px; border-radius:8px;
+      background: conic-gradient(from 210deg, var(--brand), var(--brand2), var(--warn), var(--brand));
+      box-shadow: 0 0 0 1px rgba(255,255,255,.14) inset, 0 8px 24px rgba(0,0,0,.35);
+    }
+    .brand .sub{color:var(--muted); font-size:13px}
+    nav{
+      display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-end;
+    }
+    nav a{
+      font-size:13px;
+      color:var(--muted);
+      border:1px solid var(--border);
+      padding:8px 10px;
+      border-radius:999px;
+      background: rgba(255,255,255,.03);
+    }
+    nav a:hover{color:var(--text); background: rgba(255,255,255,.06)}
+    .hero{
+      padding:34px 0 18px;
+      display:grid;
+      grid-template-columns: 1.4fr .9fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+      header{position:relative}
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding:18px;
+    }
+    .hero h1{
+      margin:0 0 10px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height:1.12;
+      letter-spacing:-.5px;
+    }
+    .hero p{
+      margin:0 0 14px;
+      color:var(--muted);
+      font-size: 16px;
+    }
+    .pillrow{
+      display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;
+    }
+    .pill{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color:var(--muted);
+    }
+    .pill b{color:var(--text)}
+    .mini{
+      display:flex; flex-direction:column; gap:10px;
+      height:100%;
+      justify-content:space-between;
+    }
+    .mini .bigNumber{
+      font-family:var(--mono);
+      font-size:18px;
+      color:var(--brand2);
+    }
+    .mini .label{color:var(--muted); font-size:13px}
+    .mini button{
+      cursor:pointer;
+      width:100%;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      color:var(--text);
+      font-weight:600;
+    }
+    .mini button:hover{background: rgba(255,255,255,.07)}
+    section{margin-top:18px}
+    h2{
+      margin:0 0 10px;
+      font-size: 22px;
+      letter-spacing:-.2px;
+    }
+    h3{
+      margin:0 0 6px;
+      font-size: 16px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
+    }
+    .col-6{grid-column: span 6}
+    .col-4{grid-column: span 4}
+    .col-8{grid-column: span 8}
+    .col-12{grid-column: span 12}
+    @media (max-width: 900px){
+      .col-6,.col-4,.col-8{grid-column: span 12}
+    }
+    .muted{color:var(--muted)}
+    .faint{color:var(--faint)}
+    .kbd{
+      font-family:var(--mono);
+      font-size:12px;
+      padding:3px 7px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      border-radius:8px;
+      color:var(--text);
+    }
+    .callout{
+      border-left: 3px solid var(--warn);
+      background: rgba(255,204,102,.06);
+      padding:12px 12px;
+      border-radius: 12px;
+      color: var(--muted);
+    }
+    .callout b{color:var(--text)}
+    details{
+      border:1px solid var(--border);
+      border-radius: 14px;
+      background: rgba(255,255,255,.03);
+      padding:10px 12px;
+    }
+    details + details{margin-top:10px}
+    summary{cursor:pointer; font-weight:650; color:var(--text)}
+    summary .tag{
+      margin-left:8px;
+      font-size:11px;
+      color:var(--muted);
+      border:1px solid var(--border);
+      border-radius:999px;
+      padding:2px 8px;
+      background: rgba(255,255,255,.03);
+    }
+    .list{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+    .row{
+      display:flex; gap:10px; flex-wrap:wrap;
+      margin-top:10px;
+      align-items:center;
+    }
+    input[type="range"]{width: 220px}
+    .metric{
+      font-family:var(--mono);
+      padding:6px 10px;
+      border-radius:12px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--brand2);
+    }
+    .footer{
+      margin-top:26px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--faint);
+      font-size:13px;
+      display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    }
+    .smalllink a{color:var(--muted)}
+    .badge{
+      display:inline-flex; align-items:center; gap:8px;
+      border:1px solid var(--border);
+      padding:6px 10px;
+      border-radius:999px;
+      background: rgba(255,255,255,.03);
+      color:var(--muted);
+      font-size:12px;
+    }
+    .dot{
+      width:8px; height:8px; border-radius:99px;
+      background: var(--brand2);
+      box-shadow: 0 0 0 3px rgba(186,255,201,.10);
+    }
+    .svgpanel{
+      border:1px solid var(--border);
+      border-radius:14px;
+      background: rgba(255,255,255,.02);
+      padding:10px;
+      overflow:hidden;
+    }
+    .table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:10px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .table th,.table td{
+      border-bottom:1px solid var(--border);
+      padding:10px 8px;
+      vertical-align:top;
+    }
+    .table th{color:var(--text); text-align:left; font-weight:650}
+    .tag2{
+      display:inline-block;
+      font-size:11px;
+      padding:2px 8px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color:var(--muted);
+      margin-left:6px;
+    }
+    .danger{color:var(--danger)}
+    .ok{color:var(--ok)}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <div class="top"><span class="logo" aria-hidden="true"></span>How Money Works</div>
+      <div class="sub">A plain-English map + a consent-aware lens on time, value, and scale.</div>
+    </div>
+    <nav aria-label="Page navigation">
+      <a href="#what">What is money?</a>
+      <a href="#why">Why it scales</a>
+      <a href="#costs">Hidden costs</a>
+      <a href="#creation">How money is created</a>
+      <a href="#time">My time & consent</a>
+      <a href="#tools">Practical tools</a>
+    </nav>
+  </header>
+
+  <div class="wrap">
+    <div class="hero">
+      <div class="card">
+        <h1>Money is a coordination technology.</h1>
+        <p>
+          It lets strangers cooperate by compressing complex value into a single number.
+          That’s powerful — and it can also quietly <em>price</em> things that were never meant to be sold:
+          attention, care, presence, and time.
+        </p>
+
+        <div class="callout">
+          <b>Core idea:</b> money works best when it stays a <em>tool</em>. Trouble starts when it becomes the
+          <em>truth</em> about what matters.
+        </div>
+
+        <div class="pillrow" aria-label="Key terms">
+          <span class="pill"><b>Medium of exchange</b></span>
+          <span class="pill"><b>Unit of account</b></span>
+          <span class="pill"><b>Store of value</b></span>
+          <span class="pill"><b>Credit</b> = promises</span>
+          <span class="pill"><b>Consent</b> as boundary</span>
+        </div>
+      </div>
+
+      <div class="card mini" id="quicktool">
+        <div>
+          <div class="label">A tiny intuition machine</div>
+          <div class="bigNumber" id="intuitionLine">Money: trust compressed into tokens.</div>
+          <div class="muted" style="margin-top:8px; font-size:13px;">
+            Tap to cycle core “moves” money makes.
+          </div>
+        </div>
+        <button type="button" id="cycleBtn">Cycle the next “move”</button>
+        <div class="badge" title="This is not financial advice; it's conceptual education.">
+          <span class="dot" aria-hidden="true"></span>
+          Educational lens, not advice
+        </div>
+      </div>
+    </div>
+
+    <section id="what" class="grid">
+      <div class="card col-8">
+        <h2>What is money?</h2>
+        <p class="muted">
+          Money is a shared agreement that certain tokens (coins, notes, bank balances) can stand in for value.
+          It’s not “value” itself — it’s a <em>representational layer</em>.
+        </p>
+
+        <table class="table" aria-label="Three classic functions of money">
+          <thead>
+            <tr>
+              <th>Function</th>
+              <th>What it does</th>
+              <th>Why it matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Medium of exchange</b></td>
+              <td>Lets you trade without bartering (no “double coincidence of wants”).</td>
+              <td>Enables specialization and trade at scale.</td>
+            </tr>
+            <tr>
+              <td><b>Unit of account</b></td>
+              <td>Creates a common measuring stick for prices and costs.</td>
+              <td>Makes planning, budgeting, and comparison possible.</td>
+            </tr>
+            <tr>
+              <td><b>Store of value</b></td>
+              <td>Lets you carry purchasing power through time.</td>
+              <td>Supports saving — but also incentivizes hoarding and rent-seeking if misdesigned.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card col-4">
+        <h2>Money is…</h2>
+        <ul class="list">
+          <li><b>Social memory</b> (who can claim what)</li>
+          <li><b>A ledger</b> (even when it’s paper)</li>
+          <li><b>Portable trust</b> (accepted by others)</li>
+          <li><b>A language</b> (prices are sentences)</li>
+        </ul>
+
+        <p class="muted" style="margin-top:10px;">
+          When money becomes the <em>only</em> language, we lose nuance.
+          Not everything that’s real is measurable, and not everything measurable is worth maximizing.
+        </p>
+      </div>
+    </section>
+
+    <section id="why" class="grid">
+      <div class="card col-6">
+        <h2>Why money enables scale</h2>
+        <p class="muted">
+          Pre-money communities scaled by relationship: kinship, reputation, rituals, shared stories.
+          That’s high-fidelity — but it’s bandwidth-limited.
+        </p>
+
+        <details open>
+          <summary>Money reduces coordination friction <span class="tag">scale</span></summary>
+          <ul class="list">
+            <li>Strangers can trade without deep trust.</li>
+            <li>Markets can match supply/demand rapidly.</li>
+            <li>Specialization rises because exchange is easier.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Money creates a “universal comparer” <span class="tag">measurement</span></summary>
+          <ul class="list">
+            <li>Different goods become comparable via price.</li>
+            <li>That powers accounting, contracts, and planning.</li>
+            <li>But it can also <span class="danger">collapse multi-dimensional value into one number</span>.</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card col-6">
+        <h2>Diagram: trust → token → scale</h2>
+        <p class="muted">A quick visual for the “compression move.”</p>
+
+        <div class="svgpanel" role="img" aria-label="Diagram showing trust compressed into tokens enabling scale">
+          <svg viewBox="0 0 760 250" width="100%" height="auto">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="rgba(136,192,255,.65)"/>
+                <stop offset="1" stop-color="rgba(186,255,201,.65)"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="18" y="30" width="220" height="180" rx="18" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.10)"/>
+            <text x="38" y="72" fill="rgba(233,238,246,.92)" font-size="18" font-weight="700">Relational trust</text>
+            <text x="38" y="104" fill="rgba(170,183,199,.95)" font-size="14">reputation • memory • ritual</text>
+            <text x="38" y="130" fill="rgba(170,183,199,.95)" font-size="14">high fidelity, low bandwidth</text>
+
+            <rect x="270" y="70" width="220" height="110" rx="18" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.10)"/>
+            <text x="290" y="112" fill="rgba(233,238,246,.92)" font-size="18" font-weight="700">Money token</text>
+            <text x="290" y="142" fill="rgba(170,183,199,.95)" font-size="14">trust “compressed” into units</text>
+
+            <rect x="522" y="30" width="220" height="180" rx="18" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.10)"/>
+            <text x="542" y="72" fill="rgba(233,238,246,.92)" font-size="18" font-weight="700">Large-scale trade</text>
+            <text x="542" y="104" fill="rgba(170,183,199,.95)" font-size="14">strangers coordinate</text>
+            <text x="542" y="130" fill="rgba(170,183,199,.95)" font-size="14">specialization increases</text>
+
+            <path d="M240 120 C260 120, 255 120, 270 120" stroke="url(#g1)" stroke-width="6" fill="none" />
+            <polygon points="260,112 270,120 260,128" fill="rgba(186,255,201,.85)" />
+
+            <path d="M490 120 C510 120, 505 120, 522 120" stroke="url(#g1)" stroke-width="6" fill="none" />
+            <polygon points="512,112 522,120 512,128" fill="rgba(186,255,201,.85)" />
+
+            <text x="280" y="205" fill="rgba(255,204,102,.92)" font-size="13">
+              The win: scale. The risk: value collapse.
+            </text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="costs" class="grid">
+      <div class="card col-12">
+        <h2>Hidden costs: what money can do to meaning</h2>
+        <p class="muted">
+          Money doesn’t just enable exchange — it can change what people <em>think</em> is worth doing.
+          When the scoreboard becomes reality, we start optimizing for the scoreboard.
+        </p>
+
+        <div class="grid">
+          <div class="card col-4" style="background: rgba(255,204,102,.06);">
+            <h3>Value collapse <span class="tag2">unit-of-account side effect</span></h3>
+            <p class="muted">
+              Many kinds of value (care, presence, dignity) get flattened into price.
+              What can’t be priced becomes “invisible.”
+            </p>
+          </div>
+          <div class="card col-4" style="background: rgba(255,123,123,.06);">
+            <h3>Extraction incentives <span class="tag2">power</span></h3>
+            <p class="muted">
+              If profit is the only signal, systems drift toward capturing attention, time, and dependency —
+              even when everyone privately hates it.
+            </p>
+          </div>
+          <div class="card col-4" style="background: rgba(186,255,201,.06);">
+            <h3>Coordination miracles <span class="tag2">real benefits</span></h3>
+            <p class="muted">
+              Medicine supply chains, infrastructure, global collaboration —
+              money can coordinate enormous efforts when paired with good institutions.
+            </p>
+          </div>
+        </div>
+
+        <details style="margin-top:12px;">
+          <summary>So is money “good” or “bad”? <span class="tag">lens</span></summary>
+          <p class="muted" style="margin-top:10px;">
+            It’s neither. Money is a <b>protocol</b> for allocating claims on resources.
+            The question is: <b>what values does the protocol enforce?</b>
+            And: <b>where does consent belong?</b>
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section id="creation" class="grid">
+      <div class="card col-6">
+        <h2>How money is created (modern version)</h2>
+        <p class="muted">
+          In most modern economies, a lot of “money” is created as <b>credit</b> — i.e., bank deposits that exist
+          because someone borrowed and someone else is owed.
+        </p>
+
+        <details open>
+          <summary>Three big creators <span class="tag">mechanics</span></summary>
+          <ul class="list">
+            <li><b>Central bank</b>: sets policy rates, provides reserves/liquidity, influences conditions.</li>
+            <li><b>Commercial banks</b>: create deposits when they make loans (credit creation).</li>
+            <li><b>Government (fiscal)</b>: spends/taxes/borrows; interacts with banking + central bank architecture.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>What “printing money” usually means <span class="tag">myth-busting</span></summary>
+          <ul class="list">
+            <li>Often it’s not literal printing — it’s balance sheets: reserves, bonds, deposits.</li>
+            <li>Inflation depends on supply, demand, constraints, expectations, and policy — not just “more digits exist.”</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card col-6">
+        <h2>Interactive: a tiny money-flow intuition</h2>
+        <p class="muted">Move the sliders to see how narratives change. (Simplified on purpose.)</p>
+
+        <div class="row" role="group" aria-label="Sliders">
+          <label class="muted" for="credit">Credit growth</label>
+          <input id="credit" type="range" min="0" max="100" value="45" />
+          <span class="metric" id="creditVal">45</span>
+        </div>
+        <div class="row" role="group" aria-label="Sliders">
+          <label class="muted" for="supply">Real supply capacity</label>
+          <input id="supply" type="range" min="0" max="100" value="60" />
+          <span class="metric" id="supplyVal">60</span>
+        </div>
+        <div class="row" role="group" aria-label="Sliders">
+          <label class="muted" for="trust">Institutional trust</label>
+          <input id="trust" type="range" min="0" max="100" value="55" />
+          <span class="metric" id="trustVal">55</span>
+        </div>
+
+        <div class="callout" style="margin-top:12px; border-left-color: var(--brand); background: rgba(136,192,255,.06);">
+          <b>Interpretation:</b>
+          <span id="interpText">Balanced-ish: credit is growing, and supply can mostly keep up.</span>
+        </div>
+
+        <p class="faint" style="margin-top:10px;">
+          Note: This is an educational toy. Real economies are way messier.
+        </p>
+      </div>
+    </section>
+
+    <section id="time" class="grid">
+      <div class="card col-12">
+        <h2>My time & consent</h2>
+        <p class="muted">
+          A common pain point is not “money exists,” but the quieter claim that <b>your time is a commodity by default</b>.
+          If that feels like a boundary breach, you’re not broken — you’re noticing a design choice.
+        </p>
+
+        <div class="grid">
+          <div class="card col-6">
+            <h3>Two ways to relate to time</h3>
+            <details open>
+              <summary>Time as commodity <span class="tag">market lens</span></summary>
+              <ul class="list">
+                <li>Time is priced as an input to production.</li>
+                <li>“Opportunity cost” becomes a constant background hum.</li>
+                <li>Risk: you start treating yourself as inventory.</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary>Time as lived continuity <span class="tag">human lens</span></summary>
+              <ul class="list">
+                <li>Time is the medium of your life, not a unit for sale.</li>
+                <li>Some acts are “priceless” not as cliché — but as category boundary.</li>
+                <li>Consent belongs <b>before</b> valuation.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="card col-6">
+            <h3>A consent-aware prompt you can use</h3>
+            <p class="muted">
+              Before you say yes to a priced demand, ask:
+            </p>
+            <ul class="list">
+              <li><span class="kbd">1</span> Is this aligned with my values, or just the scoreboard?</li>
+              <li><span class="kbd">2</span> What boundary am I being asked to move?</li>
+              <li><span class="kbd">3</span> Can I offer a different form of value (care, creativity, clarity) without commodifying my being?</li>
+              <li><span class="kbd">4</span> What would a fully consensual “yes” feel like in my body?</li>
+            </ul>
+
+            <div class="callout" style="margin-top:12px; border-left-color: var(--brand2); background: rgba(186,255,201,.06);">
+              <b>Boundary note:</b> “Not for sale” is a valid category. You don’t owe the market an explanation.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="grid">
+      <div class="card col-6">
+        <h2>Practical tools (without moralizing)</h2>
+        <p class="muted">
+          If money is a coordination layer, you can choose which layer you’re on — or when you step off it.
+        </p>
+
+        <details open>
+          <summary>Personal level <span class="tag">practice</span></summary>
+          <ul class="list">
+            <li><b>Separate price from worth</b>: track both.</li>
+            <li><b>Budget for “non-market time”</b> as a protected resource.</li>
+            <li><b>Rename categories</b>: “care,” “play,” “repair,” “learning,” not just “free time.”</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Community level <span class="tag">design</span></summary>
+          <ul class="list">
+            <li>Mutual aid / gift circles / time-banks (with consent-first boundaries).</li>
+            <li>Local credit ledgers where meaning isn’t forced into one number.</li>
+            <li>Explicit norms: what is <em>never</em> priced (presence, certain care acts, etc.).</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card col-6">
+        <h2>Glossary</h2>
+        <ul class="list">
+          <li><b>Credit</b>: a promise (an asset for one party, a liability for another).</li>
+          <li><b>Inflation</b>: broad increase in prices (often “too much demand chasing too little supply,” but details matter).</li>
+          <li><b>Liquidity</b>: ease of paying/settling now.</li>
+          <li><b>Rent-seeking</b>: extracting payment without creating proportional value.</li>
+          <li><b>Externality</b>: cost/benefit not reflected in the price.</li>
+        </ul>
+        <p class="faint">
+          Want this site to cite sources? Add a “References” section and I’ll wire it up with footnotes.
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>
+        <div><b>howmoneyworks.com</b> — a living explainer.</div>
+        <div class="smalllink">Built as a single HTML file. Edit freely. Ship it.</div>
+      </div>
+      <div class="smalllink">
+        <a href="#quicktool">Back to top tool</a> ·
+        <a href="#what">What</a> ·
+        <a href="#why">Why</a> ·
+        <a href="#creation">Creation</a> ·
+        <a href="#time">Time</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // --- Hero intuition cycler ---
+    (function(){
+      const lines = [
+        "Money: trust compressed into tokens.",
+        "Money: a shared ledger for claims on resources.",
+        "Money: a universal comparer (useful, but flattening).",
+        "Money: a protocol that coordinates strangers at scale.",
+        "Money: an incentive engine—what you reward, you get more of.",
+        "Money: a measurement layer that can become a meaning layer.",
+        "Money: not value itself—just the map, not the territory."
+      ];
+      let i = 0;
+      const el = document.getElementById("intuitionLine");
+      const btn = document.getElementById("cycleBtn");
+      btn.addEventListener("click", () => {
+        i = (i + 1) % lines.length;
+        el.textContent = lines[i];
+      });
+    })();
+
+    // --- Simple slider interpretation toy ---
+    (function(){
+      const credit = document.getElementById("credit");
+      const supply = document.getElementById("supply");
+      const trust  = document.getElementById("trust");
+
+      const creditVal = document.getElementById("creditVal");
+      const supplyVal = document.getElementById("supplyVal");
+      const trustVal  = document.getElementById("trustVal");
+      const interp    = document.getElementById("interpText");
+
+      function clamp(n,min,max){ return Math.max(min, Math.min(max, n)); }
+
+      function update(){
+        const c = +credit.value, s = +supply.value, t = +trust.value;
+        creditVal.textContent = c;
+        supplyVal.textContent = s;
+        trustVal.textContent  = t;
+
+        // A deliberately simple narrative generator:
+        // Pressure rises when credit outpaces supply; stability rises with trust.
+        const pressure = clamp((c - s) + (50 - t) * 0.6, -100, 100);
+
+        let msg = "";
+        if (pressure < -25){
+          msg = "Low pressure: supply capacity outpaces credit—often feels ‘stable,’ but could also mean under-investment or weak demand.";
+        } else if (pressure < 15){
+          msg = "Balanced-ish: credit is growing, and supply can mostly keep up. Institutions can usually steer without drama.";
+        } else if (pressure < 45){
+          msg = "Rising pressure: credit is outpacing supply and/or trust is slipping. Prices or asset bubbles may become the system’s ‘release valve.’";
+        } else {
+          msg = "High pressure: demand/credit outruns real capacity and trust is low. Policy fights intensify; volatility becomes a feature, not a bug.";
+        }
+        interp.textContent = msg;
+      }
+
+      [credit, supply, trust].forEach(x => x.addEventListener("input", update));
+      update();
+    })();
+  </script>
+</body>
+</html>

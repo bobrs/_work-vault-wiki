@@ -15,6 +15,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [Abracadoo](abracadoo/index.md)
 - [How Intuition Works](how-intuition-works/index.md)
+- [How Works](how-works/index.md)
 - [Trust Interoperability Standard](trust-interoperability-standard/index.md)
 - [New Ideas](new-ideas/index.md)
 - [Similar Projects](similar-projects/index.md)

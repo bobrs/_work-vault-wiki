@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How Intent Works (and Why Consent Changes Everything)</title>
+  <meta name="description" content="A single-page walkthrough: from the folk model of intent to consent-full environments where intent becomes legible, bounded, and repairable—without mind-reading." />
+  <style>
+    :root{
+      --bg:#0b0c10;
+      --card:#12141b;
+      --text:#e9ecf1;
+      --muted:#b6bfcc;
+      --faint:#7f8a9a;
+      --line:#232836;
+      --accent:#8be9fd;
+      --accent2:#a7ff83;
+      --warn:#ffd37a;
+      --bad:#ff7a90;
+      --good:#7affb2;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 700px at 20% 10%, rgba(139,233,253,.10), transparent 55%),
+                  radial-gradient(900px 600px at 80% 30%, rgba(167,255,131,.08), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      font-family:var(--sans);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .wrap{max-width:980px; margin:0 auto; padding:28px 18px 80px;}
+    header{
+      padding:22px 18px;
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(18,20,27,.85), rgba(18,20,27,.55));
+      border-radius:18px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.35);
+      position:relative;
+      overflow:hidden;
+    }
+    header:before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background: linear-gradient(135deg, rgba(139,233,253,.16), rgba(167,255,131,.10), transparent 70%);
+      pointer-events:none;
+      filter: blur(10px);
+      opacity:.8;
+    }
+    header > *{position:relative;}
+    .kicker{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      font-family:var(--mono);
+      font-size:12px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:10px;
+    }
+    .pill{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:4px 10px;
+      background: rgba(255,255,255,.03);
+    }
+    h1{margin:8px 0 10px; font-size: clamp(28px, 3.4vw, 44px); line-height:1.1;}
+    .sub{color:var(--muted); font-size: clamp(16px, 1.5vw, 19px); max-width:60ch;}
+    nav{
+      margin-top:14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    nav a{
+      font-family:var(--mono);
+      font-size:13px;
+      padding:8px 10px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background: rgba(255,255,255,.03);
+      color:var(--text);
+    }
+    nav a:hover{border-color: rgba(139,233,253,.5);}
+    main{margin-top:18px;}
+    section{
+      margin-top:16px;
+      padding:20px 18px;
+      border:1px solid var(--line);
+      border-radius:18px;
+      background: rgba(18,20,27,.55);
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    h2{margin:0 0 8px; font-size:22px;}
+    h3{margin:16px 0 8px; font-size:16px; color:var(--muted);}
+    p{margin:10px 0;}
+    ul{margin:10px 0 10px 22px;}
+    li{margin:6px 0;}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:12px;
+      margin-top:12px;
+    }
+    @media(min-width:900px){
+      .grid.two{grid-template-columns:1fr 1fr;}
+      .grid.three{grid-template-columns:1fr 1fr 1fr;}
+    }
+    .card{
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:14px 14px 12px;
+      background: rgba(255,255,255,.03);
+    }
+    .label{
+      font-family:var(--mono);
+      font-size:12px;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      color:var(--faint);
+      margin-bottom:6px;
+    }
+    .bigquote{
+      border-left:3px solid rgba(139,233,253,.65);
+      padding:10px 12px;
+      margin:12px 0;
+      background: rgba(139,233,253,.06);
+      border-radius:10px;
+    }
+    .bigquote strong{color:var(--accent);}
+    .note{
+      color:var(--muted);
+      border:1px dashed rgba(255,255,255,.15);
+      border-radius:14px;
+      padding:12px;
+      background: rgba(255,255,255,.02);
+    }
+    .callout{
+      display:flex; gap:12px; align-items:flex-start;
+      border:1px solid rgba(255,211,122,.25);
+      background: rgba(255,211,122,.06);
+      border-radius:16px;
+      padding:14px;
+      margin:12px 0;
+    }
+    .dot{
+      width:10px; height:10px; border-radius:50%;
+      background: var(--warn);
+      margin-top:6px;
+      box-shadow: 0 0 0 4px rgba(255,211,122,.10);
+      flex:0 0 auto;
+    }
+    code, pre{font-family:var(--mono);}
+    pre{
+      margin:12px 0;
+      padding:14px;
+      overflow:auto;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.25);
+    }
+    .footer{
+      margin-top:18px;
+      padding:18px;
+      color:var(--muted);
+      text-align:center;
+      font-size:14px;
+    }
+    .mini{
+      font-family:var(--mono);
+      color:var(--faint);
+      font-size:12px;
+    }
+    .good{color:var(--good);}
+    .bad{color:var(--bad);}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">
+        <span class="pill">howintentworks.com</span>
+        <span class="pill">intent • consent • coordination</span>
+      </div>
+      <h1>How we think intent works…<br/>and how it actually becomes workable</h1>
+      <p class="sub">
+        We grew up inside a story: “If your intent is good, you’re good.” But intent is private, slippery,
+        and often retrofitted. The upgrade isn’t “judge intent better.” The upgrade is: make intent <em>legible</em>
+        through consent—so coordination doesn’t require mind-reading.
+      </p>
+      <nav>
+        <a href="#folk-model">Folk Model</a>
+        <a href="#why-breaks">Why It Breaks</a>
+        <a href="#consent-proxy">Consent as Proxy</a>
+        <a href="#not-a-dichotomy">Not a Dichotomy</a>
+        <a href="#giving-receiving">Giving & Receiving</a>
+        <a href="#practice">Practices</a>
+        <a href="#axioms">Axioms</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="folk-model">
+        <h2>1) The Folk Model: “Intent is the truth”</h2>
+        <p>
+          The default mental model goes something like this:
+        </p>
+        <div class="grid two">
+          <div class="card">
+            <div class="label">What we assume</div>
+            <ul>
+              <li>People know what they intend.</li>
+              <li>People can report it accurately.</li>
+              <li>Good intent should count heavily.</li>
+              <li>If harm happens, we ask: “What did you mean?”</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="label">What this model tries to do</div>
+            <ul>
+              <li>Use intent as the primary moral/computational variable.</li>
+              <li>Use interpretation (“reading between the lines”) as the glue.</li>
+              <li>Let relationships run on implicit assumptions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bigquote">
+          <strong>Intent is treated as a master key:</strong> if we can “get” someone’s intent, everything else is explainable.
+        </div>
+
+        <p class="note">
+          This model isn’t stupid. It’s adaptive in small tribes, families, and high-context groups where shared norms and long history
+          make “intent inference” cheaper. The problem is scale, stress, and asymmetry.
+        </p>
+      </section>
+
+      <section id="why-breaks">
+        <h2>2) Why the Intent-First Model Breaks (even for good people)</h2>
+
+        <div class="grid three">
+          <div class="card">
+            <div class="label">Intent is private</div>
+            <p>
+              Intent is a hidden variable. You can’t directly observe it—only infer it from words and actions.
+              That means “proof” often becomes storytelling.
+            </p>
+          </div>
+          <div class="card">
+            <div class="label">Intent is unstable</div>
+            <p>
+              People change their minds mid-sentence, mid-action, mid-relationship. Sometimes the change is conscious;
+              often it isn’t.
+            </p>
+          </div>
+          <div class="card">
+            <div class="label">Intent is post-rationalized</div>
+            <p>
+              The brain is a meaning engine. After an outcome, it will rewrite the “why” to preserve coherence.
+              This isn’t malice; it’s cognition.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div class="dot"></div>
+          <div>
+            <p style="margin:0 0 6px;">
+              <strong>Critical failure mode:</strong> “I didn’t mean it” becomes a shield against accountability,
+              and “I know what you meant” becomes a weapon.
+            </p>
+            <p class="mini" style="margin:0;">
+              Both sides can be sincere. The structure is still broken.
+            </p>
+          </div>
+        </div>
+
+        <h3>In practice, “intent talk” creates three recurring traps</h3>
+        <ul>
+          <li><span class="bad">Ambiguity inflation:</span> everything becomes debatable because inner states are debatable.</li>
+          <li><span class="bad">Power distortion:</span> the higher-status party’s “intent narrative” tends to win.</li>
+          <li><span class="bad">Repair failure:</span> conflict loops because nobody has a shared reference point.</li>
+        </ul>
+      </section>
+
+      <section id="consent-proxy">
+        <h2>3) The Upgrade: Consent makes intent legible</h2>
+
+        <p>
+          Here’s the pivot:
+        </p>
+        <div class="bigquote">
+          <strong>Consent doesn’t try to measure intent.</strong><br/>
+          Consent turns “what’s inside” into “what’s allowed”—in shared language, at a specific time, with a defined scope.
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <div class="label">Intent-first question</div>
+            <p><strong>“What did you mean?”</strong></p>
+            <p class="mini">Requires inference, trust, and interpretation.</p>
+          </div>
+          <div class="card">
+            <div class="label">Consent-first question</div>
+            <p><strong>“What did we agree to?”</strong></p>
+            <p class="mini">Creates a shared object you can point to.</p>
+          </div>
+        </div>
+
+        <h3>Consent’s built-in constraints (the “safety rails”)</h3>
+        <div class="grid three">
+          <div class="card">
+            <div class="label">Articulation</div>
+            <p>Consent must be expressed in interpretable form. It forces clarity or reveals uncertainty.</p>
+          </div>
+          <div class="card">
+            <div class="label">Time</div>
+            <p>Consent exists at a time, can be updated, expires, and can be withdrawn.</p>
+          </div>
+          <div class="card">
+            <div class="label">Scope</div>
+            <p>Consent defines boundaries: what’s in, what’s out, and what needs renegotiation.</p>
+          </div>
+        </div>
+
+        <p class="note">
+          In a consent-full environment, the need to “prove intent” is largely obviated—not because intent stops mattering,
+          but because consent makes action governable without mind-reading.
+        </p>
+
+        <pre><code>// A simple framing:
+Intent:  private signal (hidden variable)
+Consent: public signal (structured, time-stamped, scope-bounded)
+
+// When consent is present:
+We coordinate on the public signal.
+// We can still care about intent — but we no longer depend on guessing it.</code></pre>
+      </section>
+
+      <section id="not-a-dichotomy">
+        <h2>4) The subtle twist: “Intent vs Consent” is a false dichotomy</h2>
+
+        <p>
+          If we’re being precise: intent and consent are not enemies. They are different layers of the same system.
+        </p>
+
+        <div class="grid two">
+          <div class="card">
+            <div class="label">Intent</div>
+            <p>
+              The internal orientation: desire, aim, meaning, motivation, care, curiosity, fear.
+            </p>
+          </div>
+          <div class="card">
+            <div class="label">Consent</div>
+            <p>
+              The external interface: the boundary language that makes interaction safe, shared, and repairable.
+            </p>
+          </div>
+        </div>
+
+        <div class="bigquote">
+          Intent is real. Consent is the <strong>bridge</strong> that makes intent socially actionable.
+        </div>
+
+        <p>
+          The brain often invents a simplistic choice:
+          <em>either</em> “inner truth” (intent) <em>or</em> “outer rules” (consent).
+          But mature coordination is “both/and”:
+        </p>
+
+        <ul>
+          <li>Intent without consent becomes guesswork and pressure.</li>
+          <li>Consent without intent becomes brittle compliance.</li>
+          <li><span class="good">Intent + consent</span> becomes clear, humane coordination.</li>
+        </ul>
+
+        <p class="note">
+          Another way to say it: consent is intent that survived contact with language.
+          It’s the moment the inner signal becomes a shared reference point.
+        </p>
+      </section>
+
+      <section id="giving-receiving">
+        <h2>5) “Giving vs Receiving” is also not that simple</h2>
+
+        <p>
+          We also carry a folk story about exchange:
+          “I give, you receive” (or “you take”).
+          But consent-full interaction reveals a more accurate structure:
+        </p>
+
+        <div class="grid two">
+          <div class="card">
+            <div class="label">What it looks like in reality</div>
+            <ul>
+              <li>Giving is an offer—an invitation, not a transfer.</li>
+              <li>Receiving is an active act—accepting, shaping, setting terms.</li>
+              <li>Every “gift” has a boundary whether spoken or not.</li>
+              <li>Every “yes” contains a vector of conditions, even if implicit.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="label">Consent makes exchange symmetrical</div>
+            <ul>
+              <li>Offers become explicit: “Here’s what I’m offering.”</li>
+              <li>Acceptances become explicit: “Here’s what I’m accepting.”</li>
+              <li>Pressure becomes visible: “Is this freely choosable?”</li>
+              <li>Repair becomes possible: “Let’s update the terms.”</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bigquote">
+          In a consent-full world, “giving” and “receiving” become a <strong>co-authored interaction</strong>.
+        </div>
+      </section>
+
+      <section id="practice">
+        <h2>6) Practical language that makes intent workable</h2>
+
+        <p>
+          The goal isn’t to banish intent language. It’s to <em>bind</em> intent to consent so it becomes usable.
+          Here are minimal, high-leverage patterns:
+        </p>
+
+        <div class="grid two">
+          <div class="card">
+            <div class="label">Offer → Terms</div>
+            <p><strong>“My intent is X.</strong> Here’s what I’m proposing: Y. Does that work for you?”</p>
+            <p class="mini">Intent becomes context; consent becomes the boundary.</p>
+          </div>
+          <div class="card">
+            <div class="label">Yes → Scope</div>
+            <p><strong>“Yes to Y,</strong> but not to Z. And I might stop if A happens.”</p>
+            <p class="mini">A “yes” without scope is a trap door.</p>
+          </div>
+          <div class="card">
+            <div class="label">Uncertainty → Pause</div>
+            <p><strong>“I’m not sure.</strong> Can we slow down / clarify / check in later?”</p>
+            <p class="mini">Uncertainty stated early prevents harm later.</p>
+          </div>
+          <div class="card">
+            <div class="label">Repair → Update</div>
+            <p><strong>“That didn’t land as intended.</strong> Can we reset the terms?”</p>
+            <p class="mini">Repair is not confession; it’s system maintenance.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div class="dot"></div>
+          <div>
+            <p style="margin:0 0 6px;">
+              <strong>Consent-full doesn’t mean “lawyerly.”</strong>
+              It means using just enough clear language to make interaction safe, mutual, and revisable.
+            </p>
+            <p class="mini" style="margin:0;">
+              Clarity is not cold. Clarity is care.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="axioms">
+        <h2>7) Ground claims (what we’re “claiming” on this page)</h2>
+
+        <div class="grid two">
+          <div class="card">
+            <div class="label">Axiom 1</div>
+            <p><strong>Intent is real but private.</strong> It cannot be the primary coordination mechanism at scale.</p>
+          </div>
+          <div class="card">
+            <div class="label">Axiom 2</div>
+            <p><strong>Consent is intent made legible.</strong> It creates a shared object: time + scope + permission.</p>
+          </div>
+          <div class="card">
+            <div class="label">Axiom 3</div>
+            <p><strong>Consent reduces dependence on mind-reading.</strong> It obviates “proving intent” in most cases.</p>
+          </div>
+          <div class="card">
+            <div class="label">Axiom 4</div>
+            <p><strong>Giving and receiving are co-authored.</strong> Offers and acceptances both have terms.</p>
+          </div>
+        </div>
+
+        <div class="bigquote">
+          <strong>One sentence version:</strong><br/>
+          A consent-full environment doesn’t erase intent—it makes it workable, shareable, and repairable.
+        </div>
+
+        <p class="note">
+          If you want to go one layer deeper: the real opposite of consent isn’t “bad intent.”
+          It’s <em>unbounded action under ambiguity</em>.
+          Consent is how we bound action so meaning can emerge without coercion.
+        </p>
+      </section>
+
+      <div class="footer">
+        <div class="mini">© howintentworks.com • A companion lens to consent-first design • “Make intent legible.”</div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="A simple, physics-respecting explanation of how persistence works: energy arrives, intake is gated, storage buffers time, routing decides direction, loops update rules." />
+  <title>How Living Works</title>
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1620;
+      --text:#e7eef8;
+      --muted:#aab6c5;
+      --hair:#223041;
+      --accent:#78b6ff;
+      --accent2:#7fffd4;
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 980px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background: radial-gradient(1000px 600px at 15% 0%, rgba(120,182,255,.18), transparent 60%),
+                  radial-gradient(1000px 600px at 85% 15%, rgba(127,255,212,.12), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:42px 18px 80px;
+    }
+    header{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:18px;
+      margin-bottom:26px;
+    }
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+    .brand h1{
+      margin:0;
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing:-.02em;
+    }
+    .tag{
+      margin:0;
+      color:var(--muted);
+      max-width:70ch;
+      font-size: 15px;
+    }
+    nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:flex-end;
+      margin-top:6px;
+    }
+    nav a{
+      padding:8px 10px;
+      border:1px solid var(--hair);
+      border-radius:999px;
+      color:var(--text);
+      background: rgba(255,255,255,.02);
+    }
+    nav a:hover{
+      border-color: rgba(120,182,255,.55);
+      background: rgba(120,182,255,.08);
+      text-decoration:none;
+    }
+    .hero{
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+      border:1px solid var(--hair);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px 20px;
+      margin: 18px 0 26px;
+    }
+    .hero .kicker{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin-bottom:12px;
+      color:var(--muted);
+      font-size: 13px;
+    }
+    .pill{
+      border:1px solid var(--hair);
+      border-radius:999px;
+      padding:6px 10px;
+      background: rgba(255,255,255,.02);
+    }
+    .hero h2{
+      margin: 4px 0 10px;
+      font-size: clamp(20px, 2.4vw, 26px);
+      letter-spacing: -.01em;
+    }
+    .hero p{margin:0; max-width: 85ch; color: var(--text)}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    @media (min-width: 860px){
+      .grid{ grid-template-columns: 1fr 1fr; }
+    }
+    section.card{
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--hair);
+      border-radius: var(--radius);
+      padding: 18px 18px 16px;
+    }
+    section.card h3{
+      margin:0 0 10px;
+      font-size: 18px;
+      letter-spacing:-.01em;
+    }
+    .muted{color:var(--muted)}
+    .tight{
+      margin: 0;
+      max-width: 90ch;
+    }
+    ul{margin:10px 0 0 18px; padding:0}
+    li{margin:6px 0}
+    .code{
+      font-family: var(--mono);
+      font-size: 13px;
+      padding: 12px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--hair);
+      background: rgba(0,0,0,.22);
+      overflow:auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .rule{
+      height:1px; background: var(--hair);
+      margin: 18px 0;
+    }
+    footer{
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid var(--hair);
+      color: var(--muted);
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      justify-content:space-between;
+      align-items:center;
+      font-size: 13px;
+    }
+    .smallcaps{font-variant: all-small-caps; letter-spacing:.08em}
+    .top{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      border-radius:999px;
+      border:1px solid var(--hair);
+      background: rgba(15,22,32,.75);
+      backdrop-filter: blur(8px);
+      padding:10px 12px;
+      color: var(--text);
+      box-shadow: var(--shadow);
+      display:none;
+    }
+    .top:hover{border-color: rgba(120,182,255,.55); background: rgba(120,182,255,.10); text-decoration:none}
+    @media (min-width: 720px){ .top{display:inline-flex} }
+  </style>
+</head>
+
+<body>
+  <a id="top"></a>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1>How Living Works</h1>
+        <p class="tag">
+          A clean, physics-respecting story: energy arrives, intake is gated, storage buffers time, routing decides direction,
+          loops update rules, and what persists becomes the stage for what persists next.
+        </p>
+      </div>
+      <nav aria-label="Site navigation">
+        <a href="#compression">Compression</a>
+        <a href="#kids">For Kids</a>
+        <a href="#engineers">For Engineers</a>
+        <a href="#mythic">Mythic</a>
+        <a href="#fractal">Fractal</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="kicker">
+        <span class="pill">Single-page</span>
+        <span class="pill">No belief required</span>
+        <span class="pill">Same shape at every scale</span>
+      </div>
+      <h2>The core claim</h2>
+      <p class="tight">
+        Everything that persists does so by routing energy. Agents don’t create energy; they <strong>permit</strong>,
+        <strong>receive</strong>, <strong>store</strong>, <strong>release</strong>, <strong>allocate</strong>, and
+        <strong>route</strong> it. What we call mind, body, culture, and civilization are layers of control over this routing.
+      </p>
+    </div>
+
+    <div class="grid">
+      <section class="card" id="compression">
+        <h3>A tight compression</h3>
+        <p class="tight">
+          Energy arrives.<br/>
+          Permission gates intake.<br/>
+          Storage buffers time.<br/>
+          Routing decides direction.<br/>
+          Loops update rules.<br/>
+          Failure is loss of correction.
+        </p>
+        <div class="rule"></div>
+        <p class="muted tight">
+          Nothing here violates physics; nothing requires belief. If something lasts, it is doing some version of this.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Four fundamental sinks</h3>
+        <p class="muted tight">Where routed energy ultimately goes:</p>
+        <ul>
+          <li><strong>Attention</strong> — processing allocation</li>
+          <li><strong>Action</strong> — movement, speech, changing the world</li>
+          <li><strong>Growth &amp; Repair</strong> — learning, healing, structural change</li>
+          <li><strong>Rest &amp; Restoration</strong> — reset, error clearing, capacity recovery</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="card" id="kids" style="margin-top:14px;">
+      <h3>A child-friendly explanation (non-rigorous)</h3>
+      <p class="tight">
+        The world runs on energy. The Sun gives energy to plants. Plants store it. Animals eat plants. People eat plants and animals.
+        That energy helps bodies move, grow, heal, think, and rest.
+      </p>
+      <p class="tight">
+        Some things just let energy pass through and disappear. Other things learn how to use energy to keep themselves going.
+        They do this by making rules:
+      </p>
+      <ul>
+        <li>what can come in,</li>
+        <li>what gets saved for later,</li>
+        <li>what gets used right now,</li>
+        <li>and what is ignored.</li>
+      </ul>
+      <p class="tight">
+        Your body has rules like hunger, tiredness, and pain. Your feelings are part of those rules. They help decide where energy should go.
+        Crying can help because it lets energy finish a job. Rest helps because energy fixes things when it is allowed to.
+      </p>
+      <p class="muted tight">
+        Nothing magical is happening. Things that last are just very good at using energy without breaking themselves.
+      </p>
+    </section>
+
+    <section class="card" id="engineers" style="margin-top:14px;">
+      <h3>Genesis for engineers (minimal, no poetry)</h3>
+      <div class="code" role="region" aria-label="Genesis for engineers">
+1. Energy gradients exist.
+2. Energy flows down gradients.
+3. Most flows dissipate and leave no structure.
+4. Some configurations selectively channel flow.
+5. Selective channeling creates boundaries.
+6. Boundaries gate intake.
+7. Gated intake enables storage.
+8. Storage enables delayed release.
+9. Delayed release enables allocation.
+10. Allocation enables routing.
+11. Routing preserves constraints.
+12. Preserved constraints enable persistence.
+13. Persistence enables accumulation of structure.
+14. Accumulated structure enables layered routing control.
+15. Layered routing produces complex systems.
+
+No new physical laws appear — only constraints, feedback, and time.</div>
+    </section>
+
+    <section class="card" id="mythic" style="margin-top:14px;">
+      <h3>Genesis, told loosely (mythic but grounded)</h3>
+      <p class="tight">
+        In a universe full of difference, energy moved. Most of it faded away.
+        But sometimes, matter learned a trick: it shaped the flow instead of fighting it.
+      </p>
+      <p class="tight">
+        A skin appeared — not a wall, but a choice. Some energy was allowed in. Some was kept out.
+        Some was saved. Some was spent. What spent energy wisely lasted longer. What lasted longer learned more rules.
+      </p>
+      <p class="tight">
+        Rules stacked on rules. Small systems nested inside larger ones. Fast loops lived inside slow loops.
+        Eventually, some systems felt like they were choosing. They weren’t breaking physics. They were just very deep stacks of rules.
+      </p>
+      <p class="tight">
+        Pain and pleasure became signals. Stories became maps. Care became infrastructure.
+        Stars kept burning without caring — but their fire fed the systems that do.
+        And one day, systems may route even stars: not because stars awaken, but because boundaries can grow large.
+      </p>
+      <p class="muted tight">
+        The pattern never changes. Only the scale does.
+      </p>
+    </section>
+
+    <section class="card" id="fractal" style="margin-top:14px;">
+      <h3>The fractal shape (why this works everywhere)</h3>
+      <p class="tight">
+        At every scale: energy arrives, intake is gated, storage buffers time, routing decides direction, loops update rules,
+        and persistence buys complexity.
+      </p>
+      <div class="grid" style="margin-top:12px;">
+        <div>
+          <p class="muted tight"><span class="smallcaps">Examples</span></p>
+          <ul>
+            <li>Cells do this.</li>
+            <li>Bodies do this.</li>
+            <li>Groups do this.</li>
+            <li>Civilizations do this.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="muted tight"><span class="smallcaps">If it breaks</span></p>
+          <ul>
+            <li>A loop failed to update.</li>
+            <li>A boundary became too porous or too sealed.</li>
+            <li>Storage was mismanaged (too little / too much / wrong timing).</li>
+            <li>Routing lost corrigibility (couldn’t correct).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="purpose" style="margin-top:14px;">
+      <h3>What this is for</h3>
+      <p class="tight">
+        This model helps explain why burnout happens, why care matters, why rituals work, why power concentrates, and why rest isn’t laziness.
+        It doesn’t tell you what to believe. It tells you what has to be true if something is going to keep going.
+      </p>
+      <p class="muted tight">
+        Want to contribute? Keep it clean: no metaphysical claims required; just show how the routing works.
+      </p>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> howlivingworks.com</div>
+      <div class="muted">Single-page HTML • Copy, edit, deploy</div>
+    </footer>
+  </div>
+
+  <a class="top" href="#top" aria-label="Back to top">↑ Top</a>
+
+  <script>
+    // small nicety: keep it evergreen
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

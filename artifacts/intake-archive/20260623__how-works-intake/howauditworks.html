@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="A simple paradox with a serious implication: you can’t audit consent without consent." />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>How Audit Works — Consent-Aware Auditing</title>
+
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:rgba(255,255,255,.06);
+      --line:rgba(255,255,255,.12);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.68);
+      --faint:rgba(255,255,255,.45);
+      --accent:#7cf6d2;
+      --accent2:#9ab7ff;
+      --warn:#ffcf7a;
+      --shadow:0 18px 45px rgba(0,0,0,.40);
+      --radius:20px;
+      --max:920px;
+      --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      --sans:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+    }
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--text);
+      background:
+        radial-gradient(900px 520px at 12% 12%, rgba(124,246,210,.10), transparent 60%),
+        radial-gradient(900px 520px at 86% 18%, rgba(154,183,255,.11), transparent 60%),
+        radial-gradient(900px 650px at 50% 92%, rgba(255,207,122,.07), transparent 60%),
+        var(--bg);
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+    a{ color:inherit; text-decoration:none; }
+    a:hover{ text-decoration:underline; text-underline-offset:3px; }
+
+    .nav{
+      position:sticky; top:0; z-index:10;
+      backdrop-filter:blur(10px);
+      background:linear-gradient(to bottom, rgba(11,15,20,.92), rgba(11,15,20,.58));
+      border-bottom:1px solid var(--line);
+    }
+    .nav-inner{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:10px 16px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      font-weight:780;
+      letter-spacing:.2px;
+    }
+    .dot{
+      width:10px; height:10px; border-radius:999px;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      box-shadow:0 0 0 4px rgba(124,246,210,.10);
+    }
+    .links{ display:flex; gap:10px; flex-wrap:wrap; color:var(--muted); font-size:14px; }
+    .links a{ padding:6px 8px; border-radius:10px; }
+    .links a:hover{ background:rgba(255,255,255,.06); text-decoration:none; color:var(--text); }
+
+    .wrap{ max-width:var(--max); margin:0 auto; padding:26px 16px 56px; }
+    .card{
+      background:linear-gradient(180deg, var(--panel), rgba(255,255,255,.03));
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .pad{ padding:22px; }
+
+    h1{
+      margin:0 0 10px;
+      font-size:clamp(34px, 4.2vw, 54px);
+      letter-spacing:-.6px;
+      line-height:1.06;
+      font-weight:860;
+    }
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-size:clamp(15px, 1.7vw, 18px);
+      max-width:75ch;
+    }
+
+    .thesis{
+      margin-top:16px;
+      padding:16px 16px;
+      border-top:1px solid rgba(255,255,255,.10);
+      background:rgba(0,0,0,.18);
+    }
+    .thesis .k{
+      font-family:var(--mono);
+      font-size:12px;
+      color:var(--faint);
+      letter-spacing:.7px;
+      text-transform:uppercase;
+      margin:0 0 8px;
+    }
+    .thesis .big{
+      margin:0;
+      font-size:clamp(22px, 2.6vw, 30px);
+      line-height:1.15;
+      font-weight:900;
+      letter-spacing:-.2px;
+    }
+    .thesis .big span{
+      background:linear-gradient(90deg, rgba(124,246,210,.22), rgba(154,183,255,.20));
+      border:1px solid rgba(255,255,255,.10);
+      padding:4px 10px;
+      border-radius:999px;
+      display:inline-block;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:14px;
+      margin-top:14px;
+    }
+    @media (max-width: 900px){
+      .grid{ grid-template-columns:1fr; }
+    }
+
+    h2{
+      margin:0 0 8px;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .muted{ margin:0; color:var(--muted); }
+
+    .box{
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.05);
+      border-radius:16px;
+      padding:14px;
+    }
+    .box p{ margin:0; color:var(--muted); font-size:14px; }
+    .box ul{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .box li{ margin:6px 0; }
+    code, .mono{ font-family:var(--mono); }
+
+    .rule{
+      margin-top:14px;
+      padding:14px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.12);
+      background:linear-gradient(180deg, rgba(255,207,122,.09), rgba(255,255,255,.03));
+    }
+    .rule b{ color:var(--text); }
+    .rule p{ margin:8px 0 0; color:var(--muted); font-size:14px; }
+
+    details{
+      margin-top:14px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);
+      border-radius:16px;
+      padding:12px;
+    }
+    summary{
+      cursor:pointer;
+      list-style:none;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      font-weight:800;
+    }
+    summary::-webkit-details-marker{ display:none; }
+    .chev{
+      width:28px; height:28px; border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(0,0,0,.18);
+      display:flex; align-items:center; justify-content:center;
+      color:var(--faint);
+      font-family:var(--mono);
+      font-size:12px;
+      flex:0 0 28px;
+    }
+
+    .footer{
+      margin-top:18px;
+      padding-top:14px;
+      border-top:1px solid var(--line);
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:space-between;
+      color:var(--faint);
+      font-size:13px;
+    }
+    .btnrow{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:11px 13px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      color:var(--text);
+      font-weight:800;
+      font-size:14px;
+      cursor:pointer;
+      text-decoration:none !important;
+    }
+    .btn:hover{ background:rgba(255,255,255,.10); border-color:rgba(255,255,255,.20); }
+    .btn.primary{
+      border-color:rgba(124,246,210,.42);
+      background:rgba(124,246,210,.12);
+    }
+    .btn.primary:hover{ background:rgba(124,246,210,.18); }
+
+    .small{ font-size:12px; color:var(--faint); margin-top:10px; }
+  </style>
+</head>
+
+<body>
+  <div class="nav" role="navigation" aria-label="Primary">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <span>howauditworks.com</span>
+      </div>
+      <div class="links">
+        <a href="#claim">The claim</a>
+        <a href="#implication">Implication</a>
+        <a href="#principle">Principle</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="card pad" aria-label="Hero">
+      <h1>How audit works.</h1>
+      <p class="sub">
+        A short page about a simple paradox that becomes a design constraint the moment you take consent seriously.
+      </p>
+
+      <div class="thesis" id="claim" aria-label="Thesis">
+        <p class="k">Formal stipulation</p>
+        <p class="big"><span>You can’t audit consent without consent.</span></p>
+      </div>
+
+      <div class="grid" aria-label="Explanation blocks">
+        <div class="box">
+          <h2>What this means</h2>
+          <p>
+            Auditing requires access: to records, relationships, metadata, interpretations, and judgments.
+            That access is itself a <b>use</b>.
+          </p>
+          <ul>
+            <li>If the audit is not consented to, the audit violates the very thing it claims to verify.</li>
+            <li>So an “unconsented audit of consent” is self-contradictory.</li>
+          </ul>
+        </div>
+
+        <div class="box" id="implication">
+          <h2>Why this matters</h2>
+          <p>
+            Many systems treat consent as an artifact: a checkbox, a signature, a terms acceptance.
+            But consent is also a relationship with boundaries.
+          </p>
+          <ul>
+            <li>Post-hoc inspection is not legitimacy.</li>
+            <li>Verification must be part of the consented process, not imposed from outside it.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rule" id="principle" aria-label="Principle">
+        <b>Principle:</b>
+        <p>
+          Any attempt to verify consent is itself a use that must be consented to.
+          If inference is not consent-gated, consent is symbolic.
+        </p>
+      </div>
+
+      <details aria-label="Practical implications">
+        <summary>
+          <span>Practical implications (short)</span>
+          <span class="chev" aria-hidden="true">＋</span>
+        </summary>
+        <div style="margin-top:12px; color:var(--muted); font-size:14px; display:grid; gap:10px;">
+          <div>
+            <span class="mono">1) Audit becomes a protocol step</span><br/>
+            The audit is not an after-the-fact inspection. It is a consented interaction with defined scope.
+          </div>
+          <div>
+            <span class="mono">2) Scope and revocation apply to auditors</span><br/>
+            Auditors must be subject to the same constraints as any other user of the information.
+          </div>
+          <div>
+            <span class="mono">3) “We can verify later” is a smell</span><br/>
+            If you can only verify consent by violating it, your system is not consent-native.
+          </div>
+        </div>
+      </details>
+
+      <details aria-label="Use this line carefully">
+        <summary>
+          <span>A line you can use in conversation</span>
+          <span class="chev" aria-hidden="true">＋</span>
+        </summary>
+        <div style="margin-top:12px; color:var(--muted); font-size:14px; display:grid; gap:10px;">
+          <div>
+            <span class="mono">Stipulation:</span><br/>
+            “Consent fails when people agree to the same words but mean different things.”
+          </div>
+          <div>
+            <span class="mono">Follow-on (only if invited):</span><br/>
+            “So audits that assume consent is a static artifact miss the real failure mode: meaning mismatch and unconsented use.”
+          </div>
+        </div>
+      </details>
+
+      <div class="btnrow" aria-label="Actions">
+        <button class="btn primary" type="button" id="copyBtn">Copy the stipulation</button>
+        <a class="btn" href="#claim">Back to top</a>
+      </div>
+      <p class="small">
+        Note: This page is intentionally minimal. If you want to build consent-aware systems, treat this as a constraint—not a slogan.
+      </p>
+    </section>
+
+    <div class="footer" role="contentinfo">
+      <div><span class="mono">howauditworks.com</span> · <span>one constraint, clearly stated</span></div>
+      <div>
+        <span class="mono">Stipulation:</span>
+        <span>“You can’t audit consent without consent.”</span>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Copy the stipulation
+    (function(){
+      const btn = document.getElementById("copyBtn");
+      if (!btn) return;
+      const text = "You can’t audit consent without consent.";
+      btn.addEventListener("click", async () => {
+        try{
+          await navigator.clipboard.writeText(text);
+          const prev = btn.textContent;
+          btn.textContent = "Copied.";
+          setTimeout(() => btn.textContent = prev, 900);
+        } catch(e){
+          // Fallback
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          const prev = btn.textContent;
+          btn.textContent = "Copied.";
+          setTimeout(() => btn.textContent = prev, 900);
+        }
+      });
+    })();
+
+    // Tiny polish: details chevrons toggle
+    (function(){
+      document.querySelectorAll("details > summary").forEach((s) => {
+        s.addEventListener("click", () => {
+          const chev = s.querySelector(".chev");
+          if (!chev) return;
+          setTimeout(() => {
+            const open = s.parentElement.hasAttribute("open");
+            chev.textContent = open ? "－" : "＋";
+          }, 0);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

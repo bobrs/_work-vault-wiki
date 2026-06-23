@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How Consent Works — by ULiUA</title>
+  <meta name="description" content="Consent and trust aren’t static states. They are living, cyclical dynamics: tended, synchronized, and honored through direction (waxing/waning) as much as magnitude." />
+  <meta name="theme-color" content="#0b0b0f" />
+
+  <style>
+    :root{
+      --bg:#0b0b0f;
+      --panel:#101018;
+      --text:#f3f4f6;
+      --muted:#c7c9d1;
+      --faint:#9aa0b2;
+      --line:rgba(255,255,255,.10);
+      --accent:#b7ffcb;
+      --accent2:#9bd5ff;
+      --shadow: 0 18px 50px rgba(0,0,0,.55);
+      --radius: 18px;
+      --max: 980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 700px at 15% -10%, rgba(155,213,255,.18), transparent 60%),
+        radial-gradient(900px 600px at 95% 0%, rgba(183,255,203,.16), transparent 55%),
+        radial-gradient(900px 700px at 35% 110%, rgba(183,255,203,.10), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 70px}
+    header{
+      display:flex; gap:16px; align-items:flex-start; justify-content:space-between;
+      padding:18px 18px;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+    }
+    header:before{
+      content:"";
+      position:absolute; inset:-2px;
+      background: radial-gradient(650px 240px at 12% 30%, rgba(155,213,255,.16), transparent 60%),
+                  radial-gradient(650px 240px at 88% 20%, rgba(183,255,203,.14), transparent 60%);
+      pointer-events:none;
+      filter: blur(2px);
+    }
+    header > *{position:relative}
+    .brand{
+      display:flex; flex-direction:column; gap:6px;
+    }
+    .kicker{
+      letter-spacing:.18em; text-transform:uppercase; font-size:12px; color:var(--faint);
+    }
+    h1{margin:0; font-size:34px; line-height:1.15}
+    .sub{
+      margin:0;
+      color:var(--muted);
+      max-width:66ch;
+      font-size:15px;
+    }
+    .badge{
+      white-space:nowrap;
+      align-self:flex-start;
+      font-size:12px;
+      padding:8px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.04);
+      color:var(--muted);
+    }
+
+    main{margin-top:18px; display:grid; gap:14px}
+    .card{
+      border:1px solid var(--line);
+      background:rgba(16,16,24,.74);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .grid{
+      display:grid;
+      gap:14px;
+      grid-template-columns: 1.2fr .8fr;
+    }
+    @media (max-width: 860px){
+      .grid{grid-template-columns:1fr}
+      h1{font-size:30px}
+    }
+
+    h2{margin:0 0 8px; font-size:18px}
+    p{margin:10px 0; color:var(--muted)}
+    .muted{color:var(--muted)}
+    .faint{color:var(--faint)}
+    .rule{
+      margin:14px 0 0;
+      padding:14px 14px;
+      border-radius:14px;
+      border:1px dashed rgba(255,255,255,.18);
+      background:rgba(255,255,255,.03);
+    }
+    .rule strong{color:var(--text)}
+    .pillrow{
+      display:flex; flex-wrap:wrap; gap:8px; margin-top:10px
+    }
+    .pill{
+      font-size:12px;
+      padding:7px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      color:var(--muted);
+    }
+    .pill b{color:var(--text); font-weight:600}
+    .quote{
+      font-size:18px;
+      color:var(--text);
+      margin:0;
+      padding-left:14px;
+      border-left:3px solid rgba(183,255,203,.55);
+    }
+    .callout{
+      display:flex; gap:12px; align-items:flex-start;
+      padding:14px;
+      border-radius:16px;
+      border:1px solid rgba(155,213,255,.22);
+      background:linear-gradient(180deg, rgba(155,213,255,.09), rgba(155,213,255,.03));
+    }
+    .dot{
+      width:10px; height:10px; border-radius:50%;
+      margin-top:6px;
+      background: radial-gradient(circle at 30% 30%, var(--accent), rgba(183,255,203,.15));
+      box-shadow: 0 0 0 4px rgba(183,255,203,.08);
+      flex:0 0 auto;
+    }
+    ul{margin:10px 0 0 18px; color:var(--muted)}
+    li{margin:6px 0}
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12.5px;
+      background: rgba(255,255,255,.06);
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+      white-space:nowrap;
+    }
+    footer{
+      margin-top:18px;
+      padding:14px 4px 0;
+      color:var(--faint);
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      gap:10px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+    .btn{
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:13px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      color:var(--text);
+      text-decoration:none;
+    }
+    .btn:hover{background:rgba(255,255,255,.05)}
+    .spark{
+      width:10px; height:10px; border-radius:3px;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      box-shadow: 0 0 0 4px rgba(155,213,255,.08);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="kicker">howconsentworks.com</div>
+        <h1>Consent is not granted.<br/>It is tended.</h1>
+        <p class="sub">
+          A “yes” is a snapshot. But consent and trust are living dynamics—cyclical, bounded,
+          and history-sensitive. The ethical question is not only <em>where</em> you are,
+          but <em>which way the loop is moving</em>.
+        </p>
+      </div>
+      <div class="badge">by <strong>ULiUA</strong> — Unconditional Love Includes Unconditional Acceptance</div>
+    </header>
+
+    <main>
+      <section class="card">
+        <p class="quote">
+          “The highest respect for consent is not asking more clearly,
+          but listening for motion.”
+        </p>
+        <div class="pillrow" aria-label="Key concepts">
+          <span class="pill"><b>Snapshot</b> ≠ trajectory</span>
+          <span class="pill"><b>Magnitude</b> ≠ direction</span>
+          <span class="pill"><b>Phase</b> outranks amplitude</span>
+          <span class="pill"><b>Reversibility</b> is dignity</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Waxing &amp; waning: the missing variable</h2>
+          <p>
+            “Waxing” and “waning” are <strong>directional</strong> claims. A single moment can tell you a state,
+            but it cannot tell you a direction without a second moment—or without a shared model of motion.
+          </p>
+          <p>
+            In dynamic systems, the safest-seeming moment can be the most dangerous: the <strong>peak</strong>.
+            Peaks are where reversal happens, where comfort tempts assumption.
+          </p>
+
+          <div class="rule">
+            <strong>Loop-safe rule:</strong>
+            Never act at the peak of consent unless you are confident the direction is
+            still <code>≥ 0</code> (waxing or steady).
+          </div>
+        </article>
+
+        <aside class="card">
+          <h2>A minimal consent variable</h2>
+          <p class="muted">
+            Let consent be a bounded process:
+          </p>
+          <p class="muted">
+            <code>C(t) ∈ [0,1]</code>
+          </p>
+          <ul>
+            <li><code>dC/dt &gt; 0</code> → consent is <strong>waxing</strong></li>
+            <li><code>dC/dt &lt; 0</code> → consent is <strong>waning</strong></li>
+          </ul>
+          <p class="faint">
+            The value of <code>C</code> and the direction of <code>C</code> are independent. Ethics lives in that gap.
+          </p>
+        </aside>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Trust is not stored.<br/>It is synchronized.</h2>
+          <p>
+            Trust behaves like coupled loops: my trust in you, your trust in me, trust in the context,
+            trust in repair. In coupled systems, breakdown often happens not at “low trust,” but at
+            <strong>phase misalignment</strong>.
+          </p>
+
+          <div class="callout">
+            <span class="dot" aria-hidden="true"></span>
+            <div>
+              <h2 style="margin:0 0 6px; font-size:16px;">Common failure mode</h2>
+              <p style="margin:0; color:var(--muted);">
+                One person believes trust is waxing (“we’re getting closer”), while the other experiences it as waning
+                (“I’m getting tired / pressured / unseen”). Snapshots hide the mismatch.
+              </p>
+            </div>
+          </div>
+
+          <p>
+            Repair tends to occur in a specific region:
+            <strong>low but waxing trust</strong>. That’s where vulnerability is metabolizable,
+            signals are legible, and agency is preserved.
+          </p>
+        </article>
+
+        <aside class="card">
+          <h2>Three danger cases (direction &gt; level)</h2>
+          <ul>
+            <li><strong>High consent, waning</strong> → imminent violation risk</li>
+            <li><strong>Low consent, waxing</strong> → repair opportunity</li>
+            <li><strong>Medium consent, oscillating</strong> → fragile negotiation zone</li>
+          </ul>
+          <p class="faint">
+            A binary “yes/no” interface cannot represent these regions, which is why many systems
+            unintentionally pressure people into oversimplification.
+          </p>
+        </aside>
+      </section>
+
+      <section class="card">
+        <h2>What a consent-aware system must do</h2>
+        <p>
+          To respect living dynamics, design must surface <strong>direction</strong>, protect <strong>pause</strong>,
+          privilege <strong>reversibility</strong>, and reveal <strong>phase mismatch</strong> without blame.
+        </p>
+        <ul>
+          <li><strong>Direction:</strong> Is willingness increasing, decreasing, or stabilizing?</li>
+          <li><strong>Pause without penalty:</strong> Stopping must not incur social debt.</li>
+          <li><strong>Reversibility:</strong> Changing one’s mind must remain safe and dignified.</li>
+          <li><strong>Aftercare / memory:</strong> Every loop pass updates baseline and elasticity.</li>
+        </ul>
+
+        <div class="rule">
+          <strong>Pin-worthy axiom:</strong>
+          Consent is not compliance; it is a living signal.
+          Trust is not a score; it is a relationship that must remain phase-aligned.
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Practice: listen for motion</h2>
+        <p class="muted">
+          Try questions that detect direction without pressure:
+        </p>
+        <ul>
+          <li>“Is this feeling easier, harder, or the same as a minute ago?”</li>
+          <li>“Do you want more of this, less of this, or a pause?”</li>
+          <li>“Is your ‘yes’ growing, shrinking, or steady?”</li>
+          <li>“If we stop right now, will that feel safe and clean?”</li>
+        </ul>
+        <p class="faint">
+          The goal is not persuasion. The goal is alignment—so the loop stays alive.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong style="color:var(--text)">ULiUA</strong>
+        <span class="faint"> — Unconditional Love Includes Unconditional Acceptance</span>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="btn" href="https://uliua.com" rel="noopener">
+          <span class="spark" aria-hidden="true"></span>
+          uliua.com
+        </a>
+        <a class="btn" href="mailto:hello@howconsentworks.com">
+          <span class="spark" aria-hidden="true"></span>
+          contact
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

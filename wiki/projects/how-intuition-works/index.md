@@ -33,6 +33,7 @@ That makes the branch useful as a compact navigation surface for a larger argume
 - [Loop Compass](../side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
+- [How Works](../how-works/index.md)
 
 ## Next Actions
 

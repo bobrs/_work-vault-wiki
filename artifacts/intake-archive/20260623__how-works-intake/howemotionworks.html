@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How Emotion Works</title>
+  <meta name="description" content="A field-based map of emotion: induced stances, emergent moods, and autonomous interrupts." />
+  <style>
+    :root{
+      --bg:#0b0e14;
+      --card:#101626;
+      --ink:#eaf0ff;
+      --muted:#a8b3d6;
+      --soft:#6e7aa8;
+      --line:#233055;
+      --accent:#7dd3fc;
+      --accent2:#a78bfa;
+      --warn:#fca5a5;
+      --ok:#86efac;
+      --radius:18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:var(--sans); color:var(--ink); background:radial-gradient(1200px 800px at 15% 10%, rgba(167,139,250,.18), transparent 60%),
+         radial-gradient(900px 600px at 80% 20%, rgba(125,211,252,.16), transparent 55%),
+         radial-gradient(900px 700px at 60% 90%, rgba(134,239,172,.10), transparent 55%),
+         var(--bg);
+         line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px; margin:0 auto; padding:28px 18px 80px}
+    header{padding:18px 0 8px}
+    .top{display:flex; align-items:flex-start; justify-content:space-between; gap:18px; flex-wrap:wrap}
+    h1{margin:0; font-size:clamp(30px, 4vw, 44px); letter-spacing:-.02em}
+    .subtitle{margin:10px 0 0; color:var(--muted); max-width:74ch; font-size:clamp(15px, 1.7vw, 18px)}
+    .pillrow{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
+    .pill{display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border:1px solid var(--line); background:rgba(16,22,38,.55); border-radius:999px; color:var(--muted); font-size:13px}
+    .dot{width:10px; height:10px; border-radius:50%}
+    .dot.induced{background:var(--accent)}
+    .dot.emergent{background:var(--accent2)}
+    .dot.auto{background:var(--warn)}
+
+    nav{position:sticky; top:0; z-index:10; backdrop-filter: blur(8px);
+        background:rgba(11,14,20,.65); border-bottom:1px solid rgba(35,48,85,.6);
+        margin:20px -18px 0; padding:10px 18px;
+    }
+    .navinner{display:flex; gap:14px; flex-wrap:wrap; align-items:center}
+    .navinner a{color:var(--muted); font-size:13px; padding:6px 10px; border:1px solid transparent; border-radius:999px}
+    .navinner a:hover{border-color:var(--line); background:rgba(16,22,38,.5); text-decoration:none}
+
+    section{margin-top:22px}
+    .grid{display:grid; grid-template-columns: 1.2fr .8fr; gap:16px}
+    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+
+    .card{background:rgba(16,22,38,.62); border:1px solid rgba(35,48,85,.75); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px}
+    .card h2{margin:0 0 10px; font-size:20px; letter-spacing:-.01em}
+    .card h3{margin:18px 0 8px; font-size:15px; color:var(--muted)}
+    .card p{margin:10px 0; color:var(--ink)}
+    .muted{color:var(--muted)}
+    .small{font-size:13px; color:var(--muted)}
+
+    .callout{border-left:3px solid var(--line); padding:10px 12px; background:rgba(11,14,20,.35); border-radius:12px}
+    .callout strong{color:var(--ink)}
+
+    .legend{display:grid; grid-template-columns:1fr; gap:10px}
+    .legend .row{display:flex; gap:10px; align-items:flex-start; padding:10px; border:1px solid rgba(35,48,85,.6); border-radius:14px; background:rgba(11,14,20,.25)}
+    .badge{font-family:var(--mono); font-size:12px; color:var(--muted); padding:3px 7px; border-radius:999px; border:1px solid rgba(35,48,85,.8)}
+    .badge.induced{border-color:rgba(125,211,252,.6)}
+    .badge.emergent{border-color:rgba(167,139,250,.6)}
+    .badge.auto{border-color:rgba(252,165,165,.6)}
+
+    .list{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+    @media (max-width: 720px){ .list{grid-template-columns:1fr} }
+    .item{display:flex; gap:10px; align-items:flex-start; padding:10px; border:1px solid rgba(35,48,85,.6); border-radius:14px; background:rgba(11,14,20,.25)}
+    .item .name{font-weight:650}
+    .item .desc{margin-top:2px; color:var(--muted); font-size:13px}
+
+    .rule{display:grid; gap:10px}
+    .rule .r{padding:12px; border-radius:14px; border:1px solid rgba(35,48,85,.6); background:rgba(11,14,20,.25)}
+    .k{font-family:var(--mono); font-size:12px; color:var(--muted)}
+
+    .flow{display:grid; grid-template-columns:1fr; gap:12px}
+    .flow .path{padding:12px; border:1px solid rgba(35,48,85,.6); border-radius:14px; background:rgba(11,14,20,.25)}
+    .path .line{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+    .chip{display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px; border:1px solid rgba(35,48,85,.8); background:rgba(16,22,38,.45); font-size:13px; color:var(--ink)}
+    .arrow{color:var(--soft)}
+
+    details{border:1px solid rgba(35,48,85,.6); border-radius:14px; background:rgba(11,14,20,.25); padding:10px 12px}
+    summary{cursor:pointer; color:var(--muted); font-weight:650}
+    summary::-webkit-details-marker{display:none}
+    summary:before{content:"▸"; display:inline-block; margin-right:8px; color:var(--soft)}
+    details[open] summary:before{content:"▾"}
+
+    footer{margin-top:32px; padding-top:18px; border-top:1px solid rgba(35,48,85,.55); color:var(--muted)}
+    .footgrid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+    @media (max-width: 760px){ .footgrid{grid-template-columns:1fr} }
+    .btn{display:inline-flex; gap:10px; align-items:center; border:1px solid rgba(35,48,85,.85); background:rgba(16,22,38,.55);
+         color:var(--ink); padding:10px 12px; border-radius:14px; cursor:pointer; font-size:13px}
+    .btn:hover{border-color:rgba(125,211,252,.55)}
+    .copyrow{display:flex; gap:10px; flex-wrap:wrap}
+    .hide{display:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header id="top">
+      <div class="top">
+        <div>
+          <h1>How Emotion Works</h1>
+          <p class="subtitle">
+            A field-based map of experience: some states are <em>induced</em> (configured by intention), some are <em>emergent</em> (coherence that arrives), and some are <em>autonomous</em> (interrupts that happen to you).
+          </p>
+          <div class="pillrow" aria-label="Origin legend">
+            <span class="pill"><span class="dot induced" aria-hidden="true"></span><strong>◯ Induced</strong> <span class="muted">(you can enter via configuration)</span></span>
+            <span class="pill"><span class="dot emergent" aria-hidden="true"></span><strong>≈ Emergent</strong> <span class="muted">(you can cultivate conditions)</span></span>
+            <span class="pill"><span class="dot auto" aria-hidden="true"></span><strong>⚡ Autonomous</strong> <span class="muted">(reflex / interrupt)</span></span>
+          </div>
+        </div>
+        <div class="card" style="min-width:280px; max-width:360px">
+          <h2 style="margin:0 0 6px">Non-Claims Boundary</h2>
+          <p class="small" style="margin:0">
+            This site does <strong>not</strong> claim you can “choose your emotions.” It distinguishes what can be configured on purpose (◯), what can only emerge (≈), and what occurs autonomously (⚡). The goal is agency without blame.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <nav aria-label="Site navigation">
+      <div class="navinner">
+        <a href="#field">The Field</a>
+        <a href="#legend">Origin Types</a>
+        <a href="#ethics">Ethics of Agency</a>
+        <a href="#induced">Inducible States</a>
+        <a href="#flows">Time & Transitions</a>
+        <a href="#confusions">Common Confusions</a>
+        <a href="#use">How to Use</a>
+      </div>
+    </nav>
+
+    <section id="field" class="grid">
+      <div class="card">
+        <h2>The Field</h2>
+        <p>
+          In this framework, “emotion” is not a flat list of feelings. It is a <strong>dynamical field</strong> where perception, prediction, valuation, attention, physiology, meaning, and action-readiness co-arise over time.
+        </p>
+        <div class="rule">
+          <div class="r">
+            <div class="k">Working definition</div>
+            <div><strong>The field</strong> = the total space of experience + the control loops that update it.</div>
+          </div>
+          <div class="r">
+            <div class="k">Key question</div>
+            <div>Not “what do I feel?”, but <strong>how did this state enter the system?</strong></div>
+          </div>
+        </div>
+        <div class="callout" style="margin-top:12px">
+          <strong>Why this matters:</strong> If you treat an emergent state as inducible, you create shame. If you treat an autonomous interrupt as a choice, you create blame. If you treat stances as autonomous, you lose agency.
+        </div>
+      </div>
+
+      <div class="card" id="legend">
+        <h2>Origin Types (Legend)</h2>
+        <div class="legend">
+          <div class="row">
+            <span class="dot induced" aria-hidden="true" style="margin-top:4px"></span>
+            <div>
+              <div><span class="badge induced">◯ Induced</span> <strong>Configured</strong></div>
+              <div class="small">Entered by intentional reconfiguration: attention, framing, posture, breath, micro-action, language.</div>
+            </div>
+          </div>
+          <div class="row">
+            <span class="dot emergent" aria-hidden="true" style="margin-top:4px"></span>
+            <div>
+              <div><span class="badge emergent">≈ Emergent</span> <strong>Coherence</strong></div>
+              <div class="small">Arises when subsystems align. You can cultivate conditions but can’t command it directly.</div>
+            </div>
+          </div>
+          <div class="row">
+            <span class="dot auto" aria-hidden="true" style="margin-top:4px"></span>
+            <div>
+              <div><span class="badge auto">⚡ Autonomous</span> <strong>Interrupt</strong></div>
+              <div class="small">Triggered by reflex or prediction error. Happens before interpretation. Meaning comes after.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ethics" class="grid">
+      <div class="card">
+        <h2>Ethics of Agency (Responsibility Without Blame)</h2>
+        <div class="rule">
+          <div class="r">
+            <div class="k">Not responsible for</div>
+            <div><strong>Autonomous states</strong> (⚡) — startle, shock, reflex fear, freeze. These are interrupts, not choices.</div>
+          </div>
+          <div class="r">
+            <div class="k">Not obligated to produce</div>
+            <div><strong>Emergent states</strong> (≈) — happiness, deep joy, love-bond, awe. You can create conditions, not guarantees.</div>
+          </div>
+          <div class="r">
+            <div class="k">Responsible for (once you know)</div>
+            <div><strong>Repeated stances</strong> (◯) — how you place attention, how you weigh value, how you choose to relate.</div>
+          </div>
+        </div>
+        <p class="small" style="margin-top:12px">
+          This is the core: <strong>agency clarity</strong>. It protects dignity and prevents both determinism (“nothing is up to me”) and moralism (“everything is my fault”).
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>One Example (to anchor the distinctions)</h2>
+        <div class="flow">
+          <div class="path">
+            <div class="k">Autonomous → Emergent → Induced (often)</div>
+            <div class="line" style="margin-top:8px">
+              <span class="chip"><span class="dot auto" aria-hidden="true"></span>Shock</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot auto" aria-hidden="true"></span>Startle / freeze</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot emergent" aria-hidden="true"></span>Fear / anger (appraisal)</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot induced" aria-hidden="true"></span>Composure / resolve</span>
+            </div>
+            <p class="small" style="margin:10px 0 0">
+              The same “episode” can contain multiple origin types across time. The site’s job is to keep those layers distinct.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="induced" class="card">
+      <h2>Inducible States (◯) — A Practical Catalog</h2>
+      <p class="muted" style="margin-top:-2px">
+        “Inducible” means: you can enter this state by intentional configuration, even if conditions are imperfect. Skill varies, but the lever is internal.
+      </p>
+
+      <details open>
+        <summary>Core stances (value & attention)</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Appreciation</div><div class="desc">Attending to existing value; reweighting salience toward what’s already here.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Gratitude</div><div class="desc">Relational appreciation across time; recognizing support, gifts, or fortune.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Acceptance</div><div class="desc">Non-resistance to what’s present; “this is here” without adding a fight.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Patience</div><div class="desc">Temporal widening; reducing urgency pressure without collapsing into passivity.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Forgiveness (as choice)</div><div class="desc">Release of punitive valuation; not approval, but letting go of retaliation.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Compassion (as stance)</div><div class="desc">Concern without overwhelm; warmth + boundaries.</div></div></div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Regulatory states (arousal & tone)</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Calm</div><div class="desc">Downshifted arousal; steadier attention and smoother action-readiness.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Composure</div><div class="desc">Stability under load; keeping capacity online during disturbance.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Groundedness</div><div class="desc">Somatic anchoring; attention returns to body and contact with reality.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Containment</div><div class="desc">Holding intensity without leakage; feeling without flooding.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Equanimity (trained)</div><div class="desc">Reduced reactivity; stable witness even while sensations change.</div></div></div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Attention modes (how the field is scanned)</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Curiosity</div><div class="desc">Turning toward the unknown with interest rather than threat appraisal.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Presence</div><div class="desc">Attention anchored in current signals, not hypothetical futures.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Witnessing</div><div class="desc">Observing without fusing; letting sensations and thoughts be objects in awareness.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Listening mode</div><div class="desc">Attention oriented to the other’s signal; reduced agenda pressure.</div></div></div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Relational postures (even when alone)</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Goodwill</div><div class="desc">Benevolent intent without demand; “may you be well.”</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Boundaried openness</div><div class="desc">Welcoming while protecting; yes/no remains available.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Respectful distance</div><div class="desc">Choosing not to fuse; care without enmeshment.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Holding space</div><div class="desc">Staying present with another’s experience without fixing or collapsing.</div></div></div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Commitment & action-readiness</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Resolve</div><div class="desc">Value-coupled decision to act; energy has a direction.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Willingness</div><div class="desc">Consent to engage reality as-is; “I will meet what’s here.”</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Integrity (as posture)</div><div class="desc">Alignment with declared values; reduced internal contradiction.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Disciplined follow-through</div><div class="desc">Sustained micro-actions despite fluctuating affect.</div></div></div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Meta-states (advanced control)</summary>
+        <div class="list" style="margin-top:10px">
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Non-identification</div><div class="desc">“This is happening in me” rather than “this is me.”</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Meta-calm</div><div class="desc">Calm about disturbance; letting turbulence exist without panic about it.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Curiosity about discomfort</div><div class="desc">Turning toward pain as data, not as verdict.</div></div></div>
+          <div class="item"><span class="dot induced" aria-hidden="true" style="margin-top:5px"></span><div><div class="name">Surrender (non-collapse)</div><div class="desc">Dropping futile control while staying online and responsible.</div></div></div>
+        </div>
+      </details>
+
+      <p class="small" style="margin-top:14px">
+        Note: Many familiar “emotions” are mixed episodes across time. A state can be inducible as a <em>stance</em> even if its corresponding <em>surge</em> is not.
+      </p>
+    </section>
+
+    <section id="flows" class="grid">
+      <div class="card">
+        <h2>Time & Transitions</h2>
+        <p>
+          States are not static categories. Episodes unfold. What begins as ⚡ autonomous can become ≈ emergent, and later be steered with ◯ inducible regulation.
+        </p>
+        <div class="flow">
+          <div class="path">
+            <div class="k">Example: threat episode</div>
+            <div class="line" style="margin-top:8px">
+              <span class="chip"><span class="dot auto" aria-hidden="true"></span>Startle</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot auto" aria-hidden="true"></span>Freeze / flee impulse</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot emergent" aria-hidden="true"></span>Fear (appraisal)</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot induced" aria-hidden="true"></span>Ground / orient</span>
+            </div>
+          </div>
+          <div class="path">
+            <div class="k">Example: loss episode</div>
+            <div class="line" style="margin-top:8px">
+              <span class="chip"><span class="dot emergent" aria-hidden="true"></span>Sadness / grief</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot induced" aria-hidden="true"></span>Allowance</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot induced" aria-hidden="true"></span>Compassion</span>
+              <span class="arrow">→</span>
+              <span class="chip"><span class="dot emergent" aria-hidden="true"></span>Meaning integration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="confusions">
+        <h2>Common Confusions This Model Resolves</h2>
+        <div class="rule">
+          <div class="r">
+            <div><strong>“If I can’t induce it, I’m failing.”</strong></div>
+            <div class="small">False. Emergent states are not demandable. They arrive with coherence, not willpower.</div>
+          </div>
+          <div class="r">
+            <div><strong>“If it happened, I chose it.”</strong></div>
+            <div class="small">False. Autonomous interrupts happen before choice. Responsibility begins after stabilization.</div>
+          </div>
+          <div class="r">
+            <div><strong>“Emotion is irrational.”</strong></div>
+            <div class="small">Usually false. Much affect is valuation + action-readiness—fast intelligence, sometimes miscalibrated.</div>
+          </div>
+          <div class="r">
+            <div><strong>“Thoughts cause feelings.”</strong></div>
+            <div class="small">Incomplete. Physiology, prediction error, attention, memory, and meaning can each be primary drivers.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="use" class="card">
+      <h2>How to Use This Site</h2>
+      <div class="grid">
+        <div>
+          <h3>1) Identify origin</h3>
+          <p class="small">Ask: did this enter as ◯ configuration, ≈ coherence, or ⚡ interrupt?</p>
+          <h3>2) Choose the correct lever</h3>
+          <p class="small">For ◯: attention / framing / breath / posture / micro-actions. For ≈: conditions & alignment. For ⚡: safety, orientation, time.</p>
+          <h3>3) Avoid category errors</h3>
+          <p class="small">Don’t try to “gratitude” your way out of shock. Don’t shame yourself for not producing happiness. Do take ownership of repeatable stances.</p>
+        </div>
+        <div>
+          <h3>Quick self-check</h3>
+          <div class="callout">
+            <div class="small"><strong>Am I trying to command an emergent state?</strong> If yes, shift to cultivating conditions and stop monitoring for immediate results.</div>
+          </div>
+          <div class="callout" style="margin-top:10px">
+            <div class="small"><strong>Am I blaming myself for an autonomous interrupt?</strong> If yes, move to stabilization: orient, breathe, re-ground, then interpret.</div>
+          </div>
+          <div class="callout" style="margin-top:10px">
+            <div class="small"><strong>Am I refusing an inducible stance?</strong> If yes, choose a small configuration: appreciation of one thing, soften jaw, widen attention, one honest sentence.</div>
+          </div>
+        </div>
+      </div>
+
+      <details style="margin-top:14px">
+        <summary>Optional: What counts as “inducing” a state?</summary>
+        <div class="small" style="margin-top:10px">
+          Inducing is not pretending. It’s not suppressing. It’s <strong>reconfiguring control variables</strong> you actually have access to: attention placement, valuation emphasis, breathing pattern, posture and muscle tone, language choice, and micro-actions.
+          <br><br>
+          If the state depends on external validation, surprise, or global coherence, it’s not truly inducible.
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      <div class="footgrid">
+        <div>
+          <strong>Version</strong>
+          <div class="small">Single-page draft (v0.1). Designed for clarity, ethics, and category hygiene.</div>
+        </div>
+        <div>
+          <strong>Next build targets</strong>
+          <div class="small">(1) Expand the inducible catalog, (2) add emergent/autonomous pages, (3) add a state-transition diagram, (4) add “anti-gaslighting” examples.</div>
+        </div>
+      </div>
+      <div class="copyrow" style="margin-top:14px">
+        <button class="btn" id="copyLink" type="button">Copy section link</button>
+        <span class="small" id="copyStatus" aria-live="polite"></span>
+      </div>
+      <div class="small" style="margin-top:10px">© <span id="year"></span> How Emotion Works</div>
+    </footer>
+  </div>
+
+  <script>
+    // Small UX helpers; no tracking.
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const statusEl = document.getElementById('copyStatus');
+    const btn = document.getElementById('copyLink');
+
+    function currentSectionLink(){
+      const hash = location.hash || '#top';
+      return location.origin + location.pathname + hash;
+    }
+
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(currentSectionLink());
+        statusEl.textContent = 'Copied: ' + (location.hash || '#top');
+        setTimeout(() => statusEl.textContent = '', 2500);
+      } catch (e) {
+        statusEl.textContent = 'Copy failed. Your browser may block clipboard access.';
+        setTimeout(() => statusEl.textContent = '', 3000);
+      }
+    });
+  </script>
+</body>
+</html>
