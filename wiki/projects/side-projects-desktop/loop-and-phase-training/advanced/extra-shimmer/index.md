@@ -28,8 +28,12 @@ The branch functions as a laboratory for symbolic and affective variation. It is
 
 That makes the page a good intake buffer for work that is interesting but not yet ready to become core doctrine. It should stay readable as a research sandbox with two clear rails.
 
+The `Identity and Loop Experiments` rail now shows a second seam: one child cluster leans toward identity and transformation, and the other leans toward social-unit and filter mechanics. `Consent and Field Guide` still reads as a stable paired set.
+
 ## Related Links
 
+- [Identity and Loop Experiments](identity-and-loop-experiments/index.md)
+- [Consent and Field Guide](consent-and-field-guide/index.md)
 - [Fractal Identity](../fractal-identity/index.md)
 - [Consent Physics](../consent-physics/index.md)
 - [Loop Compass](../loop-compass/index.md)
@@ -38,4 +42,5 @@ That makes the page a good intake buffer for work that is interesting but not ye
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.
-2. Split again only if one of the two tracks develops another durable seam.
+2. Keep the internal identity/transformation and social-unit/filter split stable.
+3. Split again only if one of the two top-level tracks develops another durable seam.

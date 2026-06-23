@@ -5,6 +5,12 @@ This branch collects the identity and loop experiments inside Extra Shimmer.
 ## Current Shape
 
 - 7 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Identity and Transformation](identity-transformation/index.md)
+- [Social Unit and Filters](social-unit-and-filters/index.md)
 
 ## Representative Files
 
@@ -18,9 +24,23 @@ This branch collects the identity and loop experiments inside Extra Shimmer.
 
 ## Working Read
 
-This is the identity/loop seam inside Extra Shimmer.
+This branch now separates into identity and transformation on one side, and social unit and filter mechanics on the other. The titles make that split visible enough to justify a second seam.
+
+The identity side keeps personhood, ascension, sacrifice, and emotional state together as a cluster of internal or self-directed experiments. The social side keeps the triad, family structure, and shimmer-filter material together as a relational and environmental cluster.
+
+That split makes the page easier to read as a real branch instead of a bag of adjacent metaphors.
+
+## Related Links
+
+- [Extra Shimmer](../index.md)
+- [Identity and Transformation](identity-transformation/index.md)
+- [Social Unit and Filters](social-unit-and-filters/index.md)
+- [Fractal Identity](../../fractal-identity/index.md)
+- [Wold Building](../../wold-building/index.md)
+- [Consent Physics](../../consent-physics/index.md)
 
 ## Next Actions
 
-1. Keep the identity and loop set together.
-2. Split only if a second identity seam appears.
+1. Keep the identity and transformation page stable.
+2. Keep the social unit and filters page stable.
+3. Split again only if one of those two tracks develops another durable seam.
