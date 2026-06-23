@@ -28,14 +28,18 @@ The page is useful because it turns speculative systems language into something 
 
 It also gives the advanced branch a clear contact point with SCT and CICP whenever the work needs to be reframed as governance or infrastructure rather than only narrative design.
 
+The governance/investor line now shows a second seam: governance and participation read as one operational family, while investor-facing materials read as a separate outward surface.
+
 ## Related Links
 
+- [Governance and Investor Materials](governance-and-investor-materials/index.md)
+- [Consent Wave and Self State](consent-wave-and-self-state/index.md)
 - [Consent Physics](../consent-physics/index.md)
 - [Semantic Atom](../semantic-atom/index.md)
 - [Loop Compass](../loop-compass/index.md)
-- [Loop and Phase Training](../index.md)
 
 ## Next Actions
 
 1. Keep the two nested lineage pages stable.
-2. Split again only if one of the two tracks develops another durable seam.
+2. Keep the governance/participation and investor split stable.
+3. Split again only if one of the two top-level tracks develops another durable seam.

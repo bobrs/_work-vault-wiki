@@ -5,6 +5,12 @@ This branch collects the governance and investor-facing consentocratic documents
 ## Current Shape
 
 - 5 documents.
+- 2 nested lineage pages organize the set.
+
+## Nested Lineage Pages
+
+- [Governance and Participation](governance-and-participation/index.md)
+- [Investor Materials](investor-materials/index.md)
 
 ## Representative Files
 
@@ -16,9 +22,20 @@ This branch collects the governance and investor-facing consentocratic documents
 
 ## Working Read
 
-This is the governance/economics seam inside Wold Building.
+This is the governance/economics seam inside Wold Building. The split now falls cleanly between operational governance and outward-facing investor material.
+
+The governance side carries the primer, manifesto, and participation clause. The investor side carries the page and pledge. That makes the branch easier to read as a real world-building apparatus rather than a mixed pile of consentocratic documents.
+
+The page should stay readable as the umbrella for those two functions, not as the final home for all consentocratic messaging.
+
+## Related Links
+
+- [Wold Building](../index.md)
+- [Governance and Participation](governance-and-participation/index.md)
+- [Investor Materials](investor-materials/index.md)
+- [Consent Wave and Self State](../consent-wave-and-self-state/index.md)
 
 ## Next Actions
 
-1. Keep the governance/investor set together.
-2. Split only if a second governance seam appears.
+1. Keep the two nested lineage pages stable.
+2. Split only if one of the two tracks develops another durable seam.
