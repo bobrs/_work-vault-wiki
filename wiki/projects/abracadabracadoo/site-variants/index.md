@@ -6,11 +6,12 @@ This seam holds the public Astro site bundles for the Abracadabracadoo line. The
 
 ## Current Shape
 
-- 7 site bundles.
+- 8 site bundles.
 
 ## Representative Files
 
 - [Abracadabracadoo reference implementation bridge.zip](<../../../../artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__APP-BRIDGE__v5__abracadoo-reference-implementation.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V005__ABRACADOO-REFERENCE-IMPLEMENTATION.zip>)
+- [Abracadabracadoo GitHub repo link bridge.zip](<../../../../artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__APP-BRIDGE__v6__github-repo-link.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V006__GITHUB-REPO-LINK.zip>)
 - [Abracadabracadoo docs repo link bundle.zip](<../../../../artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__v7__abracadabracadoo-assets.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__V007__abracadabracadoo-assets.zip>)
 - [Abracadabracadoo constellation links bundle.zip](<../../../../artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__v8__abracadabracadoo-assets.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__V008__abracadabracadoo-assets.zip>)
 - [Abracadabracadoo ritual-tech site.zip](<../../../../artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__RITUAL-TECH__v1__ritual-tech.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260521__ABRACADABRACADOO__ZIP__SITE__V001__ritual-tech.zip>)

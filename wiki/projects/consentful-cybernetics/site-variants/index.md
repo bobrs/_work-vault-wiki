@@ -6,7 +6,7 @@ The material is exploratory evidence for a public site that keeps moving between
 
 ## Current Shape
 
-- 20 site iterations and related support bundles.
+- 21 site iterations and related support bundles.
 
 ## Representative Files
 
@@ -14,8 +14,9 @@ The material is exploratory evidence for a public site that keeps moving between
 - [VOLUNTARY-INTELLIGENCE site draft](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-DRAFT__V2__ROOT__VOLUNTARY-INTELLIGENCE.zip>)
 - [Research hero AI consent](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/index.html>)
 - [Color gradient archive update](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/index.html>)
-- [Typography tweak archive](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/index.html>)
+- [Typography tweak archive](<../../../../artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__v1__h1-lead-archive.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive (1).zip>)
 - [Abracadoo app deeptrust removal](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL.zip>)
+- [Footer update archive](<../../../../artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__FOOTER-UPDATE__v1__consentful-cybernetics.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__consentful-cybernetics-site-variants-intake/20260605__ABRACADOO__SITE__FOOTER-UPDATE__ARCHIVE__consentful-cybernetics.zip>)
 - [Background color update](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-10__ROOT__BG-COLOR-UPDATE.zip>)
 
 ## Working Read

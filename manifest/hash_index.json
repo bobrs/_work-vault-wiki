@@ -2878,5 +2878,21 @@
   "b0c4909ee3237384025956464e86ae6b041fdca897deabdcd6c1a82abd331d04": [
     "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260612__ABRACADABRACADOO__SITE__DOCS-FOOTER-COPY__V009__visitor-facing-constellation.zip",
     "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__VISITOR-FACING-CONSTELLATION__v9__visitor-facing-constellation.zip"
+  ],
+  "b02950bc66bd1635232a6242b0556b76e0804fd549c9e4fb170ed1ec2d1f3145": [
+    "artifacts/for-further-routing/20260605__ABRACADOO__SITE__FOOTER-UPDATE__ARCHIVE__consentful-cybernetics.zip",
+    "artifacts/intake-archive/20260624__consentful-cybernetics-site-variants-intake/20260605__ABRACADOO__SITE__FOOTER-UPDATE__ARCHIVE__consentful-cybernetics.zip",
+    "artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__FOOTER-UPDATE__v1__consentful-cybernetics.zip"
+  ],
+  "7455c9fcfc200917c35e9163873b234c40ded09984de4b31f29f63ab06ea0863": [
+    "artifacts/for-further-routing/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V006__GITHUB-REPO-LINK.zip",
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V006__GITHUB-REPO-LINK.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__APP-BRIDGE__v6__github-repo-link.zip"
+  ],
+  "25f7ec63cff9914158222dc692133e506ff08abbe7023cb2e42f56c82c697ad9": [
+    "artifacts/for-further-routing/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive (1).zip",
+    "artifacts/intake-archive/20260624__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive (1).zip",
+    "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive.zip",
+    "artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__v1__h1-lead-archive.zip"
   ]
 }
