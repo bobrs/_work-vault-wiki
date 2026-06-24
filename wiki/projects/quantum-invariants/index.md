@@ -6,7 +6,7 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 
 ## Current Shape
 
-- 10 public site bundles.
+- 11 public site bundles.
 - 1 grounding data family with 4 preserved duplicate copies.
 
 ## Nested Lineage Pages
@@ -31,6 +31,7 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 - [Quantum Invariants about bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260413__QUANTUMINVARIANTS__SITE__FULL__L0-L3__V1.1__ecosystem.zip>)
 - [Quantum Invariants raw identity snapshots](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants/.well-known/site-identity.json>)
 - [Quantum Invariants semantic shimmer bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260610__QUANTUMINVARIANTS__SITEPATCH__SHIMMER__SESSION-5__V0.1__qa-corrected.zip>)
+- [Quantum Invariants C13 public site bundle](<../../../artifacts/intake-archive/20260624__quantum-invariants-intake/20260618__QUANTUMINVARIANTS__SITE__PUBLIC__C13__coercive-transparency-boundary-collapse.zip>)
 - [Quantum Invariants downloads pages bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260223__QUANTUMINVARIANTS__SITE__DIR__DOWNLOADS__SCOPE__PUBLIC__LINEAGE__v0.1__downloads-pages.zip>)
 
 ## Working Read
@@ -38,6 +39,8 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 This project reads as a site architecture and grounding system.
 
 The site bundles are the public-facing navigation surface; the grounding JSON is the structural backbone that explains the layers underneath.
+
+The C13 bundle is another full public-site pass rather than a new branch. It shifts the same site family through a different explanatory and boundary posture.
 
 ## Related Links
 
