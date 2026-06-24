@@ -1,0 +1,524 @@
+{
+  "schema": {
+    "name": "qi-grounding-spine",
+    "version": "0.1.0",
+    "layer0_primitives_version": "0.3",
+    "layer1_composites_version": "1.2"
+  },
+  "generated_at": "2026-02-23T00:00:00Z",
+  "notes": [
+    "Layer-0 primitives are structural; Layer-1 composites are portable bundles derived from Layer-0.",
+    "Comparator (P10) includes two structural flavors: operational (revisable under feedback) and constitutional (guarded under governance)."
+  ],
+  "layer0_primitives": [
+    {
+      "id": "P1",
+      "symbol": {
+        "label": "boundary",
+        "glyph": "🝚"
+      },
+      "title": "Boundary and Interface",
+      "statements": {
+        "direct": "Systems are separated by boundaries; interaction occurs only through interfaces with conditions.",
+        "mirror": "What you fail to model as a boundary becomes an invisible coupling.",
+        "shadow": "Ambiguous boundaries produce leakage, misattribution, and unintended propagation.",
+        "shadow_mirror": "Over-rigid boundaries produce brittleness and block necessary exchange."
+      },
+      "diagnostics": [
+        "What is inside vs outside?",
+        "What conditions govern crossing?"
+      ],
+      "repairs": [
+        "Define boundary explicitly",
+        "Specify interface contracts",
+        "Add buffers/guardrails"
+      ]
+    },
+    {
+      "id": "P2",
+      "symbol": {
+        "label": "witness",
+        "glyph": "🜹"
+      },
+      "title": "Agency and Capacity",
+      "statements": {
+        "direct": "Claims about choice, responsibility, or consent presuppose an agent with sufficient capacity to understand and act.",
+        "mirror": "When capacity is absent, responsibility shifts to guardianship or protocol.",
+        "shadow": "Treating low-capacity agents as fully capable produces coercion and false accountability.",
+        "shadow_mirror": "Over-removing agency suppresses participation and growth."
+      },
+      "diagnostics": [
+        "Does the agent understand consequences?",
+        "Can they meaningfully choose?"
+      ],
+      "repairs": [
+        "Capacity checks",
+        "Supported decision structures",
+        "Graduated autonomy"
+      ]
+    },
+    {
+      "id": "P3",
+      "symbol": {
+        "label": "consent",
+        "glyph": "🝁"
+      },
+      "title": "Authorization and Consent Gate",
+      "statements": {
+        "direct": "Cross-boundary intervention requires authorization (consent, mandate, or delegated authority).",
+        "mirror": "Absent explicit authorization, systems default to force, drift, or accidental violation.",
+        "shadow": "Unconsented intervention produces breach 🜬 and systemic instability.",
+        "shadow_mirror": "Excessive gating can paralyze action; delegation mechanisms become necessary."
+      },
+      "diagnostics": [
+        "Who authorized this?",
+        "What scope and duration?"
+      ],
+      "repairs": [
+        "Explicit permissioning",
+        "Scoped delegation",
+        "Revocation paths"
+      ]
+    },
+    {
+      "id": "P4",
+      "symbol": {
+        "label": "mirror",
+        "glyph": "🝮"
+      },
+      "title": "Legibility and Interpretability",
+      "statements": {
+        "direct": "Authorization and governance require legibility of relevant consequences to affected agents.",
+        "mirror": "If a decision cannot be explained in the receiver’s frame, it is not truly shared.",
+        "shadow": "Opaque systems manufacture agreement without understanding.",
+        "shadow_mirror": "Over-explanation overloads cognition; legibility must be right-sized."
+      },
+      "diagnostics": [
+        "Can the affected party restate the implications?",
+        "Is the reasoning traceable?"
+      ],
+      "repairs": [
+        "Plain language",
+        "Progressive disclosure",
+        "Audit trails"
+      ]
+    },
+    {
+      "id": "P5",
+      "symbol": {
+        "label": "ledger",
+        "glyph": "⚖️"
+      },
+      "title": "Conservation and Accounting",
+      "statements": {
+        "direct": "Flows (energy, time, money, risk, information, responsibility) must be conserved or accounted for across boundaries.",
+        "mirror": "Unaccounted flows reappear as hidden debt.",
+        "shadow": "Hidden debt accumulates until forced reconciliation or collapse 🜲.",
+        "shadow_mirror": "Over-accounting stalls movement; choose appropriate ledger granularity."
+      },
+      "diagnostics": [
+        "What ledger exists?",
+        "Where is “missing mass”?"
+      ],
+      "repairs": [
+        "Explicit accounting systems",
+        "Reconciliation rituals",
+        "Traceability mechanisms"
+      ]
+    },
+    {
+      "id": "P6",
+      "symbol": {
+        "label": "loop",
+        "glyph": "🝳"
+      },
+      "title": "Feedback and Recursion",
+      "statements": {
+        "direct": "Actions propagate through feedback loops; systems stabilize, learn, or destabilize through recursion.",
+        "mirror": "If you do not observe feedback, it will govern you invisibly.",
+        "shadow": "Unchecked positive feedback amplifies error; delayed feedback causes oscillation.",
+        "shadow_mirror": "Over-damping suppresses learning and adaptation."
+      },
+      "diagnostics": [
+        "What are reinforcing vs balancing loops?",
+        "What are delays and gains?"
+      ],
+      "repairs": [
+        "Instrumentation",
+        "Cadence reviews",
+        "Loop dampening or gain adjustment"
+      ]
+    },
+    {
+      "id": "P7",
+      "symbol": {
+        "label": "vortex",
+        "glyph": "🌀"
+      },
+      "title": "Incentive Drift and Attractors",
+      "statements": {
+        "direct": "Systems drift toward locally rewarded equilibria unless constrained.",
+        "mirror": "What is rewarded—explicitly or implicitly—becomes dominant behavior.",
+        "shadow": "Optimization toward proxies (Goodhart drift) detaches behavior from intended purpose.",
+        "shadow_mirror": "Over-constraint freezes evolution and suppresses exploration."
+      },
+      "diagnostics": [
+        "What behaviors are rewarded?",
+        "What becomes easier over time?"
+      ],
+      "repairs": [
+        "Incentive realignment",
+        "Counter-metrics",
+        "Governance checkpoints"
+      ]
+    },
+    {
+      "id": "P8",
+      "symbol": {
+        "label": "undo",
+        "glyph": "↩️"
+      },
+      "title": "Reversibility and Exit",
+      "statements": {
+        "direct": "High-impact actions require reversibility paths proportional to potential harm.",
+        "mirror": "If reversal is impossible, governance must scale accordingly.",
+        "shadow": "Irreversible commitments create hostage dynamics and brittle lock-in.",
+        "shadow_mirror": "Excessive reversibility prevents commitment and coherence."
+      },
+      "diagnostics": [
+        "What is the rollback?",
+        "What is the appeal path?"
+      ],
+      "repairs": [
+        "Staged rollouts",
+        "Kill switches",
+        "Exit narratives"
+      ]
+    },
+    {
+      "id": "P9",
+      "symbol": {
+        "label": "matrix",
+        "glyph": "🝖"
+      },
+      "title": "Power-Proportionate Governance",
+      "statements": {
+        "direct": "Controls and governance must scale with system impact (power, reach, irreversibility, externalities).",
+        "mirror": "Large blast radius demands formal constraint.",
+        "shadow": "Under-governed power produces abuse and catastrophic risk.",
+        "shadow_mirror": "Over-governance of low-impact areas wastes capacity and kills agility."
+      },
+      "diagnostics": [
+        "What is the impact radius?",
+        "Who bears downside?"
+      ],
+      "repairs": [
+        "Tiered controls",
+        "Escalation protocols",
+        "Separation of powers"
+      ]
+    },
+    {
+      "id": "P10",
+      "symbol": {
+        "label": "reflect",
+        "glyph": "🪞"
+      },
+      "title": "Distinction and Comparator",
+      "statements": {
+        "direct": "Meaning, evaluation, and optimization require distinction; distinction requires a comparator.",
+        "mirror": "If comparators are not chosen explicitly, they are chosen implicitly by incentives, defaults, or power.",
+        "shadow": "Hidden or frozen comparators create invisible value systems; optimization then produces “success” that may be reality-misaligned.",
+        "shadow_mirror": "Over-fluid comparators dissolve commitment and allow manipulation of evaluation criteria."
+      },
+      "comparator_flavors": {
+        "operational": {
+          "definition": "Comparators used for steering and measurement: metrics, KPIs, thresholds, performance indicators, risk tolerances.",
+          "structural_requirement": "Operational comparators must be revisable under feedback (P6).",
+          "revision_prompt": "What is the review cadence, evidence threshold, and authority to revise this comparator?"
+        },
+        "constitutional": {
+          "definition": "Comparators used for non-tradeable constraints: dignity floors, harm ceilings, rights thresholds, red lines.",
+          "structural_requirement": "Constitutional comparators are revisable only via power-proportionate governance (P9) with explicit legitimacy.",
+          "revision_prompt": "What governance threshold and legitimacy process would be required to revise this comparator?"
+        }
+      },
+      "diagnostics": [
+        "What comparator defines better/worse here?",
+        "Is it operational or constitutional?",
+        "Who can revise it, how, and how often?"
+      ],
+      "repairs": [
+        "Make comparators explicit",
+        "Tier comparators (operational vs constitutional)",
+        "Attach revision protocols (feedback-cadence vs governance-legitimacy)"
+      ]
+    }
+  ],
+  "layer1_composites": [
+    {
+      "id": "C1",
+      "title": "Gradient Generates Flow",
+      "depends_on": [
+        "P1",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "statements": {
+        "direct": "Differences across boundaries create gradients; gradients drive flows; flows generate patterns.",
+        "mirror": "Persistent patterns imply maintained gradients.",
+        "shadow": "Unmapped gradients create “mysterious” flows that appear irrational until the boundary and differential are exposed."
+      },
+      "typical_attractors": [
+        "Power asymmetry",
+        "Information asymmetry",
+        "Resource concentration"
+      ],
+      "use_cases": [
+        "Diagnosing polarization, churn, leakage, talent flight, regulatory arbitrage"
+      ]
+    },
+    {
+      "id": "C2",
+      "title": "Ledgered Reciprocity",
+      "depends_on": [
+        "P1",
+        "P5",
+        "P6",
+        "P7",
+        "P10"
+      ],
+      "statements": {
+        "direct": "Sustained exchange requires mutually reconcilable accounting.",
+        "mirror": "Every repeated interaction forms a ledger, whether tracked or not.",
+        "shadow": "Unreconciled exchange accumulates hidden debt that eventually forces correction."
+      },
+      "typical_attractors": [
+        "Short-term optimization",
+        "Metric gaming",
+        "Exploitation gradients"
+      ],
+      "use_cases": [
+        "Contracts, partnerships, APIs, stakeholder relationships, compensation structures"
+      ]
+    },
+    {
+      "id": "C3",
+      "title": "Compression Distortion",
+      "depends_on": [
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P10"
+      ],
+      "statements": {
+        "direct": "All representations compress reality; optimizing the compression reshapes the system.",
+        "mirror": "Metrics are maps; confusing the map for the territory produces distortion.",
+        "shadow": "Proxy optimization detaches systems from lived impact."
+      },
+      "typical_attractors": [
+        "KPI fixation",
+        "Dashboard simplification",
+        "Reporting pressure"
+      ],
+      "use_cases": [
+        "Dashboards, AI evals, KPIs, performance reviews, regulatory metrics"
+      ]
+    },
+    {
+      "id": "C4",
+      "title": "Granularity Collapse",
+      "depends_on": [
+        "P10",
+        "P4",
+        "P7",
+        "P9"
+      ],
+      "statements": {
+        "direct": "Under stress, evaluative granularity collapses into coarse binaries.",
+        "mirror": "Time pressure reduces nuance in comparison.",
+        "shadow": "Binary framing escalates conflict and removes repair pathways."
+      },
+      "typical_attractors": [
+        "Crisis urgency",
+        "Media simplification",
+        "Adversarial framing"
+      ],
+      "use_cases": [
+        "Crisis governance, polarization, litigation, media narratives"
+      ]
+    },
+    {
+      "id": "C5",
+      "title": "Externalized Harm",
+      "depends_on": [
+        "P1",
+        "P5",
+        "P9",
+        "P10"
+      ],
+      "statements": {
+        "direct": "When impact crosses boundaries without accounting alignment, harm is externalized.",
+        "mirror": "If the ledger does not include the affected party, the harm still exists.",
+        "shadow": "Systems appear successful while exporting suffering outside their accounting boundary."
+      },
+      "typical_attractors": [
+        "Outsourcing risk",
+        "Regulatory arbitrage",
+        "Diffusion of responsibility"
+      ],
+      "use_cases": [
+        "Supply chains, platform governance, finance, AI deployment"
+      ]
+    },
+    {
+      "id": "C6",
+      "title": "Consent Gradient",
+      "depends_on": [
+        "P2",
+        "P3",
+        "P4",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "statements": {
+        "direct": "Consent varies with capacity, legibility, reversibility, and power balance.",
+        "mirror": "Binary consent models obscure structural coercion.",
+        "shadow": "Paper consent without structural support becomes compliance theater."
+      },
+      "typical_attractors": [
+        "Throughput pressure",
+        "Authority gradients",
+        "Liability minimization"
+      ],
+      "use_cases": [
+        "Healthcare, employment, AI interfaces, contracting"
+      ]
+    },
+    {
+      "id": "C7",
+      "title": "Comparator Substitution Under Hierarchy",
+      "depends_on": [
+        "P2",
+        "P7",
+        "P9",
+        "P10"
+      ],
+      "statements": {
+        "direct": "In hierarchical systems, the operative comparator shifts from “right” to “compliant.”",
+        "mirror": "Punishment gradients redefine success as obedience.",
+        "shadow": "Systems scale harm when compliance overrides ethical evaluation."
+      },
+      "typical_attractors": [
+        "Fear of punishment",
+        "Career incentives",
+        "Authority bias"
+      ],
+      "use_cases": [
+        "Corporate governance, military structures, bureaucracies"
+      ]
+    },
+    {
+      "id": "C8",
+      "title": "Causal Attribution Failure",
+      "depends_on": [
+        "P1",
+        "P6",
+        "P7",
+        "P10"
+      ],
+      "statements": {
+        "direct": "In recursive systems, outcomes are often misattributed to individuals rather than structural loops.",
+        "mirror": "Scapegoating substitutes narrative simplicity for systemic correction.",
+        "shadow": "Personal blame prevents loop repair and perpetuates instability."
+      },
+      "typical_attractors": [
+        "Public pressure",
+        "Accountability theater",
+        "Simplistic narratives"
+      ],
+      "use_cases": [
+        "Crisis review, regulatory investigations, organizational failure analysis"
+      ]
+    },
+    {
+      "id": "C9",
+      "title": "Dynamic Stability vs Snapshot Balance",
+      "depends_on": [
+        "P6",
+        "P7",
+        "P8",
+        "P10"
+      ],
+      "statements": {
+        "direct": "Stability is dynamic correction over time, not static symmetry at a moment.",
+        "mirror": "Snapshot “balance” can conceal accumulating instability.",
+        "shadow": "Forcing static balance suppresses sensing and drives instability underground."
+      },
+      "typical_attractors": [
+        "PR symmetry",
+        "Compromise theater",
+        "Budget equalization rituals"
+      ],
+      "use_cases": [
+        "Public policy, negotiation, staffing models, budget allocation"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "Level Mismatch (Suboptimization)",
+      "depends_on": [
+        "P1",
+        "P5",
+        "P6",
+        "P7",
+        "P10"
+      ],
+      "statements": {
+        "direct": "Optimizing a subsystem comparator can degrade system-level outcomes when boundaries and feedback are mis-modeled.",
+        "mirror": "Local success can be global failure when comparators differ across levels.",
+        "shadow": "Delayed systemic costs accumulate until crisis reveals misalignment."
+      },
+      "typical_attractors": [
+        "Siloed KPIs",
+        "Delayed feedback",
+        "Boundary blindness"
+      ],
+      "use_cases": [
+        "Benchmark vs deployment, quarterly earnings vs tail risk, throughput vs quality"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "Illegitimate Constitutional Comparator (Sacralized Metric)",
+      "depends_on": [
+        "P4",
+        "P7",
+        "P9",
+        "P10"
+      ],
+      "statements": {
+        "direct": "An operational comparator becomes de facto constitutional without legitimate governance or explicit ratification.",
+        "mirror": "When a metric becomes sacred, questioning it becomes taboo.",
+        "shadow": "Systems reorganize around protecting the metric rather than protecting reality."
+      },
+      "common_examples": [
+        "Growth at all costs",
+        "Zero tolerance",
+        "Compliance above all",
+        "Engagement is value"
+      ],
+      "typical_attractors": [
+        "Institutional inertia",
+        "Status protection",
+        "Metric-linked compensation"
+      ],
+      "use_cases": [
+        "Institutional critique, governance design, regulatory reform, AI optimization contexts"
+      ]
+    }
+  ]
+}

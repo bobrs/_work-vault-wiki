@@ -12,6 +12,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [HumanLink Social Media](humanlink-social-media/index.md)
 - [Continuity Office](continuity-office/index.md)
 - [Continuity Engine](continuity-engine/index.md)
+- [Quantum Invariants](quantum-invariants/index.md)
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [Abracadoo](abracadoo/index.md)
 - [Consentful Cybernetics](consentful-cybernetics/index.md)
