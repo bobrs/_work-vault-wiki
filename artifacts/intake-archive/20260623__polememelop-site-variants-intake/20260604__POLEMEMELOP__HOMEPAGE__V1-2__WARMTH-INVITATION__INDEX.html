@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="POLEMEMELOP — the lantern root. A warm orientation layer for an ecosystem of consent, play, agency, identity, and unconditional acceptance." />
+  <title>POLEMEMELOP — The Lantern Root</title>
+  <style>
+    :root{
+      --bg:#080608;
+      --bg2:#140f0c;
+      --ink:#fff5e7;
+      --muted:#ddcdb2;
+      --dim:#b79f7d;
+      --panel:rgba(34,24,17,.72);
+      --panel2:rgba(255,245,231,.06);
+      --line:rgba(255,226,170,.18);
+      --gold:#ffd68a;
+      --amber:#ffb45e;
+      --ember:#ff7c3d;
+      --rose:#ffb7c8;
+      --mint:#bff2d7;
+      --blue:#b4e0ff;
+      --violet:#d2c4ff;
+      --shadow:0 30px 100px rgba(0,0,0,.45);
+      --radius:30px;
+      --max:1160px;
+      --sans:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      --serif:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+      --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 50% 14%, rgba(255,214,138,.18), transparent 16rem),
+        radial-gradient(circle at 12% 18%, rgba(255,183,200,.12), transparent 18rem),
+        radial-gradient(circle at 86% 18%, rgba(191,242,215,.10), transparent 19rem),
+        radial-gradient(circle at 80% 78%, rgba(180,224,255,.10), transparent 22rem),
+        linear-gradient(180deg,#050406 0%, #110d0a 44%, #070608 100%);
+      line-height:1.58;
+      overflow-x:hidden;
+      min-height:100vh;
+    }
+
+    body:before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.45;
+      background-image:
+        radial-gradient(circle at 12% 15%, rgba(255,255,255,.15) 0 1px, transparent 1.6px),
+        radial-gradient(circle at 70% 25%, rgba(255,255,255,.12) 0 1px, transparent 1.6px),
+        radial-gradient(circle at 28% 70%, rgba(255,255,255,.1) 0 1px, transparent 1.6px),
+        radial-gradient(circle at 88% 82%, rgba(255,255,255,.08) 0 1px, transparent 1.6px);
+      background-size: 240px 170px, 300px 220px, 340px 260px, 400px 300px;
+      mix-blend-mode:screen;
+    }
+
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .wrap{width:min(var(--max),calc(100% - 2rem));margin:0 auto}
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:20;
+      backdrop-filter:blur(18px);
+      background:rgba(8,6,8,.64);
+      border-bottom:1px solid var(--line);
+    }
+
+    nav{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:1rem;
+      padding:1rem 0;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:.7rem;
+      color:var(--ink);
+      text-decoration:none;
+      font-weight:900;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:.86rem;
+    }
+
+    .sigil{
+      width:2.35rem;height:2.35rem;
+      border-radius:50%;
+      display:grid;place-items:center;
+      border:1px solid var(--line);
+      background:radial-gradient(circle, rgba(255,214,138,.32), rgba(255,214,138,.08) 65%, transparent 75%);
+      box-shadow:0 0 36px rgba(255,214,138,.16);
+    }
+
+    .navlinks{display:flex;gap:1rem;flex-wrap:wrap}
+    .navlinks a{color:var(--muted);font-size:.93rem}
+    .navlinks a:hover{color:var(--ink)}
+
+    .hero{
+      padding:5.8rem 0 3.4rem;
+      min-height:calc(100vh - 4.4rem);
+      display:grid;
+      align-items:center;
+      position:relative;
+    }
+
+    .heroGrid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:2.4rem;
+      align-items:center;
+    }
+
+    .eyebrow{
+      font-family:var(--mono);
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      color:var(--gold);
+      font-size:.78rem;
+      margin-bottom:1rem;
+    }
+
+    h1{
+      margin:0;
+      font-size:clamp(4rem,10vw,8.9rem);
+      line-height:.84;
+      letter-spacing:-.08em;
+      max-width:720px;
+    }
+
+    .lead{
+      margin:1.4rem 0 0;
+      max-width:720px;
+      color:var(--muted);
+      font-size:clamp(1.18rem,2.2vw,1.55rem);
+      line-height:1.43;
+    }
+
+    .heroActions{
+      margin-top:2rem;
+      display:flex;
+      gap:.9rem;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:.5rem;
+      min-height:3.15rem;
+      padding:.85rem 1.1rem;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,245,231,.07);
+      color:var(--ink);
+      font-weight:800;
+      box-shadow:0 10px 30px rgba(0,0,0,.25);
+      transition:transform .14s ease, background .14s ease, border-color .14s ease;
+    }
+    .btn:hover{text-decoration:none;transform:translateY(-1px);background:rgba(255,245,231,.1)}
+    .btn.primary{
+      color:#221406;
+      background:linear-gradient(135deg, var(--gold), var(--amber));
+      border-color:transparent;
+    }
+
+    .heroNote{
+      margin-top:1.1rem;
+      color:var(--dim);
+      font-size:.98rem;
+      max-width:650px;
+    }
+
+    .relicStage{
+      position:relative;
+      min-height:760px;
+      display:grid;
+      place-items:center;
+    }
+
+    .aura{
+      position:absolute;
+      width:min(82vw,760px);
+      aspect-ratio:1/1;
+      border-radius:50%;
+      background:
+        radial-gradient(circle, rgba(255,245,231,.12), transparent 32%),
+        radial-gradient(circle, rgba(255,214,138,.3), rgba(255,124,61,.13) 42%, rgba(255,183,200,.08) 58%, transparent 72%);
+      filter:blur(10px);
+      animation:pulse 6s ease-in-out infinite;
+    }
+    @keyframes pulse{
+      0%,100%{transform:scale(.98);opacity:.82}
+      50%{transform:scale(1.03);opacity:1}
+    }
+
+    .relic{
+      position:relative;
+      width:min(88vw,650px);
+      min-height:770px;
+      border-radius:44% 44% 32% 32% / 12% 12% 18% 18%;
+      background:
+        radial-gradient(circle at 50% 32%, rgba(255,245,231,.9), rgba(255,214,138,.68) 22%, rgba(148,90,54,.84) 64%, rgba(55,30,18,.92) 100%);
+      border:2px solid rgba(255,225,170,.32);
+      box-shadow:
+        inset 0 0 80px rgba(255,245,231,.14),
+        inset 0 -40px 100px rgba(58,23,8,.44),
+        0 0 120px rgba(255,214,138,.2),
+        var(--shadow);
+      overflow:visible;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:5rem 3rem;
+      text-align:center;
+    }
+
+    .relic:before{
+      content:"";
+      position:absolute;
+      inset:1.3rem;
+      border-radius:42% 42% 30% 30% / 11% 11% 16% 16%;
+      border:1px solid rgba(255,239,211,.14);
+      pointer-events:none;
+    }
+
+    .relic:after{
+      content:"";
+      position:absolute;
+      inset:2.25rem 2.5rem 2rem;
+      border-radius:40% 40% 28% 28% / 11% 11% 16% 16%;
+      border:1px solid rgba(255,214,138,.12);
+      box-shadow: inset 0 0 50px rgba(255,245,231,.05);
+      pointer-events:none;
+    }
+
+    .relicTop, .relicBottom{
+      position:absolute;
+      left:50%;
+      transform:translateX(-50%);
+      width:42%;
+      border:2px solid rgba(255,225,170,.32);
+      background:linear-gradient(180deg, rgba(20,12,7,.85), rgba(8,6,8,.98));
+      box-shadow:0 18px 40px rgba(0,0,0,.3);
+    }
+
+    .relicTop{
+      top:-5rem;
+      height:8rem;
+      border-bottom:none;
+      border-radius:999px 999px 0 0;
+    }
+
+    .relicBottom{
+      bottom:-2.2rem;
+      height:4rem;
+      border-top:none;
+      border-radius:0 0 999px 999px;
+    }
+
+    .relicInner{
+      position:relative;
+      z-index:2;
+      max-width:440px;
+    }
+
+    .lanternHalo{
+      width:11rem;
+      height:11rem;
+      margin:0 auto 1rem;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:radial-gradient(circle, rgba(255,245,231,.58), rgba(255,214,138,.16) 48%, transparent 72%);
+      box-shadow:0 0 80px rgba(255,245,231,.15);
+    }
+
+    .lanternGlyph{
+      font-size:5.2rem;
+      filter:drop-shadow(0 0 24px rgba(255,245,231,.55));
+    }
+
+    .inscription{
+      font-family:var(--serif);
+      font-weight:800;
+      font-size:clamp(2.1rem,4.2vw,3.5rem);
+      line-height:1.06;
+      letter-spacing:-.04em;
+      color:#251405;
+      text-shadow:0 1px 16px rgba(255,245,231,.36);
+      margin:0;
+    }
+
+    .subInscription{
+      margin-top:1rem;
+      display:inline-flex;
+      align-items:center;
+      gap:.45rem;
+      padding:.55rem .9rem;
+      border-radius:999px;
+      font-family:var(--mono);
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-size:.7rem;
+      color:rgba(48,27,9,.8);
+      background:rgba(255,245,231,.14);
+      border:1px solid rgba(72,45,16,.14);
+    }
+
+    .ornament{
+      position:absolute;
+      width:5rem;
+      height:5rem;
+      border-radius:50%;
+      border:1px solid rgba(255,245,231,.12);
+      opacity:.45;
+    }
+    .ornament.one{top:16%;left:12%}
+    .ornament.two{top:15%;right:12%}
+    .ornament.three{bottom:15%;left:16%}
+    .ornament.four{bottom:14%;right:16%}
+
+    .plushOrb{
+      position:absolute;
+      display:grid;
+      place-items:center;
+      border-radius:40% 60% 55% 45% / 56% 42% 58% 44%;
+      background:
+        radial-gradient(circle at 32% 24%, rgba(255,255,255,.62), transparent 18%),
+        linear-gradient(135deg, rgba(255,245,231,.22), rgba(255,245,231,.07));
+      border:1px solid rgba(255,245,231,.2);
+      box-shadow:
+        inset -10px -15px 32px rgba(0,0,0,.18),
+        0 22px 60px rgba(0,0,0,.24),
+        0 0 40px rgba(255,245,231,.06);
+      color:var(--ink);
+      text-shadow:0 0 14px rgba(255,255,255,.24);
+      animation:float 7s ease-in-out infinite;
+      backdrop-filter: blur(3px);
+    }
+
+    @keyframes float{
+      0%,100%{transform:translateY(0px) rotate(var(--r))}
+      50%{transform:translateY(-8px) rotate(var(--r))}
+    }
+
+    .plushOrb .orbMark{
+      font-size:2.55rem;
+      opacity:.92;
+    }
+    .plushOrb .orbTag{
+      position:absolute;
+      bottom:.8rem;
+      font-family:var(--mono);
+      font-size:.58rem;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:rgba(255,245,231,.72);
+    }
+
+    .orb1{width:10rem;height:12rem;left:-1.5rem;top:7rem;--r:-12deg;background-color:rgba(210,196,255,.12)}
+    .orb2{width:10.5rem;height:12rem;right:-1.5rem;top:8rem;--r:10deg;background-color:rgba(191,242,215,.12);animation-delay:.8s}
+    .orb3{width:11rem;height:10rem;left:2rem;bottom:3rem;--r:11deg;background-color:rgba(180,224,255,.11);animation-delay:1.2s}
+    .orb4{width:10rem;height:10.5rem;right:1rem;bottom:2.5rem;--r:-9deg;background-color:rgba(255,214,138,.12);animation-delay:.4s}
+
+    section{
+      padding:5rem 0;
+      border-top:1px solid var(--line);
+      position:relative;
+    }
+
+    h2{
+      margin:0;
+      font-size:clamp(2.4rem,5.5vw,5rem);
+      line-height:.94;
+      letter-spacing:-.06em;
+      max-width:900px;
+    }
+
+    .sectionLead{
+      margin:1.2rem 0 0;
+      max-width:760px;
+      font-size:1.12rem;
+      color:var(--muted);
+    }
+
+    .label{
+      font-family:var(--mono);
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-size:.74rem;
+      color:var(--gold);
+      margin-bottom:.9rem;
+    }
+
+    .spotlightGrid{
+      display:grid;
+      grid-template-columns:1.12fr .88fr;
+      gap:1.1rem;
+      margin-top:2rem;
+    }
+
+    .panel, .card{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,245,231,.08), rgba(255,245,231,.045));
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+
+    .panel{padding:2rem;position:relative;overflow:hidden}
+    .panel:before{
+      content:"";
+      position:absolute;
+      width:26rem;aspect-ratio:1;
+      top:-10rem;right:-9rem;border-radius:50%;
+      background:radial-gradient(circle, rgba(255,214,138,.14), transparent 68%);
+    }
+
+    .bigStatement{
+      font-size:clamp(2rem,4vw,3.1rem);
+      line-height:1.02;
+      letter-spacing:-.05em;
+      margin:0;
+      max-width:650px;
+    }
+
+    .subtext{
+      max-width:640px;
+      color:var(--muted);
+      margin-top:1rem;
+      font-size:1.03rem;
+    }
+
+    .stack{display:grid;gap:1rem}
+    .card{padding:1.35rem}
+    .card h3{margin:0;font-size:1.28rem;letter-spacing:-.03em}
+    .card p{margin:.6rem 0 0;color:var(--muted)}
+
+    .lanternGrid{
+      margin-top:2rem;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:1rem;
+    }
+
+    .lanternCard{
+      padding:1.5rem;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,245,231,.08), rgba(255,245,231,.04));
+      border-radius:26px;
+      box-shadow:0 14px 44px rgba(0,0,0,.22);
+      min-height:270px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .lanternCard:before{
+      content:"";
+      position:absolute;
+      inset:auto -3rem -3rem auto;
+      width:10rem;aspect-ratio:1;border-radius:50%;
+      background:radial-gradient(circle, rgba(255,214,138,.14), transparent 68%);
+    }
+
+    .lanternCard .mark{
+      width:3.4rem;height:3.4rem;border-radius:1.2rem;
+      display:grid;place-items:center;
+      border:1px solid var(--line);
+      background:rgba(255,245,231,.07);
+      font-size:1.65rem;
+      margin-bottom:1rem;
+    }
+
+    .lanternCard h3{margin:0;font-size:1.35rem}
+    .lanternCard p{margin:.65rem 0 1rem;color:var(--muted);font-size:.97rem}
+    .lanternCard a{font-weight:900}
+
+    .quietConstellation{
+      margin-top:1.25rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap:.7rem;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:.4rem;
+      padding:.55rem .85rem;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,245,231,.05);
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .pill:hover{text-decoration:none;color:var(--ink);border-color:rgba(255,214,138,.28)}
+
+    .keeperGrid{
+      display:grid;
+      grid-template-columns:.92fr 1.08fr;
+      gap:2rem;
+      align-items:start;
+      margin-top:1.2rem;
+    }
+
+    blockquote{
+      margin:0;
+      font-family:var(--serif);
+      font-size:clamp(2rem,4.8vw,4.4rem);
+      line-height:1.02;
+      letter-spacing:-.05em;
+      color:var(--ink);
+    }
+
+    .keeperText{
+      color:var(--muted);
+      font-size:1.08rem;
+    }
+    .keeperText p{margin:0 0 1rem}
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:3rem 0;
+    }
+
+    .footerInner{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:1rem;
+    }
+
+    .tiny{
+      font-family:var(--mono);
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      font-size:.72rem;
+      color:var(--dim);
+    }
+
+    .footerText{
+      color:var(--dim);
+      margin-top:.35rem;
+      max-width:630px;
+      font-size:.96rem;
+    }
+
+    .terminalLinks{
+      margin-top:.7rem;
+      display:flex;
+      gap:.6rem;
+      flex-wrap:wrap;
+    }
+
+    @media (max-width: 980px){
+      .heroGrid, .spotlightGrid, .keeperGrid{grid-template-columns:1fr}
+      .relicStage{min-height:auto}
+      .relic{width:min(92vw,630px);min-height:690px}
+      .lanternGrid{grid-template-columns:1fr}
+      .navlinks{display:none}
+      .hero{padding-top:4.4rem}
+    }
+
+    @media (max-width: 640px){
+      h1{font-size:clamp(3rem,18vw,5rem)}
+      .relic{min-height:620px;padding:4rem 1.6rem}
+      .relicTop{height:6.8rem;top:-4.2rem}
+      .relicBottom{height:3.3rem}
+      .lanternHalo{width:8rem;height:8rem}
+      .lanternGlyph{font-size:4rem}
+      .inscription{font-size:clamp(1.8rem,7vw,2.5rem)}
+      .orb1,.orb2,.orb3,.orb4{transform:scale(.82)}
+      .orb1{left:-1rem;top:5rem}
+      .orb2{right:-1rem;top:5rem}
+      .orb3{left:0rem;bottom:1rem}
+      .orb4{right:0rem;bottom:1rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="#top">
+          <span class="sigil">🏮</span>
+          <span>POLEMEMELOP</span>
+        </a>
+        <div class="navlinks">
+          <a href="#hero">The lantern</a>
+          <a href="#lights">Honored lights</a>
+          <a href="#keeper">Keeper stance</a>
+          <a href="#root">Root links</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="wrap heroGrid">
+        <div>
+          <div class="eyebrow">Lantern root • keeper initiation • memetic hearth</div>
+          <h1>Welcome, lantern keeper.</h1>
+          <p class="lead">
+            You do not need the whole map to begin. POLEMEMELOP is a warm root for finding the lights that meet your hands: love, consent, orientation, play, agency, witness, or strange humane technology. Tend whichever lanterns keep you warm in this moment — one, many, or only the next.
+          </p>
+          <div class="heroActions">
+            <a class="btn primary" href="#lights">Approach the lights</a>
+            <a class="btn" href="#keeper">Step into the keeper stance</a>
+          </div>
+          <div class="heroNote">
+            Your attention is appreciated. Your appreciation is noticed.
+          </div>
+        </div>
+
+        <div class="relicStage" aria-label="Lantern scroll relic with plush glyph companions">
+          <div class="aura"></div>
+
+          <div class="relic">
+            <div class="relicTop"></div>
+            <div class="relicBottom"></div>
+
+            <div class="ornament one"></div>
+            <div class="ornament two"></div>
+            <div class="ornament three"></div>
+            <div class="ornament four"></div>
+
+            <div class="plushOrb orb1">
+              <div class="orbMark">🝁</div>
+              <div class="orbTag">consent</div>
+            </div>
+            <div class="plushOrb orb2">
+              <div class="orbMark">🝳</div>
+              <div class="orbTag">loop</div>
+            </div>
+            <div class="plushOrb orb3">
+              <div class="orbMark">🝚</div>
+              <div class="orbTag">boundary</div>
+            </div>
+            <div class="plushOrb orb4">
+              <div class="orbMark">❓</div>
+              <div class="orbTag">liminal</div>
+            </div>
+
+            <div class="relicInner">
+              <div class="lanternHalo">
+                <div class="lanternGlyph">🏮</div>
+              </div>
+              <h2 class="inscription">Tend the lanterns that keep you warm.</h2>
+              <div class="subInscription">keeper stance • root orientation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lights">
+      <div class="wrap">
+        <div class="label">Current honored lights</div>
+        <h2>Three lights wait at the threshold.</h2>
+        <p class="sectionLead">
+          The constellation is larger than any doorway. These are the lights nearest the entrance right now. Approach one. The others remain lit without demanding attention.
+        </p>
+
+        <div class="lanternGrid">
+          <article class="lanternCard">
+            <div>
+              <div class="mark">❤️</div>
+              <h3>ULiUA</h3>
+              <p>Unconditional Love Includes Unconditional Acceptance — the hearth that keeps optimization from becoming cruelty.</p>
+            </div>
+            <a href="https://ULiUA.com" rel="noopener">Visit ULiUA.com →</a>
+          </article>
+
+          <article class="lanternCard">
+            <div>
+              <div class="mark">🝁</div>
+              <h3>Consentful Cybernetics</h3>
+              <p>AI, communication, and systems that witness consent dynamics instead of extracting attention.</p>
+            </div>
+            <a href="https://ConsentfulCybernetics.com" rel="noopener">Visit ConsentfulCybernetics.com →</a>
+          </article>
+
+          <article class="lanternCard">
+            <div>
+              <div class="mark">❓</div>
+              <h3>How One Thing Works</h3>
+              <p>An orientation lens for the ecosystem: when the map gets too bright, begin with one thing.</p>
+            </div>
+            <a href="https://HowOneThing.work" rel="noopener">Visit HowOneThing.work →</a>
+          </article>
+        </div>
+
+        <div class="quietConstellation" id="root" aria-label="Additional ecosystem links">
+          <a class="pill" href="https://Abracadabracadoo.com" rel="noopener">Abracadabracadoo</a>
+          <a class="pill" href="https://LoopNought.com" rel="noopener">LoopNought</a>
+          <a class="pill" href="https://LoopNaught.com" rel="noopener">LoopNaught</a>
+          <a class="pill" href="https://StableLoopLanguage.com" rel="noopener">StableLoopLanguage</a>
+          <a class="pill" href="https://FieldPragmatics.com" rel="noopener">FieldPragmatics</a>
+          <a class="pill" href="https://ProgramSelf.com" rel="noopener">ProgramSelf</a>
+          <a class="pill" href="https://QuantumInvariants.com" rel="noopener">QuantumInvariants</a>
+          <a class="pill" href="https://MobiusSelf.com" rel="noopener">MobiusSelf</a>
+          <a class="pill" href="https://RewildYou.online" rel="noopener">RewildYou</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap spotlightGrid">
+        <article class="panel">
+          <div class="label">What this root does</div>
+          <p class="bigStatement">It keeps the branches findable without forcing them to become one thing.</p>
+          <p class="subtext">
+            You do not need to understand every branch. You only need to notice which light answers: consent, orientation, play, agency, witness, unconditional acceptance, or strange humane technology.
+          </p>
+          <div class="heroActions">
+            <a class="btn primary" href="https://ULiUA.com" rel="noopener">Start at the hearth</a>
+            <a class="btn" href="https://ConsentfulCybernetics.com" rel="noopener">See the new dimension</a>
+          </div>
+        </article>
+
+        <div class="stack">
+          <article class="card">
+            <div class="label">Rotation rule</div>
+            <h3>Feature a few. Rotate when alive.</h3>
+            <p>When a lantern is active, honor it. When several are warm, tend several. When one is enough, one is enough.</p>
+          </article>
+
+          <article class="card">
+            <div class="label">Boundary rule</div>
+            <h3>You do not owe the whole map.</h3>
+            <p>Each site can stand alone. POLEMEMELOP offers return, not capture.</p>
+          </article>
+
+          <article class="card">
+            <div class="label">Memetic rule</div>
+            <h3>A lantern invites without overwhelming.</h3>
+            <p>Warmth travels farther than explanation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="keeper">
+      <div class="wrap">
+        <div class="label">The keeper stance</div>
+        <div class="keeperGrid">
+          <div>
+            <blockquote>“Tend the lanterns that keep you warm. Let others glow without demand. Relight what the night asks for.”</blockquote>
+          </div>
+          <div class="keeperText">
+            <p>A keeper is not someone who understands the whole constellation. A keeper is someone whose attention becomes care: noticing warmth, protecting it from neglect, and letting each lantern ask for what it needs.</p>
+            <p>POLEMEMELOP does not ask every project to explain itself at full brightness. It keeps branches findable, loved, and properly dimmed.</p>
+            <p>Not every light is for everyone. Not every light is always on. No single light explains the terrain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footerInner">
+      <div>
+        <div class="tiny">POLEMEMELOP • The lantern root</div>
+        <div class="footerText">A branching ecosystem of warm strange things. Return when the map gets too bright. Tend whichever lanterns keep you warm.</div>
+      </div>
+      <div>
+        <div class="tiny">Terminal</div>
+        <div class="terminalLinks">
+          <a class="pill" href="https://LoopNought.com" rel="noopener">LoopNought.com</a>
+          <a class="pill" href="https://LoopNaught.com" rel="noopener">LoopNaught.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

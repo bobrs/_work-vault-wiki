@@ -11,13 +11,15 @@ It also stays explicitly attached to SCT, because the same vocabulary shows up t
 - 5 directly relevant root-level documents.
 - 2 foundation documents.
 - 1 named automeme document.
-- 2 supporting infrastructure docs.
+- 3 supporting infrastructure docs.
+- 1 site-variant rail.
 
 ## Lineage Pages
 
 - [Foundations](foundations/index.md)
 - [ULiUA](../uliua/index.md)
 - [Infrastructure](infrastructure/index.md)
+- [Site Variants](site-variants/index.md)
 - [Consent Crystal Structure Research](../consent-crystal-structure-research/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
 
@@ -40,4 +42,5 @@ The page remains a live branch of CCSR rather than a sealed archive object, beca
 1. Keep the foundation pair together.
 2. Keep ULiUA attached as the first automeme branch.
 3. Keep the infrastructure pair together.
-4. Add only new pages that clearly belong to the same automeme lineage.
+4. Keep the site-variant rail compact.
+5. Add only new pages that clearly belong to the same automeme lineage.
