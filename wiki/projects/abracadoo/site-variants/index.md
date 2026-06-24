@@ -6,7 +6,7 @@ The material is iteration evidence, not a second product line. It shows the publ
 
 ## Current Shape
 
-- 8 auxiliary site bundles.
+- 9 auxiliary site bundles.
 
 ## Representative Files
 
@@ -20,12 +20,13 @@ The material is iteration evidence, not a second product line. It shows the publ
 - [Abracadoo homepage patch index.html](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-index.html>)
 - [Abracadoo homepage patch styles.css](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/styles.css>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-styles.css>)
 - [Abracadoo ephemeral contacts seed](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v1__ephemeraltrust-index.html>)
+- [Abracadoo static landing page](<../../../../artifacts/intake-archive/20260624__abracadoo-site-landing-intake/20260605__ABRACADOO__WEBSITE__LANDING__V0__STATIC_SITE.zip>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__LANDING__v0__abracadoo-static-site.zip>)
 
 ## Working Read
 
 This page exists to keep the app-site iteration trail visible without treating every design pass as a separate branch.
 
-It also gives the wiki a place to point when a frontpage or bridge bundle matters as lineage evidence but does not yet warrant deeper semantic extraction. The no-usernames / ephemeral-contact patch belongs here for now because it is still a site bundle, even though it also carries a small public field-guide layer.
+It also gives the wiki a place to point when a frontpage or bridge bundle matters as lineage evidence but does not yet warrant deeper semantic extraction. The no-usernames / ephemeral-contact patch belongs here for now because it is still a site bundle, even though it also carries a small public field-guide layer. The static landing page fits here too because it is the same public surface family even though it is simpler than the later patch variants.
 
 ## Related Links
 

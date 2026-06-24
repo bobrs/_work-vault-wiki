@@ -2846,5 +2846,21 @@
   "a6561484ae3c02b09638a188fb3870755d41aa7281419282729089e3e70e6d78": [
     "artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip",
     "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip"
+  ],
+  "9c8771f8d9819faf748adc1371fa05ad8de62b4e3c2a25cf436af8535b441c6b": [
+    "artifacts/intake-archive/20260624__abracadoo-site-landing-intake/20260605__ABRACADOO__WEBSITE__LANDING__V0__STATIC_SITE.zip",
+    "artifacts/standard-named/20260624__ABRACADOO__SITE__LANDING__v0__abracadoo-static-site.zip"
+  ],
+  "d3f188d28b3aee8665e0f4acb9b51f42b43018c60c5ee171a411b6699155d118": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V005__ABRACADOO-REFERENCE-IMPLEMENTATION.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__APP-BRIDGE__v5__abracadoo-reference-implementation.zip"
+  ],
+  "9a09d944469efa4952e48b4e3afb4e9f333d80f1d50da97f71f9703f1fa7c6ee": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__V007__abracadabracadoo-assets.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__v7__abracadabracadoo-assets.zip"
+  ],
+  "cc123d8cd2856a805db31cf04a8dda635403718ddc1be454811f92cfbbd0df9e": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__V008__abracadabracadoo-assets.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__v8__abracadabracadoo-assets.zip"
   ]
 }

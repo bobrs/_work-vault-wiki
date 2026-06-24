@@ -5,12 +5,13 @@ This branch collects the protocol family documents for the Abracadabracadoo line
 ## Current Shape
 
 - 6 live protocol documents.
-- 2 nested lineage pages organize the set.
+- 3 nested lineage pages organize the set.
 
 ## Nested Lineage Pages
 
 - [Core Protocol](core-protocol/index.md)
 - [Implementation and Extensions](implementation-and-extensions/index.md)
+- [Site Variants](site-variants/index.md)
 
 ## Representative Files
 
