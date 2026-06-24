@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-06-17",
+  "site": "ShimmeryMemory.com",
+  "destination": "src/content/essays/",
+  "files": [
+    "README.md",
+    "beyond-ai-detection-custody-of-the-attractor.md",
+    "human-originated-ai-witnessed-co-stabilized-under-consent.md",
+    "source-appendix-user-prompts-only.md",
+    "the-historical-record-of-the-future-requires-consentful-loops.md",
+    "we-use-each-other-as-proof.md"
+  ],
+  "note": "Prepared as Markdown with YAML frontmatter under the Shimmery Memory Publishing Contract."
+}

@@ -1,0 +1,6 @@
+58baf656b2dc29b0039eb28e4ceba8899ab7ef97101ae035fc900ae544d7dff0  src/content/essays/README.md
+c126165e318a0e7f06f74bb1572ccf501286f325d484410b65bb99940a31d25a  src/content/essays/beyond-ai-detection-custody-of-the-attractor.md
+d2ae565a85af2513910556384c8f44c68efb2ea85e33ca12b8b116daffc4db15  src/content/essays/human-originated-ai-witnessed-co-stabilized-under-consent.md
+463efb4cbc6bee2dcdda7e1f78153255be03d2ed669b5ff9c4de9e5894011814  src/content/essays/source-appendix-user-prompts-only.md
+0e8360d235fd7dc38dbf2f7e3290018b9175e3ab308fa7bcd5daf257ff6e971e  src/content/essays/the-historical-record-of-the-future-requires-consentful-loops.md
+3fce48d48d776e227898f5c9960f760778e2040a013fb14f5028e0cff4ade911  src/content/essays/we-use-each-other-as-proof.md

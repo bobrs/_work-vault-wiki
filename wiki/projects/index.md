@@ -13,6 +13,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Continuity Office](continuity-office/index.md)
 - [Continuity Engine](continuity-engine/index.md)
 - [Quantum Invariants](quantum-invariants/index.md)
+- [Shimmery Memory](shimmerymemory/index.md)
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [Abracadoo](abracadoo/index.md)
 - [Consentful Cybernetics](consentful-cybernetics/index.md)
