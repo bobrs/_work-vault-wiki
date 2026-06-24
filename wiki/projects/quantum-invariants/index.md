@@ -8,6 +8,7 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 
 - 11 public site bundles.
 - 1 grounding data family with 4 preserved duplicate copies.
+- 2 structural notes for bootstrap, schema, and semantic translation.
 
 ## Nested Lineage Pages
 
@@ -18,6 +19,8 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 - [Charters](charters/index.md)
 - [About](about/index.md)
 - [Identity and Manifests](identity-and-manifests/index.md)
+- [Bootstrap and Schema](bootstrap-and-schema/index.md)
+- [Semantic Compression Layer](semantic-compression-layer/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
 - [Downloads](downloads/index.md)
 
@@ -40,6 +43,8 @@ This project reads as a site architecture and grounding system.
 
 The site bundles are the public-facing navigation surface; the grounding JSON is the structural backbone that explains the layers underneath.
 
+The bootstrap, schema, and semantic-compression notes are part of the same entry layer. They explain how the invariant set is used, not just how the site is presented.
+
 The C13 bundle is another full public-site pass rather than a new branch. It shifts the same site family through a different explanatory and boundary posture.
 
 ## Related Links
@@ -47,6 +52,8 @@ The C13 bundle is another full public-site pass rather than a new branch. It shi
 - [Continuity Office](../continuity-office/index.md)
 - [About](about/index.md)
 - [Identity and Manifests](identity-and-manifests/index.md)
+- [Bootstrap and Schema](bootstrap-and-schema/index.md)
+- [Semantic Compression Layer](semantic-compression-layer/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
 
 ## Next Actions
