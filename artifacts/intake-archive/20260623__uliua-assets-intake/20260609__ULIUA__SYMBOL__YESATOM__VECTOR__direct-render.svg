@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Yesatom alchemical air symbol">
+  <path fill="#000000" fill-rule="evenodd" d="
+    M 500 50
+    L 950 950
+    L 50 950
+    Z
+
+    M 500 260
+    L 375 500
+    L 625 500
+    Z
+
+    M 300 600
+    L 700 600
+    L 835 855
+    L 165 855
+    Z
+  "/>
+</svg>

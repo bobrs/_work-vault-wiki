@@ -1,0 +1,6 @@
+Place the Symbola font file here if you want a self-contained bundle.
+Suggested filename examples:
+- Symbola-13.otf
+- Symbola.ttf
+
+See license/source note in ../license/

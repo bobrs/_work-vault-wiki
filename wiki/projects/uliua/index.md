@@ -23,8 +23,10 @@ The source file describes it as an automeme project by the POLEMEMELOP Foundatio
 ## Related Pages
 
 - [POLEMEMELOP](../polememelop/index.md)
+- [Site Variants](./site-variants/index.md)
+- [Assets and Downloads](./assets-and-downloads/index.md)
 
 ## Notes
 
 - This page is intentionally narrow.
-- If more ULiUA material appears, it can expand into its own subpage structure later.
+- The homepage iteration trail and asset/download layer now live in the support pages above.

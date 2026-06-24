@@ -1,0 +1,56 @@
+{
+  "id": "L3-ULIUA-01",
+  "name": "Consent-First Structural Charter",
+  "layer": 3,
+  "type": "charter_invariant",
+  "domain": "cross-domain governance / system design",
+  "charter_statement": "Cross-boundary interactions shall default to explicit, legible, and revisable consent wherever capacity permits.",
+  "comparator_tiering": {
+    "constitutional": [
+      "Consentful authorization over coerced or implicit crossing."
+    ],
+    "operational_subordinate": [
+      "Throughput",
+      "Efficiency",
+      "Compliance velocity",
+      "Cost minimization"
+    ],
+    "note": "Operational comparators may not override constitutional consent without governance-level justification."
+  },
+  "grounding": {
+    "primitives": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P8",
+      "P9",
+      "P10"
+    ],
+    "composites": [
+      "C5",
+      "C6",
+      "C10",
+      "C11",
+      "C12"
+    ]
+  },
+  "governance_implications": [
+    "Where power asymmetry is high, governance must scaffold consent.",
+    "Where reversibility is low, consent thresholds must rise.",
+    "Comparator revision cadence must preserve consent priority."
+  ],
+  "structural_predictions": [
+    "Reduced coercion-based stabilization overhead.",
+    "Increased adaptive stability via feedback.",
+    "Lower cascade risk from resistance dynamics."
+  ],
+  "failure_modes": [
+    "Symbolic consent without capacity (C6 shadow).",
+    "Comparator ossification (C11).",
+    "Ledger omission of affected parties (C5 shadow).",
+    "Compliance replacing resonance (C7 dynamic)."
+  ]
+}

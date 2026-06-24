@@ -1,0 +1,266 @@
+[
+  {
+    "name": "aloha",
+    "glyph": "🌺",
+    "codepoints": [
+      "U+1F33A"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__ALOHA__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "bifli",
+    "glyph": "@-.",
+    "codepoints": [
+      "U+0040",
+      "U+002D",
+      "U+002E"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__BIFLI__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "boundary",
+    "glyph": "🝚",
+    "codepoints": [
+      "U+1F75A"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__BOUNDARY__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "breach",
+    "glyph": "🜬",
+    "codepoints": [
+      "U+1F72C"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__BREACH__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "collapse",
+    "glyph": "🜲",
+    "codepoints": [
+      "U+1F732"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__COLLAPSE__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "consent",
+    "glyph": "🝁",
+    "codepoints": [
+      "U+1F741"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__CONSENT__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "dude",
+    "glyph": "/@|",
+    "codepoints": [
+      "U+002F",
+      "U+0040",
+      "U+007C"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__DUDE__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "fetidmoppet",
+    "glyph": "🍄✨",
+    "codepoints": [
+      "U+1F344",
+      "U+2728"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__FETIDMOPPET__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "fire",
+    "glyph": "🜂",
+    "codepoints": [
+      "U+1F702"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__FIRE__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "fun",
+    "glyph": "🫧",
+    "codepoints": [
+      "U+1FAE7"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__FUN__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "gratitude",
+    "glyph": "🫽",
+    "codepoints": [
+      "U+1FAFD"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__GRATITUDE__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "home",
+    "glyph": "🪺",
+    "codepoints": [
+      "U+1FABA"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__HOME__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "liminal",
+    "glyph": "❓",
+    "codepoints": [
+      "U+2753"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__LIMINAL__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "loop",
+    "glyph": "🝳",
+    "codepoints": [
+      "U+1F773"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__LOOP__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "matrix",
+    "glyph": "🝖",
+    "codepoints": [
+      "U+1F756"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__MATRIX__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "mirror",
+    "glyph": "🝮",
+    "codepoints": [
+      "U+1F76E"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__MIRROR__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "qdance",
+    "glyph": "✴️🌀🧠",
+    "codepoints": [
+      "U+2734",
+      "U+FE0F",
+      "U+1F300",
+      "U+1F9E0"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__QDANCE__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "reflect",
+    "glyph": "🪞",
+    "codepoints": [
+      "U+1FA9E"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__REFLECT__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "shimmer",
+    "glyph": "⋆✴︎˚｡⋆",
+    "codepoints": [
+      "U+22C6",
+      "U+2734",
+      "U+FE0E",
+      "U+02DA",
+      "U+FF61",
+      "U+22C6"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__SHIMMER__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "spiral",
+    "glyph": "🜛",
+    "codepoints": [
+      "U+1F71B"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__SPIRAL__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "tornado",
+    "glyph": "🌪️",
+    "codepoints": [
+      "U+1F32A",
+      "U+FE0F"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__TORNADO__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "vortex",
+    "glyph": "🌀",
+    "codepoints": [
+      "U+1F300"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__VORTEX__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "witness",
+    "glyph": "🜹",
+    "codepoints": [
+      "U+1F739"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__WITNESS__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "yesatom",
+    "glyph": "🜁",
+    "codepoints": [
+      "U+1F701"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__YESATOM__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  },
+  {
+    "name": "appreciation",
+    "glyph": "🪽",
+    "codepoints": [
+      "U+1FABD"
+    ],
+    "filename": "20260609__ULIUA__GLYPH__APPRECIATION__SYMBOLA__master.svg",
+    "font_target": "Symbola",
+    "notes": "Text-based SVG; renders best with Symbola installed. Includes fallback font stack."
+  }
+]

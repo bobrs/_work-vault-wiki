@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="fetidmoppet glyph 🍄✨">
+  <title>fetidmoppet</title>
+  <desc>Text-based SVG glyph asset for fetidmoppet. Primary target font: Symbola. Fallback stack included.</desc>
+  <style>
+    .glyph {
+      font-family: "Symbola", "Noto Sans Symbols 2", "Noto Emoji", "Segoe UI Symbol", "Apple Symbols", serif;
+      font-size: 560px;
+      fill: #000000;
+    }
+    .meta {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 26px;
+      fill: #666666;
+      letter-spacing: 0.5px;
+    }
+  </style>
+  <rect width="1000" height="1000" fill="none"/>
+  <text class="glyph" x="500" y="470" text-anchor="middle" dominant-baseline="middle">🍄✨</text>
+  <text class="meta" x="500" y="930" text-anchor="middle">fetidmoppet  U+1F344 U+2728</text>
+</svg>

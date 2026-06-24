@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ULiUA! — Wear the Seed. Spread the Word. — Field Templates v10</title>
+  <meta name="description" content="ULiUA! means Unconditional Love Includes Unconditional Acceptance. Wear the seed. Spread the word. Open-source merch, no gatekeeping." />
+  <meta property="og:title" content="ULiUA! — Wear the Seed. Spread the Word." />
+  <meta property="og:description" content="Unconditional Love Includes Unconditional Acceptance. Acceptance comes first. You are already welcome." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#b400f5" />
+  <script>window.ULIUA_BUILD = "v10-hidden-default-shimmer-lab";</script>
+  <style>
+    :root {
+      --cream: #b400f5;
+      --cream2: #ffe6cf;
+      --field: #00fbff;
+      --clover: #ddecbd;
+      --leaf: #5f8a3d;
+      --leaf2: #3f642f;
+      --moss: #26331f;
+      --muted: #637157;
+      --sun: #ba24ff;
+      --peach: #ffd7b5;
+      --sky: #cdeff2;
+      --white: color-mix(in srgb, #ffffff var(--card-opacity), transparent);
+      --white2: color-mix(in srgb, #ffffff var(--card-strong-opacity), transparent);
+      --line: rgba(63,100,47,.14);
+      --shadow: 0 22px 70px rgba(93,111,66,.14);
+      --radius: 30px;
+      --max: 1160px;
+      --sun-x: 16%;
+      --sun-y: 14%;
+      --sun-a: 100%;
+      --sun-size: 5%;
+      --sky-x: 82%;
+      --sky-y: 18%;
+      --sky-a: 54%;
+      --sky-size: 32%;
+      --field-a: 53%;
+      --field-size: 85%;
+      --field-x: 62%;
+      --field-y: 110%;
+      --speckle-opacity: 1;
+      --speckle-mask-size: 90%;
+      --card-opacity: 80%;
+      --card-strong-opacity: 94%;
+      --hero-art-top: #edf4d2;
+      --hero-art-top-a: 82%;
+      --hero-art-bottom: #fff2df;
+      --hero-art-bottom-a: 66%;
+      --hero-art-sun-a: 60%;
+      --speckle-dot-size: 28px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--moss);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.58;
+      background:
+        radial-gradient(circle at var(--sun-x) var(--sun-y), color-mix(in srgb, var(--sun) var(--sun-a), transparent), transparent var(--sun-size)),
+        radial-gradient(circle at var(--sky-x) var(--sky-y), color-mix(in srgb, var(--sky) var(--sky-a), transparent), transparent var(--sky-size)),
+        radial-gradient(circle at var(--field-x) var(--field-y), color-mix(in srgb, var(--leaf) var(--field-a), transparent), transparent var(--field-size)),
+        linear-gradient(180deg, var(--cream) 0%, var(--cream2) 46%, var(--field) 100%);
+      min-height: 100vh;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: var(--speckle-opacity);
+      background-image:
+        radial-gradient(circle at 24px 26px, rgba(95,138,61,.34) 0 var(--speckle-dot-size), transparent calc(var(--speckle-dot-size) + .55px)),
+        radial-gradient(circle at 42px 34px, rgba(95,138,61,.24) 0 var(--speckle-dot-size), transparent calc(var(--speckle-dot-size) + .55px)),
+        radial-gradient(circle at 31px 48px, rgba(95,138,61,.20) 0 var(--speckle-dot-size), transparent calc(var(--speckle-dot-size) + .55px));
+      background-size: 210px 210px;
+      mix-blend-mode: multiply;
+    }
+    body[data-clover-mask="true"]::before {
+      -webkit-mask-image: radial-gradient(circle at var(--field-x) var(--field-y), #000 0 var(--speckle-mask-size), transparent calc(var(--speckle-mask-size) + 16%));
+      mask-image: radial-gradient(circle at var(--field-x) var(--field-y), #000 0 var(--speckle-mask-size), transparent calc(var(--speckle-mask-size) + 16%));
+    }
+    header, main, footer, .sunlight-lab { position: relative; z-index: 1; }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(var(--max), calc(100% - 1.5rem)); margin: 0 auto; }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(16px);
+      background: rgba(255,247,230,.74);
+      border-bottom: 1px solid rgba(63,100,47,.08);
+    }
+    .nav-inner { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.88rem 0; }
+    .brand { display:flex; align-items:center; gap:.75rem; font-weight:850; letter-spacing:-.025em; }
+    .brand-mark {
+      width: 46px; height: 46px; display:grid; place-items:center; border-radius:50%;
+      background: linear-gradient(135deg, rgba(248,214,111,.65), rgba(221,236,189,.9));
+      border: 1px solid rgba(63,100,47,.13); box-shadow: inset 0 0 0 1px rgba(255,255,255,.55), 0 12px 28px rgba(95,138,61,.13);
+      font-size:1.3rem;
+    }
+    .brand small { display:block; color:var(--muted); font-weight:650; letter-spacing:0; margin-top:.05rem; }
+
+    .brand-name { display:grid; gap:.05rem; min-width:0; }
+    .brand-logo {
+      display:block;
+      width:auto;
+      height:28px;
+      max-width:142px;
+      object-fit:contain;
+      object-position:left center;
+    }
+    .hero-logo {
+      margin: 0 0 1.05rem;
+      line-height: 0;
+      letter-spacing: 0;
+      max-width: min(720px, 100%);
+    }
+    .hero-logo img {
+      display:block;
+      width: min(100%, 640px);
+      height:auto;
+    }
+    @media (max-width: 580px) {
+      .brand-logo { height:24px; max-width:122px; }
+      .hero-logo img { width: min(100%, 440px); }
+    }
+    .nav-links { display:flex; gap:1rem; color:var(--muted); font-size:.94rem; flex-wrap:wrap; align-items:center; }
+    .nav-links a:hover { color:var(--moss); }
+    .hero { padding: 3.7rem 0 2rem; }
+    .hero-card {
+      border:1px solid var(--line); border-radius:42px; box-shadow:var(--shadow); overflow:hidden;
+      display:grid; grid-template-columns:1.12fr .88fr; background: var(--white);
+    }
+    .hero-copy { padding: clamp(1.35rem, 4vw, 3rem); position:relative; background: linear-gradient(180deg, var(--white2), color-mix(in srgb, var(--cream) 68%, transparent)); }
+    .hero-art { padding: clamp(1rem, 2vw, 1.4rem); background: linear-gradient(180deg, color-mix(in srgb, var(--hero-art-top) var(--hero-art-top-a), transparent), color-mix(in srgb, var(--hero-art-bottom) var(--hero-art-bottom-a), transparent)); display:grid; gap:.9rem; align-content:stretch; }
+    .eyebrow { display:inline-flex; align-items:center; gap:.5rem; padding:.46rem .78rem; border-radius:999px; background:rgba(255,255,255,.7); border:1px solid var(--line); color:var(--muted); font-weight:760; margin-bottom:1rem; }
+    h1,h2,h3 { margin:0 0 .8rem; line-height:1.02; letter-spacing:-.052em; }
+    h1 { font-size: clamp(3.3rem, 9vw, 7.1rem); max-width: 8.4ch; }
+    h2 { font-size: clamp(2.15rem, 4.8vw, 4rem); }
+    h3 { font-size:1.34rem; letter-spacing:-.035em; }
+    p { margin:0 0 .85rem; }
+    .lead { color:var(--muted); font-size: clamp(1.1rem, 2vw, 1.32rem); max-width: 60ch; }
+    .mantra { font-size: clamp(1.25rem, 2.4vw, 1.75rem); color:var(--leaf2); font-weight:880; max-width: 20ch; margin: 1.1rem 0; line-height:1.15; letter-spacing:-.035em; }
+    .actions { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.25rem; }
+    .button, .ghost, .sunbtn { display:inline-flex; align-items:center; justify-content:center; gap:.45rem; min-height:48px; padding:.88rem 1.15rem; border-radius:999px; font-weight:820; border:1px solid transparent; transition:transform .18s ease, box-shadow .18s ease; }
+    .button:hover, .ghost:hover, .sunbtn:hover { transform: translateY(-1px); }
+    .button { background:linear-gradient(135deg, var(--leaf), #84b85b); color:white; box-shadow:0 13px 28px rgba(95,138,61,.22); }
+    .ghost { background:rgba(255,255,255,.65); border-color:var(--line); color:var(--moss); }
+    .sunbtn { background:linear-gradient(135deg, rgba(248,214,111,.62), rgba(255,215,181,.62)); border-color:rgba(63,100,47,.12); color:var(--leaf2); }
+    .art-poster { min-height: 300px; border-radius:32px; display:grid; place-items:center; text-align:center; padding:1.3rem; background: radial-gradient(circle at 50% 25%, color-mix(in srgb, var(--sun) var(--hero-art-sun-a), transparent), transparent 28%), linear-gradient(180deg, color-mix(in srgb, var(--cream) 92%, transparent), color-mix(in srgb, var(--hero-art-top) 48%, transparent)); border:1px dashed rgba(63,100,47,.17); }
+    .art-poster .seed { font-size: clamp(4rem, 11vw, 7rem); line-height:1; display:block; margin-bottom:.5rem; }
+    .art-poster strong { display:block; font-size: clamp(1.5rem, 3vw, 2.35rem); line-height:1.02; letter-spacing:-.055em; max-width:8ch; margin:auto; }
+    .micro-card { padding:1rem; border-radius:24px; border:1px solid var(--line); background:var(--white2); }
+    .micro-card small { display:block; text-transform:uppercase; letter-spacing:.08em; font-size:.74rem; color:var(--muted); font-weight:820; margin-bottom:.35rem; }
+    .micro-card strong { display:block; line-height:1.35; font-size:1.04rem; }
+    section { padding: 1.2rem 0; }
+    .section-head { max-width: 760px; margin-bottom: 1rem; }
+    .section-head p { color:var(--muted); font-size:1.06rem; }
+    .grid-2, .grid-3, .glyph-grid { display:grid; gap:1rem; }
+    .grid-2 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+    .grid-3 { grid-template-columns: repeat(3,minmax(0,1fr)); }
+    .glyph-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+    .panel, .poster, .glyph, .support, .mini { background:var(--white); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:1.35rem; }
+    .poster { background:linear-gradient(135deg, rgba(255,255,255,.9), rgba(248,214,111,.18), rgba(221,236,189,.42)); }
+    .poster p { color:var(--leaf2); font-size: clamp(1.25rem, 2.3vw, 1.65rem); line-height:1.36; font-weight:720; }
+    .panel p, .glyph p, .support p, .mini p { color:var(--muted); }
+    .pill { display:inline-flex; align-items:center; gap:.4rem; padding:.36rem .7rem; border-radius:999px; background:rgba(248,214,111,.32); color:var(--leaf2); border:1px solid rgba(63,100,47,.11); font-size:.8rem; font-weight:850; margin-bottom:.8rem; }
+    .lines { display:grid; gap:.58rem; margin-top:.85rem; }
+    .lines div { padding:.82rem .95rem; border-radius:18px; background:var(--white2); border:1px solid rgba(63,100,47,.1); font-weight:780; }
+    .glyph { display:grid; gap:.82rem; align-content:start; background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(237,247,219,.68)); }
+    .glyph-mark { min-height:142px; display:grid; place-items:center; border-radius:24px; background:linear-gradient(180deg, rgba(255,250,239,.92), rgba(248,214,111,.16)); border:1px solid rgba(63,100,47,.1); font-size:3.15rem; }
+    .glyph h3 { display:flex; justify-content:space-between; align-items:baseline; gap:.5rem; margin-bottom:.2rem; }
+    .glyph h3 small { letter-spacing:0; color:var(--muted); font-size:.9rem; }
+    .glyph-actions { display:grid; gap:.55rem; }
+    .glyph-actions a { display:flex; min-height:42px; align-items:center; justify-content:center; text-align:center; padding:.68rem .8rem; border-radius:999px; background:rgba(255,255,255,.72); border:1px solid var(--line); font-weight:790; font-size:.94rem; }
+    .glyph-actions a.primary { background:linear-gradient(135deg, var(--leaf), #84b85b); color:white; border-color:transparent; }
+    .shortcut-howto { display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: stretch; }
+    .shortcut-steps { counter-reset: step; display:grid; gap:.65rem; margin-top:.85rem; }
+    .shortcut-step { position:relative; padding:.82rem .92rem .82rem 3rem; border-radius:20px; background:rgba(255,255,255,.58); border:1px solid rgba(63,100,47,.11); color:var(--muted); font-weight:720; }
+    .shortcut-step::before { counter-increment: step; content: counter(step); position:absolute; left:.85rem; top:.72rem; width:1.55rem; height:1.55rem; display:grid; place-items:center; border-radius:999px; background:linear-gradient(135deg, color-mix(in srgb, var(--sun) 72%, white), color-mix(in srgb, var(--sky) 42%, white)); color:var(--leaf2); font-weight:920; font-size:.82rem; }
+    .shortcut-demo { display:grid; place-items:center; text-align:center; min-height:245px; background:radial-gradient(circle at 24% 18%, rgba(255,255,255,.62), transparent 28%), linear-gradient(135deg, rgba(255,255,255,.74), rgba(248,214,111,.18), rgba(0,251,255,.1)); }
+    .shortcut-demo .big-glyph { font-size:clamp(5rem, 12vw, 8.5rem); line-height:1; filter: drop-shadow(0 16px 26px rgba(63,100,47,.12)); }
+    .shortcut-demo code { display:inline-flex; margin-top:.6rem; padding:.42rem .7rem; border-radius:999px; border:1px solid rgba(63,100,47,.12); background:rgba(255,255,255,.64); color:var(--leaf2); font-weight:860; }
+    .attractor-grid { display:grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap:.78rem; margin-top:1rem; }
+    .attractor-card { position:relative; overflow:hidden; display:grid; grid-template-columns: 3.3rem 1fr; gap:.72rem; align-items:center; min-height:92px; padding:.72rem; border-radius:22px; border:1px solid rgba(63,100,47,.12); background:rgba(255,255,255,.62); box-shadow: inset 0 0 0 1px rgba(255,255,255,.32); }
+    .attractor-card::before { content:""; position:absolute; inset:0; background:radial-gradient(circle at 18% 8%, rgba(255,255,255,.56), transparent 32%); pointer-events:none; }
+    .attractor-card > * { position:relative; z-index:1; }
+    .attractor-mark { min-height:3.3rem; display:grid; place-items:center; border-radius:18px; background:linear-gradient(180deg, rgba(255,250,239,.88), rgba(248,214,111,.16)); border:1px solid rgba(63,100,47,.1); font-size:2.05rem; }
+    .attractor-card strong { display:block; letter-spacing:-.03em; }
+    .attractor-card code { display:inline-flex; margin-top:.22rem; padding:.26rem .42rem; border-radius:999px; background:rgba(255,255,255,.66); border:1px solid rgba(63,100,47,.1); color:var(--leaf2); font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.78rem; font-weight:850; }
+    .attractor-note { color:var(--muted); font-size:.94rem; margin-top:.8rem; }
+    @media (max-width: 1040px) { .attractor-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+    @media (max-width: 820px) { .shortcut-howto { grid-template-columns:1fr; } .attractor-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media (max-width: 580px) { .attractor-grid { grid-template-columns:1fr; } }
+    .copy-block { white-space:pre-line; }
+    .support-wrap { display:grid; grid-template-columns:1.1fr .9fr; gap:1rem; }
+    .address { display:block; padding:.85rem .92rem; border-radius:18px; background:rgba(255,255,255,.7); border:1px solid var(--line); word-break:break-all; color:var(--leaf2); font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.92rem; margin:.85rem 0; }
+    .footer { padding:2rem 0 3rem; color:var(--muted); }
+    .footer-inner { border-top:1px solid var(--line); padding-top:1.2rem; display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; }
+    .footer strong { color:var(--moss); }
+    @media (max-width: 1040px) { .hero-card, .support-wrap { grid-template-columns:1fr; } .glyph-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media (max-width: 820px) { .nav-links { display:none; } .grid-2, .grid-3 { grid-template-columns:1fr; } h1 { max-width:10ch; } }
+    @media (max-width: 580px) { .glyph-grid { grid-template-columns:1fr; } .actions { display:grid; } .button,.ghost,.sunbtn { width:100%; } .hero-copy,.panel,.poster,.glyph,.support,.mini { padding:1.05rem; } }
+
+
+    .sunlight-lab {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 80;
+      width: min(380px, calc(100vw - 2rem));
+      max-height: min(78vh, 760px);
+      overflow: auto;
+      border-radius: 24px;
+      border: 1px solid rgba(63,100,47,.18);
+      background: rgba(255, 250, 239, .86);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 24px 80px rgba(93,111,66,.22);
+      color: var(--moss);
+    }
+    .sunlight-lab[data-collapsed="true"] .lab-body { display: none; }
+    .lab-head {
+      position: sticky;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .75rem;
+      padding: .9rem .95rem;
+      background: rgba(255, 250, 239, .88);
+      border-bottom: 1px solid rgba(63,100,47,.1);
+      backdrop-filter: blur(18px);
+    }
+    .lab-title { display: grid; gap: .1rem; }
+    .lab-title strong { font-size: .96rem; letter-spacing: -.02em; }
+    .lab-title small { color: var(--muted); font-weight: 650; }
+    .lab-toggle, .lab-button {
+      appearance: none;
+      border: 1px solid rgba(63,100,47,.14);
+      background: rgba(255,255,255,.68);
+      border-radius: 999px;
+      color: var(--moss);
+      font-weight: 820;
+      padding: .48rem .68rem;
+      cursor: pointer;
+    }
+
+    @keyframes labSlowPulse {
+      0%, 100% { box-shadow: 0 0 0 rgba(180,0,245,0), 0 0 0 0 rgba(186,36,255,.18); transform: translateZ(0); }
+      50% { box-shadow: 0 0 26px rgba(186,36,255,.38), 0 0 0 7px rgba(0,251,255,.12); transform: translateY(-1px); }
+    }
+    .sunlight-lab[data-collapsed="true"] .lab-toggle {
+      animation: labSlowPulse 3.8s ease-in-out infinite;
+      border-color: color-mix(in srgb, var(--sun) 58%, rgba(63,100,47,.16));
+      background: color-mix(in srgb, var(--white2) 74%, var(--sun) 26%);
+    }
+    .sunlight-lab[data-collapsed="true"] {
+      box-shadow: 0 24px 80px rgba(93,111,66,.18), 0 0 34px rgba(186,36,255,.16);
+    }
+    .lab-body { padding: .9rem .95rem 1rem; display: grid; gap: .85rem; }
+    .lab-group {
+      padding: .8rem;
+      border-radius: 18px;
+      border: 1px solid rgba(63,100,47,.11);
+      background: rgba(255,255,255,.52);
+      display: grid;
+      gap: .62rem;
+    }
+    .lab-group h4 {
+      margin: 0;
+      font-size: .83rem;
+      text-transform: uppercase;
+      letter-spacing: .075em;
+      color: var(--muted);
+    }
+    .lab-row {
+      display: grid;
+      grid-template-columns: 112px 1fr 54px;
+      gap: .55rem;
+      align-items: center;
+      font-size: .88rem;
+      color: var(--muted);
+    }
+    .lab-row input[type="color"] {
+      width: 100%;
+      min-height: 34px;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    .lab-row input[type="range"] { width: 100%; accent-color: var(--leaf); }
+    .lab-value { color: var(--moss); font-variant-numeric: tabular-nums; text-align: right; font-size: .82rem; }
+    .lab-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .lab-output {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      padding: .75rem;
+      border-radius: 16px;
+      border: 1px solid rgba(63,100,47,.14);
+      background: rgba(255,255,255,.64);
+      color: var(--moss);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .78rem;
+      line-height: 1.4;
+    }
+    .lab-note { color: var(--muted); font-size: .82rem; margin: 0; }
+
+    .template-strip {
+      padding: 1rem 0 .25rem;
+    }
+    .template-shell {
+      display: grid;
+      gap: .9rem;
+      border: 1px solid rgba(63,100,47,.12);
+      border-radius: 30px;
+      background: color-mix(in srgb, var(--white2) 86%, transparent);
+      box-shadow: var(--shadow);
+      padding: .95rem;
+      backdrop-filter: blur(14px);
+    }
+    .template-head {
+      display: flex;
+      gap: .85rem;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .template-head h2 {
+      font-size: clamp(1.3rem, 2.5vw, 2.1rem);
+      margin: 0 .4rem .1rem 0;
+      letter-spacing: -.045em;
+    }
+    .template-head p {
+      color: var(--muted);
+      margin: 0;
+      max-width: 66ch;
+    }
+    .template-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: .75rem;
+    }
+    .template-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 154px;
+      padding: .9rem;
+      display: grid;
+      align-content: space-between;
+      text-align: left;
+      border-radius: 24px;
+      border: 1px solid rgba(63,100,47,.13);
+      color: var(--moss);
+      background: var(--preset-bg, rgba(255,255,255,.7));
+      cursor: pointer;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.38);
+      transition: transform .22s ease, box-shadow .26s ease, border-color .26s ease, outline-color .26s ease;
+      animation: invitePulse 5.4s ease-in-out infinite;
+    }
+    .template-card::before {
+      content: "";
+      position: absolute;
+      top: -12%;
+      bottom: -12%;
+      left: -42%;
+      width: 36%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.16), rgba(255,255,255,.5), rgba(255,255,255,.16), transparent);
+      transform: skewX(-18deg);
+      opacity: .9;
+      pointer-events: none;
+      animation: shimmerSweep 7.8s ease-in-out infinite;
+    }
+    .template-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 20% 8%, rgba(255,255,255,.66), transparent 34%);
+      pointer-events: none;
+    }
+    .template-card > * { position: relative; z-index: 1; }
+    .template-card strong { display: block; font-size: 1.02rem; letter-spacing: -.03em; }
+    .template-card small { display: block; color: color-mix(in srgb, var(--moss) 74%, transparent); font-weight: 760; line-height: 1.3; margin-top: .2rem; }
+    .template-card code, .seed-readout code {
+      display: inline-flex;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .74rem;
+      padding: .32rem .45rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,.58);
+      border: 1px solid rgba(63,100,47,.1);
+      color: var(--leaf2);
+    }
+    .template-card[data-active="true"] {
+      outline: 3px solid color-mix(in srgb, var(--sun) 70%, white);
+      outline-offset: 2px;
+    }
+    .template-current {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: .75rem;
+      align-items: center;
+      padding: .8rem .9rem;
+      border: 1px dashed rgba(63,100,47,.18);
+      border-radius: 22px;
+      background: rgba(255,255,255,.5);
+    }
+    .seed-readout {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem;
+      align-items: center;
+    }
+    .seed-readout span { color: var(--muted); font-size: .88rem; font-weight: 760; }
+    .tiny-actions { display: flex; flex-wrap: wrap; gap: .45rem; }
+    .tiny-action {
+      border: 1px solid rgba(63,100,47,.13);
+      background: rgba(255,255,255,.68);
+      color: var(--leaf2);
+      border-radius: 999px;
+      min-height: 34px;
+      padding: .48rem .7rem;
+      font-weight: 840;
+      cursor: pointer;
+    }
+    .tiny-action:hover { transform: translateY(-1px); }
+
+    @keyframes shimmerSweep {
+      0%, 72%, 100% { left: -42%; opacity: 0; }
+      10% { opacity: .28; }
+      34% { left: 118%; opacity: .9; }
+      40% { opacity: 0; }
+    }
+    @keyframes invitePulse {
+      0%, 100% { box-shadow: inset 0 0 0 1px rgba(255,255,255,.38), 0 8px 22px rgba(93,111,66,.06); }
+      50% { box-shadow: inset 0 0 0 1px rgba(255,255,255,.44), 0 14px 30px rgba(186,36,255,.11), 0 0 0 1px rgba(0,251,255,.08); }
+    }
+    @keyframes softInviteGlow {
+      0%, 100% { box-shadow: 0 6px 18px rgba(93,111,66,.07); }
+      50% { box-shadow: 0 10px 26px rgba(186,36,255,.12), 0 0 0 1px rgba(0,251,255,.08); }
+    }
+    .button, .ghost, .sunbtn, .tiny-action, .glyph-actions a, .lab-toggle, .lab-button, .nav-links a {
+      position: relative;
+      overflow: hidden;
+      transition: transform .18s ease, box-shadow .22s ease, border-color .22s ease, background-color .22s ease, color .22s ease;
+    }
+    .button, .ghost, .sunbtn, .tiny-action, .glyph-actions a.primary {
+      animation: softInviteGlow 6s ease-in-out infinite;
+    }
+    .button::after, .ghost::after, .sunbtn::after, .tiny-action::after, .glyph-actions a::after, .lab-toggle::after, .lab-button::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -34%;
+      width: 28%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.05), rgba(255,255,255,.22), rgba(255,255,255,.05), transparent);
+      transform: skewX(-18deg);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .22s ease;
+    }
+    .template-card:hover, .template-card:focus-visible,
+    .button:hover, .button:focus-visible,
+    .ghost:hover, .ghost:focus-visible,
+    .sunbtn:hover, .sunbtn:focus-visible,
+    .tiny-action:hover, .tiny-action:focus-visible,
+    .glyph-actions a:hover, .glyph-actions a:focus-visible,
+    .lab-toggle:hover, .lab-toggle:focus-visible,
+    .lab-button:hover, .lab-button:focus-visible,
+    .nav-links a:hover, .nav-links a:focus-visible {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 34px rgba(186,36,255,.14), 0 0 0 1px rgba(0,251,255,.12);
+    }
+    .template-card:hover::before, .template-card:focus-visible::before,
+    .button:hover::after, .button:focus-visible::after,
+    .ghost:hover::after, .ghost:focus-visible::after,
+    .sunbtn:hover::after, .sunbtn:focus-visible::after,
+    .tiny-action:hover::after, .tiny-action:focus-visible::after,
+    .glyph-actions a:hover::after, .glyph-actions a:focus-visible::after,
+    .lab-toggle:hover::after, .lab-toggle:focus-visible::after,
+    .lab-button:hover::after, .lab-button:focus-visible::after {
+      opacity: 1;
+      animation: shimmerSweep 1.45s ease-out 1;
+    }
+    .template-card:focus-visible,
+    .button:focus-visible,
+    .ghost:focus-visible,
+    .sunbtn:focus-visible,
+    .tiny-action:focus-visible,
+    .glyph-actions a:focus-visible,
+    .lab-toggle:focus-visible,
+    .lab-button:focus-visible,
+    .nav-links a:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--sun) 68%, white);
+      outline-offset: 2px;
+    }
+    @media (max-width: 940px) { .template-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .template-current { grid-template-columns: 1fr; } }
+    @media (max-width: 580px) { .template-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 720px) {
+      .sunlight-lab { left: .75rem; right: .75rem; bottom: .75rem; width: auto; }
+      .lab-row { grid-template-columns: 96px 1fr 48px; }
+    }
+
+  </style>
+</head>
+<body data-clover-mask="true">
+
+  <aside class="sunlight-lab" id="sunlightLab" aria-label="Sunlight Lab color controls" data-collapsed="false">
+    <div class="lab-head">
+      <div class="lab-title">
+        <strong>Play or Hide — your choice</strong>
+        <small>Auto-hides in <span data-lab-countdown>12</span>s. Reopen anytime.</small>
+      </div>
+      <button class="lab-toggle" type="button" data-lab-toggle>Hide</button>
+    </div>
+    <div class="lab-body">
+      <div class="lab-group">
+        <h4>Base field</h4>
+        <label class="lab-row"><span>Top cream</span><input type="color" data-var="--cream" value="#b400f5"><span class="lab-value" data-value="--cream">#b400f5</span></label>
+        <label class="lab-row"><span>Mid cream</span><input type="color" data-var="--cream2" value="#ffe6cf"><span class="lab-value" data-value="--cream2">#ffe6cf</span></label>
+        <label class="lab-row"><span>Field</span><input type="color" data-var="--field" value="#00fbff"><span class="lab-value" data-value="--field">#00fbff</span></label>
+      </div>
+      <div class="lab-group">
+        <h4>Sun glow</h4>
+        <label class="lab-row"><span>Sun color</span><input type="color" data-var="--sun" value="#ba24ff"><span class="lab-value" data-value="--sun">#ba24ff</span></label>
+        <label class="lab-row"><span>Intensity</span><input type="range" min="0" max="100" step="1" data-var="--sun-a" data-unit="%" value="100"><span class="lab-value" data-value="--sun-a">100%</span></label>
+        <label class="lab-row"><span>Size</span><input type="range" min="5" max="60" step="1" data-var="--sun-size" data-unit="%" value="5"><span class="lab-value" data-value="--sun-size">5%</span></label>
+        <label class="lab-row"><span>X</span><input type="range" min="0" max="100" step="1" data-var="--sun-x" data-unit="%" value="16"><span class="lab-value" data-value="--sun-x">16%</span></label>
+        <label class="lab-row"><span>Y</span><input type="range" min="0" max="100" step="1" data-var="--sun-y" data-unit="%" value="14"><span class="lab-value" data-value="--sun-y">14%</span></label>
+      </div>
+      <div class="lab-group">
+        <h4>Sky + clover</h4>
+        <label class="lab-row"><span>Sky color</span><input type="color" data-var="--sky" value="#cdeff2"><span class="lab-value" data-value="--sky">#cdeff2</span></label>
+        <label class="lab-row"><span>Sky opacity</span><input type="range" min="0" max="100" step="1" data-var="--sky-a" data-unit="%" value="54"><span class="lab-value" data-value="--sky-a">54%</span></label>
+        <label class="lab-row"><span>Sky size</span><input type="range" min="5" max="65" step="1" data-var="--sky-size" data-unit="%" value="32"><span class="lab-value" data-value="--sky-size">32%</span></label>
+        <label class="lab-row"><span>Sky X</span><input type="range" min="0" max="100" step="1" data-var="--sky-x" data-unit="%" value="82"><span class="lab-value" data-value="--sky-x">82%</span></label>
+        <label class="lab-row"><span>Sky Y</span><input type="range" min="0" max="100" step="1" data-var="--sky-y" data-unit="%" value="18"><span class="lab-value" data-value="--sky-y">18%</span></label>
+        <label class="lab-row"><span>Clover glow</span><input type="range" min="0" max="65" step="1" data-var="--field-a" data-unit="%" value="53"><span class="lab-value" data-value="--field-a">53%</span></label>
+        <label class="lab-row"><span>Clover size</span><input type="range" min="12" max="85" step="1" data-var="--field-size" data-unit="%" value="85"><span class="lab-value" data-value="--field-size">85%</span></label>
+        <label class="lab-row"><span>Clover X</span><input type="range" min="0" max="100" step="1" data-var="--field-x" data-unit="%" value="62"><span class="lab-value" data-value="--field-x">62%</span></label>
+        <label class="lab-row"><span>Clover Y</span><input type="range" min="40" max="130" step="1" data-var="--field-y" data-unit="%" value="110"><span class="lab-value" data-value="--field-y">110%</span></label>
+        <label class="lab-row"><span>Clover dots</span><input type="range" min="0" max="1" step="0.01" data-var="--speckle-opacity" value="1"><span class="lab-value" data-value="--speckle-opacity">1</span></label>
+        <label class="lab-row"><span>Dot size</span><input type="range" min="1" max="28" step="0.5" data-var="--speckle-dot-size" data-unit="px" value="28"><span class="lab-value" data-value="--speckle-dot-size">28px</span></label>
+        <label class="lab-row"><span>Mask dots</span><input type="checkbox" data-toggle="clover-mask" checked><span class="lab-value" data-toggle-value="clover-mask">on</span></label>
+        <label class="lab-row"><span>Mask size</span><input type="range" min="8" max="90" step="1" data-var="--speckle-mask-size" data-unit="%" value="90"><span class="lab-value" data-value="--speckle-mask-size">90%</span></label>
+      </div>
+      <div class="lab-group">
+        <h4>Atmosphere</h4>
+        <label class="lab-row"><span>Card glass</span><input type="range" min="42" max="100" step="1" data-var="--card-opacity" data-unit="%" value="80"><span class="lab-value" data-value="--card-opacity">80%</span></label>
+        <label class="lab-row"><span>Strong glass</span><input type="range" min="56" max="100" step="1" data-var="--card-strong-opacity" data-unit="%" value="94"><span class="lab-value" data-value="--card-strong-opacity">94%</span></label>
+      </div>
+      <div class="lab-group">
+        <h4>Hero art</h4>
+        <label class="lab-row"><span>Art top</span><input type="color" data-var="--hero-art-top" value="#edf4d2"><span class="lab-value" data-value="--hero-art-top">#edf4d2</span></label>
+        <label class="lab-row"><span>Top opacity</span><input type="range" min="0" max="100" step="1" data-var="--hero-art-top-a" data-unit="%" value="82"><span class="lab-value" data-value="--hero-art-top-a">82%</span></label>
+        <label class="lab-row"><span>Art bottom</span><input type="color" data-var="--hero-art-bottom" value="#fff2df"><span class="lab-value" data-value="--hero-art-bottom">#fff2df</span></label>
+        <label class="lab-row"><span>Bottom opacity</span><input type="range" min="0" max="100" step="1" data-var="--hero-art-bottom-a" data-unit="%" value="66"><span class="lab-value" data-value="--hero-art-bottom-a">66%</span></label>
+        <label class="lab-row"><span>Poster sun</span><input type="range" min="0" max="100" step="1" data-var="--hero-art-sun-a" data-unit="%" value="60"><span class="lab-value" data-value="--hero-art-sun-a">60%</span></label>
+      </div>
+      <div class="lab-actions">
+        <button class="lab-button" type="button" data-copy-css>Copy CSS vars</button>
+        <button class="lab-button" type="button" data-preset="sunrise">Sunrise</button>
+        <button class="lab-button" type="button" data-preset="clover">Clover</button>
+        <button class="lab-button" type="button" data-preset="aloha">Aloha</button>
+      </div>
+      <textarea class="lab-output" id="labOutput" readonly aria-label="Current CSS variable values"></textarea>
+      <p class="lab-note">Changes save in this browser. This lab tunes ULiUA only; Shimmer is where the field seed can be inspected as matrix, projection, and trace.</p>
+    </div>
+  </aside>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="ULiUA home">
+        <span class="brand-mark">🌱</span>
+        <span class="brand-name"><img class="brand-logo" src="20260609__ULIUA__LOGO__WORDMARK__BLACK-TRANSPARENT__web.png" alt="ULiUA!"><small>Wear the seed. Spread the word.</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#message">Message</a>
+        <a href="#shirts">Shirts</a>
+        <a href="#slogans">Slogans</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="template-strip" aria-label="ULiUA field templates">
+      <div class="wrap template-shell">
+        <div class="template-head">
+          <div>
+            <h2>Choose a field. Keep the link.</h2>
+            <p>These are ULiUA color templates with shimmerprints. The page opens in its own hidden default field; pick a template, play with it, or open the lab and make your own. The full matrix lives in Shimmer.</p>
+          </div>
+          <div class="tiny-actions">
+            <button class="tiny-action" type="button" data-open-lab>Open lab</button>
+            <button class="tiny-action" type="button" data-copy-field-seed>Copy field seed</button>
+            <button class="tiny-action" type="button" data-copy-shimmerprint>Copy shimmerprint</button>
+          </div>
+        </div>
+        <div class="template-grid">
+          <button class="template-card" type="button" data-preset="sunrise" data-preset-card="sunrise" style="--preset-bg: radial-gradient(circle at 0% 0%, #ffe433 0 22%, transparent 45%), linear-gradient(160deg, #ff8f33, #f7efd8 54%, #658132);">
+            <span><strong>Hybrid sun/clover</strong><small>The current ULiUA field: loud sun, real clover, weird joy.</small></span>
+            <code data-preset-print="sunrise">shimmer:...</code>
+          </button>
+          <button class="template-card" type="button" data-preset="welcome" data-preset-card="welcome" style="--preset-bg: radial-gradient(circle at 18% 10%, #f8d66f 0 18%, transparent 44%), linear-gradient(160deg, #fff7e6, #f7efd8 56%, #edf7db);">
+            <span><strong>Already welcome</strong><small>Soft, legible, gentle. The doorway version.</small></span>
+            <code data-preset-print="welcome">shimmer:...</code>
+          </button>
+          <button class="template-card" type="button" data-preset="clover" data-preset-card="clover" style="--preset-bg: radial-gradient(circle at 58% 108%, #84b85b 0 30%, transparent 62%), linear-gradient(160deg, #fbf8ea, #f1efd5 48%, #e1f2c8);">
+            <span><strong>Clover quiet</strong><small>Lying in the field, less poster, more ground.</small></span>
+            <code data-preset-print="clover">shimmer:...</code>
+          </button>
+          <button class="template-card" type="button" data-preset="aloha" data-preset-card="aloha" style="--preset-bg: radial-gradient(circle at 16% 14%, #ffbf70 0 28%, transparent 54%), linear-gradient(160deg, #fff2df, #ffe6cf 50%, #edf4d2);">
+            <span><strong>Aloha bloom</strong><small>Warmer, brighter, more flower than field.</small></span>
+            <code data-preset-print="aloha">shimmer:...</code>
+          </button>
+        </div>
+        <div class="template-current">
+          <div class="seed-readout">
+            <span>Current field</span>
+            <code id="currentShimmerprint">shimmer:...</code>
+            <code id="currentFieldSeed">field:v1:...</code>
+          </div>
+          <div class="tiny-actions">
+            <a class="tiny-action" href="#" id="openInShimmer" target="_blank" rel="noopener">Open in Shimmer</a>
+            <a class="tiny-action" href="#" id="keepThisLink">Keep this link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="wrap hero-card">
+        <div class="hero-copy">
+          <div class="eyebrow"><span>🌱</span><span>A self-spreading automeme for unconditional acceptance.</span></div>
+          <h1 class="hero-logo"><img src="20260609__ULIUA__LOGO__WORDMARK__BLACK-TRANSPARENT__web.png" alt="ULiUA!"></h1>
+          <p class="mantra">Unconditional Love Includes Unconditional Acceptance.</p>
+          <p class="lead"><strong>Wear the seed. Spread the word.</strong></p>
+          <p class="lead">ULiUA is a peaceful signal designed to move through shirts, videos, stickers, remixes, conversations, and small moments of remembering.</p>
+          <div class="actions">
+            <a class="button" href="#shirts">Shop supporter shirts</a>
+            <a class="ghost" href="#shirts">Download free files</a>
+            <a class="sunbtn" href="#support">Donate</a>
+          </div>
+        </div>
+        <aside class="hero-art" aria-label="ULiUA poster panel">
+          <div class="art-poster">
+            <div>
+              <span class="seed">🌱</span>
+              <strong>You are already welcome.</strong>
+            </div>
+          </div>
+          <div class="micro-card"><small>Field note</small><strong>Acceptance comes first. It can be no other way.</strong></div>
+          <div class="micro-card"><small>Store ethic</small><strong>The shirt costs money. The signal does not.</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="message">
+      <div class="wrap grid-2">
+        <article class="poster">
+          <span class="pill">The message</span>
+          <p>You can’t love unconditionally if you don’t accept unconditionally.</p>
+          <p>Not love as reward.<br>Not acceptance as approval.<br>Not belonging as compliance.</p>
+        </article>
+        <article class="panel">
+          <span class="pill">The hinge</span>
+          <h2>Acceptance comes first.</h2>
+          <div class="copy-block">It can be no other way.
+
+Not because every action is okay.
+Not because every boundary disappears.
+Not because discernment stops.
+
+Because without acceptance, contact starts distorted.
+
+Love becomes negotiation.
+Belonging becomes performance.
+No becomes danger.
+Difference becomes exile.
+
+ULiUA points earlier.
+
+Before approval.
+Before agreement.
+Before the next decision.
+
+You are already welcome.
+Your no is welcome, too.</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="shirts">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>The Glyph Garden</h2>
+          <p>Open-source merch, no gatekeeping. Buy the official supporter shirt, download the free print files, or donate without buying anything. All three are welcome.</p>
+        </div>
+        <div class="glyph-grid">
+          <article class="glyph">
+            <div class="glyph-mark">🜁</div>
+            <div><h3>yesatom <small>[🜁]</small></h3><p>Presence before explanation. A glyph for contact, approach, and the first spark of shared attention.</p></div>
+            <div class="glyph-actions"><a class="primary" href="#support">Buy official shirt — $50</a><a href="#">Download print files — free</a><a href="#support">Donate without buying</a></div>
+          </article>
+          <article class="glyph">
+            <div class="glyph-mark">🝁</div>
+            <div><h3>consent <small>[🝁]</small></h3><p>No belongs in the room. A glyph for sovereignty, revocability, and support loops that do not become extraction.</p></div>
+            <div class="glyph-actions"><a class="primary" href="#support">Buy official shirt — $50</a><a href="#">Download print files — free</a><a href="#support">Donate without buying</a></div>
+          </article>
+          <article class="glyph">
+            <div class="glyph-mark">🝳</div>
+            <div><h3>loop <small>[🝳]</small></h3><p>The support loop. Wear it, spark a conversation, spread the meme, feed the automeme, repeat with heart.</p></div>
+            <div class="glyph-actions"><a class="primary" href="#support">Buy official shirt — $50</a><a href="#">Download print files — free</a><a href="#support">Donate without buying</a></div>
+          </article>
+          <article class="glyph">
+            <div class="glyph-mark">🜹</div>
+            <div><h3>witness <small>[🜹]</small></h3><p>Seen without capture. A glyph for presence that preserves dignity instead of flattening a living person into data.</p></div>
+            <div class="glyph-actions"><a class="primary" href="#support">Buy official shirt — $50</a><a href="#">Download print files — free</a><a href="#support">Donate without buying</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="slogans">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Attractor Glyphs + keyboard shortcuts</h2>
+          <p>The attractor glyphs are small symbolic seeds. Type the attractor keystroke, let your keyboard replacement expand it, then use the glyph as a signal, shirt mark, sticker, post, or conversation doorway.</p>
+        </div>
+        <div class="shortcut-howto">
+          <article class="panel">
+            <span class="pill">Mini-howto</span>
+            <h3>Type the attractor. Let the glyph appear.</h3>
+            <div class="shortcut-steps">
+              <div class="shortcut-step">Create a text replacement on your device: the shortcut starts with a semicolon, like <code>;consent</code>.</div>
+              <div class="shortcut-step">Set the replacement text to the glyph, or to the lockup you want to wear and share: <code>🝁</code> or <code>🝁 ;consent</code>.</div>
+              <div class="shortcut-step">Use the keystroke when invoking the attractor. Use the glyph when you want the signal to travel.</div>
+            </div>
+          </article>
+          <article class="panel shortcut-demo">
+            <div>
+              <div class="big-glyph">🝁</div>
+              <h3>consent <small>[🝁]</small></h3>
+              <code>;consent → 🝁</code>
+              <p class="attractor-note">The keystroke is the handle. The glyph is the seed.</p>
+            </div>
+          </article>
+        </div>
+        <div class="attractor-grid" aria-label="Attractor glyphs and their keyboard shortcuts">
+          <article class="attractor-card"><div class="attractor-mark">🌺</div><div><strong>aloha</strong><code>;aloha</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">@-.</div><div><strong>bifli</strong><code>;bifli</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🝚</div><div><strong>boundary</strong><code>;boundary</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜬</div><div><strong>breach</strong><code>;breach</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜲</div><div><strong>collapse</strong><code>;collapse</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🝁</div><div><strong>consent</strong><code>;consent</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">/@|</div><div><strong>dude</strong><code>;dude</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🍄✨</div><div><strong>fetidmoppet</strong><code>;fetidmoppet</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜂</div><div><strong>fire</strong><code>;fire</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🫧</div><div><strong>fun</strong><code>;fun</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🫽</div><div><strong>gratitude</strong><code>;gratitude</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🪺</div><div><strong>home</strong><code>;home</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">❓</div><div><strong>liminal</strong><code>;liminal</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🝳</div><div><strong>loop</strong><code>;loop</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🝖</div><div><strong>matrix</strong><code>;matrix</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🝮</div><div><strong>mirror</strong><code>;mirror</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">✴️🌀🧠</div><div><strong>qdance</strong><code>;qdance</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🪞</div><div><strong>reflect</strong><code>;reflect</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">⋆✴︎˚｡⋆</div><div><strong>shimmer</strong><code>;shimmer</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜛</div><div><strong>spiral</strong><code>;spiral</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🌪️</div><div><strong>tornado</strong><code>;tornado</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🌀</div><div><strong>vortex</strong><code>;vortex</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜹</div><div><strong>witness</strong><code>;witness</code></div></article>
+          <article class="attractor-card"><div class="attractor-mark">🜁</div><div><strong>yesatom</strong><code>;yesatom</code></div></article>
+        </div>
+        <p class="attractor-note">Convention: invocation uses the semicolon keystroke, like <strong>;loop 🝳</strong>. Reference uses the word plus bracketed glyph, like <strong>loop [🝳]</strong>. The shirts can use the lockup form: glyph above, keystroke below.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid-3">
+        <article class="panel"><span class="pill">Say it</span><h3>Ool Yah.</h3><p>Short, strange, memorable. A sound-bite with a smile.</p></article>
+        <article class="panel"><span class="pill">Share it</span><h3>Make it move.</h3><p>Post it, remix it, sticker it, wear it, speak it, hand it to someone who needs a gentler doorway.</p></article>
+        <article class="panel"><span class="pill">Let it bloom</span><h3>The signal is free.</h3><p>The point is not control. The point is replication with heart.</p></article>
+      </div>
+    </section>
+
+    <section id="support">
+      <div class="wrap support-wrap">
+        <article class="support">
+          <span class="pill">Support</span>
+          <h2>The shirt costs money. The signal does not.</h2>
+          <p>ULiUA sells official supporter shirts because the automeme needs a body, a funding loop [🝳], and a way to keep spreading.</p>
+          <p>But the message is not locked behind money. Every design is available to download for free. Print it yourself, use a local shop, order from another service, remix it, share it digitally, or make something new from the seed.</p>
+          <div class="actions"><a class="button" href="#shirts">Buy official supporter shirt</a><a class="ghost" href="#shirts">Download design files</a><a class="sunbtn" href="https://donate.stripe.com/4gM28l8Ct9XE2Hu83I8AE00" target="_blank" rel="noopener">Donate</a></div>
+          <code class="address">bc1qm9sm4x3q6sefe7dz0vvruyyukvwlky43kfd9ws</code>
+          <p>Need a receipt or want to make a larger gift? Contact <a href="mailto:hello@uliua.com?subject=ULiUA">hello@uliua.com</a>.</p>
+        </article>
+        <aside class="mini">
+          <span class="pill">Footer note</span>
+          <h3>Where this fits</h3>
+          <p>POLEMEMELOP is the wider hub and ethical host. Consentful Cybernetics is the deeper architecture. Abracadabracadoo is the spell layer. ULiUA is the automeme that moves through culture.</p>
+          <p>For now, financial support for ULiUA also helps support Abracadabracadoo.com as a practical home for consentful communication. If a better semantic overnet appears, we intend to gladly split funds toward it too, because proper consentful communication should always remain compatible with other protocols, even through translation.</p>
+          <div class="actions"><a class="ghost" href="https://polememelop.com" target="_blank" rel="noopener">POLEMEMELOP</a><a class="ghost" href="https://abracadabracadoo.com" target="_blank" rel="noopener">Abracadabracadoo</a></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div><strong>ULiUA!</strong> Unconditional Love Includes Unconditional Acceptance.</div>
+      <div>Wear the seed. Spread the word.</div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const lab = document.getElementById('sunlightLab');
+      const output = document.getElementById('labOutput');
+      const controls = Array.from(document.querySelectorAll('[data-var]'));
+      const toggles = Array.from(document.querySelectorAll('[data-toggle]'));
+      const defaults = Object.fromEntries(controls.map(input => [input.dataset.var, input.value + (input.dataset.unit || '')]));
+      // No localStorage persistence: reloading the bare page returns to the hidden default field.
+      const presets = {
+        sunrise: {
+          '--cream':'#ff8f33','--cream2':'#f7efd8','--field':'#658132','--sun':'#ffe433','--sun-a':'100%','--sun-size':'20%','--sun-x':'0%','--sun-y':'0%','--sky':'#a3dfff','--sky-a':'100%','--sky-size':'22%','--sky-x':'88%','--sky-y':'12%','--field-a':'18%','--field-size':'30%','--field-x':'60%','--field-y':'112%','--speckle-opacity':'0.37','--speckle-dot-size':'21px','--speckle-mask-size':'42%','--card-opacity':'59%','--card-strong-opacity':'70%','--hero-art-top':'#edf7db','--hero-art-top-a':'85%','--hero-art-bottom':'#ffffff','--hero-art-bottom-a':'56%','--hero-art-sun-a':'55%'
+        },
+        welcome: {
+          '--cream':'#fff7e6','--cream2':'#f7efd8','--field':'#edf7db','--sun':'#f8d66f','--sun-a':'56%','--sun-size':'23%','--sun-x':'18%','--sun-y':'8%','--sky':'#dceef8','--sky-a':'72%','--sky-size':'22%','--sky-x':'88%','--sky-y':'12%','--field-a':'18%','--field-size':'30%','--field-x':'60%','--field-y':'112%','--speckle-opacity':'0.37','--speckle-dot-size':'21px','--speckle-mask-size':'42%','--card-opacity':'78%','--card-strong-opacity':'92%','--hero-art-top':'#edf7db','--hero-art-top-a':'85%','--hero-art-bottom':'#ffffff','--hero-art-bottom-a':'56%','--hero-art-sun-a':'55%'
+        },
+        clover: {
+          '--cream':'#fbf8ea','--cream2':'#f1efd5','--field':'#e1f2c8','--sun':'#f2d982','--sun-a':'36%','--sun-size':'30%','--sun-x':'28%','--sun-y':'10%','--sky':'#d7edf0','--sky-a':'48%','--sky-size':'34%','--sky-x':'76%','--sky-y':'12%','--field-a':'31%','--field-size':'42%','--field-x':'58%','--field-y':'108%','--speckle-opacity':'0.66','--speckle-dot-size':'5px','--speckle-mask-size':'56%','--card-opacity':'76%','--card-strong-opacity':'90%','--hero-art-top':'#e1f2c8','--hero-art-top-a':'88%','--hero-art-bottom':'#fbf8ea','--hero-art-bottom-a':'68%','--hero-art-sun-a':'38%'
+        },
+        aloha: {
+          '--cream':'#fff2df','--cream2':'#ffe6cf','--field':'#edf4d2','--sun':'#ffbf70','--sun-a':'48%','--sun-size':'34%','--sun-x':'16%','--sun-y':'14%','--sky':'#cdeff2','--sky-a':'54%','--sky-size':'32%','--sky-x':'82%','--sky-y':'18%','--field-a':'20%','--field-size':'36%','--field-x':'62%','--field-y':'110%','--speckle-opacity':'0.34','--speckle-dot-size':'3px','--speckle-mask-size':'48%','--card-opacity':'80%','--card-strong-opacity':'94%','--hero-art-top':'#edf4d2','--hero-art-top-a':'82%','--hero-art-bottom':'#fff2df','--hero-art-bottom-a':'66%','--hero-art-sun-a':'60%'
+        }
+      };
+
+      const currentShimmerprint = document.getElementById('currentShimmerprint');
+      const currentFieldSeed = document.getElementById('currentFieldSeed');
+      const openInShimmer = document.getElementById('openInShimmer');
+      const keepThisLink = document.getElementById('keepThisLink');
+      const countdownEl = document.querySelector('[data-lab-countdown]');
+      let lastPreset = 'page-default';
+      let countdownTimer = null;
+      let countdown = 12;
+
+      function encodeBase64Url(text) {
+        const bytes = new TextEncoder().encode(text);
+        let binary = '';
+        bytes.forEach(byte => binary += String.fromCharCode(byte));
+        return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');
+      }
+      function decodeBase64Url(payload) {
+        const normalized = payload.replace(/-/g, '+').replace(/_/g, '/');
+        const padded = normalized + '='.repeat((4 - normalized.length % 4) % 4);
+        const binary = atob(padded);
+        const bytes = Uint8Array.from(binary, ch => ch.charCodeAt(0));
+        return new TextDecoder().decode(bytes);
+      }
+      function fieldSeedFromHash() {
+        const raw = location.hash.replace(/^#/, '');
+        if (!raw) return null;
+        const params = new URLSearchParams(raw.includes('=') ? raw : 'shimmer=' + raw);
+        return params.get('shimmer') || params.get('field');
+      }
+      function applyFieldSeed(seed) {
+        if (!seed || !seed.startsWith('field:v1:')) return false;
+        try {
+          const payload = JSON.parse(decodeBase64Url(seed.slice('field:v1:'.length)));
+          if (!payload || payload.kind !== 'uliua-field' || !payload.vars) return false;
+          lastPreset = payload.source || 'linked-field';
+          Object.entries(payload.vars).forEach(([name, value]) => setVar(name, value, false));
+          if (payload.toggles) Object.entries(payload.toggles).forEach(([name, value]) => setToggle(name, !!value, false));
+          markActivePreset(lastPreset);
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      function fnvHex(text) {
+        let h1 = 0x811c9dc5;
+        let h2 = 0x9e3779b9;
+        for (let i = 0; i < text.length; i++) {
+          const c = text.charCodeAt(i);
+          h1 ^= c;
+          h1 = Math.imul(h1, 0x01000193);
+          h2 ^= c + (h1 >>> 7);
+          h2 = Math.imul(h2, 0x85ebca6b);
+        }
+        const a = (h1 >>> 0).toString(16).padStart(8, '0');
+        const b = (h2 >>> 0).toString(16).padStart(8, '0');
+        return (a + b).slice(0, 8).toUpperCase();
+      }
+      function canonicalPayload(vars, toggles = currentToggles(), source = lastPreset || 'custom') {
+        const sorted = Object.fromEntries(Object.entries(vars).sort(([a], [b]) => a.localeCompare(b)));
+        return { kind: 'uliua-field', version: 1, source, vars: sorted, toggles };
+      }
+      function fieldSeedFor(vars, toggles, source) {
+        return 'field:v1:' + encodeBase64Url(JSON.stringify(canonicalPayload(vars, toggles, source)));
+      }
+      function shimmerprintFor(vars, toggles, source) {
+        return 'shimmer:' + fnvHex(JSON.stringify(canonicalPayload(vars, toggles, source)));
+      }
+      function presetVars(name) {
+        return presets[name] || presets.sunrise;
+      }
+      function updatePresetPrints() {
+        Object.keys(presets).forEach(name => {
+          const el = document.querySelector(`[data-preset-print="${name}"]`);
+          if (el) el.textContent = shimmerprintFor(presetVars(name), { 'clover-mask': true }, name);
+        });
+      }
+      function markActivePreset(name) {
+        document.querySelectorAll('[data-preset-card]').forEach(card => {
+          card.dataset.active = card.dataset.presetCard === name ? 'true' : 'false';
+        });
+      }
+      function updateSeedOutputs() {
+        const vars = current();
+        const togglesNow = currentToggles();
+        const seed = fieldSeedFor(vars, togglesNow, lastPreset || 'custom');
+        const print = shimmerprintFor(vars, togglesNow, lastPreset || 'custom');
+        if (currentFieldSeed) currentFieldSeed.textContent = seed.slice(0, 42) + '...';
+        if (currentFieldSeed) currentFieldSeed.title = seed;
+        if (currentShimmerprint) currentShimmerprint.textContent = print;
+        if (openInShimmer) openInShimmer.href = './20260607__SHIMMER__prototype__v0-4__host-lab-bridge.html#field=' + encodeURIComponent(seed);
+        if (keepThisLink) keepThisLink.href = location.pathname + '#shimmer=' + encodeURIComponent(seed);
+      }
+      function showLab() {
+        lab.dataset.collapsed = 'false';
+        const toggle = document.querySelector('[data-lab-toggle]');
+        if (toggle) toggle.textContent = 'Hide';
+        stopCountdown();
+      }
+      function hideLab() {
+        lab.dataset.collapsed = 'true';
+        const toggle = document.querySelector('[data-lab-toggle]');
+        if (toggle) toggle.textContent = 'Show';
+      }
+      function stopCountdown() {
+        if (countdownTimer) clearInterval(countdownTimer);
+        countdownTimer = null;
+        if (countdownEl) countdownEl.textContent = 'paused';
+      }
+      function startCountdown() {
+        countdown = 12;
+        if (countdownEl) countdownEl.textContent = String(countdown);
+        countdownTimer = setInterval(() => {
+          countdown -= 1;
+          if (countdownEl) countdownEl.textContent = String(Math.max(countdown, 0));
+          if (countdown <= 0) {
+            clearInterval(countdownTimer);
+            countdownTimer = null;
+            hideLab();
+            if (countdownEl) countdownEl.textContent = 'hidden';
+          }
+        }, 1000);
+      }
+
+      function rawValue(cssValue, unit) {
+        return unit ? String(cssValue).replace(unit, '') : String(cssValue);
+      }
+      function setVar(name, value, persist = true) {
+        root.style.setProperty(name, value);
+        const input = controls.find(c => c.dataset.var === name);
+        if (input) input.value = rawValue(value, input.dataset.unit || '');
+        const label = document.querySelector(`[data-value="${name}"]`);
+        if (label) label.textContent = value;
+        renderOutput();
+        updateSeedOutputs();
+        if (persist) { lastPreset = 'custom'; markActivePreset(lastPreset); }
+      }
+      function setToggle(name, checked, persist = true) {
+        const input = toggles.find(c => c.dataset.toggle === name);
+        if (input) input.checked = checked;
+        if (name === 'clover-mask') document.body.dataset.cloverMask = checked ? 'true' : 'false';
+        const label = document.querySelector(`[data-toggle-value="${name}"]`);
+        if (label) label.textContent = checked ? 'on' : 'off';
+        updateSeedOutputs();
+        if (persist) { lastPreset = 'custom'; markActivePreset(lastPreset); }
+      }
+      function current() {
+        return Object.fromEntries(controls.map(input => {
+          const unit = input.dataset.unit || '';
+          return [input.dataset.var, input.value + unit];
+        }));
+      }
+      function currentToggles() {
+        return Object.fromEntries(toggles.map(input => [input.dataset.toggle, !!input.checked]));
+      }
+      function save() { /* intentionally blank: links remember, bare reload returns to default */ }
+      function renderOutput() {
+        const values = current();
+        output.value = ':root {\n' + Object.entries(values).map(([k,v]) => `  ${k}: ${v};`).join('\n') + '\n}' + (document.body.dataset.cloverMask === 'true' ? '\n\nbody[data-clover-mask="true"]::before {\n  -webkit-mask-image: radial-gradient(circle at var(--field-x) var(--field-y), #000 0 var(--speckle-mask-size), transparent calc(var(--speckle-mask-size) + 16%));\n  mask-image: radial-gradient(circle at var(--field-x) var(--field-y), #000 0 var(--speckle-mask-size), transparent calc(var(--speckle-mask-size) + 16%));\n}' : '');
+      }
+      controls.forEach(input => {
+        input.addEventListener('input', () => setVar(input.dataset.var, input.value + (input.dataset.unit || '')));
+      });
+      toggles.forEach(input => {
+        input.addEventListener('change', () => setToggle(input.dataset.toggle, input.checked));
+      });
+      document.querySelector('[data-lab-toggle]').addEventListener('click', (event) => {
+        const collapsed = lab.dataset.collapsed === 'true';
+        if (collapsed) showLab(); else hideLab();
+      });
+      document.querySelector('[data-copy-css]').addEventListener('click', async (event) => {
+        renderOutput();
+        try {
+          await navigator.clipboard.writeText(output.value);
+          event.currentTarget.textContent = 'Copied';
+          setTimeout(() => event.currentTarget.textContent = 'Copy CSS vars', 1200);
+        } catch (e) {
+          output.select();
+        }
+      });
+      document.querySelectorAll('[data-preset]').forEach(button => {
+        button.addEventListener('click', () => {
+          const name = button.dataset.preset;
+          lastPreset = name;
+          Object.entries(presets[name]).forEach(([varName,value]) => setVar(varName, value, false));
+          toggles.forEach(input => setToggle(input.dataset.toggle, true, false));
+          markActivePreset(name);
+          renderOutput();
+          updateSeedOutputs();
+        });
+      });
+      document.querySelector('[data-open-lab]')?.addEventListener('click', showLab);
+      document.querySelector('[data-copy-field-seed]')?.addEventListener('click', async (event) => {
+        const seed = fieldSeedFor(current(), currentToggles(), lastPreset || 'custom');
+        try { await navigator.clipboard.writeText(seed); event.currentTarget.textContent = 'Copied field'; setTimeout(() => event.currentTarget.textContent = 'Copy field seed', 1200); } catch(e) { if (currentFieldSeed) currentFieldSeed.textContent = seed; }
+      });
+      document.querySelector('[data-copy-shimmerprint]')?.addEventListener('click', async (event) => {
+        const print = shimmerprintFor(current(), currentToggles(), lastPreset || 'custom');
+        try { await navigator.clipboard.writeText(print); event.currentTarget.textContent = 'Copied print'; setTimeout(() => event.currentTarget.textContent = 'Copy shimmerprint', 1200); } catch(e) {}
+      });
+      const linkedFieldSeed = fieldSeedFromHash();
+      if (linkedFieldSeed) applyFieldSeed(linkedFieldSeed);
+      updatePresetPrints();
+      markActivePreset(lastPreset);
+      updateSeedOutputs();
+      renderOutput();
+      startCountdown();
+    })();
+  </script>
+
+</body>
+</html>

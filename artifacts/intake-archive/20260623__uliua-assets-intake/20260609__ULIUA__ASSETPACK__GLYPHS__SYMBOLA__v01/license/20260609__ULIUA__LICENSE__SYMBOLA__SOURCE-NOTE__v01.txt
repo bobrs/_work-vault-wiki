@@ -1,0 +1,19 @@
+# Symbola licensing/source note
+
+Requested asset: Symbola font by George Douros / Unicode Fonts for Ancient Scripts.
+
+The exact font binary could not be fetched automatically from this environment, so this package includes a source note and license note rather than the font file itself.
+
+Known source references used for this note:
+- Font Library: https://fontlibrary.org/en/font/symbola
+- GitHub mirror: https://github.com/aur-archive/ttf-symbola
+- Backup repo: https://github.com/ChiefMikeK/ttf-symbola
+
+License text quoted from the public GitHub mirror (aur-archive/ttf-symbola):
+
+"In lieu of a licence:
+Fonts in this site are offered free for any use; they may be opened,
+edited, modified, regenerated, posted, packaged and redistributed.
+fonts designed by George Douros"
+
+Please verify against the exact Symbola file/version you ultimately deploy.
