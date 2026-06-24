@@ -1,0 +1,340 @@
+<!--
+Drop-in story-first homepage HTML.
+- Reuses your existing CSS themes (Institutional/Modern/Minimal).
+- Adds a theme switcher (dropdown) that swaps the linked stylesheet and persists via localStorage.
+- You can paste this into your existing file, replacing the <header> + <main> + <script> portions if you want.
+
+IMPORTANT: Ensure your <link rel="stylesheet" ...> has id="themeStylesheet" as shown below.
+-->
+
+<!-- In <head>, use this (or edit your existing link to add id="themeStylesheet") -->
+<link
+  id="themeStylesheet"
+  rel="stylesheet"
+  href="20260215__CONTINUITYOFFICE__WEB__CSS__THEME__V1__PUBLIC__INSTITUTIONAL__styles.css"
+/>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Continuity Office Home">
+        <span class="brand-mark" aria-hidden="true">◼︎</span>
+        <span class="brand-name">Continuity Office</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#story">Story</a>
+        <a href="#offerings">Offerings</a>
+        <a href="#why">Invariants</a>
+        <a href="#faq">FAQ</a>
+
+        <!-- Theme switcher (uses existing input styling) -->
+        <label style="display:flex; align-items:center; gap:8px; margin:0;">
+          <span class="micro" style="margin:0;">Theme</span>
+          <select id="themeSelect" aria-label="Theme selector" style="padding:10px 12px; border-radius:12px;">
+            <option value="INSTITUTIONAL">Institutional</option>
+            <option value="MODERN">Modern</option>
+            <option value="MINIMAL">Minimal</option>
+          </select>
+        </label>
+
+        <a class="btn btn-small" href="#contact">Talk to us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--
+Story-first revision that leads with untapped opportunity (not failure).
+Paste/replace the <main> content blocks below into your existing page.
+This keeps your existing CSS + theme switcher (script unchanged).
+
+Key changes:
+- New hero framing: "untapped asset" (compliance metabolized -> advantage)
+- "Where it goes wrong" -> "What you already have" (strengths-based)
+- Same structure/classes, so it works with existing themes
+-->
+
+<main id="main">
+  <!-- HERO (Opportunity-forward, gentler tone) -->
+  <section class="hero" id="story">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Strategic automation integration for complex organizations</p>
+
+        <h1>
+          The work you’ve already done to stay compliant may be your biggest automation advantage.
+        </h1>
+
+        <p class="lede">
+          If you operate in a regulated or high-accountability environment, you’ve already built what many
+          organizations lack: clear policies, defined ownership, protected data, and real oversight.
+          That structure isn’t red tape. It’s leverage. When translated into machine-readable rules,
+          it becomes the foundation for safe, confident acceleration.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#contact">Request a short intro call</a>
+          <a class="btn btn-ghost" href="#offerings">See how we help</a>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-pill">Turn governance into momentum</div>
+          <div class="trust-pill">Make policy machine-readable</div>
+          <div class="trust-pill">Accelerate with confidence</div>
+        </div>
+
+        <div class="note" style="margin-top:16px;">
+          <strong>A simple idea:</strong>
+          Automation moves at the speed of permission. The clearer your boundaries,
+          the faster—and safer—you can go.
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2 class="card-title">Continuity Office, in one sentence</h2>
+        <p style="margin:0; color: var(--muted);">
+          We help complex organizations turn existing governance into durable automation speed—
+          preserving intent, permission, and reversibility as systems evolve.
+        </p>
+
+        <hr style="border:0; border-top:1px solid var(--line); margin:14px 0;" />
+
+        <h2 class="card-title">What this creates</h2>
+        <ul class="checklist">
+          <li>Clear boundaries: who can do what, with which data, under what authority</li>
+          <li>Faster deployment because rules are explicit</li>
+          <li>Confidence under audit and executive review</li>
+          <li>Rollback paths designed in from the start</li>
+        </ul>
+
+        <p class="micro">
+          We don’t control decisions. We help leadership see clearly and move deliberately.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- You Already Have the Foundation -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>You already have the foundation.</h2>
+        <p>
+          Many companies racing into automation are building governance after the fact.
+          You’ve already done the hard part. The opportunity now is translation—
+          turning what’s true in policy into what’s enforceable in systems.
+        </p>
+      </div>
+
+      <div class="offer-grid">
+        <article class="offer-card">
+          <h3>What you already do well</h3>
+          <ul class="bullets">
+            <li>
+              <strong>You define policy clearly.</strong>
+              Make it machine-readable and it becomes built-in guardrails.
+            </li>
+            <li>
+              <strong>You protect sensitive data.</strong>
+              Encode purpose and routing so automation respects boundaries by default.
+            </li>
+            <li>
+              <strong>You assign accountability.</strong>
+              Map authority to capability so responsibility stays visible.
+            </li>
+            <li>
+              <strong>You think long-term.</strong>
+              Design reversibility so growth doesn’t create hidden risk.
+            </li>
+          </ul>
+        </article>
+
+        <article class="offer-card featured">
+          <h3>The unlock</h3>
+          <ul class="bullets">
+            <li><strong>Policy becomes permission</strong></li>
+            <li><strong>Oversight becomes traceability</strong></li>
+            <li><strong>Governance becomes acceleration</strong></li>
+            <li><strong>Compliance becomes competitive advantage</strong></li>
+          </ul>
+        </article>
+
+        <article class="offer-card">
+          <h3>What this makes possible</h3>
+          <ul class="bullets">
+            <li>Deploy automation with less friction</li>
+            <li>Scale responsibly across teams and vendors</li>
+            <li>Maintain clarity under audit or leadership change</li>
+            <li>Move quickly without losing control</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERINGS -->
+  <section id="offerings" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Start small. Move deliberately. Scale confidently.</h2>
+        <p>
+          We offer two structured engagements and an ongoing stewardship path.
+          Begin with clarity. Expand with intention.
+        </p>
+      </div>
+
+      <div class="offer-grid">
+        <article class="offer-card">
+          <div class="offer-top">
+            <p class="offer-kicker">Level 1</p>
+            <h3>Operational Baseline Assessment</h3>
+          </div>
+          <p>
+            We map how decisions, data, and authority flow today, and identify
+            where automation can strengthen that structure.
+          </p>
+          <ul class="bullets">
+            <li>Boundary and ownership map</li>
+            <li>Policy-to-permission translation</li>
+            <li>Clear next steps</li>
+          </ul>
+          <div class="offer-actions">
+            <a class="btn btn-ghost" href="#contact">Start here</a>
+          </div>
+        </article>
+
+        <article class="offer-card featured">
+          <div class="offer-top">
+            <p class="offer-kicker">Level 2 (includes Level 1)</p>
+            <h3>Automation Path Advisory</h3>
+          </div>
+          <p>
+            We define a sequenced path forward—where to accelerate, where to reinforce,
+            and how to align capability with accountability as automation expands.
+          </p>
+          <ul class="bullets">
+            <li>High-leverage automation lanes</li>
+            <li>Structural reinforcement plan</li>
+            <li>Executive-ready guidance</li>
+          </ul>
+          <div class="offer-actions">
+            <a class="btn" href="#contact">Plan the path</a>
+          </div>
+        </article>
+
+        <article class="offer-card">
+          <div class="offer-top">
+            <p class="offer-kicker">Ongoing</p>
+            <h3>Fractional Continuity Officer</h3>
+          </div>
+          <p>
+            For organizations moving continuously, we provide ongoing oversight
+            to preserve clarity, alignment, and proportional governance.
+          </p>
+          <ul class="bullets">
+            <li>Drift detection</li>
+            <li>Decision lineage support</li>
+            <li>Boundary refinement as scope evolves</li>
+          </ul>
+          <div class="offer-actions">
+            <a class="btn btn-ghost" href="#contact">Explore ongoing support</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Let’s explore what’s possible.</h2>
+        <p>
+          Tell us a little about your organization and where you’re looking to apply automation.
+          We’ll recommend the smallest engagement that creates meaningful progress.
+        </p>
+      </div>
+
+      <form class="form" action="#" method="post">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+
+        <label>
+          Work email
+          <input type="email" name="email" required />
+        </label>
+
+        <label>
+          Organization
+          <input type="text" name="org" />
+        </label>
+
+        <label>
+          What are you exploring?
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="micro">© <span id="year"></span> Continuity Office. All rights reserved.</p>
+      <p class="micro">Continuity illuminates consequences. Leadership decides.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Theme switcher (swaps the existing CSS files and persists selection)
+    (function () {
+      const themeLink = document.getElementById("themeStylesheet");
+      const themeSelect = document.getElementById("themeSelect");
+
+      const THEME_HREFS = {
+        INSTITUTIONAL:
+          "20260215__CONTINUITYOFFICE__WEB__CSS__THEME__V1__PUBLIC__INSTITUTIONAL__styles.css",
+        MODERN:
+          "20260215__CONTINUITYOFFICE__WEB__CSS__THEME__V1__PUBLIC__MODERN__styles.css",
+        MINIMAL:
+          "20260215__CONTINUITYOFFICE__WEB__CSS__THEME__V1__PUBLIC__MINIMAL__styles.css",
+      };
+
+      function setTheme(themeKey) {
+        const href = THEME_HREFS[themeKey] || THEME_HREFS.INSTITUTIONAL;
+        themeLink.setAttribute("href", href);
+        localStorage.setItem("co_theme", themeKey);
+        themeSelect.value = themeKey;
+      }
+
+      // Initialize from saved preference, else infer from current href
+      const saved = localStorage.getItem("co_theme");
+      if (saved && THEME_HREFS[saved]) {
+        setTheme(saved);
+      } else {
+        // Try to infer from current href
+        const currentHref = themeLink.getAttribute("href") || "";
+        const inferred =
+          currentHref.includes("__MODERN__") ? "MODERN" :
+          currentHref.includes("__MINIMAL__") ? "MINIMAL" :
+          "INSTITUTIONAL";
+        setTheme(inferred);
+      }
+
+      themeSelect.addEventListener("change", (e) => {
+        setTheme(e.target.value);
+      });
+    })();
+  </script>
+</body>

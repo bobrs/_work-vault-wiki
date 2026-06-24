@@ -5,8 +5,9 @@ This branch collects the continuity training catalog and its supporting material
 ## Current Shape
 
 - 20 published lessons.
+- 1 public site lineage.
 - 1 standalone support handout.
-- 6 nested lineage pages organize the set.
+- 7 nested lineage pages organize the set.
 - 1 draft lesson remains held out of the live catalog.
 
 ## Nested Lineage Pages
@@ -16,6 +17,7 @@ This branch collects the continuity training catalog and its supporting material
 - [AI and Automation Continuity](ai-and-automation-continuity/index.md)
 - [Operating Model and Leadership](operating-model-and-leadership/index.md)
 - [Advanced Change and Architecture](advanced-change-and-architecture/index.md)
+- [Site Variants](site-variants/index.md)
 - [Support Materials](support-materials/index.md)
 
 ## Representative Files
@@ -29,9 +31,9 @@ This branch collects the continuity training catalog and its supporting material
 
 ## Working Read
 
-This is a compact continuity curriculum rather than a loose bundle of training notes.
+This is a compact continuity curriculum with a separate public-site lineage rather than a loose bundle of training notes.
 
-The branch separates cleanly into five tracks: foundations, day-to-day practices, AI and automation boundaries, operating-model leadership, and advanced change/architecture. The handout sits beside those tracks as a quick-start support asset, not as another lesson.
+The branch separates cleanly into five lesson tracks plus a public-surface rail and a quick-start support asset. The site variants track the homepage, theme, and structural passes; the handout sits beside the lessons as a compact reusable support item, not as another lesson.
 
 The published catalog is the live surface. The draft `First 90 Days of Continuity` stays out of the live set until it is ready.
 
@@ -44,5 +46,6 @@ The published catalog is the live surface. The draft `First 90 Days of Continuit
 ## Next Actions
 
 1. Keep the five track pages stable.
-2. Leave the draft lesson out of the live catalog until it is published.
-3. Add adjacent support materials only when they are clearly standalone and reusable.
+2. Keep the site-variants rail separate from the lesson catalog.
+3. Leave the draft lesson out of the live catalog until it is published.
+4. Add adjacent support materials only when they are clearly standalone and reusable.

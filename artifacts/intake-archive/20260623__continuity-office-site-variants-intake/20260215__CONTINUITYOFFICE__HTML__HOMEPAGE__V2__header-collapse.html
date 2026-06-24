@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="en" data-theme="original">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Strategic AI Integration for Regulated Industries | The Continuity Office</title>
+  <meta name="description" content="Strategic AI Integration for Regulated Industries. Move fast with AI—without creating invisible fragility. Practical scope clarity, reversibility, and durable adoption." />
+
+  <style>
+    /* =========================================
+       THEME TOKENS
+       - Two themes: original (dark), sparse (white)
+       - Switch by setting <html data-theme="...">
+       ========================================= */
+
+    :root{
+      --radius: 18px;
+      --max: 1040px;
+      --shadow: 0 16px 40px rgba(0,0,0,.18);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      --ease: cubic-bezier(.2,.8,.2,1);
+
+      /* functional tokens (theme-specific values below) */
+      --bg: #0b0f14;
+      --panel: #0f1620;
+      --ink: #e8edf3;
+      --muted: #a8b4c2;
+      --line: rgba(255,255,255,.12);
+      --accent: #71e2b4;
+      --accent2: #7aa7ff;
+      --accent3: #ffd27a;
+
+      --heroGlow1: rgba(122,167,255,.16);
+      --heroGlow2: rgba(113,226,180,.14);
+
+      --btnBg: rgba(15,22,32,.72);
+      --btnBgHover: rgba(255,255,255,.06);
+      --btnBorder: rgba(255,255,255,.14);
+
+      --pillBg: rgba(15,22,32,.55);
+      --pillBorder: rgba(255,255,255,.14);
+
+      --cardBg: rgba(15,22,32,.72);
+      --cardBorder: rgba(255,255,255,.10);
+
+      --link: var(--ink);
+      --linkMuted: var(--muted);
+      --headerBg: rgba(15,22,32,.65);
+      --headerBorder: rgba(255,255,255,.12);
+      --headerShadow: 0 10px 25px rgba(0,0,0,.25);
+    }
+
+    html[data-theme="sparse"]{
+      --bg: #ffffff;
+      --panel: #ffffff;
+      --ink: #101214;
+      --muted: #4b5563;
+      --line: rgba(16,18,20,.12);
+      --accent: #0ea5e9;
+      --accent2: #16a34a;
+      --accent3: #f59e0b;
+
+      --heroGlow1: rgba(14,165,233,.06);
+      --heroGlow2: rgba(22,163,74,.05);
+
+      --btnBg: rgba(16,18,20,.03);
+      --btnBgHover: rgba(16,18,20,.06);
+      --btnBorder: rgba(16,18,20,.14);
+
+      --pillBg: rgba(16,18,20,.03);
+      --pillBorder: rgba(16,18,20,.12);
+
+      --cardBg: #ffffff;
+      --cardBorder: rgba(16,18,20,.12);
+
+      --link: #0b1220;
+      --linkMuted: #374151;
+      --headerBg: rgba(255,255,255,.88);
+      --headerBorder: rgba(16,18,20,.10);
+      --headerShadow: 0 10px 25px rgba(16,18,20,.10);
+
+      --shadow: 0 14px 30px rgba(16,18,20,.08);
+    }
+
+    /* =========================================
+       BASE
+       ========================================= */
+
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0;
+      font-family: var(--sans);
+      color: var(--ink);
+      line-height: 1.48;
+      letter-spacing: .2px;
+
+      background:
+        radial-gradient(1100px 680px at 18% 0%, var(--heroGlow1), transparent 60%),
+        radial-gradient(900px 620px at 86% 10%, var(--heroGlow2), transparent 55%),
+        var(--bg);
+      transition: background 250ms var(--ease), color 250ms var(--ease);
+    }
+
+    a{ color: var(--link); text-decoration: none }
+    a:hover{ text-decoration: none }
+    em{ font-style: normal; color: var(--ink); opacity: .95 }
+
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+
+    /* =========================================
+       HEADER
+       ========================================= */
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 14px;
+
+      padding: 12px 14px;
+      border: 1px solid var(--headerBorder);
+      border-radius: 999px;
+      background: var(--headerBg);
+      box-shadow: var(--headerShadow);
+      backdrop-filter: blur(10px);
+
+      position: sticky;
+      top: 14px;
+      z-index: 50;
+
+      transition: background 250ms var(--ease), border-color 250ms var(--ease), box-shadow 250ms var(--ease);
+    }
+
+    .brand{
+      display:flex;
+      align-items:baseline;
+      gap: 10px;
+      white-space: nowrap;
+    }
+
+    .brand .name{
+      font-weight: 750;
+      letter-spacing: .4px;
+    }
+
+    .brand .tag{
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    nav{
+      display:flex;
+      align-items:center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    nav a{
+      font-size: 13px;
+      color: var(--linkMuted);
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: background 180ms var(--ease), border-color 180ms var(--ease), color 180ms var(--ease);
+    }
+
+    nav a:hover{
+      color: var(--link);
+      background: var(--btnBgHover);
+      border-color: var(--line);
+    }
+
+    .header-right{
+      display:flex;
+      align-items:center;
+      gap: 10px;
+    }
+
+    .cta{
+      display:inline-flex;
+      align-items:center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--btnBorder);
+      background: linear-gradient(135deg, rgba(113,226,180,.18), rgba(122,167,255,.18));
+      color: var(--ink);
+      box-shadow: 0 8px 18px rgba(0,0,0,.12);
+      transition: transform 180ms var(--ease), filter 180ms var(--ease), border-color 180ms var(--ease);
+    }
+    html[data-theme="sparse"] .cta{
+      background: linear-gradient(135deg, rgba(14,165,233,.10), rgba(22,163,74,.08));
+      box-shadow: 0 10px 18px rgba(16,18,20,.10);
+    }
+    .cta:hover{ transform: translateY(-1px); filter: brightness(1.02) }
+
+    .theme-switch{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      border: 1px solid var(--btnBorder);
+      background: var(--btnBg);
+      padding: 8px 10px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .theme-switch label{
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .theme-switch select{
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--ink);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-family: var(--mono);
+      font-size: 12px;
+      cursor: pointer;
+      outline: none;
+    }
+
+    @media (max-width: 980px){
+      header{ position: static; border-radius: 16px; }
+      .brand .tag{ display:none; }
+      .theme-switch label{ display:none; }
+    }
+
+    /* =========================================
+       HERO
+       ========================================= */
+
+    .hero{
+      padding: 42px 6px 18px;
+    }
+
+    .pill{
+      display:inline-flex;
+      gap: 10px;
+      align-items:center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--pillBorder);
+      background: var(--pillBg);
+      color: var(--muted);
+      font-size: 13px;
+      transition: background 250ms var(--ease), border-color 250ms var(--ease);
+    }
+
+    .pill .dot{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px rgba(113,226,180,.15);
+    }
+    html[data-theme="sparse"] .pill .dot{
+      box-shadow: 0 0 0 3px rgba(14,165,233,.18);
+    }
+
+    h1{
+      margin: 16px 0 10px;
+      font-size: clamp(34px, 4.8vw, 54px);
+      line-height: 1.05;
+      letter-spacing: -0.9px;
+    }
+
+    .lead{
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 18px);
+      max-width: 78ch;
+      margin: 14px 0 18px;
+    }
+
+    .promise{
+      margin-top: 10px;
+      max-width: 78ch;
+      color: var(--muted);
+      font-size: 14px;
+      display:flex;
+      gap: 10px;
+      align-items:flex-start;
+    }
+    .promise strong{ color: var(--ink); font-weight: 700 }
+
+    .hero-actions{
+      display:flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items:center;
+      margin: 18px 0 10px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--btnBorder);
+      background: var(--btnBg);
+      color: var(--ink);
+      transition: transform 180ms var(--ease), background 180ms var(--ease), border-color 180ms var(--ease);
+    }
+    .btn:hover{ transform: translateY(-1px); background: var(--btnBgHover); border-color: var(--line); }
+
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(113,226,180,.22), rgba(122,167,255,.18));
+      border-color: rgba(255,255,255,.18);
+    }
+    html[data-theme="sparse"] .btn.primary{
+      background: linear-gradient(135deg, rgba(14,165,233,.14), rgba(22,163,74,.10));
+      border-color: rgba(16,18,20,.14);
+    }
+
+    .subnote{
+      color: var(--muted);
+      font-size: 13px;
+      margin: 10px 0 0;
+    }
+
+    /* =========================================
+       LAYOUT + CARDS
+       ========================================= */
+
+    .grid{
+      display:grid;
+      gap: 14px;
+      grid-template-columns: repeat(12, 1fr);
+      margin: 18px 0 0;
+    }
+
+    .card{
+      grid-column: span 12;
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: var(--shadow);
+      transition: background 250ms var(--ease), border-color 250ms var(--ease), box-shadow 250ms var(--ease);
+    }
+
+    .card h3{
+      margin: 0 0 8px;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+    }
+
+    .card p{
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .kpi{
+      display:flex;
+      gap: 10px;
+      align-items: baseline;
+    }
+    .kpi .big{ font-size: 18px; font-weight: 760; color: var(--ink); }
+    .kpi .small{ font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+    .split{ display:grid; grid-template-columns: 1.15fr .85fr; gap: 14px; margin-top: 14px; }
+    .two{ display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+    @media (max-width: 920px){
+      .split, .two{ grid-template-columns: 1fr; }
+    }
+
+    section{ margin-top: 36px; }
+
+    .section-title{
+      display:flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 14px;
+      margin: 0 0 12px;
+    }
+    .section-title h2{
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: -0.3px;
+    }
+    .section-title .hint{
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+
+    ul.clean{
+      margin: 10px 0 0;
+      padding: 0 0 0 18px;
+      color: var(--muted);
+    }
+    ul.clean li{ margin: 8px 0; }
+
+    .chips{ display:flex; gap:10px; flex-wrap:wrap; margin-top: 12px; }
+    .chip{
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      padding: 8px 10px;
+      border-radius: 999px;
+    }
+    html[data-theme="sparse"] .chip{
+      background: rgba(16,18,20,.02);
+    }
+
+    .callout{
+      border-left: 3px solid var(--accent);
+      padding: 12px 14px;
+      background: rgba(113,226,180,.06);
+      border-radius: 12px;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+    html[data-theme="sparse"] .callout{
+      background: rgba(22,163,74,.06);
+    }
+
+    .mini{ font-size: 13px; color: var(--muted); }
+
+    .steps{ counter-reset: s; margin-top: 12px; }
+    .step{
+      position: relative;
+      padding-left: 40px;
+      margin: 12px 0;
+      color: var(--muted);
+    }
+    .step:before{
+      counter-increment: s;
+      content: counter(s);
+      position:absolute;
+      left:0; top:0;
+      width: 28px; height: 28px;
+      border-radius: 10px;
+      display:grid;
+      place-items:center;
+      background: rgba(122,167,255,.14);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-weight: 800;
+      font-family: var(--mono);
+    }
+    html[data-theme="sparse"] .step:before{
+      background: rgba(14,165,233,.10);
+    }
+
+    /* =========================================
+       CONTACT
+       ========================================= */
+
+    .contact-row{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items:center;
+      margin-top: 14px;
+    }
+
+    .kbd{
+      font-family: var(--mono);
+      font-size: 12px;
+      padding: 6px 8px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+    }
+    html[data-theme="sparse"] .kbd{
+      background: rgba(16,18,20,.02);
+    }
+
+    /* =========================================
+       FOOTER
+       ========================================= */
+
+    footer{
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .fine{ font-size: 12px; font-family: var(--mono); opacity: .9; }
+
+    /* =========================================
+       PRINT (sparse-ish by default)
+       ========================================= */
+
+    @media print{
+      html{ background:#fff !important; }
+      body{ background:#fff !important; color:#000 !important; }
+      header{ position: static; box-shadow:none; backdrop-filter:none; }
+      .cta, .theme-switch, nav{ display:none !important; }
+      .card{ box-shadow:none; }
+      a{ text-decoration: underline; }
+    }
+  
+    /* =========================================
+       HEADER SCROLL BEHAVIOR
+       - Compact on scroll
+       - Hide after ~first quarter of page scroll
+       ========================================= */
+
+    header{
+      will-change: transform, opacity;
+      transition:
+        background 250ms var(--ease),
+        border-color 250ms var(--ease),
+        box-shadow 250ms var(--ease),
+        padding 220ms var(--ease),
+        transform 260ms var(--ease),
+        opacity 220ms var(--ease);
+    }
+
+    header.is-compact{
+      padding: 8px 10px;
+      top: 10px;
+    }
+    header.is-compact .brand .tag{ display:none; }
+    header.is-compact .brand .name{
+      font-size: 14px;
+      letter-spacing: .2px;
+    }
+    header.is-compact nav a{
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+    header.is-compact .cta{
+      padding: 8px 10px;
+      gap: 8px;
+    }
+    header.is-compact .theme-switch{
+      padding: 6px 8px;
+      gap: 6px;
+    }
+    header.is-compact .theme-switch select{
+      padding: 5px 10px;
+    }
+
+    header.is-hidden{
+      transform: translateY(-140%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand" aria-label="The Continuity Office">
+        <div class="name">The Continuity Office</div>
+        <div class="tag">strategic AI integration • scope • reversibility</div>
+      </div>
+
+      <nav aria-label="Site navigation">
+        <a href="#why">Why you’re ahead</a>
+        <a href="#offer">Offerings</a>
+        <a href="#how">How we work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <div class="theme-switch" title="Style switcher (for experimentation)">
+          <label for="themeSelect">Style</label>
+          <select id="themeSelect" aria-label="Select a style">
+            <option value="original">Original</option>
+            <option value="sparse">Sparse white</option>
+          </select>
+        </div>
+
+        <a class="cta" href="#contact"><strong>Talk</strong> <span aria-hidden="true">→</span></a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero" id="top">
+      <div class="pill">
+        <span class="dot" aria-hidden="true"></span>
+        Strategic AI Integration for Regulated Industries
+      </div>
+
+      <h1>Move fast with AI—<br/>and sleep soundly.</h1>
+
+      <p class="lead">
+        If you operate in a regulated or high-accountability environment, you’re not behind on AI—you’re ahead.
+        Your policies, roles, protected data, and audit discipline are the scaffolding that makes AI adoption
+        <em>durable</em>. I help you leverage that advantage so you can accelerate without creating invisible fragility.
+      </p>
+
+      <div class="promise">
+        <strong>Think “weather report,” not “seasonal averages.”</strong>
+        <span>Practical situational awareness: what’s changing, where the pressure is building, and what to do next—before it becomes an incident.</span>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#offer">See offerings</a>
+        <a class="btn" href="#contact">Book a short call</a>
+      </div>
+
+      <p class="subnote">
+        No hype. No fear. Just clearer boundaries, reversible integration, and faster decisions.
+      </p>
+
+      <div class="grid" aria-label="Highlights">
+        <div class="card" style="grid-column: span 4;">
+          <div class="kpi">
+            <div class="big">Scope clarity</div>
+            <div class="small">what is allowed</div>
+          </div>
+          <p>Make boundaries legible across teams, tools, and vendors—so “approved” actually means something.</p>
+        </div>
+
+        <div class="card" style="grid-column: span 4;">
+          <div class="kpi">
+            <div class="big">Reversibility</div>
+            <div class="small">how to unwind</div>
+          </div>
+          <p>Design graceful degradation and fallback paths so AI accelerates delivery without trapping you later.</p>
+        </div>
+
+        <div class="card" style="grid-column: span 4;">
+          <div class="kpi">
+            <div class="big">Decision hygiene</div>
+            <div class="small">who owns what</div>
+          </div>
+          <p>Clarify authority, accountability, and escalation so governance speeds up instead of blocking progress.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY -->
+    <section id="why">
+      <div class="section-title">
+        <h2>Why regulated organizations are ahead</h2>
+        <div class="hint">reframe: compliance → capability</div>
+      </div>
+
+      <div class="split">
+        <div class="card">
+          <h3>You already have what fast AI adoption requires</h3>
+          <p>
+            Most organizations trying to “do AI quickly” are missing the boring fundamentals:
+            ownership, boundaries, protected data, and traceability. Regulated environments already have them.
+            It may feel like friction—until you realize it’s leverage.
+          </p>
+          <ul class="clean">
+            <li><strong>Policies & procedures</strong> → stable constraints for automation</li>
+            <li><strong>Roles & accountability</strong> → clear ownership of AI decisions</li>
+            <li><strong>Protected data</strong> → safer, higher-quality context</li>
+            <li><strong>Audit culture</strong> → traceability without reinvention</li>
+          </ul>
+
+          <div class="chips">
+            <span class="chip">regulated ≠ slow</span>
+            <span class="chip">structure = acceleration</span>
+            <span class="chip">clarity beats chaos</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>The real risk isn’t “AI”</h3>
+          <p>
+            Most failures come from <em>invisible fragility</em>: unclear scope, vendor opacity, weak handoffs,
+            and integrations that can’t be unwound. The goal isn’t perfect visibility—it’s practical steerability.
+          </p>
+
+          <div class="callout">
+            <strong style="color: var(--ink);">The promise:</strong>
+            move quickly while keeping boundaries explicit and rollback paths real—so you’re never surprised by your own system.
+          </div>
+
+          <p class="mini" style="margin-top: 12px;">
+            Translation: you keep velocity, and you keep the ability to say “no,” “not that,” or “not anymore” without a meltdown.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERINGS -->
+    <section id="offer">
+      <div class="section-title">
+        <h2>Offerings</h2>
+        <div class="hint">start small • create traction • compound</div>
+      </div>
+
+      <div class="two">
+        <div class="card">
+          <h3>AI Integration Readiness Review</h3>
+          <p>
+            A fast, pragmatic diagnostic that gives you a clearer “weather report” on AI adoption—plus concrete next steps.
+          </p>
+          <ul class="clean">
+            <li>Identify top 3 AI pathways (internal + customer-facing)</li>
+            <li>Map authority, data boundaries, and decision impact</li>
+            <li>Assess reversibility: fallback, override, isolation, rollback</li>
+            <li>Deliver a prioritized action plan (quick wins + structural fixes)</li>
+          </ul>
+          <p class="mini" style="margin-top: 10px;">
+            Best for: teams moving from pilots to production who want to accelerate with confidence.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>AI Deployment Stability Architecture</h3>
+          <p>
+            Hands-on support for integrating AI into real workflows—without building unpayable technical or governance debt.
+          </p>
+          <ul class="clean">
+            <li>Scope design: what the system may do, touch, infer, or persist</li>
+            <li>Reversibility design: graceful degradation, safe defaults, human overrides</li>
+            <li>Vendor boundary review (where opacity hides)</li>
+            <li>Operating model: ownership, escalation, review cadence</li>
+          </ul>
+          <p class="mini" style="margin-top: 10px;">
+            Best for: regulated orgs rolling out copilots, decision support, and AI-assisted operations.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 14px;">
+        <h3>Optional: Executive Briefing</h3>
+        <p>
+          A short alignment session that gives leadership shared language, a practical map of next steps,
+          and a calmer, clearer way to talk about AI adoption without hype.
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW -->
+    <section id="how">
+      <div class="section-title">
+        <h2>How we work</h2>
+        <div class="hint">clarity → reversibility → speed</div>
+      </div>
+
+      <div class="card">
+        <h3>Scoped, honest, and useful</h3>
+        <p>
+          I don’t promise omniscience. I improve legibility within agreed bounds—focusing on the systems that carry real
+          decision authority, data exposure, and customer impact.
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <strong style="color: var(--ink);">Identify high-impact pathways.</strong>
+            Where is AI already in use, being procured, or being demanded by the business?
+          </div>
+          <div class="step">
+            <strong style="color: var(--ink);">Map boundaries and ownership.</strong>
+            What is allowed, who owns it, and where do responsibilities begin and end?
+          </div>
+          <div class="step">
+            <strong style="color: var(--ink);">Assess reversibility.</strong>
+            What happens when the model is wrong, the vendor changes terms, or a workflow breaks?
+          </div>
+          <div class="step">
+            <strong style="color: var(--ink);">Deliver improvements.</strong>
+            Clear, prioritized actions that increase steerability—often speeding up deployment immediately.
+          </div>
+        </div>
+
+        <p class="mini" style="margin-top: 10px;">
+          If you want a philosophy lecture, I’m not your person. If you want durable speed and fewer surprises: hello.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <div class="hint">start with a short call</div>
+      </div>
+
+      <div class="card">
+        <h3>Talk through your current AI rollout</h3>
+        <p>
+          Share what you’re deploying, where friction is showing up, and what “moving quickly” means in your environment.
+          I’ll tell you what I’d do first and whether I’m the right fit.
+        </p>
+
+        <div class="contact-row">
+          <span class="kbd">Email:</span>
+          <a class="btn" href="mailto:hello@continuityoffice.com?subject=AI%20integration%20intro">hello@continuityoffice.com</a>
+
+          <span class="kbd">Or:</span>
+          <a class="btn primary" href="#" onclick="alert('Add your scheduling link here.'); return false;">Schedule a call</a>
+        </div>
+
+        <p class="mini" style="margin-top: 12px;">
+          If you’re unsure where AI is already showing up (vendors, copilots, shadow tools), say that. It’s normal.
+          We start where visibility exists and expand it responsibly.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div class="fine">© <span id="y"></span> The Continuity Office</div>
+        <div class="mini">Strategic AI Integration for Regulated Industries</div>
+      </div>
+
+      <div class="mini" style="max-width: 70ch;">
+        Built to avoid hype and fear. If you need promises, there are plenty of shark tanks.
+        If you need clarity and durable speed, you’re in the right ocean.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Year
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // Theme switcher
+    (function(){
+      const STORAGE_KEY = "tco_theme";
+      const html = document.documentElement;
+      const select = document.getElementById("themeSelect");
+
+      function applyTheme(theme){
+        html.setAttribute("data-theme", theme);
+        try { localStorage.setItem(STORAGE_KEY, theme); } catch(e) {}
+        if (select) select.value = theme;
+      }
+
+      // Load saved theme
+      let saved = null;
+      try { saved = localStorage.getItem(STORAGE_KEY); } catch(e) {}
+      if (saved === "original" || saved === "sparse") applyTheme(saved);
+      else applyTheme("original");
+
+      // Bind select
+      if (select){
+        select.addEventListener("change", (e) => {
+          const theme = e.target.value;
+          applyTheme(theme);
+        });
+      }
+
+
+    // Header: compact on scroll, then get out of the way after ~first quarter of the page
+    (function(){
+      const header = document.querySelector("header");
+      if (!header) return;
+
+      const compactAt = 40; // px
+
+      function computeReleaseAt(){
+        const doc = document.documentElement;
+        const scrollable = Math.max(0, doc.scrollHeight - window.innerHeight);
+        // Hide after ~first quarter of the scrollable page, but never before 140px
+        return Math.max(140, Math.round(scrollable * 0.25));
+      }
+
+      let releaseAt = computeReleaseAt();
+
+      function onScroll(){
+        const y = window.scrollY || 0;
+        header.classList.toggle("is-compact", y > compactAt);
+        header.classList.toggle("is-hidden", y > releaseAt);
+      }
+
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", () => {
+        releaseAt = computeReleaseAt();
+        onScroll();
+      }, { passive: true });
+
+      onScroll();
+    })();
+
+    })();
+  </script>
+</body>
+</html>
