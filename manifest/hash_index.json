@@ -2834,5 +2834,9 @@
     "artifacts/for-further-routing/abracadoo/styles.css",
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/styles.css",
     "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-styles.css"
+  ],
+  "46db487acb226bbebc1c7ab14af4e3d69347d802be0b843b9248755ac8abb01c": [
+    "artifacts/intake-archive/20260624__abracadoo-implementation-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip",
+    "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip"
   ]
 }

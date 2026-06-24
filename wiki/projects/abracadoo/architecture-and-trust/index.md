@@ -21,6 +21,7 @@ The manifesto translates that into public language. Trust should have a path, re
 
 - [Abracadoo](../index.md)
 - [Brand and Overview](../brand-and-overview/index.md)
+- [Implementation and Runtime](../implementation-and-runtime/index.md)
 - [Site Variants](../site-variants/index.md)
 - [Abracadabracadoo](../../abracadabracadoo/index.md)
 

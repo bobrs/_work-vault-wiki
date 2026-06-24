@@ -6,13 +6,14 @@ This is the renamed PWA app lineage that replaced the old DeepTrust app naming. 
 
 - 1 live PWA app.
 - 1 explanatory public site.
-- 3 nested support pages organize the public positioning and app framing.
+- 4 nested support pages organize the public positioning, implementation, and app framing.
 
 ## Nested Support Pages
 
 - [Brand and Overview](brand-and-overview/index.md)
 - [Architecture and Trust](architecture-and-trust/index.md)
 - [Site Variants](site-variants/index.md)
+- [Implementation and Runtime](implementation-and-runtime/index.md)
 
 ## External Links
 
@@ -29,6 +30,7 @@ This is the renamed PWA app lineage that replaced the old DeepTrust app naming. 
 This is the application-side sibling to `Abracadabracadoo`. The protocol and the app are related but distinct: the protocol family names the messaging/frame layer, while Abracadoo names the operational application surface.
 
 The support material now splits into public posture, architecture framing, and iteration evidence. That keeps the app readable as a real product line instead of a single undifferentiated page.
+The runtime seed now gets its own seam as well, which keeps the implementation bundle visible without mixing it into the public copy or the design-iteration rail.
 
 ## Related Concepts
 
@@ -40,4 +42,5 @@ The support material now splits into public posture, architecture framing, and i
 2. Keep the brand and overview pages together as the public-facing support seam.
 3. Keep the architecture and trust page together as the app-side implementation seam.
 4. Keep the site-variant rail together as iteration evidence.
-5. Link durable app pages here as they appear.
+5. Keep the implementation and runtime page together as the code seam.
+6. Link durable app pages here as they appear.
