@@ -1,0 +1,19 @@
+{
+  "id": "quantum-invariants-manifest",
+  "name": "Quantum Invariants",
+  "version": "1.0.0",
+  "description": "Minimal cross-domain invariant framework for grounding reasoning in systems, decisions, and analysis.",
+  "bootstrap_markdown": "/downloads/quantum-invariants.bootstrap.md",
+  "canonical_json": "/downloads/20260223__QUANTUMINVARIANTS__DATA__SPINE__L0-L1__V0.3-V1.4__qi-grounding.json",
+  "schema": "/downloads/qi-spine.schema.json",
+  "grounding_guide": "/how-to-ground/",
+  "ai_section": "/ai/",
+  "layers": "/spine/layers.html",
+  "primitives": "/spine/primitives.html",
+  "composites": "/spine/composites.html",
+  "notes": [
+    "Anchor to artifacts, not prose alone.",
+    "Use stable IDs for primitives and composites.",
+    "Treat the bootstrap markdown as the preferred human-plus-machine entry layer."
+  ]
+}

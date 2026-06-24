@@ -1,0 +1,73 @@
+{
+  "id": "quantum-invariants-semantic-shimmer-manifest",
+  "name": "Quantum Invariants Semantic Shimmer",
+  "version": "0.1.0",
+  "description": "Deterministic semantic projection layer for tuning explanations of Quantum Invariants primitives without altering canonical source text.",
+  "surface": {
+    "id": "spine.primitives",
+    "path": "/spine/primitives.html",
+    "label": "Layer-0 Primitives"
+  },
+  "canonical_source": {
+    "path": "/downloads/20260223__QUANTUMINVARIANTS__DATA__SPINE__L0-L1__V0.3-V1.4__qi-grounding.json",
+    "scope": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"]
+  },
+  "projection_source": {
+    "path": "/downloads/20260610__QUANTUMINVARIANTS__DATA__SHIMMER__P1-P10__V0.1__semantic-projections.json",
+    "schema": "/downloads/qi-semantic-shimmer.schema.json"
+  },
+  "seed": {
+    "prefix": "#shimmer=qi:v1:",
+    "encoding": "kv-semicolon",
+    "example": "#shimmer=qi:v1:level=plain;lens=ai;mode=diagnose;focus=diagnostics;compression=flashcard"
+  },
+  "shimmerprint": {
+    "prefix": "qi-shimmer:",
+    "status": "deferred-until-seed-restoration-stable"
+  },
+  "anchors": [
+    {
+      "id": "level",
+      "label": "Explain as",
+      "type": "select",
+      "default": "plain",
+      "options": ["eli4", "plain", "practitioner", "expert"]
+    },
+    {
+      "id": "lens",
+      "label": "Lens",
+      "type": "select",
+      "default": "general",
+      "options": ["general", "ai", "software", "organization", "family"]
+    },
+    {
+      "id": "mode",
+      "label": "Use for",
+      "type": "select",
+      "default": "learn",
+      "options": ["learn", "diagnose", "design", "audit"]
+    },
+    {
+      "id": "focus",
+      "label": "Focus",
+      "type": "select",
+      "default": "all",
+      "options": ["direct", "mirror", "shadow", "diagnostics", "all"]
+    },
+    {
+      "id": "compression",
+      "label": "Compression",
+      "type": "select",
+      "default": "full",
+      "options": ["one_line", "flashcard", "full"]
+    }
+  ],
+  "ui_copy": {
+    "panel_title": "Semantic Shimmer",
+    "panel_subtitle": "Same invariant. Different entrance.",
+    "panel_action_line": "Tune the explanation. Ground the system.",
+    "seed_button": "Copy explanation seed",
+    "seed_helper": "This seed restores the current explanatory lens.",
+    "shimmerprint_helper": "Seed restores the view. Shimmerprint witnesses the encounter."
+  }
+}

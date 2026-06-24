@@ -20,4 +20,5 @@ The archive bundle also carries the `.well-known` identity material, which belon
 
 - [Quantum Invariants](../index.md)
 - [Root and How to Ground](../root-and-how-to-ground/index.md)
+- [Identity and Manifests](../identity-and-manifests/index.md)
 - [Downloads](../downloads/index.md)

@@ -17,6 +17,7 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 - [AI](ai/index.md)
 - [Charters](charters/index.md)
 - [About](about/index.md)
+- [Identity and Manifests](identity-and-manifests/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
 - [Downloads](downloads/index.md)
 
@@ -28,6 +29,7 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 - [Quantum Invariants AI pages bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260223__QUANTUMINVARIANTS__SITE__DIR__AI__SCOPE__PUBLIC__LINEAGE__v0.1__ai-pages.zip>)
 - [Quantum Invariants charters pages bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260223__QUANTUMINVARIANTS__SITE__DIR__CHARTERS__SCOPE__PUBLIC__LINEAGE__v0.1__charters-pages.zip>)
 - [Quantum Invariants about bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260413__QUANTUMINVARIANTS__SITE__FULL__L0-L3__V1.1__ecosystem.zip>)
+- [Quantum Invariants raw identity snapshots](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants/.well-known/site-identity.json>)
 - [Quantum Invariants semantic shimmer bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260610__QUANTUMINVARIANTS__SITEPATCH__SHIMMER__SESSION-5__V0.1__qa-corrected.zip>)
 - [Quantum Invariants downloads pages bundle](<../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260223__QUANTUMINVARIANTS__SITE__DIR__DOWNLOADS__SCOPE__PUBLIC__LINEAGE__v0.1__downloads-pages.zip>)
 
@@ -41,6 +43,7 @@ The site bundles are the public-facing navigation surface; the grounding JSON is
 
 - [Continuity Office](../continuity-office/index.md)
 - [About](about/index.md)
+- [Identity and Manifests](identity-and-manifests/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
 
 ## Next Actions
