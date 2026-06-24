@@ -17,7 +17,9 @@ The material is iteration evidence, not a second product line. It shows the publ
 - [Abracadoo frontpage V0-7](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-7__HILLS-COPY-HONED.zip>)
 - [Abracadoo frontpage V0-9](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-9__GROUND-GLOW-TUNE.zip>)
 - [Abracadabracadoo protocol constellation preview](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260613__ABRACADABRACADOO__SITE__PROTOCOL-CONSTELLATION__V010__docs-merge-app-preview.zip>)
-- [Abracadoo ephemeral contacts patch](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v1__ephemeraltrust-index.html>)
+- [Abracadoo homepage patch index.html](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-index.html>)
+- [Abracadoo homepage patch styles.css](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/styles.css>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-styles.css>)
+- [Abracadoo ephemeral contacts seed](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v1__ephemeraltrust-index.html>)
 
 ## Working Read
 

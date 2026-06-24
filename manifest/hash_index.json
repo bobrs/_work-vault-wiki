@@ -2824,5 +2824,15 @@
     "artifacts/for-further-routing/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html",
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html",
     "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v1__ephemeraltrust-index.html"
+  ],
+  "f94e5df3d513dc0b35d1af7bdb506841dcc8b21a1ae506de03057618c9f0f989": [
+    "artifacts/for-further-routing/abracadoo/index.html",
+    "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/index.html",
+    "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-index.html"
+  ],
+  "6f8790caa827082b65eb3491674a83d942470ba7d2c621708f68e7e7ffc4fe50": [
+    "artifacts/for-further-routing/abracadoo/styles.css",
+    "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/styles.css",
+    "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-styles.css"
   ]
 }
