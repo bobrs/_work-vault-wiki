@@ -27,6 +27,7 @@ This branch collects the protocol family documents for the Abracadabracadoo line
 The core protocol is a nested AEAD proof-release scheme. It binds a proof token to the message ciphertext, allowing a recipient to trigger proof release without exposing plaintext to the server.
 
 The extensions layer expands the family in three directions: witnessable loop structures, loop-local time semantics, and conditional deniability. The development directive turns that protocol family into a reference C++ implementation with local storage, tests, and a pluggable architecture.
+The site-variants rail now stays separate as public delivery evidence, so the protocol pages can stay formal while the site bundles remain readable as outward-facing packaging.
 
 ## Related Links
 

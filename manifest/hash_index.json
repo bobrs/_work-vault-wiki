@@ -2862,5 +2862,21 @@
   "cc123d8cd2856a805db31cf04a8dda635403718ddc1be454811f92cfbbd0df9e": [
     "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__V008__abracadabracadoo-assets.zip",
     "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__CONSTELLATION-LINKS__v8__abracadabracadoo-assets.zip"
+  ],
+  "52eb46bafeafaab73382f1b5c9c1e9a79a4d6c2ed581dd1ae988f7ccd66994d5": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260521__ABRACADABRACADOO__ZIP__SITE__V001__ritual-tech.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__RITUAL-TECH__v1__ritual-tech.zip"
+  ],
+  "cab1c5b3400ff44d376541a29687abb17cb6ef892461592520415f8a5cea3a07": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260521__ABRACADABRACADOO__ZIP__SITE__V002__fractal-identity.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__FRACTAL-IDENTITY__v2__fractal-identity.zip"
+  ],
+  "f52e2b629361367d9a5ec7e935d91c9b1340c58bdeebde002385d20b303df288": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260521__ABRACADABRACADOO__ZIP__SITE__V003__uliua-parent.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__ULIUA-PARENT__v3__uliua-parent.zip"
+  ],
+  "b0c4909ee3237384025956464e86ae6b041fdca897deabdcd6c1a82abd331d04": [
+    "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260612__ABRACADABRACADOO__SITE__DOCS-FOOTER-COPY__V009__visitor-facing-constellation.zip",
+    "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__VISITOR-FACING-CONSTELLATION__v9__visitor-facing-constellation.zip"
   ]
 }
