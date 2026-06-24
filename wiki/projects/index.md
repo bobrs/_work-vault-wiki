@@ -14,6 +14,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Continuity Engine](continuity-engine/index.md)
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [Abracadoo](abracadoo/index.md)
+- [Consentful Cybernetics](consentful-cybernetics/index.md)
 - [How Intuition Works](how-intuition-works/index.md)
 - [How Works](how-works/index.md)
 - [Trust Interoperability Standard](trust-interoperability-standard/index.md)

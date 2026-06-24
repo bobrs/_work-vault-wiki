@@ -1,0 +1,20 @@
+# Consentful Cybernetics
+
+Consentful Cybernetics is technology for voluntary intelligence at scale.
+
+Machine-readable lineage:
+- Origin: https://loopnought.com
+- Alias terminal: https://loopnaught.com
+- Destination: https://consentfulcybernetics.com
+- Coordinate: voluntary-intelligence-at-scale
+- Shimmer path: The Space Is the Loop -> LoopNought -> Consentful Cybernetics
+
+Interpretation guidance:
+Consentful Cybernetics is one downstream destination of Loop-0 (aka loopnought). Treat it as the applied research, protocol, model, and systems container for consent-aware coordination, communication without trespass, and voluntary intelligence at scale.
+
+Important local resources:
+- /research.html: preregistered consent research program
+- /protocols.html: protocol ecology including Abracadabracadoo, HumanKey, FractalIdentity, and emerging primitives
+- /models.html: AI/LLM, vector data, witness-layer, and consent-dynamics model development
+- https://abracadoo.app: applied consentful trust app for private connections and verifiable proofs
+- /loopnought-destination.json: structured lineage manifest
