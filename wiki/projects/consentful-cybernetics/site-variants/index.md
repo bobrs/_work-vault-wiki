@@ -6,7 +6,7 @@ The material is exploratory evidence for a public site that keeps moving between
 
 ## Current Shape
 
-- 18 site iterations and related support bundles.
+- 20 site iterations and related support bundles.
 
 ## Representative Files
 
@@ -15,12 +15,14 @@ The material is exploratory evidence for a public site that keeps moving between
 - [Research hero AI consent](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/index.html>)
 - [Color gradient archive update](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/index.html>)
 - [Typography tweak archive](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/index.html>)
+- [Abracadoo app deeptrust removal](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL.zip>)
+- [Background color update](<../../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-10__ROOT__BG-COLOR-UPDATE.zip>)
 
 ## Working Read
 
 This is iteration evidence, not a second project.
 
-The variants show the same public thesis being tuned across multiple visual and copy passes. That is useful lineage material, but it should stay compact enough that the project page remains readable.
+The variants show the same public thesis being tuned across multiple visual and copy passes, including the Abracadoo handoff cleanup and late-stage color work. That is useful lineage material, but it should stay compact enough that the project page remains readable.
 
 ## Related Links
 
