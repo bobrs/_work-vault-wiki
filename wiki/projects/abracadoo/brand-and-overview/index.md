@@ -20,6 +20,7 @@ The app overview supplies the public product stance: consent-first, forkable, op
 ## Related Links
 
 - [Abracadoo](../index.md)
+- [Architecture and Trust](../architecture-and-trust/index.md)
 - [Abracadabracadoo](../../abracadabracadoo/index.md)
 
 ## Next Actions
