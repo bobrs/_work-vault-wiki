@@ -36,3 +36,9 @@ This addendum supplements the active intake protocol.
 - Continue treating exact duplicates as witness or snapshot material after inventory.
 - Collapse duplicates only when the surviving record can preserve multiple collapse parents.
 - Preserve file content; change navigation and metadata, not the underlying text.
+
+## 5. Exclusion Rule
+
+- Files that are obviously personal in nature may be eliminated from the incoming set once they have been inventoried and judged non-essential to the wiki.
+- Documents that are clearly not original work, including third-party research papers and whitepapers, may likewise be eliminated from incoming when they do not serve as provenance, comparison evidence, or required context.
+- Keep provenance when a non-original document is needed to explain a branch, cite an influence, or preserve a review decision.

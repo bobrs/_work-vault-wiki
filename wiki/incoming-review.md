@@ -19,9 +19,12 @@ Use this page to list:
 - uncertain classifications;
 - proposed moves that still need review.
 
+Files that are plainly personal, or that are clearly not original work such as outside research papers or whitepapers, can be removed from the incoming set after inventory when they do not need to remain as provenance or comparison evidence.
+
 Next actions:
 
 - Use the project lineage pages for CICP, SCT, and POLEMEMELOP as the stable branch map.
 - Add only genuinely new intake here; the existing root-level works are already classified.
+- Exclude obvious personal material and clearly non-original third-party documents unless they are needed for provenance or review context.
 - Review the archived snapshot only if you need to inspect lineage history.
 - Move only the files that are clearly understood enough to justify it.
