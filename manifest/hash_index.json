@@ -2838,5 +2838,13 @@
   "46db487acb226bbebc1c7ab14af4e3d69347d802be0b843b9248755ac8abb01c": [
     "artifacts/intake-archive/20260624__abracadoo-implementation-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip",
     "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip"
+  ],
+  "3a8887b52a6479800c0726e92219e32bb8f4d79482e591c7a693139c50bb85f8": [
+    "artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v2__abracadoo-humankey-seed.zip",
+    "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v2__abracadoo-humankey-seed.zip"
+  ],
+  "a6561484ae3c02b09638a188fb3870755d41aa7281419282729089e3e70e6d78": [
+    "artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip",
+    "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip"
   ]
 }

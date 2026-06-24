@@ -4,15 +4,17 @@ This seam holds the complete app runtime seed for `Abracadoo`: the browser shell
 
 ## Current Shape
 
-- 1 app runtime bundle.
+- 3 app runtime bundles.
 
 ## Representative Files
 
-- [Abracadoo HumanKey seed runtime bundle.zip](<../../../../artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-implementation-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip>)
+- [Abracadoo HumanKey seed scaffold v2.zip](<../../../../artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v2__abracadoo-humankey-seed.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v2__abracadoo-humankey-seed.zip>)
+- [Abracadoo HumanKey seed browser shell v4.zip](<../../../../artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip>)
+- [Abracadoo HumanKey seed runtime bundle v9.zip](<../../../../artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-implementation-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v9__abracadoo-humankey-seed.zip>)
 
 ## Working Read
 
-The seed already wires a browser UI around contact creation, QR-code generation, code verification, local backup import/export, and IndexedDB-backed storage. The app surface is therefore more than a mock landing page: it is a runnable HumanKey-first runtime with a visible local state boundary.
+The earlier seeds show the runtime becoming real in stages: first the scaffold, then the browser shell, then the finished runtime bundle. The current seed wires a browser UI around contact creation, QR-code generation, code verification, local backup import/export, and IndexedDB-backed storage. The app surface is therefore more than a mock landing page: it is a runnable HumanKey-first runtime with a visible local state boundary.
 
 This page stays separate from the public site-variant rail so that code lineage, copy lineage, and design lineage can move independently.
 
