@@ -6,15 +6,18 @@ The material is iteration evidence, not a second product line. It shows the publ
 
 ## Current Shape
 
-- 9 auxiliary site bundles.
+- 12 auxiliary site bundles.
 
 ## Representative Files
 
+- [Abracadoo frontpage V0-1](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__v1__hometown-cosmic.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-frontpage-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-1__HOMETOWN-COSMIC.zip>)
 - [Abracadoo frontpage V0-2](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-2__HOMETOWN-COSMIC-HERO.zip>)
+- [Abracadoo frontpage V0-3](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__v3__calmer-sky.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-frontpage-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-3__CALMER-SKY.zip>)
 - [Abracadoo frontpage V0-4](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-4__HOUSES-ONLY.zip>)
 - [Abracadoo frontpage V0-5](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-5__DEEP-GREEN-ANCHOR.zip>)
 - [Abracadoo frontpage V0-6](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-6__HILLS-APP-PREVIEW.zip>)
 - [Abracadoo frontpage V0-7](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-7__HILLS-COPY-HONED.zip>)
+- [Abracadoo frontpage V0-8](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__v8__glow-phone-tune.zip>) · [archive copy](<../../../../artifacts/intake-archive/20260624__abracadoo-frontpage-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-8__GLOW-PHONE-TUNE.zip>)
 - [Abracadoo frontpage V0-9](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-9__GROUND-GLOW-TUNE.zip>)
 - [Abracadabracadoo protocol constellation preview](<../../../../artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260613__ABRACADABRACADOO__SITE__PROTOCOL-CONSTELLATION__V010__docs-merge-app-preview.zip>)
 - [Abracadoo homepage patch index.html](<../../../../artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/index.html>) · [standard-named source](<../../../../artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-index.html>)
