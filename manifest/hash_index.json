@@ -2819,5 +2819,10 @@
   "bfa87406c51ac8378169f2b0c7d1e66d555b5ff9853c3d994c3f894b3078f1b5": [
     "artifacts/intake-archive/20260624__abracadoo-intake/20260610__ABRACADOO__DOC__AI-TRUST-MANIFESTO__V0-1__loop-we-owe-each-other.md",
     "artifacts/standard-named/20260624__ABRACADOO__ESSAY__AI-TRUST-MANIFESTO__v1__the-loop-we-owe-each-other.md"
+  ],
+  "6541f86cadd141110baf4bb4d60a1634c4be4bde133287e449b30ca9ebf7f707": [
+    "artifacts/for-further-routing/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html",
+    "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/ephemeraltrust/index.html",
+    "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v1__ephemeraltrust-index.html"
   ]
 }

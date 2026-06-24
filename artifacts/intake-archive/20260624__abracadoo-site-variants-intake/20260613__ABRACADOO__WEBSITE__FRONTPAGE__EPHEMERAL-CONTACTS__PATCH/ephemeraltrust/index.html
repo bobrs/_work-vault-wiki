@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EphemeralTrust — trust begins at the edge</title>
+    <meta name="description" content="EphemeralTrust is a plain-language field guide to local labels, consent-shaped identity, and trust loops without usernames." />
+    <style>
+      :root { --ink:#f7eddf; --cream:#fff6e8; --muted:#b9aa98; --gold:#f6c36b; --teal:#8ee6d2; --night:#08111f; --midnight:#050914; --panel:rgba(8,14,24,.74); --line:rgba(246,195,107,.26); }
+      *{box-sizing:border-box} body{margin:0;min-height:100vh;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 78% 0%,rgba(142,230,210,.14),transparent 28rem),radial-gradient(circle at 22% 88%,rgba(255,179,71,.18),transparent 28rem),linear-gradient(180deg,#020611 0%,var(--night) 58%,#10131f 100%);}
+      body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(255,246,232,.70) 0 1px,transparent 1.7px),radial-gradient(circle,rgba(246,195,107,.42) 0 1px,transparent 1.7px);background-size:128px 128px,210px 210px;background-position:20px 34px,88px 62px;opacity:.35;mask-image:linear-gradient(to bottom,black 0%,black 62%,transparent 100%)}
+      main{width:min(1120px,calc(100% - 40px));margin:0 auto;padding:56px 0 64px} a{color:inherit;text-decoration:none}.brand{display:inline-flex;gap:12px;align-items:center;margin-bottom:82px;color:var(--gold);font-weight:900;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}.mark{width:30px;height:30px;border:2px solid var(--gold);border-radius:50%;box-shadow:0 0 28px rgba(246,195,107,.24)}
+      .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.eyebrow{color:var(--gold);font-weight:900;letter-spacing:.22em;text-transform:uppercase;font-size:.78rem;margin:0 0 18px}h1{font-family:Georgia,"Times New Roman",serif;color:var(--cream);font-size:clamp(3.2rem,7vw,6.8rem);line-height:.92;letter-spacing:-.065em;margin:0 0 26px}p{color:var(--muted);font-size:1.1rem;line-height:1.75}.lede{max-width:720px;color:#eadcc9;font-size:1.22rem}.panel{border:1px solid var(--line);border-radius:32px;background:var(--panel);box-shadow:0 28px 90px rgba(0,0,0,.42);padding:30px}.axiom{font-family:Georgia,"Times New Roman",serif;color:var(--cream);font-size:2.1rem;line-height:1.08;letter-spacing:-.04em;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:58px}.card{border:1px solid var(--line);border-radius:24px;background:rgba(255,246,232,.06);padding:24px}.card b{display:block;color:var(--cream);margin-bottom:10px}.card span{color:var(--muted);line-height:1.55}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 23px;border-radius:999px;font-weight:900}.primary{color:#191108;background:linear-gradient(135deg,#ffe6ae,var(--gold) 48%,#ffb347)}.secondary{border:1px solid var(--line);background:rgba(255,246,232,.06)}footer{margin-top:72px;color:#8f8275;font-size:.9rem}@media(max-width:850px){.hero,.grid{grid-template-columns:1fr}.brand{margin-bottom:44px}}
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="https://abracadoo.com"><span class="mark" aria-hidden="true"></span>EphemeralTrust</a>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">The plain-language field guide</p>
+          <h1>Trust begins at the edge.</h1>
+          <p class="lede">EphemeralTrust explains the realization hiding inside HumanKey and Abracadoo: names are local, identity is contextual, consent is active, and trust is earned in loops — not inherited from usernames.</p>
+          <div class="actions">
+            <a class="button primary" href="https://abracadoo.com">See Abracadoo</a>
+            <a class="button secondary" href="https://github.com/bobrs/abracadoo-code">Explore the protocol</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <p class="axiom">Ephemeral identity is the root of consent. Consent is the root of trust.</p>
+          <p>A contact is not a permanent public identity. It is a local relationship label: what you call an edge so you can recognize, renew, revoke, or rebuild trust.</p>
+        </aside>
+      </section>
+      <section class="grid" aria-label="Core ideas">
+        <div class="card"><b>No usernames</b><span>A label is not an address, identity, or authority. It is yours.</span></div>
+        <div class="card"><b>Trust is ask-sized</b><span>An edge can be trusted enough for one action without being promoted forever.</span></div>
+        <div class="card"><b>Consent renews</b><span>Relationships stay alive through witnessed, scoped, revocable loops.</span></div>
+      </section>
+      <footer>A Project of Consentful Cybernetics · Seed page for EphemeralTrust.com</footer>
+    </main>
+  </body>
+</html>
