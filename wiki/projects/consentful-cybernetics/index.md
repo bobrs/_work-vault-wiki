@@ -21,12 +21,15 @@ It reads as a public-facing articulation of voluntary intelligence: one seam tun
 - [Research hero AI consent](<../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/index.html>)
 - [Color gradient archive update](<../../../artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/index.html>)
 - [OSF preregistration research proposals](<../../../artifacts/intake-archive/20260623__consentful-cybernetics-research-intake/20260602__CONSENTFUL-CYBERNETICS__PREREGISTRATION__OSF-SET__NORMALIZED__research-proposals.zip>)
+- [Why Consentful AI Is Expensive](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md>)
+- [Consent-Aware AI in Organizations](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md>)
+- [AI and the Next Layer of Organizational Legibility](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__ORGANIZATIONAL-LEGIBILITY__v1__ai-and-the-next-layer-of-organizational-legibility.md>)
 
 ## Working Read
 
 This branch is the site-facing companion to the consent and voluntary-intelligence language already appearing in the concept pages and adjacent project work.
 
-The homepage and research copy evolve together, which is why the wiki should keep this as a coherent project family rather than scattering the files into unrelated buckets.
+The homepage and research copy evolve together, which is why the wiki should keep this as a coherent project family rather than scattering the files into unrelated buckets. The newer essays make the same point from the other side: consentful systems stay expensive because they keep paying attention, and organizational legibility only works when that attention can be witnessed.
 
 ## Related Links
 
@@ -35,6 +38,7 @@ The homepage and research copy evolve together, which is why the wiki should kee
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
+- [Attention](../../concepts/attention/index.md)
 
 ## Next Actions
 

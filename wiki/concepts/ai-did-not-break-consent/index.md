@@ -22,6 +22,8 @@ This is a strong standalone essay about consent becoming legible only when syste
 
 The essay reads less like a policy memo and more like a conceptual boundary marker. It names the pre-AI failure, then pushes toward a protocol view of consent that can actually survive adaptive systems.
 
+The adjacent attention material sharpens that point: consent is not just a permission problem, it is an attention problem. If a system stops paying attention to context, power, reversibility, and scope, the consent boundary decays even when the paperwork still looks valid.
+
 ## Related Pages
 
 - [Consent Crystal Structure Research](../../projects/consent-crystal-structure-research/index.md)
@@ -29,6 +31,8 @@ The essay reads less like a policy memo and more like a conceptual boundary mark
 - [Consent Physics](../consent-physics/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Attention](../attention/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Notes
 

@@ -286,7 +286,8 @@
     "wiki/projects/side-projects-desktop/conceptual-consolidation/starting-primer/index.md"
   ],
   "054bcebdc68b2cda4b508c5b74d6a42b047fe2ab16f4b0659cbcc2beaccb2a1f": [
-    "artifacts/incoming/ai_and_the_next_layer_of_organizational_legibility.md"
+    "artifacts/intake-archive/20260625__attention-intake/ai_and_the_next_layer_of_organizational_legibility.md",
+    "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__ORGANIZATIONAL-LEGIBILITY__v1__ai-and-the-next-layer-of-organizational-legibility.md"
   ],
   "055e8691068b7ef96b5241869c31878233fa744946536d4a6976b200a416de91": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/fonts/aefurat.php",
@@ -350,7 +351,8 @@
     "artifacts/for-further-routing/Jackpot-data.xlsx"
   ],
   "062f264fe6154ab6c52693ef62dffd7b1bf6668a64e14966125a6ac780acf3c6": [
-    "artifacts/incoming/attention_weighted_block_persistence_dev_spec_next_steps.md"
+    "artifacts/intake-archive/20260625__attention-intake/attention_weighted_block_persistence_dev_spec_next_steps.md",
+    "artifacts/standard-named/20260625__ATTENTION__APPLICATION__BLOCK-PERSISTENCE__v1__attention-weighted-block-persistence-dev-spec-next-steps.md"
   ],
   "0634985d3c63da7b62a3c1f6a3f7906a80b6937ba779fd7c0f70ed5d9c95de94": [
     "artifacts/incoming/Accounting For Meaning.docx"
@@ -485,6 +487,9 @@
   ],
   "08e0775d0c44744bf2c445a0fb8087412e23ad6ed0f187dc710dc3866a25aff3": [
     "artifacts/for-further-routing/GhostSentry CI3/application/views/errors/html/error_exception.php"
+  ],
+  "08f0478bfaaebd4f7b4cfccc4c0798359c770d5d246606291032f8f7a0c70046": [
+    "manifest/move_log.jsonl"
   ],
   "08f5b12694a69b404d8dc4c543de51f9e896ea3f87ffda512faa9cde822ecc43": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/fonts/dejavusansmonob.z",
@@ -801,9 +806,6 @@
   "0e1435a48d14cd30525e347766b7e1753cbcf6e46f859e4553fa9d6fcb98aaf9": [
     "artifacts/incoming/how_to_read_as_a_co_creator.md"
   ],
-  "0e27024ba206e94805305fe222f694835920cbfd16204d3becf6618010aa98cf": [
-    "wiki/projects/similar-projects/cognitive-runtime/index.md"
-  ],
   "0e2b681b7d519e8141a7d51fdb986055bbe35a87eed7f4fa61ce61dc83d9f087": [
     "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md"
   ],
@@ -1022,7 +1024,8 @@
   ],
   "126deedaae17b8464b3615d7149e37219d4d60cbba4542b680110934e320e458": [
     "artifacts/incoming/consent_aware_ai_in_organizations_taxonomy_layers_and_deployment_pattern (1).md",
-    "artifacts/incoming/consent_aware_ai_in_organizations_taxonomy_layers_and_deployment_pattern.md"
+    "artifacts/intake-archive/20260625__attention-intake/consent_aware_ai_in_organizations_taxonomy_layers_and_deployment_pattern.md",
+    "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md"
   ],
   "1277f07b0510b70025d647534406cceb1eaf3a00ddd0ea39c60db9fd0cc14671": [
     "artifacts/for-further-routing/20260608__ULIUA-SHIMMER__bundle__forward-set__v1__current-artifacts/01_ULiUA_proper/20260607__ULIUA__SITE__HOME__v8__hybrid-sun-clover-defaults.html"
@@ -2228,6 +2231,9 @@
   "2ad53b89e069da3a0e2a2ac88cd9b73bf96a9f9b1b0cd730f782be72d9011276": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v13__logo-swap/index.html"
   ],
+  "2afaf3eaa410c8bb4096c73b250bd8da72534cf77eb849ceabd3bee8abd4b878": [
+    "wiki/projects/similar-projects/cognitive-runtime/index.md"
+  ],
   "2b0ded3be0fbd8442d3f73a1ad68c6c447b20a02dc7edfe42381d728ec11a535": [
     "wiki/unresolved/index.md"
   ],
@@ -2359,7 +2365,8 @@
     "artifacts/incoming/Domain Ie Scalar Map.docx"
   ],
   "2d8274e916227784bfb85d9915aef7b62e2c11bd9999b9051d6e0f338ef6d14e": [
-    "artifacts/incoming/unexamined_meaning_as_an_ecological_hazard.md"
+    "artifacts/intake-archive/20260625__attention-intake/unexamined_meaning_as_an_ecological_hazard.md",
+    "artifacts/standard-named/20260625__ATTENTION__ESSAY__UNEXAMINED-MEANING__v1__unexamined-meaning-as-an-ecological-hazard.md"
   ],
   "2d98b7fc305b898d7e779e4533d2d16c7606d2cfc33bcb79c18f1c71d3241db6": [
     "artifacts/incoming/ai_abundant_labor_continuity_office_position_piece (1).md",
@@ -2608,6 +2615,9 @@
   ],
   "325098a66157fcf5834a666966fa9d1227ba268f5f2b52dc2103d9baaad4a20a": [
     "artifacts/for-further-routing/Color_Symbol_Index_Grid.xlsx"
+  ],
+  "3255159f324025033844939f204c142fe9f7040c2bdad7e7d1efc8609d692db6": [
+    "manifest/inventory.jsonl"
   ],
   "3257c566e9ec1b8c61c02e3409237696a81f77355ad7beeb7eb3a272c0bc0f84": [
     "artifacts/for-further-routing/shimmerymemory/.astro/content.d.ts",
@@ -3223,7 +3233,8 @@
     "wiki/projects/side-projects-desktop/causation-delirium/index.md"
   ],
   "3e346c481a432761913098b69729e00053b2d2becb581964637e29b0caea557d": [
-    "artifacts/incoming/attention_mechanics_axioms_only.md"
+    "artifacts/intake-archive/20260625__attention-intake/attention_mechanics_axioms_only.md",
+    "artifacts/standard-named/20260625__ATTENTION__AXIOMS__CORE-AXIOMS__v1__attention-mechanics-axioms-only.md"
   ],
   "3e351e590f104f5bbdd8bbf81f877237f00af0a5053e181977b67f6dd1805e99": [
     "artifacts/incoming/Fractal Identity Missile Guidance (2).docx"
@@ -4355,6 +4366,9 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Loop Life - Phase 0- Loop Spark Deck.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__DECK__LOOP-LIFE__PHASE-0__loop-spark-deck.docx"
   ],
+  "55f15d93aa437ee3d09f034746a74ee17fc696d6f3d99609e6262b2b09496967": [
+    "wiki/projects/consentful-cybernetics/index.md"
+  ],
   "562b3f47ced438a29faf48b089740470f5cba4a80cc60c26dc8966f3c64c76dc": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 0.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Loop Life - Phase 0.docx",
@@ -4396,6 +4410,9 @@
   "57b7d7f3ccb426c27cb82b23dbcd4e8a22d021ffbe15282917548fb55990b98e": [
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/installation/upgrade_b11.html",
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/installation/upgrade_b11.html"
+  ],
+  "57c38101740da3b53eb24f64e31f99e5fdec5018d6f3aa4b7c9cf215d54f2cdc": [
+    "wiki/projects/side-projects-desktop/attention-five-modes/index.md"
   ],
   "57ca70d3afd2abd71ee05f2943db7c30f13f187edbf378531fce4a0299178721": [
     "artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_os_operating_system_vision.md",
@@ -4579,6 +4596,9 @@
   ],
   "5ba4af0ff7216c0c765a3b07af59a6ce1b292c316d560493f0522829991a9f80": [
     "artifacts/for-further-routing/GhostSentry-Management-master/system/libraries/User_agent.php"
+  ],
+  "5badda01bfe9a21dbb5347b7988c7b2e7b2d20702ff644ae4e697cdff5d64ead": [
+    "manifest/standard_named_sources.jsonl"
   ],
   "5bd85ec42e0ff922f01395dd8672c04ea2d17c1e467821a21b2bd7a29c415ba0": [
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/general/ancillary_classes.html",
@@ -5148,6 +5168,9 @@
   "67709fcda046def18302a72e5ea5191ef61e6b57218ab7f0acdf370ed14a9fcc": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/index"
   ],
+  "677fd41cc5049e1ed62495850d3dd3fd9d0709c5afb2288013b67e5b568b2131": [
+    "wiki/concepts/ai-did-not-break-consent/index.md"
+  ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx",
@@ -5632,9 +5655,6 @@
     "artifacts/for-further-routing/GhostSentry CI3/application/views/userView.php",
     "artifacts/for-further-routing/GhostSentry-Management-master/application/views/userView.php"
   ],
-  "707fb54e9960cc87b1f6dd756f64ec530e1742bdc093e47cc2b560c65f636f38": [
-    "manifest/standard_named_sources.jsonl"
-  ],
   "708889b38c44cb56fbf0b99ae05f97cc2ccbab9bd5fd2917be16a31062676008": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx"
@@ -5659,9 +5679,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx"
-  ],
-  "70f0bd4447c82755607178531b6a53e1e907c084b61756cc05be7038f3f519fc": [
-    "manifest/inventory.jsonl"
   ],
   "70f15a6344c9eab76c0b2726dcb1e828893757c4b80e1b12f4edcc28f86ea0ba": [
     "artifacts/intake-archive/20260623__how-works-intake/howauditworks.html"
@@ -7042,6 +7059,9 @@
   "8d1fbbcc446ce7afdefccd061dce05c2a2ed16da0b6a27622348b09aaebdc2f3": [
     "artifacts/for-further-routing/20260622__CONSENTOCRACY__SITE__AI-BRIDGE__V0-1-2__CONSENT-OPTIMIZATION (1).zip",
     "artifacts/for-further-routing/20260622__CONSENTOCRACY__SITE__AI-BRIDGE__V0-1-2__CONSENT-OPTIMIZATION.zip"
+  ],
+  "8d4a3672925a0ef6fb2fb374192a3efbbb9b867321770c2b7ad387f08500d678": [
+    "manifest/hash_index.json"
   ],
   "8d56783415b07b6b7df2b5a4229ee58cef85cf7bff8f0a2013eb7bf65032cf34": [
     "wiki/projects/side-projects-desktop/keeper-of-the-lanterns/index.md"
@@ -8574,6 +8594,9 @@
   "abb9baacf1accaa6c0f62c8f9fd6d9227b23f9d6ced31fa1916efb3c1c481d88": [
     "artifacts/for-further-routing/20260607__ULIUA__SITE__HOME__v5__sunlight-lab-color-controls.html"
   ],
+  "abba993da9c2199ef63f6cd87679ca64280d77e7dc7b3964a1ac274e2284636a": [
+    "manifest/agent_actions.jsonl"
+  ],
   "abf3311b408d7efc629c49de5538d6b0f0eaf09a1296bef825066196f36e1cfd": [
     "artifacts/for-further-routing/GhostSentry CI3/system/database/drivers/sqlsrv/sqlsrv_result.php"
   ],
@@ -9468,6 +9491,9 @@
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/overview/goals.html",
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/overview/goals.html"
   ],
+  "bc2f8ca1ef69c9f2718637302db8b863d29bd55e7ad3578d121f20f2110634ca": [
+    "wiki/concepts/attention/index.md"
+  ],
   "bc310ff649babb0a69909bc44c111fd6bbe9e9e44dbcf1b35ed5348201be5765": [
     "artifacts/for-further-routing/GhostSentry CI3/system/database/DB_result.php"
   ],
@@ -9523,9 +9549,6 @@
   "bd22a6d0c7ead18688251d0c133e51809f5cb2adaecbbbabdfbe9fabf8528a01": [
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/libraries/xmlrpc.html",
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/libraries/xmlrpc.html"
-  ],
-  "bd3a16e134350bf9cf019ac5dab949a932a7d7469477c4cc32b5f0152f1b5500": [
-    "manifest/hash_index.json"
   ],
   "bd4608364e74e8b39217ddc8fd2256584425c445c7573fb8110ac36fa443b11f": [
     "artifacts/for-further-routing/ContinuityOffice/.git/objects/d7/f2d70e75d4a62b905fb95112ff1c68547007c1"
@@ -10378,9 +10401,6 @@
     "artifacts/for-further-routing/GhostSentry CI3/application/config/autoload.php",
     "artifacts/for-further-routing/GhostSentry-Management-master/application/config/autoload.php"
   ],
-  "cf6246f0f14460dc02bb66f742a4148f896b03608554ef49c0921f78f3acc040": [
-    "manifest/move_log.jsonl"
-  ],
   "cf6419c4866a97ff35aa530ac55e98dfbf7549e64bac6210a931c9837ea4e239": [
     "artifacts/for-further-routing/Endurance_Sigil.png"
   ],
@@ -10507,7 +10527,8 @@
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v15__wordmark-btc-donation-panels.zip"
   ],
   "d1db72aaaa8520885baae709b3ec1dc2be10f2ee4d56a9be08bc838beef5d7f4": [
-    "artifacts/incoming/why_consentful_ai_is_expensive_grounded_version.md"
+    "artifacts/intake-archive/20260625__attention-intake/why_consentful_ai_is_expensive_grounded_version.md",
+    "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md"
   ],
   "d1e43ff84e70204cf132b015ea5bd891b382544ad8f37eb002fecb627d7c3804": [
     "artifacts/for-further-routing/GhostSentry CI3/system/helpers/file_helper.php"
@@ -10517,9 +10538,6 @@
   ],
   "d24acc8d98db3ec32a555ef752710f29403e7755624e277389caa2d69fbab2aa": [
     "artifacts/for-further-routing/ghostsentry_com/__ghostsentry_com.p7b"
-  ],
-  "d25796996eb55179f504a1e2997d9812d8f98ba76f1a400e85921331065e1540": [
-    "manifest/agent_actions.jsonl"
   ],
   "d259cb3e4bf78c391a052d1431f106ee9c5996ec05abd282b8f8d082f19f8dbd": [
     "artifacts/incoming/the_parable_of_the_one_job.md"
@@ -11128,9 +11146,6 @@
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/helpers/download_helper.html",
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/helpers/download_helper.html"
   ],
-  "de0d5d1c450a685efe989753f4c74c0e81b62594d2cbce743a344e8b9de0293e": [
-    "wiki/projects/consentful-cybernetics/index.md"
-  ],
   "de2d34627c0a8894cb2bcc1eace628e2d7adb289ccdbd0c98a7203a078913ac0": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/fonts/freesansbi.php",
     "artifacts/for-further-routing/GhostSentry-Management-master/tcpdf/fonts/freesansbi.php"
@@ -11407,9 +11422,6 @@
   ],
   "e357ba27b55abbcab273cb0b20d4e8ecc6471b906b228298a69542e41ac5863f": [
     "wiki/projects/consent-crystal-structure-research/butterfly-bush-time-portals/index.md"
-  ],
-  "e35f2fd630485b9f0f635b99cd6976a73fc3cf8582d3d9fb247caa867630029c": [
-    "wiki/concepts/attention/index.md"
   ],
   "e36459f1b2d0673e480614d823d54f73c7e627c29a374416c0f2da8fadbfb389": [
     "artifacts/incoming/morality_as_physics_and_biology (1).md"
@@ -12179,9 +12191,6 @@
   "f388e914cddd2743be6c27ce8db751f6bb52b2e1cdfcc1021039ccc948e10b20": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/examples/lang/swe.php"
   ],
-  "f396d3cdb7c8936c996e74624093cb89be56f8acc02e7e521c74ac4b3df3831c": [
-    "wiki/projects/side-projects-desktop/attention-five-modes/index.md"
-  ],
   "f3a00da7c8a2be624db8fa153a8b3aa084c136473418f9cc7c94ce7ced181a94": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-maintenance-kit-intake/🧼 Loop Maintenance Kit.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/🧼 Loop Maintenance Kit.docx",
@@ -12723,9 +12732,6 @@
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL/assets/logo-white.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/assets/logo-white.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/assets/logo-white.png"
-  ],
-  "fe9354142b6d05199c09fc82ab905eb94234fa8595fa6ee96e74de5e7bef7644": [
-    "wiki/concepts/ai-did-not-break-consent/index.md"
   ],
   "feb75448bf9cf5f0a8532ccdee40bf0e2d073e5dde7de59ab0eb380342cbda02": [
     "package.json"
