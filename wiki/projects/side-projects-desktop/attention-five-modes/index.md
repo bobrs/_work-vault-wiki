@@ -8,7 +8,7 @@ This branch is a single published page.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Attention - Five Modes/index.html>)
+- [index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Attention - Five Modes/index.html>)
 
 ## Working Read
 
@@ -19,6 +19,7 @@ The page functions as a standalone attention model node. It should stay as a sin
 ## Related Links
 
 - [Side Projects Desktop](../index.md)
+- [Attention](../../../concepts/attention/index.md)
 
 ## Next Actions
 

@@ -10,6 +10,7 @@ Current concept pages:
 - [PDSP](pdsp/index.md)
 - [Loop Economy](loop-economy/index.md)
 - [Intent-Consent](intent-consent/index.md)
+- [Attention](attention/index.md)
 - [Consent Physics](consent-physics/index.md)
 - [AI Did Not Break Consent](ai-did-not-break-consent/index.md)
 - [Witnessing](witnessing/index.md)

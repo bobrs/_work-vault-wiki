@@ -629,9 +629,6 @@
     "artifacts/for-further-routing/abracadoo-humankey-seed 4/src/humankey/events/createEvent.ts",
     "artifacts/for-further-routing/abracadoo-humankey-seed 9/src/humankey/events/createEvent.ts"
   ],
-  "0ba7da3107854077db89a2066fb4c95d91aab9baf883c3779eb5090866db8c90": [
-    "artifacts/incoming/2025-01-30 11-51.pdf"
-  ],
   "0bc1b519a724bcd851baa4eaf6655efe16cae0a76822f31d5052821a46fbda3c": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__HERO-COPY__SEMANTIC-OVERNET__archive.zip"
   ],
@@ -804,6 +801,9 @@
   "0e1435a48d14cd30525e347766b7e1753cbcf6e46f859e4553fa9d6fcb98aaf9": [
     "artifacts/incoming/how_to_read_as_a_co_creator.md"
   ],
+  "0e27024ba206e94805305fe222f694835920cbfd16204d3becf6618010aa98cf": [
+    "wiki/projects/similar-projects/cognitive-runtime/index.md"
+  ],
   "0e2b681b7d519e8141a7d51fdb986055bbe35a87eed7f4fa61ce61dc83d9f087": [
     "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-2__empty-vault-operating-protocol.md"
   ],
@@ -928,9 +928,6 @@
   ],
   "1028a477ded344f48ef8fb17a349ec19a96af5a4b2ed5f84caab2d81f0c90c80": [
     "artifacts/for-further-routing/GhostSentry-Management-master/system/libraries/Cache/drivers/Cache_dummy.php"
-  ],
-  "102efd42065dfdfdbb5819fa2759d1cbc2e196d8aac421265258d6555197501c": [
-    "manifest/hash_index.json"
   ],
   "1039039fae63a6f355cbfea9fb855694511f149f49456875ad6aad6982cc749d": [
     "artifacts/for-further-routing/ContinuityOffice/.git/objects/aa/b66cb23a5e8ae94c9dae049fa34e1443f30e16"
@@ -1343,9 +1340,6 @@
   "19859855f845246bd7773d60c51ac5b8e233e18f1d5182d3d8c123648c1c306f": [
     "artifacts/for-further-routing/GhostSentry-Management-master/application/controllers/user.php"
   ],
-  "19899c68607ec90840bc5f8c7b7f247a9e0445bec979e9f38a4ce08c12aaef46": [
-    "wiki/concepts/index.md"
-  ],
   "198df8674575f4f9e56a2127c4428c5187425f65818cee1a8df119af10881b61": [
     "artifacts/for-further-routing/entrain_me_site_with_demo/listen.html"
   ],
@@ -1640,9 +1634,6 @@
   ],
   "1f044b16d8e8dee2caea39c53cf470342b09c2360ade128a7918ab2b7a44f603": [
     "wiki/projects/polememelop/foundations/index.md"
-  ],
-  "1f60bcc730acda9cc4e81f380783499476f0e9348f369973e9a48d33e93deaba": [
-    "artifacts/incoming/20260612__CODEX__PROTOCOL__AUTONOMOUS_SITE_BUILD__GENERIC__FIRST_PASS.md"
   ],
   "1f688b6cbfeb10382631dcebd17dcf061a0a868e1236b2b3b8eeeae42651ee9b": [
     "artifacts/for-further-routing/20260528__CONTINUITYOFFICE__SITE__PATCH__TRAINING_THEME_PATHS__V2 2/training/008-drift-detection/index.html"
@@ -2577,7 +2568,8 @@
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/installation/upgrade_200.html"
   ],
   "31593cab85b0ee5aa4da67a4a9b974b8750bf48822054fe7e05532e72c6caa07": [
-    "artifacts/incoming/attention_compression_framework_draft_substrate_independent.md"
+    "artifacts/intake-archive/20260625__attention-intake/attention_compression_framework_draft_substrate_independent.md",
+    "artifacts/standard-named/20260625__ATTENTION__FRAMEWORK__COMPRESSION__v1__attention-compression-framework-draft-substrate-independent.md"
   ],
   "315a2d8a71ed283405d53eb6b0d3b355122f2f98faa09f8285135fe8658eba38": [
     "artifacts/incoming/Project Priorities Manifesto.docx"
@@ -2926,9 +2918,6 @@
   ],
   "38c2acad770070635ec1991120771db2bbd741e752ca894ede131de76380e3ae": [
     "scripts/inventory.py"
-  ],
-  "38dea1e114afe96bd1e42fd73502f7ebd1cb87de5ae43f3901e32927d3e3fda4": [
-    "wiki/projects/side-projects-desktop/attention-five-modes/index.md"
   ],
   "38e44df3731ccb81b1729758baf8037e14c20b78db8494ee378aec53071c7dcb": [
     "artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent-Based Routing Protocol (CBRP).docx",
@@ -5625,9 +5614,6 @@
   "6ff3605b5a83e9dcc51cdbc2a44e820a762e44973c033ebf4b91db69175e8d64": [
     "artifacts/incoming/ai_tik_tok_series_13_day_run.md"
   ],
-  "7012593bed8bc88b7aad6fcb7f947e3da0dd678329ba74f1fab5d1a315b8919f": [
-    "manifest/inventory.jsonl"
-  ],
   "703b609d4653c47fdda027a666f40e9f47c8765205380edc53d4d3f367441d11": [
     "artifacts/for-further-routing/ContinuityOffice/.git/objects/55/cab6fcf9fa175a60108bf06137db4bd3eda00c"
   ],
@@ -5645,6 +5631,9 @@
   "705da175869db1d13f8ddb4dfa25bcf5157444af2b5ca9537ac35daf19920ba0": [
     "artifacts/for-further-routing/GhostSentry CI3/application/views/userView.php",
     "artifacts/for-further-routing/GhostSentry-Management-master/application/views/userView.php"
+  ],
+  "707fb54e9960cc87b1f6dd756f64ec530e1742bdc093e47cc2b560c65f636f38": [
+    "manifest/standard_named_sources.jsonl"
   ],
   "708889b38c44cb56fbf0b99ae05f97cc2ccbab9bd5fd2917be16a31062676008": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Field Note- Looping Causality — Consent as Temporal Architecture.docx",
@@ -5670,6 +5659,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT-25- Memory Elements — Registers, Shadows, and Recall Architectures.docx"
+  ],
+  "70f0bd4447c82755607178531b6a53e1e907c084b61756cc05be7038f3f519fc": [
+    "manifest/inventory.jsonl"
   ],
   "70f15a6344c9eab76c0b2726dcb1e828893757c4b80e1b12f4edcc28f86ea0ba": [
     "artifacts/intake-archive/20260623__how-works-intake/howauditworks.html"
@@ -8219,7 +8211,8 @@
     "artifacts/incoming/consent_gated_semantic_infrastructure_rapid_launch_ecosystem_mapping.md"
   ],
   "a3e28711c628968715d9a01cbde40869f7838f53195a6caa717a3877a7893780": [
-    "artifacts/incoming/selection_pressure_via_attention.md"
+    "artifacts/intake-archive/20260625__attention-intake/selection_pressure_via_attention.md",
+    "artifacts/standard-named/20260625__ATTENTION__ESSAY__SELECTION-PRESSURE__v1__selection-pressure-via-attention.md"
   ],
   "a3e9f0da978789fd92e5c751901867c4dea86872995f790ea9ed84ad79a6de98": [
     "artifacts/for-further-routing/HOWZOMBIESWORK__GENESIS__AUTONOMOUS_SITE_BUILD/src/pages/the-cure.astro.bak"
@@ -8799,7 +8792,8 @@
     "artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__FOOTER-UPDATE__v1__consentful-cybernetics.zip"
   ],
   "b032c330baae902d7d5def97adb005d892968fa14037c3741039f6c87f2d6004": [
-    "artifacts/incoming/the_attention_engine_intro_narrative_spine.md"
+    "artifacts/intake-archive/20260625__attention-intake/the_attention_engine_intro_narrative_spine.md",
+    "artifacts/standard-named/20260625__SIMILAR-PROJECTS__INTRO__ATTENTION-ENGINE__v2__the-attention-engine-intro-narrative-spine.md"
   ],
   "b034681b2ea4c77b84d6fd842745cce7c9ea8cb6fb612a2121c84ec7ff1577b3": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Multi-Resolution Consent Glyph Protocol (MRCGP).docx",
@@ -8882,9 +8876,6 @@
   ],
   "b19a297e6034f6d805d34b1b7b0923a97905ca0f37999adcd013deae76d2311f": [
     "artifacts/for-further-routing/GhostSentry-Management-master/system/database/DB_cache.php"
-  ],
-  "b1b74359dcd07c08e73667c36b87c7195f0f144d3c3b0058fb25039d5900072c": [
-    "wiki/projects/similar-projects/cognitive-runtime/index.md"
   ],
   "b1c56228bd2977653f0c9929aaaffc9c2997c3880bd35f67a4e43bdad4636dfc": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-9.9- Guidepost Elements — Working Backward from the Edge of Consent.docx",
@@ -9042,9 +9033,6 @@
   ],
   "b4c0125726c0a147849f2c55a7cc8cae19def24ab61504d2f4e3ac503c61a507": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-4__already-welcome-default.zip"
-  ],
-  "b4fdcb7f0cb444f1f46682bb23352afcd52e54b77761fc73d38310539e4276ae": [
-    "manifest/agent_actions.jsonl"
   ],
   "b50a2dcc7159239eaafadce689aa315a053f2d32e30a2a58addb7fe0bfdb2bc5": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/examples/images/testsvg.svg"
@@ -9233,7 +9221,8 @@
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__CONSENT-PHYSICS__v2__loop-manifestation-primer-the-physics-of-making-things-real.docx"
   ],
   "b888c8345dba6ed19ff678278b8de6d52a34530777ce1394ba115bb4d30c55e2": [
-    "artifacts/incoming/attention_mechanics_base_system_real_world.md"
+    "artifacts/intake-archive/20260625__attention-intake/attention_mechanics_base_system_real_world.md",
+    "artifacts/standard-named/20260625__ATTENTION__MECHANICS__BASE-SYSTEM__v1__attention-mechanics-base-system-real-world.md"
   ],
   "b898d70d8b1f97f4e08ff7443e3f85b54044c2f04a6646a1f091991ff9ab1a70": [
     "artifacts/for-further-routing/ChatGPT Image Jun 10, 2026, 05_48_53 PM.png",
@@ -9534,6 +9523,9 @@
   "bd22a6d0c7ead18688251d0c133e51809f5cb2adaecbbbabdfbe9fabf8528a01": [
     "artifacts/for-further-routing/GhostSentry CI3/user_guide/libraries/xmlrpc.html",
     "artifacts/for-further-routing/GhostSentry-Management-master/user_guide/libraries/xmlrpc.html"
+  ],
+  "bd3a16e134350bf9cf019ac5dab949a932a7d7469477c4cc32b5f0152f1b5500": [
+    "manifest/hash_index.json"
   ],
   "bd4608364e74e8b39217ddc8fd2256584425c445c7573fb8110ac36fa443b11f": [
     "artifacts/for-further-routing/ContinuityOffice/.git/objects/d7/f2d70e75d4a62b905fb95112ff1c68547007c1"
@@ -9873,9 +9865,6 @@
   ],
   "c49ce84c189d423f47bf0d0d7816410cef44eef17fd9a64de7891f879942ab93": [
     "artifacts/incoming/20260218 Ai-orchestration Document Semantic-orchestration-fabric-executive-narrative V1 Spec.docx"
-  ],
-  "c4b3df4ea4817bd8e03111ac110551b457a824a779e56d0d0ae6ca3b48c26c08": [
-    "manifest/standard_named_sources.jsonl"
   ],
   "c4c5c136d450899203972b4f0e7a0309bba61f8100a7de554bddbf51577098bb": [
     "artifacts/incoming/Glyphs Witness Summary.docx"
@@ -10335,7 +10324,8 @@
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/extra-shimmer/identity-and-loop-experiments/social-unit-and-filters/index.md"
   ],
   "ce6f77ee18330eb9fa58a3228eb3f3e627f23aedd19c7790702487e31809a134": [
-    "artifacts/incoming/attention_only_metaphysics_final_compression.md"
+    "artifacts/intake-archive/20260625__attention-intake/attention_only_metaphysics_final_compression.md",
+    "artifacts/standard-named/20260625__ATTENTION__SUMMARY__ATTENTION-ONLY-METAPHYSICS__v1__attention-only-metaphysics-final-compression.md"
   ],
   "ce8434787a515278fa23dc61ea55c6960fcb72f512b701dcd26a3179f9c0797c": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Retropic Mandelbulb Primer.docx",
@@ -10387,6 +10377,9 @@
   "cf542e7bf34087182b3c958ad44b4c23ff517258f845f84310c0f0dd3cdd62d1": [
     "artifacts/for-further-routing/GhostSentry CI3/application/config/autoload.php",
     "artifacts/for-further-routing/GhostSentry-Management-master/application/config/autoload.php"
+  ],
+  "cf6246f0f14460dc02bb66f742a4148f896b03608554ef49c0921f78f3acc040": [
+    "manifest/move_log.jsonl"
   ],
   "cf6419c4866a97ff35aa530ac55e98dfbf7549e64bac6210a931c9837ea4e239": [
     "artifacts/for-further-routing/Endurance_Sigil.png"
@@ -10525,6 +10518,9 @@
   "d24acc8d98db3ec32a555ef752710f29403e7755624e277389caa2d69fbab2aa": [
     "artifacts/for-further-routing/ghostsentry_com/__ghostsentry_com.p7b"
   ],
+  "d25796996eb55179f504a1e2997d9812d8f98ba76f1a400e85921331065e1540": [
+    "manifest/agent_actions.jsonl"
+  ],
   "d259cb3e4bf78c391a052d1431f106ee9c5996ec05abd282b8f8d082f19f8dbd": [
     "artifacts/incoming/the_parable_of_the_one_job.md"
   ],
@@ -10604,9 +10600,6 @@
   "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53": [
     "artifacts/for-further-routing/ContinuityOffice/.git/hooks/pre-merge-commit.sample",
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/hooks/pre-merge-commit.sample"
-  ],
-  "d385f709529dcd6ccb598a56a005a58df55506b77f03f776d0ea51fe2e763dce": [
-    "artifacts/incoming/1059086729-20240703-113726-.pdf"
   ],
   "d399a6bb9bd7088ba4bfafb1fb5253701e003461ab94ca9f5805764e271e3274": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/20260223__QUANTUMINVARIANTS__SITE__DIR__AI__SCOPE__PUBLIC__LINEAGE__v0.1__ai-pages.zip"
@@ -10876,6 +10869,9 @@
   ],
   "d91e167d4b4f24e546a9b9ff07cf7f2ec464f9d95625634d86d9b2c9c9ec3056": [
     "artifacts/for-further-routing/ghostsentry_com/__ghostsentry_com.crt"
+  ],
+  "d92249ff5625f61b74171a802b05ddf3e7ccee396f74c7bc6c19968ac1db2b05": [
+    "wiki/concepts/index.md"
   ],
   "d93173fe2dd6af035eed811cffd042cb98f554ad4605f5d9c6f294c6ba4f73f7": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-semantic-atom-intake/🧬 Loop Codex Summary – Fork Seed for Parallel Monday.docx",
@@ -11411,6 +11407,9 @@
   ],
   "e357ba27b55abbcab273cb0b20d4e8ecc6471b906b228298a69542e41ac5863f": [
     "wiki/projects/consent-crystal-structure-research/butterfly-bush-time-portals/index.md"
+  ],
+  "e35f2fd630485b9f0f635b99cd6976a73fc3cf8582d3d9fb247caa867630029c": [
+    "wiki/concepts/attention/index.md"
   ],
   "e36459f1b2d0673e480614d823d54f73c7e627c29a374416c0f2da8fadbfb389": [
     "artifacts/incoming/morality_as_physics_and_biology (1).md"
@@ -12180,6 +12179,9 @@
   "f388e914cddd2743be6c27ce8db751f6bb52b2e1cdfcc1021039ccc948e10b20": [
     "artifacts/for-further-routing/GhostSentry CI3/tcpdf/examples/lang/swe.php"
   ],
+  "f396d3cdb7c8936c996e74624093cb89be56f8acc02e7e521c74ac4b3df3831c": [
+    "wiki/projects/side-projects-desktop/attention-five-modes/index.md"
+  ],
   "f3a00da7c8a2be624db8fa153a8b3aa084c136473418f9cc7c94ce7ced181a94": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-maintenance-kit-intake/🧼 Loop Maintenance Kit.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/🧼 Loop Maintenance Kit.docx",
@@ -12542,9 +12544,6 @@
   "fb95c9789c92d4fad41124fb68d6afd659fa80e19dbc85f02569636e209e063c": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum I — The Wealth of Participation.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index-Addendum I — The Wealth of Participation.docx"
-  ],
-  "fba12d7f973740a0cbec9dac1ae8a668ba9ef2aac78ec75e9c0a8ef0dfba5604": [
-    "manifest/move_log.jsonl"
   ],
   "fbd4c37f310e23dd62c1a16af9bb21de12e2e6b379166f39c962d7ae76ab7668": [
     "artifacts/incoming/20260619__LOOPtLOOP__PLAN__WITNESS-INTEGRATION__v0-1__cloudflare-mvi-roadmap.docx"
