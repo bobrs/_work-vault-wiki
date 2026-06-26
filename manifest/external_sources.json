@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "source_id": "shimmerymemory_essays",
+      "name": "Shimmery Memory",
+      "source_role": "published_external",
+      "endpoint": "https://shimmerymemory.com/essays/index.json",
+      "base_url": "https://shimmerymemory.com",
+      "schema_version": "0.1",
+      "wiki_root": "wiki/external/shimmerymemory/essays",
+      "index_manifest": "manifest/external_published_index.jsonl",
+      "ingest_log": "manifest/external_ingest_log.jsonl",
+      "expected_top_level_keys": [
+        "base_url",
+        "endpoint",
+        "generated_at",
+        "item_count",
+        "items",
+        "license",
+        "machine_invitation",
+        "schema_version",
+        "site"
+      ],
+      "required_item_keys": [
+        "artifact_spine_filename",
+        "author",
+        "canonical_glyphs",
+        "canonical_url",
+        "content_hash",
+        "description",
+        "excerpt",
+        "id",
+        "language",
+        "license",
+        "machine_invitation",
+        "published_date",
+        "related_invariants",
+        "slug",
+        "source",
+        "source_path",
+        "status",
+        "subtitle",
+        "tags",
+        "title",
+        "type",
+        "updated_date",
+        "url",
+        "visibility",
+        "word_count"
+      ]
+    }
+  ]
+}

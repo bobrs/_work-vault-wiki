@@ -8,6 +8,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 
 - [Projects](projects/index.md)
 - [Concepts](concepts/index.md)
+- [External Published / Shimmery Memory Essays](external/shimmerymemory/essays/index.md)
 - [Artifacts](artifacts/index.md)
 - [Timelines](timelines/index.md)
 - [Unresolved](unresolved/index.md)

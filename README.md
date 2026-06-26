@@ -27,6 +27,7 @@ docs/        repository operating instructions
 ## Current Phase
 
 The wiki should stay evidence-led. Small durable branches get their own pages. Durable pages should increasingly contain semantic compression and deliberate cross-links, not only labels and source pointers. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
+External published feeds are handled separately under `wiki/external/` and tracked through `manifest/external_sources.json`, `manifest/external_published_index.jsonl`, and `manifest/external_ingest_log.jsonl`. They are metadata-first wiki integrations, not intake-archive or standard-named source material.
 
 The repository is also adopting a standard-named source layer:
 
@@ -69,6 +70,7 @@ See:
 - [`docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md`](docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md)
 - [`docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-6__semantic-compression-and-link-seeding-addendum.md`](docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-6__semantic-compression-and-link-seeding-addendum.md)
 - [`docs/20260622__WORKVAULT__INSTRUCTIONS__STANDARD-NAMED-SOURCE__v0-7__flat-source-name-standard-addendum.md`](docs/20260622__WORKVAULT__INSTRUCTIONS__STANDARD-NAMED-SOURCE__v0-7__flat-source-name-standard-addendum.md)
+- [`docs/20260625__WORKVAULT__INSTRUCTIONS__EXTERNAL-PUBLISHED__v0-1__published-external-ingest-workflow.md`](docs/20260625__WORKVAULT__INSTRUCTIONS__EXTERNAL-PUBLISHED__v0-1__published-external-ingest-workflow.md)
 
 ## Public Site
 
