@@ -1648,6 +1648,9 @@
   "40982a610166f1012b36b26806ee620947b431450fdb8115132f3b2a8c707a6d": [
     "artifacts/incoming/SLL and AI App - bayesian_pre_speech_stabilization_architectural_suggestion.md"
   ],
+  "40c34cc33b052d99b37d65ba22248918534d8ee903759f6723e4b7d1ae7fd35a": [
+    "manifest/hash_index.json"
+  ],
   "40f0c4ac46e83f92926c4fd74a0dadace5f5e003410216ca157f22c002ff2189": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/gentle-control-in-a-non-orientable-life.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/gentle-control-in-a-non-orientable-life.md"
@@ -1829,9 +1832,6 @@
   ],
   "4907ed62375a1da437b754ca14906066aacba8b5c8761e1347dc606f4515a308": [
     "artifacts/incoming/conversation_markdown_spec_v_0.md"
-  ],
-  "490f06baa75b36b492190d9ce391fc201337bfaabf6368b8964ec9e264efb6be": [
-    "wiki/projects/index.md"
   ],
   "49376e7d17afd238c375aa2ae7e6e15f187b935f8dae2a4ffcd7344986833bf7": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v13__attractor-glyph-shortcuts.html"
@@ -2925,6 +2925,9 @@
   "78df6c491dda08f8ff8f178930a172ef5386eccbc7fd5cbe4acf5dc23d937466": [
     "artifacts/incoming/ipol_package/MERGED_LICENSE.md"
   ],
+  "78df7f0f80df98ee3713ad9e4613b925486582b810095088cfc171b5cd797609": [
+    "manifest/inventory.jsonl"
+  ],
   "78f62dcf29e22e9e9a721c16f74bb31264d78ae42b62d978e7e40f66b52283a7": [
     "artifacts/incoming/consent_compression_rule.md"
   ],
@@ -3284,9 +3287,6 @@
   ],
   "89bdacc461163288e0b66815924b5cb9ea3cb53a112777e8ff3806771b1aa9cf": [
     "artifacts/incoming/Fractal Identity Missile Guidance Teaser and Backgrounder.docx"
-  ],
-  "8a17a465205f4e8673c38e78bb5b212d9ea6c9df35a310b0eaa7c9284a3badd8": [
-    "wiki/incoming-review.md"
   ],
   "8a23995abe6f910ea9c982b4bcfe8163b7288fb902dafcb77757f6c5c0b22e0a": [
     "artifacts/incoming/attractor_gardening_how_lives_actually_gain_direction.md"
@@ -4275,9 +4275,6 @@
   "b402167804bd93a3e5f090afdd328b0ad064dc0e70be4740b000230a72b49c34": [
     "artifacts/incoming/star_trek_tng_the_attention_field_yarn_summary.md"
   ],
-  "b41186b76709c0abf3851c11d9dc3dc14aacc498545eef866db12d02d213ff57": [
-    "manifest/hash_index.json"
-  ],
   "b433dbcf3043f9af5806d32656f55baf5fb3ea2f6a52a0ea8a24398b339fcf89": [
     "manifest/external_ingest_log.jsonl"
   ],
@@ -4753,6 +4750,9 @@
   "c73c1aea5ec0ad594962db45f6c6d2c36d0faf5ea2265360b7b41a815fd198bc": [
     "wiki/external/shimmerymemory/essays/selection-pressure-via-attention/index.md"
   ],
+  "c773afa016b5d0ee1c0c0879cf54c7f466da252650c85a98f4445ff3a249ad64": [
+    "wiki/projects/loopverse/index.md"
+  ],
   "c7c209411951c4ada1cfcc187ecfb17977186c146ac428d660a10e0de43da14c": [
     "artifacts/intake-archive/20260623__continuity-office-site-variants-intake/20260302__CONTINUITYOFFICE__WEB__SITE__V1__PUBLIC__TRAININGSTRUCTURE__current.zip"
   ],
@@ -4811,9 +4811,6 @@
   ],
   "c90011b53873dcc5b442f79967b97af5de68cff8a824253d209554f74cfc42d8": [
     "wiki/projects/patents/trust-and-pairing-systems/index.md"
-  ],
-  "c93804b1829e5860a9df616cca0b3a51ee576e5c57feaa58c70fdb645113f446": [
-    "manifest/inventory.jsonl"
   ],
   "c94c9dcbb7a62f3af1f6ffe41ded4d5afebd579f8deecad41899dbd1f15d8156": [
     "artifacts/intake-archive/20260623__how-works-intake/howrealityworks.html"
@@ -6013,6 +6010,9 @@
   "fb27dac84c68a2f5820b7b2f8a8d8b6bbfe6f556f71556241a1b16d6c26e3c58": [
     "artifacts/incoming/Mood Bucket Spec.docx"
   ],
+  "fb3f8556285ff72b847cbe0fe4b103538382cbe345a50481e9c2f80b48e4bd88": [
+    "wiki/projects/index.md"
+  ],
   "fb4d058bc390ffe2916a6d797f49d7cb70da88b7b17f43539c29f98f114da714": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md"
   ],
@@ -6034,6 +6034,9 @@
   ],
   "fc41a82652cbf792b21530a3229083d8ab3ce7afd6000e640cc731d6cc9bc133": [
     "artifacts/incoming/ipol_package/IPOL.md"
+  ],
+  "fc43f4f2212c4418255b3a81e9754ba2be501f5e1529d52a00014d06c3b150e8": [
+    "wiki/incoming-review.md"
   ],
   "fc50045e9af1ac3a4549dcd49a1fd7901566cb911c9d7214a18c66ab59ee22be": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 2.png"
