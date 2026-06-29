@@ -5,7 +5,7 @@ This branch collects the implementation-facing work on semantic integrity: how m
 ## Current Shape
 
 - 5 source documents.
-- 3 child wiki pages for pilot architecture, investor framing, and semantic movement signals.
+- 5 child wiki pages for pilot architecture, investor framing, semantic movement signals, semantic infrastructure, and semantic OS architecture.
 
 ## Representative Files
 
@@ -16,12 +16,14 @@ This branch collects the implementation-facing work on semantic integrity: how m
 - [Pilot architecture](<./pilot-architecture/index.md>)
 - [Investor framing](<./investor-framing/index.md>)
 - [Semantic Movement Signals](<./semantic-movement-signals/index.md>)
+- [Semantic Infrastructure](<./semantic-infrastructure/index.md>)
+- [Semantic OS architecture](<./semantic-os-architecture/index.md>)
 
 ## Working Read
 
 This is the operational layer that sits between the Consentful Cybernetics philosophy and a deployable product/service boundary.
 
-The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay broadens the mission, the conversation reconstitution preserves the semantic basin, the Semantic OS vision describes the execution model, and the semantic movement signals memo now reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
+The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay now opens into semantic infrastructure and semantic-attack-surface concerns, the conversation reconstitution preserves the semantic basin, the Semantic OS vision now opens into airlock architecture, and the semantic movement signals memo still reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
 
 ## Related Links
 
@@ -34,4 +36,5 @@ The FAQ now splits into a pilot-architecture page and an investor-framing page, 
 1. Keep the implementation seam readable as a project page until a second durable branch appears.
 2. Add semantic-operating-system materials here only if they stay in the same operational basin.
 3. Keep semantic movement signals as a child concept page unless the instrumentation work becomes a separate branch.
-4. Split later if the client-facing and systems-facing work become distinct enough to navigate separately.
+4. Keep semantic infrastructure and semantic OS architecture as child pages unless they become separate branches.
+5. Split later if the client-facing and systems-facing work become distinct enough to navigate separately.
