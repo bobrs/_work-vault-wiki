@@ -15,6 +15,7 @@ Current state:
 - the standard-named source pilot now creates intentional hash-equivalent copies in `artifacts/intake-archive/` and `artifacts/standard-named/` for the selected root-level works, so those new duplicates are provenance copies rather than accidental collisions;
 - eighteen exact duplicate pairs were previously collapsed within the archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot, and that lineage remains canonical;
 - the `Daily Growth Ritual`, `Consent Seed`, `Reference - Stored Crystals`, mirrored `Personal` companions, the `Semantic Collapse Theory` mirror tree, the `Consent–Intent Compression Protocol` / `Consent-based Atomic genesis and Stream` mirror hubs, and the archived `LOOPtLOOP` platform companions from `Side Projects Desktop` and `Patents` have now been archived back to their survivor lineages.
+- a cleanup pass removed incoming-only exact duplicate clones that already had surviving copies elsewhere, so the live incoming duplicate set is now narrower and easier to review.
 
 Current handling:
 
