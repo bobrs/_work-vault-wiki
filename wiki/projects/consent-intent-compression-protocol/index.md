@@ -2,7 +2,7 @@
 
 This branch is the structured mutuality/consent corpus inside the current intake. It sits under `Consent Crystal Structure Research` as the operational rail of the field.
 
-Read semantically, this branch is the protocol side of the consent corpus: it gathers loop language, access control, training, outreach, and identity scaffolding into one system family. The root cluster pages hold the major seams, while `Loop Training`, `Working Notes`, and `FractalIdentity Tree` preserve the durable sub-branches that read like their own working lines.
+Read semantically, this branch is the protocol side of the consent corpus: it gathers loop language, access control, training, outreach, and identity scaffolding into one system family. The root cluster pages hold the major seams, while `Loop Training`, `Working Notes`, and `FractalIdentity Tree` preserve the durable sub-branches that read like their own working lines. The protocol foundations and training rail now split one level deeper so the branch reads less like a bucket and more like a layered system.
 
 The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward protocol, implementation, and applied framing rather than theory narration.
 
@@ -70,4 +70,5 @@ The branch-root `.zip` companion is archived and retained as lineage evidence.
 1. Keep the archived `.zip` companion visible as lineage evidence.
 2. Keep the four root-level cluster pages stable unless a stronger sub-branch appears.
 3. Add new lineage pages only when a sub-branch is strong enough to stand alone.
-4. Link recurring formulations back into `Concepts` when the same language appears in multiple CICP and SCT pages.
+4. Keep the protocol foundations and loop training layers readable as deeper rails rather than isolated note piles.
+5. Link recurring formulations back into `Concepts` when the same language appears in multiple CICP and SCT pages.

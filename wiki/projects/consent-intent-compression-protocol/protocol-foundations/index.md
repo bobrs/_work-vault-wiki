@@ -31,6 +31,8 @@ The deeper function of this cluster is to define the protocol language itself. I
 
 The three subpages map to the core protocol layers: how the loop model works, how symbolic forms stay equivalent, and how trust can propagate without losing structure.
 
+Each of those three layers now has its own deeper child page so the vocabulary spine can be read from coarse structure down into the specific loop, grammar, and continuity seams.
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../consent-crystal-structure-research/index.md)
@@ -45,4 +47,5 @@ The three subpages map to the core protocol layers: how the loop model works, ho
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.
-2. Split again only if one of the three tracks develops another durable seam.
+2. Keep the new deeper child pages stable.
+3. Split again only if one of the three tracks develops another durable seam.

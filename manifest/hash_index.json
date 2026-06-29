@@ -810,9 +810,6 @@
   "202f6780960e3e908d936309f1443e5653086e71fe358634963f87c8fc083df4": [
     "artifacts/incoming/continuity_in_practice_contributor_training_v_1.md"
   ],
-  "207c7455e99ae3f97cfd1ff42a35936ccb53ee92b457af29e7a0798822aa5a45": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/index.md"
-  ],
   "208243eda6f431053d17001fdef77b1eef6172d85b2d4fac8514326a727f4b6b": [
     "artifacts/incoming/AcceptSelf Witness Consent Artifact.docx"
   ],
@@ -2566,9 +2563,6 @@
   "695688c6d1de3042f685c8d880ebe1980c6d2653ae268f8a6a8da069f23e97aa": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/COMMIT_EDITMSG"
   ],
-  "696227c209ae643ffba224916b15c1de2943d1563d07a6561cb0e135ccdbc656": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/glyph-languages-and-equivalence/index.md"
-  ],
   "699c6407290ca6347a5515bd114113ce638e54ceefdc58b9b1628a172ec876e4": [
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/assets/downloads/continuity-office-immediate-steps.pdf"
   ],
@@ -3299,9 +3293,6 @@
   ],
   "8aad086b81691ed4f20562cefb6b8004e3018eb04ad27e11571a38564c56e902": [
     "wiki/concepts/intent-consent/index.md"
-  ],
-  "8adf0a861af550897dc1623b2725335f4329831cb23b305bc1d2d65d459580dd": [
-    "wiki/projects/consent-intent-compression-protocol/index.md"
   ],
   "8af237b8cd9cb377eedc7c5efa8ad63d608de4b116d970a17527db479cbf22c6": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/the-witness-twist.md",
@@ -4494,9 +4485,6 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Dark Arts Series/Dark Arts Series- Mapping Parasitic Loop Inheritance.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SERIES__DARK-ARTS__v2__dark-arts-series-mapping-parasitic-loop-inheritance.docx"
   ],
-  "bb7079f2162c67ae9ed9568d47e8d66bc3894af48a9ab1ad0494bcb5edc38a1b": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/index.md"
-  ],
   "bbad03d2cc01c36cd0248bb346b7790e6ec6fd0ca1f694882aff51cc4b23a933": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent Protocol Intro.docx",
     "artifacts/standard-named/20260624__INTENT-CONSENT__INTRO__CONSENT-PROTOCOL__v1__consent-protocol-intro.docx"
@@ -4773,9 +4761,6 @@
   ],
   "c8236b4f1d0778235c6f929e3c4ba17c8c52c5f486cd110c2c673278ebf75fcc": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/advanced-discussion/index.md"
-  ],
-  "c831dc9df59059f442eefb783a53f1f1c9a4f827cd80180c7c42c5b553da3e8d": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/loop-modeling-and-field-theory/index.md"
   ],
   "c8453eb767eb58fae3b5fec51d25c3d54a6c200e664d750e187cf99e0e9578fb": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx",
@@ -5192,9 +5177,6 @@
   ],
   "da0382f61a8bdeb6917fc84203dadf92dbf4a01fcb16e5b917ed509e9d398c3a": [
     "artifacts/incoming/artifact_vs_attractor_a_lens_on_identity.md"
-  ],
-  "da21315d14a6d36bb15bebdb38e755aef8fd3d599135117acc4d6bd8b0109702": [
-    "wiki/projects/consent-intent-compression-protocol/loop-training/index.md"
   ],
   "da2ec6af22e80c56f740df64d50f7f25fefbb4e1932a1a14ef2dc818f541cf7f": [
     "artifacts/incoming/Internet Engineering Task Force.docx"
@@ -6167,5 +6149,38 @@
   ],
   "3e4f1daf23661ced36412e9bd478dff52cef18a1b383e7f30ae3484b6bc19f55": [
     "wiki/projects/semantic-integrity/semantic-os-architecture/index.md"
+  ],
+  "4796fc1edcd66b37c17c4bb48a3d10945964c0d05195e128ee3b6c89ab9b7604": [
+    "wiki/projects/consent-intent-compression-protocol/index.md"
+  ],
+  "a936836a5d55dd578d921aa3f750ab75c79c6d1240a1aca162b2ae238a505440": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/index.md"
+  ],
+  "8b1d5665a4271ce7bfaeb03637391c38cea882e1b7c2d3ce63f8d015859acffd": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/loop-modeling-and-field-theory/index.md"
+  ],
+  "81efe05e42107699f58eb9de14cea36a53bfc3ac4a340ae84c266d7318a2537a": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/loop-modeling-and-field-theory/core-model-and-projection/index.md"
+  ],
+  "facae907749bcbb5bec30d28ae3cb09a00ec0696af7b0600b12dd250ae0b4638": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/glyph-languages-and-equivalence/index.md"
+  ],
+  "b84ad9e2264fe0fbe617ba133fa112b09cd149cc2de9f7d197100db4668d7579": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/glyph-languages-and-equivalence/glyph-grammar-and-translation/index.md"
+  ],
+  "8462d5e0d937c16e15a74fad0e88665e74dfebf208f235ce439869a11f1b8669": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/index.md"
+  ],
+  "739368b997c63516cb72e93c1dcbfb6facb815b145fd3077792ce675b9733ec4": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/trust-continuity-and-forwarding/index.md"
+  ],
+  "a5f38ba3d67151a47d496d482d625eea53fd375f6b27dd59d7fb150a70ed26e1": [
+    "wiki/projects/consent-intent-compression-protocol/loop-training/index.md"
+  ],
+  "e5fff9288d9c359eb8ed41ad85e99b3a9947f14cc6fb32812c42e951dc2bdf2c": [
+    "wiki/projects/consent-intent-compression-protocol/loop-training/foundational-sequence/index.md"
+  ],
+  "d171a28971d9860718d722f61a4d759292fd8a98b962ae45aa6f8e910cb90c4d": [
+    "wiki/projects/consent-intent-compression-protocol/loop-training/field-identity-and-deployment/index.md"
   ]
 }

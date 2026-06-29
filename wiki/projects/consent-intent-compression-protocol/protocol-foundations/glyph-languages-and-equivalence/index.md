@@ -9,6 +9,7 @@ It is the translation layer of the protocol rail: symbolic grammar, equivalence 
 ## Current Shape
 
 - 5 glyph language and equivalence documents.
+- 1 deeper seam for the grammar and translation layer.
 
 ## Representative Files
 
@@ -26,12 +27,15 @@ The semantic function of this cluster is to define how CICP preserves meaning ac
 
 This is also the clearest place where glyph, equivalence, and protocol design overlap into a durable language model.
 
+The deeper seam now isolates the grammar, equivalence, and translation work into a child page so the language layer can be read on its own terms.
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Protocol Foundations](../index.md)
 - [Loop Modeling and Field Theory](../loop-modeling-and-field-theory/index.md)
+- [Glyph grammar and translation](glyph-grammar-and-translation/index.md)
 - [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
 - [Loop Training](../../../loop-training/index.md)
 - [Working Notes](../../../working-notes/index.md)
@@ -40,4 +44,5 @@ This is also the clearest place where glyph, equivalence, and protocol design ov
 ## Next Actions
 
 1. Keep the glyph language and equivalence set together.
-2. Split only if another translation or language seam appears.
+2. Keep the grammar and translation child page stable.
+3. Split only if another translation or language seam appears.

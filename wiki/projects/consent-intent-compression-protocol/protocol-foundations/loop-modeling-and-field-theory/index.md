@@ -9,6 +9,7 @@ It is the model layer of the protocol rail: the place where loops, substrate, pr
 ## Current Shape
 
 - 5 loop modeling and field theory documents.
+- 1 deeper seam for the loop core and projection layer.
 
 ## Representative Files
 
@@ -26,11 +27,14 @@ This cluster defines the underlying formal picture that CICP uses to reason abou
 
 That makes this page the mathematical or structural anchor of the protocol family, even when the documents themselves are written in more practical terms.
 
+The deeper seam now separates the loop core and projection layer into its own child page so the model stack can be read from principle to substrate without collapsing into a flat file list.
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../index.md)
 - [Protocol Foundations](../index.md)
+- [Core model and projection](core-model-and-projection/index.md)
 - [Glyph Languages and Equivalence](../glyph-languages-and-equivalence/index.md)
 - [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
 - [Loop Training](../../../loop-training/index.md)
@@ -40,4 +44,5 @@ That makes this page the mathematical or structural anchor of the protocol famil
 ## Next Actions
 
 1. Keep the loop modeling set together.
-2. Split only if another foundational model appears.
+2. Keep the core model and projection child page stable.
+3. Split only if another foundational model appears.
