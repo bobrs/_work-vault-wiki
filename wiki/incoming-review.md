@@ -9,7 +9,7 @@ Observed shape:
 - 468 incoming files were inventoried after removing exact duplicate clones that already survive elsewhere.
 - The intake is mostly `.docx` files, with a small number of `.html`, `.zip`, and `.pdf` companions. `.zip` companions are auxiliary unless otherwise noted.
 - The remaining incoming set is still mostly `.md`, `.docx`, and `.pdf`, with one `ipol_package` directory holding license/package scaffolding.
-- The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, and `POLEMEMELOP`, and each now has a lineage page.
+- The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, `POLEMEMELOP`, and `WitnessKey`, and each now has a lineage page or project shell.
 - The desktop vault still contains mirror-heavy bundles; collapse only the copies that are clearly auxiliary or exact duplicate lineage. The auxiliary zip bundle layer and the archived mirror vaults are now out of incoming.
 - The small root-level works now have their own standalone pages: `Thanks, Bobo - A Screenplay`, `Butterfly Bush Time Portals`, `Daily Growth Ritual`, and `Ego and Flow`.
 - The archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot has already absorbed the exact duplicate SCT pairs, with collapse-parent metadata recorded elsewhere.
@@ -30,3 +30,4 @@ Next actions:
 - Review the archived snapshot only if you need to inspect lineage history.
 - Move only the files that are clearly understood enough to justify it.
 - Continue pruning exact incoming clones only when a surviving copy already exists elsewhere.
+- Treat `ipol_package` as a separate ancillary bundle until its role is clearer.

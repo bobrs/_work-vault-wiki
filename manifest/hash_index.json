@@ -79,6 +79,9 @@
   "02ae0b1b29623d56a535a1ffecbfb826700ea841bb18eeb38148472e962c7932": [
     "artifacts/incoming/GlyphCompression and suggestions.docx"
   ],
+  "02bc311f326d98ee90db289a74fbcd89a3504d64c988eb1618abace7d43e37ec": [
+    "manifest/inventory.jsonl"
+  ],
   "02fd6d8da6cccd15dd0cc3926b35cf6a6e6e8e87d5df4e20d41fc8003e862458": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 7.png"
   ],
@@ -323,6 +326,9 @@
   "0c0245237c9be0979d1a7af3ddb134c806b4635a3d1400ef72eb631fd344bd7d": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx"
+  ],
+  "0c0f61c54ece1fc550f18a76afc88fdb8de00fa30a4372a6041a600b7fe14588": [
+    "wiki/duplicate-review.md"
   ],
   "0c3433b044578f4e6b8096b8212dd6c7b0c10450e52bc963f63bd23ed300f455": [
     "artifacts/incoming/the_memetic_scalpel.md"
@@ -629,6 +635,9 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Network State Manifesto.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Wold Building/Consentocratic Network State Manifesto.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx"
+  ],
+  "1890460c9312276f15c85680df68078709f03048569959005ff3ac4623705548": [
+    "wiki/projects/index.md"
   ],
   "18b1999529ef328aa3f027de8a80d0b78fac88ed31ddd1e9fa5b4d46b21e1849": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc1.docx"
@@ -1314,6 +1323,9 @@
   "333404d0437f153970e3c5b9f14d3a627e6ecfbaf9a9357f46168907b8d028df": [
     "artifacts/incoming/ULiUA_snapshot.md"
   ],
+  "333d593bc62b6dfd240817b7fcc85aa162cd799f2fcfd51f962a6f7c33257c9d": [
+    "wiki/projects/witnesskey/positioning/index.md"
+  ],
   "33d75dbaeb683c5c222937999c34c11e333e9e010dc3fb9322ef8bfabe755734": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/🧬 Intent-Consent Loops as the Fabric of the Universe.pdf"
   ],
@@ -1362,9 +1374,6 @@
   ],
   "352cdc61878292c78f5576bd728d61e01883ef571955adbccdadc60a02885b92": [
     "wiki/projects/side-projects-desktop/glyphstory/index.md"
-  ],
-  "3548b95ccc2e364088e6051d7495680fa0b5f680f2d4b625e9a38a8c128f511f": [
-    "wiki/projects/index.md"
   ],
   "3573f6b6c32697eb359c6b33accd449c27be58f8951128a2b3906aa04541cd2b": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal.zip"
@@ -2448,9 +2457,6 @@
   "64f48e87dbd2430b97c04b9612af2bebcbd4e75fcda65b1a9be6e333555941fe": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__SPIRAL__SYMBOLA__master.svg"
   ],
-  "64f6a7f1782cb8063d4dbfde72708c67cc34be185fb58fe998941e4273815dbb": [
-    "manifest/hash_index.json"
-  ],
   "65213350b0036f80020d566d36d9d6e2e1772d2a9e66f30a66415ee2b14265d6": [
     "wiki/projects/side-projects-desktop/programself-you-and-your-ai/control-your-ai/index.md"
   ],
@@ -2604,6 +2610,9 @@
   ],
   "6adaba8ea1a3bce52d7e2c7b5a466e664ab5d0917f277dbd870585f6cb129002": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/index.md"
+  ],
+  "6b32a9776a14a38ba93aeb6ef38ee43c5833b43581da09fa3f3382aa2df3d4f7": [
+    "wiki/projects/witnesskey/spec/index.md"
   ],
   "6b3a3ce8dfe49a24a9be309479d95c7d62d4bbb619bd8645d36618c46e94c8c6": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/objects/2d/088fb021a9514274b10a7dc5823280eeda0c15"
@@ -3129,6 +3138,9 @@
     "artifacts/intake-archive/20260622__standard-named-tis-slice/Dialog Turn v1.docx",
     "artifacts/standard-named/20260622__TIS__THREADING__DIALOG-TURN__v1__dialog-turn.docx"
   ],
+  "833d0e419f49488634762c55f864c31344be44fb51c13139f99bfd60af8baa18": [
+    "wiki/projects/witnesskey/compression-and-context-resume/index.md"
+  ],
   "833ff130d650d0e8b19a8930fef3b09715ad7429a6f7c1423cbda41064ff63ff": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Semantic Terrain Engine.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__SEMANTIC-TERRAIN-ENGINE__v1__semantic-terrain-engine.docx"
@@ -3273,6 +3285,9 @@
   "89bdacc461163288e0b66815924b5cb9ea3cb53a112777e8ff3806771b1aa9cf": [
     "artifacts/incoming/Fractal Identity Missile Guidance Teaser and Backgrounder.docx"
   ],
+  "8a17a465205f4e8673c38e78bb5b212d9ea6c9df35a310b0eaa7c9284a3badd8": [
+    "wiki/incoming-review.md"
+  ],
   "8a23995abe6f910ea9c982b4bcfe8163b7288fb902dafcb77757f6c5c0b22e0a": [
     "artifacts/incoming/attractor_gardening_how_lives_actually_gain_direction.md"
   ],
@@ -3392,6 +3407,9 @@
   ],
   "90256150c844c2f20fd55302243d4a74c1e4a264b21bc7f1565f4564dfb238eb": [
     "artifacts/intake-archive/20260623__humankey-protocol-bridge-intake/20260610__ABRACADOO__BACKUP__HUMANKEY-LOCAL__V0-4__sensitive.json"
+  ],
+  "9099172d726aeab4bf12d72a0140c05f68a00f45b78c036b1591f8738c6ddfda": [
+    "wiki/projects/witnesskey/index.md"
   ],
   "909f4345d5e6104380dcf46116c22b8d7a8c922955ef5918316fd6d818e881b2": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v14b__lab-hidden-hero-start.zip"
@@ -3555,9 +3573,6 @@
   "9640693099975308b18496d8b70d94330606afd9eed1731dda46124d3eb0d99e": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/attractor-gardening.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/attractor-gardening.md"
-  ],
-  "9650d2b92a8064047ea5d2ab36e06688a57424f922e3407a01ab028271032c6c": [
-    "wiki/duplicate-review.md"
   ],
   "965de5a558d71e27d3d6c02d26b459ee16d3be7a3ab3d019735eeb5ad26e88fa": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/llms.txt"
@@ -4056,9 +4071,6 @@
   "acba56b3f88bdd5c1f160800eb69efbb7c7467ba9b96e91663cbefd4ae94462f": [
     "artifacts/incoming/Dynamic Qr Wearable — Spec & Prototype Plan.docx"
   ],
-  "acbc9cc92a67ea61ba3297fe464f58e849836b302984305dff8e188a727a642a": [
-    "manifest/inventory.jsonl"
-  ],
   "acbded81094595860e6e8b9ce3f3f412ec75143441bf9e03c7e8a5e7acf1bc09": [
     "artifacts/incoming/MATRIX PROTOCOL ARCHITECTURE.md"
   ],
@@ -4534,6 +4546,9 @@
   ],
   "bce975d4ec2497807020f8d4cd0a7a21884265ade52c7cf46252852b6f5231f6": [
     "artifacts/incoming/poly_ai_anchor_types_technical_architecture_v_1.md"
+  ],
+  "bd15738031573da7670ed1eeafb97ddcd708f68f4dcb0377120a5f1da949671d": [
+    "wiki/projects/witnesskey/vision/index.md"
   ],
   "bd47dc4f0c7378c00884876681179da46fb3218ecd1b74261e6ed9683beea6b0": [
     "artifacts/incoming/Trust_Interoperability_Standard_v1_FULL.docx"
@@ -5093,9 +5108,6 @@
   "d67b742a8c28fcd6572badbc2e143794478bd5a50e4d34da5d0f5d28d80d3c22": [
     "manifest/external_sources.json"
   ],
-  "d67f03914434e05398cb170d89c1af10f25cec117c62b11db37bd4a24d20ae39": [
-    "wiki/incoming-review.md"
-  ],
   "d68b85d091d59645ad5c2b00c466d7d707552297d98f9a66cd1a9b00861bc931": [
     "artifacts/intake-archive/20260622__continuity-office-intake/007-survivable-workflows/index.md",
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/training/007-survivable-workflows/index.md",
@@ -5535,6 +5547,9 @@
   ],
   "e8dc033e95cd141353fdfffe23a7665ec51cbb6f83ae9a8de1d4ba453a914df8": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/glyph-glossary/index.md"
+  ],
+  "e8e76f90d7853a05bd566ac21530c7355e178113ad0bb15e22dd58163da15a4c": [
+    "manifest/hash_index.json"
   ],
   "e902312552fbc17ba6d321e2ce7a2d5ef90176e0b76291fe08d21cc6451117be": [
     "artifacts/incoming/Resonance Currency Onepager.docx"
