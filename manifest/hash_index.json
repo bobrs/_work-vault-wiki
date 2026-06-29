@@ -79,9 +79,6 @@
   "02ae0b1b29623d56a535a1ffecbfb826700ea841bb18eeb38148472e962c7932": [
     "artifacts/incoming/GlyphCompression and suggestions.docx"
   ],
-  "02bc311f326d98ee90db289a74fbcd89a3504d64c988eb1618abace7d43e37ec": [
-    "manifest/inventory.jsonl"
-  ],
   "02fd6d8da6cccd15dd0cc3926b35cf6a6e6e8e87d5df4e20d41fc8003e862458": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Ad/Slide 7.png"
   ],
@@ -636,9 +633,6 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Wold Building/Consentocratic Network State Manifesto.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__MANIFESTO__WOLD-BUILDING__v1__consentocratic-network-state-manifesto.docx"
   ],
-  "1890460c9312276f15c85680df68078709f03048569959005ff3ac4623705548": [
-    "wiki/projects/index.md"
-  ],
   "18b1999529ef328aa3f027de8a80d0b78fac88ed31ddd1e9fa5b4d46b21e1849": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc1.docx"
   ],
@@ -1065,6 +1059,9 @@
   ],
   "2a1b98aebd2a2e5dce825ef4c5cb39d00b4577172148932fcac9994c1fce1b47": [
     "artifacts/incoming/changing-the-optimization-primitive.md"
+  ],
+  "2a4c89cfd185bd00d1544d0457c0f0a19c708c60178c1369c56a81078563a958": [
+    "wiki/projects/infinite-play-open-license/index.md"
   ],
   "2a63f646cd6d054162099c9d7778ee5e0e10919c4c7a32b6a4e1885344561c62": [
     "wiki/projects/semantic-collapse-theory/temporal-loops-and-memory/index.md"
@@ -1832,6 +1829,9 @@
   ],
   "4907ed62375a1da437b754ca14906066aacba8b5c8761e1347dc606f4515a308": [
     "artifacts/incoming/conversation_markdown_spec_v_0.md"
+  ],
+  "490f06baa75b36b492190d9ce391fc201337bfaabf6368b8964ec9e264efb6be": [
+    "wiki/projects/index.md"
   ],
   "49376e7d17afd238c375aa2ae7e6e15f187b935f8dae2a4ffcd7344986833bf7": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v13__attractor-glyph-shortcuts.html"
@@ -4275,6 +4275,9 @@
   "b402167804bd93a3e5f090afdd328b0ad064dc0e70be4740b000230a72b49c34": [
     "artifacts/incoming/star_trek_tng_the_attention_field_yarn_summary.md"
   ],
+  "b41186b76709c0abf3851c11d9dc3dc14aacc498545eef866db12d02d213ff57": [
+    "manifest/hash_index.json"
+  ],
   "b433dbcf3043f9af5806d32656f55baf5fb3ea2f6a52a0ea8a24398b339fcf89": [
     "manifest/external_ingest_log.jsonl"
   ],
@@ -4808,6 +4811,9 @@
   ],
   "c90011b53873dcc5b442f79967b97af5de68cff8a824253d209554f74cfc42d8": [
     "wiki/projects/patents/trust-and-pairing-systems/index.md"
+  ],
+  "c93804b1829e5860a9df616cca0b3a51ee576e5c57feaa58c70fdb645113f446": [
+    "manifest/inventory.jsonl"
   ],
   "c94c9dcbb7a62f3af1f6ffe41ded4d5afebd579f8deecad41899dbd1f15d8156": [
     "artifacts/intake-archive/20260623__how-works-intake/howrealityworks.html"
@@ -5547,9 +5553,6 @@
   ],
   "e8dc033e95cd141353fdfffe23a7665ec51cbb6f83ae9a8de1d4ba453a914df8": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/glyph-glossary/index.md"
-  ],
-  "e8e76f90d7853a05bd566ac21530c7355e178113ad0bb15e22dd58163da15a4c": [
-    "manifest/hash_index.json"
   ],
   "e902312552fbc17ba6d321e2ce7a2d5ef90176e0b76291fe08d21cc6451117be": [
     "artifacts/incoming/Resonance Currency Onepager.docx"

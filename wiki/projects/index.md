@@ -27,6 +27,10 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Patents](patents/index.md)
 - [Side Projects Desktop](side-projects-desktop/index.md)
 
+### Reference Packages
+
+- [Infinite Play Open License](infinite-play-open-license/index.md)
+
 ## Lineage Pages
 
 ### Consent–Intent Compression Protocol (CICP)
