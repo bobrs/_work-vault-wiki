@@ -5,6 +5,7 @@ This branch collects the implementation-facing work on semantic integrity: how m
 ## Current Shape
 
 - 5 source documents.
+- 3 child wiki pages for pilot architecture, investor framing, and semantic movement signals.
 
 ## Representative Files
 
@@ -12,13 +13,15 @@ This branch collects the implementation-facing work on semantic integrity: how m
 - [Defending Meaning](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__ESSAY__v1__defending-meaning.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_integrity_it_cybersecurity_essay.md>)
 - [Semantic Integrity conversation reconstitution](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__RECONSTITUTION__v0-1__semantic-integrity-conversation-reconstitution.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_integrity_conversation_reconstitution.md>)
 - [Semantic OS vision](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__VISION__v0-1__semantic-os-ai-human-collaboration.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_os_operating_system_vision.md>)
+- [Pilot architecture](<./pilot-architecture/index.md>)
+- [Investor framing](<./investor-framing/index.md>)
 - [Semantic Movement Signals](<./semantic-movement-signals/index.md>)
 
 ## Working Read
 
 This is the operational layer that sits between the Consentful Cybernetics philosophy and a deployable product/service boundary.
 
-The FAQ is the client-facing pilot frame, the cybersecurity essay broadens the mission, the conversation reconstitution preserves the semantic basin, the Semantic OS vision describes the execution model, and the semantic movement signals memo now reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
+The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay broadens the mission, the conversation reconstitution preserves the semantic basin, the Semantic OS vision describes the execution model, and the semantic movement signals memo now reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
 
 ## Related Links
 

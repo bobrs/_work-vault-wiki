@@ -475,9 +475,6 @@
   "11caef0517ea848575973e83fe958b22ae6099dd3fcc42a82f88904503281aff": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Poster.docx"
   ],
-  "1237168aea9d98c1ebbfde60a930317002e20d646c354afa2557c4b0bfce8826": [
-    "wiki/projects/semantic-integrity/index.md"
-  ],
   "126deedaae17b8464b3615d7149e37219d4d60cbba4542b680110934e320e458": [
     "artifacts/intake-archive/20260625__attention-intake/consent_aware_ai_in_organizations_taxonomy_layers_and_deployment_pattern.md",
     "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md"
@@ -6152,5 +6149,14 @@
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🔁 Lesson Five- Living the Loop.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Loopwalker Training/🔁 Lesson Five- Living the Loop.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LESSON__LOOPWALKER-TRAINING__v5__lesson-five-living-the-loop.docx"
+  ],
+  "0f225cefd9883f849c33c696fffb98ac22e96bd57651a9da44df3ea968d70ad4": [
+    "wiki/projects/semantic-integrity/index.md"
+  ],
+  "b517f2dfcf54533017b4b0304290b7ee54953aee5adab41a5a73063c5b8eab6e": [
+    "wiki/projects/semantic-integrity/pilot-architecture/index.md"
+  ],
+  "5010e93c01b18e30b86c3f216999fee7e2be10253d5b36eb6217eb52efac3973": [
+    "wiki/projects/semantic-integrity/investor-framing/index.md"
   ]
 }
