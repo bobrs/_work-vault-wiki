@@ -4,7 +4,7 @@ This branch is the structured mutuality/consent corpus inside the current intake
 
 Read semantically, this branch is the protocol side of the consent corpus: it gathers loop language, access control, training, outreach, and identity scaffolding into one system family. The root cluster pages hold the major seams, while `Loop Training`, `Working Notes`, and `FractalIdentity Tree` preserve the durable sub-branches that read like their own working lines. The protocol foundations and training rail now split one level deeper so the branch reads less like a bucket and more like a layered system.
 
-The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward protocol, implementation, and applied framing rather than theory narration.
+The branch sits close to `Semantic Collapse Theory` in vocabulary and structure, but it leans toward protocol, implementation, and applied framing rather than theory narration. The implementation and access rail now deepens one layer further, so the branch reads more like a staged system than a flat intake bucket.
 
 ## Current Shape
 
@@ -43,6 +43,7 @@ The branch sits close to `Semantic Collapse Theory` in vocabulary and structure,
 This corpus reads like a practical protocol family rather than a single abstract theory.
 
 The root-level documents now split into protocol foundations, implementation and access, outward-facing applications, and working notes.
+The implementation and access rail now deepens into pairing, field infrastructure, key hierarchy, and selective decryption child pages, which helps the execution side read as a real pipeline.
 
 The `Loop Training`, `Working Notes`, and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
 
@@ -72,3 +73,4 @@ The branch-root `.zip` companion is archived and retained as lineage evidence.
 3. Add new lineage pages only when a sub-branch is strong enough to stand alone.
 4. Keep the protocol foundations and loop training layers readable as deeper rails rather than isolated note piles.
 5. Link recurring formulations back into `Concepts` when the same language appears in multiple CICP and SCT pages.
+6. Keep the new implementation and access child pages stable unless another durable seam appears.

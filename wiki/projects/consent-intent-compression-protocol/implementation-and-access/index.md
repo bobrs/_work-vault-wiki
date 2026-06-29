@@ -10,6 +10,7 @@ It is the execution rail of CICP. The documents here move from trust entry into 
 
 - 7 implementation and access documents.
 - 3 nested lineage pages organize those documents.
+- 4 deeper child pages now extend the pairing and key branches.
 
 ## Nested Lineage Pages
 
@@ -29,7 +30,7 @@ This branch now separates into pairing and field access, key derivation and decr
 
 This is the execution surface of CICP. It turns the protocol vocabulary into something operational: how a participant pairs, how secrets are derived and protected, and how a ritual or physical token can initialize the access path. The page therefore captures the movement from abstract protocol language into applied systems behavior.
 
-The three subpages form a clean implementation pipeline, which is why this cluster should stay readable as a flow rather than as a disconnected list of topics.
+The three subpages form a clean implementation pipeline, and the pairing and key branches now deepen one level further. That keeps the cluster readable as a flow rather than as a disconnected list of topics while still letting the handshake, field deployment, key hierarchy, and selective decryption seams stand on their own.
 
 ## Related Concepts
 
@@ -47,8 +48,13 @@ The three subpages form a clean implementation pipeline, which is why this clust
 - [Protocol Foundations](../protocol-foundations/index.md)
 - [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
+- [Field Pairing and Consent Loop](pairing-and-field-access/field-pairing-and-consent-loop/index.md)
+- [Field Infrastructure Applications](pairing-and-field-access/field-infrastructure-applications/index.md)
+- [Hierarchical Key Derivation](key-derivation-and-decryption/hierarchical-key-derivation/index.md)
+- [Selective Decryption](key-derivation-and-decryption/selective-decryption/index.md)
 
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.
-2. Split again only if one of the three tracks develops another durable seam.
+2. Keep the new deeper pairing and key pages stable unless a sharper seam appears.
+3. Split the ritual token branch only if another durable hardware-initiation layer appears.
