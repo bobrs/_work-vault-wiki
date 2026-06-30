@@ -1,34 +1,84 @@
 # Memory
 
-Working definition: continuity across time through archive, forgetting, recurrence, personal history, machine memory, and cultural inheritance.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
+
+## Semantic Compression
+
+In this vault, memory is continuity across time: archive, forgetting, recurrence, personal history, machine memory, cultural inheritance, and the structures that decide what returns.
+
+## Why It Matters
+
+Memory determines what can be repaired, repeated, forgotten, distorted, or trusted. In machine-mediated systems, memory must be designed with consent, provenance, and forgetting as first-class conditions.
+
+## Core Motifs
+
+- archive
+- forgetting
+- recurrence
+- continuity
+- machine memory
+- inheritance
+- return
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
+
+- [From Archive to Interface](../../external/shimmerymemory/essays/from-archive-to-interface/index.md)
+- [Stable Artifacts, Tunable Projections](../../external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md)
+- [Shimmery Memory Publishing Contract](../../external/shimmerymemory/essays/shimmery-memory-publishing-contract/index.md)
+- [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
+- [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
+
+## Adjacent Research
+
+- [Continuity Office](../../projects/continuity-office/index.md)
+- [Semantic Collapse Theory / Temporal Loops and Memory](../../projects/semantic-collapse-theory/temporal-loops-and-memory/index.md)
+- [Incident Memory](../../../artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__incident-memory.md)
+
+## Related Projects
+
+- [Shimmery Memory](../../projects/shimmerymemory/index.md)
+- [Continuity Office](../../projects/continuity-office/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
 
 ## Related Concepts
 
 - [Witnessing](../../concepts/witnessing/index.md)
-- [Attention](../../concepts/attention/index.md)
-- [LoopLink](../../concepts/looplink/index.md)
+- [Provenance](../provenance/index.md)
+- [Meaning](../meaning/index.md)
+- [Trust](../trust/index.md)
+- [Loop Mechanics](../loop-mechanics/index.md)
+- [Witness](../witness/index.md)
 
-## Related Projects
+## Related Invariants
 
-- [Continuity Office](../../projects/continuity-office/index.md)
-- [Shimmery Memory](../../projects/shimmerymemory/index.md)
-- [Semantic Collapse Theory / Temporal Loops and Memory](../../projects/semantic-collapse-theory/temporal-loops-and-memory/index.md)
+- [P7 - Memory and State](https://quantuminvariants.com/spine/primitives#P7)
+- [P8 - Temporal Integrity](https://quantuminvariants.com/spine/primitives#P8)
+- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
 
-## Related Essays
+## Unresolved / Needs Link Resolution
 
-- [Forgetting First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
-- [From Archive to Interface](../../external/shimmerymemory/essays/from-archive-to-interface/index.md)
-- [Stable Artifacts, Tunable Projections](../../external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md)
+- No unresolved seed links in this pass.
 
-## Related Artifacts
+<!-- END GENERATED EVIDENCE MAP -->
 
-- [Incident Memory](../../../artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__incident-memory.md)
-- [Semantic Integrity Conversation Reconstitution](../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__RECONSTITUTION__v0-1__semantic-integrity-conversation-reconstitution.md)
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- What should the system remember, forget, or summarize?
-- When does recurrence become evidence?
-- How should machine memory remain accountable to provenance and consent?
+- What should be remembered?
+- What should be forgotten first?
+- How does machine memory stay consent-aware?
+
+## Next Navigation
+
+- Start with [From Archive to Interface](../../external/shimmerymemory/essays/from-archive-to-interface/index.md).
+- Continue to [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md).
+- Use [Provenance](../provenance/index.md) when memory needs source, admissibility, or context.
+
+<!-- END OPEN RESEARCH EDGES -->

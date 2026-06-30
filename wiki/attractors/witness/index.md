@@ -1,32 +1,83 @@
 # Witness
 
-Working definition: the practice of making observation durable enough to become artifact, testimony, accountability, or later repair.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
 
-## Related Concepts
+## Semantic Compression
+
+In this vault, witness is the process by which a field, event, relationship, or pattern becomes legible enough to enter shared reality without being prematurely merged, flattened, possessed, or converted into control.
+
+## Why It Matters
+
+Witnessing is the bridge between raw occurrence and accountable artifact. Without witness, there is no trustworthy provenance, repairable governance, consent trail, or disciplined distinction between what happened, what was perceived, and what was authorized.
+
+## Core Motifs
+
+- observation without ownership
+- collapse into artifact
+- testimony and record
+- non-merge discipline
+- witness as boundary
+- witness as accountability surface
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
 
 - [Witnessing](../../concepts/witnessing/index.md)
-- [Governance Diad](../../concepts/governance-diad/index.md)
-- [Intent-Consent](../../concepts/intent-consent/index.md)
+- [WitnessKey](../../projects/witnesskey/index.md)
+- [Witness as Skill-Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md)
+- [Relativity, Witness, and the Glyph We Orbit](../../external/shimmerymemory/essays/relativity-witness-and-the-glyph-we-orbit/index.md)
+- [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
+
+## Adjacent Research
+
+- [The Real Is a Ritual](../../external/shimmerymemory/essays/20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md)
+- [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
+- [Semantic Collapse Theory / Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 
 ## Related Projects
 
 - [WitnessKey](../../projects/witnesskey/index.md)
-- [Semantic Collapse Theory / Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
+- [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
 
-## Related Essays
+## Related Concepts
 
-- [The Witness Twist](../../external/shimmerymemory/essays/the-witness-twist/index.md)
-- [Witness as Skill Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md)
+- [Governance Diad](../../concepts/governance-diad/index.md)
+- [Intent-Consent](../../concepts/intent-consent/index.md)
+- [Trust](../trust/index.md)
+- [Provenance](../provenance/index.md)
+- [Governance](../governance/index.md)
+- [Meaning](../meaning/index.md)
 
-## Related Artifacts
+## Related Invariants
 
-- [Witness Infrastructure: The Bottleneck of the AI Economy](../../../artifacts/standard-named/20260624__WITNESSING__ESSAY__WITNESS-INFRASTRUCTURE-AI-ECONOMY__v1__witness-infrastructure-ai-economy-essay.docx)
+- [P2 - Agency and Capacity Witness](https://quantuminvariants.com/spine/primitives#P2)
+- [P3 - Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3)
+- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+
+## Unresolved / Needs Link Resolution
+
+- No unresolved seed links in this pass.
+
+<!-- END GENERATED EVIDENCE MAP -->
+
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- When does observation become sufficient evidence?
-- What makes a witness portable across projects or systems?
-- Where should witness remain human, and where can it become machine-readable?
+- When does witnessing become control?
+- What makes a witness legitimate?
+- How does AI witness without collapsing context into extraction?
+
+## Next Navigation
+
+- Start with [Witnessing](../../concepts/witnessing/index.md) for the concept layer.
+- Continue to [WitnessKey](../../projects/witnesskey/index.md) for operational witness and provenance infrastructure.
+- Read [Witness as Skill-Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md) for the strongest published_external entry point.
+
+<!-- END OPEN RESEARCH EDGES -->

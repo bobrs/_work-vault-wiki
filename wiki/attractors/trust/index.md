@@ -1,14 +1,44 @@
 # Trust
 
-Working definition: confidence under vulnerability, built from verification, relationship, proof, coherence, witness, and repair.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
 
-## Related Concepts
+## Semantic Compression
 
-- [Witnessing](../../concepts/witnessing/index.md)
-- [LoopLink](../../concepts/looplink/index.md)
-- [Governance Diad](../../concepts/governance-diad/index.md)
+In this vault, trust is confidence under vulnerability: verification, relationship, proof, coherence, witness, repair, and the willingness to proceed without total control.
+
+## Why It Matters
+
+Trust is where provenance, witness, governance, consent, and meaning become livable. It cannot be reduced to proof, but it cannot survive without accountable structure.
+
+## Core Motifs
+
+- verification
+- relationship
+- proof
+- coherence
+- repair
+- vulnerability
+- accountability
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
+
+- [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
+- [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md)
+- [Stop Anthropomorphizing Software 3.0](../../external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md)
+- [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
+
+## Adjacent Research
+
+- [Witness as Skill-Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md)
+- [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
+- [WitnessKey](../../projects/witnesskey/index.md)
 
 ## Related Projects
 
@@ -16,19 +46,41 @@ This page is an attractor gateway, not a canon declaration.
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 
-## Related Essays
+## Related Concepts
 
-- [Good Faith Is Not a Defense Mechanism](../../external/shimmerymemory/essays/good-faith-is-not-a-defense-mechanism/index.md)
-- [BIFLI Check](../../external/shimmerymemory/essays/bifli-check/index.md)
-- [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
+- [Witnessing](../../concepts/witnessing/index.md)
+- [LoopLink](../../concepts/looplink/index.md)
+- [Governance Diad](../../concepts/governance-diad/index.md)
+- [Witness](../witness/index.md)
+- [Provenance](../provenance/index.md)
+- [Governance](../governance/index.md)
+- [Consent](../consent/index.md)
+- [Meaning](../meaning/index.md)
 
-## Related Artifacts
+## Related Invariants
 
-- [Trust Interoperability Standard](../../../artifacts/standard-named/20260622__TIS__STANDARD__TRUST-INTEROPERABILITY-STANDARD__v1__trust-interoperability-standard.docx)
-- [Dialog Thread](../../../artifacts/standard-named/20260622__TIS__THREADING__DIALOG-THREAD__v1__dialog-thread.docx)
+- [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+
+## Unresolved / Needs Link Resolution
+
+- No unresolved seed links in this pass.
+
+<!-- END GENERATED EVIDENCE MAP -->
+
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- What is the minimum proof needed for trust to travel?
-- How should trust degrade, recover, or expire?
-- Which trust claims need witness, and which need formal verification?
+- What can be verified, and what must be related to?
+- How does trust survive scale?
+- When does proof substitute for relationship instead of supporting it?
+
+## Next Navigation
+
+- Start with [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md).
+- Continue to [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md).
+- Use [Witness](../witness/index.md) when trust depends on observation, record, or testimony.
+
+<!-- END OPEN RESEARCH EDGES -->

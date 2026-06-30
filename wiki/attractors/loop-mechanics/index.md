@@ -1,34 +1,86 @@
 # Loop Mechanics
 
-Working definition: the study of how systems return through recursion, feedback, stabilization, drift, rupture, repair, traps, and regenerative flow.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
 
-## Related Concepts
+## Semantic Compression
+
+In this vault, loop mechanics are how systems return: recursion, feedback, stabilization, drift, rupture, repair, traps, and regenerative flow.
+
+## Why It Matters
+
+Everything alive returns somehow. Loop mechanics explain how patterns persist, change, collapse, repair, or become trapped across bodies, relationships, organizations, protocols, and memory systems.
+
+## Core Motifs
+
+- feedback
+- recursion
+- stabilization
+- drift
+- rupture
+- repair
+- regenerative flow
+- traps and escape
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
 
 - [LoopLink](../../concepts/looplink/index.md)
-- [Loop Economy](../../concepts/loop-economy/index.md)
-- [Intent-Consent](../../concepts/intent-consent/index.md)
+- [Semantic Collapse Theory / Loop Series](../../projects/semantic-collapse-theory/loop-series/index.md)
+- [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
+- [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
+- [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)
+
+## Adjacent Research
+
+- [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
+- [Field-Events, Anchor Singularities, and the Shape of Meaning](../../external/shimmerymemory/essays/field-events-anchor-singularities/index.md)
+- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
 
 ## Related Projects
 
-- [Semantic Collapse Theory / Loop Series](../../projects/semantic-collapse-theory/loop-series/index.md)
-- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 - [Consent-Intent Compression Protocol](../../projects/consent-intent-compression-protocol/index.md)
+- [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
+- [Quantum Invariants](../../projects/quantum-invariants/index.md)
 
-## Related Essays
+## Related Concepts
 
-- [Stochastic Anchors, Loops, and the Puzzle of Agency](../../external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md)
-- [Historical Record, Future Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
-- [Energy Routing Core Model](../../external/shimmerymemory/essays/energy-routing-core-model/index.md)
+- [Loop Economy](../../concepts/loop-economy/index.md)
+- [Consent](../consent/index.md)
+- [Governance](../governance/index.md)
+- [Memory](../memory/index.md)
+- [Agency](../agency/index.md)
+- [Trust](../trust/index.md)
 
-## Related Artifacts
+## Related Invariants
 
-- [LoopLink Protocol](../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx)
-- [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
+- [P6 - Feedback and Recursion](https://quantuminvariants.com/spine/primitives#P6)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [C9 - Dynamic Stability](https://quantuminvariants.com/spine/composites#C9)
+
+## Unresolved / Needs Link Resolution
+
+- No unresolved seed links in this pass.
+
+<!-- END GENERATED EVIDENCE MAP -->
+
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- Which loops are repairable, and which should be exited?
-- How should the wiki distinguish drift from rupture?
-- When does recursion become a trap rather than a stabilizer?
+- What distinguishes a living loop from an extractive loop?
+- When does repair require rupture?
+- How does escape capacity change the ethics of constraint?
+
+## Next Navigation
+
+- Start with [LoopLink](../../concepts/looplink/index.md) for transport and recovery.
+- Continue to [Semantic Collapse Theory / Loop Series](../../projects/semantic-collapse-theory/loop-series/index.md).
+- Use [Agency](../agency/index.md) when the question becomes exit capacity or refusal.
+
+<!-- END OPEN RESEARCH EDGES -->

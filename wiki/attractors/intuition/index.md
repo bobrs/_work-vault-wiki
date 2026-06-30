@@ -1,34 +1,82 @@
 # Intuition
 
-Working definition: pattern recognition before full explanation, including felt sense, body knowledge, latent processing, and pre-verbal signal.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
 
-## Related Concepts
+## Semantic Compression
 
-- [Attention](../../concepts/attention/index.md)
-- [Intent-Consent](../../concepts/intent-consent/index.md)
-- [LoopLink](../../concepts/looplink/index.md)
+In this vault, intuition is pattern recognition before explanation: the surfacing of body knowledge, latent processing, felt sense, and pre-verbal signal before the conscious system can fully justify what it knows.
 
-## Related Projects
+## Why It Matters
+
+Intuition protects the system from over-identifying with explicit cognition. It is where the body, memory, experience, and uncompressed signal may speak before language catches up.
+
+## Core Motifs
+
+- felt sense
+- latent processing
+- body knowledge
+- pre-verbal signal
+- pattern recognition
+- surrender of interference
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
 
 - [How Intuition Works](../../projects/how-intuition-works/index.md)
-- [Loop Compass](../../projects/side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
-- [How Works](../../projects/how-works/index.md)
+- [The Alexander Principle of the Ego](../../external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md)
+- [The Mobius Flip](../../external/shimmerymemory/essays/the-mobius-flip/index.md)
+- [Aiming Beyond the Horizon](../../external/shimmerymemory/essays/aiming-beyond-the-horizon/index.md)
+- [Ego and Flow](../../projects/consent-crystal-structure-research/ego-and-flow/index.md)
 
-## Related Essays
+## Adjacent Research
 
 - [How Intuition Works](../../external/shimmerymemory/essays/how-intuition-works/index.md)
 - [Attractor Gardening](../../external/shimmerymemory/essays/attractor-gardening/index.md)
-- [Aiming Beyond the Horizon](../../external/shimmerymemory/essays/aiming-beyond-the-horizon/index.md)
+- [Loop Compass](../../projects/side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
 
-## Related Artifacts
+## Related Projects
 
-- [How Intuition Works](../../../artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__HOW-INTUITION-WORKS__v1__how-intuition-works.md)
-- [Attractor Gardening](../../../artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__ATTRACTOR-GARDENING__v1__attractor-gardening.md)
+- [How Works](../../projects/how-works/index.md)
+- [ULiUA](../../projects/uliua/index.md)
+- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+
+## Related Concepts
+
+- [Grounding](../grounding/index.md)
+- [Attention](../attention/index.md)
+- [Agency](../agency/index.md)
+- [Meaning](../meaning/index.md)
+- [Memory](../memory/index.md)
+
+## Related Invariants
+
+- [P6 - Feedback and Recursion](https://quantuminvariants.com/spine/primitives#P6)
+- [P7 - Attractor and Basin](https://quantuminvariants.com/spine/primitives#P7)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+
+## Unresolved / Needs Link Resolution
+
+- No unresolved seed links in this pass.
+
+<!-- END GENERATED EVIDENCE MAP -->
+
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- How should the wiki distinguish intuition from inference?
-- Which signals are body knowledge, and which are retrospective story?
-- Where does intuition become reliable enough to guide action?
+- How does intuition differ from fear-loop prediction?
+- When should intuition be trusted, witnessed, or challenged?
+- How does aphantasia alter intuitive processing?
+
+## Next Navigation
+
+- Start with [How Intuition Works](../../projects/how-intuition-works/index.md) for the project branch.
+- Continue to [Grounding](../grounding/index.md) when intuition becomes embodied constraint.
+- Read [The Alexander Principle of the Ego](../../external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md) for the clearest published_external entry.
+
+<!-- END OPEN RESEARCH EDGES -->

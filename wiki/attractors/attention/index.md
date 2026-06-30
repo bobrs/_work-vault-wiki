@@ -1,34 +1,83 @@
 # Attention
 
-Working definition: the selection layer that decides what receives enough salience, care, or repetition to become consequential.
+This page is an attractor gateway, not a canon declaration. It compresses current evidence in the Work Vault and points toward underlying research.
 
-This page is an attractor gateway, not a canon declaration.
+<!-- BEGIN CURATED SEMANTIC COMPRESSION -->
 
-## Related Concepts
+## Semantic Compression
+
+In this vault, attention is the selection layer of reality: the force that determines what becomes salient, what gets compressed, what is cared for, what is distorted, and what is allowed to become real.
+
+## Why It Matters
+
+Attention is how energy becomes meaning. It drives compression, curiosity, selection pressure, social reality, and shared ritual; it also creates the risk that what is repeatedly noticed becomes mistaken for what is true.
+
+## Core Motifs
+
+- salience
+- compression
+- curiosity
+- selection pressure
+- care
+- distortion
+- shared reality
+
+<!-- END CURATED SEMANTIC COMPRESSION -->
+
+<!-- BEGIN GENERATED EVIDENCE MAP -->
+
+## Primary Research
 
 - [Attention](../../concepts/attention/index.md)
-- [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
-- [Intent-Consent](../../concepts/intent-consent/index.md)
+- [Attention-Compression Framework](../../external/shimmerymemory/essays/attention-compression-framework/index.md)
+- [Selection Pressure via Attention](../../external/shimmerymemory/essays/selection-pressure-via-attention/index.md)
+- [The Real Is a Ritual](../../external/shimmerymemory/essays/20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md)
+- [Free Will Is Expensive](../../external/shimmerymemory/essays/free-will-is-expensive/index.md)
+
+## Adjacent Research
+
+- [Attention - Five Modes](../../projects/side-projects-desktop/attention-five-modes/index.md)
+- [Unexamined Meaning as an Ecological Hazard](../../external/shimmerymemory/essays/unexamined-meaning-as-an-ecological-hazard/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Projects
 
-- [Attention - Five Modes](../../projects/side-projects-desktop/attention-five-modes/index.md)
-- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Similar Projects / Cognitive Runtime](../../projects/similar-projects/cognitive-runtime/index.md)
 
-## Related Essays
+## Related Concepts
 
-- [Attention Compression Framework](../../external/shimmerymemory/essays/attention-compression-framework/index.md)
-- [Selection Pressure via Attention](../../external/shimmerymemory/essays/selection-pressure-via-attention/index.md)
-- [The Room You're In](../../external/shimmerymemory/essays/the-room-youre-in/index.md)
+- [Meaning](../meaning/index.md)
+- [Witness](../witness/index.md)
+- [Intuition](../intuition/index.md)
+- [Agency](../agency/index.md)
+- [Memory](../memory/index.md)
 
-## Related Artifacts
+## Related Invariants
 
-- [Attention Mechanics - Base System](../../../artifacts/standard-named/20260625__ATTENTION__MECHANICS__BASE-SYSTEM__v1__attention-mechanics-base-system-real-world.md)
-- [Attention-Weighted Block Persistence](../../../artifacts/standard-named/20260625__ATTENTION__APPLICATION__BLOCK-PERSISTENCE__v1__attention-weighted-block-persistence-dev-spec-next-steps.md)
+- [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [C3 - Compression Distortion](https://quantuminvariants.com/spine/composites#C3)
+
+## Unresolved / Needs Link Resolution
+
+- No unresolved seed links in this pass.
+
+<!-- END GENERATED EVIDENCE MAP -->
+
+<!-- BEGIN OPEN RESEARCH EDGES -->
 
 ## Open Questions
 
-- What does the vault treat as attention versus appreciation?
-- When does attention become distortion?
-- Which attention traces should become durable artifacts?
+- What makes attention consentful?
+- When does attention become extraction?
+- How does attention program shared reality?
+
+## Next Navigation
+
+- Start with [Attention](../../concepts/attention/index.md) for the concept synthesis.
+- Continue to [Attention-Compression Framework](../../external/shimmerymemory/essays/attention-compression-framework/index.md) for the published model.
+- Use [Meaning](../meaning/index.md) when attention becomes language, interpretation, or shared reality.
+
+<!-- END OPEN RESEARCH EDGES -->
