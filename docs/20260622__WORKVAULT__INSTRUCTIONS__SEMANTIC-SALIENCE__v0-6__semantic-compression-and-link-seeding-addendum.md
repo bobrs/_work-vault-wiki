@@ -21,6 +21,8 @@ The wiki has two valid phases:
 
 The current structure may begin as navigation. It should not stop there.
 
+When a project already has stable wiki pages, semantic extraction should take precedence over new intake. The goal is to make the existing pages materially better before widening the surface area.
+
 The mature wiki should answer:
 
 ```text
@@ -54,6 +56,7 @@ For small or low-priority files, a wiki entry may remain a short navigation card
 For meaningful files, the wiki page should include a salience extraction and a short semantic compression.
 
 For canon-grade or highly connected files, the wiki page should include deeper synthesis, lineage, concept integration, and explicit downstream links.
+For foundational projects already represented in the wiki, extend the page content first and add only the structural minimum needed to keep the branch legible.
 
 ---
 
@@ -166,6 +169,7 @@ When a file or branch reads as durable, the wiki page should usually include a f
 - one paragraph summarizing the document or branch in plain language
 - one paragraph naming the core claims, motifs, or function
 - one paragraph describing relationships, tensions, implications, or downstream uses
+- several more paragraphs when the material is central to the project and the page can support a fuller semantic read
 
 For especially important artifacts or branches, page-length synthesis is appropriate if the material warrants it.
 
@@ -273,4 +277,3 @@ What model of reality, agency, consent, selfhood, organization, language, or sys
 The source document remains the artifact of record.
 
 The wiki page is the semantic interface and should summarize, connect, and orient without replacing the source.
-

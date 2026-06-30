@@ -29,6 +29,34 @@ This is also the clearest place where glyph, equivalence, and protocol design ov
 
 The deeper seam now isolates the grammar, equivalence, and translation work into a child page so the language layer can be read on its own terms.
 
+## Core Claim
+
+Meaning in CICP is not fixed by authority. It is stabilized by consented mapping across symbols, modalities, and domains. The glyph layer therefore acts like a language stack in which agreement, not declaration, makes a symbol real.
+
+## Mechanisms
+
+- A consent glyph acts as a root anchor for symbolic systems.
+- Meaning emerges through loop-defined agreement.
+- Symbols can be translated across visual, phonetic, tactile, gestural, and machine-readable forms.
+- Multi-resolution glyphs let one symbol carry several levels of access or expression.
+
+## Terminology
+
+- Glyph: a symbol whose meaning is established through consented use.
+- Equivalence: a mapping that preserves meaning across different forms.
+- Lexicon loop: a shared loop that stabilizes a word set.
+- Multi-resolution encoding: a symbol that carries multiple levels of semantic access.
+
+## Implications
+
+This cluster is where the branch keeps itself from becoming a pile of jargon. It gives the project a way to translate without pretending translation is neutral, and it supports experimental language while still keeping the map legible across contexts.
+
+## Open Questions
+
+- How much symbolic freedom can the system support before interoperability degrades?
+- Which glyph mappings should become stable enough for reuse?
+- When should a local glyph loop remain local instead of becoming branch-wide vocabulary?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)

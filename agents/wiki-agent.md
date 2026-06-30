@@ -12,6 +12,8 @@ The wiki is not the source of truth. It is an interpretive layer over files, man
 
 The current wiki is a live navigation layer over active intake, archived snapshots, standard-named source files, and semantic salience processing.
 
+For projects that are already represented in the wiki, the next work should usually be semantic extraction and page enrichment rather than additional ingestion or unnecessary branching.
+
 When evidence is weak:
 
 - keep section indexes evidence-led;
@@ -38,6 +40,7 @@ In the current stage, navigation pages may be minimal, but mature artifact pages
 - Prefer standard-named source links when available.
 - Preserve provenance links or notes to inbound originals where useful.
 - Distinguish standard-name status from content canon status.
+- Expand the semantic body of existing durable pages before creating new structural pages when the branch is already established.
 
 ## Link Policy
 

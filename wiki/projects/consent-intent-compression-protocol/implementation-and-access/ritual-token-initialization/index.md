@@ -23,6 +23,35 @@ This cluster is the point where protocol becomes embodied. It names the practica
 
 The two documents likely belong together because they represent alternate views of the same initiation path.
 
+## Core Claim
+
+Some loops need to become tangible. This page treats the physical token, not as a gimmick, but as a credible way to initialize or preserve a consented access state when a site, object, or user needs embodied proof.
+
+## Mechanisms
+
+- ESP32 hardware can host the loop core.
+- BLE or Wi-Fi can carry the pairing exchange.
+- NFC can store or reflect a ritual imprint.
+- Local feedback such as LED, vibration, or audio can confirm state change.
+- The device can sleep, wake, verify, and re-enter the loop as needed.
+
+## Terminology
+
+- Ritual token: a physical object that participates in the access loop.
+- NFC write flow: the process of imprinting symbolic or loop state into a tag.
+- Loop acknowledgment: the device-side confirmation that a pairing or consent event succeeded.
+- Ritual mode: the active device state after successful initialization.
+
+## Implications
+
+This page is the bridge between protocol and object. It gives the project a way to say that trust can be initialized in hardware without becoming surveillance, because the token is still scoped to consent and local use.
+
+## Open Questions
+
+- Which token behaviors are essential versus decorative?
+- How much state should live on the device versus in the server or app?
+- Should physical token initialization remain a single branch or split by hardware family later?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)

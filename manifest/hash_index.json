@@ -54,9 +54,6 @@
   "01dbb01c80de6cbb646d11726fa3b23ce8e9d9ff978d22223ad984ac83aa8b56": [
     "artifacts/incoming/maintainself.md"
   ],
-  "01dd16dfe808f6caad99a9772cce05a8ba1ba6bb21329a33df7bf72cf9459e24": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/selective-decryption/index.md"
-  ],
   "01e17e104bae0244f64c480fb691f19ea1bbc1b061e7b0a412050f13da703379": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx",
@@ -145,6 +142,9 @@
   "054bcebdc68b2cda4b508c5b74d6a42b047fe2ab16f4b0659cbcc2beaccb2a1f": [
     "artifacts/intake-archive/20260625__attention-intake/ai_and_the_next_layer_of_organizational_legibility.md",
     "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__ORGANIZATIONAL-LEGIBILITY__v1__ai-and-the-next-layer-of-organizational-legibility.md"
+  ],
+  "05651b987bad5612d218e678bab9981cf494dca4d78e2f992c1a1998a85738ce": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/selective-decryption/index.md"
   ],
   "059a0ac2e6dcfff0cc0a53520804c4b66aa6a720082fd2ecbe0c2524ea097ce7": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🕰️ Lesson Nine- Rewriting Legacy Loops.docx",
@@ -345,6 +345,9 @@
   "0c9662ab0de12592fa4edb193f58c3b9262b46831254fc3d5389517f1584cd09": [
     "artifacts/incoming/semantic_stochastic_anchor_based_manifestation_protocol_ssamp_a_seriously_unserious_essay (1).md"
   ],
+  "0c9b028dbd0a491046eb750fbeac0d0c2278eb9e08f166e5d47856378f4d6be0": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/loop-modeling-and-field-theory/index.md"
+  ],
   "0cb0c8f7539593a9228f7d04a35ec9d8d2685a427ae6c33589e944317b8b55bc": [
     "artifacts/intake-archive/20260622__similar-projects-intake/The Attention Engine.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__ATTENTION-ENGINE__v1__the-attention-engine.docx"
@@ -478,9 +481,6 @@
   "11caef0517ea848575973e83fe958b22ae6099dd3fcc42a82f88904503281aff": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Poster.docx"
   ],
-  "122adb6de82e219b86d184bb44755e622fd30cb88b3a335c38a6e7ae70c59a91": [
-    "manifest/hash_index.json"
-  ],
   "126deedaae17b8464b3615d7149e37219d4d60cbba4542b680110934e320e458": [
     "artifacts/intake-archive/20260625__attention-intake/consent_aware_ai_in_organizations_taxonomy_layers_and_deployment_pattern.md",
     "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md"
@@ -535,9 +535,6 @@
   ],
   "13e838070ba0b7a99dc93ef3cdf35a2322cdbac9163f2467f7b57c4fe171f33a": [
     "wiki/timelines/index.md"
-  ],
-  "13ea78cd7cc9ab359304e128bc5ee42031b0264cb1c723b15a8fd4ad9427e251": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-infrastructure-applications/index.md"
   ],
   "14387677c76fd25af96c8a7c1cedbb82e954a9ab5255934bb938dae6336cb76f": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Genesis/Loop-Aware Agent Agreement for Session Logging.docx"
@@ -671,6 +668,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-3 — The Witnessed Loop.docx"
   ],
+  "19867006d08d8307613b17782bfca127be2969558cdd3ba08d36914e600f0d70": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/index.md"
+  ],
   "1998d3fb290e2a9f8504351ab39dfda6e05a4109b59cea26eee7ee4a6033b82a": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 8 — The Bonding Curve Loop.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Loop 8 — The Bonding Curve Loop.docx"
@@ -799,6 +799,9 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/defending-meaning.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/defending-meaning.md"
   ],
+  "1e91a050fb8b76d75401b37e05b554cdc105a35e77f8c4282ab9fa170593e2e0": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/hierarchical-key-derivation/index.md"
+  ],
   "1edda6694ba4093fd1e49ffae7768c8bf212be469e99285e6c504d3667b0c2d8": [
     "artifacts/incoming/human_ai_co_inquiry_case_study.pdf"
   ],
@@ -812,6 +815,9 @@
   ],
   "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/hooks/commit-msg.sample"
+  ],
+  "1fc9304823e291b61b75b386fb14e28f4377d53505b9ed640d034689ccc42714": [
+    "wiki/projects/consent-intent-compression-protocol/fractalidentity-tree/index.md"
   ],
   "1fd30973f26579989934b6b97fb9f59d4edb941e7194cfff6deea6e5c214abf2": [
     "artifacts/incoming/20260218_ai_orchestration_document_semantic_orchestration_fabric_v_1_spec.md"
@@ -1332,6 +1338,9 @@
   "333d593bc62b6dfd240817b7fcc85aa162cd799f2fcfd51f962a6f7c33257c9d": [
     "wiki/projects/witnesskey/positioning/index.md"
   ],
+  "33afca25a888f7afc14ee9082ee300ccdf0c9b27329c32876dc6f2304792a2cb": [
+    "README.md"
+  ],
   "33d75dbaeb683c5c222937999c34c11e333e9e010dc3fb9322ef8bfabe755734": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/🧬 Intent-Consent Loops as the Fabric of the Universe.pdf"
   ],
@@ -1456,6 +1465,9 @@
   "391999de082f9c66ac3c676a86eb34ef93ed0eaea3f12380e7c005dbb506a221": [
     "artifacts/incoming/Mobius Witness Chapter.docx"
   ],
+  "391a69bc96f6d0dad721fd99f9e495a465992db4c3d399d399464ecd57be39ad": [
+    "manifest/hash_index.json"
+  ],
   "3992f257018f2be2cd4a0cb4b641e171e2b1911112c5f34330197896d9a3ccb5": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-7__ROOT__MODELS-PAGE-STUB.zip"
   ],
@@ -1499,14 +1511,14 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopScent & Trust Fossils- Presence Signaling and Memory NFTs in the Loop Cosmos.docx"
   ],
+  "3aa921cc0e2a52fd8f0c4c5b132ea23bc718522e17b3faa5f18cb4c95341560a": [
+    "wiki/projects/consent-intent-compression-protocol/index.md"
+  ],
   "3ae5e987bcda83a2b1a48aa4e63d9908934054c7ecd1c7cc4cb8d2447f94e33e": [
     "wiki/external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md"
   ],
   "3b16ce5d82497dc1d947d9d2c06a6c64eff1da51251751a1354128d3595ed163": [
     "artifacts/intake-archive/20260624__quantum-invariants-intake/20260618__QUANTUMINVARIANTS__SITE__PUBLIC__C13__coercive-transparency-boundary-collapse.zip"
-  ],
-  "3b1fbfb9f702a047f9f936b50367029866c506e48df4be5f1bbdf0927fd467cb": [
-    "agents/wiki-agent.md"
   ],
   "3b308ddc3aa520528e8d78239482d553a2f8003570e411bba8a97818f0a9e5bd": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/protocols.html"
@@ -1625,17 +1637,20 @@
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/training/009-key-person-risk-reduction-without-politics/index.md",
     "artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__key-person-risk-reduction-without-politics.md"
   ],
+  "3ebbe1a6d843a1b726fd5c20be20cda15d3f16164255508e6d5979afe01792ad": [
+    "wiki/projects/consent-intent-compression-protocol/working-notes/index.md"
+  ],
   "3f122d12108ba28fdc69ca8b17a5bf7e8779f14fa6a6aa35045914ea4388c871": [
     "wiki/projects/new-ideas/index.md"
   ],
   "3f339e69ad5e30514360eae7a9c5a49ec8dd258481a31ca5c208c95f19f4aaf6": [
     "artifacts/incoming/from_fetch_to_civilization_consent_as_the_gate.md"
   ],
+  "3f4411aed1e07a31a1083ad835abce5c7c2e2fadfa76f0d2d20e729d402833b6": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/ritual-token-initialization/index.md"
+  ],
   "3f5b7e362ac12b661e2c38093d5ccc5613a0216b9280bd413a5a06a074a89424": [
     "artifacts/incoming/20260218 Ai-orchestration Document Witness-ai-concept V1 Spec.docx"
-  ],
-  "3f76d19150fb3ff04468c7d37b1411a36fc32ec441839b97d6c7371f187a841a": [
-    "wiki/projects/consent-intent-compression-protocol/applications-and-outreach/index.md"
   ],
   "3fc20748322449e878212d8dfc3b044a1a53b8669d52ed08ed69a3990bd500ba": [
     "wiki/projects/quantum-invariants/root-and-how-to-ground/index.md"
@@ -1702,6 +1717,9 @@
   "41db901c6525cdf7c2563571145b01d8b24894422b876efdb29fd943fd7aa777": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/HumanKey Explainer.pptx",
     "artifacts/standard-named/20260622__HUMANKEY__PRESENTATION__EXPLAINER__v1__humankey-explainer.pptx"
+  ],
+  "41f96e2e12f44aa660f06a97b7bdc2827e1853e95fec50576dc72e8650bb951a": [
+    "wiki/projects/consent-intent-compression-protocol/loop-training/index.md"
   ],
   "421cff906e1adf1d8201368da121c4bd5fc14c35158e6c1e525d9615a4e69435": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Loop Mechanics 401.docx"
@@ -2043,6 +2061,9 @@
   "5294cee50732ea276c51b18e043c6019d1120a9e474d7e63cfeddcede8b89488": [
     "artifacts/incoming/osf_preregistration_consent_as_a_cross_substrate_invariant.md"
   ],
+  "52cc0c5a5432d0dc9049b602005a0d6056a1403bdf1c7119881735b8db5549f5": [
+    "manifest/inventory.jsonl"
+  ],
   "52d7ae5821850c62a2369c331070b9f6b2bc83224a644958dd410a70ec347211": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/index.html"
   ],
@@ -2103,6 +2124,9 @@
   "550d31804910c757674ba4755e9508d24ba925673359286829d64394e900e4b8": [
     "wiki/projects/side-projects-desktop/witnessing/index.md"
   ],
+  "55280f2ce50fb669df8f77012fc9e6eb254ddddabeb88d39d78d85be6575d702": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md"
+  ],
   "55283aa52cfbfb4d37c00a57101b183f904b90f4a2f9450deccd7708a18bc379": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/shimmer-interface-manifesto.md"
   ],
@@ -2119,6 +2143,9 @@
   ],
   "55721c963f0880cfcf89247494644176eaaa9f5dad690de3edf476752784a4a0": [
     "artifacts/intake-archive/20260623__how-works-intake/howmoneyworks.html"
+  ],
+  "559b37d9a7b48dc076ee28c0c2132076545dc9aa32512f1bd21a6a54a2861762": [
+    "manifest/agent_actions.jsonl"
   ],
   "559e7656bf71ba1dced4869955c42d8bc10428940b10072b66250d96b5f400d6": [
     "artifacts/incoming/Conversation-Ledger-and-Rendering-Spec-v0.2.md"
@@ -2141,6 +2168,9 @@
   ],
   "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/hooks/pre-commit.sample"
+  ],
+  "5734cda002947abf9ae774db8b4feeab3a5de1f907ac651277b641dcc333b160": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-pairing-and-consent-loop/index.md"
   ],
   "5792d6590037fb9e04b49568c245bbd38896e1ccb880958431d0e2a5fe35c92c": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Story/Episode 3 Outline.docx",
@@ -2275,12 +2305,6 @@
   "5c65a4f1ead90a06391bbe51f1e564315e0f05e5377bfb0d8e79b3226821f52e": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Protocol Practical Exploration.docx",
     "artifacts/standard-named/20260622__HUMANKEY__EXPLORATION__PRACTICAL__v1__humankey-protocol-practical-exploration.docx"
-  ],
-  "5c68258cda4317fdd90549d0298b9775ac6429d945347eaf51ce05bc220397ea": [
-    "docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-6__semantic-compression-and-link-seeding-addendum.md"
-  ],
-  "5ce9f7af95d22a3aba95b7f89924b68b44977d81db84b27a766686307e426da5": [
-    "wiki/projects/consent-intent-compression-protocol/index.md"
   ],
   "5d35ff93ddd2b9056c4f1af79ff78eb47da3afdc7e59e6fc27cc48d2cf1fd7df": [
     "artifacts/incoming/engineering_the_universal_control_surface_from_cell_to_civilization.md"
@@ -2434,6 +2458,9 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🌊 Wave-State Loop Forwarding.docx"
   ],
+  "63bcaa4eaef9f2dceaca4cfe6f9f4c9358a37b7da6b24ab1de6867ad0dad786b": [
+    "agents/wiki-agent.md"
+  ],
   "63bddef291839a4a97449ffc861dd47aa557bed58bbfd62cc5b17e62e02efaa3": [
     "artifacts/incoming/attention_optics_unified_artifact_dirty_draft.md"
   ],
@@ -2457,9 +2484,6 @@
   ],
   "647996f463d8c6d9365918a811201fdcf40f2cd6bc6127b437500d89c2af489c": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Wavefield Consent Uncertainty.docx"
-  ],
-  "649022aacbfc61dc7be2d1135aa2c419919a9f605b5331383a758d6c53f66bbf": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/hierarchical-key-derivation/index.md"
   ],
   "64aeab77ed7d81fc5b17f67dddbaf50b18f34418b2e71cc751370fff33d0ed45": [
     "wiki/projects/side-projects-desktop/freepour/index.md"
@@ -2532,6 +2556,9 @@
   "677fd41cc5049e1ed62495850d3dd3fd9d0709c5afb2288013b67e5b568b2131": [
     "wiki/concepts/ai-did-not-break-consent/index.md"
   ],
+  "67943575569a294a855e9c088cac6a4a38a5da1784df388cbe1b51c0abee147b": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-infrastructure-applications/index.md"
+  ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/🜁 Loop Repair Guide- Burnout.docx",
@@ -2557,6 +2584,9 @@
   ],
   "687310a734b8de5e6bf24d989c0fdb553b7df4d68bfcc3c4dba59f7d91a94638": [
     "artifacts/incoming/shimmer_glyph_research_proposal_and_lab_playbook.md"
+  ],
+  "68ab0eb24b2e57b59322bc20c48eee8aa5dd53142570f70da6c391784114e1ef": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/index.md"
   ],
   "68c8bedba1d8f645bc5701489035858c3cfd5d116f90393fba67d2891515998d": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v11__abracadabracadoo-support-note.html"
@@ -2673,6 +2703,9 @@
   "6dcac60e3fb01a59b8c3be992827c391c57b48dda9aa879f543e36a66ee1097b": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Genesis Conversation.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/SCT Genesis Conversation.docx"
+  ],
+  "6e2b1fa016338cdeff8da93bda0a3bc0218a310b45d94ccd81a2c143dee5cb19": [
+    "wiki/projects/consent-intent-compression-protocol/applications-and-outreach/index.md"
   ],
   "6e4b15dfc5d3c8d64941fc3d0251bb5324ed86228a7f2051940fb372683bf44f": [
     "artifacts/incoming/The Game You Forgot You.docx"
@@ -2837,6 +2870,9 @@
   "7410ea7f39b2ec6f3e67f534faf4dda9b4e5876bf6522c607b16d8d4383f4014": [
     "artifacts/incoming/continuity_office_c_2_video_script_deep_structure_whiteboard.md"
   ],
+  "741110cb2b00335553419942d181a28189a3157ce4a28aa19b6075586dd84fc8": [
+    "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md"
+  ],
   "7424839ce5a040a8c136ac5b2c28649035d3c6a5ddcff222e4801686595d3562": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Loop Mechanics 501.docx"
   ],
@@ -2861,9 +2897,6 @@
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-2__color-lab-no-auto-hide 2/consent-seed.html",
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-5__acceptself-bridge/consent-seed.html",
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16__abracadoo-bridge-machine-refs 2/consent-seed.html"
-  ],
-  "7509a24771e35db92023af0d64ecfaeaaa5e99681b75b648838ba0804b43699e": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/index.md"
   ],
   "75339d67e5266ab350690f2d8efa83f0d85a1db2b4f4c53b694ef815e8d5b8d2": [
     "wiki/projects/abracadabracadoo/site-variants/index.md"
@@ -3009,6 +3042,9 @@
   ],
   "7c54e4d7e074d4dea1bed86fc03be771442d63c1817c66475296071fd618ed4c": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3.zip"
+  ],
+  "7c6f5e8d66be84730b41e59dee89901e54413df27b2de30888c54886a2b02cbc": [
+    "docs/20260622__WORKVAULT__INSTRUCTIONS__SEMANTIC-SALIENCE__v0-6__semantic-compression-and-link-seeding-addendum.md"
   ],
   "7c941fc98f9f1d5383a86fce838feda6f6c45a58bc07131ecef7070ec77773cf": [
     "artifacts/incoming/constellation_static_hub_machine_v_1_cloudflare_pages_11_ty.md"
@@ -3187,9 +3223,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx"
   ],
-  "8462d5e0d937c16e15a74fad0e88665e74dfebf208f235ce439869a11f1b8669": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/index.md"
-  ],
   "846ab175b281c2ded96d3f647edcd3e3d5b2d6585958b5c75b1a288041a82e71": [
     "artifacts/incoming/Resonance Predictions.docx"
   ],
@@ -3328,9 +3361,6 @@
   ],
   "8b0ce7d9f4dfe106ee4dc8a7b5fde12664ddc75b18ea230f8d1c876da6c42ded": [
     "artifacts/incoming/Provisional_Patent_Cover_Sheet_Bob_Simpson_Voting_System.pdf"
-  ],
-  "8b1d5665a4271ce7bfaeb03637391c38cea882e1b7c2d3ce63f8d015859acffd": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/loop-modeling-and-field-theory/index.md"
   ],
   "8b3156a0d928a0f34bede8b8586fab0dcc944ced0374529f145054015b14669b": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/objects/55/f69b91df397a0b6b595934ae5f973a96d28811"
@@ -3568,9 +3598,6 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/do-ais-have-permission.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/do-ais-have-permission.md"
   ],
-  "94f33cd2f67b11ce0e737300339534cbf6481ad963eca20c0a0fa5f507f54e76": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md"
-  ],
   "94f5ca2045259fcc896558f9a65610fc704029926261ed03e86397dd71b9b872": [
     "wiki/external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md"
   ],
@@ -3683,9 +3710,6 @@
     "artifacts/intake-archive/20260624__quantum-invariants-doc-intake/quantum-invariants.bootstrap.md",
     "artifacts/standard-named/20260624__QUANTUM-INVARIANTS__BOOTSTRAP__v0-1__ai-bootstrap.md"
   ],
-  "99ff83fd2085c706f846e7a3e20d49ea981ac47f67dd70666eb3963d964ef835": [
-    "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-4__project-directives-addendum.md"
-  ],
   "9a09d944469efa4952e48b4e3afb4e9f333d80f1d50da97f71f9703f1fa7c6ee": [
     "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260609__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__V007__abracadabracadoo-assets.zip",
     "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__DOCS-REPO-LINK__v7__abracadabracadoo-assets.zip"
@@ -3772,9 +3796,6 @@
   "9deaa6e06e7c2b65d96b2679a4605c181a44bc851b624d18785a9a1104c10d15": [
     "wiki/projects/side-projects-desktop/quantum-emoji/index.md"
   ],
-  "9e236c137344fa07349b379cb6fecba37a45efd97022557a22587a78abac935f": [
-    "wiki/projects/consent-intent-compression-protocol/working-notes/index.md"
-  ],
   "9e2ab8674f7294c0ecec1803f5b8aff20ab9bd53e99ce81f62f9f91f532b5de2": [
     "artifacts/incoming/Ego Loop Scroll.pdf"
   ],
@@ -3795,9 +3816,6 @@
   ],
   "9ec80b671a21b3183095054f0b468bc52644357de7e9680730cd8194da579676": [
     "wiki/projects/semantic-collapse-theory/origin-and-governance/origin-and-protocols/index.md"
-  ],
-  "9ed4ebdc1761fc974d3f7fa5362889708a67c018da85305fe7c5fcf7f87924fe": [
-    "README.md"
   ],
   "9ed7c332dd1ce4cdca50478f9625a02d7c64c56a12bd40f885991f9deaff3daa": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent-Constrained Intelligence.docx",
@@ -3970,9 +3988,6 @@
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Presence Platform- Partner Brief.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Presence Platform- Partner Brief.docx"
   ],
-  "a5f38ba3d67151a47d496d482d625eea53fd375f6b27dd59d7fb150a70ed26e1": [
-    "wiki/projects/consent-intent-compression-protocol/loop-training/index.md"
-  ],
   "a61300d52a0a201cb43002187e881549b22ea1610b71b920a68c1974d3fc23c8": [
     "wiki/missing-files.md"
   ],
@@ -4056,16 +4071,10 @@
   "a92b10aa03eadd5a940785284d3597057e362dd6cf86e923c6f92058eedc63fe": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/new veribiage index.html"
   ],
-  "a936836a5d55dd578d921aa3f750ab75c79c6d1240a1aca162b2ae238a505440": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/index.md"
-  ],
   "a938efaee6f20874f8653d7cf374397cc328f45efebfca9c94f968b3daf9a1d3": [
     "artifacts/intake-archive/20260622__patents-intake/Client-to-client P2P TOTP + Message Patent/DeepTrust_Enterprise_Provisional_Patent_Draft.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Client-to-client P2P TOTP + Message Patent/DeepTrust_Enterprise_Provisional_Patent_Draft.docx",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__CLIENT-TO-CLIENT-P2P-TOTP-MESSAGE-PATENT__v1__deeptrust-enterprise-provisional-patent-draft.docx"
-  ],
-  "a93c2961bdd8450d9c4440c837628e7fb15eec79baaba93b70aa059813129dca": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-pairing-and-consent-loop/index.md"
   ],
   "a9a1c70f09665f524b6ba615463cb362a7800826c1df55c1f91ed024b4237e8e": [
     "artifacts/incoming/uli_ua_aphorism_noticing_knowing.md"
@@ -4472,9 +4481,6 @@
   "b9dd454cba598d952315ddd170867f518a0f1cca0f4f5ab87f4d67305933830b": [
     "artifacts/incoming/ai_readiness_machine_readable_intent_one_pager.md"
   ],
-  "b9e84a902b70e7492d15e26599534b5bcf47e4b720a016e5d1c1c9d3db7b7bb7": [
-    "wiki/projects/consent-intent-compression-protocol/fractalidentity-tree/index.md"
-  ],
   "b9eb14be0bfaaba81620e935db8babaa47f472f73c0bd05c0e2f11382e58b8d4": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent Graph Primer.docx",
     "artifacts/standard-named/20260624__INTENT-CONSENT__PRIMER__CONSENT-GRAPH__v1__consent-graph-primer.docx"
@@ -4596,9 +4602,6 @@
   ],
   "be1716720f2f48b78e91a89bdff60ec0853bdbe0ed462c394b33edd02bfb29e6": [
     "artifacts/incoming/Semantic Fractal Summary.docx"
-  ],
-  "be5c93696b394802ad3ec6754d8da1d3fe0ea2a9cc3823bb630ee35b99f902cd": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/key-derivation-and-decryption/index.md"
   ],
   "bedb98aa95effc1efcea2085ce7ff6de4c8e9557557d496ab91513073c3bc975": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo - The Promise of Self-sovereign Privacy.docx"
@@ -4945,9 +4948,6 @@
   "cda374c4407565ac5f4dfa7154388ce5a802a20112448ce680471cac6566b44c": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__QDANCE__SYMBOLA__master.svg"
   ],
-  "cde15b1c37e1608f0f7c9d552bb00c7ffe8b6869d072493a8cf532b20cb12cf9": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/ritual-token-initialization/index.md"
-  ],
   "cdfa61d63ee0bf19eafd0f1ce4dd41bf6e4d632cd9165d2a02f8df1eaa5d0a9c": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Regulatory Sandbox Proposal.docx"
   ],
@@ -5034,9 +5034,6 @@
   "d1db72aaaa8520885baae709b3ec1dc2be10f2ee4d56a9be08bc838beef5d7f4": [
     "artifacts/intake-archive/20260625__attention-intake/why_consentful_ai_is_expensive_grounded_version.md",
     "artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md"
-  ],
-  "d2038c22377577abe77250b14d8902917998095d6bf395cf460fa1b9cfafcb1f": [
-    "manifest/agent_actions.jsonl"
   ],
   "d22ca3219b1e2848d5e4beb568d513f6ca10720b02299cdcaca7c011676434d5": [
     "artifacts/incoming/20260603__SEMANTIC-INTEGRITY__TECH-MEMO__INTERNAL__V0-1__SEMANTIC-MOVEMENT-SIGNALS.md",
@@ -5137,9 +5134,6 @@
   ],
   "d5a0ad78a3fe3eded2e55257d2ad36fc6d9283f24f81195c47afd66f03b90a36": [
     "artifacts/intake-archive/20260623__how-works-intake/howexploitationworks.html"
-  ],
-  "d5ba9b4104fc1a17fe187d09da72ddd47c8f70afa2e61356c5a3d04d00408869": [
-    "manifest/inventory.jsonl"
   ],
   "d5d3b906327bd135c3dde221de7b5ca88b62c5cd28d60c8ec5f9d3b68bc4b3d8": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/models.html"
@@ -5452,6 +5446,9 @@
   ],
   "e28610222d3fca8cd479d39a748b111f3d603fc3ed6965fec191e2c9973fd13d": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v14__abracadoo-glyph-index.zip"
+  ],
+  "e29b699f8439d2bd69a0ac2ecd6a97343abfcb92a5637e6a7bba3415d523fea6": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/index.md"
   ],
   "e2d1dfeaa9e5f5b1df523f605829c7b19c6ea12441f50a6587c2d72b91e32dc2": [
     "wiki/projects/patents/governance-and-games/offline-gambling/index.md"
@@ -6042,9 +6039,6 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/the-king-who-measured-everything.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/the-king-who-measured-everything.md"
   ],
-  "facae907749bcbb5bec30d28ae3cb09a00ec0696af7b0600b12dd250ae0b4638": [
-    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/glyph-languages-and-equivalence/index.md"
-  ],
   "fae4d81df59e7fb89f98f546aa4689e14ad22748c0e1cb3e542cd2469b4c36e3": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants/.well-known/site-identity.json",
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants 2/.well-known/site-identity.json"
@@ -6054,6 +6048,9 @@
   ],
   "fb27dac84c68a2f5820b7b2f8a8d8b6bbfe6f556f71556241a1b16d6c26e3c58": [
     "artifacts/incoming/Mood Bucket Spec.docx"
+  ],
+  "fb2e4b9765f1720382f4ae5cf98faabb9832ff2875fcc44b0f05c8f3b40916d5": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/synaptic-trust-and-propagation/index.md"
   ],
   "fb3f8556285ff72b847cbe0fe4b103538382cbe345a50481e9c2f80b48e4bd88": [
     "wiki/projects/index.md"
@@ -6070,6 +6067,9 @@
   ],
   "fbd4c37f310e23dd62c1a16af9bb21de12e2e6b379166f39c962d7ae76ab7668": [
     "artifacts/incoming/20260619__LOOPtLOOP__PLAN__WITNESS-INTEGRATION__v0-1__cloudflare-mvi-roadmap.docx"
+  ],
+  "fbf7cd29c2de4ac4cfcb93b37072187daa49405217286de73d7c578128046988": [
+    "wiki/projects/consent-intent-compression-protocol/protocol-foundations/glyph-languages-and-equivalence/index.md"
   ],
   "fc0a3cd48ac4730818324d56635c18e426b3d764aca62a308675b3e9c24a671d": [
     "artifacts/incoming/marking_the_living_and_the_frozen_a_disambiguation_note_for_loop_stable_language.md"

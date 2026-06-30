@@ -27,6 +27,34 @@ That makes it the operational trust bridge between the model layer and the langu
 
 The deeper seam keeps dyad structure, trust filtering, and wave-state forwarding in one child page so propagation can be read as its own continuity mechanism.
 
+## Core Claim
+
+Trust is not a binary state. It is a moving relation that can amplify, attenuate, or forward signal depending on context. The synaptic rail says the protocol needs a continuity layer that can preserve trust while it moves.
+
+## Mechanisms
+
+- A synaptic dyad models the relationship itself as the primary unit.
+- Filter profiles can pass, attenuate, or amplify context-specific signal.
+- Timing, synchrony, and decay affect whether the trust flow remains valid.
+- Wave-state forwarding treats propagation as a consented signal path rather than a blind relay.
+
+## Terminology
+
+- Dyad: the two-part relationship unit.
+- Filter profile: per-context signal shaping.
+- Loop density: depth of reinforced exchange in a window.
+- Forwarding: the movement of consented signal across a field.
+
+## Implications
+
+This page is important because it keeps the trust story dynamic. The project is not trying to freeze trust into a static identity table; it is trying to make trust context-aware enough to survive movement, delay, and changing conditions.
+
+## Open Questions
+
+- What timing thresholds are needed before a dyad should decay?
+- Which filters are structural, and which are just a local preference?
+- How much propagation can happen before the relationship needs reconsent?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)

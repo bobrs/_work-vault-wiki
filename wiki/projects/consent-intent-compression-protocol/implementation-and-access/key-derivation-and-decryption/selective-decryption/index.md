@@ -20,6 +20,34 @@ This branch covers the access-policy edge: which slices of content become visibl
 
 The document belongs here because it translates the derived key structure into an actual visibility rule. That keeps policy separate from structure while preserving the dependency between the two.
 
+## Core Claim
+
+Access can be made granular by tying encryption to time structure. Instead of storing one monolithic secret, the protocol can encrypt segments against a temporal tree so that only the intended slice becomes visible later.
+
+## Mechanisms
+
+- A root key can represent a session, day, or event.
+- Child keys can represent hour, minute, second, or another chosen temporal unit.
+- Each segment can be encrypted independently.
+- Ancestor keys can reveal descendant ranges when policy allows it.
+
+## Terminology
+
+- Temporal key tree: a key hierarchy organized by time.
+- Selective disclosure: revealing only the relevant portion of an encrypted stream.
+- Ancestor key: a key that can unlock a broader range of child data.
+- Scoped visibility: access limited by time, consent, or policy.
+
+## Implications
+
+This page gives the branch a practical answer to the question of partial disclosure. It supports use cases where the full record should exist, but not all of it should be equally available. That is central to the consent logic of the whole project.
+
+## Open Questions
+
+- What temporal granularity should be default for different contexts?
+- When does delayed disclosure need additional policy beyond the key tree?
+- What should remain hidden even from ancestor keys?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../../consent-crystal-structure-research/index.md)

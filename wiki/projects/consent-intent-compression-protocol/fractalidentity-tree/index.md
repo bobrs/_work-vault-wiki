@@ -25,6 +25,26 @@ It also gives CICP a way to talk about personhood, inheritance, and structural b
 
 Read against `Implementation and Access`, the identity tree becomes the conceptual counterpart to pairing and decryption: one side describes who or what is being represented, the other describes how access is made possible.
 
+## Core Claim
+
+Identity can be modeled as a graftable structure instead of a fixed label. That makes the tree useful for inheritance, lineage, and presence mapping inside the protocol family.
+
+## Mechanisms
+
+- Identity nodes can branch, graft, and inherit structure.
+- The tree can represent related roles or presences without flattening them into a single identity token.
+- Grafting mechanics let the branch talk about continuity, transfer, and structural recombination.
+
+## Implications
+
+This companion rail fills a conceptual gap in the access story. It gives the branch a way to reason about identity structure apart from authentication mechanics. That helps the broader project distinguish "who is this?" from "what may this node access?"
+
+## Open Questions
+
+- When should identity be treated as a tree versus a loop or a field?
+- What counts as a valid graft in the protocol vocabulary?
+- Which identity relations need to stay conceptual rather than operational?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../consent-crystal-structure-research/index.md)

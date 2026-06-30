@@ -29,6 +29,35 @@ The deeper role here is to define how identity can be represented hierarchically
 
 This makes it the control point for privacy and temporal access inside the implementation branch. The branch now separates the key tree from the selective visibility policy so the hierarchy and the time-bound access rule can be reasoned about independently.
 
+## Core Claim
+
+If access is consent-bound, then cryptographic identity must also be consent-bound. CICP uses hierarchical derivation to keep identity structured and selective decryption to keep disclosure scoped to the relevant time slice, session, or event.
+
+## Mechanisms
+
+- A root seed can generate a deterministic tree of related keys.
+- A path can encode site, ritual, participant, and time slice.
+- Parent keys can reveal child ranges when policy allows it.
+- Sibling branches remain isolated.
+- The same structure can support both identity management and delayed disclosure.
+
+## Terminology
+
+- Hierarchical key derivation: deterministic creation of a nested key tree.
+- Temporal key tree: a derivation tree organized by time.
+- Selective decryption: revealing only the intended segment of encrypted data.
+- Hardened path: a branch boundary used where privacy needs stronger separation.
+
+## Implications
+
+The cryptographic rail makes the consent story legible to machines. It gives the branch a way to say that not every record should be equally visible, and not every disclosure should be permanent. That is what allows the protocol family to talk about privacy without reducing the whole project to generic encryption.
+
+## Open Questions
+
+- Which path granularity is useful by default: minute, hour, session, or event?
+- Should key hierarchy primarily express identity, memory, or both?
+- Which disclosures should be reversible, and which should remain opaque even to ancestors?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)

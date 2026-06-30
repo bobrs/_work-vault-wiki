@@ -29,6 +29,26 @@ Taken together, the two subpages separate audience-specific explanation from pub
 
 The page should stay readable as a packaging layer rather than as a generic document bucket.
 
+## Core Claim
+
+The outward-facing branch turns the protocol family into something explainable to partners, investors, customers, or collaborators. It is not just marketing copy. It is where the project decides how much of the protocol can be translated into a stable story without collapsing the underlying structure.
+
+## Mechanisms
+
+- Application briefs frame the protocol for concrete domains.
+- Commercialization material translates the same ideas into pitch, patent, and go-to-market language.
+- The two families stay separate so audience-specific framing does not blur with public capture of the work.
+
+## Implications
+
+This cluster is where semantic compression meets external legibility. If the internal rails are coherent, this page can explain them without flattening them. If the internal rails are not coherent, outward packaging becomes noise.
+
+## Open Questions
+
+- Which application families deserve direct productization and which should remain conceptual briefs?
+- How much of CICP should remain hidden behind internal structure before the public story becomes too thin?
+- Which claims are safe to package broadly, and which need stronger lineage or review notes?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../consent-crystal-structure-research/index.md)

@@ -45,6 +45,33 @@ This corpus reads like a practical protocol family rather than a single abstract
 The root-level documents now split into protocol foundations, implementation and access, outward-facing applications, and working notes.
 The implementation and access rail now deepens into pairing, field infrastructure, key hierarchy, and selective decryption child pages, which helps the execution side read as a real pipeline.
 
+## Core Claim
+
+CICP treats mutuality as an operational protocol. A loop is not just a social metaphor; it is a structured relation that needs intention, consent, attention, memory, and an explicit exit or reconsent condition. The protocol family tries to make those vectors visible enough to be used in real collaboration, training, access control, and symbolic infrastructure.
+
+## Mechanisms
+
+- A consent handshake establishes whether a loop activates at all.
+- Loop projection and related modeling language treat a complete loop as a semantic seed that can describe or simulate a broader field.
+- Glyph language and equivalence let meaning be agreed rather than assumed.
+- Synaptic trust and propagation treat relationship state as dynamic, contextual, and filterable.
+- Implementation and access translate the abstract loop into pairing, key derivation, selective decryption, and physical token initialization.
+- Loop training turns the model into a teachable sequence instead of an isolated thesis.
+
+## Dependencies
+
+- The protocol foundations give the vocabulary for loops, glyphs, and trust.
+- The implementation rail depends on that vocabulary being stable enough to pair, encrypt, and initialize real access flows.
+- Loop training depends on the foundational vector model so the sequence can teach coherent concepts in order.
+- Applications and outreach depend on the protocol being legible enough to package for partners, briefs, and public-facing explanations.
+
+## Open Questions
+
+- Which parts of the protocol are genuinely core versus only helpful examples?
+- How far should the branch lean toward hardware and cryptography before it stops being the same family?
+- Which formulations deserve concept pages because they recur across multiple sub-branches?
+- Where is the boundary between durable semantic compression and over-fragmentation?
+
 The `Loop Training`, `Working Notes`, and `FractalIdentity Tree` folders can be treated as stand-alone lineage pages without losing the parent CICP link.
 
 The branch-root `.zip` companion is archived and retained as lineage evidence.

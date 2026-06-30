@@ -29,6 +29,34 @@ That makes this page the mathematical or structural anchor of the protocol famil
 
 The deeper seam now separates the loop core and projection layer into its own child page so the model stack can be read from principle to substrate without collapsing into a flat file list.
 
+## Core Claim
+
+The model rail says that a complete consented loop is not just an event inside a larger system. It is a semantic seed. Once a loop is fully observed, the project can use it to infer how related loops behave, how fields form, and how structure propagates across a domain.
+
+## Mechanisms
+
+- `Loop Projection Principle` treats a full loop as a compressed model of a wider field.
+- `Loop Substrate Theory` places loop behavior on a deeper supporting substrate.
+- `Loop Tensor Field Specification` frames loops as composable field structures.
+- `Quantum Loop Ontology Protocol` extends the same logic into a quantum-style symbolic ontology.
+
+## Terminology
+
+- Loop projection: using one complete loop to infer a broader field.
+- Substrate: the underlying layer that supports loop persistence.
+- Tensor framing: a way of describing how looped structure composes.
+- Ontology extension: the move from descriptive model to world-model language.
+
+## Implications
+
+This page explains why CICP can get away with a relatively small number of stable primitives. If one loop is a compact reflection of a field, then the project can build up from a few coherent examples instead of requiring exhaustive state maps everywhere.
+
+## Open Questions
+
+- How many complete loops are enough to project a field with confidence?
+- Which parts of the model are formal claims, and which are metaphorical scaffolds?
+- When does the substrate framing become too abstract for the rest of the branch?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)

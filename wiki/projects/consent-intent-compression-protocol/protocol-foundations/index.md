@@ -33,6 +33,34 @@ The three subpages map to the core protocol layers: how the loop model works, ho
 
 Each of those three layers now has its own deeper child page so the vocabulary spine can be read from coarse structure down into the specific loop, grammar, and continuity seams.
 
+## Core Claim
+
+The foundation rail says that the smallest meaningful unit in CICP is a consented loop, and that loop structure can be used to project, translate, and stabilize broader systems. The protocol does not begin with abstract theory; it begins with a repeatable relational unit that can be modeled, symbolized, and trusted.
+
+## Key Terms
+
+- Loop: a coherent relation held by intention, consent, attention, memory, and exit or reconsent.
+- Field: the larger relational environment in which loops arise and feed back.
+- Glyph: a meaning-bearing symbol whose significance is loop-agreed rather than fixed.
+- Equivalence: the process of mapping meaning across forms or domains through consented translation.
+- Synaptic trust: a dynamic relationship state that can amplify, attenuate, or pass signal depending on context.
+
+## Mechanisms
+
+- `Loop Modeling and Field Theory` turns the loop into a projectable seed.
+- `Glyph Languages and Equivalence` turns symbolic meaning into a consented language stack.
+- `Synaptic Trust and Propagation` turns relationship state into a context-aware filter and transmission system.
+
+## Implications
+
+This rail is doing more than naming terminology. It is building the grammar that later pages rely on when they talk about access, training, identity, and field infrastructure. If the vocabulary layer is weak, the rest of the branch becomes decorative. If it is strong, the branch can stay coherent even as it branches into practical implementations.
+
+## Open Questions
+
+- Which loop properties are essential for projection versus merely descriptive?
+- How much symbolic freedom can the glyph layer support before equivalence becomes unstable?
+- What is the minimal trust model that still supports the later access rail?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../consent-crystal-structure-research/index.md)

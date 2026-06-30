@@ -32,6 +32,32 @@ This is the execution surface of CICP. It turns the protocol vocabulary into som
 
 The three subpages form a clean implementation pipeline, and the pairing and key branches now deepen one level further. That keeps the cluster readable as a flow rather than as a disconnected list of topics while still letting the handshake, field deployment, key hierarchy, and selective decryption seams stand on their own.
 
+## Core Claim
+
+The implementation rail claims that consent systems need an operational entry path, not just a philosophy. If the protocol is real, it needs a way to say who is paired, what the access boundary is, how identity keys are derived, how disclosure is limited over time, and how a physical token or device starts the whole process.
+
+## Mechanisms
+
+- `Field Echo Protocol` turns presence into a temporary trust grant.
+- `LOOPtLOOP` treats two-way TOTP pairing as a symmetric consent loop.
+- Field infrastructure applications extend pairing into real-world anchors, caches, and charms.
+- Hierarchical key derivation creates deterministic identity structure for loops and sessions.
+- Selective decryption uses the hierarchy to reveal only the right temporal slice.
+- Ritual token initialization translates the access model into a physical device handshake.
+
+## Dependencies
+
+- Depends on the protocol foundations for loop semantics and trust vocabulary.
+- Depends on the training rail for a human-readable explanation of why the execution model exists.
+- Depends on physical or symbolic devices when a loop should be embodied rather than merely described.
+
+## Open Questions
+
+- When should a pairing pattern become its own branch instead of remaining a document family?
+- Where is the boundary between an implementation model and a productization story?
+- How much of the access layer should be modeled as cryptography versus social protocol?
+- Which pieces are essential to deployment, and which are merely illustrative?
+
 ## Related Concepts
 
 - [LoopLink](../../../concepts/looplink/index.md)

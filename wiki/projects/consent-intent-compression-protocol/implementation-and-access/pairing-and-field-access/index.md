@@ -30,6 +30,34 @@ The semantic role of this cluster is to describe entry into the protocol field. 
 
 That makes it the first applied layer in the CICP implementation stack. The branch now splits into a field-pairing handshake and a field-infrastructure application path so the access entry and the deployment surface can be read separately.
 
+## Core Claim
+
+Pairing is not just authentication. In CICP it is a consented relationship state that can open a temporary field, carry a symbolic payload, and determine whether a message, device, or ritual object is allowed to participate in the loop at all.
+
+## Mechanisms
+
+- Presence proof can be established with NFC, BLE, TOTP, passphrases, or ritual keys.
+- The server or on-site logic can issue an ephemeral loop token.
+- The token can authorize symbolic posting, field echo, or infrastructure interaction for a limited time.
+- Infrastructure applications turn the same pairing logic into anchors, caches, and personal charms.
+
+## Terminology
+
+- Field echo: symbolic visibility earned through presence.
+- Loop token: a temporary access grant attached to a specific loop and expiry window.
+- Consent loop: the mutual entry condition that makes pairing legitimate.
+- Field infrastructure: the operational surface that takes pairing out of the abstract and into a live site or object.
+
+## Implications
+
+This page is doing two jobs at once. It explains the smallest entry gesture into the access layer, and it also keeps that gesture tied to a broader deployment story. That matters because the protocol is trying to avoid fake universal access: the field only opens when the right conditions are present.
+
+## Open Questions
+
+- How much of pairing should be automated versus explicitly confirmed?
+- Which presence signals are strong enough to count as consent?
+- When does an application stop being a pairing example and become its own product surface?
+
 ## Related Links
 
 - [Consent Crystal Structure Research](../../../../consent-crystal-structure-research/index.md)
