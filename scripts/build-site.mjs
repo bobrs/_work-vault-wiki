@@ -13,9 +13,11 @@ const WORKER_PAGES = new Map();
 const NAV_ITEMS = [
   ["Home", "/index.html"],
   ["Wiki", "/wiki/index.html"],
+  ["Attractors", "/wiki/attractors/index.html"],
   ["Vault", "/vault/index.html"],
   ["Projects", "/wiki/projects/index.html"],
   ["Concepts", "/wiki/concepts/index.html"],
+  ["Essays", "/wiki/external/shimmerymemory/essays/index.html"],
   ["Incoming", "/wiki/incoming-review.html"],
   ["Duplicates", "/wiki/duplicate-review.html"],
   ["Missing", "/wiki/missing-files.html"],
@@ -97,6 +99,7 @@ function resolveRepoPath(sourceRel, target) {
 
 function rewriteLink(sourceRel, href) {
   if (/^(https?:|mailto:|#)/i.test(href)) return href;
+  if (href.startsWith("/")) return href;
   let cleaned = href.split("#")[0].trim();
   cleaned = cleaned.replaceAll("&lt;", "<").replaceAll("&gt;", ">");
   if (cleaned.startsWith("<") && cleaned.endsWith(">")) {
@@ -343,7 +346,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       padding: 34px;
     }
     .page {
-      max-width: 1060px;
+      max-width: 1180px;
       margin: 0 auto;
       padding: 28px;
       background: var(--panel);
@@ -411,6 +414,78 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       font-size: 2.05rem;
       margin: 0 0 8px;
     }
+    .gateway-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 24px;
+    }
+    .gateway-action {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      background: rgba(24, 78, 119, 0.1);
+      border: 1px solid rgba(24, 78, 119, 0.18);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .attractor-grid, .browse-grid, .status-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 14px;
+      margin: 18px 0 12px;
+    }
+    .attractor-card {
+      grid-column: span 4;
+      display: block;
+      min-height: 100%;
+      padding: 16px;
+      border-radius: 10px;
+      background: rgba(248, 243, 234, 0.92);
+      border: 1px solid var(--line);
+      text-decoration: none;
+      color: var(--text);
+    }
+    .attractor-card:hover {
+      border-color: rgba(24, 78, 119, 0.38);
+      box-shadow: 0 10px 28px rgba(29, 35, 45, 0.1);
+    }
+    .attractor-card h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    .subpaths {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .subpaths span {
+      display: inline-flex;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(24, 78, 119, 0.08);
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.35;
+    }
+    .browse-card, .status-card {
+      grid-column: span 3;
+      padding: 14px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.42);
+      border: 1px solid var(--line);
+    }
+    .browse-card a {
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .browse-card p, .status-card p {
+      margin: 8px 0 0;
+      line-height: 1.55;
+    }
     .muted { color: var(--muted); }
     .file-table {
       width: 100%;
@@ -456,6 +531,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       .content { padding: 16px; }
       .page { padding: 20px; }
       .card { grid-column: span 12; }
+      .attractor-card, .browse-card, .status-card { grid-column: span 12; }
     }
   </style>
 </head>
@@ -481,37 +557,146 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
 }
 
 function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
+  const attractors = [
+    {
+      title: "Witness",
+      href: "/wiki/attractors/witness/index.html",
+      body: "How fields become artifacts: observation, collapse, testimony, accountability, and the discipline of not merging too soon.",
+      paths: ["observation", "artifact collapse", "testimony", "accountability", "non-merge"],
+    },
+    {
+      title: "Consent",
+      href: "/wiki/attractors/consent/index.html",
+      body: "The boundary logic of living systems: authorization, refusal, participation, reversibility, and semantic fit.",
+      paths: ["boundary", "sovereignty", "authorization", "refusal", "reversibility"],
+    },
+    {
+      title: "Attention",
+      href: "/wiki/attractors/attention/index.html",
+      body: "The selection layer of reality: salience, compression, curiosity, care, distortion, and what gets to become real.",
+      paths: ["compression", "salience", "curiosity", "distortion", "care"],
+    },
+    {
+      title: "Intuition",
+      href: "/wiki/attractors/intuition/index.html",
+      body: "Pattern recognition before explanation: body knowledge, latent processing, felt sense, and pre-verbal signal.",
+      paths: ["felt sense", "latent processing", "body knowledge", "pattern recognition"],
+    },
+    {
+      title: "Provenance",
+      href: "/wiki/attractors/provenance/index.html",
+      body: "The lineage of meaning: origin, context, transformation, authorship, admissibility, and consentful recordkeeping.",
+      paths: ["lineage", "attribution", "transformation", "admissibility", "consentful record"],
+    },
+    {
+      title: "Governance",
+      href: "/wiki/attractors/governance/index.html",
+      body: "How power becomes structure: legitimacy, constraint, accountability, institutions, drift, and collective coordination.",
+      paths: ["legitimacy", "constraint", "accountability", "institutions", "drift"],
+    },
+    {
+      title: "Grounding",
+      href: "/wiki/attractors/grounding/index.html",
+      body: "Where abstraction touches earth: body, place, safety, materials, limits, nervous systems, and lived constraint.",
+      paths: ["embodiment", "place", "safety", "material limits", "nervous system"],
+    },
+    {
+      title: "Loop Mechanics",
+      href: "/wiki/attractors/loop-mechanics/index.html",
+      body: "How systems return: recursion, feedback, stabilization, drift, rupture, repair, traps, and regenerative flow.",
+      paths: ["feedback", "recursion", "drift", "rupture", "repair"],
+    },
+    {
+      title: "Agency",
+      href: "/wiki/attractors/agency/index.html",
+      body: "The capacity to act: escape, choice, authorship, constraint, survival loops, and the cost of free will.",
+      paths: ["escape", "choice", "capacity", "authorship", "survival loops"],
+    },
+    {
+      title: "Meaning",
+      href: "/wiki/attractors/meaning/index.html",
+      body: "How symbols become consequential: language, story, artifact, metaphor, interpretation, and shared reality.",
+      paths: ["language", "story", "metaphor", "interpretation", "shared reality"],
+    },
+    {
+      title: "Memory",
+      href: "/wiki/attractors/memory/index.html",
+      body: "Continuity across time: archive, forgetting, recurrence, personal history, machine memory, and cultural inheritance.",
+      paths: ["archive", "forgetting", "recurrence", "machine memory", "inheritance"],
+    },
+    {
+      title: "Trust",
+      href: "/wiki/attractors/trust/index.html",
+      body: "Confidence under vulnerability: verification, relationship, proof, coherence, witness, and repair.",
+      paths: ["verification", "relationship", "proof", "coherence", "repair"],
+    },
+  ];
+  const attractorCards = attractors
+    .map((card) => `
+      <a class="attractor-card" href="${card.href}">
+        <h3>${card.title}</h3>
+        <p>${card.body}</p>
+        <div class="subpaths">${card.paths.map((pathLabel) => `<span>${pathLabel}</span>`).join("")}</div>
+      </a>
+    `)
+    .join("");
   return pageShell({
-    title: "Work Vault",
-    subtitle: "Public landing page for the repository and wiki",
+    title: "Work Vault Wiki",
+    subtitle: "A living map of artifacts, attractors, and published work",
     body: `
-      <p class="eyebrow">Public landing</p>
+      <p class="eyebrow">Attractor Gateway</p>
       <div class="title-row">
-        <h1>Work Vault</h1>
-        <span class="tag">static publish prep</span>
+        <h1>Work Vault Wiki</h1>
+        <span class="tag">public map</span>
       </div>
-      <p>This site is the static web wrapper for a public vault. The raw repository stays on GitHub, while this interface renders the wiki and exposes the file inventory as a browsable map.</p>
-      <div class="hero-grid">
-        <div class="card">
+      <p>A living map of artifacts, attractors, and published work across witness, consent, attention, provenance, governance, grounding, loop mechanics, agency, meaning, memory, and trust.</p>
+      <div class="gateway-actions">
+        <a class="gateway-action" href="/wiki/index.html">Structured Wiki Index</a>
+        <a class="gateway-action" href="/wiki/projects/index.html">Projects</a>
+        <a class="gateway-action" href="/wiki/concepts/index.html">Concepts</a>
+        <a class="gateway-action" href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a>
+        <a class="gateway-action" href="/vault/index.html">Raw Vault</a>
+        <a class="gateway-action" href="https://github.com/bobrs/_work-vault-wiki">GitHub Source</a>
+      </div>
+
+      <h2>Enter by Attractor</h2>
+      <div class="attractor-grid">
+        ${attractorCards}
+      </div>
+
+      <h2>Browse the Wiki</h2>
+      <div class="browse-grid">
+        <div class="browse-card"><a href="/wiki/projects/index.html">Projects</a><p class="muted">Project families, branches, and source-backed pages.</p></div>
+        <div class="browse-card"><a href="/wiki/concepts/index.html">Concepts</a><p class="muted">Recurring concepts that have stabilized across the corpus.</p></div>
+        <div class="browse-card"><a href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a><p class="muted">Public Shimmery Memory essay metadata and source links.</p></div>
+        <div class="browse-card"><a href="/wiki/artifacts/index.html">Artifact Index</a><p class="muted">Wiki-side artifact navigation and source references.</p></div>
+        <div class="browse-card"><a href="/vault/index.html">Raw Vault</a><p class="muted">Browsable repository inventory with GitHub source links.</p></div>
+        <div class="browse-card"><a href="/wiki/timelines/index.html">Timelines</a><p class="muted">Chronological views and time-based orientation.</p></div>
+        <div class="browse-card"><a href="/wiki/unresolved/index.html">Unresolved</a><p class="muted">Open classification, naming, and interpretation questions.</p></div>
+        <div class="browse-card"><a href="/wiki/duplicate-review.html">Duplicate Review</a><p class="muted">Duplicate sets and collapse decisions.</p></div>
+        <div class="browse-card"><a href="/wiki/missing-files.html">Missing Files</a><p class="muted">Broken, absent, or not-yet-routed source references.</p></div>
+        <div class="browse-card"><a href="/wiki/incoming-review.html">Incoming Review</a><p class="muted">Current intake triage and routing state.</p></div>
+        <div class="browse-card"><a href="/readme.html">README</a><p class="muted">Repository overview rendered from source.</p></div>
+        <div class="browse-card"><a href="/wiki-guide.html">WIKI.md</a><p class="muted">Project wiki guide and source navigation.</p></div>
+      </div>
+
+      <h2>Vault Status</h2>
+      <div class="status-grid">
+        <div class="status-card">
           <p class="stat">${stats.total}</p>
-          <p class="muted">Files witnessed in the current repository snapshot.</p>
+          <p class="muted">Files in the current repository inventory.</p>
         </div>
-        <div class="card">
+        <div class="status-card">
           <p class="stat">${rawCount}</p>
           <p class="muted">Raw vault files under <code>artifacts/</code>.</p>
         </div>
-        <div class="card">
+        <div class="status-card">
           <p class="stat">${pageCount}</p>
-          <p class="muted">Markdown wiki and instruction pages rendered as static HTML.</p>
+          <p class="muted">Markdown pages rendered as static HTML.</p>
         </div>
-        <div class="card">
+        <div class="status-card">
           <p class="stat">${duplicateGroups}</p>
-          <p class="muted">Exact duplicate hash groups recorded in the current manifest.</p>
-        </div>
-        <div class="card wide">
-          <h2>Current corpus</h2>
-          <p>The incoming batch is still represented as an intake corpus. The active branch pages describe the major clusters and point at the files that support them.</p>
-          <p><a href="/wiki/index.html">Open the wiki</a> or <a href="/vault/index.html">browse the vault map</a>.</p>
+          <p class="muted">Exact duplicate hash groups in the manifest.</p>
         </div>
       </div>
     `,

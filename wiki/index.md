@@ -1,11 +1,14 @@
 # Work Vault Index
 
-This wiki is a navigation layer over the repository.
+This wiki is the structured index behind the public [Attractor Gateway](/index.html).
+
+Use the front page to enter by meaning. Use this page to enter by route, project, concept, queue, or source layer.
 
 Current status: the vault now contains substantive work artifacts, archived snapshots, standard-named source copies, and lineage pages. Use the wiki to track intake, duplicate collapse, source naming, and branch splits without inventing extra meaning.
 
 ## Main Entrances
 
+- [Attractor Gateways](attractors/index.md)
 - [Projects](projects/index.md)
 - [Concepts](concepts/index.md)
 - [External Published / Shimmery Memory Essays](external/shimmerymemory/essays/index.md)
