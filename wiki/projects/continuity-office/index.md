@@ -2,6 +2,8 @@
 
 This branch collects the continuity training catalog and its supporting materials structure.
 
+Quantum Invariants is useful here as the comparator language for continuity: it helps name what stays stable, what drifts, and what needs a repair path.
+
 ## Current Shape
 
 - 20 published lessons.
@@ -42,6 +44,7 @@ The published catalog is the live surface. The draft `First 90 Days of Continuit
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

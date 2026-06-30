@@ -20,8 +20,21 @@ It is a deterministic explanation layer that tunes how the same invariant set is
 
 The C13 pass is a larger site-level shimmer revision, so it stays with the other explanation-tuning bundles instead of becoming a new project branch.
 
+## Core Claim
+
+Shimmer changes the explanation surface, not the invariant content. It is the tuning layer for readability, emphasis, and audience fit.
+
+## Mechanisms
+
+- Tune explanation without rewriting source structure.
+- Keep the site-level pass separate from the grounding schema.
+- Preserve lineage so different explanation versions remain comparable.
+- Treat the overlay as presentation work, not as a new truth layer.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [Downloads](../downloads/index.md)
 - [AI](../ai/index.md)
+- [Shimmery Memory](../../../external/shimmerymemory/essays/index.md)
+- [Semantic Integrity](../../semantic-integrity/index.md)

@@ -4,6 +4,8 @@ This branch collects witness-rooted consent and provenance infrastructure.
 
 It reads as a protocol family rather than a single essay: the material starts with a compressed context packet, then splits into positioning, spec, and vision seams. The common pattern is simple: witness first, consent downstream, provenance preserved.
 
+Quantum Invariants fits here as a grounding reference for how witness, boundary, and comparator language can stay stable across different surfaces.
+
 ## Current Shape
 
 - 7 incoming source documents.
@@ -35,6 +37,7 @@ That makes this branch useful for marks, provenance, edges, and authorization wi
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Governance Diad](../../concepts/governance-diad/index.md)
 - [Consent Physics](../../concepts/consent-physics/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

@@ -2,6 +2,8 @@
 
 This branch collects the intuition and planning essays from the `howintuitionworks-pack`.
 
+Quantum Invariants is a useful neighbor because the intuition essays keep returning to attractors, comparators, and stable directional cues.
+
 ## Current Shape
 
 - 4 essays.
@@ -34,6 +36,7 @@ That makes the branch useful as a compact navigation surface for a larger argume
 - [LoopLink](../../concepts/looplink/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
 - [How Works](../how-works/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

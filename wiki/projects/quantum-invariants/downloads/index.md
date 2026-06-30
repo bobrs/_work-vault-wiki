@@ -23,6 +23,16 @@ This is the download shelf for the structural backbone of the project.
 
 Keep the grounding copies archived here and let the page point outward to the site architecture that depends on them.
 
+## Core Claim
+
+Downloads are the evidentiary shelf for the project. They exist to preserve the exact grounding inputs that the public site and structural notes depend on.
+
+## Mechanisms
+
+- Keep duplicate grounding copies visible as lineage evidence.
+- Point to the schema and identity materials rather than duplicating them elsewhere.
+- Treat downloadable bundles as archive evidence, not as a separate content branch.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
@@ -30,3 +40,4 @@ Keep the grounding copies archived here and let the page point outward to the si
 - [Root and How to Ground](../root-and-how-to-ground/index.md)
 - [Identity and Manifests](../identity-and-manifests/index.md)
 - [Semantic Shimmer](../semantic-shimmer/index.md)
+- [Bootstrap and Schema](../bootstrap-and-schema/index.md)

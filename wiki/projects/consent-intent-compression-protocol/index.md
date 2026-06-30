@@ -76,6 +76,8 @@ The `Loop Training`, `Working Notes`, and `FractalIdentity Tree` folders can be 
 
 The branch-root `.zip` companion is archived and retained as lineage evidence.
 
+Quantum Invariants is a useful comparator for this family because it names the boundary, comparator, and repair vocabulary that CICP keeps using indirectly.
+
 ## Related Concepts
 
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
@@ -92,6 +94,7 @@ The branch-root `.zip` companion is archived and retained as lineage evidence.
 - [Loop Training](loop-training/index.md)
 - [Working Notes](working-notes/index.md)
 - [FractalIdentity Tree](fractalidentity-tree/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

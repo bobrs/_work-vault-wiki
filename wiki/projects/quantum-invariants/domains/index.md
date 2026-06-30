@@ -14,8 +14,23 @@ This seam holds the domain-specific Quantum Invariants pages.
 
 This is the applied layer: each domain page translates the spine into a concrete field.
 
+This is where the invariant set becomes visible in practice. The domain pages do not replace the spine; they show how the same comparator language behaves in a specific field.
+
+## Core Claim
+
+Domains are translations, not forks. A domain page should preserve the same invariant logic while naming the concrete pressure, failure mode, and repair path for that field.
+
+## Mechanisms
+
+- Reuse the same primitive/composite grammar across domains.
+- Translate the boundary, comparator, and feedback terms into field-specific language.
+- Keep each domain page readable on its own while still pointing back to the spine.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [AI](../ai/index.md)
 - [Charters](../charters/index.md)
+- [Semantic Integrity](../../semantic-integrity/index.md)
+- [Consentful Cybernetics](../../consentful-cybernetics/index.md)
+- [How Intuition Works](../../how-intuition-works/index.md)

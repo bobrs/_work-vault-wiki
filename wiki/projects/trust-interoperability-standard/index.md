@@ -2,6 +2,8 @@
 
 This branch defines the trust interoperability stack in the current intake.
 
+Quantum Invariants is the neighboring grounding language: it names the boundary, comparator, and repair vocabulary that a trust standard can lean on when it needs a common reference layer.
+
 ## Current Shape
 
 - 9 trust interoperability documents.
@@ -22,6 +24,10 @@ This branch defines the trust interoperability stack in the current intake.
 ## Working Read
 
 This branch now separates into the core trust standard, the Dialogica threading model, and the graph/API surfaces that make the standard interoperable.
+
+## Related Links
+
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

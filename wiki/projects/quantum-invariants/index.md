@@ -2,13 +2,21 @@
 
 This branch collects the public site family and grounding data for Quantum Invariants.
 
+It is the machine-readable grounding library for the project family: a small invariant set, a public navigation surface, and the identity/manifest rails that keep the set auditable.
+
 It is a navigable site set rather than a single page: the root/how-to-ground surface, the spine, the domain pages, the AI surface, the charters, and the downloads rail all belong together.
 
 ## Current Shape
 
 - 11 public site bundles.
 - 1 grounding data family with 4 preserved duplicate copies.
-- 2 structural notes for bootstrap, schema, and semantic translation.
+- 3 structural notes for bootstrap, schema, semantic translation, and explanation tuning.
+
+## Core Claim
+
+Quantum Invariants is not just site packaging. It is a minimal grounding system for identifying boundaries, comparators, feedback, drift, legibility, and repair moves across a wider ecosystem of projects.
+
+The site surface stays public and navigable, while the grounding data keeps the machine-readable backbone stable enough to support other branches, manifests, and translation layers.
 
 ## Nested Lineage Pages
 
@@ -39,17 +47,21 @@ It is a navigable site set rather than a single page: the root/how-to-ground sur
 
 ## Working Read
 
-This project reads as a site architecture and grounding system.
-
 The site bundles are the public-facing navigation surface; the grounding JSON is the structural backbone that explains the layers underneath.
 
-The bootstrap, schema, and semantic-compression notes are part of the same entry layer. They explain how the invariant set is used, not just how the site is presented.
+The bootstrap, schema, semantic-compression, and shimmer notes are part of the same entry layer. Together they explain how the invariant set is used, how it is represented, and how it is presented to different readers without changing the underlying structure.
 
-The C13 bundle is another full public-site pass rather than a new branch. It shifts the same site family through a different explanatory and boundary posture.
+The QI family is also a cross-project reference node. It helps explain consent, continuity, witness, trust, and semantic integrity work elsewhere in the wiki because it gives those branches a common comparator language.
 
 ## Related Links
 
 - [Continuity Office](../continuity-office/index.md)
+- [Semantic Integrity](../semantic-integrity/index.md)
+- [Consentful Cybernetics](../consentful-cybernetics/index.md)
+- [Trust Interoperability Standard](../trust-interoperability-standard/index.md)
+- [WitnessKey](../witnesskey/index.md)
+- [How Intuition Works](../how-intuition-works/index.md)
+- [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [About](about/index.md)
 - [Identity and Manifests](identity-and-manifests/index.md)
 - [Bootstrap and Schema](bootstrap-and-schema/index.md)

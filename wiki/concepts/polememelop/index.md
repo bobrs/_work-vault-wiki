@@ -8,6 +8,8 @@ In practice, POLEMEMELOP is the shared vocabulary that threads through the SCT a
 
 That makes this page a concept node, but also a bridge between theory pages, protocol pages, and the recursive infrastructure language that keeps reappearing.
 
+Quantum Invariants is a useful structural neighbor because it formalizes the same instinct into primitives, composites, and relation rules. The concept stays broader than the QI model, but the two reinforce one another.
+
 If the other concept pages are the local mechanics, POLEMEMELOP is the larger field in which they make sense together. It is the vocabulary for the corpus's recurring instinct that legitimacy, consent, transport, and circulation should all be expressed as living loops. That is why it remains useful as an umbrella term even when individual branches specialize into protocol, governance, or economics.
 
 This page therefore sits above and beside [Abracadabracadoo](../abracadabracadoo/index.md), [Intent-Consent](../intent-consent/index.md), [Witnessing](../witnessing/index.md), [Governance Diad](../governance-diad/index.md), [LoopLink](../looplink/index.md), [PDSP](../pdsp/index.md), and [Loop Economy](../loop-economy/index.md). It is the common atmosphere those pages breathe in rather than a replacement for them.
@@ -24,6 +26,7 @@ This page therefore sits above and beside [Abracadabracadoo](../abracadabracadoo
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Concepts Index](../index.md)
+- [Quantum Invariants](../../projects/quantum-invariants/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [Intent-Consent](../intent-consent/index.md)
 - [Witnessing](../witnessing/index.md)

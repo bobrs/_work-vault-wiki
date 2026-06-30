@@ -4,6 +4,8 @@ This branch collects the public site, research framing, and iteration bundles fo
 
 It reads as a public-facing articulation of voluntary intelligence: one seam tunes the site and visual language, and the other seam tracks preregistration and research artifacts. The material is durable enough to keep together, but still better treated as an evolving site family than as a finished doctrine.
 
+Quantum Invariants is a useful structural companion because it gives the consent and intelligence language a comparator model for boundaries, legibility, and drift.
+
 ## Current Shape
 
 - 1 public site family.
@@ -39,6 +41,7 @@ The homepage and research copy evolve together, which is why the wiki should kee
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
 - [Attention](../../concepts/attention/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

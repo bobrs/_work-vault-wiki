@@ -20,12 +20,26 @@ These notes make the invariant library legible to both humans and machines. The 
 
 Keep this page separate from the public site rails so the structural layer stays visible without being confused for the presentation layer.
 
+## Core Claim
+
+This is the project constitution in structural form: the bootstrap tells you how to enter the system, the schema tells you how to represent it, and the additions tell you how to keep it from drifting.
+
+## Mechanisms
+
+- Anchor use to a specific entry order.
+- Keep the schema explicit enough to fail when the structure changes.
+- Separate machine representation from public presentation.
+- Make repair and release logic visible instead of implicit.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [Semantic Compression Layer](../semantic-compression-layer/index.md)
 - [Semantic Shimmer](../semantic-shimmer/index.md)
 - [Downloads](../downloads/index.md)
+- [Identity and Manifests](../identity-and-manifests/index.md)
+- [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../consent-intent-compression-protocol/index.md)
 
 ## Next Actions
 

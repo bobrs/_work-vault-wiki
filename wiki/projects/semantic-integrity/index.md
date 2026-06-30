@@ -2,6 +2,8 @@
 
 This branch collects the implementation-facing work on semantic integrity: how meaning-preserving AI systems, regulated workflows, and governed semantic infrastructure fit together.
 
+Quantum Invariants sits underneath this work as a structural comparator and grounding language for boundaries, drift, and repair.
+
 ## Current Shape
 
 - 5 source documents.

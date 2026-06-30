@@ -8,6 +8,8 @@ In practice, Intent-Consent is the phrase-level attractor for work that tries to
 
 The useful distinction is that intent names direction while consent names permission. The corpus keeps returning to that pair because many of the documents are trying to model action without collapsing agency into assertion. In that sense, the concept is both a linguistic pattern and a governance primitive: it is where a proposed move becomes an accepted move, or fails to do so cleanly.
 
+Quantum Invariants is a useful comparator here because it makes the boundary/comparator/repair vocabulary explicit in a machine-readable form. That does not replace the concept; it just gives the concept a structural neighbor.
+
 The newer research bundle around consent graphs, loop summaries, protocol intros, vector mapping, and consent-constrained intelligence pushes the same idea toward a more explicit model. Instead of treating consent as a static boundary, the bundle makes it a structured relation that can be graphed, summarized, and compared against outcome pressure.
 
 That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), [Governance Diad](../governance-diad/index.md), [LoopLink](../looplink/index.md), and [Consent Physics](../consent-physics/index.md). Those pages describe what happens when intent-consent becomes protocol, certification, transport, legitimacy, or activation instead of remaining only a phrase.
@@ -36,6 +38,7 @@ That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/in
 - [Consent Physics](../consent-physics/index.md)
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Quantum Invariants](../../projects/quantum-invariants/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [Witnessing](../witnessing/index.md)
 - [Governance Diad](../governance-diad/index.md)

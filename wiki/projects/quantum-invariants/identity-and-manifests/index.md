@@ -23,8 +23,22 @@ These files describe the project as a deployed framework node with a manifest su
 
 Keep them separate from the `About` page so the identity metadata remains easy to find and audit.
 
+## Core Claim
+
+Identity and manifests are the machine-readable counterpart to the public face. They are not the same as the prose about page, and they should stay auditable on their own.
+
+## Mechanisms
+
+- Preserve raw identity snapshots as source evidence.
+- Keep manifest files together so changes are visible and compare cleanly.
+- Treat repository snapshots as lineage evidence, not as new narrative content.
+- Route machine readers here when they need the current shape of the project rather than the explanation of it.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [About](../about/index.md)
 - [Downloads](../downloads/index.md)
+- [Bootstrap and Schema](../bootstrap-and-schema/index.md)
+- [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
+- [WitnessKey](../../witnesskey/index.md)

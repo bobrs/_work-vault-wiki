@@ -4,6 +4,8 @@ Parent lineage: `Similar Projects`
 
 This branch normalizes the BobbyOS-adjacent runtime, cognitive, and semantic experiment family into standard-named source copies.
 
+Quantum Invariants is a useful neighbor here because it gives the branch a cleaner comparator language for boundary, translation, and repair.
+
 ## Current Shape
 
 - 20 runtime and cognitive documents.
@@ -28,6 +30,10 @@ This branch normalizes the BobbyOS-adjacent runtime, cognitive, and semantic exp
 ## Working Read
 
 This branch now separates into BobbyOS runtime concepts, reflective reframing tools, temporal/topological models, sovereignty protocol texts, and a standalone glyph compression spec.
+
+## Related Links
+
+- [Quantum Invariants](../quantum-invariants/index.md)
 
 ## Next Actions
 

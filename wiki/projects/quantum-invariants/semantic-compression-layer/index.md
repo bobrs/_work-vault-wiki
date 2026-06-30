@@ -18,11 +18,25 @@ The bridge maps human concepts like boundary, witness, consent, legibility, ledg
 
 Keep this page separate from semantic-shimmer. Shimmer explains the presentation layer; this page explains the translation layer.
 
+## Core Claim
+
+Semantic compression is the place where abstract language becomes a stable mapping rather than a loose analogy.
+
+## Mechanisms
+
+- Map human terms to the invariant primitives.
+- Keep the mapping compact enough to reuse.
+- Preserve the distinction between translation and presentation.
+- Use the mapping as a reference for other branches that need the same conceptual backbone.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [Bootstrap and Schema](../bootstrap-and-schema/index.md)
 - [Semantic Shimmer](../semantic-shimmer/index.md)
+- [Semantic Integrity](../../semantic-integrity/index.md)
+- [How Intuition Works](../../how-intuition-works/index.md)
+- [Consent–Intent Compression Protocol (CICP)](../../consent-intent-compression-protocol/index.md)
 
 ## Next Actions
 

@@ -2,6 +2,8 @@
 
 This branch collects the protocol family documents for the Abracadabracadoo line. The material is split between the core message protocol and the implementation/extensions layer, so it reads as a small but durable protocol family rather than a pile of isolated drafts.
 
+Quantum Invariants is a useful structural neighbor because both families care about stable primitives, relation rules, and readable boundaries even when the surface presentation changes.
+
 ## Current Shape
 
 - 6 live protocol documents.
@@ -32,6 +34,7 @@ The site-variants rail now stays separate as public delivery evidence, so the pr
 ## Related Links
 
 - [Abracadoo](../abracadoo/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
 - [Abracadabracadoo](../../concepts/abracadabracadoo/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)

@@ -16,9 +16,15 @@ Use this page for the public identity layer: what the project is, how it present
 
 The archive bundle also carries the `.well-known` identity material, which belongs here rather than in the structural spine.
 
+## Core Claim
+
+The about page is where the project explains its public face without collapsing that face into the deeper grounding machinery.
+
 ## Related Links
 
 - [Quantum Invariants](../index.md)
 - [Root and How to Ground](../root-and-how-to-ground/index.md)
 - [Identity and Manifests](../identity-and-manifests/index.md)
 - [Downloads](../downloads/index.md)
+- [POLEMEMELOP](../../../concepts/polememelop/index.md)
+- [Semantic Integrity](../semantic-integrity/index.md)
