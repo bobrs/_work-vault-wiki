@@ -8,13 +8,18 @@ Published external metadata index for the Shimmery Memory essay feed.
 - Endpoint: [https://shimmerymemory.com/essays/index.json](https://shimmerymemory.com/essays/index.json)
 - Base URL: [https://shimmerymemory.com](https://shimmerymemory.com)
 - Schema version: `0.1`
-- Ingested at: `2026-06-26T03:20:02.924562Z`
-- Item count: `70`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
+- License: `CC0 + Infinite Play Open License`
+- Ingested at: `2026-07-01T21:51:02.758879Z`
+- Item count: `72`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
 
+- [Consent-Keyed Immutable Storage Loops](./consent-keyed-immutable-storage-loops/index.md) — Witness cells, re-entry, and storage-forward Abracadabracadoo — published `2026-07-01`; updated `2026-07-01`; tags: `consentful-cybernetics, protocol, storage, immutability`; first seen `2026-07-01T21:51:02.570958Z`
 - [The Real Is a Ritual](./20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-06-26T03:20:02.687577Z`
+- [Attention Engine: Book Series Plan and Semantic Compression](./attention-engine-book-series-plan-and-semantic-compression/index.md) — From Attention Mechanics to the Surface of Mutual Projection and Comparator-Grounded Reality Engineering — published `2026-06-25`; updated `2026-06-25`; tags: `attention-engine, attention, appreciation, consent-to-context`; first seen `2026-07-01T21:51:02.570958Z`
 - [Witness as Skill-Set and Boundary Set](./witness-as-skill-set-and-boundary-set/index.md) — Why assurance requires disciplined non-merge — published `2026-06-22`; updated `2026-06-22`; tags: `consentful-cybernetics, witness, ai-assurance, separation-of-duties`; first seen `2026-06-26T03:20:02.687577Z`
 - [The Consentocracy Bridge](./changing-the-optimization-primitive/index.md) — Cryptographic Provenance, Structural Extraction, and the Great Civilizational AI Amnesty — published `2026-06-22`; updated `2026-06-22`; tags: `ai-governance, semantic-consent, data-provenance, digital-commons`; first seen `2026-06-26T03:20:02.687577Z`
 - [Privacy Is a Membrane, Not a Wall](./20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md) — Energy finds its way — published `2026-06-22`; updated `2026-06-22`; tags: `privacy, consent, ai-governance, semantic-consent`; first seen `2026-06-26T03:20:02.687577Z`
@@ -88,11 +93,6 @@ Published external metadata index for the Shimmery Memory essay feed.
 ## Working Read
 
 - This page tracks the external feed as a metadata-first index. It does not copy full essay bodies.
-
-## Attractor View
-
-- [Browse essays by attractor](/wiki/external/shimmerymemory/essays/by-attractor/index.html)
-- The attractor view is generated from `manifest/external_published_index.jsonl` and uses tags plus related invariants to group the feed.
 
 ## Next Actions
 

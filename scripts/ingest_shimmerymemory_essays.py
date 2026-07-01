@@ -151,6 +151,8 @@ def validate_feed(data: dict[str, Any], config: dict[str, Any]) -> None:
         )
         ensure(isinstance(item["language"], str) and item["language"], f"{item_id}.language must be a non-empty string")
         ensure(isinstance(item["license"], str) and item["license"], f"{item_id}.license must be a non-empty string")
+        ensure(isinstance(item["license_url"], str) and item["license_url"].startswith("https://"), f"{item_id}.license_url must be an https URL")
+        ensure(isinstance(item["legal_substrate"], str) and item["legal_substrate"], f"{item_id}.legal_substrate must be a non-empty string")
         ensure(isinstance(item["machine_invitation"], bool) and item["machine_invitation"] is True, f"{item_id}.machine_invitation must be true")
         ensure(isinstance(item["status"], str) and item["status"], f"{item_id}.status must be a non-empty string")
         ensure(item["source_path"] is None or isinstance(item["source_path"], str), f"{item_id}.source_path must be null or a string")
@@ -240,6 +242,8 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
         f"- Content hash: `{display_optional(item['content_hash'])}`",
         f"- Language: `{item['language']}`",
         f"- License: `{item['license']}`",
+        f"- License URL: [{item['license_url']}]({item['license_url']})",
+        f"- Legal substrate: `{item['legal_substrate']}`",
         f"- Visibility: `{item['visibility']}`",
         f"- Feed status: `{item['status']}`",
         f"- Tags: {tags}",
@@ -314,6 +318,9 @@ def format_index_page(config: dict[str, Any], data: dict[str, Any], records_by_i
         f"- Endpoint: [{config['endpoint']}]({config['endpoint']})",
         f"- Base URL: [{config['base_url']}]({config['base_url']})",
         f"- Schema version: `{data['schema_version']}`",
+        f"- License URL: [{data['license_url']}]({data['license_url']})",
+        f"- Legal substrate: `{data['legal_substrate']}`",
+        f"- License: `{data['license']}`",
         f"- Ingested at: `{now}`",
         f"- Item count: `{data['item_count']}`",
         f"- Source config: `{CONFIG_PATH.relative_to(ROOT)}`",
@@ -402,6 +409,8 @@ def main() -> None:
             "content_hash": item["content_hash"],
             "language": item["language"],
             "license": item["license"],
+            "license_url": item["license_url"],
+            "legal_substrate": item["legal_substrate"],
             "machine_invitation": item["machine_invitation"],
             "status": item["status"],
             "tags": item["tags"],
