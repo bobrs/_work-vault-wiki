@@ -18,6 +18,8 @@ const NAV_ITEMS = [
   ["Projects", "/wiki/projects/index.html"],
   ["Concepts", "/wiki/concepts/index.html"],
   ["Essays", "/wiki/external/shimmerymemory/essays/index.html"],
+  ["Source Roles", "/wiki/source-roles/index.html"],
+  ["Artifact Types", "/wiki/artifact-types/index.html"],
   ["Incoming", "/wiki/incoming-review.html"],
   ["Duplicates", "/wiki/duplicate-review.html"],
   ["Missing", "/wiki/missing-files.html"],
@@ -695,6 +697,8 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <div class="browse-card"><a href="/wiki/concepts/index.html">Concepts</a><p class="muted">Recurring concepts that have stabilized across the corpus.</p></div>
         <div class="browse-card"><a href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a><p class="muted">Public Shimmery Memory essay metadata and source links.</p></div>
         <div class="browse-card"><a href="/wiki/artifacts/index.html">Artifact Index</a><p class="muted">Wiki-side artifact navigation and source references.</p></div>
+        <div class="browse-card"><a href="/wiki/source-roles/index.html">Source Roles</a><p class="muted">Inbound originals and standard-named source copies.</p></div>
+        <div class="browse-card"><a href="/wiki/artifact-types/index.html">Artifact Types</a><p class="muted">Source-layer browsing by file type and companion asset kind.</p></div>
         <div class="browse-card"><a href="/vault/index.html">Raw Vault</a><p class="muted">Browsable repository inventory with GitHub source links.</p></div>
         <div class="browse-card"><a href="/wiki/timelines/index.html">Timelines</a><p class="muted">Chronological views and time-based orientation.</p></div>
         <div class="browse-card"><a href="/wiki/unresolved/index.html">Unresolved</a><p class="muted">Open classification, naming, and interpretation questions.</p></div>
@@ -780,6 +784,170 @@ function renderVaultPage(records) {
   });
 }
 
+function groupRecords(records, keyFn) {
+  const groups = new Map();
+  for (const record of records) {
+    const key = keyFn(record);
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+    groups.get(key).push(record);
+  }
+  return groups;
+}
+
+function sortRecordsByPath(records) {
+  return [...records].sort((a, b) => a.current_path.localeCompare(b.current_path));
+}
+
+function pageHrefForWikiPage(wikiPage) {
+  return `/${wikiPage.replace(/\.md$/, ".html")}`;
+}
+
+function recordPrimaryHref(record) {
+  if (record.wiki_page) return pageHrefForWikiPage(record.wiki_page);
+  if (record.standard_named_path) return githubUrl(record.standard_named_path);
+  return githubUrl(record.current_path);
+}
+
+function recordPrimaryLabel(record) {
+  return record.standard_named_filename || record.original_filename || path.posix.basename(record.current_path);
+}
+
+function sourceRoleLabel(role) {
+  if (role === "standard_named_source") return "Standard-Named Source";
+  if (role === "inbound_original") return "Inbound Original";
+  if (!role) return "Unassigned";
+  return role;
+}
+
+function extensionLabel(extension) {
+  if (!extension) return "[no extension]";
+  return extension;
+}
+
+function renderRecordTable(records, { showRole = false, showStandardNamed = false, showInbound = false, showWiki = true } = {}) {
+  const headerCells = ["Item"];
+  if (showRole) headerCells.push("Source Role");
+  if (showWiki) headerCells.push("Wiki Page");
+  if (showInbound) headerCells.push("Inbound Path");
+  if (showStandardNamed) headerCells.push("Standard-Named Path");
+  const rows = records
+    .map((record) => {
+      const cells = [`<a href="${escapeHtml(recordPrimaryHref(record))}">${escapeHtml(recordPrimaryLabel(record))}</a>`];
+      if (showRole) cells.push(escapeHtml(sourceRoleLabel(record.source_role)));
+      if (showWiki) {
+        cells.push(
+          record.wiki_page
+            ? `<a href="${escapeHtml(pageHrefForWikiPage(record.wiki_page))}">${escapeHtml(record.wiki_page)}</a>`
+            : "—"
+        );
+      }
+      if (showInbound) {
+        cells.push(
+          record.inbound_path
+            ? `<a href="${escapeHtml(githubUrl(record.inbound_path))}">${escapeHtml(record.inbound_path)}</a>`
+            : "—"
+        );
+      }
+      if (showStandardNamed) {
+        cells.push(
+          record.standard_named_path
+            ? `<a href="${escapeHtml(githubUrl(record.standard_named_path))}">${escapeHtml(record.standard_named_path)}</a>`
+            : "—"
+        );
+      }
+      return `<tr>${cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`;
+    })
+    .join("");
+  return `
+    <table class="file-table">
+      <thead>
+        <tr>${headerCells.map((cell) => `<th>${escapeHtml(cell)}</th>`).join("")}</tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+function renderSourceRolesPage(records) {
+  const explicit = records.filter((record) => record.source_role === "standard_named_source" || record.source_role === "inbound_original");
+  const groups = groupRecords(explicit, (record) => record.source_role);
+  const standardNamed = sortRecordsByPath(groups.get("standard_named_source") || []);
+  const inboundOriginal = sortRecordsByPath(groups.get("inbound_original") || []);
+  const unassignedCount = records.length - explicit.length;
+
+  return pageShell({
+    title: "Source Roles",
+    subtitle: "Generated index of inventory source roles",
+    body: `
+      <p class="eyebrow">Generated index</p>
+      <div class="title-row">
+        <h1>Source Roles</h1>
+        <span class="tag">manifest/inventory.jsonl</span>
+      </div>
+      <p>This page indexes the source layer by role. It is generated from the inventory manifest and keeps inbound originals separate from standard-named source copies.</p>
+      <div class="status-grid">
+        <div class="status-card"><p class="stat">${standardNamed.length}</p><p class="muted">Standard-named source copies.</p></div>
+        <div class="status-card"><p class="stat">${inboundOriginal.length}</p><p class="muted">Inbound originals.</p></div>
+        <div class="status-card"><p class="stat">${unassignedCount}</p><p class="muted">Inventory rows without a source role.</p></div>
+      </div>
+      <h2>Standard-Named Source</h2>
+      ${renderRecordTable(standardNamed, { showWiki: true, showInbound: true, showStandardNamed: true })}
+      <h2>Inbound Original</h2>
+      ${renderRecordTable(inboundOriginal, { showWiki: true, showInbound: true, showStandardNamed: false })}
+      <h2>Notes</h2>
+      <p class="muted">Use the full Artifact Index when you need the entire vault. This page focuses on the source layer only.</p>
+    `,
+    navActive: "/wiki/source-roles/index.html",
+  });
+}
+
+function renderArtifactTypesPage(records) {
+  const sourceLayer = records.filter((record) => record.source_role === "standard_named_source" || record.source_role === "inbound_original");
+  const groups = [...groupRecords(sourceLayer, (record) => extensionLabel(record.extension)).entries()]
+    .sort((a, b) => {
+      if (b[1].length !== a[1].length) return b[1].length - a[1].length;
+      return a[0].localeCompare(b[0]);
+    });
+
+  const typeCards = groups
+    .map(([extension, items]) => `
+      <div class="status-card">
+        <p class="stat">${items.length}</p>
+        <p class="muted">${escapeHtml(extension)} items in the source layer.</p>
+      </div>
+    `)
+    .join("");
+
+  const sections = groups
+    .map(([extension, items]) => `
+      <section>
+        <h2>${escapeHtml(extensionLabel(extension))} (${items.length})</h2>
+        ${renderRecordTable(sortRecordsByPath(items), { showRole: true, showWiki: true, showInbound: true, showStandardNamed: true })}
+      </section>
+    `)
+    .join("");
+
+  return pageShell({
+    title: "Artifact Types",
+    subtitle: "Generated index of source-layer artifact types",
+    body: `
+      <p class="eyebrow">Generated index</p>
+      <div class="title-row">
+        <h1>Artifact Types</h1>
+        <span class="tag">source-layer view</span>
+      </div>
+      <p>This page groups the source layer by file type so it is easier to browse document families, media companions, and code or asset files without losing the source-layer distinction.</p>
+      <div class="status-grid">${typeCards}</div>
+      ${sections}
+      <h2>Notes</h2>
+      <p class="muted">Use the full Artifact Index when you need the complete repository inventory. This page is intentionally scoped to the source layer and its companion assets.</p>
+    `,
+    navActive: "/wiki/artifact-types/index.html",
+  });
+}
+
 async function writeRenderedPage(outRel, html) {
   const absOut = path.join(DIST, outRel);
   await fs.mkdir(path.dirname(absOut), { recursive: true });
@@ -848,6 +1016,12 @@ async function main() {
 
   const vaultPage = renderVaultPage(records);
   await writeRenderedPage(path.join("vault", "index.html"), vaultPage);
+
+  const sourceRolesPage = renderSourceRolesPage(records);
+  await writeRenderedPage(path.join("wiki", "source-roles", "index.html"), sourceRolesPage);
+
+  const artifactTypesPage = renderArtifactTypesPage(records);
+  await writeRenderedPage(path.join("wiki", "artifact-types", "index.html"), artifactTypesPage);
 
   for (const source of SOURCE_MARKDOWN) {
     const outRel = outputForSource(source);

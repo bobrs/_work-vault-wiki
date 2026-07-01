@@ -4,6 +4,8 @@ Generated from `manifest/inventory.jsonl`.
 
 Where available, links prefer standard-named source files while preserving the inbound path in the label.
 
+Use the generated [Source Roles](/wiki/source-roles/index.html) and [Artifact Types](/wiki/artifact-types/index.html) indexes when you want a narrower cross-cut through the source layer before returning to the full vault map.
+
 
 ## archived (306)
 
