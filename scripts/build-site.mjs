@@ -525,9 +525,34 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       .sidebar {
         position: relative;
         height: auto;
+        padding: 14px 16px;
         border-right: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       }
+      .brand {
+        font-size: 1.15rem;
+        margin-bottom: 4px;
+      }
+      .sidebar p {
+        margin: 0;
+        font-size: 0.92rem;
+        line-height: 1.35;
+      }
+      .nav {
+        display: flex;
+        gap: 8px;
+        margin: 12px -4px 0;
+        overflow-x: auto;
+        padding: 0 4px 4px;
+      }
+      .nav-link {
+        flex: 0 0 auto;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        white-space: nowrap;
+      }
+      .sidebar-card { display: none; }
       .content { padding: 16px; }
       .page { padding: 20px; }
       .card { grid-column: span 12; }
