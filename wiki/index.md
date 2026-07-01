@@ -13,6 +13,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [Concepts](concepts/index.md)
 - [External Published / Shimmery Memory Essays](external/shimmerymemory/essays/index.md)
 - [Artifacts](artifacts/index.md)
+- [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Source Roles](/wiki/source-roles/index.html)
 - [Artifact Types](/wiki/artifact-types/index.html)
 - [Timelines](timelines/index.md)
@@ -26,6 +27,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - Add new source material under `artifacts/incoming/`, preserve inbound originals in `artifacts/intake-archive/`, and prefer `artifacts/standard-named/` links when available.
 - Use the review pages to track intake, duplicate collapse, source naming, and archival work.
 - Use the generated source-role and artifact-type indexes when you want a cleaner cross-cut than the full artifact tree.
+- Use the project cross-index when you want to move from family names into attractors, concepts, and essays quickly.
 - Split out evidence-backed subpages with lineage labels when a branch stabilizes.
 - Keep `.zip` companions auxiliary unless a page explicitly promotes them.
 - Treat `DOCX` and `PDF` as witness/reference files and use Markdown wiki pages as the working semantic layer for extraction, linking, and later cleanup passes.

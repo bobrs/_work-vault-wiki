@@ -28,6 +28,13 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Patents](patents/index.md)
 - [Side Projects Desktop](side-projects-desktop/index.md)
 
+## Navigation Aids
+
+- [Project Cross-Index](/wiki/projects/cross-index/index.html)
+- [Attractor Gateways](../attractors/index.md)
+- [Source Roles](/wiki/source-roles/index.html)
+- [Artifact Types](/wiki/artifact-types/index.html)
+
 ### Reference Packages
 
 - [Infinite Play Open License](infinite-play-open-license/index.md)

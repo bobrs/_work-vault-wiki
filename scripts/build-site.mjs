@@ -16,6 +16,7 @@ const NAV_ITEMS = [
   ["Attractors", "/wiki/attractors/index.html"],
   ["Vault", "/vault/index.html"],
   ["Projects", "/wiki/projects/index.html"],
+  ["Project Cross-Index", "/wiki/projects/cross-index/index.html"],
   ["Concepts", "/wiki/concepts/index.html"],
   ["Essays", "/wiki/external/shimmerymemory/essays/index.html"],
   ["Source Roles", "/wiki/source-roles/index.html"],
@@ -821,6 +822,191 @@ function sourceRoleLabel(role) {
   return role;
 }
 
+function extractProjectFamilies(projectIndexSource) {
+  const lines = projectIndexSource.replaceAll("\r\n", "\n").split("\n");
+  const start = lines.findIndex((line) => line.trim() === "## Top-Level Project Pages");
+  if (start === -1) return [];
+  const families = [];
+  for (let i = start + 1; i < lines.length; i += 1) {
+    const line = lines[i].trim();
+    if (line.startsWith("## ")) break;
+    const match = line.match(/^- \[([^\]]+)\]\(([^)]+)\)$/);
+    if (!match) continue;
+    const target = match[2];
+    const familyDir = path.posix.dirname(target);
+    families.push({
+      title: match[1],
+      slug: path.posix.basename(familyDir),
+      source: path.posix.join("wiki/projects", target),
+    });
+  }
+  return families;
+}
+
+function titleForSourceText(sourceText, fallback) {
+  const match = sourceText.match(/^#\s+(.+)$/m);
+  return match ? match[1].trim() : fallback;
+}
+
+function cleanLinkTarget(sourceRel, href) {
+  if (/^(https?:|mailto:|#)/i.test(href)) return null;
+  let cleaned = href.split("#")[0].trim();
+  cleaned = cleaned.replaceAll("&lt;", "<").replaceAll("&gt;", ">");
+  if (cleaned.startsWith("<") && cleaned.endsWith(">")) {
+    cleaned = cleaned.slice(1, -1);
+  }
+  if (!cleaned) return null;
+  if (cleaned.startsWith("/")) {
+    const route = cleaned.endsWith(".html") ? cleaned : `${cleaned.replace(/\/$/, "")}.html`;
+    if (route.startsWith("/wiki/") && route.endsWith("/index.html")) {
+      return route.slice(1).replace(/\.html$/, ".md");
+    }
+    return null;
+  }
+  return resolveRepoPath(sourceRel, cleaned);
+}
+
+function isCrossIndexTarget(target) {
+  return (
+    target === "wiki/attractors/index.md" ||
+    target === "wiki/concepts/index.md" ||
+    target === "wiki/external/shimmerymemory/essays/index.md"
+  );
+}
+
+function renderRelatedItems(items) {
+  if (!items.length) {
+    return `<p class="muted">No links found in this category yet.</p>`;
+  }
+  const rows = items
+    .sort((a, b) => a.label.localeCompare(b.label))
+    .map((item) => {
+      const refs = [...item.refs].sort();
+      const refsText = refs.length ? ` <span class="muted">from ${refs.map((ref) => escapeHtml(ref)).join(", ")}</span>` : "";
+      return `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>${refsText}</li>`;
+    })
+    .join("");
+  return `<ul>${rows}</ul>`;
+}
+
+async function renderProjectCrossIndexPage(projectFamilies) {
+  const familyData = [];
+  let totalAttractors = 0;
+  let totalConcepts = 0;
+  let totalEssays = 0;
+
+  for (const family of projectFamilies) {
+    const familyPrefix = `wiki/projects/${family.slug}/`;
+    const sources = SOURCE_MARKDOWN.filter((source) => source.startsWith(familyPrefix));
+    const attractors = new Map();
+    const concepts = new Map();
+    const essays = new Map();
+
+    for (const source of sources) {
+      const text = await fs.readFile(path.join(ROOT, source), "utf8");
+      const sourceTitle = titleForSourceText(text, path.posix.basename(source, ".md"));
+      const linkMatches = [...text.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)];
+      for (const match of linkMatches) {
+        const label = match[1].trim();
+        const target = cleanLinkTarget(source, match[2].trim());
+        if (!target || isCrossIndexTarget(target)) continue;
+        const item = { label, href: rewriteLink(source, match[2].trim()), refs: new Set([sourceTitle]) };
+        if (target.startsWith("wiki/attractors/")) {
+          const key = target;
+          if (attractors.has(key)) {
+            attractors.get(key).refs.add(sourceTitle);
+          } else {
+            attractors.set(key, item);
+          }
+        } else if (target.startsWith("wiki/concepts/")) {
+          const key = target;
+          if (concepts.has(key)) {
+            concepts.get(key).refs.add(sourceTitle);
+          } else {
+            concepts.set(key, item);
+          }
+        } else if (target.startsWith("wiki/external/shimmerymemory/essays/")) {
+          const key = target;
+          if (essays.has(key)) {
+            essays.get(key).refs.add(sourceTitle);
+          } else {
+            essays.set(key, item);
+          }
+        }
+      }
+    }
+
+    totalAttractors += attractors.size;
+    totalConcepts += concepts.size;
+    totalEssays += essays.size;
+    familyData.push({
+      ...family,
+      sourceCount: sources.length,
+      attractors: [...attractors.values()],
+      concepts: [...concepts.values()],
+      essays: [...essays.values()],
+    });
+  }
+
+  const linkedFamilies = familyData.filter(
+    (family) => family.attractors.length || family.concepts.length || family.essays.length
+  );
+  const unlinkedFamilies = familyData.filter(
+    (family) => !family.attractors.length && !family.concepts.length && !family.essays.length
+  );
+
+  const familyLinks = familyData
+    .map((family) => {
+      const linkedCount = family.attractors.length + family.concepts.length + family.essays.length;
+      const status = linkedCount ? `${linkedCount} semantic link${linkedCount === 1 ? "" : "s"}` : "no semantic links yet";
+      return `<li><a href="#${family.slug}">${escapeHtml(family.title)}</a> <span class="muted">(${family.sourceCount} pages, ${status})</span></li>`;
+    })
+    .join("");
+
+  const sections = linkedFamilies
+    .map((family) => `
+      <section id="${escapeHtml(family.slug)}">
+        <h2>${escapeHtml(family.title)}</h2>
+        <p class="muted">${family.sourceCount} markdown page${family.sourceCount === 1 ? "" : "s"} scanned. ${family.attractors.length} attractor link${family.attractors.length === 1 ? "" : "s"}, ${family.concepts.length} concept link${family.concepts.length === 1 ? "" : "s"}, ${family.essays.length} published essay link${family.essays.length === 1 ? "" : "s"}.</p>
+        ${family.attractors.length ? `<h3>Attractors</h3>${renderRelatedItems(family.attractors)}` : ""}
+        ${family.concepts.length ? `<h3>Concepts</h3>${renderRelatedItems(family.concepts)}` : ""}
+        ${family.essays.length ? `<h3>Published Essays</h3>${renderRelatedItems(family.essays)}` : ""}
+      </section>
+    `)
+    .join("");
+
+  const unlinkedSection = unlinkedFamilies.length
+    ? `
+      <h2>Unlinked Families</h2>
+      <ul>${unlinkedFamilies.map((family) => `<li>${escapeHtml(family.title)} <span class="muted">(${family.sourceCount} pages)</span></li>`).join("")}</ul>
+    `
+    : "";
+
+  return pageShell({
+    title: "Project Cross-Index",
+    subtitle: "Generated index of project families against attractors, concepts, and essays",
+    body: `
+      <p class="eyebrow">Generated index</p>
+      <div class="title-row">
+        <h1>Project Cross-Index</h1>
+        <span class="tag">family map</span>
+      </div>
+      <p>This page scans the major project families and groups their links into attractors, concepts, and published essays. It is a retrieval surface, not a replacement for the curated project pages.</p>
+      <div class="status-grid">
+        <div class="status-card"><p class="stat">${familyData.length}</p><p class="muted">Project families scanned.</p></div>
+        <div class="status-card"><p class="stat">${totalAttractors}</p><p class="muted">Unique attractor links.</p></div>
+        <div class="status-card"><p class="stat">${totalConcepts}</p><p class="muted">Unique concept links.</p></div>
+        <div class="status-card"><p class="stat">${totalEssays}</p><p class="muted">Unique published essay links.</p></div>
+      </div>
+      <h2>Families</h2>
+      <ul>${familyLinks}</ul>
+      ${unlinkedSection}
+      ${sections}
+    `,
+    navActive: "/wiki/projects/cross-index/index.html",
+  });
+}
+
 function extensionLabel(extension) {
   if (!extension) return "[no extension]";
   return extension;
@@ -1022,6 +1208,11 @@ async function main() {
 
   const artifactTypesPage = renderArtifactTypesPage(records);
   await writeRenderedPage(path.join("wiki", "artifact-types", "index.html"), artifactTypesPage);
+
+  const projectIndexSource = await fs.readFile(path.join(ROOT, "wiki", "projects", "index.md"), "utf8");
+  const projectFamilies = extractProjectFamilies(projectIndexSource);
+  const projectCrossIndexPage = await renderProjectCrossIndexPage(projectFamilies);
+  await writeRenderedPage(path.join("wiki", "projects", "cross-index", "index.html"), projectCrossIndexPage);
 
   for (const source of SOURCE_MARKDOWN) {
     const outRel = outputForSource(source);
