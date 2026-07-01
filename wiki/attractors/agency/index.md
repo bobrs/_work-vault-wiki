@@ -60,9 +60,14 @@ Agency is not abstract freedom. It is embodied capacity shaped by constraint, at
 
 ## Related Invariants
 
+- [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
 - [P2 - Agency and Capacity](https://quantuminvariants.com/spine/primitives#P2)
 - [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
 - [C1 - Gradient Generates Flow](https://quantuminvariants.com/spine/composites#C1)
+- [C6 - Consent Gradient](https://quantuminvariants.com/spine/composites#C6)
+- [C7 - Comparator Substitution Under Hierarchy](https://quantuminvariants.com/spine/composites#C7)
+- [C12 - Threshold Cascade (Phase Transition)](https://quantuminvariants.com/spine/composites#C12)
 
 ## Unresolved / Needs Link Resolution
 

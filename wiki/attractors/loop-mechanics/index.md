@@ -64,7 +64,13 @@ Everything alive returns somehow. Loop mechanics explain how patterns persist, c
 
 - [P6 - Feedback and Recursion](https://quantuminvariants.com/spine/primitives#P6)
 - [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
-- [C9 - Dynamic Stability](https://quantuminvariants.com/spine/composites#C9)
+- [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+- [C1 - Gradient Generates Flow](https://quantuminvariants.com/spine/composites#C1)
+- [C8 - Causal Attribution Failure](https://quantuminvariants.com/spine/composites#C8)
+- [C9 - Dynamic Stability vs Snapshot Balance](https://quantuminvariants.com/spine/composites#C9)
+- [C10 - Level Mismatch (Suboptimization)](https://quantuminvariants.com/spine/composites#C10)
+- [C12 - Threshold Cascade (Phase Transition)](https://quantuminvariants.com/spine/composites#C12)
 
 ## Unresolved / Needs Link Resolution
 

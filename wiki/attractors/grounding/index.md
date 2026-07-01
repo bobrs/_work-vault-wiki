@@ -61,7 +61,11 @@ Grounding prevents symbolic systems from floating away from the bodies and place
 
 - [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
 - [P2 - Agency and Capacity](https://quantuminvariants.com/spine/primitives#P2)
+- [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
 - [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+- [C9 - Dynamic Stability vs Snapshot Balance](https://quantuminvariants.com/spine/composites#C9)
+- [C12 - Threshold Cascade (Phase Transition)](https://quantuminvariants.com/spine/composites#C12)
 
 ## Unresolved / Needs Link Resolution
 

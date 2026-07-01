@@ -59,8 +59,13 @@ Attention is how energy becomes meaning. It drives compression, curiosity, selec
 ## Related Invariants
 
 - [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
 - [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
 - [C3 - Compression Distortion](https://quantuminvariants.com/spine/composites#C3)
+- [C4 - Granularity Collapse](https://quantuminvariants.com/spine/composites#C4)
+- [C10 - Level Mismatch (Suboptimization)](https://quantuminvariants.com/spine/composites#C10)
+- [C12 - Threshold Cascade (Phase Transition)](https://quantuminvariants.com/spine/composites#C12)
 
 ## Unresolved / Needs Link Resolution
 

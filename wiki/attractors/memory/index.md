@@ -59,9 +59,13 @@ Memory determines what can be repaired, repeated, forgotten, distorted, or trust
 
 ## Related Invariants
 
-- [P7 - Memory and State](https://quantuminvariants.com/spine/primitives#P7)
-- [P8 - Temporal Integrity](https://quantuminvariants.com/spine/primitives#P8)
-- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+- [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
+- [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
+- [C9 - Dynamic Stability vs Snapshot Balance](https://quantuminvariants.com/spine/composites#C9)
+- [C11 - Illegitimate Constitutional Comparator](https://quantuminvariants.com/spine/composites#C11)
 
 ## Unresolved / Needs Link Resolution
 

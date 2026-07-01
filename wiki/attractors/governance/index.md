@@ -62,9 +62,15 @@ Governance is where consent, trust, provenance, and attention become institution
 
 ## Related Invariants
 
+- [P3 - Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3)
 - [P9 - Power-Proportionate Governance](https://quantuminvariants.com/spine/primitives#P9)
 - [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
-- [C12 - Governance Invariant](https://quantuminvariants.com/spine/composites#C12)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
+- [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+- [C5 - Boundary-Accounting Misalignment](https://quantuminvariants.com/spine/composites#C5)
+- [C9 - Dynamic Stability vs Snapshot Balance](https://quantuminvariants.com/spine/composites#C9)
+- [C11 - Illegitimate Constitutional Comparator](https://quantuminvariants.com/spine/composites#C11)
+- [C13 - Coercive Transparency (Boundary Collapse)](https://quantuminvariants.com/spine/composites#C13)
 
 ## Unresolved / Needs Link Resolution
 

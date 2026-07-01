@@ -57,9 +57,13 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 
 ## Related Invariants
 
-- [P2 - Agency and Capacity Witness](https://quantuminvariants.com/spine/primitives#P2)
+- [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
+- [P2 - Agency and Capacity](https://quantuminvariants.com/spine/primitives#P2)
 - [P3 - Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3)
-- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+- [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [C6 - Consent Gradient](https://quantuminvariants.com/spine/composites#C6)
+- [C11 - Illegitimate Constitutional Comparator](https://quantuminvariants.com/spine/composites#C11)
+- [C13 - Coercive Transparency (Boundary Collapse)](https://quantuminvariants.com/spine/composites#C13)
 
 ## Unresolved / Needs Link Resolution
 

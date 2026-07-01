@@ -59,8 +59,14 @@ Provenance determines whether a record can be trusted without pretending that co
 ## Related Invariants
 
 - [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
+- [P3 - Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3)
 - [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
-- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
+- [C2 - Ledgered Reciprocity](https://quantuminvariants.com/spine/composites#C2)
+- [C5 - Boundary-Accounting Misalignment](https://quantuminvariants.com/spine/composites#C5)
+- [C11 - Illegitimate Constitutional Comparator](https://quantuminvariants.com/spine/composites#C11)
 
 ## Unresolved / Needs Link Resolution
 

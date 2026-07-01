@@ -56,9 +56,14 @@ Intuition protects the system from over-identifying with explicit cognition. It 
 
 ## Related Invariants
 
+- [P2 - Agency and Capacity](https://quantuminvariants.com/spine/primitives#P2)
 - [P6 - Feedback and Recursion](https://quantuminvariants.com/spine/primitives#P6)
-- [P7 - Attractor and Basin](https://quantuminvariants.com/spine/primitives#P7)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
+- [P8 - Reversibility and Exit](https://quantuminvariants.com/spine/primitives#P8)
 - [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
+- [C1 - Gradient Generates Flow](https://quantuminvariants.com/spine/composites#C1)
+- [C9 - Dynamic Stability vs Snapshot Balance](https://quantuminvariants.com/spine/composites#C9)
+- [C12 - Threshold Cascade (Phase Transition)](https://quantuminvariants.com/spine/composites#C12)
 
 ## Unresolved / Needs Link Resolution
 

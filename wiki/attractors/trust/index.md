@@ -62,9 +62,15 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 
 ## Related Invariants
 
+- [P1 - Boundary and Interface](https://quantuminvariants.com/spine/primitives#P1)
+- [P3 - Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3)
 - [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
+- [P9 - Power-Proportionate Governance](https://quantuminvariants.com/spine/primitives#P9)
 - [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
-- [C11 - Witnessed State Change](https://quantuminvariants.com/spine/composites#C11)
+- [C2 - Ledgered Reciprocity](https://quantuminvariants.com/spine/composites#C2)
+- [C11 - Illegitimate Constitutional Comparator](https://quantuminvariants.com/spine/composites#C11)
+- [C13 - Coercive Transparency (Boundary Collapse)](https://quantuminvariants.com/spine/composites#C13)
 
 ## Unresolved / Needs Link Resolution
 

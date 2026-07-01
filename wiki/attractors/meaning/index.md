@@ -61,8 +61,13 @@ Meaning is no longer merely expressive once machines can act on language. It bec
 ## Related Invariants
 
 - [P4 - Legibility and Interpretability](https://quantuminvariants.com/spine/primitives#P4)
+- [P5 - Conservation and Accounting](https://quantuminvariants.com/spine/primitives#P5)
+- [P7 - Incentive Drift and Attractors](https://quantuminvariants.com/spine/primitives#P7)
 - [P10 - Distinction and Comparator](https://quantuminvariants.com/spine/primitives#P10)
 - [C3 - Compression Distortion](https://quantuminvariants.com/spine/composites#C3)
+- [C4 - Granularity Collapse](https://quantuminvariants.com/spine/composites#C4)
+- [C8 - Causal Attribution Failure](https://quantuminvariants.com/spine/composites#C8)
+- [C10 - Level Mismatch (Suboptimization)](https://quantuminvariants.com/spine/composites#C10)
 
 ## Unresolved / Needs Link Resolution
 
