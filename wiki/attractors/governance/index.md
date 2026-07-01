@@ -36,6 +36,10 @@ Governance is where consent, trust, provenance, and attention become institution
 
 ## Adjacent Research
 
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
+- [Stop Anthropomorphizing Software 3.0](../../external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md)
+- [Why Consentful AI Is Expensive - and Why It's Cheaper Than Toxic Waste](../../external/shimmerymemory/essays/why-consentful-ai-is-expensive/index.md)
+- [From "Let's Just Be Fair" to Consent-Governed Automation](../../external/shimmerymemory/essays/from-fairness-to-consent-vectors/index.md)
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md)
 - [Semantic Collapse Theory / Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md)

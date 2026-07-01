@@ -38,6 +38,8 @@ Consent is the structural difference between participation and extraction. It de
 - [Posture Fraud](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md)
 - [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
 - [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)
+- [Do AIs Have Permission?](../../external/shimmerymemory/essays/do-ais-have-permission/index.md)
+- [Riding the Razor](../../external/shimmerymemory/essays/riding-the-razor/index.md)
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
 
 ## Related Projects

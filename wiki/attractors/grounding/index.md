@@ -38,6 +38,9 @@ Grounding prevents symbolic systems from floating away from the bodies and place
 
 - [A Place to Stand: Bathroom Edition](../../external/shimmerymemory/essays/a-place-to-stand-bathroom-edition/index.md)
 - [Rest as Resource Error](../../external/shimmerymemory/essays/rest-as-resource-error/index.md)
+- [How Intuition Works](../../external/shimmerymemory/essays/how-intuition-works/index.md)
+- [The Universal Constraint Tragedy](../../external/shimmerymemory/essays/the-universal-constraint-tragedy/index.md)
+- [Co-Yoga / Hop Yoga](../../external/shimmerymemory/essays/co-yoga-hop-yoga/index.md)
 - [The Rewild Invariant](../../external/shimmerymemory/essays/the-rewild-invariant/index.md)
 
 ## Related Projects

@@ -37,6 +37,9 @@ Agency is not abstract freedom. It is embodied capacity shaped by constraint, at
 ## Adjacent Research
 
 - [Planning Rehabilitated](../../../artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__PLANNING-REHABILITATED__v1__planning-rehabilitated.md)
+- [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
+- [Stochastic Anchors, Loops, and the Puzzle of Agency](../../external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md)
+- [MobiusSelf](../../external/shimmerymemory/essays/gentle-control-in-a-non-orientable-life/index.md)
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [PDSP and Sovereignty](../../projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md)
 

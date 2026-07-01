@@ -39,6 +39,9 @@ Everything alive returns somehow. Loop mechanics explain how patterns persist, c
 
 - [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
 - [Field-Events, Anchor Singularities, and the Shape of Meaning](../../external/shimmerymemory/essays/field-events-anchor-singularities/index.md)
+- [Stochastic Anchors, Loops, and the Puzzle of Agency](../../external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md)
+- [Have You Ever Noticed You Can't Make Yourself Be Ready?](../../external/shimmerymemory/essays/consent-cycles/index.md)
+- [Energy Routing](../../external/shimmerymemory/essays/energy-routing-core-model/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 - [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
 

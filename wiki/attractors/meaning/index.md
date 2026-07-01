@@ -38,6 +38,9 @@ Meaning is no longer merely expressive once machines can act on language. It bec
 
 - [Stable Artifacts, Tunable Projections](../../external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md)
 - [Shimmer Interface Manifesto](../../external/shimmerymemory/essays/shimmer-interface-manifesto/index.md)
+- [Field-Events, Anchor Singularities, and the Shape of Meaning](../../external/shimmerymemory/essays/field-events-anchor-singularities/index.md)
+- [Artifacts, Ambiguity, and the Temperature of Meaning](../../external/shimmerymemory/essays/artifacts-ambiguity-and-the-temperature-of-meaning/index.md)
+- [Unexamined Meaning as an Ecological Hazard](../../external/shimmerymemory/essays/unexamined-meaning-as-an-ecological-hazard/index.md)
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
 
 ## Related Projects

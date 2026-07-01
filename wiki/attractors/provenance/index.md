@@ -38,6 +38,8 @@ Provenance determines whether a record can be trusted without pretending that co
 
 - [Decision Provenance](../../../artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__decision-provenance.md)
 - [Stable Artifacts, Tunable Projections](../../external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md)
+- [Shimmery Memory Publishing Contract](../../external/shimmerymemory/essays/shimmery-memory-publishing-contract/index.md)
+- [Open Blessing License](../../external/shimmerymemory/essays/open-blessing-license/index.md)
 - [From Archive to Interface](../../external/shimmerymemory/essays/from-archive-to-interface/index.md)
 
 ## Related Projects

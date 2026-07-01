@@ -28,6 +28,7 @@ Intuition protects the system from over-identifying with explicit cognition. It 
 ## Primary Research
 
 - [How Intuition Works](../../projects/how-intuition-works/index.md)
+- [How Intuition Works](../../external/shimmerymemory/essays/how-intuition-works/index.md)
 - [The Alexander Principle of the Ego](../../external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md)
 - [The Mobius Flip](../../external/shimmerymemory/essays/the-mobius-flip/index.md)
 - [Aiming Beyond the Horizon](../../external/shimmerymemory/essays/aiming-beyond-the-horizon/index.md)
@@ -35,8 +36,8 @@ Intuition protects the system from over-identifying with explicit cognition. It 
 
 ## Adjacent Research
 
-- [How Intuition Works](../../external/shimmerymemory/essays/how-intuition-works/index.md)
 - [Attractor Gardening](../../external/shimmerymemory/essays/attractor-gardening/index.md)
+- [Co-Yoga / Hop Yoga](../../external/shimmerymemory/essays/co-yoga-hop-yoga/index.md)
 - [Loop Compass](../../projects/side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
 
 ## Related Projects

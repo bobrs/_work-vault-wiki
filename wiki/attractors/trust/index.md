@@ -37,6 +37,9 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 ## Adjacent Research
 
 - [Witness as Skill-Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md)
+- [The Room You're In](../../external/shimmerymemory/essays/the-room-youre-in/index.md)
+- [Why Consentful AI Is Expensive - and Why It's Cheaper Than Toxic Waste](../../external/shimmerymemory/essays/why-consentful-ai-is-expensive/index.md)
+- [Do AIs Have Permission?](../../external/shimmerymemory/essays/do-ais-have-permission/index.md)
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 

@@ -37,6 +37,7 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 
 - [The Real Is a Ritual](../../external/shimmerymemory/essays/20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md)
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
+- [The Witness Twist](../../external/shimmerymemory/essays/the-witness-twist/index.md)
 - [Semantic Collapse Theory / Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 
 ## Related Projects

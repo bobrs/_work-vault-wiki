@@ -36,6 +36,8 @@ Memory determines what can be repaired, repeated, forgotten, distorted, or trust
 
 ## Adjacent Research
 
+- [Shimmer Vocabulary](../../external/shimmerymemory/essays/shimmer-vocabulary/index.md)
+- [The Witness Twist](../../external/shimmerymemory/essays/the-witness-twist/index.md)
 - [Continuity Office](../../projects/continuity-office/index.md)
 - [Semantic Collapse Theory / Temporal Loops and Memory](../../projects/semantic-collapse-theory/temporal-loops-and-memory/index.md)
 - [Incident Memory](../../../artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__incident-memory.md)

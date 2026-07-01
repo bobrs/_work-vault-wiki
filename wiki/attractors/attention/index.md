@@ -37,6 +37,8 @@ Attention is how energy becomes meaning. It drives compression, curiosity, selec
 ## Adjacent Research
 
 - [Attention - Five Modes](../../projects/side-projects-desktop/attention-five-modes/index.md)
+- [Posture Fraud](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md)
+- [Energy Routing](../../external/shimmerymemory/essays/energy-routing-core-model/index.md)
 - [Unexamined Meaning as an Ecological Hazard](../../external/shimmerymemory/essays/unexamined-meaning-as-an-ecological-hazard/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
