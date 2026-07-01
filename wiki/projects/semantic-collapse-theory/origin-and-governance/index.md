@@ -32,6 +32,7 @@ The practical role of this cluster is to hold the origin story and the rules of 
 This is the place where the theory begins to become explicit about stewardship, authority, and the conditions under which a semantic system can claim stability.
 
 It sits upstream of the temporal, story, and continuity branches, so it should be read as the legitimacy layer for the rest of SCT.
+As a field atlas, it is the SCT seam closest to [Witness](../../../attractors/witness/index.md), [Governance](../../../attractors/governance/index.md), [Consent](../../../attractors/consent/index.md), and [Provenance](../../../attractors/provenance/index.md): it names how origin becomes legitimate, how authority gets witnessed, and how stewardship remains legible.
 
 ## Related Links
 
@@ -41,6 +42,10 @@ It sits upstream of the temporal, story, and continuity branches, so it should b
 - [Witness and Governance](witness-and-governance/index.md)
 - [Narrative and Fieldnotes](narrative-and-fieldnotes/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
+- [Witness](../../../attractors/witness/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Consent](../../../attractors/consent/index.md)
+- [Provenance](../../../attractors/provenance/index.md)
 
 ## Next Actions
 

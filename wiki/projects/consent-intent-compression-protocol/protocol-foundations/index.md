@@ -28,6 +28,7 @@ It defines the vocabulary CICP uses to talk about loops, equivalence, and trust 
 This branch now separates into loop modeling and field theory, glyph languages and equivalence, and synaptic trust and propagation. That matches the document families already visible in the intake.
 
 The deeper function of this cluster is to define the protocol language itself. It names the abstractions that CICP uses to talk about loops, field behavior, equivalence, and trust propagation, so it is the vocabulary spine of the branch rather than just a topical grouping.
+From the field-atlas view, this page is the local grammar node for [Consent](../../../attractors/consent/index.md), [Loop Mechanics](../../../attractors/loop-mechanics/index.md), [Witness](../../../attractors/witness/index.md), and [Provenance](../../../attractors/provenance/index.md) as they are used inside CICP.
 
 The three subpages map to the core protocol layers: how the loop model works, how symbolic forms stay equivalent, and how trust can propagate without losing structure.
 
@@ -71,6 +72,9 @@ This rail is doing more than naming terminology. It is building the grammar that
 - [Loop Training](../../loop-training/index.md)
 - [Working Notes](../../working-notes/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
+- [Consent](../../../attractors/consent/index.md)
+- [Loop Mechanics](../../../attractors/loop-mechanics/index.md)
+- [Witness](../../../attractors/witness/index.md)
 
 ## Next Actions
 

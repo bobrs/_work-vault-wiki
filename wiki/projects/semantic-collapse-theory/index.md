@@ -7,6 +7,7 @@ It reads as a durable project line with its own origin text, later series, narra
 Semantically, this is the engine room of the wiki. It names the collapse model, the loop model, the witness model, the economy model, and the continuity model that recur through the later series and story pages. The archived `SCT set 20050505` folder preserves the duplicate-collapse history, while the active branch pages carry the living structure of the work.
 
 This is also the clearest place where `POLEMEMELOP`, consent language, and the later loop-series material converge into a broader framework. The page should therefore be read as both a map of the corpus and a stable entry point for deeper SCT reading.
+As a field atlas, SCT is the theory layer that turns witness, loop, memory, governance, and economy into repeatable structural motifs. The attractor layer is the visitor-facing readout of those motifs, while SCT keeps the underlying branch grammar visible.
 
 ## Current Shape
 
@@ -56,6 +57,10 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - [Economy and Propagation](economy-and-propagation/index.md)
 - [Origin and Governance](origin-and-governance/index.md)
 - [Story](story/index.md)
+- [Concepts Index](../../concepts/index.md)
+- [Quantum Invariants](../quantum-invariants/index.md)
+
+The attractor layer gives SCT a compact map back toward the shared corpus vocabulary: [Witness](../../attractors/witness/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Meaning](../../attractors/meaning/index.md), [Memory](../../attractors/memory/index.md), [Governance](../../attractors/governance/index.md), [Trust](../../attractors/trust/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 
 ## Attractor Bridge
 

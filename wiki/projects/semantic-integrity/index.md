@@ -3,6 +3,7 @@
 This branch collects the implementation-facing work on semantic integrity: how meaning-preserving AI systems, regulated workflows, and governed semantic infrastructure fit together.
 
 Quantum Invariants sits underneath this work as a structural comparator and grounding language for boundaries, drift, and repair.
+Read as a field atlas, Semantic Integrity is the implementation seam for meaning under load: the place where observability, provenance, trust, and governance become operational rather than merely aspirational.
 
 ## Current Shape
 
@@ -26,6 +27,7 @@ Quantum Invariants sits underneath this work as a structural comparator and grou
 This is the operational layer that sits between the Consentful Cybernetics philosophy and a deployable product/service boundary.
 
 The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay now opens into semantic infrastructure and semantic-attack-surface concerns, the conversation reconstitution preserves the semantic basin, the Semantic OS vision now opens into airlock architecture, and the semantic movement signals memo still reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
+The attractor layer is the compressed semantic map that this branch implements: [Meaning](../../attractors/meaning/index.md), [Trust](../../attractors/trust/index.md), [Attention](../../attractors/attention/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 
 ## Related Links
 

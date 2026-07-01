@@ -5,6 +5,7 @@ This branch collects the public site family and grounding data for Quantum Invar
 It is the machine-readable grounding library for the project family: a small invariant set, a public navigation surface, and the identity/manifest rails that keep the set auditable.
 
 It is a navigable site set rather than a single page: the root/how-to-ground surface, the spine, the domain pages, the AI surface, the charters, and the downloads rail all belong together.
+Read as a field atlas, QI is the comparator layer beneath the rest of the wiki. It does not just package a site; it names the boundary, consent, witness, governance, and repair primitives that make the other branches legible.
 
 ## Current Shape
 
@@ -52,6 +53,7 @@ The site bundles are the public-facing navigation surface; the grounding JSON is
 The bootstrap, schema, semantic-compression, and shimmer notes are part of the same entry layer. Together they explain how the invariant set is used, how it is represented, and how it is presented to different readers without changing the underlying structure.
 
 The QI family is also a cross-project reference node. It helps explain consent, continuity, witness, trust, and semantic integrity work elsewhere in the wiki because it gives those branches a common comparator language.
+The attractor layer is the compressed visitor map of those same invariants: [Witness](../../attractors/witness/index.md), [Consent](../../attractors/consent/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), [Trust](../../attractors/trust/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Grounding](../../attractors/grounding/index.md), [Attention](../../attractors/attention/index.md), and [Meaning](../../attractors/meaning/index.md).
 
 ## Related Links
 
@@ -67,6 +69,8 @@ The QI family is also a cross-project reference node. It helps explain consent, 
 - [Bootstrap and Schema](bootstrap-and-schema/index.md)
 - [Semantic Compression Layer](semantic-compression-layer/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
+- [Concepts Index](../../concepts/index.md)
+- [Attractors](../../attractors/index.md)
 
 ## Attractor Bridge
 

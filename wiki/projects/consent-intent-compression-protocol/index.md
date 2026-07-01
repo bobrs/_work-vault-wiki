@@ -44,6 +44,7 @@ This corpus reads like a practical protocol family rather than a single abstract
 
 The root-level documents now split into protocol foundations, implementation and access, outward-facing applications, and working notes.
 The implementation and access rail now deepens into pairing, field infrastructure, key hierarchy, and selective decryption child pages, which helps the execution side read as a real pipeline.
+As a field atlas, CICP is the consent-and-loop layer of the work: it gathers the grammar for activation, continuation, exit, and reconsent, then distributes that grammar into operational seams that can be read, carried, and repaired.
 
 ## Core Claim
 
@@ -77,12 +78,16 @@ The `Loop Training`, `Working Notes`, and `FractalIdentity Tree` folders can be 
 The branch-root `.zip` companion is archived and retained as lineage evidence.
 
 Quantum Invariants is a useful comparator for this family because it names the boundary, comparator, and repair vocabulary that CICP keeps using indirectly.
+The attractor layer is the visitor-facing map of the same terrain: [Consent](../../attractors/consent/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Witness](../../attractors/witness/index.md), [Agency](../../attractors/agency/index.md), [Provenance](../../attractors/provenance/index.md), and [Governance](../../attractors/governance/index.md) are the fields CICP keeps operationalizing.
 
 ## Related Concepts
 
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Concepts Index](../../concepts/index.md)
+- [LoopLink](../../concepts/looplink/index.md)
+- [Consent Physics](../../concepts/consent-physics/index.md)
+- [Governance Diad](../../concepts/governance-diad/index.md)
 
 ## Related Links
 
@@ -104,6 +109,8 @@ Quantum Invariants is a useful comparator for this family because it names the b
 - [Agency](../../attractors/agency/index.md)
 - [Provenance](../../attractors/provenance/index.md)
 - [Governance](../../attractors/governance/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Meaning](../../attractors/meaning/index.md)
 
 ## Next Actions
 
