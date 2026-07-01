@@ -28,6 +28,81 @@ const NAV_ITEMS = [
   ["WIKI.md", "/wiki-guide.html"],
 ];
 
+const ESSAY_ATTRACTORS = [
+  {
+    slug: "witness",
+    title: "Witness",
+    tagKeywords: ["witness", "provenance", "verification", "accountability", "ai-assurance", "separation-of-duties"],
+    invariantKeywords: ["boundary", "authorization", "legibility", "witness", "transparency", "attribution"],
+  },
+  {
+    slug: "consent",
+    title: "Consent",
+    tagKeywords: ["consent", "semantic-consent", "consentful", "consent-aware", "permission", "refusal", "sovereignty"],
+    invariantKeywords: ["authorization", "consent gate", "reversibility", "consent gradient", "coercive transparency", "boundary"],
+  },
+  {
+    slug: "attention",
+    title: "Attention",
+    tagKeywords: ["attention", "compression", "curiosity", "salience", "selection-pressure", "appreciation", "interestingness"],
+    invariantKeywords: ["legibility", "compression distortion", "granularity collapse", "incentive drift", "selection"],
+  },
+  {
+    slug: "intuition",
+    title: "Intuition",
+    tagKeywords: ["intuition", "navigation", "attractors", "sensing", "orientation", "pull", "felt sense"],
+    invariantKeywords: ["attractor", "direction", "comparator", "boundary"],
+  },
+  {
+    slug: "provenance",
+    title: "Provenance",
+    tagKeywords: ["provenance", "data-provenance", "digital-provenance", "archive", "lineage", "source"],
+    invariantKeywords: ["conservation and accounting", "ledger", "boundary-accounting", "causal attribution", "witness", "legibility"],
+  },
+  {
+    slug: "governance",
+    title: "Governance",
+    tagKeywords: ["governance", "ai-governance", "authority", "policy", "constitutional", "institution", "coordination", "law"],
+    invariantKeywords: ["power-proportionate governance", "constitutional comparator", "level mismatch", "legibility", "authority"],
+  },
+  {
+    slug: "grounding",
+    title: "Grounding",
+    tagKeywords: ["grounding", "embodiment", "body", "place", "safety", "material", "aliveness", "rest"],
+    invariantKeywords: ["boundary", "reversibility", "dynamic stability", "threshold", "level mismatch"],
+  },
+  {
+    slug: "loop-mechanics",
+    title: "Loop Mechanics",
+    tagKeywords: ["loop", "loops", "recursion", "feedback", "cycle", "recurrence", "repair", "drift", "phase"],
+    invariantKeywords: ["feedback and recursion", "dynamic stability", "threshold cascade", "incentive drift", "gradient"],
+  },
+  {
+    slug: "agency",
+    title: "Agency",
+    tagKeywords: ["agency", "free-will", "choice", "capacity", "escape", "permission", "refusal", "authorship"],
+    invariantKeywords: ["agency and capacity", "reversibility", "exit", "level mismatch", "consent gradient"],
+  },
+  {
+    slug: "meaning",
+    title: "Meaning",
+    tagKeywords: ["meaning", "language", "story", "metaphor", "interpretation", "semantic-integrity", "artifact", "glyph"],
+    invariantKeywords: ["legibility", "distinction", "comparator", "compression distortion", "granularity collapse", "attribution"],
+  },
+  {
+    slug: "memory",
+    title: "Memory",
+    tagKeywords: ["memory", "archive", "forgetting", "recurrence", "history", "inheritance", "machine memory"],
+    invariantKeywords: ["conservation and accounting", "feedback and recursion", "dynamic stability", "threshold", "memory"],
+  },
+  {
+    slug: "trust",
+    title: "Trust",
+    tagKeywords: ["trust", "verification", "coherence", "proof", "accountability", "relationship", "witness"],
+    invariantKeywords: ["boundary", "legibility", "ledgered reciprocity", "coercive transparency", "witnessed", "accounting"],
+  },
+];
+
 function encodePathSegments(relPath) {
   return relPath
     .split(path.posix.sep)
@@ -822,6 +897,36 @@ function sourceRoleLabel(role) {
   return role;
 }
 
+function normalizeForMatch(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function matchesAnyKeyword(value, keywords) {
+  const haystack = normalizeForMatch(value);
+  return keywords.some((keyword) => haystack.includes(normalizeForMatch(keyword)));
+}
+
+function collectMatchedTerms(values, keywords) {
+  const matches = [];
+  for (const value of values) {
+    if (matchesAnyKeyword(value, keywords)) {
+      matches.push(value);
+    }
+  }
+  return [...new Set(matches)];
+}
+
+function previewTerms(values, limit = 3) {
+  const items = values.slice(0, limit).map((value) => escapeHtml(value));
+  if (values.length > limit) {
+    items.push(`+${values.length - limit} more`);
+  }
+  return items;
+}
+
 function extractProjectFamilies(projectIndexSource) {
   const lines = projectIndexSource.replaceAll("\r\n", "\n").split("\n");
   const start = lines.findIndex((line) => line.trim() === "## Top-Level Project Pages");
@@ -1004,6 +1109,172 @@ async function renderProjectCrossIndexPage(projectFamilies) {
       ${sections}
     `,
     navActive: "/wiki/projects/cross-index/index.html",
+  });
+}
+
+function pageHrefForEssayRecord(record) {
+  if (record.wiki_page) return pageHrefForWikiPage(record.wiki_page);
+  return record.url || "#";
+}
+
+async function renderEssayAttractorViewPage(records) {
+  const published = records.filter((record) => record.source_role === "published_external");
+  const buckets = new Map(ESSAY_ATTRACTORS.map((attractor) => [attractor.slug, []]));
+  const unassigned = [];
+  let matchedEssays = 0;
+  let totalAssignments = 0;
+
+  for (const record of published) {
+    const tags = record.tags || [];
+    const invariantLabels = (record.related_invariants || []).map((item) => item.label).filter(Boolean);
+    const matches = [];
+
+    for (const attractor of ESSAY_ATTRACTORS) {
+      const matchedTags = collectMatchedTerms(tags, attractor.tagKeywords);
+      const matchedInvariants = collectMatchedTerms(invariantLabels, attractor.invariantKeywords);
+      const score = matchedTags.length * 2 + matchedInvariants.length;
+      if (score > 0) {
+        matches.push({ attractor, score, matchedTags, matchedInvariants });
+      }
+    }
+
+    if (!matches.length) {
+      unassigned.push({ record });
+      continue;
+    }
+
+    matchedEssays += 1;
+    totalAssignments += matches.length;
+    matches.sort((a, b) => b.score - a.score || a.attractor.title.localeCompare(b.attractor.title));
+    for (const match of matches) {
+      buckets.get(match.attractor.slug).push({
+        record,
+        score: match.score,
+        matchedTags: match.matchedTags,
+        matchedInvariants: match.matchedInvariants,
+      });
+    }
+  }
+
+  for (const bucket of buckets.values()) {
+    bucket.sort((a, b) => {
+      const scoreDelta = b.score - a.score;
+      if (scoreDelta) return scoreDelta;
+      const dateDelta = (b.record.published_date || "").localeCompare(a.record.published_date || "");
+      if (dateDelta) return dateDelta;
+      return a.record.title.localeCompare(b.record.title);
+    });
+  }
+
+  const populated = ESSAY_ATTRACTORS.filter((attractor) => (buckets.get(attractor.slug) || []).length);
+
+  const attractorCards = populated
+    .map((attractor) => {
+      const items = buckets.get(attractor.slug) || [];
+      return `
+        <a class="attractor-card" href="#${attractor.slug}">
+          <h3>${escapeHtml(attractor.title)}</h3>
+          <p>${items.length} essay${items.length === 1 ? "" : "s"} matched from published metadata.</p>
+          <div class="subpaths"><span>${escapeHtml(attractor.tagKeywords[0])}</span><span>${escapeHtml(attractor.invariantKeywords[0])}</span></div>
+        </a>
+      `;
+    })
+    .join("");
+
+  const sections = populated
+    .map((attractor) => {
+      const items = buckets.get(attractor.slug) || [];
+      const essayList = items
+        .map(({ record, matchedTags, matchedInvariants }) => {
+          const localHref = pageHrefForEssayRecord(record);
+          const externalHref = record.url || localHref;
+          const summary = record.subtitle || record.description || record.excerpt || "";
+          const metaBits = [
+            record.published_date ? `published ${record.published_date}` : null,
+            record.updated_date ? `updated ${record.updated_date}` : null,
+            record.author ? `author: ${record.author}` : null,
+          ].filter(Boolean);
+          const chips = [];
+          if (matchedTags.length) chips.push(`tags: ${previewTerms(matchedTags).join(", ")}`);
+          if (matchedInvariants.length) chips.push(`invariants: ${previewTerms(matchedInvariants).join(", ")}`);
+          return `
+            <li>
+              <div class="title-row">
+                <a href="${escapeHtml(localHref)}">${escapeHtml(record.title)}</a>
+                <a class="gateway-action" href="${escapeHtml(externalHref)}">published URL</a>
+              </div>
+              ${summary ? `<p class="muted">${escapeHtml(summary)}</p>` : ""}
+              ${metaBits.length ? `<p class="muted">${escapeHtml(metaBits.join(" · "))}</p>` : ""}
+              ${chips.length ? `<div class="subpaths">${chips.map((chip) => `<span>${escapeHtml(chip)}</span>`).join("")}</div>` : ""}
+            </li>
+          `;
+        })
+        .join("");
+      const basis = [
+        `matched by tags: ${previewTerms(attractor.tagKeywords).join(", ")}`,
+        `matched by invariants: ${previewTerms(attractor.invariantKeywords).join(", ")}`,
+      ].join(" · ");
+      return `
+        <section id="${escapeHtml(attractor.slug)}">
+          <h2><a href="/wiki/attractors/${escapeHtml(attractor.slug)}/index.html">${escapeHtml(attractor.title)}</a> <span class="tag">${items.length}</span></h2>
+          <p class="muted">${basis}</p>
+          <ul>${essayList}</ul>
+        </section>
+      `;
+    })
+    .join("");
+
+  const unassignedSection = unassigned.length
+    ? `
+      <section id="unassigned">
+        <h2>Unassigned Essays</h2>
+        <p class="muted">${unassigned.length} essay${unassigned.length === 1 ? "" : "s"} did not meet the current attractor-matching rules. They remain visible here for later rule expansion or manual review.</p>
+        <ul>
+          ${unassigned
+            .map(({ record }) => `
+              <li>
+                <div class="title-row">
+                  <a href="${escapeHtml(pageHrefForEssayRecord(record))}">${escapeHtml(record.title)}</a>
+                  <a class="gateway-action" href="${escapeHtml(record.url || pageHrefForEssayRecord(record))}">published URL</a>
+                </div>
+                ${record.subtitle || record.description ? `<p class="muted">${escapeHtml(record.subtitle || record.description)}</p>` : ""}
+              </li>
+            `)
+            .join("")}
+        </ul>
+      </section>
+    `
+    : "";
+
+  return pageShell({
+    title: "Essays by Attractor",
+    subtitle: "Metadata-driven attractor view for the Shimmery Memory essay feed",
+    body: `
+      <p class="eyebrow">Published external view</p>
+      <div class="title-row">
+        <h1>Essays by Attractor</h1>
+        <span class="tag">metadata-only</span>
+      </div>
+      <p>This view is generated from <code>manifest/external_published_index.jsonl</code>. It groups published essays by attractor using the essay metadata already recorded in the manifest. Essays may appear under more than one attractor when the metadata supports it.</p>
+      <div class="status-grid">
+        <div class="status-card"><p class="stat">${published.length}</p><p class="muted">Published external essays scanned.</p></div>
+        <div class="status-card"><p class="stat">${matchedEssays}</p><p class="muted">Essays matched to at least one attractor.</p></div>
+        <div class="status-card"><p class="stat">${totalAssignments}</p><p class="muted">Total attractor assignments across the feed.</p></div>
+        <div class="status-card"><p class="stat">${unassigned.length}</p><p class="muted">Essays not yet matched.</p></div>
+      </div>
+      <div class="attractor-grid">
+        ${attractorCards}
+      </div>
+      ${sections}
+      ${unassignedSection}
+      <h2>Related Navigation</h2>
+      <ul>
+        <li><a href="/wiki/external/shimmerymemory/essays/index.html">Shimmery Memory Essays</a></li>
+        <li><a href="/wiki/attractors/index.html">Attractor Gateways</a></li>
+        <li><a href="/wiki/projects/shimmerymemory/essays/index.html">Shimmery Memory project essay rail</a></li>
+      </ul>
+    `,
+    navActive: "/wiki/external/shimmerymemory/essays/index.html",
   });
 }
 
@@ -1213,6 +1484,15 @@ async function main() {
   const projectFamilies = extractProjectFamilies(projectIndexSource);
   const projectCrossIndexPage = await renderProjectCrossIndexPage(projectFamilies);
   await writeRenderedPage(path.join("wiki", "projects", "cross-index", "index.html"), projectCrossIndexPage);
+
+  const externalIndexPath = path.join(ROOT, "manifest", "external_published_index.jsonl");
+  const externalIndex = await fs.readFile(externalIndexPath, "utf8");
+  const externalRecords = externalIndex
+    .split("\n")
+    .filter(Boolean)
+    .map((line) => JSON.parse(line));
+  const essayAttractorPage = await renderEssayAttractorViewPage(externalRecords);
+  await writeRenderedPage(path.join("wiki", "external", "shimmerymemory", "essays", "by-attractor", "index.html"), essayAttractorPage);
 
   for (const source of SOURCE_MARKDOWN) {
     const outRel = outputForSource(source);

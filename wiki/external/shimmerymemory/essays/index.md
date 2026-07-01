@@ -89,6 +89,11 @@ Published external metadata index for the Shimmery Memory essay feed.
 
 - This page tracks the external feed as a metadata-first index. It does not copy full essay bodies.
 
+## Attractor View
+
+- [Browse essays by attractor](/wiki/external/shimmerymemory/essays/by-attractor/index.html)
+- The attractor view is generated from `manifest/external_published_index.jsonl` and uses tags plus related invariants to group the feed.
+
 ## Next Actions
 
 1. Keep the external source separate from intake archive handling.

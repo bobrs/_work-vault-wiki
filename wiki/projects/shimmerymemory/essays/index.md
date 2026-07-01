@@ -28,6 +28,7 @@ The seed manifest package records a tighter five-document origin set, while the 
 
 - [Shimmery Memory](../index.md)
 - [Site Variants](../site-variants/index.md)
+- [Essay Attractor View](/wiki/external/shimmerymemory/essays/by-attractor/index.html)
 
 ## Next Actions
 
