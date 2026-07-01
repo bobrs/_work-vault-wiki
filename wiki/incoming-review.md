@@ -2,17 +2,16 @@
 
 This page is for newly added files that have been inventoried but not yet classified or moved.
 
-Current state: `artifacts/incoming/` now contains the active intake set under the branch folders for `HumanKey Protocol`, `HumanLink Social Media`, `New Ideas`, `Patents`, `Side Projects Desktop`, `Similar Projects`, and `Trust Interoperability Standard`, plus a standalone `ipol_package` bundle that is now documented as an ancillary reference package; the `Consent Crystal Structure Research` lineage remains the archived reference set, and the `Starting zips`, `Reference - Stored Crystals`, `Personal`, `Consent–Intent Compression Protocol (CICP)`, `Consent-based Atomic genesis and Stream`, `Semantic Collapse Theory`, and `LOOPtLOOP platform` mirror sets have been archived. The `POLEMEMELOP`, `FractalIdentity Tree`, and `Misc Loop` mirror slices have also been collapsed back into archive lineage paths, and the patent family now exposes durable subpages for `Color Alpha Codec Patent`, `Wrapped Bidirectional TOTP Patent`, `Client-to-client P2P TOTP + Message Patent`, `LoopLock Mutual-TOTP-based Physical Lock`, and `LoopGuard Physical Integrity Validation`.
+Current state: `artifacts/incoming/` is now a mostly flat intake pool of 464 files plus the standalone `ipol_package/` ancillary bundle. The earlier branch-folder concentration has already been absorbed into project pages, lineage pages, or archive paths, so this queue should now stay focused on genuinely new intake rather than re-triaging settled branches.
 
 Observed shape:
 
-- 468 incoming files were inventoried after removing exact duplicate clones that already survive elsewhere.
-- The intake is mostly `.docx` files, with a small number of `.html`, `.zip`, and `.pdf` companions. `.zip` companions are auxiliary unless otherwise noted.
-- The remaining incoming set is still mostly `.md`, `.docx`, and `.pdf`, with one `ipol_package` directory holding license/package scaffolding that is documented in the wiki.
-- The dominant subclusters are `Semantic Collapse Theory`, `Consent–Intent Compression Protocol (CICP)`, `POLEMEMELOP`, `WitnessKey`, and `Loopverse`, and each now has a lineage page or project shell.
-- The desktop vault still contains mirror-heavy bundles; collapse only the copies that are clearly auxiliary or exact duplicate lineage. The auxiliary zip bundle layer and the archived mirror vaults are now out of incoming.
-- The small root-level works now have their own standalone pages: `Thanks, Bobo - A Screenplay`, `Butterfly Bush Time Portals`, `Daily Growth Ritual`, and `Ego and Flow`.
-- The archived `artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505` snapshot has already absorbed the exact duplicate SCT pairs, with collapse-parent metadata recorded elsewhere.
+- The intake is mostly `.md`, `.docx`, and `.pdf`, with a small number of other companions that should be routed elsewhere when they are clearly auxiliary.
+- `artifacts/for-further-routing/` is the landing zone for non-`md`/`pdf`/`docx` items that probably do not belong in the 80% ingestion pass.
+- The dominant remaining work is classification and duplicate collapse, not structure discovery.
+- The SCT, CICP, POLEMEMELOP, WitnessKey, Loopverse, and patent lineages already have stable project shells or lineage pages.
+- Root-level works that were already classified should not be re-listed here.
+- Exact duplicate clones should only be pruned when a surviving copy already exists elsewhere.
 
 Use this page to list:
 
@@ -24,8 +23,8 @@ Files that are plainly personal, or that are clearly not original work such as o
 
 Next actions:
 
-- Use the project lineage pages for CICP, SCT, and POLEMEMELOP as the stable branch map.
-- Add only genuinely new intake here; the existing root-level works are already classified.
+- Keep using the project lineage pages for CICP, SCT, and POLEMEMELOP as the stable branch map.
+- Add only genuinely new intake here.
 - Exclude obvious personal material and clearly non-original third-party documents unless they are needed for provenance or review context.
 - Review the archived snapshot only if you need to inspect lineage history.
 - Move only the files that are clearly understood enough to justify it.
