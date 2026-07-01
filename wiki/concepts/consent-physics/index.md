@@ -24,6 +24,11 @@ The page also gives `Intent-Consent` a stronger neighbor. Intent names direction
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 
+## Attractor Bridge
+
+- [Consent](../../attractors/consent/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

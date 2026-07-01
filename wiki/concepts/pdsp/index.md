@@ -33,6 +33,12 @@ Read that way, PDSP is the sovereignty layer of the protocol stack: it says who 
 - [Governance Diad](../governance-diad/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 
+## Attractor Bridge
+
+- [Provenance](../../attractors/provenance/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Trust](../../attractors/trust/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

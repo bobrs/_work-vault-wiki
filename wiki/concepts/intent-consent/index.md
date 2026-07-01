@@ -45,6 +45,11 @@ That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/in
 - [LoopLink](../looplink/index.md)
 - [PDSP](../pdsp/index.md)
 
+## Attractor Bridge
+
+- [Consent](../../attractors/consent/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

@@ -32,6 +32,11 @@ Because of that, Loop Economy belongs near [LoopLink](../looplink/index.md), [PD
 - [Governance Diad](../governance-diad/index.md)
 - [POLEMEMELOP](../polememelop/index.md)
 
+## Attractor Bridge
+
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

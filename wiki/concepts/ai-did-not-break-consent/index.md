@@ -34,6 +34,12 @@ The adjacent attention material sharpens that point: consent is not just a permi
 - [Attention](../attention/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
+## Attractor Bridge
+
+- [Consent](../../attractors/consent/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

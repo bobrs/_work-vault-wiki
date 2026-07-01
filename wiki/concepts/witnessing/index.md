@@ -39,6 +39,11 @@ Within SCT, witness logic also underpins the authority track in [Witness and Gov
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 
+## Attractor Bridge
+
+- [Witness](../../attractors/witness/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

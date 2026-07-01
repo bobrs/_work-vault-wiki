@@ -35,6 +35,12 @@ This page therefore sits above and beside [Abracadabracadoo](../abracadabracadoo
 - [PDSP](../pdsp/index.md)
 - [Loop Economy](../loop-economy/index.md)
 
+## Attractor Bridge
+
+- [Meaning](../../attractors/meaning/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

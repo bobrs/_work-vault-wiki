@@ -27,6 +27,11 @@ That is why Governance Diad sits next to [Witnessing](../witnessing/index.md), [
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 
+## Attractor Bridge
+
+- [Governance](../../attractors/governance/index.md)
+- [Witness](../../attractors/witness/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

@@ -31,6 +31,11 @@ The newer axioms draft makes the rule-set even sharper: attention creates, susta
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 
+## Attractor Bridge
+
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Working Read
 
 This is the shared model for attention as an operating force.

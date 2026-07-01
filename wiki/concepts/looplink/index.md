@@ -36,6 +36,11 @@ It also stays close to [Governance Diad](../governance-diad/index.md) because tr
 - [Governance Diad](../governance-diad/index.md)
 - [Loop Economy](../loop-economy/index.md)
 
+## Attractor Bridge
+
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Trust](../../attractors/trust/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.

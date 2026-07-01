@@ -39,6 +39,12 @@ The protocol branch and the app branch should stay separate in the wiki. They ar
 - [Loop Economy](../loop-economy/index.md)
 - [POLEMEMELOP](../polememelop/index.md)
 
+## Attractor Bridge
+
+- [Trust](../../attractors/trust/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Notes
 
 - This is a concept page, not a canon claim.
