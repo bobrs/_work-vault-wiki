@@ -69,11 +69,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the cleanest governance maturity model in the corpus because it moves from raw outputs to auditable, time-stable decision systems. It sharpens the governance attractor around legitimacy, drift management, and regulated accountability.
 
 ## Core Claim
 
-- Pending.
+Governance must make regulated decision-making legible, invariant-constrained, and accountable over time instead of leaving AI as an output machine.
 
 ## Key Ideas
 

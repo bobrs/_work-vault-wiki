@@ -67,11 +67,11 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 
 ## Working Read
 
-- Pending.
+This is one of the strongest trust essays because it converts meaning into reliance and audit. It keeps proof, relationship, and accountability together, which is exactly what the trust attractor needs.
 
 ## Core Claim
 
-- Pending.
+Trust is confidence under vulnerability: verification helps, but repairable relationships and warranted reliance are the actual operating surface.
 
 ## Key Ideas
 

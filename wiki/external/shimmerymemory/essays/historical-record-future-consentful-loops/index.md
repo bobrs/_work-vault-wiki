@@ -68,11 +68,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the strongest provenance essay because it insists that admissibility depends on consentful loop lineage, not just content integrity. It gives provenance a practical account of how traces stay valid across witness, revocation, closure, and reuse.
 
 ## Core Claim
 
-- Pending.
+Provenance is incomplete unless it preserves the consent conditions under which a trace became admissible.
 
 ## Key Ideas
 

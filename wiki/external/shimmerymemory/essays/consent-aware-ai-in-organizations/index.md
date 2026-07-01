@@ -69,11 +69,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the best loop-mechanics essay for organizational AI because it treats consent, attribution, and judgment as living loops rather than static artifacts. It fits the loop attractor by describing how breakdown happens when the loops freeze into paperwork.
 
 ## Core Claim
 
-- Pending.
+Consent-aware AI fails when organizations treat consent, attribution, memory, and accountability as one-time records instead of continuing loop conditions.
 
 ## Key Ideas
 

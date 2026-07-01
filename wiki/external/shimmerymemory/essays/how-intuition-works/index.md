@@ -64,11 +64,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the best local statement of intuition as navigation in a dynamic field rather than mystical certainty. It fits the intuition attractor because it keeps embodied sensing, calibration, and motion in view.
 
 ## Core Claim
 
-- Pending.
+Intuition is pattern recognition before explanation, most useful when destinations cannot be known in advance.
 
 ## Key Ideas
 

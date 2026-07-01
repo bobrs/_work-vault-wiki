@@ -59,11 +59,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the cleanest memory roadmap because it starts from archive and ends at interface. It treats memory as something that must remain navigable, not merely stored.
 
 ## Core Claim
 
-- Pending.
+Memory is continuity across time, and the archive only matters if it can be re-encountered as a usable interface.
 
 ## Key Ideas
 

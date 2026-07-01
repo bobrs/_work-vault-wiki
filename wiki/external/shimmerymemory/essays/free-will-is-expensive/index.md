@@ -72,11 +72,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the strongest agency essay because it refuses the fantasy that freedom is free. It frames agency as a costly interruption of default flow, which is exactly the attractor's concern.
 
 ## Core Claim
 
-- Pending.
+Agency is embodied capacity under constraint: choice, refusal, and escape all have a cost.
 
 ## Key Ideas
 

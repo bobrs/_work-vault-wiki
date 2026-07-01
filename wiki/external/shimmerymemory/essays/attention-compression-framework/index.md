@@ -70,11 +70,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the clearest bridge from attention as a metaphor to attention as an operational substrate. It explains the attention/compression loop that makes salience, curiosity, and reality formation legible in the attractor layer.
 
 ## Core Claim
 
-- Pending.
+Attention allocates finite force; repeated noticing hardens traces into structure, while neglect lets structure decay.
 
 ## Key Ideas
 

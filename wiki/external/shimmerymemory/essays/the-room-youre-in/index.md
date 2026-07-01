@@ -64,11 +64,11 @@ You are always in a room. Not always a physical one. Not always one you can see.
 
 ## Working Read
 
-- Pending.
+This is the sharpest grounding essay in the feed because it names the frame before the claim. It helps the grounding attractor by showing that reality is always structured by a room, whether physical or semantic.
 
 ## Core Claim
 
-- Pending.
+Grounding begins by noticing the room you are already in, because every claim is made inside a constraint surface.
 
 ## Key Ideas
 

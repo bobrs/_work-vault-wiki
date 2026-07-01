@@ -60,11 +60,11 @@ Excerpt:
 
 ## Working Read
 
-- Pending.
+This is the cleanest published statement of witness as a role with boundaries, not a passive stance. It gives the witness attractor a concrete assurance frame: disciplined non-merge, admissibility, and constitutional distance from the system being observed.
 
 ## Core Claim
 
-- Pending.
+Witness is a constrained capacity. Assurance depends on disciplined non-merge, clear boundaries, and the ability to certify what was seen without collapsing into the system being seen.
 
 ## Key Ideas
 
