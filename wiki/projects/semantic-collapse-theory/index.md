@@ -57,6 +57,17 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - [Origin and Governance](origin-and-governance/index.md)
 - [Story](story/index.md)
 
+## Attractor Bridge
+
+- [Witness](../../attractors/witness/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Memory](../../attractors/memory/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Consent](../../attractors/consent/index.md)
+
 ## Representative Files
 
 - [Origin and Governance / SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx](<../../../artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-0- The POLEMEMELOP Charter — Origin of Semantic Collapse Theory.docx>)

@@ -68,6 +68,18 @@ The QI family is also a cross-project reference node. It helps explain consent, 
 - [Semantic Compression Layer](semantic-compression-layer/index.md)
 - [Semantic Shimmer](semantic-shimmer/index.md)
 
+## Attractor Bridge
+
+- [Witness](../../attractors/witness/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Next Actions
 
 1. Keep the six support pages separate so the site architecture stays legible.

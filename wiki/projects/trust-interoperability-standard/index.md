@@ -29,6 +29,16 @@ This branch now separates into the core trust standard, the Dialogica threading 
 
 - [Quantum Invariants](../quantum-invariants/index.md)
 
+## Attractor Bridge
+
+- [Trust](../../attractors/trust/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Next Actions
 
 1. Keep the three nested lineage pages stable.

@@ -96,6 +96,15 @@ Quantum Invariants is a useful comparator for this family because it names the b
 - [FractalIdentity Tree](fractalidentity-tree/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 
+## Attractor Bridge
+
+- [Consent](../../attractors/consent/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Next Actions
 
 1. Keep the archived `.zip` companion visible as lineage evidence.

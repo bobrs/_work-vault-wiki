@@ -39,6 +39,15 @@ That makes this branch useful for marks, provenance, edges, and authorization wi
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 
+## Attractor Bridge
+
+- [Witness](../../attractors/witness/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+
 ## Next Actions
 
 1. Keep the compression, positioning, spec, and vision seams separate.

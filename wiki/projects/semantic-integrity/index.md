@@ -33,6 +33,15 @@ The FAQ now splits into a pilot-architecture page and an investor-framing page, 
 - [Continuity Office](../continuity-office/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 
+## Attractor Bridge
+
+- [Meaning](../../attractors/meaning/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Consent](../../attractors/consent/index.md)
+
 ## Next Actions
 
 1. Keep the implementation seam readable as a project page until a second durable branch appears.

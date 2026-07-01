@@ -43,6 +43,15 @@ The homepage and research copy evolve together, which is why the wiki should kee
 - [Attention](../../concepts/attention/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 
+## Attractor Bridge
+
+- [Consent](../../attractors/consent/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+
 ## Next Actions
 
 1. Keep the site variants and research track separate.
