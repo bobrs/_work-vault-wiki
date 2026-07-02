@@ -14,10 +14,10 @@ This branch collects the governance, sovereignty, and consent-economy materials.
 
 ## Representative Files
 
-- [Consent Economy Plan.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Economy Plan.docx>)
-- [Consent Based Self Sovereignty.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Based Self Sovereignty.docx>)
-- [Wavefield Consent Uncertainty.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Wavefield Consent Uncertainty.docx>)
-- [Tribal Governance Consulting Opportunity.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Tribal Governance Consulting Opportunity.docx>)
+- [Consent Economy Plan.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Economy Plan.docx>)
+- [Consent Based Self Sovereignty.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Consent Based Self Sovereignty.docx>)
+- [Wavefield Consent Uncertainty.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Wavefield Consent Uncertainty.docx>)
+- [Tribal Governance Consulting Opportunity.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Tribal Governance Consulting Opportunity.docx>)
 
 ## Working Read
 

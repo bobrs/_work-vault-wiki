@@ -18,14 +18,14 @@ This branch gathers the personal, reflective, and presentation-facing material i
 
 ## Representative Files
 
-- [spaced test.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Personal/spaced test.html>)
-- [Butterfly Bush Time Portals.html](<../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html>)
-- [Butterfly Bush Time Portals.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx>)
-- [Daily Growth Ritual.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Daily Growth Ritual.docx>)
-- [Ego and Flow.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Ego and Flow.docx>)
-- [Thanks, Bobo - A Screenplay.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx>)
-- [Thanks, Bobo - A Screenplay.pdf](<../../../artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.pdf>)
-- [ULiUA.docx](<../../../artifacts/archived/Side Projects Desktop/Personal/ULiUA.docx>)
+- [spaced test.html](<../../../../artifacts/intake-archive/20260622__misc-intake/Personal/spaced test.html>)
+- [Butterfly Bush Time Portals.html](<../../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html>)
+- [Butterfly Bush Time Portals.docx](<../../../../artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.docx>)
+- [Daily Growth Ritual.docx](<../../../../artifacts/archived/Side Projects Desktop/Personal/Daily Growth Ritual.docx>)
+- [Ego and Flow.docx](<../../../../artifacts/archived/Side Projects Desktop/Personal/Ego and Flow.docx>)
+- [Thanks, Bobo - A Screenplay.docx](<../../../../artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx>)
+- [Thanks, Bobo - A Screenplay.pdf](<../../../../artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.pdf>)
+- [ULiUA.docx](<../../../../artifacts/archived/Side Projects Desktop/Personal/ULiUA.docx>)
 
 ## Working Read
 

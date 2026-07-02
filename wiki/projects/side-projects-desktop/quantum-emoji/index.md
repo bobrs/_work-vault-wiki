@@ -8,7 +8,7 @@ This branch collects the quantum emoji concept note.
 
 ## Representative Files
 
-- [Quantum Emoji – Multistable Symbols for Contextual Resonance.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Quantum Emoji/Quantum Emoji – Multistable Symbols for Contextual Resonance.docx>)
+- [Quantum Emoji – Multistable Symbols for Contextual Resonance.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Quantum Emoji/Quantum Emoji – Multistable Symbols for Contextual Resonance.docx>)
 
 ## Working Read
 

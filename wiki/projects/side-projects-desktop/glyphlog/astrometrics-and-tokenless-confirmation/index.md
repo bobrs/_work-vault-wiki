@@ -8,8 +8,8 @@ This branch collects the astrometrics and tokenless-confirmation materials.
 
 ## Representative Files
 
-- [Loop Astrometrics Interface- A Successor to the Ego.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Loop Astrometrics Interface- A Successor to the Ego.docx>)
-- [Speculative Protocol Concept- Tokenless Confirmation via Cultural Echoes.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Speculative Protocol Concept- Tokenless Confirmation via Cultural Echoes.docx>)
+- [Loop Astrometrics Interface- A Successor to the Ego.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Loop Astrometrics Interface- A Successor to the Ego.docx>)
+- [Speculative Protocol Concept- Tokenless Confirmation via Cultural Echoes.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Speculative Protocol Concept- Tokenless Confirmation via Cultural Echoes.docx>)
 
 ## Working Read
 

@@ -10,8 +10,8 @@ This cluster holds the investor-facing material.
 
 ## Representative Files
 
-- [Consentocratic Investor Page.docx](<../../../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx>) · [archive copy](<../../../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Page.docx>)
-- [Consentocratic Investor Pledge.docx](<../../../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx>) · [archive copy](<../../../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Pledge.docx>)
+- [Consentocratic Investor Page.docx](<../../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PAGE__WOLD-BUILDING__v1__consentocratic-investor-page.docx>) · [archive copy](<../../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Page.docx>)
+- [Consentocratic Investor Pledge.docx](<../../../../../../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PLEDGE__WOLD-BUILDING__v1__consentocratic-investor-pledge.docx>) · [archive copy](<../../../../../../../../artifacts/intake-archive/20260622__loop-and-phase-training-wold-building-intake/Consentocratic Investor Pledge.docx>)
 
 ## Working Read
 

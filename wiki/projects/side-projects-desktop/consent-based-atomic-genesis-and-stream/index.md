@@ -8,11 +8,11 @@ This branch is the archived mirror hub for the routing, Rosetta, glyph, Dialogic
 
 ## Representative Files
 
-- [Consent-Based Routing Protocol (CBRP).docx](<../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent-Based Routing Protocol (CBRP).docx>)
-- [Rosetta Loop Specification (RLS).docx](<../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Rosetta Loop Specification (RLS).docx>)
-- [Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx](<../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx>)
-- [DeepTrust_Dialogica_Protocol_Specification.docx](<../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/DeepTrust_Dialogica_Protocol_Specification.docx>)
-- [CRYSTALSTREAM Protocol v0.docx](<../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/CRYSTALSTREAM Protocol v0.docx>)
+- [Consent-Based Routing Protocol (CBRP).docx](<../../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent-Based Routing Protocol (CBRP).docx>)
+- [Rosetta Loop Specification (RLS).docx](<../../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Rosetta Loop Specification (RLS).docx>)
+- [Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx](<../../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx>)
+- [DeepTrust_Dialogica_Protocol_Specification.docx](<../../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/DeepTrust_Dialogica_Protocol_Specification.docx>)
+- [CRYSTALSTREAM Protocol v0.docx](<../../../../artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/CRYSTALSTREAM Protocol v0.docx>)
 
 ## Collapse Parents
 

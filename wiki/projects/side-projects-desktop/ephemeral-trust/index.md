@@ -8,9 +8,9 @@ This branch gathers the ephemeral-trust document set.
 
 ## Representative Files
 
-- [Ephemeral Trust Doc1.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc1.docx>)
-- [Ephemeral Trust Doc3.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc3.docx>)
-- [Ephemeral Trust Doc6.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc6.docx>)
+- [Ephemeral Trust Doc1.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc1.docx>)
+- [Ephemeral Trust Doc3.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc3.docx>)
+- [Ephemeral Trust Doc6.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc6.docx>)
 
 ## Working Read
 

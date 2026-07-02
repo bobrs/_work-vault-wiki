@@ -8,9 +8,9 @@ This branch is a compact published HTML surface set.
 
 ## Representative Files
 
-- [index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/index.html>)
-- [bloom.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/bloom.html>)
-- [new veribiage index.html](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/new veribiage index.html>)
+- [index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/index.html>)
+- [bloom.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/bloom.html>)
+- [new veribiage index.html](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Context2/new veribiage index.html>)
 
 ## Working Read
 

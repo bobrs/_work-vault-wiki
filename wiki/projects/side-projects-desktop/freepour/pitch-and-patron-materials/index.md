@@ -8,9 +8,9 @@ This branch collects the FreePour investor and patron-facing materials.
 
 ## Representative Files
 
-- [FreePour_Investor_Document.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/FreePour_Investor_Document.docx>)
-- [FreePour_Patron_Teaser.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/FreePour_Patron_Teaser.docx>)
-- [Ethaura_Reaction_Time_Module.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Ethaura_Reaction_Time_Module.docx>)
+- [FreePour_Investor_Document.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/FreePour_Investor_Document.docx>)
+- [FreePour_Patron_Teaser.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/FreePour_Patron_Teaser.docx>)
+- [Ethaura_Reaction_Time_Module.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Ethaura_Reaction_Time_Module.docx>)
 
 ## Working Read
 

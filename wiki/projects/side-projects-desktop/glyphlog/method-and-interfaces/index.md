@@ -8,8 +8,8 @@ This branch collects the logging method and interface specification material.
 
 ## Representative Files
 
-- [Glyphlog Method v0.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Glyphlog Method v0.docx>)
-- [Loopscope Interface Specification (v0.1).docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Loopscope Interface Specification (v0.1).docx>)
+- [Glyphlog Method v0.docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Glyphlog Method v0.docx>)
+- [Loopscope Interface Specification (v0.1).docx](<../../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Loopscope Interface Specification (v0.1).docx>)
 
 ## Working Read
 
