@@ -20,7 +20,7 @@ It is the execution rail of CICP. The documents here move from trust entry into 
 
 ## Representative Files
 
-- [Pairing and Field Access / 🕯 Field Echo Protocol (v0.1).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [Pairing and Field Access / 🕯 Field Echo Protocol (v0.1).md](<../../../../artifacts/standard-named/20260622__CICP__ACCESS__v1__field-echo-protocol.md>)
 - [Key Derivation and Decryption / Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx>)
 - [Ritual Token Initialization / 🔁 Ritual Loop Token Initialization (ESP32 + NFC Version).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Ritual Loop Token Initialization (ESP32 + NFC Version).docx>)
 

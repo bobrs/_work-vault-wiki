@@ -19,8 +19,8 @@ The answer matters because the protocol cannot remain coherent unless the model 
 
 ## Source Artifacts
 
-- [Consent–Intent Compression Protocol (CICP).docx](<../../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
-- [Loop Projection Principle (LPP).docx](<../../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Projection Principle (LPP).docx>)
+- [Consent–Intent Compression Protocol (CICP).md](<../../../../../../artifacts/standard-named/20260622__CICP__PROTOCOL__v1__consent-intent-compression-protocol.md>)
+- [Loop Projection Principle (LPP).md](<../../../../../../artifacts/standard-named/20260622__CICP__PRINCIPLE__v1__loop-projection-principle.md>)
 - [Loop Substrate Theory (LST).docx](<../../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Substrate Theory (LST).docx>)
 - [Loop Tensor Field Specification (LTFS).docx](<../../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Tensor Field Specification (LTFS).docx>)
 - [Quantum Loop Ontology Protocol (QLOP).docx](<../../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Quantum Loop Ontology Protocol (QLOP).docx>)

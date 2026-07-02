@@ -19,7 +19,7 @@ It defines the vocabulary CICP uses to talk about loops, equivalence, and trust 
 
 ## Representative Files
 
-- [Loop Modeling and Field Theory / Consent–Intent Compression Protocol (CICP).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Consent–Intent Compression Protocol (CICP).docx>)
+- [Loop Modeling and Field Theory / Consent–Intent Compression Protocol (CICP).md](<../../../../artifacts/standard-named/20260622__CICP__PROTOCOL__v1__consent-intent-compression-protocol.md>)
 - [Glyph Languages and Equivalence / 🧬 The Living Glyph Language Protocol.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/🧬 The Living Glyph Language Protocol.docx>)
 - [Synaptic Trust and Propagation / Synaptic Dyad Protocol Specification (SDPS).docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx>)
 

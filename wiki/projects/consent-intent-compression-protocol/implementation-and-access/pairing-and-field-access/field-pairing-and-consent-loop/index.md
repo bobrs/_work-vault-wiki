@@ -12,7 +12,7 @@ It is the access-entry seam of the pairing branch. The documents here describe h
 
 ## Representative Files
 
-- [🕯 Field Echo Protocol (v0.1).docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Field Echo Protocol (v0.1).docx>)
+- [🕯 Field Echo Protocol (v0.1).md](<../../../../../../artifacts/standard-named/20260622__CICP__ACCESS__v1__field-echo-protocol.md>)
 - [🔐 Two-Way TOTP Consent Loop Implementation Overview.docx](<../../../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx>)
 
 ## Working Read

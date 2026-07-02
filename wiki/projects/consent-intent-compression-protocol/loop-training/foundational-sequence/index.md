@@ -18,7 +18,7 @@ The sequence should remain in order because each section depends on the previous
 
 ## Source Artifacts
 
-- [Section 1- Foundational Premise — What is a Loop?.docx](<../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
+- [Section 1- Foundational Premise — What is a Loop?.md](<../../../../../artifacts/standard-named/20260622__CICP__TRAINING__v1__foundational-premise-what-is-a-loop.md>)
 - [Section 2- From Loop to Relational Field.docx](<../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 2- From Loop to Relational Field.docx>)
 - [Section 3- From Loop Structure to Awareness.docx](<../../../../../artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx>)
 

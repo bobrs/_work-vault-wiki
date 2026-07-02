@@ -13,7 +13,7 @@ It is the explanation and onboarding rail: the part of CICP that teaches the loo
 
 ## Representative Files
 
-- [Section 1- Foundational Premise — What is a Loop?.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx>)
+- [Section 1- Foundational Premise — What is a Loop?.md](<../../../../artifacts/standard-named/20260622__CICP__TRAINING__v1__foundational-premise-what-is-a-loop.md>)
 - [Section 3- From Loop Structure to Awareness.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx>)
 - [Section 6- Deployment as Training Tool.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx>)
 
