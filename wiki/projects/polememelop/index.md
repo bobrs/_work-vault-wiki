@@ -6,6 +6,8 @@ This branch is the automeme spine inside the CCSR corpus. It holds the naming an
 
 It also stays explicitly attached to SCT, because the same vocabulary shows up there as an organizing field rather than a standalone project label.
 
+The markdown conversions for the core source docs are now the preferred working copies.
+
 ## Current Shape
 
 - 5 directly relevant root-level documents.
@@ -25,11 +27,11 @@ It also stays explicitly attached to SCT, because the same vocabulary shows up t
 
 ## Representative Files
 
-- [POLEMEMELOP Foundation.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
-- [ULiUA.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/ULiUA.docx>)
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
-- [Loop Collapse Resilience- A Substructure for Automeme Integrity.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Loop Collapse Resilience- A Substructure for Automeme Integrity.docx>)
+- [POLEMEMELOP Foundation.md](<../../../artifacts/standard-named/20260622__POLEMEMELOP__FOUNDATION__v1__polememelop-foundation.md>)
+- [POLEMEMELOP Manifesto.md](<../../../artifacts/standard-named/20260622__POLEMEMELOP__MANIFESTO__v1__polememelop-manifesto.md>)
+- [ULiUA.md](<../../../artifacts/standard-named/20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.md>)
+- [Automeme Propagation Engine.md](<../../../artifacts/standard-named/20260622__POLEMEMELOP__ENGINE__v1__automeme-propagation-engine.md>)
+- [Loop Collapse Resilience.md](<../../../artifacts/standard-named/20260622__POLEMEMELOP__RESILIENCE__v1__loop-collapse-resilience.md>)
 
 ## Working Read
 

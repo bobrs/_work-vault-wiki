@@ -26,7 +26,7 @@ docs/        repository operating instructions
 
 ## Current Phase
 
-The wiki should stay evidence-led. Small durable branches get their own pages. Durable pages should increasingly contain semantic compression and deliberate cross-links, not only labels and source pointers. At this stage, expanding the semantic content of existing wiki pages is more important than ingesting more material when the foundational project is already present. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
+The wiki should stay evidence-led. Small durable branches get their own pages. Durable pages should increasingly contain semantic compression and deliberate cross-links, not only labels and source pointers. At this stage, expanding the semantic content of existing wiki pages is more important than ingesting more material when the foundational project is already present. Markdown should be the preferred working and wiki-facing form when a document can be converted cleanly, while inbound originals remain preserved as archival evidence. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
 External published feeds are handled separately under `wiki/external/` and tracked through `manifest/external_sources.json`, `manifest/external_published_index.jsonl`, and `manifest/external_ingest_log.jsonl`. They are metadata-first wiki integrations, not intake-archive or standard-named source material.
 
 The repository is also adopting a standard-named source layer:
@@ -39,6 +39,8 @@ artifacts/standard-named/   flat directory of standard-named source files
 Inbound files are evidence. Standard-named files are named source copies under the Work Vault naming standard. The wiki should prefer standard-named source links once available, while preserving provenance back to inbound originals where useful.
 
 For projects already represented in the wiki, prioritize semantic extraction, synthesis, and cross-linking on the existing pages before adding more intake or more structural branches.
+
+For document migration, prefer a markdown-first working layer for active material, but do not delete or rewrite inbound originals. Convert high-value clusters first, validate the markdown output, then update wiki links and manifests before broad replacement.
 
 Abracadabracadoo is the protocol-family name and public site. Abracadoo is the renamed PWA app lineage and should stay separate from the protocol page and naming.
 

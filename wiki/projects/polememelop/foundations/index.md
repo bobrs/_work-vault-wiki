@@ -10,8 +10,8 @@ This cluster holds the naming and founding statement for the automeme umbrella. 
 
 ## Representative Files
 
-- [POLEMEMELOP Foundation.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Foundation.docx>)
-- [POLEMEMELOP Manifesto.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/POLEMEMELOP Manifesto.docx>)
+- [POLEMEMELOP Foundation.md](<../../../../artifacts/standard-named/20260622__POLEMEMELOP__FOUNDATION__v1__polememelop-foundation.md>)
+- [POLEMEMELOP Manifesto.md](<../../../../artifacts/standard-named/20260622__POLEMEMELOP__MANIFESTO__v1__polememelop-manifesto.md>)
 
 ## Working Read
 

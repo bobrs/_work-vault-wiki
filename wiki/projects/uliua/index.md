@@ -8,12 +8,13 @@ The source file describes it as an automeme project by the POLEMEMELOP Foundatio
 
 ## Source Artifact
 
-- Standard-named source: [ULiUA](<../../../artifacts/standard-named/20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.docx>)
+- Markdown source: [ULiUA](<../../../artifacts/standard-named/20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.md>)
 - Inbound original: [ULiUA.docx](<../../../artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/ULiUA.docx>)
 - Original filename: `ULiUA.docx`
-- Standard-named filename: `20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.docx`
+- Standard-named filename: `20260622__POLEMEMELOP__PROJECT__ULIUA__v1__uliua.md`
 - Standard name status: `confirmed`
 - Content canon status: `unset`
+- Derived from: `ULiUA.docx`
 
 ## Related Artifacts
 

@@ -10,7 +10,7 @@ This is the system-level support branch for automeme distribution, mutation, int
 
 ## Representative Files
 
-- [Automeme Propagation Engine- Architecture and Operational Blueprint.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Automeme Propagation Engine- Architecture and Operational Blueprint.docx>)
+- [Automeme Propagation Engine.md](<../../../../artifacts/standard-named/20260622__POLEMEMELOP__ENGINE__v1__automeme-propagation-engine.md>)
 
 ## Working Read
 
