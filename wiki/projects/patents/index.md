@@ -36,6 +36,8 @@ The provisional patent material is now treated here as informing artifact rather
 
 The governance/game cluster is the clearest place to read the patent family as a governance signal, not just a legal bundle.
 
+The governance-and-games seam now also has standard-named markdown source copies for the three main manuscripts, which makes the branch easier to maintain as a source layer while the archival PDFs remain attached as evidence.
+
 ## Next Actions
 
 1. Keep the five nested lineage pages stable.

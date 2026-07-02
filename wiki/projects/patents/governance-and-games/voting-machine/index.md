@@ -12,7 +12,7 @@ This branch covers the offline-capable voting seam, including the core provision
 
 ## Representative Files
 
-- [Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
+- [Enhanced Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.md](<../../../../../artifacts/standard-named/20260622__PATENTS__GOVERNANCE-GAMES__VOTING-MACHINE__v1__offline-capable-voting-infrastructure-using-deterministic-cryptographic-key-derivation.md>) · [archive copy](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional Patent Application- Offline-Capable Voting Infrastructure Using Deterministic Cryptographic Key Derivation.docx>)
 - [Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf>)
 - [N417.pdf](<../../../../../artifacts/intake-archive/20260622__patents-intake/Voting Machine/N417.pdf>)
 
@@ -22,12 +22,15 @@ This is the access-control side of the governance cluster. The filing package re
 
 Read as an informing artifact, the branch describes how an offline voting system can preserve custody, determinism, and reviewability without depending on a live network. The useful semantic center is not the filing status; it is the governance shape: how identity, access, entropy, and evidence stay legible while a vote is prepared, cast, and reviewed.
 
-The page can now carry the voting-machine discussion for the cluster while still keeping the patent form visible as historical context rather than active legal work.
+The markdown source copy now carries the manuscript as the working reference, while the cover sheet and `N417` remain the historical/legal witnesses.
+
+That makes the page a direct route into the governance attractor: authority is being encoded as deterministic custody, and custody is being made auditable without requiring live connectivity.
 
 ## Next Actions
 
 1. Keep the voting manuscript and filing attachments together.
 2. Split only if a separate filing or election seam appears.
+3. Keep the markdown source copy as the editable reference and the PDFs as archival companions.
 
 ## Related Links
 
