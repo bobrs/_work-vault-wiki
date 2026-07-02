@@ -164,10 +164,61 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function humanizeSegment(segment) {
+  return segment
+    .replaceAll("-", " ")
+    .replaceAll("_", " ")
+    .replace(/\b([a-z])/g, (_, letter) => letter.toUpperCase());
+}
+
 function relativeHref(fromOut, toOut) {
   const fromDir = path.posix.dirname(fromOut);
   const rel = path.posix.relative(fromDir === "." ? "" : fromDir, toOut);
   return rel || path.posix.basename(toOut);
+}
+
+function breadcrumbLabelForSegment(segment) {
+  const labels = {
+    wiki: "Wiki",
+    vault: "Vault",
+    projects: "Projects",
+    attractors: "Attractors",
+    concepts: "Concepts",
+    external: "External",
+    "source-roles": "Source Roles",
+    "artifact-types": "Artifact Types",
+    incoming: "Incoming",
+    duplicates: "Duplicates",
+    missing: "Missing",
+    README: "README",
+    "WIKI.md": "WIKI.md",
+  };
+  return labels[segment] || humanizeSegment(segment);
+}
+
+function breadcrumbTrail(navActive, title) {
+  if (!navActive) return "";
+  const cleanRoute = navActive.split("?")[0].split("#")[0];
+  const route = cleanRoute.replace(/\.html$/, "");
+  const parts = route.replace(/^\//, "").split("/").filter(Boolean);
+  if (!parts.length) return "";
+  const isIndexPage = cleanRoute.endsWith("/index.html");
+  const ancestorParts = isIndexPage ? parts.slice(0, -2) : parts.slice(0, -1);
+  const crumbs = [];
+  let current = "";
+  for (const part of ancestorParts) {
+    current += `/${part}`;
+    crumbs.push(`<a href="${current}/index.html">${escapeHtml(breadcrumbLabelForSegment(part))}</a>`);
+  }
+  if (!isIndexPage && parts.length > 1) {
+    const leafLabel = breadcrumbLabelForSegment(parts[parts.length - 1]);
+    crumbs.push(`<span aria-current="page">${escapeHtml(leafLabel)}</span>`);
+  } else if (!isIndexPage && parts.length === 1) {
+    crumbs.push(`<span aria-current="page">${escapeHtml(title)}</span>`);
+  } else {
+    crumbs.push(`<span aria-current="page">${escapeHtml(title)}</span>`);
+  }
+  return `<nav class="breadcrumbs" aria-label="Breadcrumb">${crumbs.join('<span class="crumb-separator">/</span>')}</nav>`;
 }
 
 function resolveRepoPath(sourceRel, target) {
@@ -341,6 +392,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
     const active = href === navActive ? " active" : "";
     return `<a class="nav-link${active}" href="${href}">${label}</a>`;
   }).join("");
+  const breadcrumbs = breadcrumbTrail(navActive, title);
 
   return `<!doctype html>
 <html lang="en">
@@ -439,6 +491,30 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       text-transform: uppercase;
       color: var(--accent-2);
       margin: 0 0 12px;
+    }
+    .breadcrumbs {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem;
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .breadcrumbs a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .breadcrumbs a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    .crumb-separator {
+      color: rgba(90, 101, 116, 0.62);
+    }
+    .breadcrumbs [aria-current="page"] {
+      color: var(--accent);
+      font-weight: 700;
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: Georgia, "Times New Roman", serif;
@@ -651,6 +727,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
     </aside>
     <main class="content">
       <section class="page">
+        ${breadcrumbs}
         ${body}
       </section>
     </main>
