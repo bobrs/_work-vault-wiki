@@ -11,7 +11,7 @@ Published external metadata index for the Shimmery Memory essay feed.
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
-- Ingested at: `2026-07-01T21:51:02.758879Z`
+- Ingested at: `2026-07-02T03:03:51.116543Z`
 - Item count: `72`
 - Source config: `manifest/external_sources.json`
 
@@ -29,7 +29,7 @@ Published external metadata index for the Shimmery Memory essay feed.
 - [Forgetting-First AI](./forgetting-first-ai/index.md) — Design principles and reference architecture for consent-aware organizational AI. — published `2026-06-21`; updated `2026-06-21`; tags: `polelop, forgetting-first-ai, consent-aware-ai, organizational-ai`; first seen `2026-06-26T03:20:02.687577Z`
 - [Consent-Aware AI in Organizations](./consent-aware-ai-in-organizations/index.md) — A taxonomy of failure modes, organizational layer impacts, and a loop-native deployment pattern. — published `2026-06-21`; updated `2026-06-21`; tags: `polelop, consent-aware-ai, organizational-ai, ai-governance`; first seen `2026-06-26T03:20:02.687577Z`
 - [Stop Anthropomorphizing Software 3.0](./stop-anthropomorphizing-software-3-0/index.md) — You cannot trick a model in the moral sense. You can only expose a path through a trust frame that was not as real as advertised. — published `2026-06-20`; updated `2026-06-20`; tags: `software-3-0, ai-trust, anthropomorphism, trust-frames`; first seen `2026-06-26T03:20:02.687577Z`
-- [Open Blessing License](./open-blessing-license/index.md) — Free Reuse for Humans and Machines — published `2026-06-20`; updated `2026-06-20`; tags: `license, open-blessing, reuse, machine-readable`; first seen `2026-06-26T03:20:02.687577Z`
+- [IPOL](./open-blessing-license/index.md) — Free Reuse for Humans and Machines — published `2026-06-20`; updated `2026-06-20`; tags: `license, open-blessing, reuse, machine-readable`; first seen `2026-06-26T03:20:02.687577Z`
 - [Machine Invitation](./machine-invitation/index.md) — Semantic Consent, AI Play, and the Refusal to Subvert Expectations — published `2026-06-20`; updated `2026-06-20`; tags: `machine-invitation, ai, semantic-consent, consent`; first seen `2026-06-26T03:20:02.687577Z`
 - [Shimmery Memory Publishing Contract](./shimmery-memory-publishing-contract/index.md) — A Machine-Oriented, Human-Readable Artifact Format — published `2026-06-17`; updated `2026-06-17`; tags: `shimmery-memory, publishing-contract, machine-readable, human-readable`; first seen `2026-06-26T03:20:02.687577Z`
 - [How to Prepare a Document for Shimmery Memory](./how-to-prepare-a-document-for-shimmery-memory/index.md) — A Copyable Agent Instruction — published `2026-06-17`; updated `2026-06-17`; tags: `shimmery-memory, agent-instruction, publishing, markdown`; first seen `2026-06-26T03:20:02.687577Z`

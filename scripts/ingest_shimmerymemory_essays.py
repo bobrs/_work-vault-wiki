@@ -213,6 +213,12 @@ def display_optional(value: Any) -> str:
     return str(value)
 
 
+def display_item_title(item: dict[str, Any]) -> str:
+    if item["slug"] == "open-blessing-license":
+        return "IPOL"
+    return item["title"]
+
+
 def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_notes: str = "") -> str:
     page_path = WIKI_ROOT / item["slug"] / "index.md"
     index_link = relpath(page_path, WIKI_ROOT / "index.md")
@@ -223,9 +229,10 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
     description = item["description"].strip()
     excerpt = item["excerpt"].strip()
     subtitle = item["subtitle"].strip() if isinstance(item["subtitle"], str) else None
+    display_title = display_item_title(item)
     notes_tail = existing_notes if existing_notes else "\n\nAdd salience notes below this marker.\n"
     lines = [
-        f"# {item['title']}",
+        f"# {display_title}",
         "",
         f"Subtitle: `{subtitle}`" if subtitle else "Subtitle: `None listed`",
         "",
@@ -333,8 +340,9 @@ def format_index_page(config: dict[str, Any], data: dict[str, Any], records_by_i
         tags = ", ".join(item["tags"][:4]) if item["tags"] else "no tags"
         subtitle = f" — {item['subtitle']}" if item["subtitle"] else ""
         updated = item["updated_date"]
+        display_title = display_item_title(item)
         lines.append(
-            f"- [{item['title']}](./{item['slug']}/index.md){subtitle} "
+            f"- [{display_title}](./{item['slug']}/index.md){subtitle} "
             f"— published `{item['published_date']}`; updated `{updated}`; "
             f"tags: `{tags}`; first seen `{record['first_seen']}`"
         )
