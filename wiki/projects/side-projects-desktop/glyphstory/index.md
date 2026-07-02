@@ -14,10 +14,10 @@ This branch collects the narrative, investor, and loopgame material around Loopl
 
 ## Representative Files
 
-- [Looplang Social Good.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Social Good.docx>)
-- [Glyph Story Investor Brief.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Glyph Story Investor Brief.docx>)
-- [Looplang Glyphstory Narrative.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Glyphstory Narrative.docx>)
-- [Looplang Loopstory Loopgame.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Loopstory Loopgame.docx>)
+- [Looplang Social Good.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Social Good.docx>)
+- [Glyph Story Investor Brief.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Glyph Story Investor Brief.docx>)
+- [Looplang Glyphstory Narrative.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Glyphstory Narrative.docx>)
+- [Looplang Loopstory Loopgame.docx](<../../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Loopstory Loopgame.docx>)
 
 ## Working Read
 
