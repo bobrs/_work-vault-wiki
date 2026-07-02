@@ -32,7 +32,17 @@ The trust-and-pairing manuscripts, forms, and diagrams now have standard-named s
 
 The encoding/interface family now has a dedicated `Color Alpha Codec Patent` subpage for the HTML demo and encoder/decoder material.
 
+The provisional patent material is now treated here as informing artifact rather than live filing strategy, so the wiki can keep the design logic visible without implying active prosecution.
+
+The governance/game cluster is the clearest place to read the patent family as a governance signal, not just a legal bundle.
+
 ## Next Actions
 
 1. Keep the five nested lineage pages stable.
 2. Split only if one of the patent clusters develops another durable seam.
+
+## Attractor Bridge
+
+- [Governance](../../attractors/governance/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Trust](../../attractors/trust/index.md)
