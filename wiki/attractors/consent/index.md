@@ -29,12 +29,14 @@ Consent is the structural difference between participation and extraction. It de
 
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Consent-Intent Compression Protocol](../../projects/consent-intent-compression-protocol/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Consent Is the Gradient Mask on Optimization](../../external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md)
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
 - [Privacy Is a Membrane, Not a Wall](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md)
 
 ## Adjacent Research
 
+- [Consentocracy](https://consentocracy.com) · composite
 - [Posture Fraud](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md)
 - [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
 - [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)
@@ -88,6 +90,7 @@ Consent is the structural difference between participation and extraction. It de
 
 - Start with [Intent-Consent](../../concepts/intent-consent/index.md) for the local concept.
 - Continue to [Consent-Intent Compression Protocol](../../projects/consent-intent-compression-protocol/index.md) for protocol structure.
+- Read [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md) for the provenance/governance route.
 - Read [Consent Is the Gradient Mask on Optimization](../../external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md) for the published_external essay path.
 
 <!-- END OPEN RESEARCH EDGES -->

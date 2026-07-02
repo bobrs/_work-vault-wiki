@@ -19,6 +19,7 @@ This cluster holds the governance, manifesto, and participation material.
 This page holds the governance side of the world-building branch. The documents define the public rules, participation logic, and network-state framing that make the branch operational.
 
 It reads as the structural and civic layer of Wold Building rather than the marketing or pledge layer. That distinction is what makes the split useful.
+It also sits adjacent to the broader consentocracy bridge: the same default-flip logic appears here as participation and governance rather than as AI provenance policy.
 
 ## Related Links
 
@@ -26,6 +27,7 @@ It reads as the structural and civic layer of Wold Building rather than the mark
 - [Investor Materials](../investor-materials/index.md)
 - [Consent Wave and Self State](../../consent-wave-and-self-state/index.md)
 - [Consent Physics](../../../consent-physics/index.md)
+- [The Consentocracy Bridge](../../../../../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

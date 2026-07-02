@@ -16,11 +16,15 @@ This branch collects the consent-economy and self-sovereignty documents.
 This is the policy/economics seam inside Governance.
 
 The page should stay focused on consent economy and self-sovereignty as a policy cluster. It is the natural place to attach future governance-specific links that follow the internal model rather than the external pitch.
+The consentocracy bridge sits adjacent to this seam as the external articulation of the same default-flip logic.
+It also sits downstream of the broader consentocracy framing, which is why the bridge essay belongs nearby as the external articulation of the same default-flip logic.
 
 ## Related Links
 
 - [Governance](../index.md)
 - [Consulting and Uncertainty](../consulting-and-uncertainty/index.md)
+- [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
+- [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

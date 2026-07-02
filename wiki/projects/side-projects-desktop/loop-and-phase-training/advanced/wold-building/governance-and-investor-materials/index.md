@@ -27,6 +27,7 @@ This is the governance/economics seam inside Wold Building. The split now falls 
 The governance side carries the primer, manifesto, and participation clause. The investor side carries the page and pledge. That makes the branch easier to read as a real world-building apparatus rather than a mixed pile of consentocratic documents.
 
 The page should stay readable as the umbrella for those two functions, not as the final home for all consentocratic messaging.
+The Consentocracy Bridge is the external governance articulation that sits nearby when this branch needs to be read as policy rather than only as world-building.
 
 ## Related Links
 
@@ -34,6 +35,7 @@ The page should stay readable as the umbrella for those two functions, not as th
 - [Governance and Participation](governance-and-participation/index.md)
 - [Investor Materials](investor-materials/index.md)
 - [Consent Wave and Self State](../consent-wave-and-self-state/index.md)
+- [The Consentocracy Bridge](../../../../../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 
