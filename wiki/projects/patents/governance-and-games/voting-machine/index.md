@@ -5,6 +5,7 @@ Parent lineage: `Patents` / `Governance and Games`
 This branch covers the offline-capable voting seam, including the core provisional draft, supporting filing paperwork, and the `N417` attachment.
 
 This page is the public landing page for the voting-machine concept in the Work Vault. The provisional patent itself has been abandoned and is treated here as an informing artifact: useful as a design record, not as active patent strategy.
+It now also serves as the detailed lineage witness for the promoted [Voting Machine](../../../voting-machine/index.md) project page.
 
 ## Current Shape
 
@@ -76,6 +77,7 @@ That gives the page a strong relationship to [Governance](../../../../attractors
 
 ## Related Links
 
+- [Voting Machine project](../../../voting-machine/index.md)
 - [Governance](../../../../attractors/governance/index.md)
 - [Consent](../../../../attractors/consent/index.md)
 - [Intent-Consent](../../../../concepts/intent-consent/index.md)

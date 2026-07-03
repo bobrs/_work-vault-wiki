@@ -9,7 +9,7 @@ The current corpus already supports recurring attractors and stabilized concept 
 - [Attention](../attractors/attention/index.md) -> [Attention](attention/index.md)
 - [Intuition](../attractors/intuition/index.md) -> [How Intuition Works](../projects/how-intuition-works/index.md)
 - [Provenance](../attractors/provenance/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md)
-- [Governance](../attractors/governance/index.md) -> [Governance Diad](governance-diad/index.md), [POLEMEMELOP](polememelop/index.md)
+- [Governance](../attractors/governance/index.md) -> [Governance Diad](governance-diad/index.md), [POLEMEMELOP](polememelop/index.md), [Voting Machine](../projects/voting-machine/index.md)
 - [Grounding](../attractors/grounding/index.md) -> [How Intuition Works](../projects/how-intuition-works/index.md), [Consent Physics](consent-physics/index.md)
 - [Loop Mechanics](../attractors/loop-mechanics/index.md) -> [LoopLink](looplink/index.md), [Loop Economy](loop-economy/index.md)
 - [Agency](../attractors/agency/index.md) -> [Intent-Consent](intent-consent/index.md), [PDSP](pdsp/index.md)

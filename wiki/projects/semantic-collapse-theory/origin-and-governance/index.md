@@ -33,6 +33,8 @@ This is the place where the theory begins to become explicit about stewardship, 
 
 It sits upstream of the temporal, story, and continuity branches, so it should be read as the legitimacy layer for the rest of SCT.
 As a field atlas, it is the SCT seam closest to [Witness](../../../attractors/witness/index.md), [Governance](../../../attractors/governance/index.md), [Consent](../../../attractors/consent/index.md), and [Provenance](../../../attractors/provenance/index.md): it names how origin becomes legitimate, how authority gets witnessed, and how stewardship remains legible.
+If the Governance attractor is the abstract boundary-management layer, this SCT cluster is its theory-side account of how legitimacy, witness, and stewardship become durable enough to structure a corpus.
+The nearby [Voting Machine](../../voting-machine/index.md) project is a useful downstream comparison point because it turns the same witness-and-rule problem into election custody, audit evidence, and privacy-preserving legitimacy.
 
 ## Related Links
 
@@ -41,6 +43,7 @@ As a field atlas, it is the SCT seam closest to [Witness](../../../attractors/wi
 - [Story](../story/index.md)
 - [Witness and Governance](witness-and-governance/index.md)
 - [Narrative and Fieldnotes](narrative-and-fieldnotes/index.md)
+- [Voting Machine](../../voting-machine/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 - [Witness](../../../attractors/witness/index.md)
 - [Governance](../../../attractors/governance/index.md)

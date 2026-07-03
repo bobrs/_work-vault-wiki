@@ -25,12 +25,14 @@ This is a governance/economics branch: the consent-economy and sovereignty mater
 
 The branch reads as a policy and opportunity node rather than a single document set. One track is internal governance and sovereignty framing, and the other track is external-facing consulting and uncertainty language. Keeping those seams separate makes the branch useful as a map for how the same themes appear in different audience contexts.
 It belongs near the Governance attractor because the real distinction here is not topic but authority surface: who gets to decide, which audience is being addressed, and what form of consent or self-sovereignty the material assumes.
+It also now has a concrete adjacent project in [Voting Machine](../../voting-machine/index.md), where governance becomes election custody, offline auditability, and bounded participation rather than policy framing alone.
 
 ## Related Links
 
 - [Consent Economy and Sovereignty](consent-economy-and-sovereignty/index.md)
 - [Consulting and Uncertainty](consulting-and-uncertainty/index.md)
 - [Side Projects Desktop](../index.md)
+- [Voting Machine](../../voting-machine/index.md)
 - [Governance](../../../attractors/governance/index.md)
 - [Consent](../../../attractors/consent/index.md)
 - [Trust](../../../attractors/trust/index.md)

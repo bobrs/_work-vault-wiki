@@ -20,6 +20,7 @@ This page holds the governance side of the world-building branch. The documents 
 
 It reads as the structural and civic layer of Wold Building rather than the marketing or pledge layer. That distinction is what makes the split useful.
 It also sits adjacent to the broader consentocracy bridge: the same default-flip logic appears here as participation and governance rather than as AI provenance policy.
+The nearby [Voting Machine](../../../../../../voting-machine/index.md) project gives this branch a concrete civic-infrastructure counterpart, where participation rules, auditability, and refusal of identity collapse become operational system design.
 
 ## Related Links
 
@@ -27,7 +28,8 @@ It also sits adjacent to the broader consentocracy bridge: the same default-flip
 - [Investor Materials](../investor-materials/index.md)
 - [Consent Wave and Self State](../../consent-wave-and-self-state/index.md)
 - [Consent Physics](../../../consent-physics/index.md)
-- [The Consentocracy Bridge](../../../../../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
+- [Voting Machine](../../../../../../voting-machine/index.md)
+- [The Consentocracy Bridge](../../../../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

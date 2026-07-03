@@ -28,11 +28,14 @@ The client-facing material frames Continuity Engine as an execution layer for go
 
 The sovereign governance material uses the same structural language but applies it to Tribal law, commission rules, compact obligations, and regulatory review.
 
+That same authority-sensitive logic now has a clear adjacent project in [Voting Machine](../voting-machine/index.md), where governance becomes offline custody, auditability, and admissible civic evidence rather than only operational briefing language.
+
 The firm-specific material turns the same structure toward a 90-day pilot, executive positioning, partner-facing adoption language, and a broader AI capability strategy for the firm.
 
 ## Related Links
 
 - [Continuity Office](../continuity-office/index.md)
+- [Voting Machine](../voting-machine/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
 

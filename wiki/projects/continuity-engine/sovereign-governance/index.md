@@ -16,11 +16,17 @@ This seam holds the governance briefs aimed at Tribal council and Tribal gaming 
 ## Working Read
 
 This seam uses the same structural model as the client materials but shifts the center of gravity to sovereign authority, compact obligations, regulatory review, and change impact. It reads as a governance execution layer for authority-sensitive environments.
+It also sits close to the Governance attractor because the real subject is not the document format but the shape of authorization, accountability, and review under a hierarchy that must remain legible while it moves.
+It also has a concrete sibling in [Voting Machine](../../voting-machine/index.md), where the same governance concerns appear as election custody, offline verification, and privacy-preserving audit rather than executive or council briefing.
 
 ## Related Links
 
 - [Continuity Engine](../index.md)
 - [Continuity Office](../../continuity-office/index.md)
+- [Voting Machine](../../voting-machine/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [Consent](../../../attractors/consent/index.md)
 
 ## Next Actions
 

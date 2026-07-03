@@ -8,9 +8,13 @@ This page is an attractor gateway, not a canon declaration. It compresses curren
 
 In this vault, governance is how power becomes structure: the translation of constraint, legitimacy, accountability, coordination, and drift management into systems that can survive human and machine agency.
 
+It is the boundary-management layer that decides who may act, under what conditions, and how drift gets noticed before it becomes capture.
+
 ## Why It Matters
 
 Governance is where consent, trust, provenance, and attention become institutional or operational. It is also where living loops can become extractive if accountability fails.
+
+In this corpus, governance is not bureaucracy in the narrow sense. It is the operational shape of legitimacy: the place where a system decides what counts as authorization, what must remain revocable, what needs witness, and what kind of evidence can travel without distorting the thing it represents.
 
 ## Core Motifs
 
@@ -21,6 +25,21 @@ Governance is where consent, trust, provenance, and attention become institution
 - drift
 - coordination
 - power and legibility
+- authorization
+- revocation
+- witness
+- authority gradients
+- governance as boundary work
+
+## Subpaths
+
+- boundary
+- authority
+- legitimacy
+- accountability
+- drift
+- revocation
+- institutional fit
 
 <!-- END CURATED SEMANTIC COMPRESSION -->
 
@@ -28,6 +47,12 @@ Governance is where consent, trust, provenance, and attention become institution
 
 ## Primary Research
 
+- [Semantic Collapse Theory / Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md)
+- [Governance and Games](../../projects/patents/governance-and-games/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Sovereign Governance](../../projects/continuity-engine/sovereign-governance/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [Governance Diad](../../concepts/governance-diad/index.md)
 - [Machiavelli Reconsidered](../../external/shimmerymemory/essays/machiavelli-reconsidered/index.md)
 - [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
@@ -42,6 +67,8 @@ Governance is where consent, trust, provenance, and attention become institution
 - [From "Let's Just Be Fair" to Consent-Governed Automation](../../external/shimmerymemory/essays/from-fairness-to-consent-vectors/index.md)
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md)
+- [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
+- [Privacy Is a Membrane, Not a Wall](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md)
 - [Semantic Collapse Theory / Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md)
 
 ## Related Projects
@@ -49,6 +76,10 @@ Governance is where consent, trust, provenance, and attention become institution
 - [Continuity Office](../../projects/continuity-office/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
+- [WitnessKey](../../projects/witnesskey/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Side Projects Desktop / Governance](../../projects/side-projects-desktop/governance/index.md)
+- [Quantum Invariants](../../projects/quantum-invariants/index.md)
 
 ## Related Concepts
 
@@ -85,10 +116,14 @@ Governance is where consent, trust, provenance, and attention become institution
 - How can governance constrain power without freezing life?
 - What makes machine-mediated governance accountable?
 - Where does legibility become domination?
+- What must remain revocable for governance to stay consentful?
+- When does governance become a substitute for witness instead of a support for it?
 
 ## Next Navigation
 
 - Start with [Governance Diad](../../concepts/governance-diad/index.md).
+- Continue to [Semantic Collapse Theory / Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md) for the theory-side authority layer.
+- Continue to [Voting Machine](../../projects/voting-machine/index.md) for a concrete civic-infrastructure example of governance as custody, audit, and revocable trust.
 - Continue to [From Output to Constitutional AI](../../external/shimmerymemory/essays/from-output-to-constitutional-ai/index.md) for the machine-governance route.
 - Use [Trust](../trust/index.md) when governance depends on proof, witness, and repair.
 

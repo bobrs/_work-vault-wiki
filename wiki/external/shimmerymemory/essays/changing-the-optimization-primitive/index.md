@@ -66,6 +66,7 @@ Excerpt:
 - [Consentful Cybernetics](../../../../projects/consentful-cybernetics/index.md)
 - [Governance and Participation](../../../../projects/side-projects-desktop/loop-and-phase-training/advanced/wold-building/governance-and-investor-materials/governance-and-participation/index.md)
 - [Consent Economy and Sovereignty](../../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
+- [Voting Machine](../../../../projects/voting-machine/index.md)
 
 ## Working Read
 

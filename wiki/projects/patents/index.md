@@ -48,3 +48,4 @@ The governance-and-games seam now also has standard-named markdown source copies
 - [Governance](../../attractors/governance/index.md)
 - [Witness](../../attractors/witness/index.md)
 - [Trust](../../attractors/trust/index.md)
+- [Voting Machine](../voting-machine/index.md)

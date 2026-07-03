@@ -10,6 +10,8 @@ The concept is useful because it refuses to flatten legitimacy into either raw o
 
 That is why Governance Diad sits next to [Witnessing](../witnessing/index.md), [Intent-Consent](../intent-consent/index.md), [LoopLink](../looplink/index.md), and [POLEMEMELOP](../polememelop/index.md). It is the point where procedural trust becomes a governable pattern, and where SCT’s authority logic becomes readable as a branch-level stewardship model.
 
+The same pattern also appears downstream in [Voting Machine](../../projects/voting-machine/index.md), where eligibility witness and ballot rule must stay paired without collapsing identity into the vote record.
+
 ## Related Artifacts
 
 - [SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/SCT-GD-01- Governance Diad- Semantic Protocol for Living Document Stewardship.docx>)
@@ -21,6 +23,7 @@ That is why Governance Diad sits next to [Witnessing](../witnessing/index.md), [
 - [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md)
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Witnessing](../witnessing/index.md)
 - [POLEMEMELOP](../polememelop/index.md)
 - [Intent-Consent](../intent-consent/index.md)

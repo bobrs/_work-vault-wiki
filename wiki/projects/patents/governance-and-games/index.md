@@ -28,6 +28,7 @@ Read now as a governance atlas rather than a patent-ops folder. The voting machi
 That makes the cluster useful even after the provisional filings are abandoned: the documents still inform the wiki’s governance vocabulary, especially where consent, witness, trust, revocation, and offline custody need to stay legible.
 
 The three manuscript pages now have markdown source copies in `artifacts/standard-named/`; the cover sheets and `N417` remain archival witnesses.
+The [Voting Machine](../../voting-machine/index.md) project page now serves as the first-class governance entry point for the strongest civic branch in this cluster, while this page remains the patent-lineage map.
 
 ## Next Actions
 
@@ -45,3 +46,4 @@ The three manuscript pages now have markdown source copies in `artifacts/standar
 - [Quantum Invariants](../../quantum-invariants/index.md)
 - [Semantic Integrity](../../semantic-integrity/index.md)
 - [Continuity Engine / Sovereign Governance](../../continuity-engine/sovereign-governance/index.md)
+- [Voting Machine](../../voting-machine/index.md)
