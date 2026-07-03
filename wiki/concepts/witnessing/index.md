@@ -13,6 +13,7 @@ The new witness-infrastructure essay extends that logic into the AI economy: the
 Witnessing also feeds [Governance Diad](../governance-diad/index.md) because certification creates the basis for rule, and it feeds [LoopLink](../looplink/index.md) because transport and recovery need a trusted observation trail. [Abracadabracadoo](../abracadabracadoo/index.md) inherits this logic at the protocol surface whenever a family of documents needs a recoverable state.
 
 Within SCT, witness logic also underpins the authority track in [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md) and the story-side governance page in [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md). Those pages are the theory-level equivalents of the numbered practice in the desktop branch.
+The [Voting Machine](../../projects/voting-machine/index.md) project is the civic-system analogue: it turns witness into custody, auditability, and revocable legitimacy instead of only document sequencing.
 
 ## Related Artifacts
 
@@ -31,6 +32,7 @@ Within SCT, witness logic also underpins the authority track in [Witness and Gov
 - [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
 - [Loop Maintenance Kit](../../projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md)
 - [Genesis](../../projects/side-projects-desktop/genesis/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Story](../../projects/semantic-collapse-theory/story/index.md)
 - [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md)

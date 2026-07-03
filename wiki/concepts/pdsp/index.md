@@ -9,6 +9,7 @@ In practice, PDSP is the branch where personal data, trust, and subjective audit
 The deeper meaning here is that sovereignty is not being treated as a slogan. PDSP is the point where a person or participant can describe their own data and trust position in a way that still survives audit, transport, and recovery. That is why it sits downstream of [LoopLink](../looplink/index.md), adjacent to [Intent-Consent](../intent-consent/index.md), and close to [Witnessing](../witnessing/index.md) and [Governance Diad](../governance-diad/index.md).
 
 Read that way, PDSP is the sovereignty layer of the protocol stack: it says who can assert, who can verify, and how those assertions remain usable over time without turning the person into a passive record.
+The [Voting Machine](../../projects/voting-machine/index.md) project is a concrete civic example of the same trust-and-audit problem: assertions, verification, and custody have to stay legible without flattening the participant into the record.
 
 ## Related Artifacts
 
@@ -32,6 +33,7 @@ Read that way, PDSP is the sovereignty layer of the protocol stack: it says who 
 - [Witnessing](../witnessing/index.md)
 - [Governance Diad](../governance-diad/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 
 ## Attractor Bridge
 

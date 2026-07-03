@@ -29,6 +29,7 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 ## Primary Research
 
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md)
 - [Stop Anthropomorphizing Software 3.0](../../external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md)
@@ -46,6 +47,7 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 ## Related Projects
 
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 
@@ -89,6 +91,7 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 ## Next Navigation
 
 - Start with [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md).
+- Continue to [Voting Machine](../../projects/voting-machine/index.md) when trust needs to be read as custody, auditability, and revocable legitimacy.
 - Continue to [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md).
 - Use [Witness](../witness/index.md) when trust depends on observation, record, or testimony.
 

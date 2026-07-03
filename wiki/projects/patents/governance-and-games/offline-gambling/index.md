@@ -21,6 +21,7 @@ The provisional patent status is now historical context; the page is useful as a
 This is the game-pattern side of the governance cluster. The manuscript and the cover sheet stay together as one compact patent branch.
 
 Read semantically, the branch describes how a deterministic system can stay playable, auditable, and constrained without collapsing into online dependence. That makes it adjacent to governance because the same logic decides what state is allowed to move, what evidence survives the move, and what kind of authority the system can safely assume.
+The [Voting Machine](../../../voting-machine/index.md) project is a close governance sibling because it also treats deterministic state, custody, and reviewability as the core problem rather than the network layer itself.
 
 The markdown source copy now captures that logic as the working reference. The cover sheet remains the archival witness.
 
@@ -40,3 +41,4 @@ The cluster is also a useful comparator for governance language because it turns
 - [Trust](../../../../attractors/trust/index.md)
 - [Quantum Invariants](../../../quantum-invariants/index.md)
 - [Semantic Integrity](../../../semantic-integrity/index.md)
+- [Voting Machine](../../../voting-machine/index.md)

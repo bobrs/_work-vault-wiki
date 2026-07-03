@@ -7,6 +7,7 @@ This page extracts the pilot half of the initial due diligence FAQ into a deeper
 The pilot tests whether a regulated workflow becomes more legible, auditable, and safely assistable when its policies, roles, evidence requirements, and review obligations are made explicit inside a semantic container.
 
 The claim is not that AI should make decisions on its own. The claim is that structured context can make local or private AI meaningfully more useful in the workflow boundary humans already control.
+The [Voting Machine](../../voting-machine/index.md) project is the civic analogy for this kind of bounded system design: authority boundaries, evidence requirements, and human review stay explicit because the workflow cannot afford ambiguity.
 
 ## What The Pilot Must Prove
 
@@ -87,3 +88,4 @@ The client should retain the workflow artifacts. Semantic Integrity should retai
 - [Semantic Integrity project page](../index.md)
 - [Investor framing](../investor-framing/index.md)
 - [Semantic Movement Signals](../semantic-movement-signals/index.md)
+- [Voting Machine](../../voting-machine/index.md)

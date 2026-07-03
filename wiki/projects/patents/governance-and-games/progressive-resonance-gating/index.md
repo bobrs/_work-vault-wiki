@@ -18,6 +18,7 @@ The provisional filing is now treated as an informing artifact for access-contro
 This is the narrow access-control seam in the governance cluster. It stands on its own because the draft already reads like a durable branch rather than a loose note.
 
 The useful semantic center is the gating logic: consent-conditioned access, layered identity representation, and the rule that a system should reveal only what the current authorization state supports. That puts the page close to governance, witness, trust, and consent rather than to generic patent prose.
+The [Voting Machine](../../../voting-machine/index.md) project is a concrete sibling because it uses the same consent-and-authorization logic to separate access, identity, and review in a high-stakes civic workflow.
 
 The markdown source copy now serves as the working reference, while the intake docx remains the source witness.
 
@@ -37,3 +38,4 @@ This is the most direct bridge in the cluster between access control and consent
 - [Trust](../../../../attractors/trust/index.md)
 - [Quantum Invariants](../../../quantum-invariants/index.md)
 - [Semantic Integrity](../../../semantic-integrity/index.md)
+- [Voting Machine](../../../voting-machine/index.md)

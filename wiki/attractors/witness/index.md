@@ -43,6 +43,7 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 ## Related Projects
 
 - [WitnessKey](../../projects/witnesskey/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
 
@@ -83,6 +84,7 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 
 - Start with [Witnessing](../../concepts/witnessing/index.md) for the concept layer.
 - Continue to [WitnessKey](../../projects/witnesskey/index.md) for operational witness and provenance infrastructure.
+- Continue to [Voting Machine](../../projects/voting-machine/index.md) when witness needs to carry civic custody, ballot legitimacy, and audit evidence.
 - Read [Witness as Skill-Set and Boundary Set](../../external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md) for the strongest published_external entry point.
 
 <!-- END OPEN RESEARCH EDGES -->

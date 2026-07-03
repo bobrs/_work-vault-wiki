@@ -20,12 +20,14 @@ This cluster holds the advanced architecture and change-event lessons.
 This track is the upper edge of the continuity curriculum: architecture, explicit boundaries, audit translation, and major change events.
 
 It keeps the highest-stakes continuity problems together so they can be read as a coherent advanced layer.
+The [Voting Machine](../../voting-machine/index.md) project belongs nearby as a high-stakes example of continuity, audit, and authority boundaries under civic pressure.
 
 ## Related Links
 
 - [Continuity Office](../index.md)
 - [Operating Model and Leadership](../operating-model-and-leadership/index.md)
 - [AI and Automation Continuity](../ai-and-automation-continuity/index.md)
+- [Voting Machine](../../voting-machine/index.md)
 
 ## Next Actions
 

@@ -5,6 +5,7 @@ This memo defines an early-warning layer for continuity review: track when meani
 ## Working Read
 
 Semantic movement signals are instrumentation, not adjudication. They help humans notice drift, divergence, acceleration, whiplash, attractor pull, and continuity gaps so review can happen before operational failure hardens.
+The [Voting Machine](../../voting-machine/index.md) project is a concrete example of the same review logic: signal, review queue, and legitimacy-sensitive custody have to stay separable.
 
 ## Signal Families
 
@@ -34,3 +35,4 @@ Semantic movement signals are instrumentation, not adjudication. They help human
 
 - [Semantic Integrity project page](../index.md)
 - [Consentful Cybernetics](../../consentful-cybernetics/index.md)
+- [Voting Machine](../../voting-machine/index.md)

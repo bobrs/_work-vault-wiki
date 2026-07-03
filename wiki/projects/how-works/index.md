@@ -48,6 +48,7 @@ It is intentionally shallow for now. The material already touches consent, inten
 The branch works as a compression node for a family of explanatory essays that are durable individually but not yet fully split.
 
 The consent and intent pieces connect directly to the existing consent stack. The money, accountability, honesty, and exploitation pieces lean toward governance and economic framing. The state and orientation pieces read more like world-model or loop-navigation essays. The self and affect pieces sit close to the emotional and identity branches already present elsewhere in the repo.
+The [Voting Machine](../voting-machine/index.md) project belongs nearby because the audit and accountability theme in this umbrella already points toward custody, evidence, and legitimacy under constraint.
 
 That makes this a useful bridge page: it keeps the cluster visible without forcing every essay into a separate branch before the corpus has enough perspective.
 
@@ -57,6 +58,7 @@ That makes this a useful bridge page: it keeps the cluster visible without forci
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
+- [Voting Machine](../voting-machine/index.md)
 - [Governance](../side-projects-desktop/governance/index.md)
 - [Loop and Phase Training](../side-projects-desktop/loop-and-phase-training/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
