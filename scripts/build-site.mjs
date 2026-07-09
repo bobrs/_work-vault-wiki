@@ -6,6 +6,7 @@ import { fileURLToPath } from "url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
 const REPO_URL = "https://github.com/bobrs/_work-vault-wiki/blob/main";
+const PUBLIC_WIKI_VERSION = "2026-07-09";
 const SOURCE_MARKDOWN = [];
 const OUTPUT_FOR_SOURCE = new Map();
 const NAV_ITEMS = [
@@ -1074,6 +1075,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       <section class="page">
         ${breadcrumbs}
         ${body}
+        <footer class="footer">Wiki build version ${escapeHtml(PUBLIC_WIKI_VERSION)} · <a href="/CHANGELOG.md">CHANGELOG.md</a></footer>
       </section>
     </main>
   </div>
