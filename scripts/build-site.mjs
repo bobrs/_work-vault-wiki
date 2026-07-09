@@ -49,6 +49,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/",
     type: "landing_page",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Public static interface for the vault, wiki, and raw repository source.",
     tags: ["home", "navigation", "vault", "wiki"],
@@ -58,6 +59,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Structured index behind the public Attractor Gateway.",
     tags: ["wiki", "navigation", "corpus"],
@@ -67,6 +69,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/projects/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "projects",
     status: "current",
     summary: "Navigation index for project families in the work vault wiki.",
     tags: ["projects", "navigation", "corpus"],
@@ -76,6 +79,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/concepts/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "concepts",
     status: "current",
     summary: "Recurring concept layer that survives across branches.",
     tags: ["concepts", "navigation", "corpus"],
@@ -85,6 +89,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/attractors/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "attractors",
     status: "current",
     summary: "Entry points into the corpus by meaning rather than file path.",
     tags: ["attractors", "navigation", "corpus"],
@@ -94,6 +99,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/projects/cross-index/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "projects",
     status: "current",
     summary: "Generated index of project families against attractors, concepts, and essays.",
     tags: ["cross-index", "projects", "linking"],
@@ -103,6 +109,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/source-roles/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Generated index of inventory source roles.",
     tags: ["source-role", "inventory", "navigation"],
@@ -112,6 +119,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/artifact-types/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Generated index of source-layer artifact types.",
     tags: ["artifact-type", "inventory", "navigation"],
@@ -121,6 +129,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/incoming-review",
     type: "review_queue",
     source_role: "review_queue",
+    collection: "maintenance",
     status: "current",
     summary: "Current intake triage and routing state.",
     tags: ["incoming", "review", "routing"],
@@ -130,6 +139,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/duplicate-review",
     type: "review_queue",
     source_role: "review_queue",
+    collection: "maintenance",
     status: "current",
     summary: "Duplicate sets and collapse decisions.",
     tags: ["duplicates", "review", "collapse"],
@@ -139,6 +149,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/missing-files",
     type: "review_queue",
     source_role: "review_queue",
+    collection: "maintenance",
     status: "current",
     summary: "Broken, absent, or not-yet-routed source references.",
     tags: ["missing", "review", "routing"],
@@ -148,6 +159,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/wiki/external/shimmerymemory/essays/",
     type: "generated_index",
     source_role: "published_external",
+    collection: "essays",
     status: "current",
     summary: "Metadata-first index of published external essay records.",
     tags: ["external", "essays", "published_external"],
@@ -157,6 +169,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/vault/",
     type: "raw_vault",
     source_role: "source_inventory",
+    collection: "vault",
     status: "current",
     summary: "Browsable repository inventory with GitHub source links.",
     tags: ["vault", "inventory", "source"],
@@ -166,6 +179,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/ai/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Public starting point for machine readers and agents entering the Work Vault Wiki.",
     tags: ["ai", "navigation", "grounding"],
@@ -175,6 +189,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/start-here-for-ai/",
     type: "reader_path",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Fast path into the AI grounding surfaces.",
     tags: ["ai", "reader-path", "grounding"],
@@ -184,6 +199,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/search/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "navigation",
     status: "current",
     summary: "Static metadata search over public wiki and corpus orientation surfaces.",
     tags: ["search", "navigation", "metadata"],
@@ -193,6 +209,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/search.json",
     type: "utility",
     source_role: "utility",
+    collection: "navigation",
     status: "current",
     summary: "JSON search index for public wiki and corpus orientation surfaces.",
     tags: ["search", "json", "metadata"],
@@ -202,6 +219,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph exports and review surfaces.",
     tags: ["graph", "navigation", "metadata"],
@@ -211,6 +229,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/projects/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of project pages and explicit links across the project tree.",
     tags: ["graph", "projects", "links"],
@@ -220,6 +239,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/attractors/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of attractor gateway pages and their explicit links.",
     tags: ["graph", "attractors", "links"],
@@ -229,6 +249,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/concepts/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of concept pages and their explicit links.",
     tags: ["graph", "concepts", "links"],
@@ -238,6 +259,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/essays/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of published external essay pages and their explicit links.",
     tags: ["graph", "essays", "links"],
@@ -247,6 +269,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/source-roles/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of source-role relationships from inventory and published external records.",
     tags: ["graph", "source-role", "manifest"],
@@ -256,6 +279,7 @@ const SEARCH_SPECIAL_RECORDS = [
     url: "/graph/artifact-types/",
     type: "generated_index",
     source_role: "semantic_navigation",
+    collection: "graph",
     status: "current",
     summary: "Generated graph of artifact-type relationships from the inventory manifest.",
     tags: ["graph", "artifact-type", "manifest"],
@@ -1368,6 +1392,15 @@ function addSearchRecord(records, seenUrls, record) {
   records.push(record);
 }
 
+function searchCollectionForSourceRel(sourceRel) {
+  if (sourceRel.startsWith("wiki/projects/")) return "projects";
+  if (sourceRel.startsWith("wiki/concepts/")) return "concepts";
+  if (sourceRel.startsWith("wiki/attractors/")) return "attractors";
+  if (sourceRel.startsWith("wiki/external/shimmerymemory/essays/")) return "essays";
+  if (sourceRel.startsWith("wiki/")) return "wiki";
+  return "navigation";
+}
+
 function createWikiSearchRecord(sourceRel, sourceText) {
   const title = titleForSourceText(sourceText, path.posix.basename(sourceRel, ".md"));
   const route = canonicalPublicUrl(routeForOutput(outputForSource(sourceRel)));
@@ -1380,6 +1413,9 @@ function createWikiSearchRecord(sourceRel, sourceText) {
     url: route,
     type,
     source_role: sourceRole,
+    collection: searchCollectionForSourceRel(sourceRel),
+    source_path: sourceRel,
+    section: path.posix.dirname(sourceRel).replace(/^wiki\//, "").split("/")[0] || "wiki",
     status,
     summary,
     tags: tagsFromSourcePath(sourceRel),
@@ -1407,10 +1443,12 @@ function renderSearchPage(searchRecords) {
         <span class="tag">metadata-first</span>
       </div>
       <p>This search surface indexes public wiki and navigation metadata, not full raw file contents. Use it to move from a concept or project name into the current public entry points.</p>
+      <div id="collectionStats" class="status-grid"></div>
       <div class="search-toolbar">
         <input id="q" type="search" placeholder="Search title, summary, tags, or URL">
         <select id="typeFilter"><option value="">All types</option></select>
         <select id="roleFilter"><option value="">All source roles</option></select>
+        <select id="collectionFilter"><option value="">All collections</option></select>
         <select id="statusFilter"><option value="">All statuses</option></select>
       </div>
       <p class="muted" id="resultCount">Loading search index...</p>
@@ -1421,7 +1459,9 @@ function renderSearchPage(searchRecords) {
           q: document.getElementById("q"),
           typeFilter: document.getElementById("typeFilter"),
           roleFilter: document.getElementById("roleFilter"),
+          collectionFilter: document.getElementById("collectionFilter"),
           statusFilter: document.getElementById("statusFilter"),
+          collectionStats: document.getElementById("collectionStats"),
           results: document.getElementById("results"),
           resultCount: document.getElementById("resultCount"),
         };
@@ -1431,25 +1471,50 @@ function renderSearchPage(searchRecords) {
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;");
         const uniq = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
-        const appendOption = (select, value) => {
-          select.add(new Option(value, value));
+        const appendOption = (select, label, value = label) => {
+          select.add(new Option(label, value));
         };
+        const collectionLabels = {
+          navigation: "Navigation",
+          wiki: "Wiki",
+          projects: "Projects",
+          concepts: "Concepts",
+          attractors: "Attractors",
+          essays: "Published Essays",
+          graph: "Graph",
+          vault: "Raw Vault",
+          maintenance: "Maintenance",
+        };
+        const labelForCollection = (value) => collectionLabels[value] || value;
         const types = uniq(RECORDS.map((item) => item.type));
         const roles = uniq(RECORDS.map((item) => item.source_role));
+        const collections = uniq(RECORDS.map((item) => item.collection));
         const statuses = uniq(RECORDS.map((item) => item.status));
         for (const value of types) appendOption(els.typeFilter, value);
         for (const value of roles) appendOption(els.roleFilter, value);
+        for (const value of collections) appendOption(els.collectionFilter, labelForCollection(value), value);
         for (const value of statuses) appendOption(els.statusFilter, value);
+        const collectionCounts = Object.create(null);
+        for (const record of RECORDS) {
+          const key = record.collection || "navigation";
+          collectionCounts[key] = (collectionCounts[key] || 0) + 1;
+        }
+        els.collectionStats.innerHTML = collections.map((value) => {
+          const count = collectionCounts[value] || 0;
+          return '<div class="status-card"><p class="stat">' + count + '</p><p class="muted">' + escapeHtml(labelForCollection(value)) + ' records.</p></div>';
+        }).join("");
         function matches(record) {
           const term = els.q.value.trim().toLowerCase();
           const type = els.typeFilter.value;
           const role = els.roleFilter.value;
+          const collection = els.collectionFilter.value;
           const status = els.statusFilter.value;
           if (type && record.type !== type) return false;
           if (role && record.source_role !== role) return false;
+          if (collection && (record.collection || "navigation") !== collection) return false;
           if (status && record.status !== status) return false;
           if (!term) return true;
-          const haystack = [record.title, record.summary, (record.tags || []).join(" "), record.url].join(" ").toLowerCase();
+          const haystack = [record.title, record.summary, (record.tags || []).join(" "), record.url, record.collection, record.source_path, record.section].join(" ").toLowerCase();
           return haystack.includes(term);
         }
         function render() {
@@ -1463,13 +1528,14 @@ function renderSearchPage(searchRecords) {
               + '<div class="result-meta">'
               + '<span>' + escapeHtml(record.type) + '</span>'
               + '<span>' + escapeHtml(record.source_role) + '</span>'
+              + '<span>' + escapeHtml(labelForCollection(record.collection || "navigation")) + '</span>'
               + '<span>' + escapeHtml(record.status) + '</span>'
               + tags
               + '</div>'
               + '</article>';
           }).join("");
         }
-        for (const el of [els.q, els.typeFilter, els.roleFilter, els.statusFilter]) {
+        for (const el of [els.q, els.typeFilter, els.roleFilter, els.collectionFilter, els.statusFilter]) {
           el.addEventListener("input", render);
           el.addEventListener("change", render);
         }
@@ -2843,6 +2909,8 @@ async function main() {
       url: localHref,
       type: "published_external_item",
       source_role: "published_external",
+      collection: "essays",
+      source_path: record.wiki_page || record.url || record.item_id || null,
       status: record.status || "published",
       summary: record.subtitle || record.description || record.excerpt || "",
       tags: record.tags || [],
