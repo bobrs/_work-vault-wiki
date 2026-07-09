@@ -12,6 +12,8 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [Projects](projects/index.md)
 - [Concepts](concepts/index.md)
 - [External Published / Shimmery Memory Essays](external/shimmerymemory/essays/index.md)
+- [AI Entry Surface](/ai/index.html)
+- [Start Here for AI](/start-here-for-ai/index.html)
 - [Artifacts](artifacts/index.md)
 - [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Source Roles](/wiki/source-roles/index.html)
@@ -28,6 +30,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - Use the review pages to track intake, duplicate collapse, source naming, and archival work.
 - Use the generated source-role and artifact-type indexes when you want a cleaner cross-cut than the full artifact tree.
 - Use the project cross-index when you want to move from family names into attractors, concepts, and essays quickly.
+- Use the AI entry surface when you need a machine-facing order of operations or source-precedence summary.
 - Split out evidence-backed subpages with lineage labels when a branch stabilizes.
 - Keep `.zip` companions auxiliary unless a page explicitly promotes them.
 - Treat `DOCX` and `PDF` as witness/reference files and use Markdown wiki pages as the working semantic layer for extraction, linking, and later cleanup passes.

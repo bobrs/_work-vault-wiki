@@ -33,6 +33,8 @@ The repository has entered the first classification pass and now has lineage-awa
 
 ## Navigation Aids
 
+- [AI Entry Surface](/ai/index.html)
+- [Start Here for AI](/start-here-for-ai/index.html)
 - [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Attractor Gateways](../attractors/index.md)
 - [Source Roles](/wiki/source-roles/index.html)

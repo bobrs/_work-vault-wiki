@@ -1,0 +1,71 @@
+Work Vault Wiki - Full Machine Context
+
+This repository publishes a semantic wiki over a source vault. The system is intentionally layered:
+
+- wiki pages are the durable semantic layer
+- manifests are the machine-readable layer
+- artifacts contain inbound originals, intake archives, and standard-named source copies
+- published_external records describe public essays from other sites
+
+Primary entry points:
+
+- /ai/index.html
+- /start-here-for-ai/index.html
+- /wiki/index.html
+- /wiki/projects/index.html
+- /wiki/concepts/index.html
+- /wiki/attractors/index.html
+- /wiki/external/shimmerymemory/essays/index.html
+- /vault/index.html
+
+Quantum Invariants is the main machine-facing comparator spine. Its AI page is the closest local reference for how the site family expects machine readers to enter, ground, and route:
+
+- /wiki/projects/quantum-invariants/ai/index.html
+- /wiki/projects/quantum-invariants/index.html
+
+Source precedence:
+
+1. Local wiki page, if the semantic page already exists
+2. Standard-named source copy, if a source file is needed
+3. Inbound original preserved in intake archive
+4. Public external essay metadata for published_external items
+5. GitHub raw source only when no local route exists
+
+Update rules:
+
+- Keep structure stable unless a durable seam appears.
+- Expand existing pages before inventing new branches.
+- Preserve human notes and markers.
+- Do not rewrite source content during semantic extraction.
+- Use manifests to preserve lineage and route source references.
+
+Key manifests:
+
+- manifest/inventory.jsonl
+- manifest/standard_named_sources.jsonl
+- manifest/external_published_index.jsonl
+- manifest/external_ingest_log.jsonl
+- manifest/duplicate_sets.json
+
+Key source layers:
+
+- artifacts/incoming/
+- artifacts/intake-archive/
+- artifacts/standard-named/
+- wiki/external/shimmerymemory/essays/
+
+High-value navigation rails:
+
+- Projects
+- Concepts
+- Attractors
+- Source Roles
+- Artifact Types
+- Project Cross-Index
+- Timelines
+- Unresolved
+- Duplicate Review
+- Missing Files
+- Incoming Review
+
+The intent is to support semantic extraction, deliberate cross-linking, and later cleanup without losing provenance or the original source trail.

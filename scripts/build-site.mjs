@@ -9,9 +9,11 @@ const REPO_URL = "https://github.com/bobrs/_work-vault-wiki/blob/main";
 const SOURCE_MARKDOWN = [];
 const OUTPUT_FOR_SOURCE = new Map();
 const WORKER_PAGES = new Map();
+const WORKER_ASSETS = new Map();
 
 const NAV_ITEMS = [
   ["Home", "/index.html"],
+  ["AI", "/ai/index.html"],
   ["Wiki", "/wiki/index.html"],
   ["Attractors", "/wiki/attractors/index.html"],
   ["Vault", "/vault/index.html"],
@@ -26,6 +28,15 @@ const NAV_ITEMS = [
   ["Missing", "/wiki/missing-files.html"],
   ["README", "/readme.html"],
   ["WIKI.md", "/wiki-guide.html"],
+];
+
+const ROOT_TEXT_ASSETS = [
+  { outRel: "AI_CONTEXT.md", source: "AI_CONTEXT.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "llms.txt", source: "llms.txt", contentType: "text/plain; charset=utf-8" },
+  { outRel: "llms-full.txt", source: "llms-full.txt", contentType: "text/plain; charset=utf-8" },
+  { outRel: "AGENTS.md", source: "AGENTS.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "CLAUDE.md", source: "CLAUDE.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "GEMINI.md", source: "GEMINI.md", contentType: "text/markdown; charset=utf-8" },
 ];
 
 const ESSAY_ATTRACTORS = [
@@ -835,6 +846,8 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <a class="gateway-action" href="/wiki/projects/index.html">Projects</a>
         <a class="gateway-action" href="/wiki/concepts/index.html">Concepts</a>
         <a class="gateway-action" href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a>
+        <a class="gateway-action" href="/ai/index.html">AI Entry</a>
+        <a class="gateway-action" href="/start-here-for-ai/index.html">Start Here for AI</a>
         <a class="gateway-action" href="/vault/index.html">Raw Vault</a>
         <a class="gateway-action" href="https://github.com/bobrs/_work-vault-wiki">GitHub Source</a>
       </div>
@@ -849,6 +862,7 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <div class="browse-card"><a href="/wiki/projects/index.html">Projects</a><p class="muted">Project families, branches, and source-backed pages.</p></div>
         <div class="browse-card"><a href="/wiki/concepts/index.html">Concepts</a><p class="muted">Recurring concepts that have stabilized across the corpus.</p></div>
         <div class="browse-card"><a href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a><p class="muted">Public Shimmery Memory essay metadata and source links.</p></div>
+        <div class="browse-card"><a href="/ai/index.html">AI Entry</a><p class="muted">Machine-facing entry points, read order, and source precedence.</p></div>
         <div class="browse-card"><a href="/wiki/artifacts/index.html">Artifact Index</a><p class="muted">Wiki-side artifact navigation and source references.</p></div>
         <div class="browse-card"><a href="/wiki/source-roles/index.html">Source Roles</a><p class="muted">Inbound originals and standard-named source copies.</p></div>
         <div class="browse-card"><a href="/wiki/artifact-types/index.html">Artifact Types</a><p class="muted">Source-layer browsing by file type and companion asset kind.</p></div>
@@ -1500,12 +1514,29 @@ async function writeRenderedPage(outRel, html) {
   }
 }
 
+async function writeStaticAsset({ outRel, source, contentType }) {
+  const body = await fs.readFile(path.join(ROOT, source), "utf8");
+  const absOut = path.join(DIST, outRel);
+  await fs.mkdir(path.dirname(absOut), { recursive: true });
+  await fs.writeFile(absOut, body, "utf8");
+
+  const publicOut = path.join(DIST, "server", "public", outRel);
+  await fs.mkdir(path.dirname(publicOut), { recursive: true });
+  await fs.writeFile(publicOut, body, "utf8");
+
+  const route = routeForOutput(outRel);
+  WORKER_ASSETS.set(route, { body, contentType });
+}
+
 async function writeWorkerEntrypoints() {
   const pagesObject = Object.fromEntries(
     [...WORKER_PAGES.entries()].sort(([a], [b]) => a.localeCompare(b))
   );
-  const pagesModule = `export const PAGES = ${JSON.stringify(pagesObject, null, 2)};\n`;
-  const workerModule = `import { PAGES } from "./pages.js";\n\nfunction normalizePath(pathname) {\n  if (pathname === "/") return "/index.html";\n  if (pathname in PAGES) return pathname;\n  if (pathname.endsWith("/")) {\n    const indexPath = \`\${pathname}index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  if (!pathname.endsWith(".html")) {\n    const htmlPath = \`\${pathname}.html\`;\n    if (htmlPath in PAGES) return htmlPath;\n    const indexPath = \`\${pathname}/index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  return pathname;\n}\n\nexport default {\n  async fetch(request) {\n    const { pathname } = new URL(request.url);\n    const route = normalizePath(pathname);\n    const body = PAGES[route];\n    if (body) {\n      return new Response(body, {\n        headers: { "content-type": "text/html; charset=utf-8" },\n      });\n    }\n    return new Response("Not found", {\n      status: 404,\n      headers: { "content-type": "text/plain; charset=utf-8" },\n    });\n  },\n};\n`;
+  const assetsObject = Object.fromEntries(
+    [...WORKER_ASSETS.entries()].sort(([a], [b]) => a.localeCompare(b))
+  );
+  const pagesModule = `export const PAGES = ${JSON.stringify(pagesObject, null, 2)};\nexport const STATIC_ASSETS = ${JSON.stringify(assetsObject, null, 2)};\n`;
+  const workerModule = `import { PAGES, STATIC_ASSETS } from "./pages.js";\n\nfunction normalizePath(pathname) {\n  if (pathname === "/") return "/index.html";\n  if (pathname in STATIC_ASSETS) return pathname;\n  if (pathname in PAGES) return pathname;\n  if (pathname.endsWith("/")) {\n    const indexPath = \`\${pathname}index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  if (!pathname.endsWith(".html")) {\n    const htmlPath = \`\${pathname}.html\`;\n    if (htmlPath in PAGES) return htmlPath;\n    const indexPath = \`\${pathname}/index.html\`;\n    if (indexPath in PAGES) return indexPath;\n  }\n  return pathname;\n}\n\nexport default {\n  async fetch(request) {\n    const { pathname } = new URL(request.url);\n    const route = normalizePath(pathname);\n    const asset = STATIC_ASSETS[route];\n    if (asset) {\n      return new Response(asset.body, {\n        headers: { "content-type": asset.contentType },\n      });\n    }\n    const body = PAGES[route];\n    if (body) {\n      return new Response(body, {\n        headers: { "content-type": "text/html; charset=utf-8" },\n      });\n    }\n    return new Response("Not found", {\n      status: 404,\n      headers: { "content-type": "text/plain; charset=utf-8" },\n    });\n  },\n};\n`;
   const serverIndexModule = `export { default } from "../index.js";\n`;
 
   await fs.writeFile(path.join(DIST, "pages.js"), pagesModule, "utf8");
@@ -1539,6 +1570,10 @@ async function main() {
     raw: rawRecords.length,
     duplicateGroups: Object.keys(duplicateGroups).length,
   };
+
+  for (const asset of ROOT_TEXT_ASSETS) {
+    await writeStaticAsset(asset);
+  }
 
   const rootPage = rootLanding({
     stats: summary,

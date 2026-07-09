@@ -29,6 +29,8 @@ AI should inherit the project's structure rather than inventing its own summary 
 
 ## Related Links
 
+- [AI Entry Surface](/ai/index.html)
+- [Start Here for AI](/start-here-for-ai/index.html)
 - [Quantum Invariants](../index.md)
 - [Downloads](../downloads/index.md)
 - [Charters](../charters/index.md)

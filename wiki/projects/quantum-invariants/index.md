@@ -54,14 +54,18 @@ The bootstrap, schema, semantic-compression, and shimmer notes are part of the s
 
 The QI family is also a cross-project reference node. It helps explain consent, continuity, witness, trust, and semantic integrity work elsewhere in the wiki because it gives those branches a common comparator language.
 The attractor layer is the compressed visitor map of those same invariants: [Witness](../../attractors/witness/index.md), [Consent](../../attractors/consent/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), [Trust](../../attractors/trust/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Grounding](../../attractors/grounding/index.md), [Attention](../../attractors/attention/index.md), and [Meaning](../../attractors/meaning/index.md).
+The [Voting Machine](../voting-machine/index.md) project is a concrete governance and consent surface that QI helps ground: it is where comparator language becomes civic custody, auditability, and revocation-aware review.
 
 ## Related Links
 
+- [AI Entry Surface](/ai/index.html)
+- [Start Here for AI](/start-here-for-ai/index.html)
 - [Continuity Office](../continuity-office/index.md)
 - [Semantic Integrity](../semantic-integrity/index.md)
 - [Consentful Cybernetics](../consentful-cybernetics/index.md)
 - [Trust Interoperability Standard](../trust-interoperability-standard/index.md)
 - [WitnessKey](../witnesskey/index.md)
+- [Voting Machine](../voting-machine/index.md)
 - [How Intuition Works](../how-intuition-works/index.md)
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [About](about/index.md)
