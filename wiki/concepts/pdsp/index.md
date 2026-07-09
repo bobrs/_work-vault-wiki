@@ -11,6 +11,54 @@ The deeper meaning here is that sovereignty is not being treated as a slogan. PD
 Read that way, PDSP is the sovereignty layer of the protocol stack: it says who can assert, who can verify, and how those assertions remain usable over time without turning the person into a passive record.
 The [Voting Machine](../../projects/voting-machine/index.md) project is a concrete civic example of the same trust-and-audit problem: assertions, verification, and custody have to stay legible without flattening the participant into the record.
 
+## Core Claims
+
+- Sovereignty is loop-scoped rather than registry-scoped.
+- Trust is situational, negotiated, and auditable rather than globally persistent.
+- A participant should remain the root of their own verifiable trust graph.
+- Consent, witness, and recovery have to stay coupled to the protocol rather than treated as annotations.
+
+## Mechanisms
+
+- `HumanKey` establishes a shared trust relationship with a negotiated local epoch.
+- `LoopLink` carries the transport, presence, and recovery layer.
+- `Abracadabradoo` carries semantic loops, proof-of-receipt, and witness roles.
+- Self-rooted Merkle trees preserve local history without a universal root.
+- Subjective or pulse-based epochs keep trust validation tied to the loop itself.
+
+## Implications
+
+- Identity becomes revocable, local, and contextual instead of universal.
+- Consent can be proven or refused without exposing the full loop.
+- Delivery, presence, and admissibility become first-class protocol concerns.
+- Governance and civic systems can reason about custody without collapsing the person into a static identifier.
+
+## Dependencies
+
+- [LoopLink](../looplink/index.md)
+- [Intent-Consent](../intent-consent/index.md)
+- [Witnessing](../witnessing/index.md)
+- [Governance Diad](../governance-diad/index.md)
+- [Abracadabracadoo](../abracadabracadoo/index.md)
+- [PDSP and Sovereignty](../../projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md)
+
+## Open Questions
+
+- How do loops merge or split without losing semantic coherence?
+- What revocation and decay semantics should be explicit in the protocol?
+- How much witness structure is needed before trust becomes bureaucratic?
+- How should the protocol behave when the transport layer is offline or resynchronized?
+
+## Markdown Source Copies
+
+- [PDSP core manuscript](../../../artifacts/standard-named/20260622__SCT__PDSP__CORE__v1__personal-data-sovereignty-protocol.md)
+- [PDSP LoopLink restatement](../../../artifacts/standard-named/20260622__SCT__PDSP__CORE__v2__personal-data-sovereignty-protocol-looplink-based-architecture.md)
+- [PDSP-lite v0.1](../../../artifacts/standard-named/20260622__SCT__PDSP__LITE__SPEC__v1__pdsp-lite-specification.md)
+- [PDSP-lite v0.2](../../../artifacts/standard-named/20260622__SCT__PDSP__LITE__SPEC__v2__pdsp-lite-specification.md)
+- [PDSP-lite v0.3](../../../artifacts/standard-named/20260622__SCT__PDSP__LITE__SPEC__v3__pdsp-lite-specification.md)
+- [PDSP Integration Bundle v0.1](../../../artifacts/standard-named/20260622__SCT__PDSP__INTEGRATION__v1__pdsp-integration-bundle.md)
+- [PDSP Integration Bundle v0.2](../../../artifacts/standard-named/20260622__SCT__PDSP__INTEGRATION__v2__pdsp-integration-bundle.md)
+
 ## Related Artifacts
 
 - [Personal Data Sovereignty Protocol.docx](<../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx>)
@@ -34,15 +82,21 @@ The [Voting Machine](../../projects/voting-machine/index.md) project is a concre
 - [Governance Diad](../governance-diad/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [Voting Machine](../../projects/voting-machine/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Provenance](../../attractors/provenance/index.md)
 
 ## Attractor Bridge
 
 - [Provenance](../../attractors/provenance/index.md)
 - [Consent](../../attractors/consent/index.md)
 - [Trust](../../attractors/trust/index.md)
+- [Witness](../../attractors/witness/index.md)
 
 ## Notes
 
 - This is a concept page, not a canon claim.
 - PDSP should stay distinct from any one spec version or bundle.
 - It is the sovereignty substrate vocabulary that recurs across several SCT pages.
+- The core manuscript pair now has markdown source copies in `artifacts/standard-named/`; the lite spec and bundle lines remain queued for the next conversion pass.
