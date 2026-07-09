@@ -4,6 +4,8 @@ Primary machine entry surface:
 - /ai/index.html
 - /start-here-for-ai/index.html
 - /search/index.html
+- /graph/index.html
+- /wiki/maintenance/index.html
 
 Core navigation:
 - /wiki/index.html
@@ -18,6 +20,7 @@ Core navigation:
 - /wiki/source-roles/index.html
 - /wiki/artifact-types/index.html
 - /wiki/projects/cross-index/index.html
+- /wiki/maintenance/index.html
 - /CANON.md
 - /ATTRACTOR_MAP.md
 - /GLOSSARY.md

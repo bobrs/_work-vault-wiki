@@ -26,7 +26,7 @@ docs/        repository operating instructions
 
 ## Current Phase
 
-The wiki should stay evidence-led. Small durable branches get their own pages. Durable pages should increasingly contain semantic compression and deliberate cross-links, not only labels and source pointers. At this stage, expanding the semantic content of existing wiki pages is more important than ingesting more material when the foundational project is already present. Markdown should be the preferred working and wiki-facing form when a document can be converted cleanly, while inbound originals remain preserved as archival evidence. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted.
+The wiki should stay evidence-led. Small durable branches get their own pages. Durable pages should increasingly contain semantic compression and deliberate cross-links, not only labels and source pointers. At this stage, expanding the semantic content of existing wiki pages is more important than ingesting more material when the foundational project is already present. Markdown should be the preferred working and wiki-facing form when a document can be converted cleanly, while inbound originals remain preserved as archival evidence. HTML-published items keep HTML primary and may archive DOCX or MD companions when they are not needed for coherence. Keep auxiliary bundles separate from core source unless otherwise noted. The public site now also exposes graph exports and a maintenance hub for queue pressure.
 External published feeds are handled separately under `wiki/external/` and tracked through `manifest/external_sources.json`, `manifest/external_published_index.jsonl`, and `manifest/external_ingest_log.jsonl`. They are metadata-first wiki integrations, not intake-archive or standard-named source material.
 
 The repository is also adopting a standard-named source layer:
@@ -81,8 +81,11 @@ See:
 The wiki web layer is a static HTML build generated from the markdown wiki sources.
 
 - Build command: `npm run build`
+- Validate command: `npm run validate`
 - Landing page output: `dist/index.html`
 - Search index output: `dist/search.json`
+- Graph index output: `dist/graph/index.html`
+- Maintenance hub output: `dist/wiki/maintenance/index.html`
 - Sitemap output: `dist/sitemap.xml`
 - Robots output: `dist/robots.txt`
 - Raw vault browser: `dist/vault/index.html`

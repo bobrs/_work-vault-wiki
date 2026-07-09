@@ -8,13 +8,15 @@ This repository is a static, markdown-first knowledge base. The wiki pages are t
 2. `llms.txt`
 3. `llms-full.txt`
 4. [Search](/search/index.html)
-5. [Reader Paths](./wiki/paths/index.md)
-6. [AI Answer Contracts](./wiki/ai-answer-contracts/index.md)
-7. [Status Vocabulary](./wiki/status-vocabulary/index.md)
-8. [Work Vault Index](./wiki/index.md)
-9. [Projects Index](./wiki/projects/index.md)
-10. [Quantum Invariants AI](./wiki/projects/quantum-invariants/ai/index.md)
-11. [Published Essays Index](./wiki/external/shimmerymemory/essays/index.md)
+5. [Graph](/graph/index.html)
+6. [Maintenance Hub](/wiki/maintenance/index.html)
+7. [Reader Paths](./wiki/paths/index.md)
+8. [AI Answer Contracts](./wiki/ai-answer-contracts/index.md)
+9. [Status Vocabulary](./wiki/status-vocabulary/index.md)
+10. [Work Vault Index](./wiki/index.md)
+11. [Projects Index](./wiki/projects/index.md)
+12. [Quantum Invariants AI](./wiki/projects/quantum-invariants/ai/index.md)
+13. [Published Essays Index](./wiki/external/shimmerymemory/essays/index.md)
 
 ## Source Precedence
 
@@ -30,6 +32,8 @@ This repository is a static, markdown-first knowledge base. The wiki pages are t
 - Expand existing pages before creating new branches.
 - Preserve human notes and markers.
 - Use manifests for routing, inventory, and published-external metadata.
+- Use the graph surface when you need generated link structure or review edges.
+- Use the maintenance hub when you need queue pressure before drilling into individual pages.
 - Use attractors, concepts, and projects for deliberate cross-linking.
 
 ## Key Paths

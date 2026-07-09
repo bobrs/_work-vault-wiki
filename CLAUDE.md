@@ -10,6 +10,8 @@ Good starting points:
 - [llms.txt](/llms.txt)
 - [llms-full.txt](/llms-full.txt)
 - [Search](/search/index.html)
+- [Graph](/graph/index.html)
+- [Maintenance Hub](/wiki/maintenance/index.html)
 - [Reader Paths](./wiki/paths/index.md)
 - [Work Vault Index](./wiki/index.md)
 

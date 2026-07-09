@@ -12,6 +12,8 @@ Primary entry points:
 - /ai/index.html
 - /start-here-for-ai/index.html
 - /search/index.html
+- /graph/index.html
+- /wiki/maintenance/index.html
 - /wiki/index.html
 - /wiki/projects/index.html
 - /wiki/concepts/index.html
@@ -70,6 +72,8 @@ High-value navigation rails:
 - Concepts
 - Attractors
 - Search
+- Graph
+- Maintenance Hub
 - Reader Paths
 - AI Answer Contracts
 - Status Vocabulary

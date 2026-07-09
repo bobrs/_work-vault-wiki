@@ -11,6 +11,6 @@ Rules:
 - Preserve source content and human notes.
 - Treat `published_external` essays as external artifacts, not inbound files.
 - Expand existing pages before creating new branches unless a durable seam appears.
-- Use [Search](/search/index.html), [Reader Paths](./wiki/paths/index.md), [AI Answer Contracts](./wiki/ai-answer-contracts/index.md), and [Status Vocabulary](./wiki/status-vocabulary/index.md) to orient new work.
+- Use [Search](/search/index.html), [Graph](/graph/index.html), [Maintenance Hub](/wiki/maintenance/index.html), [Reader Paths](./wiki/paths/index.md), [AI Answer Contracts](./wiki/ai-answer-contracts/index.md), and [Status Vocabulary](./wiki/status-vocabulary/index.md) to orient new work.
 
 If you need a compact route map, use [llms.txt](/llms.txt). If you need broader context, use [llms-full.txt](/llms-full.txt).
