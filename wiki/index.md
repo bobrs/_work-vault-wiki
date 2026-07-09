@@ -15,6 +15,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [AI Entry Surface](/ai/index.html)
 - [Start Here for AI](/start-here-for-ai/index.html)
 - [Search](/search/index.html)
+- [Graph](/graph/index.html)
 - [Reader Paths](paths/index.md)
 - [AI Answer Contracts](ai-answer-contracts/index.md)
 - [Status Vocabulary](status-vocabulary/index.md)
@@ -32,6 +33,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 
 - [AI Context](/AI_CONTEXT.md)
 - [Search](/search/index.html)
+- [Graph](/graph/index.html)
 - [Reader Paths](paths/index.md)
 - [AI Answer Contracts](ai-answer-contracts/index.md)
 - [Status Vocabulary](status-vocabulary/index.md)

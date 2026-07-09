@@ -14,6 +14,7 @@ Read the context files first, then move into the wiki index and the Quantum Inva
 - [llms.txt](/llms.txt)
 - [llms-full.txt](/llms-full.txt)
 - [Search](/search/index.html)
+- [Graph](/graph/index.html)
 - [Work Vault Index](../wiki/index.md)
 - [Projects Index](../wiki/projects/index.md)
 - [Reader Paths](../wiki/paths/index.md)

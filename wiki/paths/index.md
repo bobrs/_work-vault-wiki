@@ -14,6 +14,7 @@ Start with:
 - [Start Here for AI](/start-here-for-ai/index.md)
 - [llms.txt](/llms.txt)
 - [Search](/search/index.html)
+- [Graph](/graph/index.html)
 - [Wiki Index](../index.md)
 - [Projects Index](../projects/index.md)
 - [Concepts Index](../concepts/index.md)

@@ -198,6 +198,69 @@ const SEARCH_SPECIAL_RECORDS = [
     tags: ["search", "json", "metadata"],
   },
   {
+    title: "Graph",
+    url: "/graph/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph exports and review surfaces.",
+    tags: ["graph", "navigation", "metadata"],
+  },
+  {
+    title: "Project Graph",
+    url: "/graph/projects/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of project pages and explicit links across the project tree.",
+    tags: ["graph", "projects", "links"],
+  },
+  {
+    title: "Attractor Graph",
+    url: "/graph/attractors/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of attractor gateway pages and their explicit links.",
+    tags: ["graph", "attractors", "links"],
+  },
+  {
+    title: "Concept Graph",
+    url: "/graph/concepts/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of concept pages and their explicit links.",
+    tags: ["graph", "concepts", "links"],
+  },
+  {
+    title: "Published Essay Graph",
+    url: "/graph/essays/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of published external essay pages and their explicit links.",
+    tags: ["graph", "essays", "links"],
+  },
+  {
+    title: "Source Role Graph",
+    url: "/graph/source-roles/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of source-role relationships from inventory and published external records.",
+    tags: ["graph", "source-role", "manifest"],
+  },
+  {
+    title: "Artifact Type Graph",
+    url: "/graph/artifact-types/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated graph of artifact-type relationships from the inventory manifest.",
+    tags: ["graph", "artifact-type", "manifest"],
+  },
+  {
     title: "Reader Paths",
     url: "/wiki/paths/",
     type: "reader_path",
@@ -1216,6 +1279,7 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
       <h2>Grounding Surfaces</h2>
       <div class="browse-grid">
         <div class="browse-card"><a href="/search/index.html">Search</a><p class="muted">Metadata-first search across public wiki surfaces.</p></div>
+        <div class="browse-card"><a href="/graph/index.html">Graph</a><p class="muted">Generated relationship exports and review surfaces.</p></div>
         <div class="browse-card"><a href="/wiki/paths/index.html">Reader Paths</a><p class="muted">Short routes for AI, maintainers, and curious readers.</p></div>
         <div class="browse-card"><a href="/wiki/ai-answer-contracts/index.html">AI Answer Contracts</a><p class="muted">Preferred answer shapes for grounded responses and mutations.</p></div>
         <div class="browse-card"><a href="/wiki/status-vocabulary/index.html">Status Vocabulary</a><p class="muted">Operational terms for corpus status and source roles.</p></div>
@@ -1571,6 +1635,184 @@ function titleForSourceText(sourceText, fallback) {
   return match ? match[1].trim() : fallback;
 }
 
+async function readJsonlRecords(fileRel) {
+  const body = await fs.readFile(path.join(ROOT, fileRel), "utf8");
+  return body
+    .split("\n")
+    .filter(Boolean)
+    .map((line) => JSON.parse(line));
+}
+
+function sourceRouteFromSourceRel(sourceRel) {
+  return canonicalPublicUrl(routeForOutput(outputForSource(sourceRel)));
+}
+
+function graphNodeIdFromSourceRel(sourceRel, prefix) {
+  return `${prefix}:${sourceRel.replace(/\.md$/, "").replaceAll("/", ":")}`;
+}
+
+function graphNodePrefixForSourceRel(sourceRel) {
+  if (sourceRel.startsWith("wiki/projects/")) return "project";
+  if (sourceRel.startsWith("wiki/attractors/")) return "attractor";
+  if (sourceRel.startsWith("wiki/concepts/")) return "concept";
+  if (sourceRel.startsWith("wiki/external/shimmerymemory/essays/")) return "essay";
+  return "wiki";
+}
+
+function graphNodeIdForSourceRel(sourceRel) {
+  return graphNodeIdFromSourceRel(sourceRel, graphNodePrefixForSourceRel(sourceRel));
+}
+
+function graphNodeBase(sourceRel, sourceText, { prefix, type, sourceRole, status, extra = {} }) {
+  const title = titleForSourceText(sourceText, path.posix.basename(sourceRel, ".md"));
+  return {
+    id: graphNodeIdFromSourceRel(sourceRel, prefix),
+    type,
+    label: title,
+    status,
+    source_role: sourceRole,
+    url: sourceRouteFromSourceRel(sourceRel),
+    source_path: sourceRel,
+    summary: excerptFromMarkdown(sourceText) || `${title} page.`,
+    tags: tagsFromSourcePath(sourceRel),
+    ...extra,
+  };
+}
+
+function graphWikiSourceRole(sourceRel) {
+  if (sourceRel.startsWith("wiki/external/")) return "published_external";
+  if (sourceRel.endsWith("/index.md")) return "semantic_navigation";
+  return "wiki_page";
+}
+
+function graphWikiStatus(sourceRel) {
+  if (sourceRel.startsWith("wiki/external/")) return "published";
+  if (sourceRel.endsWith("/index.md")) return "gateway";
+  return "page";
+}
+
+function graphPageTypeForSource(sourceRel) {
+  if (sourceRel.startsWith("wiki/projects/")) return "project";
+  if (sourceRel.startsWith("wiki/attractors/")) return "attractor";
+  if (sourceRel.startsWith("wiki/concepts/")) return "concept";
+  if (sourceRel.startsWith("wiki/external/shimmerymemory/essays/")) return "essay";
+  return "wiki_page";
+}
+
+function normalizeGraphLinkTarget(sourceRel, href) {
+  if (/^(https?:|mailto:|#)/i.test(href)) return null;
+  const raw = href.split("#")[0].split("?")[0].trim();
+  if (!raw) return null;
+  if (raw.startsWith("/wiki/")) {
+    const withoutPrefix = raw.slice(1);
+    if (withoutPrefix.endsWith("/")) {
+      return `${withoutPrefix}index.md`;
+    }
+    if (withoutPrefix.endsWith("/index.html")) {
+      return withoutPrefix.replace(/\.html$/, ".md");
+    }
+    if (withoutPrefix.endsWith(".html")) {
+      return withoutPrefix.replace(/\.html$/, ".md");
+    }
+    if (withoutPrefix.endsWith(".md")) {
+      return withoutPrefix;
+    }
+    return `${withoutPrefix}.md`;
+  }
+  const cleaned = cleanLinkTarget(sourceRel, raw);
+  if (!cleaned) return null;
+  if (cleaned.endsWith(".html")) {
+    return cleaned.replace(/\.html$/, ".md");
+  }
+  return cleaned;
+}
+
+function buildExplicitGraphEdges(sourceRel, sourceText, nodeIdBySourceRel, allowedTargets) {
+  const sourceId = nodeIdBySourceRel.get(sourceRel);
+  if (!sourceId) return [];
+  const edges = [];
+  const seen = new Set();
+  const linkMatches = [...sourceText.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)];
+  for (const match of linkMatches) {
+    const href = match[2].trim();
+    const targetSourceRel = normalizeGraphLinkTarget(sourceRel, href);
+    if (!targetSourceRel || !allowedTargets.has(targetSourceRel)) continue;
+    const targetId = graphNodeIdForSourceRel(targetSourceRel);
+    const key = `${sourceId}|${targetId}|links_to|${href}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    edges.push({
+      source: sourceId,
+      target: targetId,
+      type: "links_to",
+      evidence: {
+        source_path: sourceRel,
+        href,
+      },
+    });
+  }
+  return edges;
+}
+
+function buildContainmentEdges(sourceRel, nodeIdBySourceRel, parentLookup) {
+  const sourceId = nodeIdBySourceRel.get(sourceRel);
+  const parentSourceRel = parentLookup(sourceRel);
+  const parentId = parentSourceRel ? nodeIdBySourceRel.get(parentSourceRel) : null;
+  if (!sourceId || !parentId) return [];
+  return [
+    {
+      source: parentId,
+      target: sourceId,
+      type: "contains",
+      evidence: {
+        source_path: parentSourceRel,
+        child_path: sourceRel,
+      },
+    },
+  ];
+}
+
+function parentWikiIndexSourceRel(sourceRel, prefix) {
+  if (!sourceRel.startsWith(prefix) || sourceRel === `${prefix}index.md`) return null;
+  const dir = path.posix.dirname(sourceRel);
+  const parentDir = path.posix.dirname(dir);
+  return path.posix.join(parentDir, "index.md");
+}
+
+async function buildPageNodeIndex(sourcePrefix, nodePrefix, allowedTargets) {
+  const sourceRels = SOURCE_MARKDOWN.filter((source) => source.startsWith(sourcePrefix));
+  const nodes = [];
+  const nodeIdBySourceRel = new Map();
+  const sourceTextByRel = new Map();
+  const targetSet = allowedTargets || new Set(sourceRels);
+
+  for (const sourceRel of sourceRels) {
+    const sourceText = await fs.readFile(path.join(ROOT, sourceRel), "utf8");
+    sourceTextByRel.set(sourceRel, sourceText);
+    const node = graphNodeBase(sourceRel, sourceText, {
+      prefix: nodePrefix,
+      type: graphPageTypeForSource(sourceRel),
+      sourceRole: graphWikiSourceRole(sourceRel),
+      status: graphWikiStatus(sourceRel),
+    });
+    nodeIdBySourceRel.set(sourceRel, node.id);
+    nodes.push(node);
+  }
+
+  const edges = [];
+  for (const sourceRel of sourceRels) {
+    edges.push(...buildContainmentEdges(sourceRel, nodeIdBySourceRel, (rel) => parentWikiIndexSourceRel(rel, sourcePrefix)));
+    edges.push(...buildExplicitGraphEdges(sourceRel, sourceTextByRel.get(sourceRel), nodeIdBySourceRel, targetSet));
+  }
+
+  return {
+    nodes,
+    edges,
+    nodeIdBySourceRel,
+    sourceRels,
+  };
+}
+
 function cleanLinkTarget(sourceRel, href) {
   if (/^(https?:|mailto:|#)/i.test(href)) return null;
   let cleaned = href.split("#")[0].trim();
@@ -1896,6 +2138,342 @@ async function renderEssayAttractorViewPage(records) {
   });
 }
 
+function renderGraphNodeRows(nodes, limit = 40) {
+  return nodes
+    .slice(0, limit)
+    .map((node) => `
+      <tr>
+        <td><a href="${escapeHtml(node.url || "#")}">${escapeHtml(node.label)}</a></td>
+        <td>${escapeHtml(node.type || "")}</td>
+        <td>${escapeHtml(node.source_role || "")}</td>
+        <td>${escapeHtml(node.status || "")}</td>
+        <td>${node.source_path ? `<code>${escapeHtml(node.source_path)}</code>` : "—"}</td>
+      </tr>
+    `)
+    .join("");
+}
+
+function renderGraphEdgeRows(edges, limit = 40) {
+  return edges
+    .slice(0, limit)
+    .map((edge) => `
+      <tr>
+        <td><code>${escapeHtml(edge.source)}</code></td>
+        <td><code>${escapeHtml(edge.target)}</code></td>
+        <td>${escapeHtml(edge.type)}</td>
+        <td>${edge.evidence?.source_path ? `<code>${escapeHtml(edge.evidence.source_path)}</code>` : "—"}</td>
+        <td>${edge.evidence?.href ? escapeHtml(edge.evidence.href) : "—"}</td>
+      </tr>
+    `)
+    .join("");
+}
+
+function renderGraphCollectionPage({ title, description, jsonHref, nodes, edges, navActive, notes = [] }) {
+  return pageShell({
+    title,
+    subtitle: description,
+    body: `
+      <p class="eyebrow">Generated graph export</p>
+      <div class="title-row">
+        <h1>${escapeHtml(title)}</h1>
+        <span class="tag">graph</span>
+      </div>
+      <p>${escapeHtml(description)}</p>
+      <p class="muted">JSON export: <a href="${escapeHtml(jsonHref)}">${escapeHtml(jsonHref)}</a></p>
+      <div class="status-grid">
+        <div class="status-card"><p class="stat">${nodes.length}</p><p class="muted">Nodes</p></div>
+        <div class="status-card"><p class="stat">${edges.length}</p><p class="muted">Edges</p></div>
+        <div class="status-card"><p class="stat">${notes.length}</p><p class="muted">Notes</p></div>
+        <div class="status-card"><p class="stat">static</p><p class="muted">Derived from links and manifest metadata</p></div>
+      </div>
+      ${notes.length ? `<h2>Notes</h2><ul>${notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul>` : ""}
+      <h2>Nodes</h2>
+      <table class="file-table">
+        <thead><tr><th>Label</th><th>Type</th><th>Source Role</th><th>Status</th><th>Source Path</th></tr></thead>
+        <tbody>${renderGraphNodeRows(nodes)}</tbody>
+      </table>
+      <h2>Edges</h2>
+      <table class="file-table">
+        <thead><tr><th>Source</th><th>Target</th><th>Type</th><th>Evidence Path</th><th>Evidence Href</th></tr></thead>
+        <tbody>${renderGraphEdgeRows(edges)}</tbody>
+      </table>
+    `,
+    navActive,
+  });
+}
+
+function renderGraphIndexPage(collections) {
+  const cards = collections
+    .map((collection) => `
+      <div class="browse-card">
+        <a href="${escapeHtml(collection.pageHref)}">${escapeHtml(collection.title)}</a>
+        <p class="muted">${escapeHtml(collection.description)}</p>
+        <p class="muted">${collection.nodeCount} nodes · ${collection.edgeCount} edges · <a href="${escapeHtml(collection.jsonHref)}">JSON</a></p>
+      </div>
+    `)
+    .join("");
+  return pageShell({
+    title: "Graph",
+    subtitle: "Generated graph exports and review surfaces",
+    body: `
+      <p class="eyebrow">Generated graph</p>
+      <div class="title-row">
+        <h1>Graph</h1>
+        <span class="tag">manifest + links</span>
+      </div>
+      <p>This is a generated graph/export surface. Graph edges come from explicit links, manifest relationships, and source metadata. They are evidence of routing and linkage, not canon declarations.</p>
+      <div class="browse-grid">
+        ${cards}
+      </div>
+      <h2>Graph Exports</h2>
+      <ul>
+        ${collections.map((collection) => `<li><a href="${escapeHtml(collection.jsonHref)}">${escapeHtml(collection.jsonHref)}</a></li>`).join("")}
+      </ul>
+    `,
+    navActive: "/graph/index.html",
+  });
+}
+
+async function buildPageGraphCollection({ sourcePrefix, nodePrefix, collectionSlug, title, description, navActive }) {
+  const allTargets = new Set(
+    SOURCE_MARKDOWN.filter((source) =>
+      source.startsWith("wiki/projects/") ||
+      source.startsWith("wiki/attractors/") ||
+      source.startsWith("wiki/concepts/") ||
+      source.startsWith("wiki/external/shimmerymemory/essays/")
+    )
+  );
+  const sourceRels = SOURCE_MARKDOWN.filter((source) => source.startsWith(sourcePrefix));
+  const nodes = [];
+  const nodeIdBySourceRel = new Map();
+  const sourceTextByRel = new Map();
+
+  for (const sourceRel of sourceRels) {
+    const sourceText = await fs.readFile(path.join(ROOT, sourceRel), "utf8");
+    sourceTextByRel.set(sourceRel, sourceText);
+    const node = graphNodeBase(sourceRel, sourceText, {
+      prefix: nodePrefix,
+      type: graphPageTypeForSource(sourceRel),
+      sourceRole: graphWikiSourceRole(sourceRel),
+      status: graphWikiStatus(sourceRel),
+    });
+    nodes.push(node);
+    nodeIdBySourceRel.set(sourceRel, node.id);
+  }
+
+  const edges = [];
+  for (const sourceRel of sourceRels) {
+    edges.push(...buildContainmentEdges(sourceRel, nodeIdBySourceRel, (rel) => parentWikiIndexSourceRel(rel, sourcePrefix)));
+    edges.push(...buildExplicitGraphEdges(sourceRel, sourceTextByRel.get(sourceRel), nodeIdBySourceRel, allTargets));
+  }
+
+  return {
+    title,
+    description,
+    navActive,
+    json: {
+      kind: "graph_collection",
+      collection: collectionSlug,
+      title,
+      description,
+      generated_at: new Date().toISOString(),
+      nodes,
+      edges,
+    },
+    page: renderGraphCollectionPage({
+      title,
+      description,
+      jsonHref: `/graph/${collectionSlug}.json`,
+      nodes,
+      edges,
+      navActive,
+      notes: [
+        "Edges are limited to explicit markdown links and simple path containment.",
+        "External links and non-wiki targets are excluded from this collection.",
+      ],
+    }),
+  };
+}
+
+function buildSourceRoleGraph(inventoryRecords, externalRecords) {
+  const sourceRecords = [
+    ...inventoryRecords.filter((record) => record.source_role),
+    ...externalRecords.map((record) => ({
+      ...record,
+      current_path: record.wiki_page || record.url || record.item_id,
+      source_role: record.source_role || "published_external",
+    })),
+  ];
+  const roleLabels = new Map();
+  const nodes = [];
+  const edges = [];
+  const nodeIdByRecord = new Map();
+  const roleNodeIds = new Map();
+
+  for (const record of sourceRecords) {
+    const role = record.source_role || "unassigned";
+    if (!roleLabels.has(role)) {
+      roleLabels.set(role, sourceRoleLabel(role));
+      roleNodeIds.set(role, `source-role:${role}`);
+      nodes.push({
+        id: `source-role:${role}`,
+        type: "source_role",
+        label: sourceRoleLabel(role),
+        status: "current",
+        source_role: role,
+        url: "/wiki/source-roles/index.html",
+        source_path: null,
+        summary: `Source role ${sourceRoleLabel(role)}.`,
+        tags: ["source-role", role],
+      });
+    }
+    const nodeId = `source-record:${(record.current_path || record.wiki_page || record.item_id || record.title).replaceAll("/", ":")}`;
+    nodeIdByRecord.set(record, nodeId);
+    nodes.push({
+      id: nodeId,
+      type: "source_record",
+      label: record.title || record.original_filename || record.filename || record.item_id || record.current_path,
+      status: record.status || "inventoried",
+      source_role: role,
+      url: record.wiki_page ? pageHrefForWikiPage(record.wiki_page) : record.standard_named_path ? githubUrl(record.standard_named_path) : record.current_path ? githubUrl(record.current_path) : record.url || "#",
+      source_path: record.current_path || record.wiki_page || record.item_id || null,
+      summary: record.description || record.subtitle || record.excerpt || record.summary || "",
+      tags: [
+        role,
+        record.extension || null,
+        record.record_kind || null,
+      ].filter(Boolean),
+      artifact_type: record.extension || null,
+      current_path: record.current_path || null,
+      standard_named_path: record.standard_named_path || null,
+      inbound_path: record.inbound_path || null,
+      wiki_page: record.wiki_page || null,
+    });
+    edges.push({
+      source: nodeId,
+      target: roleNodeIds.get(role),
+      type: "has_source_role",
+      evidence: {
+        source_path: record.current_path || record.wiki_page || record.item_id || null,
+      },
+    });
+  }
+
+  return {
+    title: "Source Role Graph",
+    description: "Source-role graph derived from inventory and published external records.",
+    navActive: "/graph/source-roles/index.html",
+    json: {
+      kind: "graph_collection",
+      collection: "source_roles",
+      title: "Source Role Graph",
+      description: "Source-role graph derived from inventory and published external records.",
+      generated_at: new Date().toISOString(),
+      nodes,
+      edges,
+    },
+    page: renderGraphCollectionPage({
+      title: "Source Role Graph",
+      description: "Source-role graph derived from inventory and published external records.",
+      jsonHref: "/graph/source-roles.json",
+      nodes,
+      edges,
+      navActive: "/graph/source-roles/index.html",
+      notes: [
+        "Each record node points to a source-role node.",
+        "Published external items are included as source records when the manifest exposes them.",
+      ],
+    }),
+  };
+}
+
+function buildArtifactTypeGraph(inventoryRecords) {
+  const records = inventoryRecords.filter((record) => record.current_path);
+  const nodes = [];
+  const edges = [];
+  const typeNodeIds = new Map();
+
+  for (const record of records) {
+    const typeLabel = extensionLabel(record.extension);
+    if (!typeNodeIds.has(typeLabel)) {
+      const typeNodeId = `artifact-type:${typeLabel.replaceAll(".", "").replaceAll("[", "").replaceAll("]", "").replaceAll(" ", "-") || "none"}`;
+      typeNodeIds.set(typeLabel, typeNodeId);
+      nodes.push({
+        id: typeNodeId,
+        type: "artifact_type",
+        label: typeLabel,
+        status: "current",
+        source_role: "artifact_type",
+        url: "/wiki/artifact-types/index.html",
+        source_path: null,
+        summary: `Artifact type ${typeLabel}.`,
+        tags: ["artifact-type", typeLabel],
+      });
+    }
+
+    const nodeId = `artifact:${record.current_path.replaceAll("/", ":")}`;
+    nodes.push({
+      id: nodeId,
+      type: "source_artifact",
+      label: record.original_filename || record.filename || record.current_path,
+      status: record.status || "inventoried",
+      source_role: record.source_role || "unassigned",
+      url: record.current_path ? githubUrl(record.current_path) : "#",
+      source_path: record.current_path,
+      summary: [
+        record.record_kind ? `kind: ${record.record_kind}` : null,
+        record.source_role ? `role: ${record.source_role}` : null,
+        record.wiki_page ? `wiki: ${record.wiki_page}` : null,
+      ].filter(Boolean).join(" · "),
+      tags: [
+        record.extension || null,
+        record.record_kind || null,
+        record.source_role || null,
+      ].filter(Boolean),
+      artifact_type: record.extension || null,
+      current_path: record.current_path,
+      standard_named_path: record.standard_named_path || null,
+      inbound_path: record.inbound_path || null,
+      wiki_page: record.wiki_page || null,
+    });
+    edges.push({
+      source: nodeId,
+      target: typeNodeIds.get(typeLabel),
+      type: "has_artifact_type",
+      evidence: {
+        source_path: record.current_path,
+      },
+    });
+  }
+
+  return {
+    title: "Artifact Type Graph",
+    description: "Artifact-type graph derived from the inventory manifest.",
+    navActive: "/graph/artifact-types/index.html",
+    json: {
+      kind: "graph_collection",
+      collection: "artifact_types",
+      title: "Artifact Type Graph",
+      description: "Artifact-type graph derived from the inventory manifest.",
+      generated_at: new Date().toISOString(),
+      nodes,
+      edges,
+    },
+    page: renderGraphCollectionPage({
+      title: "Artifact Type Graph",
+      description: "Artifact-type graph derived from the inventory manifest.",
+      jsonHref: "/graph/artifact-types.json",
+      nodes,
+      edges,
+      navActive: "/graph/artifact-types/index.html",
+      notes: [
+        "The graph is intentionally bipartite: inventory record nodes connect to type nodes.",
+        "This keeps the export useful without inferring more than the manifest provides.",
+      ],
+    }),
+  };
+}
+
 function extensionLabel(extension) {
   if (!extension) return "[no extension]";
   return extension;
@@ -2057,6 +2635,14 @@ async function writeGeneratedAsset({ outRel, body, contentType }) {
 
 }
 
+async function writeGeneratedJsonAsset({ outRel, value }) {
+  await writeGeneratedAsset({
+    outRel,
+    body: `${JSON.stringify(value, null, 2)}\n`,
+    contentType: "application/json; charset=utf-8",
+  });
+}
+
 async function writeWorkerEntrypoints() {
   // Static Pages deployment does not need a generated worker bundle.
 }
@@ -2121,6 +2707,123 @@ async function main() {
     .map((line) => JSON.parse(line));
   const essayAttractorPage = await renderEssayAttractorViewPage(externalRecords);
   await writeRenderedPage(path.join("wiki", "external", "shimmerymemory", "essays", "by-attractor", "index.html"), essayAttractorPage);
+
+  const projectGraph = await buildPageGraphCollection({
+    sourcePrefix: "wiki/projects/",
+    nodePrefix: "project",
+    collectionSlug: "projects",
+    title: "Project Graph",
+    description: "Generated graph of project pages and explicit links across the project tree.",
+    navActive: "/graph/projects/index.html",
+  });
+  const attractorGraph = await buildPageGraphCollection({
+    sourcePrefix: "wiki/attractors/",
+    nodePrefix: "attractor",
+    collectionSlug: "attractors",
+    title: "Attractor Graph",
+    description: "Generated graph of attractor gateway pages and their explicit links.",
+    navActive: "/graph/attractors/index.html",
+  });
+  const conceptGraph = await buildPageGraphCollection({
+    sourcePrefix: "wiki/concepts/",
+    nodePrefix: "concept",
+    collectionSlug: "concepts",
+    title: "Concept Graph",
+    description: "Generated graph of concept pages and their explicit links.",
+    navActive: "/graph/concepts/index.html",
+  });
+  const essayGraph = await buildPageGraphCollection({
+    sourcePrefix: "wiki/external/shimmerymemory/essays/",
+    nodePrefix: "essay",
+    collectionSlug: "essays",
+    title: "Published Essay Graph",
+    description: "Generated graph of published external essay pages and their explicit links.",
+    navActive: "/graph/essays/index.html",
+  });
+  const sourceRoleGraph = buildSourceRoleGraph(records, externalRecords);
+  const artifactTypeGraph = buildArtifactTypeGraph(records);
+
+  const graphCollections = [
+    {
+      key: "projects",
+      title: projectGraph.title,
+      description: projectGraph.description,
+      pageHref: "/graph/projects/",
+      jsonHref: "/graph/projects.json",
+      nodeCount: projectGraph.json.nodes.length,
+      edgeCount: projectGraph.json.edges.length,
+    },
+    {
+      key: "attractors",
+      title: attractorGraph.title,
+      description: attractorGraph.description,
+      pageHref: "/graph/attractors/",
+      jsonHref: "/graph/attractors.json",
+      nodeCount: attractorGraph.json.nodes.length,
+      edgeCount: attractorGraph.json.edges.length,
+    },
+    {
+      key: "concepts",
+      title: conceptGraph.title,
+      description: conceptGraph.description,
+      pageHref: "/graph/concepts/",
+      jsonHref: "/graph/concepts.json",
+      nodeCount: conceptGraph.json.nodes.length,
+      edgeCount: conceptGraph.json.edges.length,
+    },
+    {
+      key: "essays",
+      title: essayGraph.title,
+      description: essayGraph.description,
+      pageHref: "/graph/essays/",
+      jsonHref: "/graph/essays.json",
+      nodeCount: essayGraph.json.nodes.length,
+      edgeCount: essayGraph.json.edges.length,
+    },
+    {
+      key: "source-roles",
+      title: sourceRoleGraph.title,
+      description: sourceRoleGraph.description,
+      pageHref: "/graph/source-roles/",
+      jsonHref: "/graph/source-roles.json",
+      nodeCount: sourceRoleGraph.json.nodes.length,
+      edgeCount: sourceRoleGraph.json.edges.length,
+    },
+    {
+      key: "artifact-types",
+      title: artifactTypeGraph.title,
+      description: artifactTypeGraph.description,
+      pageHref: "/graph/artifact-types/",
+      jsonHref: "/graph/artifact-types.json",
+      nodeCount: artifactTypeGraph.json.nodes.length,
+      edgeCount: artifactTypeGraph.json.edges.length,
+    },
+  ];
+
+  const graphIndexPage = renderGraphIndexPage(graphCollections);
+  await writeRenderedPage(path.join("graph", "index.html"), graphIndexPage);
+  await writeGeneratedJsonAsset({
+    outRel: "graph/index.json",
+    value: {
+      kind: "graph_index",
+      title: "Graph",
+      description: "Generated graph exports and review surfaces",
+      generated_at: new Date().toISOString(),
+      collections: graphCollections,
+    },
+  });
+  await writeRenderedPage(path.join("graph", "projects", "index.html"), projectGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/projects.json", value: projectGraph.json });
+  await writeRenderedPage(path.join("graph", "attractors", "index.html"), attractorGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/attractors.json", value: attractorGraph.json });
+  await writeRenderedPage(path.join("graph", "concepts", "index.html"), conceptGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/concepts.json", value: conceptGraph.json });
+  await writeRenderedPage(path.join("graph", "essays", "index.html"), essayGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/essays.json", value: essayGraph.json });
+  await writeRenderedPage(path.join("graph", "source-roles", "index.html"), sourceRoleGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/source-roles.json", value: sourceRoleGraph.json });
+  await writeRenderedPage(path.join("graph", "artifact-types", "index.html"), artifactTypeGraph.page);
+  await writeGeneratedJsonAsset({ outRel: "graph/artifact-types.json", value: artifactTypeGraph.json });
 
   const searchRecords = [];
   const seenUrls = new Set();
