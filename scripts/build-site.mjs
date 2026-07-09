@@ -1390,17 +1390,17 @@ function renderSearchPage(searchRecords) {
           const items = RECORDS.filter(matches);
           els.resultCount.textContent = items.length + " of " + RECORDS.length + " records";
           els.results.innerHTML = items.slice(0, 200).map((record) => {
-            const tags = (record.tags || []).slice(0, 5).map((tag) => "<span>" + escapeHtml(tag) + "</span>").join("");
-            return "<article class=\"result-card\">"
-              + "<h3><a href=\"" + escapeHtml(record.url) + "\">" + escapeHtml(record.title) + "</a></h3>"
-              + "<p class=\"muted\">" + escapeHtml(record.summary || "") + "</p>"
-              + "<div class=\"result-meta\">"
-              + "<span>" + escapeHtml(record.type) + "</span>"
-              + "<span>" + escapeHtml(record.source_role) + "</span>"
-              + "<span>" + escapeHtml(record.status) + "</span>"
+            const tags = (record.tags || []).slice(0, 5).map((tag) => '<span>' + escapeHtml(tag) + '</span>').join('');
+            return '<article class="result-card">'
+              + '<h3><a href="' + escapeHtml(record.url) + '">' + escapeHtml(record.title) + '</a></h3>'
+              + '<p class="muted">' + escapeHtml(record.summary || '') + '</p>'
+              + '<div class="result-meta">'
+              + '<span>' + escapeHtml(record.type) + '</span>'
+              + '<span>' + escapeHtml(record.source_role) + '</span>'
+              + '<span>' + escapeHtml(record.status) + '</span>'
               + tags
-              + "</div>"
-              + "</article>";
+              + '</div>'
+              + '</article>';
           }).join("");
         }
         for (const el of [els.q, els.typeFilter, els.roleFilter, els.statusFilter]) {
