@@ -23,6 +23,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Source Roles](/wiki/source-roles/index.html)
 - [Artifact Types](/wiki/artifact-types/index.html)
+- [Maintenance Hub](/wiki/maintenance/index.html)
 - [Timelines](timelines/index.md)
 - [Unresolved](unresolved/index.md)
 - [Duplicate Review](duplicate-review.md)
@@ -50,6 +51,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - Use the project cross-index when you want to move from family names into attractors, concepts, and essays quickly.
 - Use the AI entry surface when you need a machine-facing order of operations or source-precedence summary.
 - Use the search surface when you want a fast metadata-first route into the corpus.
+- Use the maintenance hub when you want the current queue pressure in one place before drilling into individual review pages.
 - Split out evidence-backed subpages with lineage labels when a branch stabilizes.
 - Keep `.zip` companions auxiliary unless a page explicitly promotes them.
 - Treat `DOCX` and `PDF` as witness/reference files and use Markdown wiki pages as the working semantic layer for extraction, linking, and later cleanup passes.

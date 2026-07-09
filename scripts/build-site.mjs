@@ -23,6 +23,7 @@ const NAV_ITEMS = [
   ["Essays", "/wiki/external/shimmerymemory/essays/index.html"],
   ["Source Roles", "/wiki/source-roles/index.html"],
   ["Artifact Types", "/wiki/artifact-types/index.html"],
+  ["Maintenance Hub", "/wiki/maintenance/index.html"],
   ["Incoming", "/wiki/incoming-review.html"],
   ["Duplicates", "/wiki/duplicate-review.html"],
   ["Missing", "/wiki/missing-files.html"],
@@ -133,6 +134,26 @@ const SEARCH_SPECIAL_RECORDS = [
     status: "current",
     summary: "Current intake triage and routing state.",
     tags: ["incoming", "review", "routing"],
+  },
+  {
+    title: "Maintenance Hub",
+    url: "/wiki/maintenance/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    collection: "maintenance",
+    status: "current",
+    summary: "Generated summary of current review queues and maintenance pressure.",
+    tags: ["maintenance", "review", "summary"],
+  },
+  {
+    title: "Unresolved Index",
+    url: "/wiki/unresolved/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    collection: "maintenance",
+    status: "current",
+    summary: "Open classification, naming, and interpretation questions.",
+    tags: ["unresolved", "questions", "maintenance"],
   },
   {
     title: "Duplicate Review",
@@ -1292,6 +1313,7 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <div class="browse-card"><a href="/wiki/artifact-types/index.html">Artifact Types</a><p class="muted">Source-layer browsing by file type and companion asset kind.</p></div>
         <div class="browse-card"><a href="/vault/index.html">Raw Vault</a><p class="muted">Browsable repository inventory with GitHub source links.</p></div>
         <div class="browse-card"><a href="/wiki/timelines/index.html">Timelines</a><p class="muted">Chronological views and time-based orientation.</p></div>
+        <div class="browse-card"><a href="/wiki/maintenance/index.html">Maintenance Hub</a><p class="muted">Queue summary for incoming, duplicates, missing, and unresolved.</p></div>
         <div class="browse-card"><a href="/wiki/unresolved/index.html">Unresolved</a><p class="muted">Open classification, naming, and interpretation questions.</p></div>
         <div class="browse-card"><a href="/wiki/duplicate-review.html">Duplicate Review</a><p class="muted">Duplicate sets and collapse decisions.</p></div>
         <div class="browse-card"><a href="/wiki/missing-files.html">Missing Files</a><p class="muted">Broken, absent, or not-yet-routed source references.</p></div>
@@ -2667,6 +2689,68 @@ function renderArtifactTypesPage(records) {
   });
 }
 
+function renderMaintenanceHubPage({ inventoryRecords, duplicateSets, missingCount }) {
+  const incoming = inventoryRecords.filter((record) => (record.current_path || "").startsWith("artifacts/incoming/"));
+  const forFurtherRouting = inventoryRecords.filter((record) => (record.current_path || "").startsWith("artifacts/for-further-routing/"));
+  const intakeArchive = inventoryRecords.filter((record) => (record.current_path || "").startsWith("artifacts/intake-archive/"));
+  const standardNamed = inventoryRecords.filter((record) => (record.current_path || "").startsWith("artifacts/standard-named/"));
+  const duplicateGroups = Object.entries(duplicateSets)
+    .map(([hash, paths]) => ({ hash, paths, count: paths.length }))
+    .sort((a, b) => b.count - a.count);
+  const topDuplicates = duplicateGroups.slice(0, 8);
+
+  return pageShell({
+    title: "Maintenance Hub",
+    subtitle: "Generated maintenance summary for intake, duplicates, and unresolved routing",
+    body: `
+      <p class="eyebrow">Generated maintenance hub</p>
+      <div class="title-row">
+        <h1>Maintenance Hub</h1>
+        <span class="tag">manifest-backed</span>
+      </div>
+      <p>This hub condenses the active queue state so maintenance work can start from counts, not memory. Use the detail pages for specific items; use this page to see where the pressure is.</p>
+      <div class="status-grid">
+        <div class="status-card"><p class="stat">${incoming.length}</p><p class="muted">Files still in incoming.</p></div>
+        <div class="status-card"><p class="stat">${forFurtherRouting.length}</p><p class="muted">Files parked in for-further-routing.</p></div>
+        <div class="status-card"><p class="stat">${duplicateGroups.length}</p><p class="muted">Duplicate hash groups tracked.</p></div>
+        <div class="status-card"><p class="stat">${missingCount}</p><p class="muted">Missing-file issues recorded.</p></div>
+        <div class="status-card"><p class="stat">${intakeArchive.length}</p><p class="muted">Inventory rows in intake-archive.</p></div>
+        <div class="status-card"><p class="stat">${standardNamed.length}</p><p class="muted">Inventory rows in standard-named.</p></div>
+      </div>
+      <h2>Queue Entrances</h2>
+      <div class="browse-grid">
+        <div class="browse-card"><a href="/wiki/incoming-review.html">Incoming Review</a><p class="stat">${incoming.length}</p><p class="muted">New intake waiting for classification, collapse, or routing.</p></div>
+        <div class="browse-card"><a href="/wiki/duplicate-review.html">Duplicate Review</a><p class="stat">${duplicateGroups.length}</p><p class="muted">Exact or likely duplicates tracked by hash group.</p></div>
+        <div class="browse-card"><a href="/wiki/missing-files.html">Missing Files</a><p class="stat">${missingCount}</p><p class="muted">Referenced paths that do not currently resolve.</p></div>
+        <div class="browse-card"><a href="/wiki/unresolved/index.html">Unresolved Index</a><p class="stat">${missingCount}</p><p class="muted">Open naming, source-of-record, or interpretation questions.</p></div>
+      </div>
+      <h2>Top Duplicate Pressure</h2>
+      <table class="file-table">
+        <thead>
+          <tr><th>Group</th><th>Count</th><th>Sample Paths</th></tr>
+        </thead>
+        <tbody>
+          ${topDuplicates.map((group) => `
+            <tr>
+              <td><code>${escapeHtml(group.hash.slice(0, 12))}</code></td>
+              <td>${group.count}</td>
+              <td>${escapeHtml(group.paths.slice(0, 3).join(" · "))}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+      <h2>Notes</h2>
+      <ul>
+        <li>Use <a href="/wiki/incoming-review.html">Incoming Review</a> for newly witnessed files that still need classification.</li>
+        <li>Use <a href="/wiki/duplicate-review.html">Duplicate Review</a> when the question is collapse versus survivor selection.</li>
+        <li>Use <a href="/wiki/missing-files.html">Missing Files</a> and <a href="/wiki/unresolved/index.html">Unresolved Index</a> for routing gaps and naming ambiguity.</li>
+        <li>Do not reframe settled provenance copies as accidental duplicates.</li>
+      </ul>
+    `,
+    navActive: "/wiki/maintenance/index.html",
+  });
+}
+
 async function writeRenderedPage(outRel, html) {
   const absOut = path.join(DIST, outRel);
   await fs.mkdir(path.dirname(absOut), { recursive: true });
@@ -2759,6 +2843,14 @@ async function main() {
 
   const artifactTypesPage = renderArtifactTypesPage(records);
   await writeRenderedPage(path.join("wiki", "artifact-types", "index.html"), artifactTypesPage);
+
+  const missingCount = (await readJsonlRecords("manifest/missing_log.jsonl")).length;
+  const maintenancePage = renderMaintenanceHubPage({
+    inventoryRecords: records,
+    duplicateSets: duplicateGroups,
+    missingCount,
+  });
+  await writeRenderedPage(path.join("wiki", "maintenance", "index.html"), maintenancePage);
 
   const projectIndexSource = await fs.readFile(path.join(ROOT, "wiki", "projects", "index.md"), "utf8");
   const projectFamilies = extractProjectFamilies(projectIndexSource);
