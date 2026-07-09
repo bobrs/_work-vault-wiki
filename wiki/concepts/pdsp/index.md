@@ -41,6 +41,7 @@ The [Voting Machine](../../projects/voting-machine/index.md) project is a concre
 - [Governance Diad](../governance-diad/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [PDSP and Sovereignty](../../projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md)
+- [PDSP](../../projects/pdsp/index.md)
 
 ## Open Questions
 

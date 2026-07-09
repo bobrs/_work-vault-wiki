@@ -22,6 +22,7 @@ Current concept pages:
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [POLEMEMELOP](polememelop/index.md)
 - [LoopLink](looplink/index.md)
+- [LOOPtLOOP](looptloop/index.md)
 - [PDSP](pdsp/index.md)
 - [Loop Economy](loop-economy/index.md)
 - [Intent-Consent](intent-consent/index.md)
