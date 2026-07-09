@@ -301,9 +301,6 @@
   "09e1a6496eb118f5fea87fdc12bfe7651f5a9f5c09c07d2431d6034cece1b4ae": [
     "artifacts/incoming/Semantic Integrity It Cybersecurity Essay.docx"
   ],
-  "09f9e9bed17800b3a5214be99f0a0831a0d67136fa6c4632481282d0ee3d22b1": [
-    "wiki/index.md"
-  ],
   "0a1b43afcafd8d411395387f794c14aa1d5646ed758872bfcb2c1c278f9c0d3d": [
     "artifacts/intake-archive/20260622__patents-intake/Offline Gambling/Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf"
   ],
@@ -311,7 +308,7 @@
     "artifacts/incoming/ULiUA_Coherent_Motion_Under_Uncertainty.md"
   ],
   "0a88a65f48a7fd74c474755452e8ddb9dea69806da41d5074aa842defe66f082": [
-    "artifacts/for-further-routing/shimmerymemory_glyph_exploder_prototype.jsx"
+    "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory-glyph-exploder-prototype/shimmerymemory_glyph_exploder_prototype.jsx"
   ],
   "0acfb4bb2d910e7dfb9b58a72fcf35f1766a120af55944b4f7c09c37c4efdf54": [
     "artifacts/incoming/uli_ua_micro_aphorisms_consent_knowing.md"
@@ -613,6 +610,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.1.docx"
   ],
+  "171567963fb84ef618b0356ce1874f1f94517db7d2cd5cb7a1b6c9f7f07db110": [
+    "ai/index.md"
+  ],
   "179e29ae584d07a2be242db5d567b7d391a7754aec6de96a4a65e1cc6b64c401": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/shimmer-lab-concept-and-code-summary.md"
   ],
@@ -785,6 +785,9 @@
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL/llms.txt",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/llms.txt"
   ],
+  "1d9b768acf762d4ee927cbb8490e57e2704e48b0a510d31bbf14cc22f7ef594d": [
+    "wiki/concepts/index.md"
+  ],
   "1da30b5cba68b9686271c1d12cf8e3a3dae05317724cf7c9743a0add2b28ec02": [
     "artifacts/intake-archive/20260623__ai-did-not-break-consent-intake/AI Did Not Break Consent.pdf"
   ],
@@ -851,6 +854,9 @@
   ],
   "20ec3eace71737d53fb5a538c38fe9fd0418a744533c056a3e934dd67eee37ba": [
     "artifacts/incoming/Work Vault Initial Operating Protocol (1).docx"
+  ],
+  "20f9023d32af596164b784da114d429991f847b74f080f9b932c9bf76adec1bf": [
+    "wiki/projects/quantum-invariants/ai/index.md"
   ],
   "20fbb79ee30fa90b4d9e2bb1866e4810508b61a9c7bc97356738cd16704228a4": [
     "artifacts/incoming/how_intuition_works_sensing_probing_and_field_navigation.md"
@@ -1002,9 +1008,6 @@
   "254f539ac021f30d6422a5c8c4120ff81412d43dddb2d1edce246ed0cc3e3511": [
     "artifacts/incoming/👑 The King Who Measured Everything.docx"
   ],
-  "25551358a29d130b602b5464501ae72d6e92f38e11a7e56da23e4a6a231f64d4": [
-    "wiki/concepts/index.md"
-  ],
   "256bcd46aa4b7bfc888ee4bde5c30fb30184ca6dc3af4ffbba44e1622b3ba07e": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Anxiety.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/🜁 Loop Repair Guide- Anxiety.docx",
@@ -1051,6 +1054,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF- LoopNet Layer Zero- Timing, Distance, and Semantic Privacy.docx"
   ],
+  "278ecc9394f2c9a4ce61b160c5132af9947d496c15af7db5cea8407691337bb0": [
+    "wiki/status-vocabulary/index.md"
+  ],
   "281fc49c75cc679f9066c193938d4d980ae0a0fe0eb86a0b1ac947ddbb216ed6": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx",
@@ -1090,8 +1096,8 @@
   "29fe5a9d1d5ca1fe1d8c9b15d3b88a82492c46b8f6fc4b88b2d139d76e435f3f": [
     "wiki/projects/patents/trust-and-pairing-systems/wrapped-bidirectional-totp-patent/index.md"
   ],
-  "2a0ae8e52067d986d40e825f3d370b92712125a2a2e41b27f577ab8ea50ff115": [
-    "manifest/hash_index.json"
+  "2a1825c4d28a527b058591d87dd018a112f3d33b05b814e2ad2cf60516404430": [
+    "wiki/index.md"
   ],
   "2a1b98aebd2a2e5dce825ef4c5cb39d00b4577172148932fcac9994c1fce1b47": [
     "artifacts/incoming/changing-the-optimization-primitive.md"
@@ -1125,6 +1131,9 @@
   ],
   "2b512a5ba19fb70b8704748f417a48a0492a468522bbf30726cb148e382bfa66": [
     "manifest/agent_actions.jsonl"
+  ],
+  "2b62715a006f48066de1e8d60d98e2f51cfbcdf5faa3cff8209d5e0f33785c28": [
+    "AI_CONTEXT.md"
   ],
   "2b9892c96fe29b8ba1a3e462e9cce758e24f61b4065a2d848ac79167c6d82763": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/Slide 2a.png"
@@ -1239,6 +1248,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250505/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-13- Sovereignty as Structured Consent — Encoding Identity Through Declarative Choice.docx"
+  ],
+  "2ef0b223c5f34c6eae6731a0aa66c8ea6117423cd4a219966152081855f69e18": [
+    "wiki/concepts/pdsp/index.md"
   ],
   "2f0649baa850dd78de8283412f2a4c6a6cc19d312a4da74a6714ad3bdc72dbd7": [
     "artifacts/incoming/Penguin Eye Glyph Pool.docx"
@@ -1414,6 +1426,9 @@
     "artifacts/intake-archive/20260622__patents-intake/Color Alpha Codec Patent/totp_seed_demo_with_decoder.html",
     "artifacts/standard-named/20260622__PATENTS__ENCODING-SEMANTIC-INTERFACES__COLOR-ALPHA-CODEC__HTML__v1__totp-seed-demo-with-decoder.html"
   ],
+  "354c2940bd88fee19b0a5dbc21120be41ecff36feb93d7f98597809a93327988": [
+    "wiki/paths/index.md"
+  ],
   "3573f6b6c32697eb359c6b33accd449c27be58f8951128a2b3906aa04541cd2b": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal.zip"
   ],
@@ -1492,6 +1507,9 @@
     "artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent-Based Routing Protocol (CBRP).docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/Consent-Based Routing Protocol (CBRP).docx"
   ],
+  "38eceab302ac3bde17e306281f902d92a37754a2e420d0867d2c09ac83d69dae": [
+    "CANON.md"
+  ],
   "391999de082f9c66ac3c676a86eb34ef93ed0eaea3f12380e7c005dbb506a221": [
     "artifacts/incoming/Mobius Witness Chapter.docx"
   ],
@@ -1505,9 +1523,6 @@
     "artifacts/incoming/20260520 Semantic-integrity Faq Due-diligence Design-partner-investor V0-1.docx",
     "artifacts/intake-archive/20260629__semantic-integrity-intake/20260520 Semantic-integrity Faq Due-diligence Design-partner-investor V0-1.docx"
   ],
-  "39ad0dc09593fc9f9ff029a134e9f8174e3833b95d4b83990447962208d66205": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-pairing-and-consent-loop/index.md"
-  ],
   "39b6f7ece7e5b3b3d0f26dbd69000455da845ee20bd8ededa4b7fa9390e5e7f8": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-economy-series/loop-units/exchange-and-transaction-loops/index.md"
   ],
@@ -1519,6 +1534,9 @@
   ],
   "3a232864a0d407a8b00d654fe9ec3d07e961889ce2511645f1ac614e54f6d679": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop and Phase Training.zip"
+  ],
+  "3a29f8db7a41f8c719351f965fb76a549cd20ee33a3d810cd1e0f48695a3ca40": [
+    "wiki/projects/looptloop/index.md"
   ],
   "3a2d81f219b817b6adcda3ebde6a8ec42bfebc49308a45bf8ab5d724be2cfff5": [
     "artifacts/incoming/20260210_mem_essay_meta_uli_ua_idolatry_collapse_field.md"
@@ -1629,6 +1647,9 @@
   "3db7d5204e4fe63834d62ece7cc29cbb07a7653c7454f101030f8e28ac2fafe1": [
     "wiki/attractors/loop-mechanics/index.md"
   ],
+  "3dca0778f03831245e2a5fe524731745d7a7cc0528236b41afcd2b11fc56d7f8": [
+    "wiki/projects/index.md"
+  ],
   "3de3164057f450dfeec72379e695fe66e71b035ed40f0231662cd0c90f038bed": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Safety and Stable Loop Language/Safety Seeking/Internal/index.html"
   ],
@@ -1657,9 +1678,6 @@
   ],
   "3ebbe1a6d843a1b726fd5c20be20cda15d3f16164255508e6d5979afe01792ad": [
     "wiki/projects/consent-intent-compression-protocol/working-notes/index.md"
-  ],
-  "3edce2eefe1fd370b931bd11b449ea44716c4c309f0005c7bcc6a70c13cb36c3": [
-    "wiki/artifacts/index.md"
   ],
   "3f122d12108ba28fdc69ca8b17a5bf7e8779f14fa6a6aa35045914ea4388c871": [
     "wiki/projects/new-ideas/index.md"
@@ -1744,6 +1762,9 @@
   ],
   "4224acbf042b1e7d5c6080300ba685534ce8e035bfafe1dceb84172a5fd6e9d3": [
     "artifacts/incoming/Rewild Yourself Protocol Alt.docx"
+  ],
+  "426c5ff7b3d347ae70254d046975ed931d65a98917bcd353e2dddf686cbcf099": [
+    "wiki/ai-answer-contracts/index.md"
   ],
   "428edc56249ea5e3a15a6fc6d9bc31df86d7156518020e2c30aad4b63b154fab": [
     "artifacts/incoming/Lesson Forward Masterlist.docx"
@@ -1864,6 +1885,9 @@
   "48522283961df5fc86e6ce38742790b9281d43d3d960893bd86756ff8243e286": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/index.html"
   ],
+  "489fead3cdcd65e9e23bf2d22778abdbb5548fe4f959f59306a660de39a13c36": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-infrastructure-applications/index.md"
+  ],
   "48b4e89e8d79d3ca0658cdec0a202b57e2dd343a4fa789e9b78890381773307d": [
     "artifacts/intake-archive/20260622__patents-intake/EchoPad/EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/EchoPad/EchoPad Protocol – Compressed Trust Pads with Echo-Based Indexing.docx",
@@ -1915,12 +1939,12 @@
   "4a5b9e68eafd002cd0d979f0ac26523a3349b82d57f50cfcf62ead4989533086": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__VORTEX__SYMBOLA__master.svg"
   ],
-  "4a7a38018055ddd67e7b66b3fda73d19c1bd47541f668693d4f90050ac6e070f": [
-    "scripts/build-site.mjs"
-  ],
   "4a83f740993723c5e6e5f0dd3869af5dc2978a1c7ca8282c13e91225f46f3cfd": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/from-output-to-constitutional-ai.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/from-output-to-constitutional-ai.md"
+  ],
+  "4ac5892291d563775c5069cda78c7071019c6bc69e87076bd808693d9363ebf7": [
+    "llms-full.txt"
   ],
   "4ac8704716f7b8b0f879bc79efa3e47520b8a80f9b292d2fe5eb33fdea88d4b6": [
     "artifacts/incoming/Deepvibe Manifestor and other suggestions.docx"
@@ -1957,11 +1981,17 @@
   "4cd067dab69018371fc060ccefe0bd0e171665a364791a829c090fc14993716d": [
     "artifacts/incoming/🌌 Suggestions Document.docx"
   ],
+  "4d12fddff064acfa10a9e8d4ae7e794edabf4e80c77459161610d17c4ff6969c": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-pairing-and-consent-loop/index.md"
+  ],
   "4d1ffda5077385ad18e1bff5321079b8b6247958af70bd2eea7c3838c65494d7": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/HumanKey Explainer.mp4"
   ],
   "4d230479af95f8d496397e87b6196d895011e898434eb80266e9be1d86699767": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__APPRECIATION__SYMBOLA__master.svg"
+  ],
+  "4d4401d2741960b30bf16ce32554a61616fd41d2a484f1fd4f1bc2f07ac0742a": [
+    "CHANGELOG.md"
   ],
   "4d910b524d5ac26be1128d5231a1edfe3d21fbdf0861789627fcc39fdeea058e": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/objects/01/c519678fdf50f88c2879ff405a8072f5346542"
@@ -2054,11 +2084,11 @@
   "5115c3bdd2c92bd06a4a12649cd3bdec047baa376de0abc9836e2df2c7efa1fe": [
     "artifacts/incoming/20260210_sys_spec_meta_asp_artifact_spine_protocol_asp_0_1.md"
   ],
+  "511d5bf3543db349d7c7214de6d32d950369b859b9bc9015766fd419f6251fe3": [
+    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-lite-specs/index.md"
+  ],
   "51489bd1ece7269aae62befb50c1d4d897fdf7389b94206448a5c9d2050735c8": [
     "artifacts/incoming/Shimmerflow Codex.docx"
-  ],
-  "516061626600efacfe76e29e2341d529054c276e4573623cada852a1eefcfbfc": [
-    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-core/index.md"
   ],
   "5173bf1af74af0662c36e7b62c153b5c2306dc1a734f8f6b7dd208a471738736": [
     "wiki/projects/quantum-invariants/downloads/index.md"
@@ -2136,9 +2166,6 @@
   "54c76109780f94523a30194906f87f7f40b58489036a155d25278fbca359fbfc": [
     "wiki/external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md"
   ],
-  "54e5fe5e52af98d6f7ece4cac466589c4ddb12e57870a96cfdeb473ea9716d32": [
-    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/integration-bundles/index.md"
-  ],
   "55283aa52cfbfb4d37c00a57101b183f904b90f4a2f9450deccd7708a18bc379": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/shimmer-interface-manifesto.md"
   ],
@@ -2190,6 +2217,9 @@
   "5792d6590037fb9e04b49568c245bbd38896e1ccb880958431d0e2a5fe35c92c": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Story/Episode 3 Outline.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Story/Episode 3 Outline.docx"
+  ],
+  "57a32f02b97b729bd289168cb53afc1aa70ee132e4160080c61c54bcbbea95d2": [
+    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md"
   ],
   "57aa7be6668e6e873fb015e3574bfdb5f7900892d187f08eb2b8b9c20d72cea6": [
     "artifacts/incoming/20260625__ATTENTION__PLAN-COMPRESSION__PUBLIC__BOOK-SERIES-SEMANTIC-REENTRY__attention-engine-book-series-plan-and-semantic-compression.md"
@@ -2281,9 +2311,6 @@
   ],
   "5aee1133b8562aab6d63841c4073b2fe753c57b3d45533f9b99340b24766142c": [
     "artifacts/incoming/Homestead Pours.docx"
-  ],
-  "5b1bc427e37d8932974f90781ae082a7d8de1b3c0ac1b090a84696fa655bdb10": [
-    "manifest/duplicate_sets.json"
   ],
   "5b1ff9155f20c1e02bf5ae907526a44b26974c990fb042bb245d6a644d298421": [
     "wiki/projects/patents/governance-and-games/voting-machine/index.md"
@@ -2478,6 +2505,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-1- Semantic Entropy and Collapse Conditions.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-1- Semantic Entropy and Collapse Conditions.docx"
   ],
+  "63281e698a045801b3f06db61c0336cfb130cae9738725c4e243ad8f56d119fc": [
+    "llms.txt"
+  ],
   "632fda3b14ab2a5b4d2f6e88ec85e857f04eddfe32699209e0629af0a4c993da": [
     "artifacts/incoming/Mobius Quantum Engine.docx"
   ],
@@ -2533,8 +2563,8 @@
   "65213350b0036f80020d566d36d9d6e2e1772d2a9e66f30a66415ee2b14265d6": [
     "wiki/projects/side-projects-desktop/programself-you-and-your-ai/control-your-ai/index.md"
   ],
-  "65252566d708e138b0af80c085aabcca91844c4fd6ee1c5f58c735d36d1e7936": [
-    "wiki/concepts/pdsp/index.md"
+  "65258ad8517a133d14fc7cfc2db2735f527c31d770847b35cff40891473ad958": [
+    "WIKI.md"
   ],
   "6539616f1f8106ebbc560f29222356c1ae4015e44f03e3402a2d9f932acd1e29": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Shame.docx",
@@ -2594,9 +2624,6 @@
   ],
   "67709fcda046def18302a72e5ea5191ef61e6b57218ab7f0acdf370ed14a9fcc": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/index"
-  ],
-  "67943575569a294a855e9c088cac6a4a38a5da1784df388cbe1b51c0abee147b": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/field-infrastructure-applications/index.md"
   ],
   "6795b44920af8579ddb49fb85f802d7344920f76bdcf93e0b6f4bb837875a7f3": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Burnout.docx",
@@ -2681,9 +2708,6 @@
     "artifacts/intake-archive/20260624__quantum-invariants-doc-intake/quantum_invariants_recommended_additions.md",
     "artifacts/standard-named/20260624__QUANTUM-INVARIANTS__RECOMMENDED-ADDITIONS__v0-1__recommended-structural-additions.md"
   ],
-  "6a99afdabd06c15d1e935acb4a39b563b4378a8b321cb2fe98728993cff0bcd3": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/index.md"
-  ],
   "6ab50c76f9345de763a9461541aa7a05625ba507f1d6a27c556fed710d5d4acf": [
     "artifacts/incoming/frame_anchored_consent_protocol_facp_v_0.md"
   ],
@@ -2696,14 +2720,8 @@
   "6b1551fa854021b6a20f0efbea53c6aba1ce78633c8a9ddecb385fe80c2128db": [
     "wiki/projects/side-projects-desktop/governance/index.md"
   ],
-  "6b32a9776a14a38ba93aeb6ef38ee43c5833b43581da09fa3f3382aa2df3d4f7": [
-    "wiki/projects/witnesskey/spec/index.md"
-  ],
   "6b3a3ce8dfe49a24a9be309479d95c7d62d4bbb619bd8645d36618c46e94c8c6": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/objects/2d/088fb021a9514274b10a7dc5823280eeda0c15"
-  ],
-  "6b3f874d22808dd7f4b49717d856322423bb3a40a2665b0c4a5c3d5087f41eb5": [
-    "README.md"
   ],
   "6b8b2fbbe259164de7c9b813111d7c5a035bb89d3e33fb3c70f3d404067e81d5": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/mobiusself-vs-optimization-culture.md",
@@ -2820,6 +2838,9 @@
     "artifacts/intake-archive/20260622__similar-projects-intake/Retropic Lift Equation.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__RETROPIC-LIFT-EQUATION__v1__retropic-lift-equation.docx"
   ],
+  "6fc7e013afd67b82739d18a3b8fab9434840629842ec8fec7c158ab7e2a9bf49": [
+    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/integration-bundles/index.md"
+  ],
   "6ff3605b5a83e9dcc51cdbc2a44e820a762e44973c033ebf4b91db69175e8d64": [
     "artifacts/incoming/ai_tik_tok_series_13_day_run.md"
   ],
@@ -2876,6 +2897,9 @@
   "71dc15745fde604d986b14f253f92a9320a7c65505961dc81c40311c01bbc082": [
     "artifacts/incoming/personal_state_machine_reminder.md"
   ],
+  "71e6e31577213e39dac823035ce5370629c233c97d51cc2efeeae863011aa6ec": [
+    "package.json"
+  ],
   "723568817754ea85ee1cfadc70a8906a7c1254dc4fdd43d340072fc20b4ddf21": [
     "artifacts/incoming/ChatGPT unknown.docx"
   ],
@@ -2899,6 +2923,9 @@
   ],
   "72bce1fcae8464a6d4fc9ebc76f4e807fbb5858396497f721820e3b183b8fd81": [
     "artifacts/incoming/artifacts_attractors_and_the_relativity_of_appearance (1).md"
+  ],
+  "72f38064320709992465e192fa93be89baae43238411d9d64cc741ad6e5b0fd5": [
+    "GEMINI.md"
   ],
   "730e4b0178279fd8bd8db5e919ab9eacc5e04cf2449b498d6cacc4033da09226": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260611__ULIUA__html__website__preset-update__index.html"
@@ -2985,9 +3012,6 @@
   "75f51dc8b6f27690a284b601d0b4c75f94ca9e0488bce39b97016e2e8fb509eb": [
     "artifacts/incoming/alchemical_mechanics_the_hint_names.md"
   ],
-  "7600d12c865b94d7f64776317e85c5a0d534f5d3fc934ea3600c2da63aa1ebce": [
-    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md"
-  ],
   "7636e4650392fe5bbe13132416075f19adfde846f4d5ba9f497345b865758fbd": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Witness Infrastructure Ai Economy Essay.pdf"
   ],
@@ -3066,6 +3090,9 @@
   "7a4628029a5f13fea2adece8d3797207d43b2b0221c3f618042ef6faa1d78e77": [
     "artifacts/incoming/the_compounding_power_of_being_understood.md"
   ],
+  "7a80b48023cb00ad5b6001923d1f89350fb62526241d02a3dfe1277b18b225c9": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/pairing-and-field-access/index.md"
+  ],
   "7a8383357085aae3f35a680166d080ec7e9a7834dd34ab4d4a1a9ee483251955": [
     "artifacts/intake-archive/20260624__semantic-integrity-intake/20260520_semantic_integrity_faq_due_diligence_design_partner_investor_v_0_1.md",
     "artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__FAQ__v0-1__semantic-integrity-initial-due-diligence-faq.md"
@@ -3140,9 +3167,6 @@
   ],
   "7d69e46adbc68e5a61e753b5e7420942517f2fd83bef967c7512a5c2b59eb8f4": [
     "wiki/missing-files.md"
-  ],
-  "7d729cdedd79012526e3a035e319e4694f0f65ce5fd9b626a3b4955a9ba38ffb": [
-    "WIKI.md"
   ],
   "7d908d98f6bf4db471c7b7674c12840d7abba2de3ef19b875a147bab9e4c0851": [
     "artifacts/incoming/Loop Language Summary.docx"
@@ -3220,8 +3244,14 @@
   "81434376952fd280c71c2b55a5032a47b03cdc11b40b87376f68600c529768c6": [
     "artifacts/incoming/efn_model_v_0_2_recommended_structure.md"
   ],
+  "81500fcfe36ccdbf22eb0248b7713b44e76480fdcf854ee6e83059e391efea61": [
+    "manifest/hash_index.json"
+  ],
   "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/hooks/post-update.sample"
+  ],
+  "81a3777456801b80e576ce4974703d911b30ff5d926722e80ef6ddf13277f78e": [
+    "scripts/build-site.mjs"
   ],
   "81e459ea4c62c717e7ad9fdba3253c4e1032662cffc361dd22389862adf50912": [
     "artifacts/archived/Side Projects Desktop/Personal/Thanks, Bobo - A Screenplay.docx",
@@ -3511,9 +3541,6 @@
   "8fbcccf7813fc66bd57415ec43e08207a86504bddbe6c8277dbb3c3e10792f76": [
     "artifacts/incoming/yesatom_unconditional_acceptance.md"
   ],
-  "8fbd1d2458ce8f16df0fe036b0317123957564be68873a85055f0543aca75a73": [
-    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-lite-specs/index.md"
-  ],
   "8fc80d304c4a832496fc16d15aa702f9f249605b41d57fc144e6f7f0f08a18b4": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/DeepTrust_Dialogica_Sample_Transcript.docx"
   ],
@@ -3706,6 +3733,9 @@
   "97355ca1029f24aaf19a858095bc4b01c261f8f554c06006b285bb08942e1375": [
     "artifacts/incoming/🌀 The Attention Engine outline draft.docx"
   ],
+  "975a986b0c963b31c20643d806ef17e437e02cf4dcd6e7f588ea3573c685b114": [
+    "ATTRACTOR_MAP.md"
+  ],
   "97a7a23eaf2bc24932d030292551cc2305988a32a3036a6c5efe624005bd89da": [
     "artifacts/intake-archive/20260622__how-intuition-works-intake/Why-Planning-Fails-Without-Pull.md",
     "artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__WHY-PLANNING-FAILS-WITHOUT-PULL__v1__why-planning-fails-without-pull.md"
@@ -3894,6 +3924,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx"
   ],
+  "9f47673b3d6cf51fa1b53864f548a56cfcd0acd543fb3d6f414d0e9fbfd749bb": [
+    "wiki/projects/witnesskey/spec/index.md"
+  ],
   "9f6ffa6d7df894e63035ab5c18f8fd8084eca61aae2d812d32da1b1bf399fd84": [
     "artifacts/incoming/20260619__WITNESSKEY__POSITIONING__PRIVATE-AUTHORIZATION-WITNESSING__v0-1__service-wedge.docx"
   ],
@@ -4063,9 +4096,6 @@
     "artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip",
     "artifacts/standard-named/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v4__abracadoo-humankey-seed.zip"
   ],
-  "a66281abf0c3ff200b90ccb4c1f5a938b103923076a2a30476712cabdf4da8ce": [
-    "wiki/projects/quantum-invariants/index.md"
-  ],
   "a66c7072aa68f22b6d57c1955fb9cf9b3db903275d571ed0a24e56a73a188237": [
     "wiki/external/shimmerymemory/essays/the-room-youre-in/index.md"
   ],
@@ -4116,6 +4146,9 @@
   ],
   "a84c3af9db2a78dc3d700fcabadfccf0aae299113770289b2f7c12978f54ddf5": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.well-known/qi-manifest.json"
+  ],
+  "a8664ff12afc94ca0d71b6bb5399a8d59a5995744c3a5263347cb5d2ded4dba6": [
+    "start-here-for-ai/index.md"
   ],
   "a8e5d0eab7d498e69e366352cea5d9002b2f8355b72330eaecb20b763d3b511b": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Reputation Semantics v1.docx",
@@ -4226,8 +4259,6 @@
     "artifacts/incoming/a_place_to_stand_bathroom_edition.md"
   ],
   "aec82a4489606401af405af9081a3ddae9b7e423151a11c09918cd73f9643651": [
-    "artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage (1).jsx",
-    "artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage.jsx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Sovereignty of the Butterfly/sovereignty_of_the_butterfly_single_file_webpage.jsx"
   ],
   "af308f89b215ef9ae11882a0b6378bc52fa05e2913714926cf0409358170f192": [
@@ -4328,9 +4359,6 @@
   "b1d699fd2c077a400815f98f022e937fc82c8e411b734d8cff11c9a3160392bc": [
     "artifacts/intake-archive/20260622__patents-intake/LoopPad/Looppad Device Doc.docx"
   ],
-  "b202468c2e9ea6355c9197f80295e8ff0a4308b67e20b5f9a3e9046cc797f7df": [
-    "manifest/inventory.jsonl"
-  ],
   "b24a7c1e5c15e528ee69b263ff397123f8bcdefcbbf3a10bda2d7a3e433ddc93": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Personal Data Sovereignty Protocol.docx"
@@ -4341,9 +4369,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250505/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-11- Harmonics of the Loop Field — Recognition Through Resonant Consent.docx"
-  ],
-  "b28dd0ed0db09bfcae9a21ee2947187a24b818f7492ca871c1d3d4c81e73daec": [
-    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/index.md"
   ],
   "b29423decce3b3d3d30d9477ace386a8461a8ae7872816d8aa7b00f8f0529d0b": [
     "wiki/projects/continuity-office/support-materials/index.md"
@@ -4833,9 +4858,6 @@
   "c50bb2198190fc8c54fcfc346360e6f638d6849a932ab4d235b38fdabaf6688c": [
     "artifacts/incoming/invariant_essay_backwards_compression.md"
   ],
-  "c523ff4b3041ffdc5fac1f90ba07a9290db7c4b5702df0b756cb8a7e7c82c4ec": [
-    "wiki/projects/quantum-invariants/ai/index.md"
-  ],
   "c53d99b7c3fe7c3ac6e91cf2f127fe9dad1315b7a8463815830a65f70e11bf1b": [
     "artifacts/incoming/continuit_ai_dont_wait_till_it_happens_one_pager.md"
   ],
@@ -4879,6 +4901,9 @@
   ],
   "c7223c7c786b1ed208ca7d49d5f7ce40d1793a946be693a5c6381afdd29f96c5": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/fractal-identity/index.md"
+  ],
+  "c771fab3c4ef5ef9376fbb1f366435adb868541901201d121c9d8fa6a0df6df8": [
+    "manifest/inventory.jsonl"
   ],
   "c773afa016b5d0ee1c0c0879cf54c7f466da252650c85a98f4445ff3a249ad64": [
     "wiki/projects/loopverse/index.md"
@@ -5011,6 +5036,9 @@
     "artifacts/intake-archive/20260624__abracadoo-frontpage-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-3__CALMER-SKY.zip",
     "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__v3__calmer-sky.zip"
   ],
+  "cc5807747dad537f6a704b6c1456ead0430ed3cee95ba7fb1e1d812ddbf53066": [
+    "manifest/duplicate_sets.json"
+  ],
   "cc99da6f9fb578840504d7d8ccf0faa4c6cae6c7adcdd639fd7e938e58a6e75a": [
     "artifacts/intake-archive/20260623__abracadoo-site-variants-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-6__HILLS-APP-PREVIEW.zip"
   ],
@@ -5042,6 +5070,9 @@
   "cd67779bccaa811d9acd7c158e077af396529dd34be35cfb983d33cb353af51e": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260610__ULIUA__MERCH__download-pack__v2__transparent-refresh/png/loop.png"
   ],
+  "cd86a3992df3f1df002f2896c7ed6ee34d47ecec858ac78f6b5edb8f5dcb2eca": [
+    "README.md"
+  ],
   "cd8d433599868a87410630d0f4be11515cd005953fb01a578562bfc003a491c5": [
     "artifacts/intake-archive/20260622__continuity-office-intake/019-continuity-for-leaders/index.md",
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/training/019-continuity-for-leaders/index.md",
@@ -5070,6 +5101,9 @@
   "ce8434787a515278fa23dc61ea55c6960fcb72f512b701dcd26a3179f9c0797c": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Retropic Mandelbulb Primer.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__TEMPORAL-TOPOLOGICAL__RETROPIC-MANDELBULB-PRIMER__v1__retropic-mandelbulb-primer.docx"
+  ],
+  "cea90fb596a2efacf822f81d5f35f691d221d9b02bcd8122610a748d76ce78a2": [
+    "wiki/projects/witnesskey/index.md"
   ],
   "cedc7ee9659f344562af9295e822d6d801d514dbf79a48ef19a3f1ffa678cb44": [
     "artifacts/archived/Side Projects Desktop/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx",
@@ -5104,6 +5138,9 @@
   ],
   "d06689b11be6b49b4fd3439ec9cf9bbce4d3e44e6cc8fc83cfc914543d40fec1": [
     "wiki/projects/side-projects-desktop/glyphlog/method-and-interfaces/index.md"
+  ],
+  "d06d8309d45fe3353141771455ed37007612d026f9bcdf200f7121536e1980fc": [
+    "wiki/projects/quantum-invariants/index.md"
   ],
   "d07e6919845ac35e4b8e552cbdb9114f3e51bdf8bdf12de41185c6b4b3e8ce3a": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Bobby Brain Os.docx",
@@ -5141,9 +5178,6 @@
   ],
   "d259cb3e4bf78c391a052d1431f106ee9c5996ec05abd282b8f8d082f19f8dbd": [
     "artifacts/incoming/the_parable_of_the_one_job.md"
-  ],
-  "d26c38dac7a0f5b19cb29a944af9e79851dbd7838fbf2655463b8d5fa45d1172": [
-    "wiki/projects/patents/platform-and-field-applications/index.md"
   ],
   "d26ffc2495cfca451d3a3617a5ef6a1e859873544fc2c149ab57ee88e0a5d543": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v12__interactive-shimmer-invites.html"
@@ -5508,6 +5542,9 @@
   "e0e1df55a6befb7f654e14c1142c3ffd90ca63333ce9662b2b29b9a6c6b1d296": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Attention - Five Modes/index.html"
   ],
+  "e107d57970d322289ed0e29a91b392a4cc91280c96cf5c7f64b2a2952c9926f1": [
+    "CLAUDE.md"
+  ],
   "e10b185d5f6415f214cae90616efc8caec31b1aea42bd08a57c36a6ee3878d12": [
     "artifacts/intake-archive/20260622__patents-intake/Progressive Resonance Gating/PROVISIONAL PATENT APPLICATION DRAFT - Progressive Resonance Gating (PRG) System for Consent-Based Layered Data Access and Identity Representation  .docx"
   ],
@@ -5555,8 +5592,8 @@
   "e2d72b30df57cd4461023f7ddc232e6c61a998404de135bdc631a06ae376f9b4": [
     "artifacts/incoming/Source Text - Consent over Control.docx"
   ],
-  "e2d885d0ae683c58381fcd426f4128c578c4d149cfe822b9dc789e38fb51c5b4": [
-    "wiki/projects/index.md"
+  "e2e2d30c63b2be0205792fb77556dc2f642a64f079774143a851429687231643": [
+    "scripts/validate-site.mjs"
   ],
   "e2e8cea339497581885e73e62f139de8b5b73d1f8e9cde03357809da97e40fe4": [
     "wiki/projects/side-projects-desktop/source-text/source/index.md"
@@ -5647,6 +5684,9 @@
   "e749e98e3be7b0889c49dc5f5c50afbcb1e3512a15f3d6261ccea7342aab0224": [
     "artifacts/incoming/Glyph Os Story Lesson For Kids.docx"
   ],
+  "e7785324bb26635d711cdf204267d2f751845de9086aa4170d1c635a798a2afa": [
+    "wiki/projects/semantic-collapse-theory/loop-series/pdsp-and-sovereignty/pdsp-core/index.md"
+  ],
   "e7c2942168139a257e5b9547deafdd22c338de5502572f5d305a6b304380781b": [
     "artifacts/intake-archive/20260624__abracadoo-intake/20260609__ABRACADOO__DOC__V1-ARCHITECTURE-ROADMAP__V0-1__redesign-architecture-initial-roadmap.docx",
     "artifacts/standard-named/20260624__ABRACADOO__ARCHITECTURE__HUMANKEY-FIRST-PWA__v1__abracadoo-v1-redesign-architecture-initial-roadmap.docx"
@@ -5702,9 +5742,6 @@
   ],
   "e96315c47a2ce7da234928233d89d1c7108a2aed9f531ef32b82e6dff6910ebb": [
     "artifacts/incoming/regard_mechanics_cathedral_persistence.md"
-  ],
-  "e9c7186e8e7b071044990fbb5c94c33273ac299bc8d64884929f36b46624a317": [
-    "wiki/projects/witnesskey/index.md"
   ],
   "e9d94ba36a2e2cf9e8adf8b0458dc8dcae23b63abddc773ec44baf159221ccc9": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__FUN__SYMBOLA__master.svg"
@@ -5924,6 +5961,9 @@
   "f0e273e600d8d1dbc78a5c149b34d63bcfd905d589e8b207f13fbe7f2249e952": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/Resonant Identity- Recognition Through Harmonics, Not Passwords.docx"
   ],
+  "f0e8d64b536474429f5c66a6c20d1690a350404d2023d247eba5e211ece988ba": [
+    "wiki/concepts/looptloop/index.md"
+  ],
   "f0f5a4a1160cb8cdac28d825bd22921910b5691ddf45e97d637b448258bbf414": [
     "artifacts/incoming/The Witness Layer_ Governance as the New Scarcity in the AI Economy.pdf"
   ],
@@ -5934,6 +5974,9 @@
   ],
   "f142d771e143a9d537fae188ac3ccbb316f7ce8829c371dcad8d0dcdfdc1ce54": [
     "wiki/external/shimmerymemory/essays/from-output-to-constitutional-ai/index.md"
+  ],
+  "f169400df2c5c7312ed07111428de590e739753e1b5555b764d8d9b1a2cd6ad2": [
+    "wiki/artifacts/index.md"
   ],
   "f16cb4af2e98c507caa09e832d250f1e05b512c5619b14fed87cb4255d80c3e9": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-repair-guide-intake/🜁 Loop Repair Guide- Depression.docx",
@@ -5966,6 +6009,9 @@
   ],
   "f286ef576e00ecf4164aa4143576a37af6138bae4cd4ab8b86bb3ab17f59e0ec": [
     "artifacts/incoming/invariant_consequence_projection.md"
+  ],
+  "f288598768d129a0b02d4cb16596a243e9abbd7a69c31655592cd5e5c13f8789": [
+    "GLOSSARY.md"
   ],
   "f293a1bbc6441e60816c970295a5b15abf90974e66ecf9464d8aa370e7f0e313": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__COLLAPSE__SYMBOLA__master.svg"
@@ -6001,6 +6047,9 @@
   ],
   "f35bfe6c88e0b8d084dbe2dac3a099af29178d06e1339d1b6959112a26285b2d": [
     "wiki/external/shimmerymemory/essays/when-language-begins-to-act/index.md"
+  ],
+  "f3617f249c8bff91689ac2f0afa7121cdb0b213909d895c172067de726e92c8b": [
+    "wiki/projects/patents/platform-and-field-applications/index.md"
   ],
   "f3a00da7c8a2be624db8fa153a8b3aa084c136473418f9cc7c94ce7ced181a94": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-maintenance-kit-intake/🧼 Loop Maintenance Kit.docx",
@@ -6161,6 +6210,9 @@
   "fa801367abc6ac94715577fe6226ea1c05d74884e0cf1a00cc890af906b94d0b": [
     "wiki/external/shimmerymemory/essays/a-place-to-stand-bathroom-edition/index.md"
   ],
+  "fab53168d0adc1d42cf14f2071ed1bce639205e3f763e9f8ba85efafff6aab2a": [
+    "wiki/projects/consent-intent-compression-protocol/implementation-and-access/index.md"
+  ],
   "fab8b87f3b3238d77eb5a12d894a9ca979d40df8791e753e14df1462b6ca8e0f": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/the-king-who-measured-everything.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/the-king-who-measured-everything.md"
@@ -6168,6 +6220,9 @@
   "fae4d81df59e7fb89f98f546aa4689e14ad22748c0e1cb3e542cd2469b4c36e3": [
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants/.well-known/site-identity.json",
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants 2/.well-known/site-identity.json"
+  ],
+  "fafda55f8f3eb049cd464e599a39b28de71632d783bc9ce560f6c70348e91cf3": [
+    "AGENTS.md"
   ],
   "fb0c2cb23c25c9eea65d24e38576375a7cbdc0341be89368275343858c3aae5a": [
     "artifacts/incoming/contextual_authority_principle.md"
@@ -6243,6 +6298,9 @@
   "fd05f649510077f0248e43f525ebe632a2570fe0086f7ff0461980d0c3f42bb3": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/index.md"
   ],
+  "fd26df7548031548c94df45ae65809ef8eb8c736934dc50a7cb3460d9b0ec1db": [
+    "wiki/projects/pdsp/index.md"
+  ],
   "fd634563229209d999b1d93ced208c4b62c00dac962385c35c55e651035edcec": [
     "artifacts/incoming/ai_adoption_in_historical_context_lessons_from_past_general_purpose_technologies.md"
   ],
@@ -6273,9 +6331,6 @@
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL/assets/logo-white.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/assets/logo-white.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/assets/logo-white.png"
-  ],
-  "feb75448bf9cf5f0a8532ccdee40bf0e2d073e5dde7de59ab0eb380342cbda02": [
-    "package.json"
   ],
   "fed88ab991c537b13f3bc4d56f552d12a235c3923c9d6878077ddf1cfddd4b7a": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-compass-intake/🧭 The Navigator’s Initiation Ritual.docx",

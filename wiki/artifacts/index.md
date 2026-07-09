@@ -448,13 +448,6 @@ Direct files (1)
 Direct files (1)
 - [artifacts/archived/Similar Projects/Context and Reflection/Bobbys Brain Primer (1).docx](../../artifacts/archived/Similar%20Projects/Context%20and%20Reflection/Bobbys%20Brain%20Primer%20%281%29.docx)
 
-## for-further-routing (3)
-
-Direct files (3)
-- [artifacts/for-further-routing/shimmerymemory_glyph_exploder_prototype.jsx](../../artifacts/for-further-routing/shimmerymemory_glyph_exploder_prototype.jsx)
-- [artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage (1).jsx](../../artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage%20%281%29.jsx)
-- [artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage.jsx](../../artifacts/for-further-routing/sovereignty_of_the_butterfly_single_file_webpage.jsx)
-
 ## incoming (468)
 
 Direct files (464)
@@ -931,7 +924,7 @@ Direct files (4)
 - [artifacts/incoming/ipol_package/MERGED_LICENSE.md](../../artifacts/incoming/ipol_package/MERGED_LICENSE.md)
 - [artifacts/incoming/ipol_package/README.md](../../artifacts/incoming/ipol_package/README.md)
 
-## intake-archive (1150)
+## intake-archive (1151)
 
 ### 20260622__consent-crystal-structure-research-intake (102)
 
@@ -3075,7 +3068,7 @@ Direct files (2)
 - [artifacts/intake-archive/20260624__shimmerymemory-essays-intake/shimmery_doc_set/SHA256SUMS.txt](../../artifacts/intake-archive/20260624__shimmerymemory-essays-intake/shimmery_doc_set/SHA256SUMS.txt)
 - [artifacts/intake-archive/20260624__shimmerymemory-essays-intake/shimmery_doc_set/manifest.json](../../artifacts/intake-archive/20260624__shimmerymemory-essays-intake/shimmery_doc_set/manifest.json)
 
-### 20260624__shimmerymemory-site-variants-intake (107)
+### 20260624__shimmerymemory-site-variants-intake (108)
 
 #### shimmerymemory 3 (50)
 
@@ -3207,6 +3200,11 @@ Direct files (56)
 - [artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/when-language-begins-to-act.md](../../artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory%204/src/content/essays/when-language-begins-to-act.md)
 - [artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/why-consentful-ai-is-expensive.md](../../artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory%204/src/content/essays/why-consentful-ai-is-expensive.md)
 - [artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/why-smart-people-secretly-hate-manifestation-advice.md](../../artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory%204/src/content/essays/why-smart-people-secretly-hate-manifestation-advice.md)
+
+#### shimmerymemory-glyph-exploder-prototype (1)
+
+Direct files (1)
+- [artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory-glyph-exploder-prototype/shimmerymemory_glyph_exploder_prototype.jsx](../../artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory-glyph-exploder-prototype/shimmerymemory_glyph_exploder_prototype.jsx)
 
 ### 20260625__attention-intake (11)
 
