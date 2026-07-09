@@ -16,3 +16,7 @@ Near-term AI-grounding usability pass:
 - Added reader paths.
 - Added AI answer contracts and status vocabulary surfaces.
 - Updated navigation to improve human and AI grounding.
+
+Webhook trigger follow-up:
+
+- Minor changelog update to force a fresh Cloudflare Pages redeploy after the search-page fix.
