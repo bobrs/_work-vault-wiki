@@ -1365,12 +1365,15 @@ function renderSearchPage(searchRecords) {
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;");
         const uniq = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+        const appendOption = (select, value) => {
+          select.add(new Option(value, value));
+        };
         const types = uniq(RECORDS.map((item) => item.type));
         const roles = uniq(RECORDS.map((item) => item.source_role));
         const statuses = uniq(RECORDS.map((item) => item.status));
-        for (const value of types) els.typeFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
-        for (const value of roles) els.roleFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
-        for (const value of statuses) els.statusFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
+        for (const value of types) appendOption(els.typeFilter, value);
+        for (const value of roles) appendOption(els.roleFilter, value);
+        for (const value of statuses) appendOption(els.statusFilter, value);
         function matches(record) {
           const term = els.q.value.trim().toLowerCase();
           const type = els.typeFilter.value;
