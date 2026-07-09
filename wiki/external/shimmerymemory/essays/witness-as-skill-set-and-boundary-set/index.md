@@ -14,7 +14,9 @@ Subtitle: `Why assurance requires disciplined non-merge`
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `consentful-cybernetics`, `witness`, `ai-assurance`, `separation-of-duties`, `software-3-0`, `consent`, `boundaries`, `provenance`, `governance`
@@ -45,7 +47,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -60,11 +62,11 @@ Excerpt:
 
 ## Working Read
 
-This is the cleanest published statement of witness as a role with boundaries, not a passive stance. It gives the witness attractor a concrete assurance frame: disciplined non-merge, admissibility, and constitutional distance from the system being observed.
+- Pending.
 
 ## Core Claim
 
-Witness is a constrained capacity. Assurance depends on disciplined non-merge, clear boundaries, and the ability to certify what was seen without collapsing into the system being seen.
+- Pending.
 
 ## Key Ideas
 
@@ -75,6 +77,10 @@ Witness is a constrained capacity. Assurance depends on disciplined non-merge, c
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

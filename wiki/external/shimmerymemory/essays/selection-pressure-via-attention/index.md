@@ -14,7 +14,9 @@ Subtitle: `How Being Noticed Became a Survival Strategy`
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `attention`, `selection-pressure`, `evolution`, `meaning`, `ecology`, `salience`, `culture`, `dogs`, `technology`, `systems`
@@ -48,7 +50,7 @@ When most of us learn about evolution, we’re taught a tidy story: random mutat
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -78,6 +80,10 @@ When most of us learn about evolution, we’re taught a tidy story: random mutat
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

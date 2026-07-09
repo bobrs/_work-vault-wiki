@@ -11,12 +11,22 @@ Primary entry points:
 
 - /ai/index.html
 - /start-here-for-ai/index.html
+- /search/index.html
 - /wiki/index.html
 - /wiki/projects/index.html
 - /wiki/concepts/index.html
 - /wiki/attractors/index.html
 - /wiki/external/shimmerymemory/essays/index.html
+- /wiki/paths/index.html
+- /wiki/ai-answer-contracts/index.html
+- /wiki/status-vocabulary/index.html
 - /vault/index.html
+- /CANON.md
+- /ATTRACTOR_MAP.md
+- /GLOSSARY.md
+- /CHANGELOG.md
+- /sitemap.xml
+- /robots.txt
 
 Quantum Invariants is the main machine-facing comparator spine. Its AI page is the closest local reference for how the site family expects machine readers to enter, ground, and route:
 
@@ -59,6 +69,14 @@ High-value navigation rails:
 - Projects
 - Concepts
 - Attractors
+- Search
+- Reader Paths
+- AI Answer Contracts
+- Status Vocabulary
+- Canon Map
+- Attractor Map
+- Glossary
+- Changelog
 - Source Roles
 - Artifact Types
 - Project Cross-Index

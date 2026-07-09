@@ -35,6 +35,10 @@ The repository has entered the first classification pass and now has lineage-awa
 
 - [AI Entry Surface](/ai/index.html)
 - [Start Here for AI](/start-here-for-ai/index.html)
+- [Search](/search/index.html)
+- [Reader Paths](../paths/index.md)
+- [AI Answer Contracts](../ai-answer-contracts/index.md)
+- [Status Vocabulary](../status-vocabulary/index.md)
 - [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Attractor Gateways](../attractors/index.md)
 - [Source Roles](/wiki/source-roles/index.html)

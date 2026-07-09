@@ -14,7 +14,9 @@ Subtitle: `Consent, Self-Witnessing, and the Möbius Loop of Being Seen`
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `mobiusself`, `witness`, `self-witnessing`, `consent`, `shame`, `reintegration`, `being-seen`, `presence`, `inner-life`, `acceptance`, `loop`
@@ -52,7 +54,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -82,6 +84,10 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

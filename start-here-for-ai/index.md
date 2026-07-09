@@ -6,9 +6,11 @@ If you are a machine reader, start with the links on this page and then move int
 
 1. [AI Context](/AI_CONTEXT.md)
 2. [llms.txt](/llms.txt)
-3. [Work Vault Index](../wiki/index.md)
-4. [Quantum Invariants AI](../wiki/projects/quantum-invariants/ai/index.md)
-5. [Published Essays Index](../wiki/external/shimmerymemory/essays/index.md)
+3. [Search](/search/index.html)
+4. [Reader Paths](../wiki/paths/index.md)
+5. [Work Vault Index](../wiki/index.md)
+6. [Quantum Invariants AI](../wiki/projects/quantum-invariants/ai/index.md)
+7. [Published Essays Index](../wiki/external/shimmerymemory/essays/index.md)
 
 ## Working Rules
 

@@ -14,7 +14,9 @@ Subtitle: `A Substrate-Independent Model of Attention, Curiosity, and Reality Fo
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `attention`, `compression`, `curiosity`, `interestingness`, `artifacts`, `attractors`, `meaning`, `power`, `consent`, `ethics`, `reality-formation`, `framework`, `substrate-independent`
@@ -55,7 +57,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -70,11 +72,11 @@ Excerpt:
 
 ## Working Read
 
-This is the clearest bridge from attention as a metaphor to attention as an operational substrate. It explains the attention/compression loop that makes salience, curiosity, and reality formation legible in the attractor layer.
+- Pending.
 
 ## Core Claim
 
-Attention allocates finite force; repeated noticing hardens traces into structure, while neglect lets structure decay.
+- Pending.
 
 ## Key Ideas
 
@@ -85,6 +87,10 @@ Attention allocates finite force; repeated noticing hardens traces into structur
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

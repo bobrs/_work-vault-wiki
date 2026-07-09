@@ -14,7 +14,9 @@ Subtitle: `How local agency interrupts default flow`
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `free-will`, `agency`, `attention`, `gradient-resistance`, `consent`, `quantum-invariants`, `attractors`, `default-flow`, `shimmery-memory`
@@ -57,7 +59,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -72,11 +74,11 @@ Excerpt:
 
 ## Working Read
 
-This is the strongest agency essay because it refuses the fantasy that freedom is free. It frames agency as a costly interruption of default flow, which is exactly the attractor's concern.
+- Pending.
 
 ## Core Claim
 
-Agency is embodied capacity under constraint: choice, refusal, and escape all have a cost.
+- Pending.
 
 ## Key Ideas
 
@@ -87,6 +89,10 @@ Agency is embodied capacity under constraint: choice, refusal, and escape all ha
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

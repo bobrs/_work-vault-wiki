@@ -14,7 +14,9 @@ Subtitle: `Toward a Theory of Consent-Constrained Intelligence`
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `consentful-cybernetics`, `consent`, `optimization`, `intelligence`, `gradient-mask`, `trust`, `signal-integrity`, `substrate-preservation`, `reversible-updates`, `social-backpropagation`, `cybernetics`, `ai-governance`
@@ -58,7 +60,7 @@ There is a class of truths that first appears ethical, then later reveals itself
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -73,11 +75,11 @@ There is a class of truths that first appears ethical, then later reveals itself
 
 ## Working Read
 
-This is the strongest consent essay in the feed because it treats consent as the gradient mask that keeps optimization aligned with the substrate. It fits the consent attractor precisely because it keeps reversibility, signal quality, and cooperation in the foreground.
+- Pending.
 
 ## Core Claim
 
-Consent is structural, not decorative: it preserves cooperative substrate, reversibility, and future intelligence under optimization pressure.
+- Pending.
 
 ## Key Ideas
 
@@ -88,6 +90,10 @@ Consent is structural, not decorative: it preserves cooperative substrate, rever
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

@@ -14,6 +14,8 @@ const WORKER_ASSETS = new Map();
 const NAV_ITEMS = [
   ["Home", "/index.html"],
   ["AI", "/ai/index.html"],
+  ["Search", "/search/index.html"],
+  ["Reader Paths", "/wiki/paths/index.html"],
   ["Wiki", "/wiki/index.html"],
   ["Attractors", "/wiki/attractors/index.html"],
   ["Vault", "/vault/index.html"],
@@ -34,9 +36,295 @@ const ROOT_TEXT_ASSETS = [
   { outRel: "AI_CONTEXT.md", source: "AI_CONTEXT.md", contentType: "text/markdown; charset=utf-8" },
   { outRel: "llms.txt", source: "llms.txt", contentType: "text/plain; charset=utf-8" },
   { outRel: "llms-full.txt", source: "llms-full.txt", contentType: "text/plain; charset=utf-8" },
+  { outRel: "CANON.md", source: "CANON.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "ATTRACTOR_MAP.md", source: "ATTRACTOR_MAP.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "GLOSSARY.md", source: "GLOSSARY.md", contentType: "text/markdown; charset=utf-8" },
+  { outRel: "CHANGELOG.md", source: "CHANGELOG.md", contentType: "text/markdown; charset=utf-8" },
   { outRel: "AGENTS.md", source: "AGENTS.md", contentType: "text/markdown; charset=utf-8" },
   { outRel: "CLAUDE.md", source: "CLAUDE.md", contentType: "text/markdown; charset=utf-8" },
   { outRel: "GEMINI.md", source: "GEMINI.md", contentType: "text/markdown; charset=utf-8" },
+];
+
+const SEARCH_SPECIAL_RECORDS = [
+  {
+    title: "Work Vault Wiki",
+    url: "/",
+    type: "landing_page",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Public static interface for the vault, wiki, and raw repository source.",
+    tags: ["home", "navigation", "vault", "wiki"],
+  },
+  {
+    title: "Wiki Index",
+    url: "/wiki/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Structured index behind the public Attractor Gateway.",
+    tags: ["wiki", "navigation", "corpus"],
+  },
+  {
+    title: "Projects Index",
+    url: "/wiki/projects/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Navigation index for project families in the work vault wiki.",
+    tags: ["projects", "navigation", "corpus"],
+  },
+  {
+    title: "Concepts Index",
+    url: "/wiki/concepts/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Recurring concept layer that survives across branches.",
+    tags: ["concepts", "navigation", "corpus"],
+  },
+  {
+    title: "Attractor Gateways",
+    url: "/wiki/attractors/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Entry points into the corpus by meaning rather than file path.",
+    tags: ["attractors", "navigation", "corpus"],
+  },
+  {
+    title: "Project Cross-Index",
+    url: "/wiki/projects/cross-index/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated index of project families against attractors, concepts, and essays.",
+    tags: ["cross-index", "projects", "linking"],
+  },
+  {
+    title: "Source Roles",
+    url: "/wiki/source-roles/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated index of inventory source roles.",
+    tags: ["source-role", "inventory", "navigation"],
+  },
+  {
+    title: "Artifact Types",
+    url: "/wiki/artifact-types/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Generated index of source-layer artifact types.",
+    tags: ["artifact-type", "inventory", "navigation"],
+  },
+  {
+    title: "Incoming Review",
+    url: "/wiki/incoming-review",
+    type: "review_queue",
+    source_role: "review_queue",
+    status: "current",
+    summary: "Current intake triage and routing state.",
+    tags: ["incoming", "review", "routing"],
+  },
+  {
+    title: "Duplicate Review",
+    url: "/wiki/duplicate-review",
+    type: "review_queue",
+    source_role: "review_queue",
+    status: "current",
+    summary: "Duplicate sets and collapse decisions.",
+    tags: ["duplicates", "review", "collapse"],
+  },
+  {
+    title: "Missing Files",
+    url: "/wiki/missing-files",
+    type: "review_queue",
+    source_role: "review_queue",
+    status: "current",
+    summary: "Broken, absent, or not-yet-routed source references.",
+    tags: ["missing", "review", "routing"],
+  },
+  {
+    title: "External Shimmery Memory Essays",
+    url: "/wiki/external/shimmerymemory/essays/",
+    type: "generated_index",
+    source_role: "published_external",
+    status: "current",
+    summary: "Metadata-first index of published external essay records.",
+    tags: ["external", "essays", "published_external"],
+  },
+  {
+    title: "Raw Vault",
+    url: "/vault/",
+    type: "raw_vault",
+    source_role: "source_inventory",
+    status: "current",
+    summary: "Browsable repository inventory with GitHub source links.",
+    tags: ["vault", "inventory", "source"],
+  },
+  {
+    title: "AI Entry Surface",
+    url: "/ai/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Public starting point for machine readers and agents entering the Work Vault Wiki.",
+    tags: ["ai", "navigation", "grounding"],
+  },
+  {
+    title: "Start Here for AI",
+    url: "/start-here-for-ai/",
+    type: "reader_path",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Fast path into the AI grounding surfaces.",
+    tags: ["ai", "reader-path", "grounding"],
+  },
+  {
+    title: "Search",
+    url: "/search/",
+    type: "generated_index",
+    source_role: "semantic_navigation",
+    status: "current",
+    summary: "Static metadata search over public wiki and corpus orientation surfaces.",
+    tags: ["search", "navigation", "metadata"],
+  },
+  {
+    title: "search.json",
+    url: "/search.json",
+    type: "utility",
+    source_role: "utility",
+    status: "current",
+    summary: "JSON search index for public wiki and corpus orientation surfaces.",
+    tags: ["search", "json", "metadata"],
+  },
+  {
+    title: "Reader Paths",
+    url: "/wiki/paths/",
+    type: "reader_path",
+    source_role: "human_navigation",
+    status: "current",
+    summary: "Short paths through the wiki for different kinds of readers.",
+    tags: ["reader-paths", "navigation", "corpus"],
+  },
+  {
+    title: "AI Answer Contracts",
+    url: "/wiki/ai-answer-contracts/",
+    type: "guidance_page",
+    source_role: "ai_grounding_surface",
+    status: "current",
+    summary: "Preferred answer shapes for AI tools working from the wiki.",
+    tags: ["ai", "answers", "contracts"],
+  },
+  {
+    title: "Status Vocabulary",
+    url: "/wiki/status-vocabulary/",
+    type: "guidance_page",
+    source_role: "corpus_vocabulary",
+    status: "current",
+    summary: "Operational status and source-role terms used in the wiki.",
+    tags: ["status", "vocabulary", "source-role"],
+  },
+  {
+    title: "AI Context",
+    url: "/AI_CONTEXT.md",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Repository operating guide for AI readers and agents.",
+    tags: ["ai", "orientation", "corpus"],
+  },
+  {
+    title: "llms.txt",
+    url: "/llms.txt",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Compact machine entry surface for the wiki.",
+    tags: ["llms", "machine-entry", "navigation"],
+  },
+  {
+    title: "llms-full.txt",
+    url: "/llms-full.txt",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Expanded machine entry surface for the wiki and source layer.",
+    tags: ["llms", "machine-entry", "navigation"],
+  },
+  {
+    title: "CANON.md",
+    url: "/CANON.md",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Current source-of-record rules for working with the wiki.",
+    tags: ["canon", "orientation", "corpus"],
+  },
+  {
+    title: "ATTRACTOR_MAP.md",
+    url: "/ATTRACTOR_MAP.md",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Compact map of the attractor gateway set.",
+    tags: ["attractors", "orientation", "navigation"],
+  },
+  {
+    title: "GLOSSARY.md",
+    url: "/GLOSSARY.md",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Operational vocabulary for the Work Vault Wiki.",
+    tags: ["glossary", "orientation", "corpus"],
+  },
+  {
+    title: "CHANGELOG.md",
+    url: "/CHANGELOG.md",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Logical changelog for corpus usability changes.",
+    tags: ["changelog", "orientation", "corpus"],
+  },
+  {
+    title: "README",
+    url: "/readme",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Repository overview rendered from source.",
+    tags: ["readme", "repository", "orientation"],
+  },
+  {
+    title: "WIKI.md",
+    url: "/wiki-guide",
+    type: "corpus_orientation",
+    source_role: "corpus_orientation",
+    status: "current",
+    summary: "Project wiki guide and source navigation.",
+    tags: ["wiki-guide", "repository", "orientation"],
+  },
+  {
+    title: "Sitemap",
+    url: "/sitemap.xml",
+    type: "utility",
+    source_role: "utility",
+    status: "current",
+    summary: "XML sitemap for public route discovery.",
+    tags: ["sitemap", "routing", "seo"],
+  },
+  {
+    title: "robots.txt",
+    url: "/robots.txt",
+    type: "utility",
+    source_role: "utility",
+    status: "current",
+    summary: "Public crawl guidance for the wiki surface.",
+    tags: ["robots", "routing", "seo"],
+  },
 ];
 
 const ESSAY_ATTRACTORS = [
@@ -685,6 +973,53 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       gap: 12px;
       margin-bottom: 4px;
     }
+    .search-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 18px 0 18px;
+    }
+    .search-toolbar input,
+    .search-toolbar select {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.78);
+      color: var(--text);
+      font: inherit;
+    }
+    .search-toolbar .wide {
+      grid-column: span 2;
+    }
+    .result-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .result-card {
+      padding: 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.45);
+    }
+    .result-card h3 {
+      margin: 0 0 6px;
+    }
+    .result-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    .result-meta span {
+      display: inline-flex;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(24, 78, 119, 0.08);
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
     @media (max-width: 980px) {
       .shell { grid-template-columns: 1fr; }
       .sidebar {
@@ -722,6 +1057,8 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       .page { padding: 20px; }
       .card { grid-column: span 12; }
       .attractor-card, .browse-card, .status-card { grid-column: span 12; }
+      .search-toolbar { grid-template-columns: 1fr; }
+      .search-toolbar .wide { grid-column: span 1; }
     }
   </style>
 </head>
@@ -848,6 +1185,7 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <a class="gateway-action" href="/wiki/external/shimmerymemory/essays/index.html">Published Essays</a>
         <a class="gateway-action" href="/ai/index.html">AI Entry</a>
         <a class="gateway-action" href="/start-here-for-ai/index.html">Start Here for AI</a>
+        <a class="gateway-action" href="/search/index.html">Search</a>
         <a class="gateway-action" href="/vault/index.html">Raw Vault</a>
         <a class="gateway-action" href="https://github.com/bobrs/_work-vault-wiki">GitHub Source</a>
       </div>
@@ -876,6 +1214,20 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
         <div class="browse-card"><a href="/wiki-guide.html">WIKI.md</a><p class="muted">Project wiki guide and source navigation.</p></div>
       </div>
 
+      <h2>Grounding Surfaces</h2>
+      <div class="browse-grid">
+        <div class="browse-card"><a href="/search/index.html">Search</a><p class="muted">Metadata-first search across public wiki surfaces.</p></div>
+        <div class="browse-card"><a href="/wiki/paths/index.html">Reader Paths</a><p class="muted">Short routes for AI, maintainers, and curious readers.</p></div>
+        <div class="browse-card"><a href="/wiki/ai-answer-contracts/index.html">AI Answer Contracts</a><p class="muted">Preferred answer shapes for grounded responses and mutations.</p></div>
+        <div class="browse-card"><a href="/wiki/status-vocabulary/index.html">Status Vocabulary</a><p class="muted">Operational terms for corpus status and source roles.</p></div>
+        <div class="browse-card"><a href="/CANON.md">Canon Map</a><p class="muted">Current source-of-record rules for the corpus.</p></div>
+        <div class="browse-card"><a href="/ATTRACTOR_MAP.md">Attractor Map</a><p class="muted">A compact map of the attractor gateway set.</p></div>
+        <div class="browse-card"><a href="/GLOSSARY.md">Glossary</a><p class="muted">Operational vocabulary for the Work Vault Wiki.</p></div>
+        <div class="browse-card"><a href="/CHANGELOG.md">Changelog</a><p class="muted">Logical log of corpus usability changes.</p></div>
+        <div class="browse-card"><a href="/sitemap.xml">Sitemap</a><p class="muted">Public route inventory for crawlers and tools.</p></div>
+        <div class="browse-card"><a href="/robots.txt">robots.txt</a><p class="muted">Public crawl guidance and llms discovery hint.</p></div>
+      </div>
+
       <h2>Vault Status</h2>
       <div class="status-grid">
         <div class="status-card">
@@ -898,6 +1250,179 @@ function rootLanding({ stats, pageCount, duplicateGroups, rawCount }) {
     `,
     navActive: "/index.html",
   });
+}
+
+function canonicalPublicUrl(route) {
+  if (route === "/index.html") return "/";
+  if (route.endsWith("/index.html")) return route.slice(0, -10);
+  if (route.endsWith(".html")) return route.slice(0, -5);
+  return route;
+}
+
+function excerptFromMarkdown(markdown) {
+  const lines = markdown.replaceAll("\r\n", "\n").split("\n");
+  const chunks = [];
+  let collecting = false;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      if (collecting) break;
+      continue;
+    }
+    if (!collecting && trimmed.startsWith("#")) {
+      collecting = true;
+      continue;
+    }
+    if (!collecting) continue;
+    if (trimmed.startsWith("<!--")) continue;
+    chunks.push(
+      trimmed
+        .replace(/[`*_>]/g, "")
+        .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
+    );
+    if (chunks.join(" ").length > 240) break;
+  }
+  return chunks.join(" ").replace(/\s+/g, " ").trim();
+}
+
+function tagsFromSourcePath(sourceRel) {
+  const tags = new Set(["wiki"]);
+  const dir = path.posix.dirname(sourceRel);
+  if (dir && dir !== ".") {
+    for (const segment of dir.split("/")) {
+      if (segment) tags.add(segment);
+    }
+  }
+  const base = path.posix.basename(sourceRel, ".md");
+  if (base && base !== "index") tags.add(base);
+  return [...tags];
+}
+
+function addSearchRecord(records, seenUrls, record) {
+  const url = record.url;
+  if (!url || seenUrls.has(url)) return;
+  seenUrls.add(url);
+  records.push(record);
+}
+
+function createWikiSearchRecord(sourceRel, sourceText) {
+  const title = titleForSourceText(sourceText, path.posix.basename(sourceRel, ".md"));
+  const route = canonicalPublicUrl(routeForOutput(outputForSource(sourceRel)));
+  const summary = excerptFromMarkdown(sourceText) || `Wiki page for ${title}.`;
+  const type = sourceRel.startsWith("wiki/projects/") ? "wiki_page" : sourceRel.startsWith("wiki/concepts/") ? "concept_page" : sourceRel.startsWith("wiki/attractors/") ? "attractor_page" : sourceRel.startsWith("wiki/external/") ? "external_index" : "wiki_page";
+  const sourceRole = sourceRel.endsWith("/index.md") ? "semantic_navigation" : "wiki_page";
+  const status = sourceRel.includes("incoming-review") || sourceRel.includes("duplicate-review") || sourceRel.includes("missing-files") ? "review_queue" : "current";
+  return {
+    title,
+    url: route,
+    type,
+    source_role: sourceRole,
+    status,
+    summary,
+    tags: tagsFromSourcePath(sourceRel),
+  };
+}
+
+function seedSearchRecords() {
+  const records = [];
+  const seenUrls = new Set();
+  for (const record of SEARCH_SPECIAL_RECORDS) {
+    addSearchRecord(records, seenUrls, record);
+  }
+  return { records, seenUrls };
+}
+
+function renderSearchPage(searchRecords) {
+  const payload = JSON.stringify(searchRecords).replaceAll("</", "<\\/");
+  return pageShell({
+    title: "Search",
+    subtitle: "Static metadata search for public wiki and corpus orientation surfaces",
+    body: `
+      <p class="eyebrow">Grounding surface</p>
+      <div class="title-row">
+        <h1>Search</h1>
+        <span class="tag">metadata-first</span>
+      </div>
+      <p>This search surface indexes public wiki and navigation metadata, not full raw file contents. Use it to move from a concept or project name into the current public entry points.</p>
+      <div class="search-toolbar">
+        <input id="q" type="search" placeholder="Search title, summary, tags, or URL">
+        <select id="typeFilter"><option value="">All types</option></select>
+        <select id="roleFilter"><option value="">All source roles</option></select>
+        <select id="statusFilter"><option value="">All statuses</option></select>
+      </div>
+      <p class="muted" id="resultCount">Loading search index...</p>
+      <div id="results" class="result-list"></div>
+      <script>
+        const RECORDS = ${payload};
+        const els = {
+          q: document.getElementById("q"),
+          typeFilter: document.getElementById("typeFilter"),
+          roleFilter: document.getElementById("roleFilter"),
+          statusFilter: document.getElementById("statusFilter"),
+          results: document.getElementById("results"),
+          resultCount: document.getElementById("resultCount"),
+        };
+        const escapeHtml = (value) => String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+        const uniq = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+        const types = uniq(RECORDS.map((item) => item.type));
+        const roles = uniq(RECORDS.map((item) => item.source_role));
+        const statuses = uniq(RECORDS.map((item) => item.status));
+        for (const value of types) els.typeFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
+        for (const value of roles) els.roleFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
+        for (const value of statuses) els.statusFilter.insertAdjacentHTML("beforeend", "<option value=\"" + escapeHtml(value) + "\">" + escapeHtml(value) + "</option>");
+        function matches(record) {
+          const term = els.q.value.trim().toLowerCase();
+          const type = els.typeFilter.value;
+          const role = els.roleFilter.value;
+          const status = els.statusFilter.value;
+          if (type && record.type !== type) return false;
+          if (role && record.source_role !== role) return false;
+          if (status && record.status !== status) return false;
+          if (!term) return true;
+          const haystack = [record.title, record.summary, (record.tags || []).join(" "), record.url].join(" ").toLowerCase();
+          return haystack.includes(term);
+        }
+        function render() {
+          const items = RECORDS.filter(matches);
+          els.resultCount.textContent = items.length + " of " + RECORDS.length + " records";
+          els.results.innerHTML = items.slice(0, 200).map((record) => {
+            const tags = (record.tags || []).slice(0, 5).map((tag) => "<span>" + escapeHtml(tag) + "</span>").join("");
+            return "<article class=\"result-card\">"
+              + "<h3><a href=\"" + escapeHtml(record.url) + "\">" + escapeHtml(record.title) + "</a></h3>"
+              + "<p class=\"muted\">" + escapeHtml(record.summary || "") + "</p>"
+              + "<div class=\"result-meta\">"
+              + "<span>" + escapeHtml(record.type) + "</span>"
+              + "<span>" + escapeHtml(record.source_role) + "</span>"
+              + "<span>" + escapeHtml(record.status) + "</span>"
+              + tags
+              + "</div>"
+              + "</article>";
+          }).join("");
+        }
+        for (const el of [els.q, els.typeFilter, els.roleFilter, els.statusFilter]) {
+          el.addEventListener("input", render);
+          el.addEventListener("change", render);
+        }
+        render();
+      </script>
+    `,
+    navActive: "/search/index.html",
+  });
+}
+
+function buildSitemapXml(urls) {
+  const body = urls
+    .map((url) => `  <url><loc>https://wiki.shimmerymemory.com${escapeHtml(url)}</loc></url>`)
+    .join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+}
+
+function buildRobotsTxt() {
+  return `User-agent: *\nAllow: /\n\n# AI corpus guide: https://wiki.shimmerymemory.com/llms.txt\nSitemap: https://wiki.shimmerymemory.com/sitemap.xml\n`;
 }
 
 function renderVaultPage(records) {
@@ -1528,6 +2053,19 @@ async function writeStaticAsset({ outRel, source, contentType }) {
   WORKER_ASSETS.set(route, { body, contentType });
 }
 
+async function writeGeneratedAsset({ outRel, body, contentType }) {
+  const absOut = path.join(DIST, outRel);
+  await fs.mkdir(path.dirname(absOut), { recursive: true });
+  await fs.writeFile(absOut, body, "utf8");
+
+  const publicOut = path.join(DIST, "server", "public", outRel);
+  await fs.mkdir(path.dirname(publicOut), { recursive: true });
+  await fs.writeFile(publicOut, body, "utf8");
+
+  const route = routeForOutput(outRel);
+  WORKER_ASSETS.set(route, { body, contentType });
+}
+
 async function writeWorkerEntrypoints() {
   const pagesObject = Object.fromEntries(
     [...WORKER_PAGES.entries()].sort(([a], [b]) => a.localeCompare(b))
@@ -1605,6 +2143,49 @@ async function main() {
     .map((line) => JSON.parse(line));
   const essayAttractorPage = await renderEssayAttractorViewPage(externalRecords);
   await writeRenderedPage(path.join("wiki", "external", "shimmerymemory", "essays", "by-attractor", "index.html"), essayAttractorPage);
+
+  const searchRecords = [];
+  const seenUrls = new Set();
+  for (const record of SEARCH_SPECIAL_RECORDS) {
+    addSearchRecord(searchRecords, seenUrls, record);
+  }
+  for (const source of SOURCE_MARKDOWN) {
+    if (!source.startsWith("wiki/")) continue;
+    const sourceText = await fs.readFile(path.join(ROOT, source), "utf8");
+    addSearchRecord(searchRecords, seenUrls, createWikiSearchRecord(source, sourceText));
+  }
+  for (const record of externalRecords) {
+    if (record.source_role !== "published_external") continue;
+    const localHref = record.wiki_page ? canonicalPublicUrl(pageHrefForWikiPage(record.wiki_page)) : canonicalPublicUrl(record.url || "/");
+    addSearchRecord(searchRecords, seenUrls, {
+      title: record.title,
+      url: localHref,
+      type: "published_external_item",
+      source_role: "published_external",
+      status: record.status || "published",
+      summary: record.subtitle || record.description || record.excerpt || "",
+      tags: record.tags || [],
+    });
+  }
+  const searchPage = renderSearchPage(searchRecords);
+  await writeRenderedPage(path.join("search", "index.html"), searchPage);
+  await writeGeneratedAsset({
+    outRel: "search.json",
+    body: `${JSON.stringify(searchRecords, null, 2)}\n`,
+    contentType: "application/json; charset=utf-8",
+  });
+  const sitemapUrls = [...new Set(searchRecords.map((record) => record.url).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  const sitemapXml = buildSitemapXml(sitemapUrls);
+  await writeGeneratedAsset({
+    outRel: "sitemap.xml",
+    body: sitemapXml,
+    contentType: "application/xml; charset=utf-8",
+  });
+  await writeGeneratedAsset({
+    outRel: "robots.txt",
+    body: buildRobotsTxt(),
+    contentType: "text/plain; charset=utf-8",
+  });
 
   for (const source of SOURCE_MARKDOWN) {
     const outRel = outputForSource(source);

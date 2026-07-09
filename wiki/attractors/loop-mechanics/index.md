@@ -31,6 +31,7 @@ Everything alive returns somehow. Loop mechanics explain how patterns persist, c
 
 - [LoopLink](../../concepts/looplink/index.md)
 - [Semantic Collapse Theory / Loop Series](../../projects/semantic-collapse-theory/loop-series/index.md)
+- [The Loop Requirement](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md)
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
 - [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
 - [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)

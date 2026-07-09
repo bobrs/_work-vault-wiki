@@ -14,7 +14,9 @@ Subtitle: `Digital provenance is incomplete unless it preserves the consent cond
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `howconsentworks`, `consentful-loops`, `digital-provenance`, `consentful-provenance`, `loop-lineage`, `admissibility`, `privacy`, `revocation`, `witness`, `consentful-cybernetics`
@@ -53,7 +55,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -68,11 +70,11 @@ Excerpt:
 
 ## Working Read
 
-This is the strongest provenance essay because it insists that admissibility depends on consentful loop lineage, not just content integrity. It gives provenance a practical account of how traces stay valid across witness, revocation, closure, and reuse.
+- Pending.
 
 ## Core Claim
 
-Provenance is incomplete unless it preserves the consent conditions under which a trace became admissible.
+- Pending.
 
 ## Key Ideas
 
@@ -83,6 +85,10 @@ Provenance is incomplete unless it preserves the consent conditions under which 
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

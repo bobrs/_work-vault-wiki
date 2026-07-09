@@ -3,6 +3,7 @@ Work Vault Wiki
 Primary machine entry surface:
 - /ai/index.html
 - /start-here-for-ai/index.html
+- /search/index.html
 
 Core navigation:
 - /wiki/index.html
@@ -10,18 +11,30 @@ Core navigation:
 - /wiki/concepts/index.html
 - /wiki/attractors/index.html
 - /wiki/external/shimmerymemory/essays/index.html
+- /wiki/paths/index.html
+- /wiki/ai-answer-contracts/index.html
+- /wiki/status-vocabulary/index.html
 - /vault/index.html
 - /wiki/source-roles/index.html
 - /wiki/artifact-types/index.html
 - /wiki/projects/cross-index/index.html
+- /CANON.md
+- /ATTRACTOR_MAP.md
+- /GLOSSARY.md
+- /CHANGELOG.md
+- /sitemap.xml
+- /robots.txt
 
 Read order:
 1. AI_CONTEXT.md
 2. llms.txt
-3. wiki/index.md
-4. wiki/projects/index.md
-5. wiki/projects/quantum-invariants/ai/index.md
-6. wiki/external/shimmerymemory/essays/index.md
+3. wiki/paths/index.md
+4. wiki/ai-answer-contracts/index.md
+5. wiki/status-vocabulary/index.md
+6. wiki/index.md
+7. wiki/projects/index.md
+8. wiki/projects/quantum-invariants/ai/index.md
+9. wiki/external/shimmerymemory/essays/index.md
 
 Working rules:
 - Prefer wiki pages for meaning.
@@ -29,3 +42,4 @@ Working rules:
 - Preserve source fidelity.
 - Do not rewrite source content when linking or extracting semantics.
 - Treat published_external essays as public external artifacts, not inbound files.
+- Search indexes public navigation metadata, not raw file contents by default.

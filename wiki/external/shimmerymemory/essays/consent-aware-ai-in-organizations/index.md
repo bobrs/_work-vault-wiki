@@ -14,7 +14,9 @@ Subtitle: `A taxonomy of failure modes, organizational layer impacts, and a loop
 - Source path: `None listed`
 - Content hash: `None listed`
 - Language: `en`
-- License: `Open Blessing License`
+- License: `CC0 + Infinite Play Open License`
+- License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
+- Legal substrate: `CC0 1.0 Universal`
 - Visibility: `public`
 - Feed status: `published`
 - Tags: `polelop`, `consent-aware-ai`, `organizational-ai`, `ai-governance`, `consent`, `attribution`, `organizational-agency`, `loop-native-deployment`, `artifact-vs-attractor`, `witnessed-inference`
@@ -54,7 +56,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-06-26T03:20:02.687577Z`
+- Last checked: `2026-07-09T01:02:15.767560Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -69,11 +71,11 @@ Excerpt:
 
 ## Working Read
 
-This is the best loop-mechanics essay for organizational AI because it treats consent, attribution, and judgment as living loops rather than static artifacts. It fits the loop attractor by describing how breakdown happens when the loops freeze into paperwork.
+- Pending.
 
 ## Core Claim
 
-Consent-aware AI fails when organizations treat consent, attribution, memory, and accountability as one-time records instead of continuing loop conditions.
+- Pending.
 
 ## Key Ideas
 
@@ -84,6 +86,10 @@ Consent-aware AI fails when organizations treat consent, attribution, memory, an
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
+
+
 
 
 Add salience notes below this marker.

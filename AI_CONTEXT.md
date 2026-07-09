@@ -7,10 +7,14 @@ This repository is a static, markdown-first knowledge base. The wiki pages are t
 1. [AI Entry Surface](/ai/index.html)
 2. `llms.txt`
 3. `llms-full.txt`
-4. [Work Vault Index](./wiki/index.md)
-5. [Projects Index](./wiki/projects/index.md)
-6. [Quantum Invariants AI](./wiki/projects/quantum-invariants/ai/index.md)
-7. [Published Essays Index](./wiki/external/shimmerymemory/essays/index.md)
+4. [Search](/search/index.html)
+5. [Reader Paths](./wiki/paths/index.md)
+6. [AI Answer Contracts](./wiki/ai-answer-contracts/index.md)
+7. [Status Vocabulary](./wiki/status-vocabulary/index.md)
+8. [Work Vault Index](./wiki/index.md)
+9. [Projects Index](./wiki/projects/index.md)
+10. [Quantum Invariants AI](./wiki/projects/quantum-invariants/ai/index.md)
+11. [Published Essays Index](./wiki/external/shimmerymemory/essays/index.md)
 
 ## Source Precedence
 
@@ -30,11 +34,22 @@ This repository is a static, markdown-first knowledge base. The wiki pages are t
 
 ## Key Paths
 
+- `CANON.md`
+- `ATTRACTOR_MAP.md`
+- `GLOSSARY.md`
+- `CHANGELOG.md`
 - `wiki/index.md`
 - `wiki/projects/index.md`
 - `wiki/concepts/index.md`
 - `wiki/attractors/index.md`
+- `wiki/paths/index.md`
+- `wiki/ai-answer-contracts/index.md`
+- `wiki/status-vocabulary/index.md`
 - `wiki/external/shimmerymemory/essays/index.md`
+- `search/index.html`
+- `search.json`
+- `sitemap.xml`
+- `robots.txt`
 - `manifest/inventory.jsonl`
 - `manifest/standard_named_sources.jsonl`
 - `manifest/external_published_index.jsonl`

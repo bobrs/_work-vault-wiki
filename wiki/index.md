@@ -14,6 +14,10 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [External Published / Shimmery Memory Essays](external/shimmerymemory/essays/index.md)
 - [AI Entry Surface](/ai/index.html)
 - [Start Here for AI](/start-here-for-ai/index.html)
+- [Search](/search/index.html)
+- [Reader Paths](paths/index.md)
+- [AI Answer Contracts](ai-answer-contracts/index.md)
+- [Status Vocabulary](status-vocabulary/index.md)
 - [Artifacts](artifacts/index.md)
 - [Project Cross-Index](/wiki/projects/cross-index/index.html)
 - [Source Roles](/wiki/source-roles/index.html)
@@ -24,6 +28,18 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - [Missing Files](missing-files.md)
 - [Incoming Review](incoming-review.md)
 
+## Corpus Orientation
+
+- [AI Context](/AI_CONTEXT.md)
+- [Search](/search/index.html)
+- [Reader Paths](paths/index.md)
+- [AI Answer Contracts](ai-answer-contracts/index.md)
+- [Status Vocabulary](status-vocabulary/index.md)
+- [Canon Map](/CANON.md)
+- [Attractor Map](/ATTRACTOR_MAP.md)
+- [Glossary](/GLOSSARY.md)
+- [Changelog](/CHANGELOG.md)
+
 ## Intake Notes
 
 - Add new source material under `artifacts/incoming/`, preserve inbound originals in `artifacts/intake-archive/`, and prefer `artifacts/standard-named/` links when available.
@@ -31,6 +47,7 @@ Current status: the vault now contains substantive work artifacts, archived snap
 - Use the generated source-role and artifact-type indexes when you want a cleaner cross-cut than the full artifact tree.
 - Use the project cross-index when you want to move from family names into attractors, concepts, and essays quickly.
 - Use the AI entry surface when you need a machine-facing order of operations or source-precedence summary.
+- Use the search surface when you want a fast metadata-first route into the corpus.
 - Split out evidence-backed subpages with lineage labels when a branch stabilizes.
 - Keep `.zip` companions auxiliary unless a page explicitly promotes them.
 - Treat `DOCX` and `PDF` as witness/reference files and use Markdown wiki pages as the working semantic layer for extraction, linking, and later cleanup passes.

@@ -83,5 +83,8 @@ The wiki web layer is a static HTML build generated from the markdown wiki sourc
 - Build command: `npm run build`
 - Worker entrypoint: `dist/index.js`
 - Landing page output: `dist/index.html`
+- Search index output: `dist/search.json`
+- Sitemap output: `dist/sitemap.xml`
+- Robots output: `dist/robots.txt`
 - Raw vault browser: `dist/vault/index.html`
 - Public source repository: `https://github.com/bobrs/_work-vault-wiki`

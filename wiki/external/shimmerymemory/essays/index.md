@@ -11,8 +11,8 @@ Published external metadata index for the Shimmery Memory essay feed.
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
-- Ingested at: `2026-07-02T03:03:51.116543Z`
-- Item count: `72`
+- Ingested at: `2026-07-09T01:02:16.204293Z`
+- Item count: `73`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
@@ -21,6 +21,7 @@ Published external metadata index for the Shimmery Memory essay feed.
 - [The Real Is a Ritual](./20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-06-26T03:20:02.687577Z`
 - [Attention Engine: Book Series Plan and Semantic Compression](./attention-engine-book-series-plan-and-semantic-compression/index.md) — From Attention Mechanics to the Surface of Mutual Projection and Comparator-Grounded Reality Engineering — published `2026-06-25`; updated `2026-06-25`; tags: `attention-engine, attention, appreciation, consent-to-context`; first seen `2026-07-01T21:51:02.570958Z`
 - [Witness as Skill-Set and Boundary Set](./witness-as-skill-set-and-boundary-set/index.md) — Why assurance requires disciplined non-merge — published `2026-06-22`; updated `2026-06-22`; tags: `consentful-cybernetics, witness, ai-assurance, separation-of-duties`; first seen `2026-06-26T03:20:02.687577Z`
+- [The Loop Requirement](./20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) — Meaning is not complete until uptake is reflected — published `2026-06-22`; updated `2026-06-22`; tags: `field-pragmatics, quantum-invariants, consent, communication`; first seen `2026-07-09T01:02:15.767560Z`
 - [The Consentocracy Bridge](./changing-the-optimization-primitive/index.md) — Cryptographic Provenance, Structural Extraction, and the Great Civilizational AI Amnesty — published `2026-06-22`; updated `2026-06-22`; tags: `ai-governance, semantic-consent, data-provenance, digital-commons`; first seen `2026-06-26T03:20:02.687577Z`
 - [Privacy Is a Membrane, Not a Wall](./20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md) — Energy finds its way — published `2026-06-22`; updated `2026-06-22`; tags: `privacy, consent, ai-governance, semantic-consent`; first seen `2026-06-26T03:20:02.687577Z`
 - [Posture Fraud](./20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md) — Why consent is the efficient way — published `2026-06-22`; updated `2026-06-22`; tags: `consent, attention, ai-governance, privacy`; first seen `2026-06-26T03:20:02.687577Z`

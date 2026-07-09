@@ -8,6 +8,7 @@ Quick entry points:
 
 - [AI Entry Surface](/ai/index.html)
 - [Start Here for AI](/start-here-for-ai/index.html)
+- [Search](/search/index.html)
 - [Work Vault Index](./wiki/index.md)
 
 Operational rules:
