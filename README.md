@@ -81,7 +81,6 @@ See:
 The wiki web layer is a static HTML build generated from the markdown wiki sources.
 
 - Build command: `npm run build`
-- Worker entrypoint: `dist/index.js`
 - Landing page output: `dist/index.html`
 - Search index output: `dist/search.json`
 - Sitemap output: `dist/sitemap.xml`
