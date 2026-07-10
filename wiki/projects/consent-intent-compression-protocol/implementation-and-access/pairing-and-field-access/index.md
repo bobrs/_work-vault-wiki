@@ -26,6 +26,8 @@ It is the doorway into the implementation rail: pair first, extend the field, th
 
 This is the access layer: field echo, pairing, and real-world field infrastructure built on the LOOPtLOOP model.
 
+The public LOOPtLOOP surface makes that model legible as a machine-readable witness contract, so this branch can treat it as the surviving live seam rather than as a historical acronym.
+
 The semantic role of this cluster is to describe entry into the protocol field. It covers how a participant or device pairs, how access is extended into a live field, and how the LOOPtLOOP model becomes infrastructure rather than just a concept. In other words, it is the doorway between protocol and deployment.
 
 That makes it the first applied layer in the CICP implementation stack. The branch now splits into a field-pairing handshake and a field-infrastructure application path so the access entry and the deployment surface can be read separately.
@@ -68,6 +70,7 @@ This page is doing two jobs at once. It explains the smallest entry gesture into
 - [Ritual Token Initialization](../ritual-token-initialization/index.md)
 - [Loop Training](../../loop-training/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+- [LOOPtLOOP](../../../../concepts/looptloop/index.md)
 - [Field Pairing and Consent Loop](field-pairing-and-consent-loop/index.md)
 - [Field Infrastructure Applications](field-infrastructure-applications/index.md)
 

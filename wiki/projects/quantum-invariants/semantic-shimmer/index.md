@@ -5,9 +5,11 @@ This seam holds the Quantum Invariants semantic overlay and explanation-tuning l
 ## Current Shape
 
 - 3 archived shimmer bundles.
+- 1 semantic shimmer team brief in markdown source form.
 
 ## Representative Files
 
+- [Quantum Invariants Semantic Shimmer: Team Brief](<../../../../artifacts/standard-named/20260709__QUANTUM-INVARIANTS__BRIEF__SEMANTIC-SHIMMER__v1__semantic-shimmer-team-brief.md>) · [archive copy](<../../../../artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/20260610__QUANTUMINVARIANTS__BRIEF__PUBLIC__SHIMMER__semantic-shimmer-team-brief.md>)
 - [Quantum Invariants semantic shimmer session 4](<../../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260610__QUANTUMINVARIANTS__SITEPATCH__SHIMMER__SESSION-4__V0.1__semantic-shimmer.zip>)
 - [Quantum Invariants semantic shimmer session 5](<../../../../artifacts/intake-archive/20260623__quantum-invariants-intake/20260610__QUANTUMINVARIANTS__SITEPATCH__SHIMMER__SESSION-5__V0.1__qa-corrected.zip>)
 - [Quantum Invariants C13 boundary-collapse site pass](<../../../../artifacts/intake-archive/20260624__quantum-invariants-intake/20260618__QUANTUMINVARIANTS__SITE__PUBLIC__C13__coercive-transparency-boundary-collapse.zip>)

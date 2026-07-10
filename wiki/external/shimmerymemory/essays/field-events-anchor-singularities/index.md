@@ -10,9 +10,9 @@ Subtitle: `None listed`
 - Publication date: `2026-03-10`
 - Updated date: `2026-03-10`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__FIELD-EVENTS-ANCHOR-SINGULARITIES__v1__field-events-anchor-singularities.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FIELD-EVENTS-ANCHOR-SINGULARITIES__v1__field-events-anchor-singularities.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FIELD-EVENTS-ANCHOR-SINGULARITIES__v1__field-events-anchor-singularities.md`
+- Content hash: `bc9faba9e505427ea82fa5f83c9cf5ebdf2588886a0418e31a7671aa997d53c2`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -90,6 +90,7 @@ There is a familiar habit in modern thought: separate the human interior into di
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

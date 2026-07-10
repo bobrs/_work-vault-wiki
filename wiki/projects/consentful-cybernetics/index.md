@@ -32,6 +32,9 @@ Quantum Invariants is a useful structural companion because it gives the consent
 This branch is the site-facing companion to the consent and voluntary-intelligence language already appearing in the concept pages and adjacent project work.
 
 The homepage and research copy evolve together, which is why the wiki should keep this as a coherent project family rather than scattering the files into unrelated buckets. The newer essays make the same point from the other side: consentful systems stay expensive because they keep paying attention, and organizational legibility only works when that attention can be witnessed.
+Governance shows up here as the condition that keeps voluntary intelligence voluntary: if authorization, refusal, and review are not legible, the site language stops being consentful and starts becoming merely decorative.
+The new essay [The Loop Requirement](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) sharpens the same basin from the communication side: a statement only becomes durable meaning when uptake is reflected back through interpretation or confirmation.
+The [Voting Machine](../voting-machine/index.md) project is the civic-infrastructure analogue of that claim: consent, refusal, review, and evidence have to stay separable if the system is going to remain trustworthy.
 
 ## Related Links
 
@@ -42,6 +45,7 @@ The homepage and research copy evolve together, which is why the wiki should kee
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
 - [Attention](../../concepts/attention/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [Voting Machine](../voting-machine/index.md)
 
 ## Attractor Bridge
 
@@ -51,6 +55,7 @@ The homepage and research copy evolve together, which is why the wiki should kee
 - [Trust](../../attractors/trust/index.md)
 - [Governance](../../attractors/governance/index.md)
 - [Provenance](../../attractors/provenance/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
 ## Next Actions
 

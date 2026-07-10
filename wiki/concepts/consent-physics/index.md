@@ -8,6 +8,8 @@ The recurring move is simple: consent stops being a checkbox and becomes a conti
 
 The page also gives `Intent-Consent` a stronger neighbor. Intent names direction, while consent physics names the conditions under which the direction can actually remain valid over time.
 
+ACT–POLICY is the executable counterpart to that idea: it models whether an act may proceed, what witness it needs, and when state can change without collapsing consent into a one-shot approval event.
+
 ## Related Artifacts
 
 - [Whitepaper- The Polarity of Consent.docx](<../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__WHITEPAPER__CONSENT-PHYSICS__v1__the-polarity-of-consent.docx>) · [archive copy](<../../../artifacts/intake-archive/20260622__loop-and-phase-training-consent-physics-intake/Whitepaper- The Polarity of Consent.docx>)
@@ -23,6 +25,7 @@ The page also gives `Intent-Consent` a stronger neighbor. Intent names direction
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
 
 ## Attractor Bridge
 

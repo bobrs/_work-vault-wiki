@@ -10,9 +10,9 @@ Subtitle: `Cryptographic Provenance, Structural Extraction, and the Great Civili
 - Publication date: `2026-06-22`
 - Updated date: `2026-06-22`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__CONSENTOCRACY-BRIDGE__v1__changing-the-optimization-primitive.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__CONSENTOCRACY-BRIDGE__v1__changing-the-optimization-primitive.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__CONSENTOCRACY-BRIDGE__v1__changing-the-optimization-primitive.md`
+- Content hash: `2a1b98aebd2a2e5dce825ef4c5cb39d00b4577172148932fcac9994c1fce1b47`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -71,6 +71,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 - This essay is one of the clearest bridges between `consent` and `governance` in the external feed.

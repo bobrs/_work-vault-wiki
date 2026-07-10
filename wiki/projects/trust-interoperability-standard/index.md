@@ -24,10 +24,13 @@ Quantum Invariants is the neighboring grounding language: it names the boundary,
 ## Working Read
 
 This branch now separates into the core trust standard, the Dialogica threading model, and the graph/API surfaces that make the standard interoperable.
+Read semantically, it is a governance surface as much as a trust surface: it defines what can be compared, what can be verified across systems, and what evidence a shared network of actors can safely rely on.
+The nearby [Voting Machine](../voting-machine/index.md) project is a useful concrete instance of the same problem space because it has to keep trust, witness, governance, and audit aligned while preserving privacy.
 
 ## Related Links
 
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [Voting Machine](../voting-machine/index.md)
 
 ## Attractor Bridge
 

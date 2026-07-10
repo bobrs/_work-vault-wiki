@@ -14,10 +14,12 @@ The spec material is the protocol-facing half of the family: it names the API su
 This is the implementation seam.
 
 Treat it as the place where witness marks become operational interfaces, not yet a broader doctrine. That keeps the family legible as a system design instead of a slogan.
+The public LOOPtLOOP surface is a nearby machine-readable reference for the same hash-only witness contract, so this page should stay cross-linked to that concept.
 
 ## Related Pages
 
 - [WitnessKey](../index.md)
+- [LOOPtLOOP](../../../concepts/looptloop/index.md)
 - [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
 - [Continuity Engine](../../continuity-engine/index.md)
 

@@ -10,9 +10,9 @@ Subtitle: `Why assurance requires disciplined non-merge`
 - Publication date: `2026-06-22`
 - Updated date: `2026-06-22`
 - Author/source: `Consentful Cybernetics` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__WITNESS-AS-SKILL-SET-AND-BOUNDARY-SET__v1__witness-as-skill-set-and-boundary-set.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__WITNESS-AS-SKILL-SET-AND-BOUNDARY-SET__v1__witness-as-skill-set-and-boundary-set.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__WITNESS-AS-SKILL-SET-AND-BOUNDARY-SET__v1__witness-as-skill-set-and-boundary-set.md`
+- Content hash: `bf42fb2a238d09d634c3c4d150a7a6d2e475b5aefad5f7d57708466cb474be79`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -77,6 +77,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

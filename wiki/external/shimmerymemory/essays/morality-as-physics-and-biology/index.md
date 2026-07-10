@@ -10,9 +10,9 @@ Subtitle: `And More Like Biology Than We’re Comfortable With`
 - Publication date: `2026-02-25`
 - Updated date: `2026-02-25`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__MORALITY-AS-PHYSICS-AND-BIOLOGY__v1__morality-as-physics-and-biology.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MORALITY-AS-PHYSICS-AND-BIOLOGY__v1__morality-as-physics-and-biology.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MORALITY-AS-PHYSICS-AND-BIOLOGY__v1__morality-as-physics-and-biology.md`
+- Content hash: `9d53b55bf169a9d9f8e1aadcf598b5f551ee383ab93a6f3c1d16c1946037fc7f`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -83,6 +83,7 @@ People argue about morality as if it were a list of rules waiting to be discover
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

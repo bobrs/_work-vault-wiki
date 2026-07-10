@@ -10,6 +10,8 @@ The concept is useful because it refuses to flatten legitimacy into either raw o
 
 That is why Governance Diad sits next to [Witnessing](../witnessing/index.md), [Intent-Consent](../intent-consent/index.md), [LoopLink](../looplink/index.md), and [POLEMEMELOP](../polememelop/index.md). It is the point where procedural trust becomes a governable pattern, and where SCT’s authority logic becomes readable as a branch-level stewardship model.
 
+ACT–POLICY fits the same seam at the executable layer: it turns act, policy, witness, and state into a compact decision grammar that can be routed through the governance diad without flattening the difference between permission and observation.
+
 The same pattern also appears downstream in [Voting Machine](../../projects/voting-machine/index.md), where eligibility witness and ballot rule must stay paired without collapsing identity into the vote record.
 
 ## Related Artifacts
@@ -29,6 +31,7 @@ The same pattern also appears downstream in [Voting Machine](../../projects/voti
 - [Intent-Consent](../intent-consent/index.md)
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
+- [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
 
 ## Attractor Bridge
 

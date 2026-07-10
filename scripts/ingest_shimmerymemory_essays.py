@@ -223,6 +223,17 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
     page_path = WIKI_ROOT / item["slug"] / "index.md"
     index_link = relpath(page_path, WIKI_ROOT / "index.md")
     wiki_root_link = relpath(page_path, WORK_VAULT_INDEX)
+    source_link = (
+        relpath(page_path, ROOT / item["source_path"])
+        if isinstance(item.get("source_path"), str) and item["source_path"]
+        else None
+    )
+    artifact_spine = display_optional(item["artifact_spine_filename"])
+    artifact_spine_line = (
+        f"- Artifact spine filename: [{artifact_spine}]({source_link})"
+        if source_link and artifact_spine != "None listed"
+        else f"- Artifact spine filename: `{artifact_spine}`"
+    )
     canonical_glyph_lines = format_glyphs(item["canonical_glyphs"])
     invariant_lines = format_invariants(item["related_invariants"])
     tags = format_tags(item["tags"])
@@ -244,7 +255,7 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
         f"- Publication date: `{item['published_date']}`",
         f"- Updated date: `{item['updated_date']}`",
         f"- Author/source: `{item['author']}` / `{item['source']}`",
-        f"- Artifact spine filename: `{display_optional(item['artifact_spine_filename'])}`",
+        artifact_spine_line,
         f"- Source path: `{display_optional(item['source_path'])}`",
         f"- Content hash: `{display_optional(item['content_hash'])}`",
         f"- Language: `{item['language']}`",
@@ -389,6 +400,9 @@ def main() -> None:
     for item in sorted(data["items"], key=lambda item: (item["published_date"], item["title"]), reverse=True):
         previous = existing_records.get(item["id"], {})
         first_seen = previous.get("first_seen", fetched_at)
+        artifact_spine_filename = item["artifact_spine_filename"] or previous.get("artifact_spine_filename")
+        source_path = item["source_path"] or previous.get("source_path")
+        content_hash = item["content_hash"] or previous.get("content_hash")
         record = {
             "record_kind": "external_published",
             "source_role": "published_external",
@@ -412,9 +426,9 @@ def main() -> None:
             "slug": item["slug"],
             "url": item["url"],
             "canonical_url": item["canonical_url"],
-            "artifact_spine_filename": item["artifact_spine_filename"],
-            "source_path": item["source_path"],
-            "content_hash": item["content_hash"],
+            "artifact_spine_filename": artifact_spine_filename,
+            "source_path": source_path,
+            "content_hash": content_hash,
             "language": item["language"],
             "license": item["license"],
             "license_url": item["license_url"],

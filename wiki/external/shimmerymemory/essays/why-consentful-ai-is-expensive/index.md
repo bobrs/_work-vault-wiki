@@ -10,9 +10,9 @@ Subtitle: `None listed`
 - Publication date: `2026-01-27`
 - Updated date: `2026-01-27`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md](../../../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md)
+- Source path: `artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md`
+- Content hash: `1e46910653a27861a4d4f47039a453d635ec7f6ca5d52a7b6d021e9bda0b7689`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -83,6 +83,7 @@ There is a widespread assumption in contemporary AI discourse that cost is a pro
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

@@ -10,9 +10,9 @@ Subtitle: `A companion essay, with exits.`
 - Publication date: `2026-01-27`
 - Updated date: `2026-01-27`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260710__ULIUA__ESSAY__WHY-SMART-PEOPLE-SECRETLY-HATE-MANIFESTATION-ADVICE__v1__why-smart-people-secretly-hate-manifestation-advice.md](../../../../../artifacts/standard-named/20260710__ULIUA__ESSAY__WHY-SMART-PEOPLE-SECRETLY-HATE-MANIFESTATION-ADVICE__v1__why-smart-people-secretly-hate-manifestation-advice.md)
+- Source path: `artifacts/standard-named/20260710__ULIUA__ESSAY__WHY-SMART-PEOPLE-SECRETLY-HATE-MANIFESTATION-ADVICE__v1__why-smart-people-secretly-hate-manifestation-advice.md`
+- Content hash: `1ba1bafe5b1cbcd1cdb691cbd1ca54ee76c990ccd81a1d30fff920b4a1f99865`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -63,23 +63,28 @@ Excerpt:
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [ULiUA](../../../../projects/uliua/index.md)
+- [Manifestation Works (And Not for the Reason You Think)](../manifestation-works-and-thats-not-why-you-think/index.md)
+- [Semantic Stochastic Anchor-Based Manifestation Protocol (SSAMP)](../semantic-stochastic-anchor-based-manifestation-protocol/index.md)
 
 ## Working Read
 
-- Pending.
+- A constraint-sensitive bridge essay for readers who recoil from manifestation claims but still sense that some operative phenomenon is being badly described.
 
 ## Core Claim
 
-- Pending.
+- The useful part of manifestation discourse survives only when it is treated as viewpoint generation rather than literal belief about causation.
 
 ## Key Ideas
 
-- Pending.
+- Pattern-sensitive people reject manifestation language because it overclaims agency and ignores constraints.
+- Viewpoints can create affordances without needing to be true in a metaphysical sense.
+- The escape route is instrumental use of framing without surrendering rigor.
 
 ## Open Questions
 
-- Pending.
+- Which audiences need this bridge before they can engage the stronger ULiUA or stochastic-anchor framing?
+- When does instrumental viewpoint use start to become self-deception?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

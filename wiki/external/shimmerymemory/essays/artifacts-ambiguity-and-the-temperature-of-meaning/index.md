@@ -10,9 +10,9 @@ Subtitle: `Why Artifacts Are Perfect as Information, and Why Ambiguity Is Expens
 - Publication date: `2026-02-06`
 - Updated date: `2026-02-06`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-AMBIGUITY-AND-THE-TEMPERATURE-OF-MEANING__v1__artifacts-ambiguity-and-the-temperature-of-meaning.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-AMBIGUITY-AND-THE-TEMPERATURE-OF-MEANING__v1__artifacts-ambiguity-and-the-temperature-of-meaning.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-AMBIGUITY-AND-THE-TEMPERATURE-OF-MEANING__v1__artifacts-ambiguity-and-the-temperature-of-meaning.md`
+- Content hash: `7f54b6b9bffd989e74cc8a8db33de71270cd6fab9e1d37fffbd1ee192e4984ef`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -81,6 +81,7 @@ There is a subtle but costly mistake humans make when evaluating what they produ
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

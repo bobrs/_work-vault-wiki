@@ -19,12 +19,14 @@ This cluster holds the AI-specific continuity lessons.
 This track keeps the AI and automation boundary language separate from the general continuity basics.
 
 The three lessons stay together because they answer the same operational question: what can the system do, how can it fail in ways humans can explain, and what data boundaries keep automation from drifting into reuse it should not have.
+The [Voting Machine](../../voting-machine/index.md) project is the civically loaded version of the same problem: automation must stay explainable, bounded, and auditable when it handles legitimacy-sensitive state.
 
 ## Related Links
 
 - [Continuity Office](../index.md)
 - [Foundations](../foundations/index.md)
 - [Operating Model and Leadership](../operating-model-and-leadership/index.md)
+- [Voting Machine](../../voting-machine/index.md)
 
 ## Next Actions
 

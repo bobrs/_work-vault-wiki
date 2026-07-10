@@ -31,7 +31,7 @@ It is the SCT counterpart to the CICP protocol rail: the place where the theory 
 
 - [Core Loop Primitives / Loop-0 — The Irreducible Semantic Loop.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop-0 — The Irreducible Semantic Loop.docx>)
 - [LoopLink and Trust / LoopLink Protocol.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx>)
-- [PDSP and Sovereignty / PDSP-lite_Spec_v0.3.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/PDSP-lite_Spec_v0.3.docx>)
+- [PDSP and Sovereignty / PDSP core manuscript.md](<../../../../artifacts/standard-named/20260622__SCT__PDSP__CORE__v1__personal-data-sovereignty-protocol.md>)
 - [Loop Cosmos and Orientation / The Loop Cosmos Stack- A Path Through Semantic Reality.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/The Loop Cosmos Stack- A Path Through Semantic Reality.docx>)
 - [Loop Dynamics Framework / LDF-Field Definition.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LDF-Field Definition.docx>)
 - [Loop Economy Series / LE-Index — Foundations of a Loop-Based Economy.docx](<../../../../artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Index — Foundations of a Loop-Based Economy.docx>)
@@ -43,6 +43,7 @@ This branch now splits into stable technical sub-branches around primitives, tru
 The practical reading is that this page is the router for SCT’s implementation layer. If a later page feels like it belongs to “the loop system” rather than to narrative or origin framing, it usually belongs here first.
 
 The economy line is nested here because it depends on the loop machinery underneath it, but it also points outward to the propagation and governance pages that sit elsewhere in SCT.
+The PDSP core pair now has markdown source copies in `artifacts/standard-named/`, so the sovereignty branch can prefer those copies when a reader needs the protocol itself rather than the archive original.
 
 ## Related Links
 

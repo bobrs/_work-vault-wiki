@@ -12,6 +12,7 @@ This branch collects the multiverse and consent-resonance theory materials.
 
 - [Consent Resonance and Vision](consent-resonance-and-vision/index.md)
 - [Domain Analogies](domain-analogies/index.md)
+- [Entrainment](../entrainment/index.md)
 
 ## Representative Files
 

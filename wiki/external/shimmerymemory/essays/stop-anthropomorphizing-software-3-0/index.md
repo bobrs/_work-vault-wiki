@@ -10,9 +10,9 @@ Subtitle: `You cannot trick a model in the moral sense. You can only expose a pa
 - Publication date: `2026-06-20`
 - Updated date: `2026-06-20`
 - Author/source: `Consentful Cybernetics` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__STOP-ANTHROPOMORPHIZING-SOFTWARE-3-0__v1__stop-anthropomorphizing-software-3-0.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__STOP-ANTHROPOMORPHIZING-SOFTWARE-3-0__v1__stop-anthropomorphizing-software-3-0.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__STOP-ANTHROPOMORPHIZING-SOFTWARE-3-0__v1__stop-anthropomorphizing-software-3-0.md`
+- Content hash: `4e673da7564346218c1572d6e3458bac855ae486eeb66aac2487c8eb97073a6b`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -83,6 +83,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

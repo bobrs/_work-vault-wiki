@@ -10,9 +10,9 @@ Subtitle: `None listed`
 - Publication date: `2026-02-08`
 - Updated date: `2026-02-08`
 - Author/source: `ULiUA` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__GOOD-FAITH-IS-NOT-A-DEFENSE-MECHANISM__v1__good-faith-is-not-a-defense-mechanism.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__GOOD-FAITH-IS-NOT-A-DEFENSE-MECHANISM__v1__good-faith-is-not-a-defense-mechanism.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__GOOD-FAITH-IS-NOT-A-DEFENSE-MECHANISM__v1__good-faith-is-not-a-defense-mechanism.md`
+- Content hash: `db365e5db769f6de9cb3d234d14d2e7a128cd3e509b7a9ebadbd8082a4a4fd29`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -81,6 +81,7 @@ There is a quiet confusion at the heart of many of our most painful failures—p
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

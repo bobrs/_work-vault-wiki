@@ -10,9 +10,9 @@ Subtitle: `Energy finds its way`
 - Publication date: `2026-06-22`
 - Updated date: `2026-06-22`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way.md`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way.md](../../../../../artifacts/standard-named/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way.md)
+- Source path: `artifacts/standard-named/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way.md`
+- Content hash: `048366076e687e94e51885e5d9ade4c9147fd64a020b9ace5afe5baa492fc44c`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -78,6 +78,7 @@ After hundreds of thousands of years of evolution, people still leak private dat
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

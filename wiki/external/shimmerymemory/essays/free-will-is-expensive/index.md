@@ -10,9 +10,9 @@ Subtitle: `How local agency interrupts default flow`
 - Publication date: `2026-06-22`
 - Updated date: `2026-06-22`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__FREE-WILL-IS-EXPENSIVE__v1__free-will-is-expensive.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FREE-WILL-IS-EXPENSIVE__v1__free-will-is-expensive.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FREE-WILL-IS-EXPENSIVE__v1__free-will-is-expensive.md`
+- Content hash: `04c60173c9b7a7dc0ce5ac6be45e7504544185ade2720e611a34befaada61191`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -89,6 +89,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

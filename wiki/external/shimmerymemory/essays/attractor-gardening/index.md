@@ -10,9 +10,9 @@ Subtitle: `How Lives Actually Gain Direction`
 - Publication date: `2026-01-26`
 - Updated date: `2026-01-26`
 - Author/source: `MobiusSelf.com` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260622__HOW-INTUITION-WORKS__ESSAY__ATTRACTOR-GARDENING__v1__attractor-gardening.md](../../../../../artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__ATTRACTOR-GARDENING__v1__attractor-gardening.md)
+- Source path: `artifacts/standard-named/20260622__HOW-INTUITION-WORKS__ESSAY__ATTRACTOR-GARDENING__v1__attractor-gardening.md`
+- Content hash: `8a23995abe6f910ea9c982b4bcfe8163b7288fb902dafcb77757f6c5c0b22e0a`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -81,6 +81,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

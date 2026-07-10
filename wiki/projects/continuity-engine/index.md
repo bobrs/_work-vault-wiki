@@ -34,6 +34,7 @@ The firm-specific material turns the same structure toward a 90-day pilot, execu
 
 ## Related Links
 
+- [ContinuitAI](../continuitai/index.md)
 - [Continuity Office](../continuity-office/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)

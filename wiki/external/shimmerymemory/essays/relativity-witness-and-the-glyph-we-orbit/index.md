@@ -10,9 +10,9 @@ Subtitle: `Orientation, Scaffolding, and the Reference That Refuses Definition`
 - Publication date: `2026-02-07`
 - Updated date: `2026-02-07`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__RELATIVITY-WITNESS-AND-THE-GLYPH-WE-ORBIT__v1__relativity-witness-and-the-glyph-we-orbit.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__RELATIVITY-WITNESS-AND-THE-GLYPH-WE-ORBIT__v1__relativity-witness-and-the-glyph-we-orbit.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__RELATIVITY-WITNESS-AND-THE-GLYPH-WE-ORBIT__v1__relativity-witness-and-the-glyph-we-orbit.md`
+- Content hash: `01cc88ccf1a7b8c68d4fc804f89ab0ffc7ed441afe4518d38d7c86436fd1a958`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -82,6 +82,7 @@ There is a particular kind of laughter that doesn’t come from humor so much as
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

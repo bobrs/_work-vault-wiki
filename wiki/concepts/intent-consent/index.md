@@ -14,6 +14,8 @@ The newer research bundle around consent graphs, loop summaries, protocol intros
 
 That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), [Governance Diad](../governance-diad/index.md), [LoopLink](../looplink/index.md), and [Consent Physics](../consent-physics/index.md). Those pages describe what happens when intent-consent becomes protocol, certification, transport, legitimacy, or activation instead of remaining only a phrase.
 
+ACT–POLICY extends that same grammar into a small executable substrate: it gives intent, permission, witness, and state a machine-readable rule set without pretending the rule set is the whole concept.
+
 ## Related Artifacts
 
 - [Intent-Consent Loops as the Fabric of the Universe.docx](<../../../artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__ESSAY__INTENT-CONSENT__v1__intent-consent-loops-as-the-fabric-of-the-universe.docx>)
@@ -44,6 +46,7 @@ That makes it an important neighbor to [Abracadabracadoo](../abracadabracadoo/in
 - [Governance Diad](../governance-diad/index.md)
 - [LoopLink](../looplink/index.md)
 - [PDSP](../pdsp/index.md)
+- [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
 
 ## Attractor Bridge
 

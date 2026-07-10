@@ -10,9 +10,9 @@ Subtitle: `From Attention Mechanics to the Surface of Mutual Projection and Comp
 - Publication date: `2026-06-25`
 - Updated date: `2026-06-25`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260625__ATTENTION__PLAN-COMPRESSION__BOOK-SERIES-SEMANTIC-REENTRY__v0-2__attention-engine-book-series-plan-and-semantic-compression.md](../../../../../artifacts/standard-named/20260625__ATTENTION__PLAN-COMPRESSION__BOOK-SERIES-SEMANTIC-REENTRY__v0-2__attention-engine-book-series-plan-and-semantic-compression.md)
+- Source path: `artifacts/standard-named/20260625__ATTENTION__PLAN-COMPRESSION__BOOK-SERIES-SEMANTIC-REENTRY__v0-2__attention-engine-book-series-plan-and-semantic-compression.md`
+- Content hash: `57aa7be6668e6e873fb015e3574bfdb5f7900892d187f08eb2b8b9c20d72cea6`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -78,6 +78,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

@@ -10,9 +10,9 @@ Subtitle: `A ULiUA-sponsored essay on why effectiveness does not imply metaphysi
 - Publication date: `2025-12-03`
 - Updated date: `2025-12-03`
 - Author/source: `ULiUA` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260710__ULIUA__ESSAY__MANIFESTATION-WORKS-AND-NOT-WHY-YOU-THINK__v1__manifestation-works-and-thats-not-why-you-think.md](../../../../../artifacts/standard-named/20260710__ULIUA__ESSAY__MANIFESTATION-WORKS-AND-NOT-WHY-YOU-THINK__v1__manifestation-works-and-thats-not-why-you-think.md)
+- Source path: `artifacts/standard-named/20260710__ULIUA__ESSAY__MANIFESTATION-WORKS-AND-NOT-WHY-YOU-THINK__v1__manifestation-works-and-thats-not-why-you-think.md`
+- Content hash: `e000b79036a7ce259870515a8b8aee62c97c92f5a5e13e366bb6a13f44272e15`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -64,23 +64,28 @@ Excerpt:
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [ULiUA](../../../../projects/uliua/index.md)
+- [Why Smart People Secretly Hate Manifestation Advice](../why-smart-people-secretly-hate-manifestation-advice/index.md)
+- [Semantic Stochastic Anchor-Based Manifestation Protocol (SSAMP)](../semantic-stochastic-anchor-based-manifestation-protocol/index.md)
 
 ## Working Read
 
-- Pending.
+- A ULiUA-framed attempt to preserve the pragmatic signal in manifestation discourse while stripping out metaphysical overclaiming.
 
 ## Core Claim
 
-- Pending.
+- What people call manifestation is usually a viewpoint and entrainment effect: cleaner motion through reality, not authorship over the field itself.
 
 ## Key Ideas
 
-- Pending.
+- Acceptance reduces internal resistance without requiring passivity.
+- Trajectory matters more than outcome fixation.
+- Confidence, persistence, and noticed affordances can change results without implying magical causality.
 
 ## Open Questions
 
-- Pending.
+- Where is the boundary between useful viewpoint adoption and disguised overclaim?
+- How should this essay relate to the more formal stochastic-anchor framing in SSAMP?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

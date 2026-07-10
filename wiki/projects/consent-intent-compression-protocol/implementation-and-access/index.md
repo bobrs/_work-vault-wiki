@@ -31,6 +31,7 @@ This branch now separates into pairing and field access, key derivation and decr
 This is the execution surface of CICP. It turns the protocol vocabulary into something operational: how a participant pairs, how secrets are derived and protected, and how a ritual or physical token can initialize the access path. The page therefore captures the movement from abstract protocol language into applied systems behavior.
 
 The three subpages form a clean implementation pipeline, and the pairing and key branches now deepen one level further. That keeps the cluster readable as a flow rather than as a disconnected list of topics while still letting the handshake, field deployment, key hierarchy, and selective decryption seams stand on their own.
+The public LOOPtLOOP surface is the live machine-readable reference for the access model's witness-and-provenance edge, so this rail should keep that concept visible alongside the implementation details.
 
 ## Core Claim
 
@@ -62,6 +63,7 @@ The implementation rail claims that consent systems need an operational entry pa
 
 - [LoopLink](../../../concepts/looplink/index.md)
 - [PDSP](../../../concepts/pdsp/index.md)
+- [LOOPtLOOP](../../../concepts/looptloop/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 
 ## Related Links

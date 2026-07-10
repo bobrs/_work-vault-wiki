@@ -15,6 +15,8 @@ Witnessing also feeds [Governance Diad](../governance-diad/index.md) because cer
 Within SCT, witness logic also underpins the authority track in [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md) and the story-side governance page in [Governance Diad](../../projects/semantic-collapse-theory/story/governance-diad/index.md). Those pages are the theory-level equivalents of the numbered practice in the desktop branch.
 The [Voting Machine](../../projects/voting-machine/index.md) project is the civic-system analogue: it turns witness into custody, auditability, and revocable legitimacy instead of only document sequencing.
 
+ACT–POLICY gives that same witness logic a tighter procedural shape: it specifies the minimal conditions under which an act can be accepted, rejected, or state-changing while still remaining legible to the witness layer.
+
 ## Related Artifacts
 
 - [Witnessing 101.docx](<../../../artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 101.docx>)
@@ -40,6 +42,7 @@ The [Voting Machine](../../projects/voting-machine/index.md) project is the civi
 - [Intent-Consent](../intent-consent/index.md)
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
+- [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
 
 ## Attractor Bridge
 

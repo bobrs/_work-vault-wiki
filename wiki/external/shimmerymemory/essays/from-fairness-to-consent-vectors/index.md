@@ -10,9 +10,9 @@ Subtitle: `None listed`
 - Publication date: `2026-01-26`
 - Updated date: `2026-01-26`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__FROM-FAIRNESS-TO-CONSENT-VECTORS__v1__from-fairness-to-consent-vectors.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FROM-FAIRNESS-TO-CONSENT-VECTORS__v1__from-fairness-to-consent-vectors.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__FROM-FAIRNESS-TO-CONSENT-VECTORS__v1__from-fairness-to-consent-vectors.md`
+- Content hash: `ff42b8cc36e77996b20558e6f57d43f924a089c9ab06c70b3254e12f3fc00849`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -84,6 +84,7 @@ This document traces a conceptual path from an intuitive human agreement—*“l
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

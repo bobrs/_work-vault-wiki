@@ -10,9 +10,9 @@ Subtitle: `None listed`
 - Publication date: `2026-01-18`
 - Updated date: `2026-01-18`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__REST-AS-RESOURCE-ERROR__v1__rest-as-resource-error.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__REST-AS-RESOURCE-ERROR__v1__rest-as-resource-error.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__REST-AS-RESOURCE-ERROR__v1__rest-as-resource-error.md`
+- Content hash: `74393c64cdaa21c430b053bc18c329054cf24c1273123619e85a3031fd94cbe1`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -83,6 +83,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

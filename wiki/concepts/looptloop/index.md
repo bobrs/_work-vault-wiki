@@ -6,6 +6,8 @@ This concept appears across the CICP access rail, WitnessKey, the archived LOOPt
 
 The public site makes the operating claim explicit: private authorization can be witnessed by hash, and provenance can be made visible in recorded media. That is the core semantic role here. LOOPtLOOP is not a generic identity system; it is a bounded witness and provenance layer with a narrow public contract.
 
+ACT–POLICY is a useful formal neighbor because it expresses the act/policy/witness/state grammar that LOOPtLOOP depends on when a private authorization must stay machine-readable without exposing the payload itself.
+
 ## Machine-Readable Surface
 
 - [llms.txt](https://looptloop.online/llms.txt)
@@ -46,6 +48,7 @@ The public site makes the operating claim explicit: private authorization can be
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 - [LOOPtLOOP](../../projects/looptloop/index.md)
+- [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
 
 ## Open Questions
 

@@ -8,8 +8,8 @@ Quantum Invariants is useful here as the comparator language for continuity: it 
 
 - 20 published lessons.
 - 1 public site lineage.
-- 1 standalone support handout.
-- 7 nested lineage pages organize the set.
+- 1 standalone support handout plus added support/engagement material.
+- 8 nested lineage pages organize the set.
 - 1 draft lesson remains held out of the live catalog.
 
 ## Nested Lineage Pages
@@ -19,6 +19,7 @@ Quantum Invariants is useful here as the comparator language for continuity: it 
 - [AI and Automation Continuity](ai-and-automation-continuity/index.md)
 - [Operating Model and Leadership](operating-model-and-leadership/index.md)
 - [Advanced Change and Architecture](advanced-change-and-architecture/index.md)
+- [Continuity in Practice](continuity-in-practice/index.md)
 - [Site Variants](site-variants/index.md)
 - [Support Materials](support-materials/index.md)
 
@@ -35,9 +36,10 @@ Quantum Invariants is useful here as the comparator language for continuity: it 
 
 This is a compact continuity curriculum with a separate public-site lineage rather than a loose bundle of training notes.
 
-The branch separates cleanly into five lesson tracks plus a public-surface rail and a quick-start support asset. The site variants track the homepage, theme, and structural passes; the handout sits beside the lessons as a compact reusable support item, not as another lesson.
+The branch separates cleanly into five lesson tracks plus a continuity-in-practice rail, a public-surface rail, and a quick-start support layer. The site variants track the homepage, theme, and structural passes; the support material stays beside the lessons as reusable operational packaging rather than as another lesson track.
 
 The published catalog is the live surface. The draft `First 90 Days of Continuity` stays out of the live set until it is ready.
+The [Voting Machine](../voting-machine/index.md) project sits nearby as a concrete governance example for decision provenance, custody, and auditability when continuity work crosses into civic or authority-sensitive systems.
 
 ## Related Links
 
@@ -45,6 +47,7 @@ The published catalog is the live surface. The draft `First 90 Days of Continuit
 - [Witnessing](../../concepts/witnessing/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [Voting Machine](../voting-machine/index.md)
 
 ## Next Actions
 

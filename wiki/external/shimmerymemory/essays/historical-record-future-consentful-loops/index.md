@@ -10,9 +10,9 @@ Subtitle: `Digital provenance is incomplete unless it preserves the consent cond
 - Publication date: `2026-06-21`
 - Updated date: `2026-06-21`
 - Author/source: `HowConsentWorks.com` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__HISTORICAL-RECORD-FUTURE-CONSENTFUL-LOOPS__v1__historical-record-future-consentful-loops.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__HISTORICAL-RECORD-FUTURE-CONSENTFUL-LOOPS__v1__historical-record-future-consentful-loops.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__HISTORICAL-RECORD-FUTURE-CONSENTFUL-LOOPS__v1__historical-record-future-consentful-loops.md`
+- Content hash: `ff94a1550da4ce925d1f1fc04d9365b86938b83f9b4ebdc95bbe93674bc84462`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -85,6 +85,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

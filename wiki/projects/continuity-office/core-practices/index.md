@@ -21,12 +21,14 @@ This cluster holds the operational continuity practices.
 This track names the day-to-day mechanics that turn continuity from an idea into a routine: provenance, survivable workflows, drift detection, key-person risk reduction, and incident memory.
 
 It works as the middle layer between the foundations and the more specialized AI or architecture tracks.
+The [Voting Machine](../../voting-machine/index.md) project is a useful concrete companion here because it makes provenance, reviewability, and custody visible in a high-stakes workflow rather than only in training language.
 
 ## Related Links
 
 - [Continuity Office](../index.md)
 - [Foundations](../foundations/index.md)
 - [AI and Automation Continuity](../ai-and-automation-continuity/index.md)
+- [Voting Machine](../../voting-machine/index.md)
 
 ## Next Actions
 

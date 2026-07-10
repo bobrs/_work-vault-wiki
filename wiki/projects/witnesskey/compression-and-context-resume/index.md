@@ -6,7 +6,7 @@ It frames witness as the primitive layer underneath consent and provenance. The 
 
 ## Representative Files
 
-- [WitnessKey / WitnessMark Context Resume.md](<../../../../artifacts/incoming/20260618__WITNESSKEY__COMPRESSION__CONTEXT-RESUME__V0__witness-mark-consent-provenance.md>)
+- [WitnessKey / WitnessMark Context Resume.md](<../../../../artifacts/standard-named/20260709__WITNESSKEY__COMPRESSION__CONTEXT-RESUME__v0__witness-mark-consent-provenance.md>) · [archive copy](<../../../../artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/20260618__WITNESSKEY__COMPRESSION__CONTEXT-RESUME__V0__witness-mark-consent-provenance.md>)
 
 ## Working Read
 

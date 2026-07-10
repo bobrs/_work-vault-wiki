@@ -2,6 +2,8 @@
 
 This cluster now covers the surviving LOOPtLOOP addendum plus the archived companion set for the platform and field application material.
 
+The public LOOPtLOOP site now acts as the live machine-readable surface for that surviving addendum: it exposes the hash-only witness contract, provenance loop, and current public API boundary.
+
 ## Current Shape
 
 - 8 documents total.

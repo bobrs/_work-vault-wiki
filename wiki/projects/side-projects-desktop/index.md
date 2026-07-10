@@ -6,7 +6,7 @@ This branch is the desktop-sized source vault for side projects, reference mater
 
 - 224 source files inventoried in the desktop vault.
 - Several families already collapse into existing wiki pages: CICP, Semantic Collapse Theory, Trust Interoperability Standard, Daily Growth Ritual, FractalIdentity Tree, and POLEMEMELOP.
-- 34 durable-looking branches are split below.
+- 38 durable-looking branches are split below.
 
 ## Linked Existing Lineages
 
@@ -27,6 +27,8 @@ This branch is the desktop-sized source vault for side projects, reference mater
 - [Witnessing](witnessing/index.md)
 - [Misc Loop](misc-loop/index.md)
 - [Consent-based Atomic genesis and Stream](consent-based-atomic-genesis-and-stream/index.md)
+- [Consent Grammar](consent-grammar/index.md)
+- [Consent-Scoped Communication](consent-scoped-communication/index.md)
 - [Cosmic Consent](cosmic-consent/index.md)
 - [Ephemeral Trust](ephemeral-trust/index.md)
 - [Genesis](genesis/index.md)
@@ -43,12 +45,15 @@ This branch is the desktop-sized source vault for side projects, reference mater
 - [GlyphStory](glyphstory/index.md)
 - [Governance](governance/index.md)
 - [Context2](context2/index.md)
+- [ACT–POLICY](act-policy/index.md)
 - [Crystalstream](crystalstream/index.md)
 - [Opportunity Studio](opportunity-studio/index.md)
 - [Causation Delirium](causation-delirium/index.md)
 - [Art of Meaning](art-of-meaning/index.md)
 - [Consent Seed](consent-seed/index.md)
 - [Quantum Emoji](quantum-emoji/index.md)
+- [Shimmerflow](shimmerflow/index.md)
+- [Entrainment](entrainment/index.md)
 - [Sovereignty of the Butterfly](sovereignty-of-the-butterfly/index.md)
 - [The King Who Measured Everything](the-king-who-measured-everything/index.md)
 - [loopnought](loopnought/index.md)
@@ -71,6 +76,9 @@ The selection below keeps the stable seams visible without duplicating the SCT, 
 - [LoopMail](loopmail/index.md)
 - [Glyphlog](glyphlog/index.md)
 - [Governance](governance/index.md)
+- [ACT–POLICY](act-policy/index.md)
+- [Shimmerflow](shimmerflow/index.md)
+- [Entrainment](entrainment/index.md)
 - [ProgramSelf (You and Your AI)](programself-you-and-your-ai/index.md)
 - [Safety and Stable Loop Language](safety-and-stable-loop-language/index.md)
 - [Source text](source-text/index.md)

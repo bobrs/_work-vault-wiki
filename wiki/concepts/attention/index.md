@@ -28,6 +28,7 @@ The newer axioms draft makes the rule-set even sharper: attention creates, susta
 
 - [Similar Projects / Cognitive Runtime](../../projects/similar-projects/cognitive-runtime/index.md)
 - [Attention - Five Modes](../../projects/side-projects-desktop/attention-five-modes/index.md)
+- [Attention Engine: Book Series Plan and Semantic Compression](../../external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 

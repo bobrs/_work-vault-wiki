@@ -10,9 +10,9 @@ Subtitle: `Bathroom Edition`
 - Publication date: `2026-02-04`
 - Updated date: `2026-02-04`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__A-PLACE-TO-STAND-BATHROOM-EDITION__v1__a-place-to-stand-bathroom-edition.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__A-PLACE-TO-STAND-BATHROOM-EDITION__v1__a-place-to-stand-bathroom-edition.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__A-PLACE-TO-STAND-BATHROOM-EDITION__v1__a-place-to-stand-bathroom-edition.md`
+- Content hash: `aec5977ee8ee1ab9b729b9db817efb5de456aad5989a4d0629d6178595c6fd90`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -80,6 +80,7 @@ You don’t need to be having a crisis to notice this, but crises help. There co
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

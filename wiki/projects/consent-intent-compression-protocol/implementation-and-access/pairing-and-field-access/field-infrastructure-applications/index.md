@@ -19,6 +19,7 @@ It is the deployment seam of the pairing branch. The document here describes fie
 This branch captures the deployment-facing end of pairing and field access. It is the part of the implementation rail where the access model becomes infrastructure and can be carried into actual use.
 
 The document stands apart from the handshake material because it treats LOOPtLOOP as a field application layer. That separation keeps the access-entry logic from getting blurred into the broader infrastructure story.
+The public LOOPtLOOP site now gives that layer a live machine-readable edge, so the wiki can treat it as the surviving reference surface for the field application seam.
 
 ## Core Claim
 
@@ -57,6 +58,7 @@ This page demonstrates that the protocol family is trying to inhabit the physica
 - [Field Pairing and Consent Loop](../field-pairing-and-consent-loop/index.md)
 - [Key Derivation and Decryption](../../key-derivation-and-decryption/index.md)
 - [Ritual Token Initialization](../../ritual-token-initialization/index.md)
+- [LOOPtLOOP](../../../../../concepts/looptloop/index.md)
 
 ## Next Actions
 

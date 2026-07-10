@@ -10,9 +10,9 @@ Subtitle: `How Contextual Wells Shape Perception — and How Power Exploits Them
 - Publication date: `2026-02-07`
 - Updated date: `2026-02-07`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-ATTRACTORS-AND-THE-RELATIVITY-OF-APPEARANCE__v1__artifacts-attractors-and-the-relativity-of-appearance.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-ATTRACTORS-AND-THE-RELATIVITY-OF-APPEARANCE__v1__artifacts-attractors-and-the-relativity-of-appearance.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-ATTRACTORS-AND-THE-RELATIVITY-OF-APPEARANCE__v1__artifacts-attractors-and-the-relativity-of-appearance.md`
+- Content hash: `edf202b5a0a2b98279df9b2ba6ed39cd6abf552f5f9825dad11b41bda27885a6`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -84,6 +84,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

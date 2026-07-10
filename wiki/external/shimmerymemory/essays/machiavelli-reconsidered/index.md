@@ -10,9 +10,9 @@ Subtitle: `A Systems Perspective on Power, Legibility, and Stability`
 - Publication date: `2026-03-04`
 - Updated date: `2026-03-04`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__MACHIAVELLI-RECONSIDERED__v1__machiavelli-reconsidered.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MACHIAVELLI-RECONSIDERED__v1__machiavelli-reconsidered.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MACHIAVELLI-RECONSIDERED__v1__machiavelli-reconsidered.md`
+- Content hash: `f02ca549d2ed34faa30ce316b5bce69bb7c4a3706b75c7f37e6da3d122045131`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -82,6 +82,7 @@ Few political thinkers have been as persistently misunderstood as Niccolò Machi
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

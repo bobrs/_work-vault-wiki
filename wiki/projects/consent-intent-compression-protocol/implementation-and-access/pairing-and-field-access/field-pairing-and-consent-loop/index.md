@@ -19,6 +19,8 @@ It is the access-entry seam of the pairing branch. The documents here describe h
 
 This branch covers the pairing handshake and consent-loop entry itself. It is the part of the implementation rail where access becomes possible before deployment logic or broader field infrastructure are introduced.
 
+The public LOOPtLOOP surface is the machine-readable example of this handshake model: hash-first, witness-bounded, and explicit about what is and is not being revealed.
+
 The field echo document and the two-way TOTP overview belong together because both describe the trust-entry motion. They define the consent loop as an operational handshake rather than as a purely conceptual model.
 
 ## Core Claim
@@ -58,6 +60,7 @@ This page is the smallest practical proof that CICP can move from language into 
 - [Field Infrastructure Applications](../field-infrastructure-applications/index.md)
 - [Key Derivation and Decryption](../../key-derivation-and-decryption/index.md)
 - [Ritual Token Initialization](../../ritual-token-initialization/index.md)
+- [LOOPtLOOP](../../../../../concepts/looptloop/index.md)
 
 ## Next Actions
 

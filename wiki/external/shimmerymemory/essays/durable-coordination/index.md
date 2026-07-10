@@ -10,9 +10,9 @@ Subtitle: `Authority, Consent, and Witness Across Time`
 - Publication date: `2026-03-04`
 - Updated date: `2026-03-04`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__DURABLE-COORDINATION__v1__durable-coordination.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__DURABLE-COORDINATION__v1__durable-coordination.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__DURABLE-COORDINATION__v1__durable-coordination.md`
+- Content hash: `6c0e5d7d32c42952cb633d436fdee9160b59f118ab9ba79227c8811d6884e9bc`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -84,6 +84,7 @@ Human systems—relationships, organizations, governments, and networks—share 
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

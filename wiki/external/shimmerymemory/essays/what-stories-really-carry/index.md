@@ -10,9 +10,9 @@ Subtitle: `A note to writers about what you’re actually doing`
 - Publication date: `2026-02-11`
 - Updated date: `2026-02-11`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__WHAT-STORIES-REALLY-CARRY__v1__what-stories-really-carry.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__WHAT-STORIES-REALLY-CARRY__v1__what-stories-really-carry.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__WHAT-STORIES-REALLY-CARRY__v1__what-stories-really-carry.md`
+- Content hash: `bb0d62fa409a086cf9a3464188503d007eba18b6a05ed5f78147c630a73d2fa1`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -81,6 +81,7 @@ Excerpt:
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

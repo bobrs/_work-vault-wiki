@@ -10,9 +10,9 @@ Subtitle: `How Almost Nothing New Ever Works, and Why That’s a Relief`
 - Publication date: `2026-02-06`
 - Updated date: `2026-02-06`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__THE-SUBTLE-ART-OF-EXAPTATION__v1__the-subtle-art-of-exaptation.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__THE-SUBTLE-ART-OF-EXAPTATION__v1__the-subtle-art-of-exaptation.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__THE-SUBTLE-ART-OF-EXAPTATION__v1__the-subtle-art-of-exaptation.md`
+- Content hash: `ea5475e614145d5e799159c77bce4c57a1ed8cec51783220c52457a185800c2f`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -82,6 +82,7 @@ Or: how almost nothing new ever works, and why that’s a relief Human beings ar
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

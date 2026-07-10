@@ -18,11 +18,13 @@ This is the policy/economics seam inside Governance.
 The page should stay focused on consent economy and self-sovereignty as a policy cluster. It is the natural place to attach future governance-specific links that follow the internal model rather than the external pitch.
 The consentocracy bridge sits adjacent to this seam as the external articulation of the same default-flip logic.
 It also sits downstream of the broader consentocracy framing, which is why the bridge essay belongs nearby as the external articulation of the same default-flip logic.
+The [Voting Machine](../../../voting-machine/index.md) project is another useful adjacent surface because it turns consent, participation, and self-sovereignty into a concrete custody-and-review problem.
 
 ## Related Links
 
 - [Governance](../index.md)
 - [Consulting and Uncertainty](../consulting-and-uncertainty/index.md)
+- [Voting Machine](../../../voting-machine/index.md)
 - [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 

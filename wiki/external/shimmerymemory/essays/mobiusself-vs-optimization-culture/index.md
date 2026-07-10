@@ -10,9 +10,9 @@ Subtitle: `Why This Is Not Self-Improvement`
 - Publication date: `2026-01-12`
 - Updated date: `2026-01-12`
 - Author/source: `MobiusSelf.com` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__MOBIUSSELF-VS-OPTIMIZATION-CULTURE__v1__mobiusself-vs-optimization-culture.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MOBIUSSELF-VS-OPTIMIZATION-CULTURE__v1__mobiusself-vs-optimization-culture.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MOBIUSSELF-VS-OPTIMIZATION-CULTURE__v1__mobiusself-vs-optimization-culture.md`
+- Content hash: `8dc12d0bc3b456adce625faa74a20d437f50e80243d47520a22cd339eb7fdf51`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -83,6 +83,7 @@ MobiusSelf is often mistaken for a softer form of optimization. It is not. This 
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

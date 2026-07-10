@@ -27,6 +27,8 @@ Read as a field atlas, Semantic Integrity is the implementation seam for meaning
 This is the operational layer that sits between the Consentful Cybernetics philosophy and a deployable product/service boundary.
 
 The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay now opens into semantic infrastructure and semantic-attack-surface concerns, the conversation reconstitution preserves the semantic basin, the Semantic OS vision now opens into airlock architecture, and the semantic movement signals memo still reads like a child instrumentation layer of the same basin. Together they still read like one durable implementation seam.
+That makes this page one of the clearest routes back to the Governance attractor whenever the work shifts from meaning-preservation into policy, authority, or review under load.
+The nearby [Voting Machine](../voting-machine/index.md) project is the concrete civic counterpart when that same governance logic has to preserve custody, auditability, and privacy under election-like constraints.
 The attractor layer is the compressed semantic map that this branch implements: [Meaning](../../attractors/meaning/index.md), [Trust](../../attractors/trust/index.md), [Attention](../../attractors/attention/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 
 ## Related Links
@@ -34,6 +36,7 @@ The attractor layer is the compressed semantic map that this branch implements: 
 - [Consentful Cybernetics](../consentful-cybernetics/index.md)
 - [Continuity Office](../continuity-office/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [Voting Machine](../voting-machine/index.md)
 
 ## Attractor Bridge
 

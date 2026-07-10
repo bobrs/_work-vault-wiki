@@ -10,9 +10,9 @@ Subtitle: `Why AI Expands the Mission of Trust`
 - Publication date: `2026-05-28`
 - Updated date: `2026-05-28`
 - Author/source: `Bobby Simpson` / `Shimmery Memory`
-- Artifact spine filename: `None listed`
-- Source path: `None listed`
-- Content hash: `None listed`
+- Artifact spine filename: [20260709__SHIMMERY-MEMORY__ESSAY__ACCOUNTING-FOR-MEANING__v1__accounting-for-meaning.md](../../../../../artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ACCOUNTING-FOR-MEANING__v1__accounting-for-meaning.md)
+- Source path: `artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ACCOUNTING-FOR-MEANING__v1__accounting-for-meaning.md`
+- Content hash: `5f36547768c16aa801d407ef2d94a81be18ec75d914e5d656b3607d3a89aad66`
 - Language: `en`
 - License: `CC0 + Infinite Play Open License`
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
@@ -84,6 +84,7 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 - Pending.
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 
