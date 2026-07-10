@@ -3,6 +3,7 @@
 This branch collects the public site, research framing, and iteration bundles for the Consentful Cybernetics family.
 
 It reads as a public-facing articulation of voluntary intelligence: one seam tunes the site and visual language, and the other seam tracks preregistration and research artifacts. The material is durable enough to keep together, but still better treated as an evolving site family than as a finished doctrine.
+The Consentocracy Bridge sits nearby as the external governance/provenance articulation of the same consent-first logic.
 
 Quantum Invariants is a useful structural companion because it gives the consent and intelligence language a comparator model for boundaries, legibility, and drift.
 
@@ -26,6 +27,7 @@ Quantum Invariants is a useful structural companion because it gives the consent
 - [Why Consentful AI Is Expensive](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md>)
 - [Consent-Aware AI in Organizations](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md>)
 - [AI and the Next Layer of Organizational Legibility](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__ORGANIZATIONAL-LEGIBILITY__v1__ai-and-the-next-layer-of-organizational-legibility.md>)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Working Read
 
@@ -56,6 +58,7 @@ The [Voting Machine](../voting-machine/index.md) project is the civic-infrastruc
 - [Governance](../../attractors/governance/index.md)
 - [Provenance](../../attractors/provenance/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

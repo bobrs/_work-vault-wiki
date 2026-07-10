@@ -29,6 +29,78 @@ Excerpt:
 
 ### The Enclosure of Meaning The contemporary architecture of artificial intelligence functions as a one-way thermodynamic valve. High-entropy, decentralized human expression—shared across decades of digital commons on forums, creative networks, and open repositories—is vacuumed
 
+## Working Read
+
+This essay is a governance argument about changing the primitive that AI systems optimize against. Its center of gravity is not just consent, but the mechanics of provenance, traceability, and public reuse when commercial optimization is allowed to proceed from scraped data by default.
+
+The bridge proposal is intentionally transitional. It does not try to claw back the entire past. Instead, it proposes a civilizational reset: legacy models become public commons, and future commercial optimization has to prove a consent path before it can consume data. That makes it a provenance policy, a governance proposal, and a commons-expansion argument at the same time.
+
+## Core Claim
+
+If consent cannot be demonstrated, optimization should not be allowed by default. The system should therefore flip to opt-in, require auditable lineage for commercial use, and socialize legacy model capability into a public commons so the future does not remain trapped behind private extraction.
+
+## Key Ideas
+
+- Consent is the baseline for commercial optimization.
+- Provenance must be machine-readable to govern training at scale.
+- Zero-knowledge proofs can separate verification from disclosure.
+- Historical models should become public infrastructure.
+- Amnesty is a transition tool, not a claim that extraction was fine.
+
+## Related Materials
+
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Consent Economy and Sovereignty](../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
+- [Voting Machine](../../../projects/patents/governance-and-games/voting-machine/index.md)
+- [The Loop Requirement](./20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md)
+- [Privacy Is a Membrane, Not a Wall](./20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md)
+- [Why Consentful AI Is Expensive](./why-consentful-ai-is-expensive/index.md)
+- [Accounting for Meaning](./accounting-for-meaning/index.md)
+- [Defending Meaning](./defending-meaning/index.md)
+
+## Related Invariants
+
+- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
+- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
+- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
+- [P8 — Reversibility / Exit](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
+- [P9 — Power-Proportionate Governance](https://quantuminvariants.com/spine/primitives#P9) · Quantum Invariants · primitive
+- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
+- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
+- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
+- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
+
+## Open Questions
+
+- What counts as sufficient proof of consent for a training input or optimization step?
+- Where should the line sit between public commons and commercially usable datasets?
+- How much of the historical model stack can actually be socialized without breaking downstream utility?
+- Can provenance stay legible without becoming a surveillance layer?
+- How should machines distinguish inherited capability from newly consented optimization?
+
+## Work Vault Links
+
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Voting Machine](../../../projects/patents/governance-and-games/voting-machine/index.md)
+- [Consent Economy and Sovereignty](../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
+
+## Attractor Bridge
+
+- [Consent](../../../attractors/consent/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Provenance](../../../attractors/provenance/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [Witness](../../../attractors/witness/index.md)
+- [Attention](../../../attractors/attention/index.md)
+
+## Semantic Extraction Notes
+
+- The essay’s true bridge is between opt-in governance and machine-readable provenance.
+- The “civilizational amnesty” move is a transition mechanism that socializes old capability without endorsing old extraction.
+- The piece belongs with consent, governance, trust, and provenance material more than with general AI commentary.
+
 ## Canonical Glyphs
 
 - None listed
@@ -77,6 +149,7 @@ Excerpt:
 - This essay is one of the clearest bridges between `consent` and `governance` in the external feed.
 - It should stay linked to the privacy membrane essay and the consent-gradient essay.
 - The civilizational-amnesty framing is a major semantic anchor for future provenance work.
+- Treat the consent/provenance flip as a structural governance proposal, not just a policy preference.
 
 
 

@@ -4,6 +4,7 @@ This branch collects the implementation-facing work on semantic integrity: how m
 
 Quantum Invariants sits underneath this work as a structural comparator and grounding language for boundaries, drift, and repair.
 Read as a field atlas, Semantic Integrity is the implementation seam for meaning under load: the place where observability, provenance, trust, and governance become operational rather than merely aspirational.
+The Consentocracy Bridge belongs nearby because it turns provenance and consent into the governing primitive for AI optimization, which is exactly the kind of structural change this branch tries to operationalize.
 
 ## Current Shape
 
@@ -16,6 +17,7 @@ Read as a field atlas, Semantic Integrity is the implementation seam for meaning
 - [Defending Meaning](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__ESSAY__v1__defending-meaning.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_integrity_it_cybersecurity_essay.md>)
 - [Semantic Integrity conversation reconstitution](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__RECONSTITUTION__v0-1__semantic-integrity-conversation-reconstitution.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_integrity_conversation_reconstitution.md>)
 - [Semantic OS vision](<../../../artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__VISION__v0-1__semantic-os-ai-human-collaboration.md>) · [archive copy](<../../../artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_os_operating_system_vision.md>)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Pilot architecture](<./pilot-architecture/index.md>)
 - [Investor framing](<./investor-framing/index.md>)
 - [Semantic Movement Signals](<./semantic-movement-signals/index.md>)
@@ -37,6 +39,7 @@ The attractor layer is the compressed semantic map that this branch implements: 
 - [Continuity Office](../continuity-office/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Voting Machine](../voting-machine/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Attractor Bridge
 
