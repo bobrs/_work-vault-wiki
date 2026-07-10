@@ -1465,7 +1465,6 @@ function renderSearchPage(searchRecords) {
         <span class="tag">metadata-first</span>
       </div>
       <p>This search surface indexes public wiki and navigation metadata, not full raw file contents. Use it to move from a concept or project name into the current public entry points.</p>
-      <div id="collectionStats" class="status-grid"></div>
       <div class="search-toolbar">
         <input id="q" type="search" placeholder="Search title, summary, tags, or URL">
         <select id="typeFilter"><option value="">All types</option></select>
@@ -1473,7 +1472,6 @@ function renderSearchPage(searchRecords) {
         <select id="collectionFilter"><option value="">All collections</option></select>
         <select id="statusFilter"><option value="">All statuses</option></select>
       </div>
-      <p class="muted" id="resultCount">Loading search index...</p>
       <div id="results" class="result-list"></div>
       <script>
         const RECORDS = ${payload};
@@ -1483,9 +1481,7 @@ function renderSearchPage(searchRecords) {
           roleFilter: document.getElementById("roleFilter"),
           collectionFilter: document.getElementById("collectionFilter"),
           statusFilter: document.getElementById("statusFilter"),
-          collectionStats: document.getElementById("collectionStats"),
           results: document.getElementById("results"),
-          resultCount: document.getElementById("resultCount"),
         };
         const escapeHtml = (value) => String(value)
           .replaceAll("&", "&amp;")
@@ -1516,15 +1512,6 @@ function renderSearchPage(searchRecords) {
         for (const value of roles) appendOption(els.roleFilter, value);
         for (const value of collections) appendOption(els.collectionFilter, labelForCollection(value), value);
         for (const value of statuses) appendOption(els.statusFilter, value);
-        const collectionCounts = Object.create(null);
-        for (const record of RECORDS) {
-          const key = record.collection || "navigation";
-          collectionCounts[key] = (collectionCounts[key] || 0) + 1;
-        }
-        els.collectionStats.innerHTML = collections.map((value) => {
-          const count = collectionCounts[value] || 0;
-          return '<div class="status-card"><p class="stat">' + count + '</p><p class="muted">' + escapeHtml(labelForCollection(value)) + ' records.</p></div>';
-        }).join("");
         function matches(record) {
           const term = els.q.value.trim().toLowerCase();
           const type = els.typeFilter.value;
@@ -1541,7 +1528,6 @@ function renderSearchPage(searchRecords) {
         }
         function render() {
           const items = RECORDS.filter(matches);
-          els.resultCount.textContent = items.length + " of " + RECORDS.length + " records";
           els.results.innerHTML = items.slice(0, 200).map((record) => {
             const tags = (record.tags || []).slice(0, 5).map((tag) => '<span>' + escapeHtml(tag) + '</span>').join('');
             return '<article class="result-card">'
