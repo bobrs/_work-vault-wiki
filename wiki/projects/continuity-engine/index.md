@@ -1,6 +1,7 @@
 # Continuity Engine
 
 This branch holds the structural governance briefs that sit alongside `Continuity Office`. The material now splits cleanly into three durable seams: client-facing positioning, sovereign governance execution, and firm-specific pilot materials.
+It is the execution surface for continuity once the curriculum has been taught elsewhere: the engine makes continuity legible at runtime, while witness pages define what must be certified before the engine can keep moving safely.
 
 ## Current Shape
 
@@ -31,6 +32,7 @@ The sovereign governance material uses the same structural language but applies 
 That same authority-sensitive logic now has a clear adjacent project in [Voting Machine](../voting-machine/index.md), where governance becomes offline custody, auditability, and admissible civic evidence rather than only operational briefing language.
 
 The firm-specific material turns the same structure toward a 90-day pilot, executive positioning, partner-facing adoption language, and a broader AI capability strategy for the firm.
+The [Continuity Office](../continuity-office/index.md) page is the curriculum that prepares this engine, and [AI Witness](../continuitai/ai-witness/index.md) is the non-executing observer that can spot drift without changing state.
 
 ## Related Links
 
@@ -39,6 +41,8 @@ The firm-specific material turns the same structure toward a 90-day pilot, execu
 - [Voting Machine](../voting-machine/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
+- [WitnessKey](../witnesskey/index.md)
+- [Continuity and Transition](../semantic-collapse-theory/continuity-and-transition/index.md)
 
 ## Next Actions
 

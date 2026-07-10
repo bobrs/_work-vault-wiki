@@ -3,6 +3,7 @@
 Parent lineage: `Semantic Collapse Theory`
 
 This cluster covers the branch's continuity, persistence, and transition-to-continuum material.
+The witness side of the corpus shows up here too: continuity is only meaningful if witness can certify what is being carried forward, and the continuity office / AI witness material gives that logic a practical surface outside SCT.
 
 ## Current Shape
 
@@ -30,12 +31,17 @@ The deeper role of this cluster is to define what continuity means after collaps
 This cluster is the conceptual landing zone for the continuity problem: how a system keeps identity, story, and relational coherence when ordinary sequence ends.
 
 It also closes the loop between the temporal and story branches, because continuity in SCT is both a technical persistence problem and a narrative one.
+It is also the downstream sibling of witness: once a state has been certified, the question becomes whether the system can continue to hold, narrate, or transfer that state without collapse.
 
 ## Related Links
 
 - [Semantic Collapse Theory](../index.md)
 - [Temporal Loops and Memory](../temporal-loops-and-memory/index.md)
 - [Story](../story/index.md)
+- [Witness and Governance](../origin-and-governance/witness-and-governance/index.md)
+- [Witnessing concept](../../../concepts/witnessing/index.md)
+- [Continuity Office](../../continuity-office/index.md)
+- [AI Witness](../../continuitai/ai-witness/index.md)
 - [Quantum Continuum Home](quantum-continuum-home/index.md)
 - [Loop Arc Narrative](loop-arc-narrative/index.md)
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)

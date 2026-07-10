@@ -3,6 +3,7 @@
 Parent lineage: `Semantic Collapse Theory` / `Origin and Governance`
 
 This cluster covers witness-based resolution, governance, guidepost elements, and sovereignty framing.
+It is also one of the places where witness and continuity meet: the authority logic here has to remain legible across handoff, so the cluster belongs near the continuity branches as well as the governance ones.
 
 ## Current Shape
 
@@ -24,6 +25,7 @@ The deeper function here is to define how authority is recognized inside the the
 This cluster is therefore the normative spine of SCT: it explains who can certify structure, how that certification becomes authority, and what consent-based sovereignty looks like once it is formalized.
 
 It also links forward to the story and temporal branches, because the authority model becomes narratable and temporally durable only when the witness logic has been stabilized.
+The continuity branches read as the downstream after-effect of that same structure: once witness produces legitimate authority, continuity asks how that authority survives transfer, drift, or transition.
 
 ## Related Links
 
@@ -31,6 +33,9 @@ It also links forward to the story and temporal branches, because the authority 
 - [Origin and Protocols](../origin-and-protocols/index.md)
 - [Narrative and Fieldnotes](../narrative-and-fieldnotes/index.md)
 - [Temporal Loops and Memory](../../temporal-loops-and-memory/index.md)
+- [Continuity and Transition](../../continuity-and-transition/index.md)
+- [Continuity Office](../../../continuity-office/index.md)
+- [AI Witness](../../../continuitai/ai-witness/index.md)
 - [Story](../../story/index.md)
 - [Witnessing concept](../../../../concepts/witnessing/index.md)
 - [Governance Diad concept](../../../../concepts/governance-diad/index.md)

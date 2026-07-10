@@ -3,6 +3,7 @@
 Parent lineage: `ContinuitAI`
 
 This seam holds the observability-first layer for the branch.
+It is the non-executing witness in the continuity family: it watches drift, compresses what changed, and keeps authority separate from observation.
 
 ## Representative Files
 
@@ -14,10 +15,14 @@ This seam holds the observability-first layer for the branch.
 The AI Witness is the non-executing mirror in the family. It does not change data or outrun authority; it watches, compresses, and surfaces drift between written rules and lived behavior.
 
 The continuity-agent note complements that role by naming the bridge between declared human intent and machine execution. One layer sees clearly; the next layer holds alignment pressure as action begins.
+That makes this page the observability counterpart to [Continuity Office](../../continuity-office/index.md) and [Continuity Engine](../../continuity-engine/index.md), and a close neighbor to SCT's [Continuity and Transition](../../semantic-collapse-theory/continuity-and-transition/index.md) branch where coherence has to survive state change.
 
 ## Related Links
 
 - [ContinuitAI](../index.md)
 - [Semantic Orchestration Fabric](../semantic-orchestration-fabric/index.md)
 - [WitnessKey](../../witnesskey/index.md)
+- [Continuity Office](../../continuity-office/index.md)
+- [Continuity Engine](../../continuity-engine/index.md)
+- [Continuity and Transition](../../semantic-collapse-theory/continuity-and-transition/index.md)
 - [Witness](../../../attractors/witness/index.md)

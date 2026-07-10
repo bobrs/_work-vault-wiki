@@ -9,6 +9,7 @@ In practice, Witnessing is the procedural layer that turns observation into a du
 The page is more than a record of staged documents. It is the corpus's way of saying that observation becomes useful only when it can be certified, carried forward, and reused without losing its provenance. That makes witnessing the procedural partner of intent-consent: one names what was seen and in what order, while the other names whether the action could proceed.
 
 The new witness-infrastructure essay extends that logic into the AI economy: the bottleneck is not only compute or storage, but the ability to witness and reuse trustworthy state across systems.
+What distinguishes this from continuity is the boundary between certification and handoff: witness certifies what happened, while continuity carries the certified state forward. The continuity office, continuity engine, AI witness, and SCT continuity branches all depend on that distinction.
 
 Witnessing also feeds [Governance Diad](../governance-diad/index.md) because certification creates the basis for rule, and it feeds [LoopLink](../looplink/index.md) because transport and recovery need a trusted observation trail. [Abracadabracadoo](../abracadabracadoo/index.md) inherits this logic at the protocol surface whenever a family of documents needs a recoverable state.
 
@@ -34,6 +35,10 @@ ACT–POLICY gives that same witness logic a tighter procedural shape: it specif
 - [Loop Repair Guide](../../projects/side-projects-desktop/loop-and-phase-training/loop-repair-guide/index.md)
 - [Loop Maintenance Kit](../../projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md)
 - [Genesis](../../projects/side-projects-desktop/genesis/index.md)
+- [Continuity Office](../../projects/continuity-office/index.md)
+- [Continuity Engine](../../projects/continuity-engine/index.md)
+- [AI Witness](../../projects/continuitai/ai-witness/index.md)
+- [Continuity and Transition](../../projects/semantic-collapse-theory/continuity-and-transition/index.md)
 - [Voting Machine](../../projects/voting-machine/index.md)
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Story](../../projects/semantic-collapse-theory/story/index.md)
@@ -48,6 +53,8 @@ ACT–POLICY gives that same witness logic a tighter procedural shape: it specif
 
 - [Witness](../../attractors/witness/index.md)
 - [Provenance](../../attractors/provenance/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
 ## Notes
 

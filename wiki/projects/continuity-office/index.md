@@ -3,6 +3,7 @@
 This branch collects the continuity training catalog and its supporting materials structure.
 
 Quantum Invariants is useful here as the comparator language for continuity: it helps name what stays stable, what drifts, and what needs a repair path.
+Witnessing is the adjacent procedural concept: it certifies the state that continuity then has to carry forward. In this branch, the curriculum and the support rails are the practice surface for that handoff.
 
 ## Current Shape
 
@@ -40,6 +41,7 @@ The branch separates cleanly into five lesson tracks plus a continuity-in-practi
 
 The published catalog is the live surface. The draft `First 90 Days of Continuity` stays out of the live set until it is ready.
 The [Voting Machine](../voting-machine/index.md) project sits nearby as a concrete governance example for decision provenance, custody, and auditability when continuity work crosses into civic or authority-sensitive systems.
+The [Continuity Engine](../continuity-engine/index.md) is the runtime counterpart to this curriculum, while [AI Witness](../continuitai/ai-witness/index.md) is the non-executing mirror that notices drift before continuity breaks.
 
 ## Related Links
 
@@ -47,6 +49,11 @@ The [Voting Machine](../voting-machine/index.md) project sits nearby as a concre
 - [Witnessing](../../concepts/witnessing/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [WitnessKey](../witnesskey/index.md)
+- [Continuity Engine](../continuity-engine/index.md)
+- [AI Witness](../continuitai/ai-witness/index.md)
+- [Continuity and Transition](../semantic-collapse-theory/continuity-and-transition/index.md)
+- [Witness and Governance](../semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Voting Machine](../voting-machine/index.md)
 
 ## Next Actions
