@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 import fs from "fs/promises";
 import path from "path";
+import { execFileSync } from "child_process";
 import { fileURLToPath } from "url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
 const REPO_URL = "https://github.com/bobrs/_work-vault-wiki/blob/main";
-const PUBLIC_WIKI_VERSION = "2026-07-09";
+const PUBLIC_WIKI_UPDATED_DATE = new Date().toISOString().slice(0, 10);
+const PUBLIC_WIKI_BUILD_VERSION = readGitVersion(["rev-list", "--count", "HEAD"], "0");
+const PUBLIC_WIKI_CODE_VERSION = readGitVersion(["rev-list", "--count", "HEAD", "--", "scripts", "package.json", ".vault"], PUBLIC_WIKI_BUILD_VERSION);
 const SOURCE_MARKDOWN = [];
 const OUTPUT_FOR_SOURCE = new Map();
 const NAV_ITEMS = [
@@ -30,6 +33,20 @@ const NAV_ITEMS = [
   ["README", "/readme.html"],
   ["WIKI.md", "/wiki-guide.html"],
 ];
+
+function readGitVersion(args, fallback) {
+  try {
+    const output = execFileSync("git", args, {
+      cwd: ROOT,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+    const value = Number.parseInt(output, 10);
+    return Number.isFinite(value) && value > 0 ? value : fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 const ROOT_TEXT_ASSETS = [
   { outRel: "AI_CONTEXT.md", source: "AI_CONTEXT.md", contentType: "text/markdown; charset=utf-8" },
@@ -1183,7 +1200,7 @@ function pageShell({ title, subtitle, body, navActive = "" }) {
       <section class="page">
         ${breadcrumbs}
         ${body}
-        <footer class="footer">Wiki build version ${escapeHtml(PUBLIC_WIKI_VERSION)} · <a href="/CHANGELOG.md">CHANGELOG.md</a></footer>
+        <footer class="footer">Wiki build version ${escapeHtml(PUBLIC_WIKI_BUILD_VERSION)} · wiki code version ${escapeHtml(PUBLIC_WIKI_CODE_VERSION)} · updated ${escapeHtml(PUBLIC_WIKI_UPDATED_DATE)} · <a href="/CHANGELOG.md">CHANGELOG.md</a></footer>
       </section>
     </main>
   </div>
