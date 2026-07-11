@@ -20,6 +20,7 @@ This family argues that communication systems fail when scope is implicit. Once 
 The branch is narrower than general governance and wider than a single product: it defines a communication substrate that can support enforcement, privacy, moderation, compliance, and machine-readable intent without fragmenting into separate systems.
 The incoming substrate specification sharpens that branch: a message is content plus scope, scope transitions are explicit, and enforcement stays separate from message grammar.
 The Witness-to-Witness Messaging Protocol is the adjacent message-level cousin: it keeps declared boundaries attached to the message so the transport layer can stay honest about consent.
+Shared persistence is the adjacent coordination layer: it lets multiple agents hold state without resolving it immediately, which keeps scoped communication from collapsing into premature enforcement.
 
 ## Semantic Role
 
@@ -38,6 +39,7 @@ The Witness-to-Witness Messaging Protocol is the adjacent message-level cousin: 
 - [Governance Diad](../../../concepts/governance-diad/index.md)
 - [Consent Physics](../../../concepts/consent-physics/index.md)
 - [Witness-to-Witness Messaging Protocol](../../../concepts/witness-to-witness-messaging/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
 - [Continuity Office](../../continuity-office/index.md)
 - [WitnessKey](../../witnesskey/index.md)
 - [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)

@@ -5,6 +5,7 @@ Working definition: a consent-bounded message transport where meaning travels wi
 The incoming draft is useful because it treats communication as witness work instead of content transport alone. The core move is simple: humans declare consent, AI enforces declared constraints, and platforms remain transport layers. That makes the protocol a clean neighbor to consent-scoped communication, witness practice, and machine-readable intent.
 
 In the wiki, this page should stay honest about scope. It is a protocol concept, not a universal communication truth. Its value is that it keeps intent, sensitivity, distribution, and derivatives attached to the message so the system can refuse misuse without inventing new permissions.
+It sits next to shared persistence because both are about keeping state legible without forcing immediate action.
 
 ## Protocol Surfaces
 
@@ -27,6 +28,7 @@ In the wiki, this page should stay honest about scope. It is a protocol concept,
 - [Governance Diad](../governance-diad/index.md)
 - [Consent Physics](../consent-physics/index.md)
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
+- [Shared Persistence as a Coordination Primitive](../shared-persistence-as-a-coordination-primitive/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)

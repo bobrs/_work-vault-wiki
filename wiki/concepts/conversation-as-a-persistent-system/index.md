@@ -33,6 +33,7 @@ That makes the concept useful across dialog systems, trust protocols, and AI-med
 - [Trust Interoperability Standard / Dialogica Threading](../../projects/trust-interoperability-standard/dialogica-threading/index.md)
 - [Consent-Scoped Communication / One Protocol. Every Conversation.](../../projects/side-projects-desktop/consent-scoped-communication/overview/index.md)
 - [Consent-Scoped Communication](../../projects/side-projects-desktop/consent-scoped-communication/index.md)
+- [Shared Persistence as a Coordination Primitive](shared-persistence-as-a-coordination-primitive/index.md)
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
 - [The Room You’re In](../../external/shimmerymemory/essays/the-room-youre-in/index.md)
 - [When Language Begins to Act](../../external/shimmerymemory/essays/when-language-begins-to-act/index.md)
