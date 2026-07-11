@@ -15,6 +15,7 @@ This seam holds the AI-facing Quantum Invariants pages.
 This branch captures prompts, ingestion guidance, and AI-facing orientation for the site family.
 
 It is the machine-entry layer for the invariant set: the place where a model or workflow can learn how to read, ground, and route the rest of the site without flattening it into generic prose.
+The AI surface should keep returning to the structural rails and the nearby concept pages that explain the active comparator vocabulary: consent, witness, authority, shared persistence, velocity, and translation.
 
 ## Core Claim
 
@@ -36,3 +37,7 @@ AI should inherit the project's structure rather than inventing its own summary 
 - [Charters](../charters/index.md)
 - [Semantic Integrity](../../semantic-integrity/index.md)
 - [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
+- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
+- [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)

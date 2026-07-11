@@ -15,6 +15,7 @@ It is a bridge note, not a rewrite of the invariant set.
 ## Working Read
 
 The bridge maps human concepts like boundary, witness, consent, legibility, ledger, loop, attractor, reversibility, governance, and comparator onto QI primitives and composites.
+It is also the place where the wiki can point to adjacent concept pages that keep those translations honest in practice: contextual authority, shared persistence, velocity and braking, glyph invocation, and conversation persistence.
 
 Keep this page separate from semantic-shimmer. Shimmer explains the presentation layer; this page explains the translation layer.
 
@@ -37,6 +38,11 @@ Semantic compression is the place where abstract language becomes a stable mappi
 - [Semantic Integrity](../../semantic-integrity/index.md)
 - [How Intuition Works](../../how-intuition-works/index.md)
 - [Consent–Intent Compression Protocol (CICP)](../../consent-intent-compression-protocol/index.md)
+- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
+- [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)
+- [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
 
 ## Next Actions
 

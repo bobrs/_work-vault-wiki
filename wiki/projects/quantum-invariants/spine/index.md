@@ -15,6 +15,7 @@ This seam holds the layered structural pages for Quantum Invariants.
 The spine is the structural explanation layer: primitives, composites, and the way the system is assembled.
 
 It is the place where the project names its comparators and shows how one invariant becomes a relation, a repair move, or a domain translation.
+Read together with the concept layer, it maps the core comparator terms onto durable surfaces like boundary, consent, witness, authority, velocity, and translation.
 
 ## Core Claim
 
@@ -31,6 +32,10 @@ The spine is the project's internal grammar. It tells you which pieces are primi
 
 - [POLEMEMELOP](../../../concepts/polememelop/index.md)
 - [Intent-Consent](../../../concepts/intent-consent/index.md)
+- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
+- [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)
 
 ## Related Links
 

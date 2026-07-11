@@ -58,6 +58,16 @@ The attractor layer is the compressed visitor map of those same invariants: [Wit
 It also gives intuition a place to land: not as a vague instinct layer, but as the pre-verbal comparator work that has to stay accountable to grounding and witness before it can steer anything else.
 The [Voting Machine](../voting-machine/index.md) project is a concrete governance and consent surface that QI helps ground: it is where comparator language becomes civic custody, auditability, and revocation-aware review.
 
+## Comparator Bridges
+
+- [Boundary and authority](../../concepts/contextual-authority-principle/index.md) -> [Governance Diad](../../concepts/governance-diad/index.md), [Voting Machine](../voting-machine/index.md)
+- [Witness and state](../../concepts/witness-to-witness-messaging/index.md) -> [Shared Persistence as a Coordination Primitive](../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Consent and scope](../../concepts/intent-consent/index.md) -> [Consent-Scoped Communication](../side-projects-desktop/consent-scoped-communication/index.md), [Consentful Cybernetics](../consentful-cybernetics/index.md)
+- [Velocity and braking](../../concepts/velocity-and-braking/index.md) -> [Conversation as a Persistent System](../../concepts/conversation-as-a-persistent-system/index.md)
+- [Meaning and translation](../../concepts/glyph-invocation-and-reference/index.md) -> [Semantic Compression Layer](semantic-compression-layer/index.md)
+- [Identity and manifests](identity-and-manifests/index.md) -> [FractalIdentity Tree](../consent-intent-compression-protocol/fractalidentity-tree/index.md)
+- [Repair and drift](../../concepts/shared-persistence-as-a-coordination-primitive/index.md) -> [Semantic Integrity](../semantic-integrity/index.md), [Trust Interoperability Standard](../trust-interoperability-standard/index.md)
+
 ## Related Links
 
 - [AI Entry Surface](/ai/index.html)
@@ -69,6 +79,10 @@ The [Voting Machine](../voting-machine/index.md) project is a concrete governanc
 - [WitnessKey](../witnesskey/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [How Intuition Works](../how-intuition-works/index.md)
+- [Contextual Authority Principle](../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../concepts/velocity-and-braking/index.md)
+- [Glyph Invocation and Reference](../../concepts/glyph-invocation-and-reference/index.md)
 - [Grounding](../../attractors/grounding/index.md)
 - [Intuition](../../attractors/intuition/index.md)
 - [POLEMEMELOP](../../concepts/polememelop/index.md)

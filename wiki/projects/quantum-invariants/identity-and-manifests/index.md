@@ -22,6 +22,7 @@ It is the machine-readable entry layer behind the public surface, not a separate
 These files describe the project as a deployed framework node with a manifest surface, but they do not add a new public content line.
 
 Keep them separate from the `About` page so the identity metadata remains easy to find and audit.
+This is also the place where FractalIdentity, manifest shape, and machine-readable provenance stay aligned with the broader trust and witness vocabulary used elsewhere in the wiki.
 
 ## Core Claim
 
@@ -42,3 +43,6 @@ Identity and manifests are the machine-readable counterpart to the public face. 
 - [Bootstrap and Schema](../bootstrap-and-schema/index.md)
 - [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
 - [WitnessKey](../../witnesskey/index.md)
+- [FractalIdentity Tree](../../consent-intent-compression-protocol/fractalidentity-tree/index.md)
+- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)

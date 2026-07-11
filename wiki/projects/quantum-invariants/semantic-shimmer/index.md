@@ -19,6 +19,7 @@ This seam holds the Quantum Invariants semantic overlay and explanation-tuning l
 This is not a rewrite of the source spine.
 
 It is a deterministic explanation layer that tunes how the same invariant set is presented, diagnosed, and compressed for different audiences or tasks.
+Its best use is to keep presentation honest while the underlying comparator language stays stable underneath.
 
 The C13 pass is a larger site-level shimmer revision, so it stays with the other explanation-tuning bundles instead of becoming a new project branch.
 
@@ -40,3 +41,7 @@ Shimmer changes the explanation surface, not the invariant content. It is the tu
 - [AI](../ai/index.md)
 - [Shimmery Memory](../../../external/shimmerymemory/essays/index.md)
 - [Semantic Integrity](../../semantic-integrity/index.md)
+- [Attention](../../../attractors/attention/index.md)
+- [Meaning](../../../attractors/meaning/index.md)
+- [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
