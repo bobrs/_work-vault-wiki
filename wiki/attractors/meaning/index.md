@@ -11,6 +11,7 @@ In this vault, meaning is how symbols become consequential: language, story, met
 ## Why It Matters
 
 Meaning is no longer merely expressive once machines can act on language. It becomes an operational surface, a governance risk, a trust object, and a living field of coordination.
+That means meaning has to survive provenance and consent as well as interpretation: if the lineage is unclear, the symbol can still be read, but it no longer deserves to steer anything important.
 
 ## Core Motifs
 
@@ -49,6 +50,8 @@ Meaning is no longer merely expressive once machines can act on language. It bec
 - [Shimmery Memory](../../projects/shimmerymemory/index.md)
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Concepts
 
@@ -88,6 +91,7 @@ Meaning is no longer merely expressive once machines can act on language. It bec
 
 - Start with [Semantic Integrity](../../projects/semantic-integrity/index.md).
 - Continue to [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md).
+- Continue to [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md) when meaning becomes part of governance and provenance.
 - Use [Trust](../trust/index.md) when meaning needs verification, proof, or accountable relation.
 
 <!-- END OPEN RESEARCH EDGES -->

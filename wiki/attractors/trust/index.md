@@ -11,6 +11,7 @@ In this vault, trust is confidence under vulnerability: verification, relationsh
 ## Why It Matters
 
 Trust is where provenance, witness, governance, consent, and meaning become livable. It cannot be reduced to proof, but it cannot survive without accountable structure.
+In other words, trust is what remains when the system is still expected to function after provenance, consent, and witness have done their work. It is the practical consequence of admissible records and revocable commitments.
 
 ## Core Motifs
 
@@ -50,6 +51,8 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 - [Voting Machine](../../projects/voting-machine/index.md)
 - [Abracadabracadoo](../../projects/abracadabracadoo/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Concepts
 
@@ -91,6 +94,7 @@ Trust is where provenance, witness, governance, consent, and meaning become liva
 ## Next Navigation
 
 - Start with [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md).
+- Continue to [Provenance](../provenance/index.md) when trust needs source lineage and admissibility.
 - Continue to [Voting Machine](../../projects/voting-machine/index.md) when trust needs to be read as custody, auditability, and revocable legitimacy.
 - Continue to [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md).
 - Use [Witness](../witness/index.md) when trust depends on observation, record, or testimony.

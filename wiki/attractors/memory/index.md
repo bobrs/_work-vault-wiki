@@ -11,6 +11,7 @@ In this vault, memory is continuity across time: archive, forgetting, recurrence
 ## Why It Matters
 
 Memory determines what can be repaired, repeated, forgotten, distorted, or trusted. In machine-mediated systems, memory must be designed with consent, provenance, and forgetting as first-class conditions.
+Without that, memory becomes accumulation instead of continuity: the system remembers, but it does not know what it is permitted to carry forward.
 
 ## Core Motifs
 
@@ -47,6 +48,7 @@ Memory determines what can be repaired, repeated, forgotten, distorted, or trust
 - [Shimmery Memory](../../projects/shimmerymemory/index.md)
 - [Continuity Office](../../projects/continuity-office/index.md)
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [WitnessKey](../../projects/witnesskey/index.md)
 
 ## Related Concepts
 
@@ -85,6 +87,7 @@ Memory determines what can be repaired, repeated, forgotten, distorted, or trust
 
 - Start with [From Archive to Interface](../../external/shimmerymemory/essays/from-archive-to-interface/index.md).
 - Continue to [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md).
+- Continue to [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md) when memory needs consentful provenance.
 - Use [Provenance](../provenance/index.md) when memory needs source, admissibility, or context.
 
 <!-- END OPEN RESEARCH EDGES -->

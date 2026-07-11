@@ -11,6 +11,7 @@ In this vault, provenance is the lineage of meaning: the preservation of origin,
 ## Why It Matters
 
 Provenance determines whether a record can be trusted without pretending that context is disposable. It binds memory to consent, witness to accountability, and artifact history to future use.
+In practice, it is the admissibility layer for everything that wants to travel: if context cannot survive the move, then the record can still exist, but it cannot be relied on as more than a fragment.
 
 ## Core Motifs
 
@@ -47,6 +48,9 @@ Provenance determines whether a record can be trusted without pretending that co
 - [Continuity Office](../../projects/continuity-office/index.md)
 - [WitnessKey](../../projects/witnesskey/index.md)
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Concepts
 
@@ -85,6 +89,7 @@ Provenance determines whether a record can be trusted without pretending that co
 ## Next Navigation
 
 - Start with [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md).
+- Continue to [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md) for the strongest consent/provenance governance route.
 - Continue to [Continuity Office](../../projects/continuity-office/index.md) for operational provenance.
 - Use [Memory](../memory/index.md) when provenance becomes recurrence, archive, or forgetting policy.
 
