@@ -7,6 +7,8 @@ This page deepens the `Defending Meaning` essay into the infrastructure layer: h
 IT was never only about machines, and cybersecurity was never only about blocking attackers. Both functions exist to keep institutions capable of acting reliably under stress. AI expands that mission because the thing moving through systems is increasingly interpreted meaning, not just data.
 
 Once meaning changes state inside a workflow, the protected surface includes context, interpretation, authority, evidence, and downstream action.
+The earned-insight seam sits nearby because the same system has to protect intake, not just output: if source contact is lost, semantic infrastructure can defend the workflow but still lose the meaning.
+The accounting-professionals note is the audience-specific complement: it translates the same line into a workflow discipline accountants can audit and explain.
 
 ## What Changes
 
@@ -70,3 +72,5 @@ That means IT, cybersecurity, audit, compliance, legal, risk, and business owner
 - [Semantic Integrity project page](../index.md)
 - [Semantic OS architecture](../semantic-os-architecture/index.md)
 - [Semantic Movement Signals](../semantic-movement-signals/index.md)
+- [Earned Insight](../earned-insight/index.md)
+- [Semantic Infrastructure for Accounting Professionals](./accounting-professionals/index.md)
