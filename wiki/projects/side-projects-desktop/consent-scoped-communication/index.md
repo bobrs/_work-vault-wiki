@@ -19,6 +19,7 @@ This family argues that communication systems fail when scope is implicit. Once 
 
 The branch is narrower than general governance and wider than a single product: it defines a communication substrate that can support enforcement, privacy, moderation, compliance, and machine-readable intent without fragmenting into separate systems.
 The incoming substrate specification sharpens that branch: a message is content plus scope, scope transitions are explicit, and enforcement stays separate from message grammar.
+The Witness-to-Witness Messaging Protocol is the adjacent message-level cousin: it keeps declared boundaries attached to the message so the transport layer can stay honest about consent.
 
 ## Semantic Role
 
@@ -32,23 +33,24 @@ The incoming substrate specification sharpens that branch: a message is content 
 
 - [Consent Grammar](../consent-grammar/index.md)
 - [ACT–POLICY](../act-policy/index.md)
-- [Witnessing](../../../../concepts/witnessing/index.md)
-- [Intent-Consent](../../../../concepts/intent-consent/index.md)
-- [Governance Diad](../../../../concepts/governance-diad/index.md)
-- [Consent Physics](../../../../concepts/consent-physics/index.md)
-- [Continuity Office](../../../continuity-office/index.md)
-- [WitnessKey](../../../witnesskey/index.md)
-- [Trust Interoperability Standard](../../../trust-interoperability-standard/index.md)
+- [Witnessing](../../../concepts/witnessing/index.md)
+- [Intent-Consent](../../../concepts/intent-consent/index.md)
+- [Governance Diad](../../../concepts/governance-diad/index.md)
+- [Consent Physics](../../../concepts/consent-physics/index.md)
+- [Witness-to-Witness Messaging Protocol](../../../concepts/witness-to-witness-messaging/index.md)
+- [Continuity Office](../../continuity-office/index.md)
+- [WitnessKey](../../witnesskey/index.md)
+- [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
 
 ## Attractor Bridge
 
-- [Consent](../../../../attractors/consent/index.md)
-- [Witness](../../../../attractors/witness/index.md)
-- [Governance](../../../../attractors/governance/index.md)
-- [Trust](../../../../attractors/trust/index.md)
-- [Agency](../../../../attractors/agency/index.md)
-- [Meaning](../../../../attractors/meaning/index.md)
-- [Grounding](../../../../attractors/grounding/index.md)
+- [Consent](../../../attractors/consent/index.md)
+- [Witness](../../../attractors/witness/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [Agency](../../../attractors/agency/index.md)
+- [Meaning](../../../attractors/meaning/index.md)
+- [Grounding](../../../attractors/grounding/index.md)
 
 ## Next Actions
 

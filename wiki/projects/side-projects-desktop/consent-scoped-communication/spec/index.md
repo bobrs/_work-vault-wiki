@@ -36,6 +36,7 @@ That makes the substrate useful not just for human collaboration, but for machin
 - [One Protocol. Every Conversation.](../overview/index.md)
 - [AI Readiness / Machine-Readable Intent](../ai-readiness/index.md)
 - [Consent Grammar](../../consent-grammar/index.md)
+- [Witness-to-Witness Messaging Protocol](../../../../concepts/witness-to-witness-messaging/index.md)
 - [WitnessKey](../../../witnesskey/index.md)
 - [Trust Interoperability Standard](../../../trust-interoperability-standard/index.md)
 - [Quantum Invariants](../../../quantum-invariants/index.md)

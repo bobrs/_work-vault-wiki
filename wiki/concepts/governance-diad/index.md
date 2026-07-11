@@ -5,6 +5,7 @@ Working definition: a two-sided governance pattern that pairs witness and rule s
 This concept appears in the SCT story and origin/governance pages, where document stewardship is described as a dyadic protocol rather than a generic policy bucket. It also appears as the story-side governance page itself, which makes the concept visible both as theory and as branch structure.
 
 In practice, Governance Diad is the minimal structure for recognizing authority. Witness establishes what can be certified, and governance names the rule that follows from that certification. The point of the diad is not bureaucracy; it is to keep authority legible without collapsing into either raw observation or raw command.
+The Contextual Authority Principle sharpens the same seam: authority should stay local, temporary, skill-indexed, and revocable so the diad can keep reducing uncertainty without turning into permanent dominance.
 
 The concept is useful because it refuses to flatten legitimacy into either raw observation or raw command. A witness alone does not create a durable rule, and a rule without witness is just assertion. The diad keeps those forces paired so the corpus can talk about authority without drifting into abstraction.
 That same pairing is what makes the concept adjacent to consent and provenance work: authority is only meaningful here if it can be witnessed, consented to, and carried through a legible lineage. The Consentocracy Bridge is the external essay that makes that governance move explicit.
@@ -34,6 +35,7 @@ The same pattern also appears downstream in [Voting Machine](../../projects/voti
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
+- [Contextual Authority Principle](../contextual-authority-principle/index.md)
 
 ## Attractor Bridge
 

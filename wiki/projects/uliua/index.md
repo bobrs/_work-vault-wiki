@@ -29,6 +29,7 @@ Recent intake adds a clearer manifestation and idolatry cluster around the proje
 - [Session Capsules](./session-capsules/index.md)
 - [Site Variants](./site-variants/index.md)
 - [Assets and Downloads](./assets-and-downloads/index.md)
+- [How Intelligence Works](./how-intelligence-works/index.md)
 
 ## Additional Artifact
 
@@ -37,6 +38,8 @@ Recent intake adds a clearer manifestation and idolatry cluster around the proje
 ## Working Read
 
 ULiUA now reads as more than a named automeme seed. The supporting notes bring its practical orientation into focus: acceptance is treated as a way to reduce resistance without surrendering constraint-awareness, manifestation is reframed as trajectory coherence rather than metaphysical authorship, and idolatry names the failure mode where an artifact is mistaken for the attractor it only witnesses.
+
+The incoming How Intelligence Works essay lands in the same family: intelligence is treated as regulated interaction over time, with consent acting as the gating function that keeps coupling meaningful instead of coercive.
 
 That gives the project a durable inner seam without needing a new branch yet. The site variants and asset layer stay separate, while these notes remain attached here because they still function more like project-facing compressions than standalone doctrine pages.
 
