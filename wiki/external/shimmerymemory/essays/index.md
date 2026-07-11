@@ -12,11 +12,12 @@ Published external metadata index for the Shimmery Memory essay feed.
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
 - Ingested at: `2026-07-09T01:02:16.204293Z`
-- Item count: `73`
+- Item count: `74`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
 
+- [From Fetch to Civilization: Consent as the Gate](./from-fetch-to-civilization-consent-as-the-gate/index.md) — Artifact, attractor, and the right to stop — published `2026-07-11`; updated `2026-07-11`; tags: `consent, civilization, artifact-vs-attractor, loops`; first seen `2026-07-11T00:00:00Z`
 - [Consent-Keyed Immutable Storage Loops](./consent-keyed-immutable-storage-loops/index.md) — Witness cells, re-entry, and storage-forward Abracadabracadoo — published `2026-07-01`; updated `2026-07-01`; tags: `consentful-cybernetics, protocol, storage, immutability`; first seen `2026-07-01T21:51:02.570958Z`
 - [The Real Is a Ritual](./20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-06-26T03:20:02.687577Z`
 - [Attention Engine: Book Series Plan and Semantic Compression](./attention-engine-book-series-plan-and-semantic-compression/index.md) — From Attention Mechanics to the Surface of Mutual Projection and Comparator-Grounded Reality Engineering — published `2026-06-25`; updated `2026-06-25`; tags: `attention-engine, attention, appreciation, consent-to-context`; first seen `2026-07-01T21:51:02.570958Z`
