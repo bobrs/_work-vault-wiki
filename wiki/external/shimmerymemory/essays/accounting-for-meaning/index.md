@@ -50,6 +50,22 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 - [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
 - [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
 
+## Related Projects
+
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
+- [Voting Machine](../../../projects/voting-machine/index.md)
+- [Quantum Invariants](../../../projects/quantum-invariants/index.md)
+
+## Attractor Bridge
+
+- [Meaning](../../../attractors/meaning/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [Witness](../../../attractors/witness/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Provenance](../../../attractors/provenance/index.md)
+- [Attention](../../../attractors/attention/index.md)
+
 ## Ingest Metadata
 
 - Source role: `published_external`
@@ -65,23 +81,31 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
+- [Voting Machine](../../../projects/voting-machine/index.md)
+- [Quantum Invariants](../../../projects/quantum-invariants/index.md)
 
 ## Working Read
 
-- Pending.
+This essay turns meaning into an accountability surface. It says that once AI systems can act on language, meaning stops being decorative and becomes something that can create obligation, audit burden, and trust risk.
 
 ## Core Claim
 
-- Pending.
+AI expands accounting because semantic transactions now need the same kind of disciplined reliability that financial ledgers already require.
 
 ## Key Ideas
 
-- Pending.
+- Meaning can produce consequence, so it has to be tracked.
+- Reliance on generated language creates a new audit surface.
+- Trust in AI depends on accounting for what the system caused, not just what it said.
+- Semantic integrity is the condition that keeps meaning from becoming unbounded liability.
 
 ## Open Questions
 
-- Pending.
+- What should count as a semantic transaction?
+- Which forms of reliance need explicit accounting?
+- How much provenance is enough to justify consequential use of generated meaning?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

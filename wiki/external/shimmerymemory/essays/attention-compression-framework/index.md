@@ -98,23 +98,32 @@ Attention is the substrate-independent mechanism by which a system chooses what 
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Voting Machine](../../../projects/voting-machine/index.md)
+- [How Intuition Works](../../../projects/how-intuition-works/index.md)
 
 ## Working Read
 
-- Pending.
+This framework is one of the clearest salience essays in the feed because it treats attention as the mechanism that decides what becomes real enough to shape a shared world.
+It belongs with meaning, agency, grounding, and witness because selection only matters when the resulting compression still remains accountable to context.
 
 ## Core Claim
 
-- Pending.
+Attention is the substrate-independent selection process that turns repeated notice into salience, compression, and eventual reality formation.
 
 ## Key Ideas
 
-- Pending.
+- Curiosity is compression-seeking behavior.
+- Reality formation depends on repeated selection and artifact decay.
+- Attention is power because it determines what can later be treated as real.
+- Consent and ethics matter because selection can be extractive even when it looks neutral.
 
 ## Open Questions
 
-- Pending.
+- What makes an attention loop consentful rather than extractive?
+- When does compression improve signal, and when does it erase the thing being tracked?
+- How much repetition is needed before a selection hardens into shared reality?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

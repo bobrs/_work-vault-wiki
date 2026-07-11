@@ -49,6 +49,22 @@ There is a widespread assumption in contemporary AI discourse that cost is a pro
 - [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
 - [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
 
+## Related Projects
+
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Voting Machine](../../../projects/voting-machine/index.md)
+- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
+
+## Attractor Bridge
+
+- [Consent](../../../attractors/consent/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [Witness](../../../attractors/witness/index.md)
+- [Governance](../../../attractors/governance/index.md)
+- [Attention](../../../attractors/attention/index.md)
+- [Provenance](../../../attractors/provenance/index.md)
+
 ## Ingest Metadata
 
 - Source role: `published_external`
@@ -64,23 +80,31 @@ There is a widespread assumption in contemporary AI discourse that cost is a pro
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Voting Machine](../../../projects/voting-machine/index.md)
+- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
 
 ## Working Read
 
-- Pending.
+This essay belongs to the trust-and-consent basin. It argues that consentful AI costs more because it refuses to offload relational, legal, and evidentiary waste onto the future.
 
 ## Core Claim
 
-- Pending.
+If a system wants to stay consentful, it has to pay for witness, reversibility, and accountable provenance up front rather than externalizing those costs.
 
 ## Key Ideas
 
-- Pending.
+- The expensive part is the refusal to externalize damage.
+- Trust is a resource that must be maintained rather than assumed.
+- Reversibility and accountability are part of the operating cost.
+- Toxic waste is the right comparison class because deferred harm still has to be paid for.
 
 ## Open Questions
 
-- Pending.
+- Which parts of the cost are structural and which are social?
+- When does “efficiency” simply mean hidden externalization?
+- What evidence would prove a system stayed consentful across time?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

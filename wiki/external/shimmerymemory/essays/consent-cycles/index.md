@@ -51,6 +51,20 @@ Excerpt:
 - [C10 — Level Mismatch](https://quantuminvariants.com/spine/composites#C10) · Quantum Invariants · composite
 - [C12 — Threshold Cascade](https://quantuminvariants.com/spine/composites#C12) · Quantum Invariants · composite
 
+## Related Projects
+
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Loop and Phase Training](../../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+
+## Attractor Bridge
+
+- [Consent](../../../attractors/consent/index.md)
+- [Loop Mechanics](../../../attractors/loop-mechanics/index.md)
+- [Agency](../../../attractors/agency/index.md)
+- [Grounding](../../../attractors/grounding/index.md)
+- [Trust](../../../attractors/trust/index.md)
+
 ## Ingest Metadata
 
 - Source role: `published_external`
@@ -66,23 +80,31 @@ Excerpt:
 
 ## Work Vault Links
 
-- Reserved for internal page links once salience extraction begins.
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Loop and Phase Training](../../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
 
 ## Working Read
 
-- Pending.
+This essay is a readiness essay that treats consent and cycle alignment as phase problems.
+Its practical value is that it refuses the usual moral pressure to force readiness before the system has actually arrived in the same state across its layers.
 
 ## Core Claim
 
-- Pending.
+Readiness cannot be forced; a system has to move through its own cycles before consent and action line up cleanly.
 
 ## Key Ideas
 
-- Pending.
+- Over-compression creates quiet violence.
+- Phase alignment is a temporal condition, not just a mental one.
+- Consent has to survive across cycles, not just at a single moment.
+- Capacity changes with state, so readiness must be checked in context.
 
 ## Open Questions
 
-- Pending.
+- What counts as actual readiness versus merely declared readiness?
+- How should a system detect cycle mismatch before it forces coherence?
+- What does consent look like when the body and the plan are not yet in phase?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 
