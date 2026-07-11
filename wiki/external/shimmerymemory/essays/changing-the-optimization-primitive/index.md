@@ -51,6 +51,7 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 
 - [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
 - [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Earned Insight](../../../projects/semantic-integrity/earned-insight/index.md)
 - [Consent Economy and Sovereignty](../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
 - [Voting Machine](../../../projects/patents/governance-and-games/voting-machine/index.md)
 - [The Loop Requirement](./20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md)
@@ -83,6 +84,7 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 
 - [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
 - [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Earned Insight](../../../projects/semantic-integrity/earned-insight/index.md)
 - [Voting Machine](../../../projects/patents/governance-and-games/voting-machine/index.md)
 - [Consent Economy and Sovereignty](../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
 

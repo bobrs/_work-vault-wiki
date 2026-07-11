@@ -7,6 +7,7 @@ This page compresses the ethics-of-intake seam in Semantic Integrity.
 The incoming essay argues that insight is not neutral intake. If you take in information, stories, or explanations without contact with their source, you also risk taking in false clarity without stewardship. Real understanding changes the consumer, keeps the source in view, and leaves room for responsibility and repair.
 
 In Semantic Integrity terms, this is the intake-side counterpart to defending meaning. Meaning is not only something to preserve after the fact; it is something to receive carefully in the first place. That makes source contact, reciprocity, and consequence-awareness part of the same operational surface as provenance and trust.
+The Consentocracy Bridge is the outbound governance version of the same logic: if optimization must prove consent and provenance before it can consume, then intake also has to stay source-aware and responsibility-bearing.
 
 ## Core Claim
 
@@ -31,6 +32,7 @@ Insight is ethically earned when the receiver is willing to face the source, be 
 - [Semantic Infrastructure](../semantic-infrastructure/index.md)
 - [Defending Meaning](../../../../external/shimmerymemory/essays/defending-meaning/index.md)
 - [Accounting for Meaning](../../../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [What Stories Really Carry](../../../../external/shimmerymemory/essays/what-stories-really-carry/index.md)
 - [When Language Begins to Act](../../../../external/shimmerymemory/essays/when-language-begins-to-act/index.md)
 - [Witnessing](../../../concepts/witnessing/index.md)
@@ -44,6 +46,7 @@ Insight is ethically earned when the receiver is willing to face the source, be 
 - [Witness](../../../attractors/witness/index.md)
 - [Consent](../../../attractors/consent/index.md)
 - [Provenance](../../../attractors/provenance/index.md)
+- [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Trust](../../../attractors/trust/index.md)
 - [Meaning](../../../attractors/meaning/index.md)
 - [Attention](../../../attractors/attention/index.md)
