@@ -37,6 +37,8 @@ Current concept pages:
 - [Idioms as Social Control](idioms-as-social-control/index.md)
 - [Conversation as a Persistent System](conversation-as-a-persistent-system/index.md)
 - [Glyph Invocation and Reference](glyph-invocation-and-reference/index.md)
+- [Shared Persistence as a Coordination Primitive](shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](velocity-and-braking/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

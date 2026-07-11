@@ -27,4 +27,5 @@ Shared persistence is the more operational primitive underneath that neighbor: i
 
 - [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
 - [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
 - [Consent-Scoped Communication](../../side-projects-desktop/consent-scoped-communication/index.md)

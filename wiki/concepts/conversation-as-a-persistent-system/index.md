@@ -40,6 +40,7 @@ That makes the concept useful across dialog systems, trust protocols, and AI-med
 - [Witnessing](../witnessing/index.md)
 - [Consent Physics](../consent-physics/index.md)
 - [Intent-Consent](../intent-consent/index.md)
+- [Velocity and Braking](velocity-and-braking/index.md)
 - [Trust](../trust/index.md)
 
 ## Attractor Bridge

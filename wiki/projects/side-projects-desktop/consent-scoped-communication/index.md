@@ -40,6 +40,7 @@ Shared persistence is the adjacent coordination layer: it lets multiple agents h
 - [Consent Physics](../../../concepts/consent-physics/index.md)
 - [Witness-to-Witness Messaging Protocol](../../../concepts/witness-to-witness-messaging/index.md)
 - [Shared Persistence as a Coordination Primitive](../../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
 - [Continuity Office](../../continuity-office/index.md)
 - [WitnessKey](../../witnesskey/index.md)
 - [Trust Interoperability Standard](../../trust-interoperability-standard/index.md)
