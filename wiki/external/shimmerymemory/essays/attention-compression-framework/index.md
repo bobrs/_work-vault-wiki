@@ -29,6 +29,36 @@ Excerpt:
 
 --- ## 0) Purpose of This Framework This framework unifies: - **Attention mechanics** (pointing, artifacts, decay) - **Curiosity / interestingness** (compression improvement) - **Reality formation** (fossilized attention) into a single, operational model. It is intended to be: -
 
+## Working Read
+
+This framework is one of the cleanest attention attractor essays in the feed because it treats attention as a generative selection system rather than a passive label.
+
+It belongs near meaning, agency, and loop mechanics because the whole point is not merely to notice, but to compress, compare, and form reality from repeated notice.
+
+## Core Claim
+
+Attention is the substrate-independent mechanism by which a system chooses what becomes salient, what gets compressed, and what later hardens into a shared world.
+
+## Key Ideas
+
+- Attention and curiosity are compression tools, not just descriptive states.
+- Reality formation depends on repeated selection and artifact decay.
+- Consent and ethics matter because attention is power over what becomes real.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+
+## Attractor Bridge
+
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Witness](../../attractors/witness/index.md)
+
 ## Canonical Glyphs
 
 - `shimmer`: ⋆✴︎˚｡⋆

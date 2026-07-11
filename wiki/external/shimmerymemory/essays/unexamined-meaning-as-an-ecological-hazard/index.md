@@ -29,6 +29,35 @@ Excerpt:
 
 --- ## Introduction: meaning is not neutral We tend to treat meaning as something soft, optional, or purely cultural — a layer added on top of the “real” world of physics, biology, and economics. That is a comforting mistake. Once meaning can be created, shared, and acted upon by
 
+## Working Read
+
+This essay is the ecological counterpart to the meaning and attention basin: it treats unexamined meaning as a hazard that propagates when systems fail to steward context.
+
+Its core concern is that meaning is not inert once it becomes causal; it can spread, distort, and reproduce like a living disturbance.
+
+## Core Claim
+
+Unexamined meaning becomes hazardous when systems allow it to propagate without context, reversibility, or consent.
+
+## Key Ideas
+
+- Meaning can behave like an ecological contaminant.
+- Attention amplifies the spread of unexamined meaning.
+- Governance and consent are required to keep semantic systems breathable.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+
+## Attractor Bridge
+
+- [Meaning](../../attractors/meaning/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Trust](../../attractors/trust/index.md)
+
 ## Canonical Glyphs
 
 - `boundary`: 🝚

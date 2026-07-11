@@ -22,6 +22,7 @@ This project treats offline-capable voting as a governance design problem: how t
 Read in Work Vault terms, the real contribution is not merely a device. It is a model for consentful civic infrastructure: identity, ballot action, receipt, and audit evidence are separated so legitimacy can be checked without collapsing voter privacy.
 
 That makes `Voting Machine` a natural bridge across [Governance](../../attractors/governance/index.md), [Consent](../../attractors/consent/index.md), [Provenance](../../attractors/provenance/index.md), [Witness](../../attractors/witness/index.md), [Trust](../../attractors/trust/index.md), and [Sovereign Governance](../continuity-engine/sovereign-governance/index.md).
+The attention layer matters too: civic systems only stay legitimate if the right things are visible, reviewable, and hard to misdirect. Agency matters because the system has to preserve actual choice, not just the appearance of participation.
 
 ## Related Links
 
@@ -32,6 +33,8 @@ That makes `Voting Machine` a natural bridge across [Governance](../../attractor
 - [Provenance](../../attractors/provenance/index.md)
 - [Witness](../../attractors/witness/index.md)
 - [Trust](../../attractors/trust/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Agency](../../attractors/agency/index.md)
 - [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Sovereign Governance](../continuity-engine/sovereign-governance/index.md)
 - [Governance Diad](../semantic-collapse-theory/story/governance-diad/index.md)

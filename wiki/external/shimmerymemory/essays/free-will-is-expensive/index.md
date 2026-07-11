@@ -29,6 +29,35 @@ Excerpt:
 
 ## Core Attractor Free will is real, but expensive. It is a local interruption of default flow. At scale, systems tend to follow the path of least resistance: water downhill, attention toward salience, capital toward return, bureaucracy toward self-preservation, algorithms toward
 
+## Working Read
+
+This essay sits at the intersection of agency, attention, and exit cost.
+
+Its core move is to treat free will as a local interruption that must pay for itself in gradient resistance, rather than as a metaphysical override of structure.
+
+## Core Claim
+
+Free will is real only insofar as a system can interrupt default flow and make a different path available at measurable cost.
+
+## Key Ideas
+
+- Attention is pulled toward salience and default flow.
+- Agency is the capacity to resist that pull.
+- Cost is the signature of a real exit.
+
+## Related Projects
+
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+
+## Attractor Bridge
+
+- [Agency](../../attractors/agency/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Canonical Glyphs
 
 - `shimmer`: ⋆✴︎˚｡⋆

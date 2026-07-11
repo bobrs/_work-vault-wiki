@@ -29,6 +29,35 @@ Excerpt:
 
 ## The sentence is not the event The comforting fantasy of communication is that a sentence leaves one person and arrives in another. I said the thing. You heard the thing. Somewhere between us, there is a real thing, cleanly existing as the authorized center of the exchange. Tha
 
+## Working Read
+
+This essay is important to the attention basin because it treats reality as something that gets socially stabilized through repeated mutual projection.
+
+It belongs next to witness and consent because the essay’s concern is not only what is seen, but how the act of being seen changes the field.
+
+## Core Claim
+
+The real is not simply found; it is ritually maintained by attention, appreciation, and mutual projection.
+
+## Key Ideas
+
+- Communication is not just transfer but field formation.
+- Attention and appreciation co-produce the shared surface.
+- Witness matters because it prevents the projection from becoming unaccountable.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+
+## Attractor Bridge
+
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Governance](../../attractors/governance/index.md)
+
 ## Canonical Glyphs
 
 - `shimmer`: ⋆✴︎˚｡⋆

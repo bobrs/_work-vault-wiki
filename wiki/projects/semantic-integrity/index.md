@@ -33,6 +33,7 @@ That makes this page one of the clearest routes back to the Governance attractor
 The nearby [Voting Machine](../voting-machine/index.md) project is the concrete civic counterpart when that same governance logic has to preserve custody, auditability, and privacy under election-like constraints.
 The attractor layer is the compressed semantic map that this branch implements: [Meaning](../../attractors/meaning/index.md), [Trust](../../attractors/trust/index.md), [Attention](../../attractors/attention/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 Attention and agency sit inside this basin because the system cannot preserve meaning if it cannot first select carefully and then preserve enough choice to correct course.
+Loop mechanics matters here too, because once a semantic system is in motion the question becomes how feedback can stay repairable instead of drifting into opaque automation.
 
 ## Related Links
 
@@ -43,12 +44,15 @@ Attention and agency sit inside this basin because the system cannot preserve me
 - [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Attention](../../attractors/attention/index.md)
 - [Agency](../../attractors/agency/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
 ## Attractor Bridge
 
 - [Meaning](../../attractors/meaning/index.md)
 - [Trust](../../attractors/trust/index.md)
 - [Attention](../../attractors/attention/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Governance](../../attractors/governance/index.md)
 - [Provenance](../../attractors/provenance/index.md)
 - [Consent](../../attractors/consent/index.md)

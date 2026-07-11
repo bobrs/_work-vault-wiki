@@ -12,6 +12,7 @@ In this vault, loop mechanics are how systems return: recursion, feedback, stabi
 
 Everything alive returns somehow. Loop mechanics explain how patterns persist, change, collapse, repair, or become trapped across bodies, relationships, organizations, protocols, and memory systems.
 In practice, loop mechanics is the bridge between attention and agency: attention selects what gets fed back, agency determines whether the loop may continue, and governance decides whether the loop stays repairable or turns into capture.
+In practice, loop mechanics is the bridge between attention and agency: attention selects what gets fed back, agency determines whether the loop may continue, and governance decides whether the loop stays repairable or turns into capture.
 
 ## Core Motifs
 
@@ -52,6 +53,8 @@ In practice, loop mechanics is the bridge between attention and agency: attentio
 - [Consent-Intent Compression Protocol](../../projects/consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)
+- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 

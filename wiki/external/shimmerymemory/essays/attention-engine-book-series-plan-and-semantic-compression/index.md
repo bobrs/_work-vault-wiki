@@ -29,6 +29,36 @@ Excerpt:
 
 # Attention Engine: Book Series Plan and Semantic Compression ## 0. Purpose of This Document This document compresses the current Attention Engine discussion into a wiki-ingestible reentry artifact. It preserves the earlier book-series plan, incorporates the newer Möbius/dyadic i
 
+## Working Read
+
+This is the most directly infrastructure-like attention essay in the feed: it turns the attention engine into a reentry artifact that can be carried into a wiki without losing the comparator logic.
+
+The key move is to treat attention engineering as a way to stabilize mutual projection and correct wrong-side error, not merely to increase output.
+
+## Core Claim
+
+Attention becomes operational when it is grounded by comparators, witnesses, and consent-to-context rather than by raw amplification.
+
+## Key Ideas
+
+- Attention can be serialized into a book-series or curriculum surface.
+- Comparator grounding prevents wrong-side projection.
+- Consent-to-context keeps the system from treating every signal as authorization.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+
+## Attractor Bridge
+
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+
 ## Canonical Glyphs
 
 - `yesatom`: 🜁

@@ -38,6 +38,7 @@ That also means the branch has an agency dimension: if attention is the cost of 
 Governance shows up here as the condition that keeps voluntary intelligence voluntary: if authorization, refusal, and review are not legible, the site language stops being consentful and starts becoming merely decorative.
 The new essay [The Loop Requirement](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) sharpens the same basin from the communication side: a statement only becomes durable meaning when uptake is reflected back through interpretation or confirmation.
 The [Voting Machine](../voting-machine/index.md) project is the civic-infrastructure analogue of that claim: consent, refusal, review, and evidence have to stay separable if the system is going to remain trustworthy.
+Loop mechanics belongs here too, because a voluntary-intelligence system has to remain repairable after drift, not just well phrased at launch.
 
 ## Related Links
 
@@ -50,6 +51,7 @@ The [Voting Machine](../voting-machine/index.md) project is the civic-infrastruc
 - [Agency](../../attractors/agency/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Voting Machine](../voting-machine/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
 ## Attractor Bridge
 

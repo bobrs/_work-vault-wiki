@@ -29,6 +29,35 @@ Excerpt:
 
 When most of us learn about evolution, we’re taught a tidy story: random mutations happen, the environment selects what works, and over time species adapt. Claws get sharper. Camouflage improves. Seeds spread better. Nature does its thing. That story is not wrong — it’s just inco
 
+## Working Read
+
+This essay turns attention into ecology: what gets noticed survives longer, and what survives longer gets to reshape the field that notices it.
+
+The strongest reading is that attention is not a neutral spotlight but a selection pressure that can change the evolutionary terrain of meaning, technology, and culture.
+
+## Core Claim
+
+Being noticed is itself a survival strategy, which means attention can be a force of selection rather than just a channel of perception.
+
+## Key Ideas
+
+- Attention changes the fitness landscape.
+- Selection pressure can operate on ideas and systems as well as organisms.
+- Meaning becomes ecological once sentient observers enter the loop.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+
+## Attractor Bridge
+
+- [Attention](../../attractors/attention/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Memory](../../attractors/memory/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+
 ## Canonical Glyphs
 
 - `shimmer`: ⋆✴︎˚｡⋆
