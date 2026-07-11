@@ -35,6 +35,7 @@ Current concept pages:
 - [Contextual Authority Principle](contextual-authority-principle/index.md)
 - [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
 - [Idioms as Social Control](idioms-as-social-control/index.md)
+- [Conversation as a Persistent System](conversation-as-a-persistent-system/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

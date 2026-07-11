@@ -11,6 +11,7 @@ This page compresses the one-page overview into the consent-scoped communication
 ## Working Read
 
 The overview states the simplest version of the argument: one communication substrate can support public, group, private, and secure interaction if every message declares scope.
+The conversation-persistence concept sits adjacent to this because a protocol for every conversation still has to account for energy, velocity, and whether the exchange remains resonant over time.
 
 ## Core Claim
 
@@ -30,6 +31,7 @@ The communication stack does not need separate systems for different contexts. I
 - [Infrastructure Opportunity](../opportunity/index.md)
 - [Reference Implementation](../implementation/index.md)
 - [AI Readiness / Machine-Readable Intent](../ai-readiness/index.md)
+- [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
 
 ## Attractor Bridge
 

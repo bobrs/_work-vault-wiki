@@ -15,8 +15,15 @@ This cluster covers the dialogue-level trust structures used by Dialogica.
 ## Working Read
 
 This is the conversational surface of TIS: thread, turn, and integration profile.
+The conversation-persistence concept is the broader semantic neighbor: it explains why dialogue needs a stateful control surface, not just a message format.
 
 ## Next Actions
 
 1. Keep the dialog threading set together.
 2. Split only if a separate conversational seam appears.
+
+## Related Links
+
+- [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
+- [Consent-Scoped Communication](../../side-projects-desktop/consent-scoped-communication/index.md)
+- [Shared Persistence as a Coordination Primitive](../../../../artifacts/incoming/dialogica--shared_persistence_as_coordination_primitive.md)
