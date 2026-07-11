@@ -11,6 +11,7 @@ In this vault, attention is the selection layer of reality: the force that deter
 ## Why It Matters
 
 Attention is how energy becomes meaning. It drives compression, curiosity, selection pressure, social reality, and shared ritual; it also creates the risk that what is repeatedly noticed becomes mistaken for what is true.
+In this vault, attention is also the first filter on legitimacy: it decides what enters the shared field, what gets carried into memory, and what later becomes available to governance, provenance, and trust.
 
 ## Core Motifs
 
@@ -46,6 +47,7 @@ Attention is how energy becomes meaning. It drives compression, curiosity, selec
 
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 - [Similar Projects / Cognitive Runtime](../../projects/similar-projects/cognitive-runtime/index.md)
 
 ## Related Concepts
@@ -85,6 +87,8 @@ Attention is how energy becomes meaning. It drives compression, curiosity, selec
 
 - Start with [Attention](../../concepts/attention/index.md) for the concept synthesis.
 - Continue to [Attention-Compression Framework](../../external/shimmerymemory/essays/attention-compression-framework/index.md) for the published model.
+- Continue to [Selection Pressure via Attention](../../external/shimmerymemory/essays/selection-pressure-via-attention/index.md) for the ecology and survival-pressure route.
+- Continue to [Free Will Is Expensive](../../external/shimmerymemory/essays/free-will-is-expensive/index.md) when attention has to be read as exit capacity and cost.
 - Use [Meaning](../meaning/index.md) when attention becomes language, interpretation, or shared reality.
 
 <!-- END OPEN RESEARCH EDGES -->

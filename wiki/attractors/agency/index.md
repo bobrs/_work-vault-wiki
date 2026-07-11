@@ -11,6 +11,7 @@ In this vault, agency is the capacity to act under constraint: escape, choice, a
 ## Why It Matters
 
 Agency is not abstract freedom. It is embodied capacity shaped by constraint, attention, consent, memory, and available exits. The system cares about whether participation is chosen, inherited, coerced, extracted, or falsely counted as authorization.
+That makes agency the lived side of consent: the question is not only whether a move was allowed, but whether the system still had enough capacity to refuse, redirect, or exit without being crushed by its own defaults.
 
 ## Core Motifs
 
@@ -48,6 +49,8 @@ Agency is not abstract freedom. It is embodied capacity shaped by constraint, at
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [How Intuition Works](../../projects/how-intuition-works/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
 
 ## Related Concepts
 
@@ -87,6 +90,8 @@ Agency is not abstract freedom. It is embodied capacity shaped by constraint, at
 
 - Start with [Free Will Is Expensive](../../external/shimmerymemory/essays/free-will-is-expensive/index.md).
 - Continue to [The BIFLI Check](../../external/shimmerymemory/essays/bifli-check/index.md) for sovereignty diagnostics.
+- Continue to [Stochastic Anchors, Loops, and the Puzzle of Agency](../../external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md) for the coupling/trajectory route.
+- Continue to [From Aspiration to Constraint](../../external/shimmerymemory/essays/from-aspiration-to-constraint/index.md) when agency needs to be read as surviving structure.
 - Use [Consent](../consent/index.md) when agency depends on authorization or refusal.
 
 <!-- END OPEN RESEARCH EDGES -->

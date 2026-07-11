@@ -11,6 +11,7 @@ In this vault, loop mechanics are how systems return: recursion, feedback, stabi
 ## Why It Matters
 
 Everything alive returns somehow. Loop mechanics explain how patterns persist, change, collapse, repair, or become trapped across bodies, relationships, organizations, protocols, and memory systems.
+In practice, loop mechanics is the bridge between attention and agency: attention selects what gets fed back, agency determines whether the loop may continue, and governance decides whether the loop stays repairable or turns into capture.
 
 ## Core Motifs
 
@@ -51,6 +52,8 @@ Everything alive returns somehow. Loop mechanics explain how patterns persist, c
 - [Consent-Intent Compression Protocol](../../projects/consent-intent-compression-protocol/index.md)
 - [Semantic Collapse Theory](../../projects/semantic-collapse-theory/index.md)
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)
+- [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Concepts
 
@@ -91,6 +94,8 @@ Everything alive returns somehow. Loop mechanics explain how patterns persist, c
 
 - Start with [LoopLink](../../concepts/looplink/index.md) for transport and recovery.
 - Continue to [Semantic Collapse Theory / Loop Series](../../projects/semantic-collapse-theory/loop-series/index.md).
+- Continue to [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md) for the consent/governance loop route.
+- Continue to [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md) for operational loop governance.
 - Use [Agency](../agency/index.md) when the question becomes exit capacity or refusal.
 
 <!-- END OPEN RESEARCH EDGES -->

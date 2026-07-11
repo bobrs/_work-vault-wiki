@@ -32,6 +32,7 @@ The FAQ now splits into a pilot-architecture page and an investor-framing page, 
 That makes this page one of the clearest routes back to the Governance attractor whenever the work shifts from meaning-preservation into policy, authority, or review under load.
 The nearby [Voting Machine](../voting-machine/index.md) project is the concrete civic counterpart when that same governance logic has to preserve custody, auditability, and privacy under election-like constraints.
 The attractor layer is the compressed semantic map that this branch implements: [Meaning](../../attractors/meaning/index.md), [Trust](../../attractors/trust/index.md), [Attention](../../attractors/attention/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
+Attention and agency sit inside this basin because the system cannot preserve meaning if it cannot first select carefully and then preserve enough choice to correct course.
 
 ## Related Links
 
@@ -40,6 +41,8 @@ The attractor layer is the compressed semantic map that this branch implements: 
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Agency](../../attractors/agency/index.md)
 
 ## Attractor Bridge
 
