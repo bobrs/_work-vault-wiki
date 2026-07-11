@@ -5,6 +5,7 @@ This branch collects the unification and semantic-blocktree materials.
 ## Current Shape
 
 - 2 documents.
+- 1 deeper seam for interprotocol concordance.
 
 ## Representative Files
 
@@ -22,8 +23,10 @@ The page works as a compact conceptual node for cross-protocol reasoning. It sho
 - [Side Projects Desktop](../index.md)
 - [Source text](../source-text/index.md)
 - [Crystalstream](../crystalstream/index.md)
+- [Interprotocol Concordance](interprotocol-concordance/index.md)
 
 ## Next Actions
 
 1. Keep the pair together.
-2. Split only if more unification material arrives.
+2. Keep the concordance child page stable.
+3. Split only if more unification material arrives.

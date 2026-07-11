@@ -39,3 +39,4 @@ This is the most direct bridge in the cluster between access control and consent
 - [Quantum Invariants](../../../quantum-invariants/index.md)
 - [Semantic Integrity](../../../semantic-integrity/index.md)
 - [Voting Machine](../../../voting-machine/index.md)
+- [Interprotocol Concordance](../../../side-projects-desktop/unification/interprotocol-concordance/index.md)

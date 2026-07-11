@@ -52,6 +52,7 @@ This companion rail fills a conceptual gap in the access story. It gives the bra
 - [Implementation and Access](../implementation-and-access/index.md)
 - [Key Derivation and Decryption](../implementation-and-access/key-derivation-and-decryption/index.md)
 - [Protocol Foundations](../protocol-foundations/index.md)
+- [Interprotocol Concordance](../../side-projects-desktop/unification/interprotocol-concordance/index.md)
 
 ## Next Actions
 

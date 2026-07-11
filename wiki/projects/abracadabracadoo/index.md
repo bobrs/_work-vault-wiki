@@ -38,6 +38,7 @@ The site-variants rail now stays separate as public delivery evidence, so the pr
 - [Abracadabracadoo](../../concepts/abracadabracadoo/index.md)
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
+- [Interprotocol Concordance](../side-projects-desktop/unification/interprotocol-concordance/index.md)
 
 ## Next Actions
 
