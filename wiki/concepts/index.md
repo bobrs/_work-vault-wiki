@@ -13,7 +13,7 @@ The current corpus already supports recurring attractors and stabilized concept 
 - [Grounding](../attractors/grounding/index.md) -> [How Intuition Works](../projects/how-intuition-works/index.md), [Consent Physics](consent-physics/index.md)
 - [Loop Mechanics](../attractors/loop-mechanics/index.md) -> [LoopLink](looplink/index.md), [Loop Economy](loop-economy/index.md)
 - [Agency](../attractors/agency/index.md) -> [Intent-Consent](intent-consent/index.md), [PDSP](pdsp/index.md)
-- [Meaning](../attractors/meaning/index.md) -> [POLEMEMELOP](polememelop/index.md), [Attention](attention/index.md)
+- [Meaning](../attractors/meaning/index.md) -> [POLEMEMELOP](polememelop/index.md), [Attention](attention/index.md), [Glyph Invocation and Reference](glyph-invocation-and-reference/index.md)
 - [Memory](../attractors/memory/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md)
 - [Trust](../attractors/trust/index.md) -> [PDSP](pdsp/index.md), [Abracadabracadoo](abracadabracadoo/index.md)
 Current concept pages:
@@ -36,6 +36,7 @@ Current concept pages:
 - [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
 - [Idioms as Social Control](idioms-as-social-control/index.md)
 - [Conversation as a Persistent System](conversation-as-a-persistent-system/index.md)
+- [Glyph Invocation and Reference](glyph-invocation-and-reference/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

@@ -30,6 +30,7 @@ The branch reads as a compact system for glyph-aware logging and confirmation me
 - [Method and Interfaces](method-and-interfaces/index.md)
 - [Astrometrics and Tokenless Confirmation](astrometrics-and-tokenless-confirmation/index.md)
 - [Side Projects Desktop](../index.md)
+- [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)
 
 ## Next Actions
 

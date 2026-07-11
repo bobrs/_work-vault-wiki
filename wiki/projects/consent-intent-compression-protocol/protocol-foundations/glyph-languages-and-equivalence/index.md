@@ -5,6 +5,7 @@ Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Protocol Found
 This cluster covers the symbolic language family and the protocol for translating meaning across loop systems.
 
 It is the translation layer of the protocol rail: symbolic grammar, equivalence across encodings, and the rules for keeping meaning stable while notation changes.
+The incoming glyph invocation rule sits just below this layer: it says when a glyph is being used live and when it is only being named.
 
 ## Current Shape
 
@@ -65,6 +66,7 @@ This cluster is where the branch keeps itself from becoming a pile of jargon. It
 - [Loop Modeling and Field Theory](../loop-modeling-and-field-theory/index.md)
 - [Glyph grammar and translation](glyph-grammar-and-translation/index.md)
 - [Synaptic Trust and Propagation](../synaptic-trust-and-propagation/index.md)
+- [Glyph Invocation and Reference](../../../../concepts/glyph-invocation-and-reference/index.md)
 - [Loop Training](../../../loop-training/index.md)
 - [Working Notes](../../../working-notes/index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)

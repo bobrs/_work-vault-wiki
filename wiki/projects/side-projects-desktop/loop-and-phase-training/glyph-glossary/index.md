@@ -19,6 +19,7 @@ Read it beside `Loop Basics` and `The Loop Codex`, where the same symbols appear
 - [Loop Basics](../loop-basics/index.md)
 - [The Loop Codex](../loop-codex/index.md)
 - [Intent-Consent](../intent-consent/index.md)
+- [Glyph Invocation and Reference](../../../../concepts/glyph-invocation-and-reference/index.md)
 
 ## Next Actions
 

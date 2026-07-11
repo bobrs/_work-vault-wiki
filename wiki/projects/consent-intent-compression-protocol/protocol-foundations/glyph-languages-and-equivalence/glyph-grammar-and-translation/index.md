@@ -3,6 +3,7 @@
 Parent lineage: `Consent–Intent Compression Protocol (CICP)` / `Protocol Foundations` / `Glyph Languages and Equivalence`
 
 This page isolates the translation layer of the CICP vocabulary. It is where meaning stays stable while notation changes, and where multiple encodings are treated as compatible views of the same underlying protocol family.
+The glyph invocation rule sits adjacent to this page: translation explains how symbols stay equivalent, while invocation explains whether a symbol is acting or being discussed.
 
 ## Working Read
 
@@ -29,5 +30,6 @@ Taken together, they define how the protocol can speak in several registers with
 ## Related Links
 
 - [Glyph Languages and Equivalence](../index.md)
+- [Glyph Invocation and Reference](../../../../../concepts/glyph-invocation-and-reference/index.md)
 - [Loop Modeling and Field Theory](../../loop-modeling-and-field-theory/index.md)
 - [Synaptic Trust and Propagation](../../synaptic-trust-and-propagation/index.md)

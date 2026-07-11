@@ -32,6 +32,7 @@ That makes `GlyphStory` useful as the parent node for Looplang/Glyphstory framin
 - [Narrative and Social Good](narrative-and-social-good/index.md)
 - [Investor Brief and Loopgame](investor-brief-and-loopgame/index.md)
 - [Side Projects Desktop](../index.md)
+- [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)
 
 ## Next Actions
 
