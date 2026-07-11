@@ -3,6 +3,7 @@
 This branch defines the trust interoperability stack in the current intake.
 
 Quantum Invariants is the neighboring grounding language: it names the boundary, comparator, and repair vocabulary that a trust standard can lean on when it needs a common reference layer.
+Grounding and intuition matter here too, because any interoperable trust surface still has to remain legible to the systems and people doing the noticing, selecting, and checking.
 
 ## Current Shape
 
@@ -26,11 +27,14 @@ Quantum Invariants is the neighboring grounding language: it names the boundary,
 This branch now separates into the core trust standard, the Dialogica threading model, and the graph/API surfaces that make the standard interoperable.
 Read semantically, it is a governance surface as much as a trust surface: it defines what can be compared, what can be verified across systems, and what evidence a shared network of actors can safely rely on.
 The nearby [Voting Machine](../voting-machine/index.md) project is a useful concrete instance of the same problem space because it has to keep trust, witness, governance, and audit aligned while preserving privacy.
+That makes this branch a good place to keep the trust comparator honest about where evidence comes from, how it is situated, and which signals should stay outside the wire.
 
 ## Related Links
 
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Voting Machine](../voting-machine/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Intuition](../../attractors/intuition/index.md)
 
 ## Attractor Bridge
 
@@ -41,6 +45,8 @@ The nearby [Voting Machine](../voting-machine/index.md) project is a useful conc
 - [Consent](../../attractors/consent/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Meaning](../../attractors/meaning/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Intuition](../../attractors/intuition/index.md)
 
 ## Next Actions
 

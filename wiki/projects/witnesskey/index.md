@@ -6,6 +6,7 @@ It reads as a protocol family rather than a single essay: the material starts wi
 
 Quantum Invariants fits here as a grounding reference for how witness, boundary, and comparator language can stay stable across different surfaces.
 LOOPtLOOP is the public-facing witness substrate adjacent to this branch: it exposes the hash-only authorization and provenance contract that WitnessKey is trying to preserve.
+Grounding and intuition are the pre-authorization checks that keep this family from becoming purely formal: the branch still depends on situated judgment before witness becomes a durable mark.
 
 ## Current Shape
 
@@ -33,6 +34,7 @@ The root idea is that consent is downstream of witness.
 That makes this branch useful for marks, provenance, edges, and authorization without forcing every signal into a full legal or machine-readable rule language. The branch is better understood as infrastructure for preserving relevant marks than as a finished policy system.
 When those marks begin to govern access, revision, or delegation, the branch crosses into the Governance attractor and becomes part of the broader authority surface of the wiki.
 The [Voting Machine](../voting-machine/index.md) project sits nearby as the civic-facing version of the same witness-and-authorization problem: identity, access, and review must stay legible without exposing the wrong things.
+That is also why the attractor bridge to grounding and intuition matters here: witness logic stays useful only if it remains tied to a real situation rather than to abstract permissions alone.
 
 ## Related Concepts
 
@@ -52,6 +54,8 @@ The [Voting Machine](../voting-machine/index.md) project sits nearby as the civi
 - [Trust](../../attractors/trust/index.md)
 - [Governance](../../attractors/governance/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Intuition](../../attractors/intuition/index.md)
 
 ## Next Actions
 
