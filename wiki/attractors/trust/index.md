@@ -64,6 +64,8 @@ In other words, trust is what remains when the system is still expected to funct
 - [Governance](../governance/index.md)
 - [Consent](../consent/index.md)
 - [Meaning](../meaning/index.md)
+- [Grounding](../grounding/index.md)
+- [Intuition](../intuition/index.md)
 
 ## Related Invariants
 

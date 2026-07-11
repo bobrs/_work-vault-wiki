@@ -61,6 +61,8 @@ That means meaning has to survive provenance and consent as well as interpretati
 - [Trust](../trust/index.md)
 - [Witness](../witness/index.md)
 - [Governance](../governance/index.md)
+- [Grounding](../grounding/index.md)
+- [Intuition](../intuition/index.md)
 
 ## Related Invariants
 

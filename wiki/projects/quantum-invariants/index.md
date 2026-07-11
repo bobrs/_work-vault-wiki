@@ -52,8 +52,10 @@ The site bundles are the public-facing navigation surface; the grounding JSON is
 
 The bootstrap, schema, semantic-compression, and shimmer notes are part of the same entry layer. Together they explain how the invariant set is used, how it is represented, and how it is presented to different readers without changing the underlying structure.
 
-The QI family is also a cross-project reference node. It helps explain consent, continuity, witness, trust, and semantic integrity work elsewhere in the wiki because it gives those branches a common comparator language.
+The QI family is also a cross-project reference node. It helps explain consent, continuity, witness, trust, grounding, intuition, and semantic integrity work elsewhere in the wiki because it gives those branches a common comparator language.
+That matters because a comparator only stays useful when the system still knows where it stands, what it can actually notice, and how to keep selection, embodiment, and meaning from drifting apart.
 The attractor layer is the compressed visitor map of those same invariants: [Witness](../../attractors/witness/index.md), [Consent](../../attractors/consent/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), [Trust](../../attractors/trust/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Grounding](../../attractors/grounding/index.md), [Attention](../../attractors/attention/index.md), and [Meaning](../../attractors/meaning/index.md).
+It also gives intuition a place to land: not as a vague instinct layer, but as the pre-verbal comparator work that has to stay accountable to grounding and witness before it can steer anything else.
 The [Voting Machine](../voting-machine/index.md) project is a concrete governance and consent surface that QI helps ground: it is where comparator language becomes civic custody, auditability, and revocation-aware review.
 
 ## Related Links
@@ -67,6 +69,8 @@ The [Voting Machine](../voting-machine/index.md) project is a concrete governanc
 - [WitnessKey](../witnesskey/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [How Intuition Works](../how-intuition-works/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Intuition](../../attractors/intuition/index.md)
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [About](about/index.md)
 - [Identity and Manifests](identity-and-manifests/index.md)
