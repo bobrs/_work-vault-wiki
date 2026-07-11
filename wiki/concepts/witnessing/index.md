@@ -48,6 +48,7 @@ ACT–POLICY gives that same witness logic a tighter procedural shape: it specif
 - [LoopLink](../looplink/index.md)
 - [Abracadabracadoo](../abracadabracadoo/index.md)
 - [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
+- [Responsibility-Bounded Observability](../responsibility-bounded-observability/index.md)
 
 ## Attractor Bridge
 

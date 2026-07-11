@@ -16,6 +16,7 @@ The current corpus already supports recurring attractors and stabilized concept 
 - [Meaning](../attractors/meaning/index.md) -> [POLEMEMELOP](polememelop/index.md), [Attention](attention/index.md)
 - [Memory](../attractors/memory/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md)
 - [Trust](../attractors/trust/index.md) -> [PDSP](pdsp/index.md), [Abracadabracadoo](abracadabracadoo/index.md)
+- [Witness](../attractors/witness/index.md) -> [Witnessing](witnessing/index.md), [Governance Diad](governance-diad/index.md), [Responsibility-Bounded Observability](responsibility-bounded-observability/index.md)
 
 Current concept pages:
 
@@ -31,6 +32,7 @@ Current concept pages:
 - [AI Did Not Break Consent](ai-did-not-break-consent/index.md)
 - [Witnessing](witnessing/index.md)
 - [Governance Diad](governance-diad/index.md)
+- [Responsibility-Bounded Observability](responsibility-bounded-observability/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 
