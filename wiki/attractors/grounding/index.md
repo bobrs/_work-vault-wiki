@@ -11,6 +11,7 @@ In this vault, grounding is where abstraction touches earth: body, place, safety
 ## Why It Matters
 
 Grounding prevents symbolic systems from floating away from the bodies and places they affect. It keeps consent, intuition, governance, and meaning accountable to lived experience.
+It is the corrective to abstraction drift: when the model gets too clean, grounding reintroduces material limits, nervous systems, and the room the system is actually in.
 
 ## Core Motifs
 
@@ -48,6 +49,8 @@ Grounding prevents symbolic systems from floating away from the bodies and place
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)
 - [How Intuition Works](../../projects/how-intuition-works/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
 
 ## Related Concepts
 
@@ -84,6 +87,8 @@ Grounding prevents symbolic systems from floating away from the bodies and place
 ## Next Navigation
 
 - Start with [The Room You're In](../../external/shimmerymemory/essays/the-room-youre-in/index.md).
+- Continue to [The Alexander Principle of the Ego](../../external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md) for non-interference and coordination.
+- Continue to [Bayesian Pre-Speech Stabilization](../../external/shimmerymemory/essays/bayesian-pre-speech-stabilization/index.md) when grounding needs pre-verbal stabilization.
 - Continue to [How Intuition Works](../../projects/how-intuition-works/index.md) when grounding becomes felt signal.
 - Use [Quantum Invariants](../../projects/quantum-invariants/index.md) when grounding needs comparator language.
 

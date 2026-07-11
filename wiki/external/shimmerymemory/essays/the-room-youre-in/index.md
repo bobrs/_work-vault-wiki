@@ -29,6 +29,34 @@ Excerpt:
 
 You are always in a room. Not always a physical one. Not always one you can see. But always a structure that shapes what appears obvious, true, or real. Most of these rooms were not built for you. And almost none of them announce themselves as rooms. They feel like reality. --- #
 
+## Working Read
+
+This essay is a grounding essay first: it says that perception is always situated inside a frame, and that legitimacy depends on seeing the frame as a frame.
+
+That makes it a direct bridge into consent and trust, because anything that claims to be obvious or real has already shaped the room you are in.
+
+## Core Claim
+
+The world of experience is always framed, so grounding requires noticing the room before treating it as reality.
+
+## Key Ideas
+
+- Frames shape what feels obvious.
+- Consent depends on recognizing the structure you are inside.
+- Trust requires seeing the room rather than confusing it with the whole world.
+
+## Related Projects
+
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+
+## Attractor Bridge
+
+- [Grounding](../../attractors/grounding/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Trust](../../attractors/trust/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Canonical Glyphs
 
 - `shimmer`: ⋆✴︎˚｡⋆

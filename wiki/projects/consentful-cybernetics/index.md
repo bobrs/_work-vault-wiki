@@ -52,6 +52,7 @@ Loop mechanics belongs here too, because a voluntary-intelligence system has to 
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Grounding](../../attractors/grounding/index.md)
 
 ## Attractor Bridge
 

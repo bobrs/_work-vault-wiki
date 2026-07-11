@@ -29,6 +29,34 @@ Excerpt:
 
 You don’t need to be having a crisis to notice this, but crises help. There comes a moment—sometimes while scrolling, sometimes mid-argument, sometimes, yes, on the toilet—when you realize: *everything feels like it’s moving at once*. Opinions, rules, meanings, people. Everyone i
 
+## Working Read
+
+This essay is a grounding cue more than a theory note: it reminds the reader that orientation is always relative and that a stable place to stand changes what can be understood.
+
+The bathroom framing is incidental; the actual point is that meaning becomes navigable when the system has a reference frame it can trust.
+
+## Core Claim
+
+A stable reference point is necessary for making sense of motion, ambiguity, and shifting meaning.
+
+## Key Ideas
+
+- Orientation is a condition, not a constant.
+- Attractors become visible once the frame is stable.
+- Grounding makes perception navigable.
+
+## Related Projects
+
+- [How Intuition Works](../../projects/how-intuition-works/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+
+## Attractor Bridge
+
+- [Grounding](../../attractors/grounding/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Witness](../../attractors/witness/index.md)
+
 ## Canonical Glyphs
 
 - `yesatom`: 🜁

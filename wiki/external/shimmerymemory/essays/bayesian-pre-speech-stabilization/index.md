@@ -29,6 +29,35 @@ Excerpt:
 
 ## Purpose Introduce a lightweight, consent-aligned architectural layer that helps users stabilize meaning *before* speech becomes an irreversible artifact. The goal is not moderation or correctness, but **belief hygiene**: allowing users to witness and update their own confidenc
 
+## Working Read
+
+This essay is a direct bridge between intuition and grounding: it tries to stabilize meaning before speech turns it into an artifact.
+
+The central move is to preserve agency by giving belief time to settle, instead of pretending that first-pass utterance is always ready to become public record.
+
+## Core Claim
+
+Speech should be preceded by a consent-aligned stabilization step that helps the speaker witness confidence, evidence, and intent.
+
+## Key Ideas
+
+- Pre-speech stabilization reduces artifact errors.
+- Belief hygiene is a form of grounding.
+- Witnessing one’s own confidence is a way to preserve agency.
+
+## Related Projects
+
+- [How Intuition Works](../../projects/how-intuition-works/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+
+## Attractor Bridge
+
+- [Grounding](../../attractors/grounding/index.md)
+- [Intuition](../../attractors/intuition/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Meaning](../../attractors/meaning/index.md)
+
 ## Canonical Glyphs
 
 - `yesatom`: 🜁

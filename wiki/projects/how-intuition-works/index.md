@@ -28,6 +28,7 @@ This branch splits cleanly between an operational model of intuition and a set o
 The intuition essay treats intuition as a sensor/probing system in a field of attractors. The planning essays then explain why planning only works when pull already exists and why lives move more reliably by attractor than by frozen destination.
 
 That makes the branch useful as a compact navigation surface for a larger argument about how people and systems actually gain direction over time.
+It also belongs next to grounding and attention, because the project is not only about inner direction; it is about how a body knows what it can actually stand in, select, and act on.
 
 ## Related Links
 
@@ -35,6 +36,9 @@ That makes the branch useful as a compact navigation surface for a larger argume
 - [Loop Compass](../side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
+- [Grounding](../../attractors/grounding/index.md)
+- [Attention](../../attractors/attention/index.md)
+- [Agency](../../attractors/agency/index.md)
 - [How Works](../how-works/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 

@@ -29,6 +29,34 @@ Excerpt:
 
 --- ## Why This Exists Many people approach change — physical, psychological, moral, or spiritual — as a problem of **doing something right**. This document records a different insight: > **Most suffering is not caused by doing life wrong, but by interfering with processes that a
 
+## Working Read
+
+This essay belongs to grounding because it treats acceptance as a reduction in unnecessary interference rather than a victory of will.
+
+It also belongs to agency because the interesting move is not force, but the return of coordination when effort stops blocking it.
+
+## Core Claim
+
+Acceptance works when it removes interference, allowing aliveness and consent to reappear as functional conditions.
+
+## Key Ideas
+
+- Non-interference is a skill, not passivity.
+- Coordination improves when the system stops over-controlling itself.
+- Consent can return when unnecessary effort is released.
+
+## Related Projects
+
+- [ULiUA](../../projects/uliua/index.md)
+- [How Intuition Works](../../projects/how-intuition-works/index.md)
+
+## Attractor Bridge
+
+- [Grounding](../../attractors/grounding/index.md)
+- [Agency](../../attractors/agency/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Attention](../../attractors/attention/index.md)
+
 ## Canonical Glyphs
 
 - `aloha`: 🌺

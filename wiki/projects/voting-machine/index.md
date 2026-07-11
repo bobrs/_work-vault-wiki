@@ -40,6 +40,7 @@ The attention layer matters too: civic systems only stay legitimate if the right
 - [Governance Diad](../semantic-collapse-theory/story/governance-diad/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
 - [Semantic Integrity](../semantic-integrity/index.md)
+- [Grounding](../../attractors/grounding/index.md)
 
 ## Next Actions
 

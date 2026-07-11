@@ -11,6 +11,7 @@ In this vault, intuition is pattern recognition before explanation: the surfacin
 ## Why It Matters
 
 Intuition protects the system from over-identifying with explicit cognition. It is where the body, memory, experience, and uncompressed signal may speak before language catches up.
+Grounding matters here because intuition without embodiment can become fantasy; attention matters because intuition has to be selected and tested rather than merely romanticized.
 
 ## Core Motifs
 
@@ -45,6 +46,8 @@ Intuition protects the system from over-identifying with explicit cognition. It 
 - [How Works](../../projects/how-works/index.md)
 - [ULiUA](../../projects/uliua/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 
 ## Related Concepts
 
@@ -84,5 +87,6 @@ Intuition protects the system from over-identifying with explicit cognition. It 
 - Start with [How Intuition Works](../../projects/how-intuition-works/index.md) for the project branch.
 - Continue to [Grounding](../grounding/index.md) when intuition becomes embodied constraint.
 - Read [The Alexander Principle of the Ego](../../external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md) for the clearest published_external entry.
+- Read [Bayesian Pre-Speech Stabilization](../../external/shimmerymemory/essays/bayesian-pre-speech-stabilization/index.md) for pre-verbal stabilization.
 
 <!-- END OPEN RESEARCH EDGES -->
