@@ -18,6 +18,7 @@ It is a provisional infrastructure branch, not a canon declaration. The material
 This family argues that communication systems fail when scope is implicit. Once AI can analyze, summarize, infer, and retain at scale, scope has to move from social convention into declared message metadata.
 
 The branch is narrower than general governance and wider than a single product: it defines a communication substrate that can support enforcement, privacy, moderation, compliance, and machine-readable intent without fragmenting into separate systems.
+The incoming substrate specification sharpens that branch: a message is content plus scope, scope transitions are explicit, and enforcement stays separate from message grammar.
 
 ## Semantic Role
 
@@ -36,6 +37,8 @@ The branch is narrower than general governance and wider than a single product: 
 - [Governance Diad](../../../../concepts/governance-diad/index.md)
 - [Consent Physics](../../../../concepts/consent-physics/index.md)
 - [Continuity Office](../../../continuity-office/index.md)
+- [WitnessKey](../../../witnesskey/index.md)
+- [Trust Interoperability Standard](../../../trust-interoperability-standard/index.md)
 
 ## Attractor Bridge
 
@@ -45,6 +48,7 @@ The branch is narrower than general governance and wider than a single product: 
 - [Trust](../../../../attractors/trust/index.md)
 - [Agency](../../../../attractors/agency/index.md)
 - [Meaning](../../../../attractors/meaning/index.md)
+- [Grounding](../../../../attractors/grounding/index.md)
 
 ## Next Actions
 

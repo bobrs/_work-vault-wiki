@@ -11,6 +11,7 @@ This page compresses the AI readiness note into the consent-scoped communication
 ## Working Read
 
 The note argues that AI readiness starts with machine-readable intent: inventory data surfaces, assign guardianship, and gate human and automated access through explicit purpose-bound policy.
+The incoming substrate spec sharpens the same claim from the communication side: if scope stays implicit, AI will treat access as permission and drift out of bounds.
 
 ## Core Claim
 
@@ -30,6 +31,7 @@ If intent is not machine-readable, AI will treat access as permission. Structura
 - [Infrastructure Opportunity](../opportunity/index.md)
 - [Internal Briefing](../briefing/index.md)
 - [Continuity Office](../../../continuity-office/index.md)
+- [WitnessKey](../../../witnesskey/index.md)
 
 ## Attractor Bridge
 

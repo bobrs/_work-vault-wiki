@@ -11,10 +11,12 @@ This page compresses the consent-scoped communication substrate specification.
 ## Working Read
 
 The specification makes scope explicit at the message level. Content and scope travel together, and privacy/security/moderation/compliance become enforcement layers rather than separate communication systems.
+The incoming spec clarifies the architecture more sharply: the same protocol ladder covers public, normative, group, private, and secure contexts, while the actual enforcement mechanism can vary without changing message semantics.
 
 ## Core Claim
 
 Communication can share one substrate across public, group, private, and secure contexts if scope is first-class and transitions are explicit.
+That makes the substrate useful not just for human collaboration, but for machine-readable intent, scoped memory, and reversible authorization.
 
 ## Key Ideas
 
@@ -23,6 +25,9 @@ Communication can share one substrate across public, group, private, and secure 
 - Scope refinement.
 - Semantics separate from enforcement.
 - AI must respect declared scope.
+- Handshake ladder.
+- Simulation-first validity.
+- Hyper-secure compatibility.
 
 ## Related Pages
 
@@ -31,6 +36,9 @@ Communication can share one substrate across public, group, private, and secure 
 - [One Protocol. Every Conversation.](../overview/index.md)
 - [AI Readiness / Machine-Readable Intent](../ai-readiness/index.md)
 - [Consent Grammar](../../consent-grammar/index.md)
+- [WitnessKey](../../../witnesskey/index.md)
+- [Trust Interoperability Standard](../../../trust-interoperability-standard/index.md)
+- [Quantum Invariants](../../../quantum-invariants/index.md)
 
 ## Attractor Bridge
 
@@ -38,6 +46,8 @@ Communication can share one substrate across public, group, private, and secure 
 - [Governance](../../../../attractors/governance/index.md)
 - [Trust](../../../../attractors/trust/index.md)
 - [Meaning](../../../../attractors/meaning/index.md)
+- [Witness](../../../../attractors/witness/index.md)
+- [Grounding](../../../../attractors/grounding/index.md)
 
 ## Notes
 
