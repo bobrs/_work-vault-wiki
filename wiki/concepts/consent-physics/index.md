@@ -5,6 +5,7 @@ Working definition: the idea that consent behaves like a dynamic field with timi
 This page is the concept-layer version of the `Consent Physics` branch under `Loop and Phase Training`. The project page keeps the source documents together; this page keeps the shared idea visible once the material is viewed across branch boundaries.
 
 The recurring move is simple: consent stops being a checkbox and becomes a continuous state that can be inspected, delayed, revised, activated, or withdrawn. That is why the concept keeps touching timing, repair, recovery, and protocol language. It is not just about agreement; it is about how agreement moves through a system.
+The governance edge matters here too: once consent becomes a state instead of a moment, the system has to know who can certify it, how revocation is witnessed, and what provenance follows the decision. That is where Governance Diad and the Consentocracy Bridge sit nearby.
 
 The page also gives `Intent-Consent` a stronger neighbor. Intent names direction, while consent physics names the conditions under which the direction can actually remain valid over time.
 
@@ -26,11 +27,16 @@ ACT–POLICY is the executable counterpart to that idea: it models whether an ac
 - [Consent–Intent Compression Protocol (CICP)](../../projects/consent-intent-compression-protocol/index.md)
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 - [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
+- [Governance Diad](../governance-diad/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Attractor Bridge
 
 - [Consent](../../attractors/consent/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
+- [Governance](../../attractors/governance/index.md)
+- [Witness](../../attractors/witness/index.md)
+- [Provenance](../../attractors/provenance/index.md)
 
 ## Notes
 

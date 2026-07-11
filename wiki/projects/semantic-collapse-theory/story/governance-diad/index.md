@@ -17,6 +17,7 @@ This cluster covers the governance protocol for living document stewardship.
 This is the procedural companion to the story branch: a governance artifact rather than a narrative outline.
 
 This page is the stewardship counterpart to the episode arc. It captures the branch’s sense of document governance and living protocol in a way that complements the more narrative pages, which makes it the procedural anchor for the story layer.
+It also participates in the consent/provenance basin: if a story is going to govern anything, the rule has to stay witnessable, reversible, and explainable. The Consentocracy Bridge is the published_external articulation of that same governance pressure.
 
 It sits next to the narrative episodes as the rule layer that keeps the story branch coherent over time.
 
@@ -29,6 +30,7 @@ It sits next to the narrative episodes as the rule layer that keeps the story br
 - [Continuity and Transition](../../continuity-and-transition/index.md)
 - [Semantic Collapse Theory](../../index.md)
 - [POLEMEMELOP](../../../../concepts/polememelop/index.md)
+- [The Consentocracy Bridge](../../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

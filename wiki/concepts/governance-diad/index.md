@@ -7,6 +7,7 @@ This concept appears in the SCT story and origin/governance pages, where documen
 In practice, Governance Diad is the minimal structure for recognizing authority. Witness establishes what can be certified, and governance names the rule that follows from that certification. The point of the diad is not bureaucracy; it is to keep authority legible without collapsing into either raw observation or raw command.
 
 The concept is useful because it refuses to flatten legitimacy into either raw observation or raw command. A witness alone does not create a durable rule, and a rule without witness is just assertion. The diad keeps those forces paired so the corpus can talk about authority without drifting into abstraction.
+That same pairing is what makes the concept adjacent to consent and provenance work: authority is only meaningful here if it can be witnessed, consented to, and carried through a legible lineage. The Consentocracy Bridge is the external essay that makes that governance move explicit.
 
 That is why Governance Diad sits next to [Witnessing](../witnessing/index.md), [Intent-Consent](../intent-consent/index.md), [LoopLink](../looplink/index.md), and [POLEMEMELOP](../polememelop/index.md). It is the point where procedural trust becomes a governable pattern, and where SCT’s authority logic becomes readable as a branch-level stewardship model.
 
@@ -26,6 +27,7 @@ The same pattern also appears downstream in [Voting Machine](../../projects/voti
 - [Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Origin and Governance](../../projects/semantic-collapse-theory/origin-and-governance/index.md)
 - [Voting Machine](../../projects/voting-machine/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Witnessing](../witnessing/index.md)
 - [POLEMEMELOP](../polememelop/index.md)
 - [Intent-Consent](../intent-consent/index.md)
@@ -36,6 +38,9 @@ The same pattern also appears downstream in [Voting Machine](../../projects/voti
 ## Attractor Bridge
 
 - [Governance](../../attractors/governance/index.md)
+- [Consent](../../attractors/consent/index.md)
+- [Provenance](../../attractors/provenance/index.md)
+- [Trust](../../attractors/trust/index.md)
 - [Witness](../../attractors/witness/index.md)
 
 ## Notes

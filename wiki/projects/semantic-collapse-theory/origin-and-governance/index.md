@@ -26,6 +26,7 @@ This cluster gathers the genesis texts, witness framing, and governance scaffold
 This branch now separates into origin/protocols, witness/governance, and narrative/fieldnotes. That matches the way the documents are actually written: a genesis layer, an authority layer, and a companion explanatory layer.
 
 It is the branch that explains why SCT can claim continuity at all. The origin texts introduce the system, the governance texts constrain authority, and the narrative layer keeps the branch legible to readers who need the story rather than only the protocol.
+The Consentocracy Bridge is a useful external companion here because it pushes the same legitimacy question into AI governance: what must be witnessed, consented to, and proven before optimization is allowed to proceed.
 
 The practical role of this cluster is to hold the origin story and the rules of witness. It is where SCT explains its own legitimacy, how collapse is recognized, and what kind of governance model the corpus implies. That makes it the anchor for the rest of the branch rather than just a folder of introductions.
 
@@ -49,6 +50,8 @@ The nearby [Voting Machine](../../voting-machine/index.md) project is a useful d
 - [Governance](../../../attractors/governance/index.md)
 - [Consent](../../../attractors/consent/index.md)
 - [Provenance](../../../attractors/provenance/index.md)
+- [Trust](../../../attractors/trust/index.md)
+- [The Consentocracy Bridge](../../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Next Actions
 

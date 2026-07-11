@@ -7,6 +7,7 @@ This concept appears in the `Loop and Phase Training` essay branch, its sibling 
 In practice, Intent-Consent is the phrase-level attractor for work that tries to describe how intention becomes legible without losing consent structure. It is broad enough to recur, but still narrow enough to stay distinct from generic consent language. The training branch uses it as a vocabulary seam for repair, maintenance, and sequencing, while the concept page keeps the broader cross-branch pattern visible.
 
 The useful distinction is that intent names direction while consent names permission. The corpus keeps returning to that pair because many of the documents are trying to model action without collapsing agency into assertion. In that sense, the concept is both a linguistic pattern and a governance primitive: it is where a proposed move becomes an accepted move, or fails to do so cleanly.
+What keeps the pair from becoming purely rhetorical is witness and provenance: the move has to be legible enough to certify, carry, and later explain. That is why the same language keeps touching governance and the Consentocracy Bridge whenever the corpus needs consent to survive time rather than only a single moment of approval.
 
 Quantum Invariants is a useful comparator here because it makes the boundary/comparator/repair vocabulary explicit in a machine-readable form. That does not replace the concept; it just gives the concept a structural neighbor.
 
@@ -47,11 +48,15 @@ ACT–POLICY extends that same grammar into a small executable substrate: it giv
 - [LoopLink](../looplink/index.md)
 - [PDSP](../pdsp/index.md)
 - [ACT–POLICY](../../projects/side-projects-desktop/act-policy/index.md)
+- [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
+- [Voting Machine](../../projects/voting-machine/index.md)
+- [Semantic Integrity](../../projects/semantic-integrity/index.md)
 
 ## Attractor Bridge
 
 - [Consent](../../attractors/consent/index.md)
 - [Governance](../../attractors/governance/index.md)
+- [Provenance](../../attractors/provenance/index.md)
 
 ## Notes
 
