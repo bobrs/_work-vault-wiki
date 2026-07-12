@@ -68,20 +68,33 @@ Law did not become essential because society needed experts to memorize rules. L
 - Reserved for internal page links once salience extraction begins.
 
 ## Working Read
+This essay treats generated language as a legal event surface, not just a text-production problem. Its core move is that law has to preserve responsibility when language can be produced by systems no single person fully authored, understood, or controlled.
 
-- Pending.
+In Work Vault terms, it sits at the boundary between meaning, authority, consent, and remedy. It is most useful when read with the idea that a generated statement only becomes legitimate if the chain from source to consequence stays visible enough to challenge.
 
 ## Core Claim
-
-- Pending.
+When language begins to act, law must keep the responsibility chain visible so generated meaning cannot hide the human or institutional authority that made it consequential.
 
 ## Key Ideas
+- Generated language can carry legal consequence.
+- Human presence in the loop is not enough if review is ceremonial.
+- Delegation, authority, and consent must stay legible.
+- Semantic integrity becomes a legal concern.
+- Responsibility has to survive the transformation chain.
 
-- Pending.
+## Work Vault Links
+
+- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Witness-to-Witness Messaging Protocol](../../../concepts/witness-to-witness-messaging/index.md)
+- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
+- [Consent-Scoped Communication](../../../projects/side-projects-desktop/consent-scoped-communication/index.md)
+- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
 
 ## Open Questions
 
-- Pending.
+- What counts as meaningful human review when AI drafts the language?
+- When does generated language become evidence, advice, or action?
+- How should law distinguish assistance from delegation?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 

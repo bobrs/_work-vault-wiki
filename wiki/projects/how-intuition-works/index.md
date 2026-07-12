@@ -29,6 +29,7 @@ The intuition essay treats intuition as a sensor/probing system in a field of at
 
 That makes the branch useful as a compact navigation surface for a larger argument about how people and systems actually gain direction over time.
 It also belongs next to grounding and attention, because the project is not only about inner direction; it is about how a body knows what it can actually stand in, select, and act on.
+Read with Quantum Invariants, this branch becomes the human-facing counterpart to comparator logic: sensing, probing, calibration, and movement under uncertainty.
 
 ## Related Links
 
@@ -36,6 +37,9 @@ It also belongs next to grounding and attention, because the project is not only
 - [Loop Compass](../side-projects-desktop/loop-and-phase-training/advanced/loop-compass/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
+- [Contextual Authority Principle](../../concepts/contextual-authority-principle/index.md)
+- [Shared Persistence as a Coordination Primitive](../../concepts/shared-persistence-as-a-coordination-primitive/index.md)
+- [Velocity and Braking](../../concepts/velocity-and-braking/index.md)
 - [Grounding](../../attractors/grounding/index.md)
 - [Attention](../../attractors/attention/index.md)
 - [Agency](../../attractors/agency/index.md)
