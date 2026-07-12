@@ -1,6 +1,7 @@
 # Semantic Infrastructure for Accounting Professionals
 
 This page treats the incoming note as a professional-facing extension of the semantic-infrastructure seam.
+It is the accounting-professionals variant of the same witness / accountability problem that appears in [Witness Infrastructure](../../../../concepts/witness-infrastructure/index.md): if AI changes the meaning of work faster than humans can narrate it, the professional duty shifts toward preserving legitimacy, provenance, and reconstructable state.
 
 ## Working Read
 
@@ -19,6 +20,8 @@ Semantic infrastructure is becoming part of the accounting stack because meaning
 - Traceability and controls transfer directly into semantic workflows.
 - Authorization and boundaries still matter, especially around consent.
 - Clarity is becoming part of the job, not just the outcome.
+- Witness infrastructure becomes part of the accounting stack when firms are asked to preserve not only records but admissibility across time.
+- Responsibility-bounded observability keeps professional review from turning into unbounded surveillance.
 
 ## Source Artifact
 
@@ -29,6 +32,8 @@ Semantic infrastructure is becoming part of the accounting stack because meaning
 - [Semantic Infrastructure](../index.md)
 - [Semantic Integrity](../../index.md)
 - [Accounting for Meaning](../../../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [Witness Infrastructure](../../../../concepts/witness-infrastructure/index.md)
+- [Responsibility-Bounded Observability](../../../../concepts/responsibility-bounded-observability/index.md)
 - [Defending Meaning](../../../../external/shimmerymemory/essays/defending-meaning/index.md)
 - [The Ethics of Earned Insight](../../earned-insight/index.md)
 - [When Language Begins to Act](../../../../external/shimmerymemory/essays/when-language-begins-to-act/index.md)

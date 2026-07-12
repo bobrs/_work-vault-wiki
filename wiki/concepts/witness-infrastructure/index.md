@@ -4,6 +4,7 @@ Working definition: the trust-preserving layer that makes witness reusable acros
 
 This concept captures the AI-economy argument that witness, not production, becomes the scarce substrate once generation is cheap enough to flood the world with change. The point is not surveillance or centralized control. The point is continuity: preserving enough context, authority, and provenance that transformation remains legitimate after the fact.
 The accounting argument is adjacent: [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md) shows what happens when meaning itself becomes a consequential ledger entry rather than a passive description.
+The professional version of that shift is already visible in [Semantic Infrastructure for Accounting Professionals](../../projects/semantic-integrity/semantic-infrastructure/accounting-professionals/index.md), where accounting becomes less about recording output and more about preserving the admissibility of transformation.
 
 In practice, witness infrastructure is the infrastructure of answerability. It is what lets a system say what changed, why it changed, who authorized it, and whether the state can be reconstructed later without collapsing into narrative or coercion.
 
@@ -24,12 +25,14 @@ When production is no longer the primary bottleneck, the scarce layer is witness
 - Accountability requires reconstructable state, not just logs.
 - Surveillance asks what happened; witness infrastructure asks what meaningfully transformed under what authority.
 - Accounting, version control, identity, and audit are primitive witness systems.
+- The next professional layer is continuity stewardship: preserving legitimacy when AI systems can reshape institutional state at speed.
 
 ## Related Pages
 
 - [Witnessing](../witnessing/index.md)
 - [Governance Diad](../governance-diad/index.md)
 - [Responsibility-Bounded Observability](../responsibility-bounded-observability/index.md)
+- [Semantic Infrastructure for Accounting Professionals](../../projects/semantic-integrity/semantic-infrastructure/accounting-professionals/index.md)
 - [Intent-Consent](../intent-consent/index.md)
 - [LoopLink](../looplink/index.md)
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
@@ -52,6 +55,7 @@ When production is no longer the primary bottleneck, the scarce layer is witness
 - [Witness Infrastructure: The Bottleneck of the AI Economy.docx](<../../../artifacts/standard-named/20260624__WITNESSING__ESSAY__WITNESS-INFRASTRUCTURE-AI-ECONOMY__v1__witness-infrastructure-ai-economy-essay.docx>) · [archive copy](<../../../artifacts/intake-archive/20260624__intent-consent-research-intake/Witness Infrastructure Ai Economy Essay.docx>)
 - [Responsibility-Bounded Observability (Presemantic Proof)](<../../../artifacts/incoming/responsibility_bounded_observability_presemantic_proof.md>)
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [The Accounting Firm After Labor](<../../../artifacts/incoming/accounting_firms_after_labor_essay.md>)
 - [Do AIs Have Permission?](../../external/shimmerymemory/essays/do-ais-have-permission/index.md)
 - [From Fetch to Civilization: Consent as the Gate](../../external/shimmerymemory/essays/from-fetch-to-civilization-consent-as-the-gate/index.md)
 
