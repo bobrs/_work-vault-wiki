@@ -2,6 +2,7 @@
 
 This branch holds the structural governance briefs that sit alongside `Continuity Office`. The material now splits cleanly into three durable seams: client-facing positioning, sovereign governance execution, and firm-specific pilot materials.
 It is the execution surface for continuity once the curriculum has been taught elsewhere: the engine makes continuity legible at runtime, while witness pages define what must be certified before the engine can keep moving safely.
+That means it belongs beside [Witness Infrastructure](../../concepts/witness-infrastructure/index.md) and [LoopLink](../../concepts/looplink/index.md): the engine runs the workflow, but those layers preserve the legitimacy of what the workflow can move.
 
 ## Current Shape
 
@@ -33,6 +34,7 @@ That same authority-sensitive logic now has a clear adjacent project in [Voting 
 
 The firm-specific material turns the same structure toward a 90-day pilot, executive positioning, partner-facing adoption language, and a broader AI capability strategy for the firm.
 The [Continuity Office](../continuity-office/index.md) page is the curriculum that prepares this engine, and [AI Witness](../continuitai/ai-witness/index.md) is the non-executing observer that can spot drift without changing state.
+The responsibility-bounded-observability boundary is also relevant here because execution and oversight have to stay co-scoped when the engine is acting on delegated authority.
 
 ## Related Links
 
@@ -42,6 +44,8 @@ The [Continuity Office](../continuity-office/index.md) page is the curriculum th
 - [Intent-Consent](../../concepts/intent-consent/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
 - [WitnessKey](../witnesskey/index.md)
+- [LoopLink](../../concepts/looplink/index.md)
+- [Witness Infrastructure](../../concepts/witness-infrastructure/index.md)
 - [Continuity and Transition](../semantic-collapse-theory/continuity-and-transition/index.md)
 
 ## Next Actions

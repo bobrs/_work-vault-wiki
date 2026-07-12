@@ -4,6 +4,7 @@ Parent lineage: `ContinuitAI`
 
 This seam holds the observability-first layer for the branch.
 It is the non-executing witness in the continuity family: it watches drift, compresses what changed, and keeps authority separate from observation.
+That makes it the runtime counterpart to [Witness Infrastructure](../../../concepts/witness-infrastructure/index.md): if the infrastructure preserves legitimacy across time, AI Witness provides the non-executing watchfulness that notices when legitimacy is slipping.
 
 ## Representative Files
 
@@ -25,4 +26,6 @@ That makes this page the observability counterpart to [Continuity Office](../../
 - [Continuity Office](../../continuity-office/index.md)
 - [Continuity Engine](../../continuity-engine/index.md)
 - [Continuity and Transition](../../semantic-collapse-theory/continuity-and-transition/index.md)
+- [LoopLink](../../../concepts/looplink/index.md)
+- [Responsibility-Bounded Observability](../../../concepts/responsibility-bounded-observability/index.md)
 - [Witness](../../../attractors/witness/index.md)

@@ -9,6 +9,7 @@ In practice, LoopLink is the connective tissue between protocol structure and re
 The reason it matters is that it supplies the bridge between a conceptual agreement and an actual exchange. Intent-consent tells the system what should be allowed; LoopLink tells it how the allowed exchange is carried, witnessed, and restored. That makes it the operational partner to [Abracadabracadoo](../abracadabracadoo/index.md), [Witnessing](../witnessing/index.md), [PDSP](../pdsp/index.md), and [Intent-Consent](../intent-consent/index.md), all of which rely on transport semantics when the abstract pattern has to become durable.
 
 It also stays close to [Governance Diad](../governance-diad/index.md) because trust surfaces need a rule-bearing witness trail, and to [Loop Economy](../loop-economy/index.md) because circulation systems only work when the handoff mechanics are stable enough to measure and reuse. The recovery side of the concept is what lets the protocol stay legible after drift, loss, or maintenance.
+That same logic also touches [Witness Infrastructure](../witness-infrastructure/index.md): once loops can be replayed, carried, and recovered, the question becomes which continuity layer preserves legitimacy across time and which layer merely moves data.
 
 ## Related Artifacts
 
@@ -35,6 +36,7 @@ It also stays close to [Governance Diad](../governance-diad/index.md) because tr
 - [Intent-Consent](../intent-consent/index.md)
 - [Governance Diad](../governance-diad/index.md)
 - [Loop Economy](../loop-economy/index.md)
+- [Witness Infrastructure](../witness-infrastructure/index.md)
 
 ## Attractor Bridge
 

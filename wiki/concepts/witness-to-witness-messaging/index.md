@@ -6,6 +6,7 @@ The incoming draft is useful because it treats communication as witness work ins
 
 In the wiki, this page should stay honest about scope. It is a protocol concept, not a universal communication truth. Its value is that it keeps intent, sensitivity, distribution, and derivatives attached to the message so the system can refuse misuse without inventing new permissions.
 It sits next to shared persistence because both are about keeping state legible without forcing immediate action.
+It also belongs near [Witness Infrastructure](../witness-infrastructure/index.md) because message-level witness only stays trustworthy when the surrounding continuity layer can carry the state forward without reinterpreting it.
 
 ## Protocol Surfaces
 
@@ -33,6 +34,8 @@ It sits next to shared persistence because both are about keeping state legible 
 - [Trust Interoperability Standard](../../projects/trust-interoperability-standard/index.md)
 - [Quantum Invariants](../../projects/quantum-invariants/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
+- [Witness Infrastructure](../witness-infrastructure/index.md)
+- [LoopLink](../looplink/index.md)
 
 ## Attractor Bridge
 

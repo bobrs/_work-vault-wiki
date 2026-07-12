@@ -4,6 +4,7 @@ This branch collects the continuity training catalog and its supporting material
 
 Quantum Invariants is useful here as the comparator language for continuity: it helps name what stays stable, what drifts, and what needs a repair path.
 Witnessing is the adjacent procedural concept: it certifies the state that continuity then has to carry forward. In this branch, the curriculum and the support rails are the practice surface for that handoff.
+Witness Infrastructure is the larger container around that handoff: it preserves legitimacy and reconstructable state once the continuity work has to survive autonomous transformation, not just human turnover.
 
 ## Current Shape
 
@@ -42,6 +43,7 @@ The branch separates cleanly into five lesson tracks plus a continuity-in-practi
 The published catalog is the live surface. The draft `First 90 Days of Continuity` stays out of the live set until it is ready.
 The [Voting Machine](../voting-machine/index.md) project sits nearby as a concrete governance example for decision provenance, custody, and auditability when continuity work crosses into civic or authority-sensitive systems.
 The [Continuity Engine](../continuity-engine/index.md) is the runtime counterpart to this curriculum, while [AI Witness](../continuitai/ai-witness/index.md) is the non-executing mirror that notices drift before continuity breaks.
+The [LoopLink](../../concepts/looplink/index.md) concept is the transport-and-recovery vocabulary that lets this curriculum move state without collapsing meaning.
 
 ## Related Links
 
@@ -52,6 +54,8 @@ The [Continuity Engine](../continuity-engine/index.md) is the runtime counterpar
 - [WitnessKey](../witnesskey/index.md)
 - [Continuity Engine](../continuity-engine/index.md)
 - [AI Witness](../continuitai/ai-witness/index.md)
+- [LoopLink](../../concepts/looplink/index.md)
+- [Witness Infrastructure](../../concepts/witness-infrastructure/index.md)
 - [Continuity and Transition](../semantic-collapse-theory/continuity-and-transition/index.md)
 - [Witness and Governance](../semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
 - [Voting Machine](../voting-machine/index.md)
