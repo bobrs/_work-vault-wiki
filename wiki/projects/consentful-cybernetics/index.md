@@ -36,6 +36,8 @@ This branch is the site-facing companion to the consent and voluntary-intelligen
 The homepage and research copy evolve together, which is why the wiki should keep this as a coherent project family rather than scattering the files into unrelated buckets. The newer essays make the same point from the other side: consentful systems stay expensive because they keep paying attention, and organizational legibility only works when that attention can be witnessed.
 That also means the branch has an agency dimension: if attention is the cost of remaining consentful, then agency is the capacity that has to survive long enough to keep making the consent meaningful.
 Governance shows up here as the condition that keeps voluntary intelligence voluntary: if authorization, refusal, and review are not legible, the site language stops being consentful and starts becoming merely decorative.
+The accounting seam matters too: [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md) names the trust burden that appears when language itself becomes consequential, and [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md) explains why the system has to scope observation to the responsibility it is willing to carry.
+That puts [Witness Infrastructure](../../concepts/witness-infrastructure/index.md) directly in the branch, because consentful systems need continuity and admissibility as much as they need phrasing.
 The new essay [The Loop Requirement](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) sharpens the same basin from the communication side: a statement only becomes durable meaning when uptake is reflected back through interpretation or confirmation.
 The [Voting Machine](../voting-machine/index.md) project is the civic-infrastructure analogue of that claim: consent, refusal, review, and evidence have to stay separable if the system is going to remain trustworthy.
 Loop mechanics belongs here too, because a voluntary-intelligence system has to remain repairable after drift, not just well phrased at launch.
@@ -50,6 +52,9 @@ Loop mechanics belongs here too, because a voluntary-intelligence system has to 
 - [Attention](../../concepts/attention/index.md)
 - [Agency](../../attractors/agency/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [Witness Infrastructure](../../concepts/witness-infrastructure/index.md)
+- [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Grounding](../../attractors/grounding/index.md)

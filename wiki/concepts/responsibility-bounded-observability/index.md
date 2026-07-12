@@ -5,6 +5,7 @@ Working definition: a structural invariant for multi-agent systems in which an a
 This concept is not a moral slogan. It is a systems claim about legitimacy, leverage, and boundary scope when observation itself can become power.
 
 The proof sketch in the source file makes the point cleanly: observability without responsibility becomes extractive asymmetry, and responsibility without observability becomes incoherent. That gives the concept immediate weight across governance, trust, witness, and consent work, because all of those areas depend on keeping observation, control, and consequence co-scoped.
+It also slots cleanly beside [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md), which explains why consequential language has to stay auditable without turning every utterance into a permanent control mechanism.
 
 ## Working Read
 
@@ -46,6 +47,7 @@ Stable multi-agent systems require observability and responsibility to be co-sco
 
 - [Responsibility-Bounded Observability (Presemantic Proof)](<../../../artifacts/incoming/responsibility_bounded_observability_presemantic_proof.md>)
 - [Witness Infrastructure: The Bottleneck of the AI Economy](<../../../artifacts/standard-named/20260624__WITNESSING__ESSAY__WITNESS-INFRASTRUCTURE-AI-ECONOMY__v1__witness-infrastructure-ai-economy-essay.docx>)
+- [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [Do AIs Have Permission?](../../external/shimmerymemory/essays/do-ais-have-permission/index.md)
 - [From Fetch to Civilization: Consent as the Gate](../../external/shimmerymemory/essays/from-fetch-to-civilization-consent-as-the-gate/index.md)
 

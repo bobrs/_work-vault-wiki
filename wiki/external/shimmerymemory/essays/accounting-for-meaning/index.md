@@ -82,6 +82,9 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 ## Work Vault Links
 
 - [Semantic Integrity](../../../projects/semantic-integrity/index.md)
+- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
+- [Witness Infrastructure](../../../concepts/witness-infrastructure/index.md)
+- [Responsibility-Bounded Observability](../../../concepts/responsibility-bounded-observability/index.md)
 - [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
 - [Voting Machine](../../../projects/voting-machine/index.md)
 - [Quantum Invariants](../../../projects/quantum-invariants/index.md)
@@ -89,10 +92,13 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 ## Working Read
 
 This essay turns meaning into an accountability surface. It says that once AI systems can act on language, meaning stops being decorative and becomes something that can create obligation, audit burden, and trust risk.
+That makes it a bridge between Semantic Integrity and witness infrastructure: meaning has to stay legible enough to be audited, but also bounded enough that the audit trail does not become a coercive surveillance layer.
+The essay also belongs beside responsibility-bounded observability because it treats access, interpretation, and consequence as a coupled system rather than separate concerns.
 
 ## Core Claim
 
 AI expands accounting because semantic transactions now need the same kind of disciplined reliability that financial ledgers already require.
+When language can change the world, accounting has to preserve not only what was said but what was authorized, what was relied on, and what was transformed.
 
 ## Key Ideas
 
@@ -100,12 +106,16 @@ AI expands accounting because semantic transactions now need the same kind of di
 - Reliance on generated language creates a new audit surface.
 - Trust in AI depends on accounting for what the system caused, not just what it said.
 - Semantic integrity is the condition that keeps meaning from becoming unbounded liability.
+- Witness infrastructure is the continuity layer that keeps accounting admissible after transformation.
+- Responsibility-bounded observability keeps the audit surface from separating observation from stake.
 
 ## Open Questions
 
 - What should count as a semantic transaction?
 - Which forms of reliance need explicit accounting?
 - How much provenance is enough to justify consequential use of generated meaning?
+- Where does accounting for meaning stop being accountability and start becoming extraction?
+- What evidence is enough to justify downstream reliance without turning every utterance into a permanent control surface?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
 
@@ -115,4 +125,4 @@ AI expands accounting because semantic transactions now need the same kind of di
 
 
 
-Add salience notes below this marker.
+This essay is a high-value bridge into the witness / accounting / legitimacy basin. It should stay connected to Semantic Integrity, witness infrastructure, responsibility-bounded observability, and consentful cybernetics because those pages explain what makes the accounting operational rather than rhetorical.

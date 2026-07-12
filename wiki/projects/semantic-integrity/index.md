@@ -32,6 +32,7 @@ This is the operational layer that sits between the Consentful Cybernetics philo
 The FAQ now splits into a pilot-architecture page and an investor-framing page, the cybersecurity essay now opens into semantic infrastructure and semantic-attack-surface concerns, the conversation reconstitution preserves the semantic basin, the Semantic OS vision now opens into airlock architecture, the semantic movement signals memo still reads like a child instrumentation layer of the same basin, and the earned-insight note now frames intake ethics as part of the same meaning-preservation work. Together they still read like one durable implementation seam.
 That makes this page one of the clearest routes back to the Governance attractor whenever the work shifts from meaning-preservation into policy, authority, or review under load.
 The nearby [Voting Machine](../voting-machine/index.md) project is the concrete civic counterpart when that same governance logic has to preserve custody, auditability, and privacy under election-like constraints.
+The accounting seam now matters here as well: [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md) is the external articulation of why semantic integrity becomes an accounting problem, and [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md) is the boundary logic that keeps the resulting observability legitimate.
 The attractor layer is the compressed semantic map that this branch implements: [Meaning](../../attractors/meaning/index.md), [Trust](../../attractors/trust/index.md), [Attention](../../attractors/attention/index.md), [Governance](../../attractors/governance/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 Attention and agency sit inside this basin because the system cannot preserve meaning if it cannot first select carefully and then preserve enough choice to correct course.
 Loop mechanics matters here too, because once a semantic system is in motion the question becomes how feedback can stay repairable instead of drifting into opaque automation.
@@ -45,6 +46,8 @@ Loop mechanics matters here too, because once a semantic system is in motion the
 - [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 - [Attention](../../attractors/attention/index.md)
 - [Agency](../../attractors/agency/index.md)
+- [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
+- [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Earned Insight](./earned-insight/index.md)
 
