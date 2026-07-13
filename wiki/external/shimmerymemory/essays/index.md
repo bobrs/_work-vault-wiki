@@ -12,12 +12,15 @@ Published external metadata index for the Shimmery Memory essay feed.
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
 - Ingested at: `2026-07-09T01:02:16.204293Z`
-- Item count: `74`
+- Item count: `77`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
 
+- [When Meaning Begins to Move](./when-meaning-begins-to-move/index.md) — Semantic Lineage, Semantic Dynamics, and Semantic Thermodynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-lineage, semantic-dynamics, semantic-thermodynamics`; first seen `2026-07-13T00:00:00Z`
+- [The Motion of Meaning](./the-motion-of-meaning/index.md) — Toward a Theory of Semantic Dynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-dynamics, semantic-lineage, semantic-complementarity`; first seen `2026-07-13T00:00:00Z`
 - [From Fetch to Civilization: Consent as the Gate](./from-fetch-to-civilization-consent-as-the-gate/index.md) — Artifact, attractor, and the right to stop — published `2026-07-11`; updated `2026-07-11`; tags: `consent, civilization, artifact-vs-attractor, loops`; first seen `2026-07-11T00:00:00Z`
+- [The Big Hook](./the-big-hook/index.md) — Why Business Becomes Code—and Why Relationship Becomes the Durable Advantage — published `2026-07-10`; updated `2026-07-10`; tags: `business-as-code, artificial-intelligence, relational-capability, consentful-cybernetics`; first seen `2026-07-10T00:00:00Z`
 - [Consent-Keyed Immutable Storage Loops](./consent-keyed-immutable-storage-loops/index.md) — Witness cells, re-entry, and storage-forward Abracadabracadoo — published `2026-07-01`; updated `2026-07-01`; tags: `consentful-cybernetics, protocol, storage, immutability`; first seen `2026-07-01T21:51:02.570958Z`
 - [The Real Is a Ritual](./20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-06-26T03:20:02.687577Z`
 - [Attention Engine: Book Series Plan and Semantic Compression](./attention-engine-book-series-plan-and-semantic-compression/index.md) — From Attention Mechanics to the Surface of Mutual Projection and Comparator-Grounded Reality Engineering — published `2026-06-25`; updated `2026-06-25`; tags: `attention-engine, attention, appreciation, consent-to-context`; first seen `2026-07-01T21:51:02.570958Z`

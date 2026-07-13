@@ -27,6 +27,7 @@ Quantum Invariants is a useful structural companion because it gives the consent
 - [Why Consentful AI Is Expensive](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__WHY-CONSENTFUL-AI-IS-EXPENSIVE__v1__why-consentful-ai-is-expensive-grounded-version.md>)
 - [Consent-Aware AI in Organizations](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__CONSENT-AWARE-AI-IN-ORGANIZATIONS__v1__consent-aware-ai-in-organizations-taxonomy-layers-and-deployment-pattern.md>)
 - [AI and the Next Layer of Organizational Legibility](<../../../artifacts/standard-named/20260625__CONSENTFUL-CYBERNETICS__ESSAY__ORGANIZATIONAL-LEGIBILITY__v1__ai-and-the-next-layer-of-organizational-legibility.md>)
+- [The Big Hook](<../../../artifacts/intake-archive/20260713__consentful-cybernetics-spillover-intake/20260710__SHIMMERYMEMORY__ESSAY__PUBLIC__CONSENTFULCYBERNETICS__the-big-hook.md>)
 - [The Consentocracy Bridge](../../external/shimmerymemory/essays/changing-the-optimization-primitive/index.md)
 
 ## Working Read
@@ -41,6 +42,7 @@ That puts [Witness Infrastructure](../../concepts/witness-infrastructure/index.m
 The new essay [The Loop Requirement](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) sharpens the same basin from the communication side: a statement only becomes durable meaning when uptake is reflected back through interpretation or confirmation.
 The [Voting Machine](../voting-machine/index.md) project is the civic-infrastructure analogue of that claim: consent, refusal, review, and evidence have to stay separable if the system is going to remain trustworthy.
 Loop mechanics belongs here too, because a voluntary-intelligence system has to remain repairable after drift, not just well phrased at launch.
+The new [The Big Hook](../../external/shimmerymemory/essays/the-big-hook/index.md) essay pushes the same logic outward into business-as-code, while [Loopways](../loopways/index.md) names the interloop exchange layer that lets consented systems route state without flattening boundaries.
 
 ## Related Links
 
@@ -55,6 +57,8 @@ Loop mechanics belongs here too, because a voluntary-intelligence system has to 
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [Witness Infrastructure](../../concepts/witness-infrastructure/index.md)
 - [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md)
+- [The Big Hook](../../external/shimmerymemory/essays/the-big-hook/index.md)
+- [Loopways](../loopways/index.md)
 - [Voting Machine](../voting-machine/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Grounding](../../attractors/grounding/index.md)

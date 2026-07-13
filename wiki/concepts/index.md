@@ -32,6 +32,7 @@ Current concept pages:
 - [Witness Infrastructure](witness-infrastructure/index.md)
 - [Governance Diad](governance-diad/index.md)
 - [Responsibility-Bounded Observability](responsibility-bounded-observability/index.md)
+- [Semantic Doppler](semantic-doppler/index.md)
 - [Contextual Authority Principle](contextual-authority-principle/index.md)
 - [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
 - [Idioms as Social Control](idioms-as-social-control/index.md)
