@@ -3,6 +3,7 @@
 This project is the witness seed for the telic-field line of work: telic fields, internal constitutional elements, semantic polytelometry, context carrying capacity, and temporal stitching.
 
 It is not a paper set yet, and it is not an application family yet. It is the provenance container for a synthesis that is still being named. The source transcript preserves the current vocabulary and the path from `HowOneThing.work` to `HowEverything.work` to `HowSelf.work`, so future papers can keep lineage intact instead of starting from scratch.
+The first explicit descendant container is [The Telic Field Papers](../telic-field-papers/index.md), which stays provisional until the root transcript intake and adjacent-field review are fully resolved.
 
 ## Current Shape
 
@@ -25,6 +26,7 @@ The current vocabulary is still doing discovery work. `Telic fields`, `internal 
 - [How Works](../how-works/index.md)
 - [Witnessing](../../concepts/witnessing/index.md)
 - [LoopLink](../../concepts/looplink/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
 - [Semantic Integrity](../semantic-integrity/index.md)
 - [Consentful Cybernetics](../consentful-cybernetics/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)

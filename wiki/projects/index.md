@@ -16,6 +16,7 @@ The repository has entered the first classification pass and now has lineage-awa
 - [Semantic Integrity](semantic-integrity/index.md)
 - [Shimmery Memory](shimmerymemory/index.md)
 - [TEIIC](teiic/index.md)
+- [The Telic Field Papers](telic-field-papers/index.md)
 - [PDSP](pdsp/index.md)
 - [Abracadabracadoo](abracadabracadoo/index.md)
 - [Abracadoo](abracadoo/index.md)
