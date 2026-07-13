@@ -1,25 +1,11 @@
----
-title: "Polytelometric Navigation"
-slug: "polytelometric-navigation"
-status: "candidate"
-processing_tier: 4
-content_canon_status: "unset"
-source_role: "concept-page"
-lineage: "The Telic Field Papers"
-artifact_date: "2026-07-13"
-derived_from:
-  - "20260713__TELIC-FIELDS__TRANSCRIPT__SOURCE__ORIGIN-SESSION__from-attractors-to-semantic-polytelometry.md"
-  - "20260713__TELIC-FIELDS__SESSION-COMPRESSION__WORKING__ORIGIN-SESSION__telic-fields-and-semantic-polytelometry.md"
-  - "20260713__TELIC-FIELDS__GLOSSARY__WORKING__ORIGIN-SESSION__working-vocabulary-and-claim-register.md"
----
-
 # Polytelometric Navigation
 
-Parent lineage: **The Telic Field Papers**
+Parent lineage: [The Telic Field Papers](../../projects/telic-field-papers/index.md)
 
-Status: `candidate`  
-Processing tier: `4`  
-Content canon status: `unset`
+Status: candidate  
+Source role: semantic wiki layer  
+Processing tier: 4  
+Content canon status: unset
 
 ## Working read
 
@@ -251,3 +237,13 @@ Witness preserves the difference between stated bearing and actual trajectory.
 - PoleloP
 - Consentful Cybernetics
 - Polytelometric Comparison Record
+
+
+## Source lineage
+
+- [Origin Conversation](../../projects/telic-field-papers/artifacts/origin-conversation/index.md)
+- [Session Compression](../../projects/telic-field-papers/artifacts/session-compression/index.md)
+- [Working Glossary and Claim Register](../../projects/telic-field-papers/artifacts/working-glossary-and-claim-register/index.md)
+- [Lineage Map](../../projects/telic-field-papers/artifacts/lineage-map/index.md)
+
+This page remains a candidate semantic surface. The source artifacts govern provenance and exact wording.

@@ -5,17 +5,17 @@ The current corpus already supports recurring attractors and stabilized concept 
 ## Attractor Bridges
 
 - [Witness](../attractors/witness/index.md) -> [Witnessing](witnessing/index.md), [Governance Diad](governance-diad/index.md), [Responsibility-Bounded Observability](responsibility-bounded-observability/index.md), [Witness Infrastructure](witness-infrastructure/index.md), [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
-- [Consent](../attractors/consent/index.md) -> [Intent-Consent](intent-consent/index.md), [Consent Physics](consent-physics/index.md), [AI Did Not Break Consent](ai-did-not-break-consent/index.md), [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
+- [Consent](../attractors/consent/index.md) -> [Intent-Consent](intent-consent/index.md), [Consent Physics](consent-physics/index.md), [AI Did Not Break Consent](ai-did-not-break-consent/index.md), [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md), [Polytelometric Navigation](polytelometric-navigation/index.md), [Semantic Polytelometry](semantic-polytelometry/index.md)
 - [Attention](../attractors/attention/index.md) -> [Attention](attention/index.md)
 - [Intuition](../attractors/intuition/index.md) -> [How Intuition Works](../projects/how-intuition-works/index.md)
-- [Provenance](../attractors/provenance/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md)
-- [Governance](../attractors/governance/index.md) -> [Governance Diad](governance-diad/index.md), [POLEMEMELOP](polememelop/index.md), [Voting Machine](../projects/voting-machine/index.md), [Contextual Authority Principle](contextual-authority-principle/index.md)
+- [Provenance](../attractors/provenance/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md), [Telic Projection](telic-projection/index.md)
+- [Governance](../attractors/governance/index.md) -> [Governance Diad](governance-diad/index.md), [POLEMEMELOP](polememelop/index.md), [Voting Machine](../projects/voting-machine/index.md), [Contextual Authority Principle](contextual-authority-principle/index.md), [Polytelometric Navigation](polytelometric-navigation/index.md)
 - [Grounding](../attractors/grounding/index.md) -> [How Intuition Works](../projects/how-intuition-works/index.md), [Consent Physics](consent-physics/index.md)
-- [Loop Mechanics](../attractors/loop-mechanics/index.md) -> [LoopLink](looplink/index.md), [Loop Economy](loop-economy/index.md)
-- [Agency](../attractors/agency/index.md) -> [Intent-Consent](intent-consent/index.md), [PDSP](pdsp/index.md)
-- [Meaning](../attractors/meaning/index.md) -> [POLEMEMELOP](polememelop/index.md), [Attention](attention/index.md), [Glyph Invocation and Reference](glyph-invocation-and-reference/index.md)
-- [Memory](../attractors/memory/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md)
-- [Trust](../attractors/trust/index.md) -> [PDSP](pdsp/index.md), [Abracadabracadoo](abracadabracadoo/index.md)
+- [Loop Mechanics](../attractors/loop-mechanics/index.md) -> [LoopLink](looplink/index.md), [Loop Economy](loop-economy/index.md), [Telic Fields](telic-fields/index.md), [Context Carrying Capacity](context-carrying-capacity/index.md)
+- [Agency](../attractors/agency/index.md) -> [Intent-Consent](intent-consent/index.md), [PDSP](pdsp/index.md), [Constitutional Self](constitutional-self/index.md)
+- [Meaning](../attractors/meaning/index.md) -> [POLEMEMELOP](polememelop/index.md), [Attention](attention/index.md), [Telic Fields](telic-fields/index.md), [Telic Projection](telic-projection/index.md), [Semantic Polytelometry](semantic-polytelometry/index.md)
+- [Memory](../attractors/memory/index.md) -> [Witnessing](witnessing/index.md), [LoopLink](looplink/index.md), [Context Carrying Capacity](context-carrying-capacity/index.md)
+- [Trust](../attractors/trust/index.md) -> [PDSP](pdsp/index.md), [Abracadabracadoo](abracadabracadoo/index.md), [Semantic Polytelometry](semantic-polytelometry/index.md)
 Current concept pages:
 
 - [Abracadabracadoo](abracadabracadoo/index.md)
@@ -32,7 +32,6 @@ Current concept pages:
 - [Witness Infrastructure](witness-infrastructure/index.md)
 - [Governance Diad](governance-diad/index.md)
 - [Responsibility-Bounded Observability](responsibility-bounded-observability/index.md)
-- [Semantic Doppler](semantic-doppler/index.md)
 - [Contextual Authority Principle](contextual-authority-principle/index.md)
 - [Witness-to-Witness Messaging Protocol](witness-to-witness-messaging/index.md)
 - [Idioms as Social Control](idioms-as-social-control/index.md)
@@ -40,6 +39,13 @@ Current concept pages:
 - [Glyph Invocation and Reference](glyph-invocation-and-reference/index.md)
 - [Shared Persistence as a Coordination Primitive](shared-persistence-as-a-coordination-primitive/index.md)
 - [Velocity and Braking](velocity-and-braking/index.md)
+- [Semantic Doppler](semantic-doppler/index.md)
+- [Telic Fields](telic-fields/index.md)
+- [Telic Projection](telic-projection/index.md)
+- [Polytelometric Navigation](polytelometric-navigation/index.md)
+- [Constitutional Self](constitutional-self/index.md)
+- [Context Carrying Capacity](context-carrying-capacity/index.md)
+- [Semantic Polytelometry](semantic-polytelometry/index.md)
 
 Add a concept page or deepen an existing one when Tier 3 or Tier 4 extraction shows the same idea recurring across multiple artifacts, branches, or projects.
 

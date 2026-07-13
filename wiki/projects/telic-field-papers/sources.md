@@ -9,6 +9,15 @@ This page separates primary witness material, derived working artifacts, precurs
 
 It should not be used as though all listed items have already been verified.
 
+## Wiki artifact surfaces
+
+- [Artifact Index](artifacts/index.md)
+- [Origin Conversation](artifacts/origin-conversation/index.md)
+- [Session Compression](artifacts/session-compression/index.md)
+- [Working Glossary and Claim Register](artifacts/working-glossary-and-claim-register/index.md)
+- [Lineage Map](artifacts/lineage-map/index.md)
+- [Candidate Concept-Page Package](artifacts/candidate-concept-page-package/index.md)
+
 ## Primary witnessed source
 
 ### Origin transcript

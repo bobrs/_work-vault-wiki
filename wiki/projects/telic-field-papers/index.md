@@ -31,6 +31,7 @@ The current branch contains:
 - one session compression;
 - one working glossary and claim register;
 - one lineage map;
+- one artifact index and supporting artifact-facing pages;
 - six candidate concept pages;
 - a proposed foundational paper series;
 - a proposed AI and implementation branch;
@@ -67,6 +68,15 @@ These pages remain candidate material. Their inclusion here does not make them c
 - [Sources](sources.md)
 - [Open Questions](open-questions.md)
 - [Telic Field Concepts — Stage 5](../../concepts/index-stage-5.md)
+
+## Artifact surfaces
+
+- [Artifact Index](artifacts/index.md)
+- [Origin Conversation](artifacts/origin-conversation/index.md)
+- [Session Compression](artifacts/session-compression/index.md)
+- [Working Glossary and Claim Register](artifacts/working-glossary-and-claim-register/index.md)
+- [Lineage Map](artifacts/lineage-map/index.md)
+- [Candidate Concept-Page Package](artifacts/candidate-concept-page-package/index.md)
 
 ## Proposed conceptual paper series
 
@@ -168,6 +178,6 @@ This branch does not yet claim:
 1. Complete formal intake of the root transcript and first derivatives.
 2. Confirm actual repository paths and hashes.
 3. Install and validate this lineage container.
-4. Install the candidate concept pages.
-5. Add artifact-facing wiki pages.
+4. Validate the artifact surfaces.
+5. Validate the candidate concept pages.
 6. Begin the first-principles paper and adjacent-fields review together.
