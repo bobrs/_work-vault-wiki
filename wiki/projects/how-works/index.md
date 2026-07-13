@@ -59,6 +59,7 @@ That makes this a useful bridge page: it keeps the cluster visible without forci
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [AI Did Not Break Consent](../../concepts/ai-did-not-break-consent/index.md)
 - [Voting Machine](../voting-machine/index.md)
+- [TEIIC](../teiic/index.md)
 - [Governance](../side-projects-desktop/governance/index.md)
 - [Loop and Phase Training](../side-projects-desktop/loop-and-phase-training/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
