@@ -59,6 +59,31 @@ CICP treats mutuality as an operational protocol. A loop is not just a social me
 - Implementation and access translate the abstract loop into pairing, key derivation, selective decryption, and physical token initialization.
 - Loop training turns the model into a teachable sequence instead of an isolated thesis.
 
+## Telic Projection Bridge
+
+**Relation class:** explicit precursor, structural precursor, and implementation precursor
+
+CICP is one of the strongest internal precursors to the telic-projection branch. It already treats intention, consent, attention, memory, loop projection, semantic equivalence, dynamic trust, and exit as operational protocol concerns.
+
+The later Telic Field Papers distinguish:
+
+- the source's living telic field;
+- the simplified calculation used to infer what matters for a scope;
+- the telic projection transmitted downstream;
+- the receiver's internal mirror;
+- field, projection, and projection-integrity breach.
+
+This later distinction does not replace CICP. It clarifies what must remain visible when intention is compressed into a protocol surface.
+
+> **Consent is not complete field disclosure. It is adequate mutual projection for the scope of the loop being formed.**
+
+Related candidate concepts:
+
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+
 ## Dependencies
 
 - The protocol foundations give the vocabulary for loops, glyphs, and trust.
@@ -88,6 +113,9 @@ The attractor layer is the visitor-facing map of the same terrain: [Consent](../
 - [LoopLink](../../concepts/looplink/index.md)
 - [Consent Physics](../../concepts/consent-physics/index.md)
 - [Governance Diad](../../concepts/governance-diad/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Related Links
 
@@ -100,6 +128,7 @@ The attractor layer is the visitor-facing map of the same terrain: [Consent](../
 - [Working Notes](working-notes/index.md)
 - [FractalIdentity Tree](fractalidentity-tree/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
 
 ## Attractor Bridge
 

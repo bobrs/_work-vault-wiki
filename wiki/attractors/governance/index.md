@@ -58,6 +58,8 @@ In this corpus, governance is not bureaucracy in the narrow sense. It is the ope
 - [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
 - [From Output to Constitutional AI](../../external/shimmerymemory/essays/from-output-to-constitutional-ai/index.md)
 - [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Adjacent Research
 
@@ -90,6 +92,8 @@ In this corpus, governance is not bureaucracy in the narrow sense. It is the ope
 - [Provenance](../provenance/index.md)
 - [Agency](../agency/index.md)
 - [Loop Mechanics](../loop-mechanics/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
 
 ## Related Invariants
 
@@ -118,6 +122,8 @@ In this corpus, governance is not bureaucracy in the narrow sense. It is the ope
 - Where does legibility become domination?
 - What must remain revocable for governance to stay consentful?
 - When does governance become a substitute for witness instead of a support for it?
+- What should a loop do when it can no longer hold enough relevant telic difference to govern legitimately?
+- How can governance act decisively without making one partial telos sovereign?
 
 ## Next Navigation
 

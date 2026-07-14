@@ -50,6 +50,28 @@ The branch works as a compression node for a family of explanatory essays that a
 The consent and intent pieces connect directly to the existing consent stack. The money, accountability, honesty, and exploitation pieces lean toward governance and economic framing. The state and orientation pieces read more like world-model or loop-navigation essays. The self and affect pieces sit close to the emotional and identity branches already present elsewhere in the repo.
 The [Voting Machine](../voting-machine/index.md) project belongs nearby because the audit and accountability theme in this umbrella already points toward custody, evidence, and legitimacy under constraint.
 
+## Reader-Path Bridge
+
+**Relation class:** conceptual echo and public descendant bridge
+
+The Telic Field Papers create a possible second durable seam inside the broader How Works family:
+
+```text
+HowOneThing.work
+→ HowEverything.work
+→ HowSelf.work / HowSelfWorks.com
+```
+
+The route begins with one visible pattern, recognizes its recurrence across relations and scales, and then turns inward toward the constitutional self.
+
+This is not yet a request to split the How Works umbrella. The route should remain a candidate bridge until the HowEverything and HowSelf source documents exist and the canonical self-domain decision is recorded.
+
+Related candidate pages:
+
+- [The Telic Field Papers](../telic-field-papers/index.md)
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
+
 That makes this a useful bridge page: it keeps the cluster visible without forcing every essay into a separate branch before the corpus has enough perspective.
 
 ## Related Links
@@ -63,6 +85,8 @@ That makes this a useful bridge page: it keeps the cluster visible without forci
 - [Governance](../side-projects-desktop/governance/index.md)
 - [Loop and Phase Training](../side-projects-desktop/loop-and-phase-training/index.md)
 - [Semantic Collapse Theory](../semantic-collapse-theory/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
 
 ## Next Actions
 

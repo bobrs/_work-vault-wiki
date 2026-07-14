@@ -44,6 +44,25 @@ The [Voting Machine](../voting-machine/index.md) project is the civic-infrastruc
 Loop mechanics belongs here too, because a voluntary-intelligence system has to remain repairable after drift, not just well phrased at launch.
 The new [The Big Hook](../../external/shimmerymemory/essays/the-big-hook/index.md) essay pushes the same logic outward into business-as-code, while [Loopways](../loopways/index.md) names the interloop exchange layer that lets consented systems route state without flattening boundaries.
 
+## Telic Field Bridge
+
+**Relation class:** ethical precursor, implementation precursor, and parent-project bridge
+
+Consentful Cybernetics supplies the governing ethical frame for the Telic Field Papers: systems do not merely move toward ends; they recruit attention, energy, data, labor, standing, and future possibility into those ends. Consent determines which recruitment is legitimate.
+
+The later work adds a semantic and relational instrument for making those ends visible before optimization collapses them into one objective.
+
+> **Consent determines which purposes may legitimately recruit which energies.**
+
+Semantic polytelometry belongs here as a candidate capability of voluntary intelligence: the system may help participants compare their expressed telic projections, but it may not own the map, declare their true purpose, or erase unresolved standing.
+
+Related candidate concepts:
+
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+
 ## Related Links
 
 - [Projects Index](../index.md)
@@ -62,6 +81,9 @@ The new [The Big Hook](../../external/shimmerymemory/essays/the-big-hook/index.m
 - [Voting Machine](../voting-machine/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Grounding](../../attractors/grounding/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Attractor Bridge
 

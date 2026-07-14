@@ -37,6 +37,8 @@ In practice, loop mechanics is the bridge between attention and agency: attentio
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
 - [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
 - [Consent-Aware AI in Organizations](../../external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Telic Fields](../../concepts/telic-fields/index.md)
 
 ## Adjacent Research
 
@@ -66,6 +68,8 @@ In practice, loop mechanics is the bridge between attention and agency: attentio
 - [Memory](../memory/index.md)
 - [Agency](../agency/index.md)
 - [Trust](../trust/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Related Invariants
 
@@ -92,6 +96,8 @@ In practice, loop mechanics is the bridge between attention and agency: attentio
 - What distinguishes a living loop from an extractive loop?
 - When does repair require rupture?
 - How does escape capacity change the ethics of constraint?
+- What telic conditions must remain present for a repeated structure to remain a living loop?
+- When does maintenance fail because the loop's constitutional substrate no longer exists?
 
 ## Next Navigation
 

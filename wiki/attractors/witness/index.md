@@ -39,6 +39,7 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
 - [The Witness Twist](../../external/shimmerymemory/essays/the-witness-twist/index.md)
 - [Semantic Collapse Theory / Witness and Governance](../../projects/semantic-collapse-theory/origin-and-governance/witness-and-governance/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
 
 ## Related Projects
 
@@ -55,6 +56,9 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 - [Provenance](../provenance/index.md)
 - [Governance](../governance/index.md)
 - [Meaning](../meaning/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Related Invariants
 
@@ -79,6 +83,8 @@ Witnessing is the bridge between raw occurrence and accountable artifact. Withou
 - When does witnessing become control?
 - What makes a witness legitimate?
 - How does AI witness without collapsing context into extraction?
+- How does witness preserve telic context across time without freezing a changing field?
+- What must be recorded so projection loss remains correctable?
 
 ## Next Navigation
 

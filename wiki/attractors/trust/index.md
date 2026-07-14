@@ -35,6 +35,8 @@ In other words, trust is what remains when the system is still expected to funct
 - [Defending Meaning](../../external/shimmerymemory/essays/defending-meaning/index.md)
 - [Stop Anthropomorphizing Software 3.0](../../external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md)
 - [Durable Coordination](../../external/shimmerymemory/essays/durable-coordination/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Adjacent Research
 
@@ -66,6 +68,8 @@ In other words, trust is what remains when the system is still expected to funct
 - [Meaning](../meaning/index.md)
 - [Grounding](../grounding/index.md)
 - [Intuition](../intuition/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
 
 ## Related Invariants
 
@@ -92,6 +96,8 @@ In other words, trust is what remains when the system is still expected to funct
 - What can be verified, and what must be related to?
 - How does trust survive scale?
 - When does proof substitute for relationship instead of supporting it?
+- Does trust increase the amount of conflicting telic difference a relationship can hold without collapse?
+- What evidence permits a projected purpose to remain actionable without becoming sovereign?
 
 ## Next Navigation
 

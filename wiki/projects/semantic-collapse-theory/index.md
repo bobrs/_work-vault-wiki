@@ -45,10 +45,36 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - The archive still functions as lineage evidence rather than a content rewrite target.
 - The active root corpus is now organized into five stable cluster pages.
 
+## Retrospective Telic Field Bridge
+
+**Relation class:** structural precursor and retrospective bridge
+
+Semantic Collapse Theory is a deep precursor to the Telic Field Papers through its loop, witness, memory, continuity, affective-interface, and semantic-drift structures.
+
+This relationship must remain non-retroactive. The SCT source corpus should not be rewritten as though it already used the later terms `telic field`, `telic projection`, or `semantic polytelometry`.
+
+The later synthesis provides a new reading of recurring SCT structures:
+
+- loop persistence becomes legible as durable orientation;
+- semantic drift may include movement away from the end a symbol or structure originally served;
+- memory carries compressed orientation across time;
+- affective interfaces may carry projections from locally organized internal concerns;
+- witnessed loops preserve the evidence needed to compare intended and operative direction.
+
+Related candidate concepts:
+
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+
 ## Related Concepts
 
 - [POLEMEMELOP](../../concepts/polememelop/index.md)
 - [Concepts Index](../../concepts/index.md)
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
 
 ## Related Branches
 
@@ -59,6 +85,7 @@ The origin document remains the clearest anchor for the branch and lives inside 
 - [Story](story/index.md)
 - [Concepts Index](../../concepts/index.md)
 - [Quantum Invariants](../quantum-invariants/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
 
 The attractor layer gives SCT a compact map back toward the shared corpus vocabulary: [Witness](../../attractors/witness/index.md), [Loop Mechanics](../../attractors/loop-mechanics/index.md), [Meaning](../../attractors/meaning/index.md), [Memory](../../attractors/memory/index.md), [Governance](../../attractors/governance/index.md), [Trust](../../attractors/trust/index.md), [Provenance](../../attractors/provenance/index.md), and [Consent](../../attractors/consent/index.md).
 

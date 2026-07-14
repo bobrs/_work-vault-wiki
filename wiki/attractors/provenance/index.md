@@ -34,6 +34,8 @@ In practice, it is the admissibility layer for everything that wants to travel: 
 - [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
 - [Privacy Is a Membrane, Not a Wall](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md)
 - [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Origin Conversation](../../projects/telic-field-papers/artifacts/origin-conversation/index.md)
 
 ## Adjacent Research
 
@@ -59,6 +61,8 @@ In practice, it is the admissibility layer for everything that wants to travel: 
 - [Memory](../memory/index.md)
 - [Trust](../trust/index.md)
 - [Governance](../governance/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Related Invariants
 
@@ -85,6 +89,8 @@ In practice, it is the admissibility layer for everything that wants to travel: 
 - What makes a trace admissible?
 - How much context must travel with an artifact?
 - Can provenance be consentful without being controlling?
+- Can interpretive authority remain legitimate when the training or source lineage erased the standing that produced the meaning?
+- What provenance must travel with an inferred telic projection?
 
 ## Next Navigation
 

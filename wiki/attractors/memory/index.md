@@ -34,6 +34,8 @@ Without that, memory becomes accumulation instead of continuity: the system reme
 - [Shimmery Memory Publishing Contract](../../external/shimmerymemory/essays/shimmery-memory-publishing-contract/index.md)
 - [Forgetting-First AI](../../external/shimmerymemory/essays/forgetting-first-ai/index.md)
 - [Machine Invitation](../../external/shimmerymemory/essays/machine-invitation/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
 
 ## Adjacent Research
 
@@ -58,6 +60,8 @@ Without that, memory becomes accumulation instead of continuity: the system reme
 - [Trust](../trust/index.md)
 - [Loop Mechanics](../loop-mechanics/index.md)
 - [Witness](../witness/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
 
 ## Related Invariants
 
@@ -82,6 +86,8 @@ Without that, memory becomes accumulation instead of continuity: the system reme
 - What should be remembered?
 - What should be forgotten first?
 - How does machine memory stay consent-aware?
+- Is memory partly the persistence of prior telic orientation?
+- How should a current system update internal elements still navigating an earlier temporal terrain?
 
 ## Next Navigation
 

@@ -34,6 +34,8 @@ That means meaning has to survive provenance and consent as well as interpretati
 - [Accounting for Meaning](../../external/shimmerymemory/essays/accounting-for-meaning/index.md)
 - [When Language Begins to Act](../../external/shimmerymemory/essays/when-language-begins-to-act/index.md)
 - [What Stories Really Carry](../../external/shimmerymemory/essays/what-stories-really-carry/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Adjacent Research
 
@@ -63,6 +65,9 @@ That means meaning has to survive provenance and consent as well as interpretati
 - [Governance](../governance/index.md)
 - [Grounding](../grounding/index.md)
 - [Intuition](../intuition/index.md)
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Related Invariants
 
@@ -88,6 +93,8 @@ That means meaning has to survive provenance and consent as well as interpretati
 - When does language begin to act?
 - How do we defend meaning without freezing it?
 - What makes interpretation accountable?
+- Does meaning become durable because it preserves a distinction that mattered to a center of standing?
+- When does a semantic projection become more authoritative than the living field it represents?
 
 ## Next Navigation
 

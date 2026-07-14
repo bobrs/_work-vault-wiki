@@ -34,6 +34,8 @@ That makes agency the lived side of consent: the question is not only whether a 
 - [Good Faith Is Not a Defense Mechanism](../../external/shimmerymemory/essays/good-faith-is-not-a-defense-mechanism/index.md)
 - [From Aspiration to Constraint](../../external/shimmerymemory/essays/from-aspiration-to-constraint/index.md)
 - [How Intuition Works](../../projects/how-intuition-works/index.md)
+- [Constitutional Self](../../concepts/constitutional-self/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Adjacent Research
 
@@ -51,6 +53,7 @@ That makes agency the lived side of consent: the question is not only whether a 
 - [Loop and Phase Training](../../projects/side-projects-desktop/loop-and-phase-training/index.md)
 - [Voting Machine](../../projects/voting-machine/index.md)
 - [Semantic Integrity](../../projects/semantic-integrity/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
 
 ## Related Concepts
 
@@ -85,6 +88,8 @@ That makes agency the lived side of consent: the question is not only whether a 
 - How do we distinguish choice from survival adaptation?
 - What makes escape meaningful?
 - When is participation falsely counted as consent?
+- How does person-level agency emerge from internally plural telic orientations?
+- When does executive control cease to represent the constitutional field it acts for?
 
 ## Next Navigation
 

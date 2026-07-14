@@ -33,6 +33,8 @@ Consent is the structural difference between participation and extraction. It de
 - [Consent Is the Gradient Mask on Optimization](../../external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md)
 - [The Historical Record of the Future Requires Consentful Loops](../../external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md)
 - [Privacy Is a Membrane, Not a Wall](../../external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md)
+- [The Telic Field Papers](../../projects/telic-field-papers/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Adjacent Research
 
@@ -59,6 +61,9 @@ Consent is the structural difference between participation and extraction. It de
 - [Governance](../governance/index.md)
 - [Agency](../agency/index.md)
 - [Trust](../trust/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
 
 ## Related Invariants
 
@@ -86,6 +91,8 @@ Consent is the structural difference between participation and extraction. It de
 - How can consent remain legible across time?
 - What makes consent revocable in machine-mediated systems?
 - When does transparency become coercive?
+- How much telic legibility is required for consent to an act, relation, loop, or larger purpose?
+- When does a simplified projection become too lossy to support meaningful consent?
 
 ## Next Navigation
 

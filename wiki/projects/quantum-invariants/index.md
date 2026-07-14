@@ -58,6 +58,25 @@ The attractor layer is the compressed visitor map of those same invariants: [Wit
 It also gives intuition a place to land: not as a vague instinct layer, but as the pre-verbal comparator work that has to stay accountable to grounding and witness before it can steer anything else.
 The [Voting Machine](../voting-machine/index.md) project is a concrete governance and consent surface that QI helps ground: it is where comparator language becomes civic custody, auditability, and revocation-aware review.
 
+## Telic Field Bridge
+
+**Relation class:** structural precursor and constraint bridge
+
+Quantum Invariants provides the comparator, boundary, drift, legibility, and repair language beneath the Telic Field Papers.
+
+The relationship is not that invariants choose the destination. Invariants identify conditions of valid passage while a system navigates among multiple ends.
+
+> **Invariants constrain movement. They do not become sovereign destinations.**
+
+The later telic-field work uses comparator behavior as evidence of operative purpose: what a system repeatedly restores, and which losses trigger correction, reveal what it actually treats as success. Polytelometric navigation then asks whether those corrective priorities remain legitimate relative to standing, consent, boundaries, and protected future possibility.
+
+Related candidate concepts:
+
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+
 ## Comparator Bridges
 
 - [Boundary and authority](../../concepts/contextual-authority-principle/index.md) -> [Governance Diad](../../concepts/governance-diad/index.md), [Voting Machine](../voting-machine/index.md)
@@ -93,6 +112,9 @@ The [Voting Machine](../voting-machine/index.md) project is a concrete governanc
 - [Semantic Shimmer](semantic-shimmer/index.md)
 - [Concepts Index](../../concepts/index.md)
 - [Attractors](../../attractors/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Polytelometric Navigation](../../concepts/polytelometric-navigation/index.md)
 
 ## Attractor Bridge
 

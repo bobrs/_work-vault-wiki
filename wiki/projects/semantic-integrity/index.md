@@ -37,6 +37,24 @@ The attractor layer is the compressed semantic map that this branch implements: 
 Attention and agency sit inside this basin because the system cannot preserve meaning if it cannot first select carefully and then preserve enough choice to correct course.
 Loop mechanics matters here too, because once a semantic system is in motion the question becomes how feedback can stay repairable instead of drifting into opaque automation.
 
+## Telic Field Bridge
+
+**Relation class:** implementation precursor and descendant bridge
+
+Semantic Integrity provides an implementation-facing substrate for the later Telic Field Papers. Its existing concern with provenance, governed semantic infrastructure, semantic compression, and meaning under load becomes more precise when the system distinguishes a living telic field from the projections carried into prompts, policies, metrics, and actions.
+
+The later work should not be projected backward as though this page already contained telic-field vocabulary. The bridge is retrospective: Semantic Integrity preserves meaning across transformation; the Telic Field Papers add the question of whether the legitimate reason for acting survives the same transformation.
+
+> **Semantic integrity asks whether meaning survived. Teleological integrity asks whether the reason for acting survived.**
+
+Related candidate concepts:
+
+- [Telic Fields](../../concepts/telic-fields/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
+- [Context Carrying Capacity](../../concepts/context-carrying-capacity/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+
 ## Related Links
 
 - [Consentful Cybernetics](../consentful-cybernetics/index.md)
@@ -50,6 +68,9 @@ Loop mechanics matters here too, because once a semantic system is in motion the
 - [Responsibility-Bounded Observability](../../concepts/responsibility-bounded-observability/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Earned Insight](./earned-insight/index.md)
+- [The Telic Field Papers](../telic-field-papers/index.md)
+- [Semantic Polytelometry](../../concepts/semantic-polytelometry/index.md)
+- [Telic Projection](../../concepts/telic-projection/index.md)
 
 ## Attractor Bridge
 
