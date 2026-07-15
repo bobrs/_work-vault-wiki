@@ -117,6 +117,11 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Rituals/🌕 RITUAL INITIATION- Unnamed Loop, Declared Anyway.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__INITIATION__RITUALS__v1__unnamed-loop-declared-anyway.docx"
   ],
+  "08aefa284618ddb4bcf3ff02e9ca18f9db11e745434bf7a4a0c3917aafc16262": [
+    "artifacts/intake-archive/20260714__semantic-lineage-follow-up-intake/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__LINEAGE__semantic-lineage-dynamics-thermodynamics.md",
+    "artifacts/standard-named/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__LINEAGE__SEMANTIC-LINEAGE-DYNAMICS-THERMODYNAMICS__v1__when-meaning-begins-to-move.md",
+    "wiki/external/shimmerymemory/essays/when-meaning-begins-to-move/index.md"
+  ],
   "093a226d84e75c8576580add4409c7bd183dc8a6c7c0c76114638dafa7afb146": [
     "artifacts/intake-archive/20260622__patents-intake/LoopLock Mutual-TOTP-based Physical Lock/LoopLock Smart Lock Technology.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopLock Mutual-TOTP-based Physical Lock/LoopLock Smart Lock Technology.docx",
@@ -164,6 +169,10 @@
   "0e52d3649d2fe3bcd6a91a2b936bc630f04029a919f1e30005f8e3ce2ec3c368": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/durable-coordination.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/durable-coordination.md"
+  ],
+  "0f27ba0fe7a03979fe8e8378c7942e922d8d1988f16818adeb11654c8997b5f8": [
+    "artifacts/intake-archive/20260710__consent-grammar-intake/boundary_compute_invariant.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__ESSAY__BOUNDARY-COMPUTE-IS-CHEAPER-THAN-GLOBAL-CLEANUP__v1__boundary-compute-is-cheaper-than-global-cleanup.md"
   ],
   "0f9a442b423baf81357fbe7e8f23dda8b0ebe9eea15404d410211a60896b7864": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/stochastic-anchors-loops-and-the-puzzle-of-agency.md",
@@ -277,7 +286,6 @@
   ],
   "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b": [
     ".gitattributes",
-    "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.gitattributes",
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/.gitattributes"
   ],
   "1adb26de227df68db39f129d4dc0eac53f4df8942322c927ff50a5f9be8ba89a": [
@@ -494,6 +502,12 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/why-consentful-ai-is-expensive.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/why-consentful-ai-is-expensive.md"
   ],
+  "2f6823094a889d28e31981f1b81864f659cb24fde683ab5708ab73b5000a1bff": [
+    "artifacts/intake-archive/20260713__consentful-cybernetics-spillover-intake/20260710__SHIMMERYMEMORY__ESSAY__PUBLIC__CONSENTFULCYBERNETICS__the-big-hook.md",
+    "artifacts/intake-archive/20260713__consentful-cybernetics-spillover-intake/duplicates/20260710__SHIMMERYMEMORY__ESSAY__PUBLIC__CONSENTFULCYBERNETICS__the-big-hook (1).md",
+    "artifacts/intake-archive/20260713__consentful-cybernetics-spillover-intake/duplicates/20260710__SHIMMERYMEMORY__ESSAY__PUBLIC__CONSENTFULCYBERNETICS__the-big-hook.md",
+    "wiki/external/shimmerymemory/essays/the-big-hook/index.md"
+  ],
   "2f7d6bd30008aece7f1d11cbb072ebc9de10590436c48796d56c2b5d8917cf34": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Context Shifter Simple.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__CONTEXT-REFLECTION__CONTEXT-SHIFTER-SIMPLE__v1__context-shifter-simple.docx"
@@ -665,6 +679,10 @@
   "43c9d855d9d6e7282d424533aadc97a3181018184ddd4b45634f6a92d5ecf2dd": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/20260610__QUANTUMINVARIANTS__BRIEF__PUBLIC__SHIMMER__semantic-shimmer-team-brief.md",
     "artifacts/standard-named/20260709__QUANTUM-INVARIANTS__BRIEF__SEMANTIC-SHIMMER__v1__semantic-shimmer-team-brief.md"
+  ],
+  "4448d761937fbcaeb0bfdc6c687471c6be9f3ff324b04624202c8244083e9ecb": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/one_protocol_every_conversation_one_page_overview.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__OVERVIEW__CONSENT-SCOPED-COMMUNICATION__v1__one-protocol-every-conversation.md"
   ],
   "4576c4ccd313cf6a86c5d594bf5505aebc1079ec174b1f4748aa3429315141a5": [
     "artifacts/intake-archive/20260710__continuity-office-practice-intake/training_024_continuity_without_control.md",
@@ -1032,6 +1050,10 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Selective Decryption via Hierarchical Temporal Key Derivation.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Selective Decryption via Hierarchical Temporal Key Derivation.docx"
   ],
+  "682af2e1aa8458d34f8b60c9d487d0b52ffe979d8ba5d29179338fa7b9336d5d": [
+    "artifacts/intake-archive/20260713__semantic-lineage-witness-seed-intake/duplicates/semantic-lineage-convergence.md",
+    "artifacts/intake-archive/20260713__semantic-lineage-witness-seed-intake/semantic-lineage-convergence.md"
+  ],
   "68ef683df52f65893784860e8b333e99f407dcc277b6350f7780f42fca0bd34d": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-semantic-atom-intake/The Semantic Atom Morphogenesis Protocol.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/The Semantic Atom Morphogenesis Protocol.docx",
@@ -1050,9 +1072,17 @@
     "artifacts/intake-archive/20260624__quantum-invariants-doc-intake/quantum_invariants_recommended_additions.md",
     "artifacts/standard-named/20260624__QUANTUM-INVARIANTS__RECOMMENDED-ADDITIONS__v0-1__recommended-structural-additions.md"
   ],
+  "6ab50c76f9345de763a9461541aa7a05625ba507f1d6a27c556fed710d5d4acf": [
+    "artifacts/intake-archive/20260710__consent-grammar-intake/frame_anchored_consent_protocol_facp_v_0.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__SPEC__FRAME-ANCHORED-CONSENT-PROTOCOL__v0-1__frame-anchored-consent-protocol.md"
+  ],
   "6b8b2fbbe259164de7c9b813111d7c5a035bb89d3e33fb3c70f3d404067e81d5": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/mobiusself-vs-optimization-culture.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/mobiusself-vs-optimization-culture.md"
+  ],
+  "6be8b6085d26a2d9ffc0fbeb76e9a6695c4bc6889a8094e2f874548a4e026373": [
+    "artifacts/intake-archive/20260710__consent-grammar-intake/how_consent_works.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__ESSAY__HOW-CONSENT-WORKS__v1__how-consent-works.md"
   ],
   "6c0e5d7d32c42952cb633d436fdee9160b59f118ab9ba79227c8811d6884e9bc": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/Durable Coordination Essay.md",
@@ -1163,6 +1193,10 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/artifacts-attractors-and-the-relativity-of-appearance.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/artifacts-attractors-and-the-relativity-of-appearance.md"
   ],
+  "766ea93ad5ac4cc7174a52dff8e5dcc2d9ba47c4e8656cc9eff71076855969af": [
+    "artifacts/intake-archive/20260710__consent-grammar-intake/physics_of_agency_an_invariant.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__ESSAY__PHYSICS-OF-AGENCY__v1__physics-of-agency-an-invariant.md"
+  ],
   "7778157c6a7799658ded2beac8dc98ef3efed589a366d8d4acd31b90b55a4211": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/Consent Multiplexing- The Infrastructure of Reality.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Consent Multiplexing- The Infrastructure of Reality.docx",
@@ -1224,10 +1258,6 @@
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants/.well-known/qi-shimmer-manifest.json",
     "artifacts/intake-archive/20260623__quantum-invariants-intake/raw-identity-snapshots/QuantumInvariants 2/.well-known/qi-shimmer-manifest.json"
   ],
-  "7f1f4d3c615bb0211f1b52404009a3ff4807aa7f5a640264d501cb98fb43ca1a": [
-    "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/refs/heads/main",
-    "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/refs/remotes/origin/main"
-  ],
   "7f54b6b9bffd989e74cc8a8db33de71270cd6fab9e1d37fffbd1ee192e4984ef": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/artifacts_ambiguity_and_the_temperature_of_meaning.md",
     "artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__ARTIFACTS-AMBIGUITY-AND-THE-TEMPERATURE-OF-MEANING__v1__artifacts-ambiguity-and-the-temperature-of-meaning.md"
@@ -1269,6 +1299,11 @@
   "836e2a153e59abc0707fcfdb50564dab839f1ae91081a6b7b1e12c172a705a0e": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/Broken Human-Mediated_Double-TOTP_Full_Draft.docx",
     "artifacts/standard-named/20260622__HUMANKEY__DRAFT__DOUBLE-TOTP__v1__broken-human-mediated-double-totp-full-draft.docx"
+  ],
+  "83b48b67f274cd8191bcb949c5337b4c833fe5949d76b48736b33d616d3703c2": [
+    "artifacts/intake-archive/20260714__semantic-lineage-follow-up-intake/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__SEMANTIC-DYNAMICS__the-motion-of-meaning.md",
+    "artifacts/standard-named/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__SEMANTIC-DYNAMICS__v1__the-motion-of-meaning.md",
+    "wiki/external/shimmerymemory/essays/the-motion-of-meaning/index.md"
   ],
   "8454b5457df50ef95cb6144c301e1716c23142f2f76e1539b46c03fe7784c0ec": [
     "artifacts/archived/Consent Crystal Structure Research/Semantic Collapse Theory/SCT set 20050505/SCT-14- The Diad and Its Descendants — From Minimal Collapse to Semantic.docx",
@@ -1342,6 +1377,15 @@
     "artifacts/intake-archive/20260622__continuity-office-intake/021-continuity-boundaries/index.md",
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/training/021-continuity-boundaries/index.md",
     "artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__ADVANCED-CHANGE-AND-ARCHITECTURE__v1__continuity-boundaries.md"
+  ],
+  "8ceb9ab83815c11ee1d298ac43ee8bbab17ad12da0d4be0781410bcde25f7e91": [
+    "artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__SESSION-COMPRESSION__WORKING__ORIGIN-SESSION__telic-fields-and-semantic-polytelometry.md",
+    "artifacts/standard-named/20260713__TELIC-FIELDS__SESSION-COMPRESSION__WORKING__ORIGIN-SESSION__telic-fields-and-semantic-polytelometry.md"
+  ],
+  "8d07f2c8eaf45d82f83caea4f8c065d4ce7a4f3b89f9872b717d7168045d7824": [
+    "artifacts/intake-archive/20260714__semantic-lineage-follow-up-intake/20260713__SHIMMERYMEMORY__CONCEPT__PUBLIC__LINEAGE__semantic-doppler.md",
+    "artifacts/standard-named/20260713__SHIMMERYMEMORY__CONCEPT__PUBLIC__LINEAGE__SEMANTIC-DOPPLER__v1__semantic-doppler.md",
+    "wiki/concepts/semantic-doppler/index.md"
   ],
   "8dc12d0bc3b456adce625faa74a20d437f50e80243d47520a22cd339eb7fdf51": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/mobius_self_vs_optimization_culture.md",
@@ -1513,6 +1557,10 @@
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent-Constrained Intelligence.docx",
     "artifacts/standard-named/20260624__INTENT-CONSENT__ESSAY__CONSENT-CONSTRAINED-INTELLIGENCE__v1__consent-constrained-intelligence.docx"
   ],
+  "9efaea162034f872832e8ee6a278d4e09b146b065bdd4767d4488adb46091011": [
+    "artifacts/intake-archive/20260710__consent-grammar-intake/witness_options_protocol_framework_v_0_1.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__SPEC__WITNESS-OPTIONS-PROTOCOL-FRAMEWORK__v0-1__witness-options-protocol-framework.md"
+  ],
   "9f41b2247e171024bf9ee9dd334a0aa2a06ce04f8704b5490987cace95391b52": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Economy Series/LE-Appendix II — Loop Economic Infrastructure.docx"
@@ -1641,6 +1689,10 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧬 Latent Intent Activation Loop.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__CONSENT-PHYSICS__v5__latent-intent-activation-loop.docx"
   ],
+  "ad7684fd67628f0b571c68e388a10468ff32ece4f5fd305d18fc3dcbb4f71a07": [
+    "artifacts/intake-archive/20260713__semantic-lineage-witness-seed-intake/2026-07-13-lineage-without-erasure-transcript.md",
+    "artifacts/intake-archive/20260713__semantic-lineage-witness-seed-intake/duplicates/2026-07-13-lineage-without-erasure-transcript.md"
+  ],
   "adc3bf8b26a48ae24b8f06f722dcb340752c720b2bc0d25fa557723c42fa3d21": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/Loop Genesis - The Loop Cosmos Stack- A Path Through Semantic Reality.docx"
@@ -1722,6 +1774,10 @@
   "b4556b952b1125a3f4ab0704f6b75ca854564d3933a2a7e67b1704d787beb108": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/the-room-youre-in.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/the-room-youre-in.md"
+  ],
+  "b457105dd1abf9c677332e1b14764a7262541cd89d6837c6c3acc6aea2996398": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/consent_scoped_communication_reference_implementation_sketch.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__SPEC__CONSENT-SCOPED-COMMUNICATION__v1__consent-scoped-communication-reference-implementation.md"
   ],
   "b489d69507bc8e5ed34090ffbf4d29bf27adea3d11aad52f0ff481cb97e6f436": [
     "artifacts/intake-archive/20260622__patents-intake/Wrapped Bidirectional TOTP Patent/SB15A_Certification_Micro_Entity_Bobby_Simpson.docx",
@@ -1815,6 +1871,10 @@
   "b9b5921e95d461d783eb55e33ac38a894504b81e7e3d8dda32bcb7f37e93f906": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/SCT Whitepaper — Diads, Foundations, and the Semantic Mesh.docx"
+  ],
+  "b9dd454cba598d952315ddd170867f518a0f1cca0f4f5ab87f4d67305933830b": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/ai_readiness_machine_readable_intent_one_pager.md",
+    "artifacts/standard-named/20260710__CONTINUITAI__BRIEF__MACHINE-READABLE-INTENT__v1__ai-readiness-begins-with-intent.md"
   ],
   "b9eb14be0bfaaba81620e935db8babaa47f472f73c0bd05c0e2f11382e58b8d4": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent Graph Primer.docx",
@@ -1944,6 +2004,10 @@
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent Vector Mapping Framework.docx",
     "artifacts/standard-named/20260624__INTENT-CONSENT__FRAMEWORK__CONSENT-VECTOR-MAPPING__v1__consent-vector-mapping-framework.docx"
   ],
+  "c7eb65aa7fd0f08846b3b1622ef24ef23ee2f371ac53ea5571e1a56b8778ad04": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/consent_scoped_communication_substrate_canonical_specification.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__SPEC__CONSENT-SCOPED-COMMUNICATION__v1__consent-scoped-communication-substrate.md"
+  ],
   "c8453eb767eb58fae3b5fec51d25c3d54a6c200e664d750e187cf99e0e9578fb": [
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Semantic Collapse Theory/Loop Series/LoopLink Protocol.docx"
@@ -1984,10 +2048,6 @@
   "cc500c448c13dcb710a1363168181bbe6704638d188c1ea203d3485e3a679eba": [
     "artifacts/intake-archive/20260624__abracadoo-frontpage-intake/20260610__ABRACADOO__FRONTPAGE__SITE__V0-3__CALMER-SKY.zip",
     "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__v3__calmer-sky.zip"
-  ],
-  "ccf0ba5c72d2db4bee6f52b393bd0daca0633e043566799be095cce6ed8634ad": [
-    "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/logs/HEAD",
-    "artifacts/intake-archive/20260623__quantum-invariants-intake/repo-bootstrap-snapshot/QuantumInvariants 3/.git/logs/refs/heads/main"
   ],
   "cd8d433599868a87410630d0f4be11515cd005953fb01a578562bfc003a491c5": [
     "artifacts/intake-archive/20260622__continuity-office-intake/019-continuity-for-leaders/index.md",
@@ -2128,6 +2188,11 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/how-intuition-works.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/how-intuition-works.md"
   ],
+  "dbc17b4fecf7bd29aafd393ed0037d91222427a6e10c17838dbe1db26ddb7d2a": [
+    "artifacts/intake-archive/20260713__loopways-witness-seed-intake/duplicates/loopways_interloop_exchange_layer (1).md",
+    "artifacts/intake-archive/20260713__loopways-witness-seed-intake/loopways_interloop_exchange_layer (1).md",
+    "artifacts/standard-named/20260713__LOOPWAYS__SPEC__INTERLOOP-EXCHANGE-LAYER__v1__loopways-interloop-exchange-layer.md"
+  ],
   "dbca42f62fd4cede68ef37d4e46034047c48d1f36bde1241582af57d51c4c93e": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/assets/logo-black.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-9__ROOT__ABRACADOO-APP-DEEPTRUST-REMOVAL/assets/logo-black.png",
@@ -2148,6 +2213,10 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Loop Life - Phase 3.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PHASE__LOOP-LIFE__PHASE-3__loop-life-phase-3.docx"
   ],
+  "dd78ff8aaa8cd89d2995cf5d5c11425c590d2f9b68ecbca3eeebb46888310985": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/consent_scoped_communication_an_infrastructure_opportunity.md",
+    "artifacts/standard-named/20260710__SIDE-PROJECTS-DESKTOP__BRIEF__CONSENT-SCOPED-COMMUNICATION__v1__consent-scoped-communication-opportunity.md"
+  ],
   "ddf6c8cd0753a22bcf48062990c8ca031a76e994872094187bf90dc1e8e63e08": [
     "artifacts/archived/Patents/LOOPtLOOP platform/Loop-Based Toys- A New Frontier in Interactive Play.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop-Based Toys- A New Frontier in Interactive Play.docx"
@@ -2164,10 +2233,22 @@
     "artifacts/intake-archive/20260623__continuity-office-intake/continuity-office-immediate-steps/20260228__CONTINUITYOFFICE__DOC__HANDOUT__IMMEDIATE-STEPS__V1_1__PUBLIC__continuity-office-immediate-steps.html",
     "artifacts/standard-named/20260623__CONTINUITY-OFFICE__HANDOUT__IMMEDIATE-STEPS__v1__continuity-office-immediate-steps.html"
   ],
+  "e166bd5a81bc533cc2e07253c0f8238816e44e8b2cca7f4c9ea5cd129893feb1": [
+    "artifacts/intake-archive/20260710__consent-scoped-communication-intake/internal_briefing_consent_context_messaging.md",
+    "artifacts/standard-named/20260710__CONTINUITY-OFFICE__BRIEF__CONSENT-CONTEXT-MESSAGING__v1__internal-briefing-consent-context-messaging.md"
+  ],
   "e2134136a126186a3e5357a22e88594fddcfd24e8bd1db25b82ca4189301595f": [
     "artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html",
     "artifacts/intake-archive/20260622__standard-named-pilot-ccsr-root-works/Butterfly Bush Time Portals.html",
     "artifacts/standard-named/20260622__CONSENT-CRYSTAL__ESSAY__BUTTERFLY-BUSH-TIME-PORTALS__v1__butterfly-bush-time-portals.html"
+  ],
+  "e29694b4764afc541e53c87ce13698a659751a6ecc717188d13d35c2d5e8ecc4": [
+    "artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__GLOSSARY__WORKING__ORIGIN-SESSION__working-vocabulary-and-claim-register.md",
+    "artifacts/standard-named/20260713__TELIC-FIELDS__GLOSSARY__WORKING__ORIGIN-SESSION__working-vocabulary-and-claim-register.md"
+  ],
+  "e36c33b439e2e60d800a80bf535c7aee10650fe33b3d634d4fea6ee5903ce32e": [
+    "artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__LINEAGE-MAP__WORKING__WORK-VAULT__from-dyads-and-semantic-collapse-to-telic-fields.md",
+    "artifacts/standard-named/20260713__TELIC-FIELDS__LINEAGE-MAP__WORKING__WORK-VAULT__from-dyads-and-semantic-collapse-to-telic-fields.md"
   ],
   "e3dd7fcbb81029f1a8247d6d2a4db2916140e14dc85f6f98c39302b8a8fa0207": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🦋 Lesson Four- Embodying Multiplicity.docx",

@@ -45,10 +45,16 @@ The root transcript should remain authoritative when a derivative differs from i
 
 ### Session compression
 
-Proposed standard-named source:
+Installed standard-named source:
 
 ```text
 20260713__TELIC-FIELDS__SESSION-COMPRESSION__WORKING__ORIGIN-SESSION__telic-fields-and-semantic-polytelometry.md
+```
+
+Inbound archive path:
+
+```text
+artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__SESSION-COMPRESSION__WORKING__ORIGIN-SESSION__telic-fields-and-semantic-polytelometry.md
 ```
 
 Role: derived working artifact  
@@ -57,10 +63,16 @@ Purpose: preserve the conceptual spine and allow resumption.
 
 ### Working glossary and claim register
 
-Proposed standard-named source:
+Installed standard-named source:
 
 ```text
 20260713__TELIC-FIELDS__GLOSSARY__WORKING__ORIGIN-SESSION__working-vocabulary-and-claim-register.md
+```
+
+Inbound archive path:
+
+```text
+artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__GLOSSARY__WORKING__ORIGIN-SESSION__working-vocabulary-and-claim-register.md
 ```
 
 Role: derived working artifact  
@@ -69,10 +81,16 @@ Purpose: stabilize vocabulary, mark confidence, and prevent drift.
 
 ### Lineage map
 
-Proposed standard-named source:
+Installed standard-named source:
 
 ```text
 20260713__TELIC-FIELDS__LINEAGE-MAP__WORKING__WORK-VAULT__from-dyads-and-semantic-collapse-to-telic-fields.md
+```
+
+Inbound archive path:
+
+```text
+artifacts/intake-archive/20260714__telic-fields-follow-up-intake/20260713__TELIC-FIELDS__LINEAGE-MAP__WORKING__WORK-VAULT__from-dyads-and-semantic-collapse-to-telic-fields.md
 ```
 
 Role: derived working artifact  

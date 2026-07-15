@@ -11,7 +11,7 @@ It is the project home for the loopways specification and the surrounding exchan
 
 ## Representative Files
 
-- [Loopways — The Interloop Exchange Layer for Consentful Civilization](<../../../artifacts/intake-archive/20260713__loopways-witness-seed-intake/loopways_interloop_exchange_layer.md>)
+- [Loopways — The Interloop Exchange Layer for Consentful Civilization](<../../../artifacts/standard-named/20260713__LOOPWAYS__SPEC__INTERLOOP-EXCHANGE-LAYER__v1__loopways-interloop-exchange-layer.md>)
 
 ## Working Read
 
