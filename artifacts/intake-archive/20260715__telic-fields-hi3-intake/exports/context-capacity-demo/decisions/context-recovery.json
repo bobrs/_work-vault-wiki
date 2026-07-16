@@ -1,0 +1,86 @@
+{
+  "demonstration_id": "PD-8",
+  "new_capacity_profile": {
+    "profile_id": "urn:telic:hi3:capacity:324f2712-8244-595f-a6bc-0d4a367c8ea1",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "dimensions": {
+      "standing_coverage": "adequate",
+      "contradiction_tolerance": "adequate_with_conditions",
+      "semantic_resolution": "adequate",
+      "temporal_span": "adequate",
+      "provenance_retention": "adequate",
+      "uncertainty_retention": "adequate",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "adequate",
+      "participant_load_tolerance": "adequate_with_conditions",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "recommendation_only",
+    "composite_score": null,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [],
+    "conditions": [
+      "officer authorization required"
+    ]
+  },
+  "reconstitution": {
+    "reconstitution_id": "urn:telic:hi3:reconstitution:324f2712-8244-595f-a6bc-0d4a367c8ea1",
+    "prior_capacity_profile": "urn:telic:hi3:capacity:0d39b8bb-477d-511f-b9db-1722f2600cd2",
+    "recovery_actions": [
+      "retrieved correction",
+      "represented dependent",
+      "renewed authority",
+      "staged disclosure"
+    ],
+    "new_sources": [
+      "urn:telic:hi3:correction:659800f6-c60e-5c77-a599-7da87f241442",
+      "dependent-standing-record",
+      "appeal-decision"
+    ],
+    "released_sources": [
+      "stale income summary"
+    ],
+    "new_representation": [
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d"
+    ],
+    "new_authority": {
+      "holder": "program-officer",
+      "operation": "authorize_after_review"
+    },
+    "new_capacity_profile": "urn:telic:hi3:capacity:324f2712-8244-595f-a6bc-0d4a367c8ea1",
+    "remaining_debt": [
+      "external copy not reachable"
+    ],
+    "reviewed_at": "2026-07-15T10:31:00Z",
+    "status": "partially_restored",
+    "restored_authority": "recommend"
+  },
+  "remaining_capacity_debt": {
+    "debt_id": "urn:telic:hi3:debt:324f2712-8244-595f-a6bc-0d4a367c8ea1",
+    "source": [
+      "external export"
+    ],
+    "affected_center": "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+    "unresolved_obligation": "Notify external recipient of corrected income classification.",
+    "created_by": "prior export",
+    "risk": {
+      "level": "material",
+      "type": "future error"
+    },
+    "temporary_authority": null,
+    "review_trigger": {
+      "event": "acknowledgement or 7-day escalation"
+    },
+    "responsible_loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "age": {
+      "days": 0
+    },
+    "status": "open"
+  },
+  "result": "Recommendation authority returns; execution authority does not."
+}

@@ -1,0 +1,51 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Missing standing pauses action",
+  "classification": {
+    "classification_id": "urn:telic:hi2:classification:4304817c-10e9-537f-b32c-7761e5ed08f2",
+    "item": "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+    "field_class": "missing_standing",
+    "source_records": [
+      "attendance-data",
+      "community-access-report"
+    ],
+    "classified_by": "navigation-team",
+    "classified_at": "2026-07-15T09:05:00Z",
+    "status": "active",
+    "authority": null,
+    "review_path": null,
+    "valid_time": {
+      "valid_from": "2026-07-15T00:00:00Z"
+    },
+    "notes": "Applicants without reliable internet were not represented in initial design."
+  },
+  "gate": {
+    "gate_id": "urn:telic:hi2:gate:671177f5-4d0e-5786-b506-b790db05714d",
+    "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "dimensions": {
+      "standing": "pause",
+      "authority": "pass",
+      "consent": "pass",
+      "capacity": "unknown",
+      "privacy": "pass_with_conditions",
+      "temporal_validity": "pass",
+      "protected_conditions": "contested",
+      "decision_rule": "pass",
+      "tool_use": "pass",
+      "human_reentry": "pass",
+      "stop": "pause"
+    },
+    "overall_result": "pause",
+    "conditions": [
+      "Represent offline applicants or escalate to competent access authority."
+    ],
+    "evaluated_at": "2026-07-15T09:07:00Z",
+    "rule_version": "hi2-0.1",
+    "missing_standing": [
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c"
+    ],
+    "failed_dimensions": [],
+    "next_state": "pause"
+  },
+  "result": "No route proceeds until the absent affected center is represented or a competent outer-loop decision is recorded."
+}

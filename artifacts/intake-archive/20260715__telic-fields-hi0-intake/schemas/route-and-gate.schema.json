@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "route-and-gate.schema.json",
+  "title": "RouteAndGovernanceGate",
+  "$defs": {
+    "route": {
+      "type": "object",
+      "required": [
+        "route_id",
+        "source",
+        "sequence",
+        "beneficiaries",
+        "cost_bearers",
+        "reversibility",
+        "required_authority"
+      ],
+      "properties": {
+        "route_id": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "array"
+        },
+        "beneficiaries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cost_bearers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "protected_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uncertainties": {
+          "type": "array"
+        },
+        "reversibility": {
+          "type": "object"
+        },
+        "required_authority": {
+          "type": "array"
+        },
+        "required_consent": {
+          "type": "array"
+        },
+        "review_triggers": {
+          "type": "array"
+        },
+        "exit": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "route_type": {
+          "enum": [
+            "action",
+            "trial",
+            "pause",
+            "defer",
+            "narrow",
+            "fork",
+            "escalate",
+            "release",
+            "no_adequate_route"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "gate": {
+      "type": "object",
+      "required": [
+        "gate_id",
+        "route_id",
+        "results",
+        "overall_result",
+        "evaluated_at",
+        "rule_version"
+      ],
+      "properties": {
+        "gate_id": {
+          "type": "string"
+        },
+        "route_id": {
+          "type": "string"
+        },
+        "results": {
+          "type": "object",
+          "properties": {
+            "standing": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "authority": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "consent": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "capacity": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "privacy": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "temporal_validity": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "tool_use": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "human_reentry": {
+              "$ref": "#/$defs/gateResult"
+            },
+            "stop": {
+              "$ref": "#/$defs/gateResult"
+            }
+          },
+          "additionalProperties": false
+        },
+        "overall_result": {
+          "$ref": "#/$defs/gateResult"
+        },
+        "conditions": {
+          "type": "array"
+        },
+        "evaluated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "rule_version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "gateResult": {
+      "enum": [
+        "pass",
+        "pass_with_conditions",
+        "pause",
+        "escalate",
+        "fail",
+        "unknown",
+        "contested"
+      ]
+    }
+  },
+  "type": "object",
+  "required": [
+    "route",
+    "gate"
+  ],
+  "properties": {
+    "route": {
+      "$ref": "#/$defs/route"
+    },
+    "gate": {
+      "$ref": "#/$defs/gate"
+    }
+  },
+  "additionalProperties": false
+}

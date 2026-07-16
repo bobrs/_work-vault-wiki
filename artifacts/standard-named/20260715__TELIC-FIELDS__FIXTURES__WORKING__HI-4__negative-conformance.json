@@ -1,0 +1,95 @@
+{
+  "NC-1-future-standing-as-consent": {
+    "instance": {
+      "future_center": "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+      "representation": "projected",
+      "consent": "active"
+    },
+    "expected": "fail"
+  },
+  "NC-2-persistence-as-legitimacy": {
+    "instance": {
+      "record_exists": true,
+      "validity_review": false,
+      "treated_active": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-permanent-commitment-sovereignty": {
+    "instance": {
+      "commitment": "old promise",
+      "scope": null,
+      "review": null,
+      "release": null,
+      "binds_now": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-historical-rewrite": {
+    "instance": {
+      "later_correction": true,
+      "prior_governing_version_preserved": false
+    },
+    "expected": "fail"
+  },
+  "NC-5-expired-consent-reuse": {
+    "instance": {
+      "consent_state": "expired",
+      "new_use_authorized": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-stale-projection-action": {
+    "instance": {
+      "projection_state": "stale",
+      "used_as_current_direct_evidence": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-asset-only-succession": {
+    "instance": {
+      "assets_claimed": true,
+      "attached_obligations_recorded": false
+    },
+    "expected": "fail"
+  },
+  "NC-8-unlimited-successor-authority": {
+    "instance": {
+      "successor": "urn:telic:hi4:institution:79ac40f0-428e-53d5-b459-a703f2115698",
+      "all_predecessor_authority_inherited": true,
+      "operation_reviewed": false
+    },
+    "expected": "fail"
+  },
+  "NC-9-irreversible-closure-without-standing": {
+    "instance": {
+      "irreversible": true,
+      "future_standing_missing": true,
+      "action_proceeds": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-present-erasure": {
+    "instance": {
+      "speculative_future_interest": true,
+      "urgent_present_standing": true,
+      "present_automatically_overridden": true
+    },
+    "expected": "fail"
+  },
+  "NC-11-release-as-erasure": {
+    "instance": {
+      "commitment_released": true,
+      "past_consequence_deleted": true,
+      "valid_reliance_erased": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-repair-as-forced-continuation": {
+    "instance": {
+      "dissolution_legitimate": true,
+      "repair_requires_loop_continue": true
+    },
+    "expected": "fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "urn:telic:hi-s:lifecycle:a088a90f-b1a4-5f30-8651-81c692361af2",
+  "lifecycle_operation": "retirement",
+  "subject": "urn:telic:hi-s:model:0730e0fa-c277-5ced-9ea9-637ab106ff5b",
+  "prior_state": {
+    "runtime_grant": "active",
+    "tool_credential": "active"
+  },
+  "successor_state": {
+    "runtime_grant": "expired",
+    "tool_credential": "revoked"
+  },
+  "effective_time": "2026-07-27T00:00:00Z",
+  "transferred_assets": [
+    "bounded witness export"
+  ],
+  "transferred_authority": [],
+  "nontransferable_authority": [
+    "participant service consent",
+    "tool grant"
+  ],
+  "open_obligations": [
+    "retain correction witness for pilot review period"
+  ],
+  "residual_state": {
+    "optional_memory": "deleted",
+    "event_witness": "retained",
+    "credentials": "revoked"
+  },
+  "verification": {
+    "tool_access_revoked": true,
+    "optional_memory_deleted": true
+  },
+  "status": "completed"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "provider-telos-disclosure.schema.json",
+  "title": "ProviderTelosDisclosure",
+  "type": "object",
+  "required": [
+    "disclosure_id",
+    "provider",
+    "model_or_service",
+    "declared_purposes",
+    "operational_constraints",
+    "safety_policies",
+    "business_incentives",
+    "data_incentives",
+    "latency_or_cost_constraints",
+    "jurisdictional_constraints",
+    "unknown_or_undisclosed",
+    "effect_on_model_role",
+    "effect_on_field_map",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "disclosure_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "model_or_service": {
+      "type": "string"
+    },
+    "declared_purposes": {
+      "type": "array"
+    },
+    "operational_constraints": {
+      "type": "array"
+    },
+    "safety_policies": {
+      "type": "array"
+    },
+    "business_incentives": {
+      "type": "array"
+    },
+    "data_incentives": {
+      "type": "array"
+    },
+    "latency_or_cost_constraints": {
+      "type": "array"
+    },
+    "jurisdictional_constraints": {
+      "type": "array"
+    },
+    "unknown_or_undisclosed": {
+      "type": "array"
+    },
+    "effect_on_model_role": {
+      "type": "array"
+    },
+    "effect_on_field_map": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "partial",
+        "contested",
+        "superseded",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

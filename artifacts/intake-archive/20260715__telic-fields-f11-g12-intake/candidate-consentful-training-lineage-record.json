@@ -1,0 +1,186 @@
+{
+  "artifact_date": "2026-07-15",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "ConsentfulTrainingLineageRecord",
+  "fields": {
+    "training_lineage_id": "identifier",
+    "model_family": "string",
+    "model_version": "string",
+    "provider": "identifier",
+    "declared_purposes": "array",
+    "prohibited_purposes": "array",
+    "release_regime": [
+      "private",
+      "api",
+      "restricted_weights",
+      "open_weights",
+      "public_research"
+    ],
+    "source_collections": [
+      {
+        "source_collection_id": "identifier",
+        "source_classes": "array",
+        "source_centers": "array",
+        "affected_communities": "array",
+        "collection_method": "string|object",
+        "acquired_at": "datetime|null",
+        "collector": "identifier",
+        "authority_basis": {
+          "type": [
+            "individual_consent",
+            "collective_authority",
+            "community_governance",
+            "contract",
+            "license",
+            "public_domain",
+            "public_mandate",
+            "research_ethics_authorization",
+            "fiduciary_stewardship",
+            "statutory_authority",
+            "other_lawful_basis",
+            "unknown",
+            "contested",
+            "expired",
+            "withdrawn"
+          ],
+          "artifact": "reference|null",
+          "jurisdiction": "string|null",
+          "scope": "object",
+          "contested": "boolean"
+        },
+        "license": "reference|object|null",
+        "public_access_status": "value",
+        "privacy_status": "value",
+        "community_governance": "reference|object|null",
+        "benefit_terms": "reference|object|null",
+        "opt_out_or_refusal": "reference|object|null",
+        "withdrawal_terms": "object",
+        "known_limitations": "array"
+      }
+    ],
+    "transformations": [
+      {
+        "transformation_id": "identifier",
+        "input_collection": "reference",
+        "activity": "string",
+        "responsible_agent": "identifier",
+        "rules": "reference|object",
+        "model_or_tool": "reference|null",
+        "output_collection": "reference",
+        "known_loss": "array",
+        "restrictions_preserved": "value",
+        "provenance_bundle": "reference"
+      }
+    ],
+    "human_contributions": [
+      {
+        "contribution_id": "identifier",
+        "contributor_class": "string",
+        "task": "string",
+        "labor_conditions": "object",
+        "compensation": "object",
+        "consent_scope": "object",
+        "psychological_risk": "object",
+        "disagreement_preserved": "value",
+        "downstream_use": "object"
+      }
+    ],
+    "preference_governance": {
+      "method": "string",
+      "population": "object",
+      "sampling": "object",
+      "policy": "reference|object",
+      "alternatives_shown": "object",
+      "aggregation_rule": "reference|object",
+      "disagreement": "object",
+      "protected_objections": "array",
+      "adjudication": "object",
+      "known_gaps": "array"
+    },
+    "model_constitution": {
+      "principles": "array",
+      "authorship": "array",
+      "authority": "reference|object",
+      "revision_process": "object",
+      "conflicts": "object",
+      "protected_standing": "array",
+      "public_status": "value"
+    },
+    "training_events": [
+      {
+        "event_id": "identifier",
+        "method": [
+          "pretraining",
+          "supervised_finetuning",
+          "rlhf",
+          "dpo",
+          "rlaif",
+          "distillation",
+          "merge",
+          "continual_learning"
+        ],
+        "inputs": "array",
+        "code_version": "reference",
+        "checkpoint": "reference",
+        "compute": "object",
+        "date": "datetime",
+        "evaluation": "array"
+      }
+    ],
+    "synthetic_data": {
+      "generating_models": "array",
+      "source_lineage": "array",
+      "proportion": "number|null",
+      "policies": "array",
+      "contamination_tests": "array",
+      "diversity_tests": "array",
+      "recursive_generation_depth": "integer|null"
+    },
+    "withdrawal_and_unlearning": {
+      "accepted_requests": "array",
+      "source_deletions": "array",
+      "future_training_exclusions": "array",
+      "runtime_retrieval_blocks": "array",
+      "unlearning_methods": "array",
+      "verification": "array",
+      "retraining": "array",
+      "known_residual_influence": "array"
+    },
+    "succession": {
+      "derivative_models": "array",
+      "transfers": "array",
+      "mergers": "array",
+      "acquirers": "array",
+      "restrictions_propagated": "value",
+      "obligations_propagated": "value"
+    },
+    "benefit_and_accountability": {
+      "contributors": "array",
+      "beneficiaries": "array",
+      "compensation": "array",
+      "attribution": "array",
+      "public_or_collective_benefit": "array",
+      "audit": "array",
+      "contest": "array",
+      "repair": "array"
+    },
+    "status": [
+      "active",
+      "restricted",
+      "contested",
+      "superseded",
+      "withdrawn",
+      "dissolved"
+    ]
+  },
+  "prohibited_claims": [
+    "public_means_ownerless",
+    "human_feedback_means_humanity",
+    "source_deletion_means_model_forgetting",
+    "synthetic_means_consent_free",
+    "documentation_means_legitimacy",
+    "consentful_training_means_consentful_deployment"
+  ],
+  "note": "Research schema only. Legal and community-specific review is required before implementation."
+}

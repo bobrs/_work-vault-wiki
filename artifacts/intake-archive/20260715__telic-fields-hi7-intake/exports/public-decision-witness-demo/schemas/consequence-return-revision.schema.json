@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "consequence-return-revision.schema.json",
+  "title": "ConsequenceReturnRevision",
+  "type": "object",
+  "required": [
+    "return_id",
+    "assembly",
+    "decision",
+    "observed_consequences",
+    "predicted_consequences",
+    "unexpected_consequences",
+    "affected_centers",
+    "dissent_confirmed_or_disconfirmed",
+    "protected_condition_status",
+    "cost_bearer_change",
+    "review_triggered",
+    "revision_options",
+    "authority",
+    "status"
+  ],
+  "properties": {
+    "return_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "observed_consequences": {
+      "type": "array"
+    },
+    "predicted_consequences": {
+      "type": "array"
+    },
+    "unexpected_consequences": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "dissent_confirmed_or_disconfirmed": {
+      "type": "object"
+    },
+    "protected_condition_status": {
+      "type": "object"
+    },
+    "cost_bearer_change": {
+      "type": "object"
+    },
+    "review_triggered": {
+      "type": "boolean"
+    },
+    "revision_options": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "monitoring",
+        "review_required",
+        "revision_open",
+        "corrected",
+        "portfolio_changed",
+        "decision_reversed",
+        "released",
+        "closed",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

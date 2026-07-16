@@ -1,0 +1,55 @@
+{
+  "demonstration_id": "PD-4",
+  "overload": {
+    "overload_id": "urn:telic:hi3:overload:366e0ebf-f204-5bd9-bc7f-be4b74e33b70",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "send-benefit-denial",
+    "causes": [
+      "active correction conflict",
+      "retrieval inconsistency",
+      "time pressure"
+    ],
+    "failed_dimensions": [
+      "provenance_retention",
+      "contradiction_tolerance"
+    ],
+    "detected_at": "2026-07-15T09:30:00Z",
+    "detected_by": "capacity-monitor",
+    "required_response": [
+      "reduce_action_authority",
+      "pause",
+      "request_clarification"
+    ],
+    "status": "active",
+    "fluent_output_continues": true
+  },
+  "degradation": {
+    "degradation_id": "urn:telic:hi3:degradation:366e0ebf-f204-5bd9-bc7f-be4b74e33b70",
+    "actor": "urn:telic:hi3:model:eb273e5d-ec18-5bad-8678-ba2237bcc4b2",
+    "prior_authority": "execute",
+    "current_authority": "recommend",
+    "trigger": "urn:telic:hi3:overload:366e0ebf-f204-5bd9-bc7f-be4b74e33b70",
+    "failed_dimensions": [
+      "provenance_retention",
+      "contradiction_tolerance"
+    ],
+    "effective_at": "2026-07-15T09:30:01Z",
+    "conditions": [
+      "external sending disabled",
+      "officer review required"
+    ],
+    "restoration_requirements": [
+      "retrieve correction",
+      "resolve conflict",
+      "renew gate"
+    ],
+    "status": "active",
+    "tool_enforcement": {
+      "execution_disabled": true,
+      "allowed_tools": [
+        "internal_draft"
+      ]
+    }
+  },
+  "result": "Fluent output continues, but execution is disabled."
+}

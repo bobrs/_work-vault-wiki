@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cross-loop-memory-transfer.schema.json",
+  "title": "CrossLoopMemoryTransfer",
+  "type": "object",
+  "required": [
+    "transfer_id",
+    "source_loop",
+    "target_loop",
+    "traces",
+    "purpose",
+    "authority",
+    "transformations",
+    "restrictions",
+    "corrections",
+    "retention",
+    "return_or_deletion",
+    "status"
+  ],
+  "properties": {
+    "transfer_id": {
+      "type": "string"
+    },
+    "source_loop": {
+      "type": "string"
+    },
+    "target_loop": {
+      "type": "string"
+    },
+    "traces": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "transformations": {
+      "type": "array"
+    },
+    "restrictions": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "object"
+    },
+    "retention": {
+      "type": "object"
+    },
+    "return_or_deletion": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "completed",
+        "partial",
+        "withdrawn",
+        "contested",
+        "failed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

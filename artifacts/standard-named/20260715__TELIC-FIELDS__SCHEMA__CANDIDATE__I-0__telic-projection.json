@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "telic-projection.schema.json",
+  "title": "TelicProjection",
+  "allOf": [
+    {
+      "$ref": "core-envelope.schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "projection_id",
+        "source_center",
+        "evidence_status",
+        "projection_type",
+        "expression",
+        "scope",
+        "authority"
+      ],
+      "properties": {
+        "projection_id": {
+          "type": "string"
+        },
+        "source_center": {
+          "type": "string"
+        },
+        "source_objects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_status": {
+          "enum": [
+            "direct",
+            "confirmed",
+            "delegated",
+            "observed",
+            "inferred",
+            "generated",
+            "retrieved",
+            "contested",
+            "unknown",
+            "stale",
+            "expired",
+            "revoked",
+            "out_of_scope"
+          ]
+        },
+        "projection_type": {
+          "enum": [
+            "goal",
+            "value",
+            "preference",
+            "boundary",
+            "protected_condition",
+            "obligation",
+            "prediction",
+            "fear",
+            "constraint",
+            "invariant",
+            "uncertainty",
+            "release_condition"
+          ]
+        },
+        "expression": {},
+        "scope": {
+          "type": "object"
+        },
+        "authority": {
+          "type": "object"
+        },
+        "protected_status": {
+          "enum": [
+            "not_protected",
+            "protected_current_loop",
+            "contested",
+            "unknown"
+          ]
+        },
+        "review_path": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "participant_recognition": {
+          "enum": [
+            "yes",
+            "partly",
+            "no",
+            "out_of_scope",
+            "private",
+            "stale",
+            "unknown",
+            "not_requested"
+          ]
+        }
+      }
+    }
+  ],
+  "x-status": "candidate-pre-production"
+}

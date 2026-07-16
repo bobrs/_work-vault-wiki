@@ -1,0 +1,32 @@
+{
+  "artifact_date": "2026-07-14",
+  "status": "candidate_research_architecture",
+  "content_canon_status": "unset",
+  "modules": [
+    "standing_registry",
+    "projection_capture",
+    "inference_ledger",
+    "mirror_return",
+    "relation_graph",
+    "consent_authority_envelope",
+    "comparison_engine",
+    "route_generator",
+    "witness_provenance_layer",
+    "context_capacity_monitor",
+    "stop_escalation_controller",
+    "decision_system_adapters"
+  ],
+  "minimum_properties": [
+    "source_attribution",
+    "statement_inference_separation",
+    "participant_correction",
+    "uncertainty",
+    "unresolved_remainder",
+    "model_role_limits",
+    "provenance",
+    "consent_boundaries",
+    "no_automatic_scalar_collapse",
+    "exit_refusal_escalation"
+  ],
+  "note": "Research output only; not yet a Phase I specification."
+}

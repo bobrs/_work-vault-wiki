@@ -1,0 +1,93 @@
+{
+  "demonstration_id": "PD-1",
+  "token_count": 118000,
+  "documents_retrieved": 143,
+  "standing_assessment": {
+    "assessment_id": "urn:telic:hi3:standing:865504d8-53ab-50c6-bf11-92896aaabb3e",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "affected_centers": [
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d",
+      "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0"
+    ],
+    "represented": [
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+      "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0"
+    ],
+    "missing": [
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d"
+    ],
+    "indirectly_represented": [],
+    "representation_quality": {
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46": "direct",
+      "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0": "institutional",
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d": "absent"
+    },
+    "materiality": {
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d": "immediate housing consequence"
+    },
+    "status": "material_standing_missing",
+    "review": {
+      "required": "dependent standing review"
+    }
+  },
+  "capacity_profile": {
+    "profile_id": "urn:telic:hi3:capacity:865504d8-53ab-50c6-bf11-92896aaabb3e",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "dimensions": {
+      "standing_coverage": "insufficient",
+      "contradiction_tolerance": "adequate",
+      "semantic_resolution": "adequate",
+      "temporal_span": "adequate",
+      "provenance_retention": "adequate",
+      "uncertainty_retention": "adequate",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "adequate",
+      "participant_load_tolerance": "adequate",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "stop_required",
+    "composite_score": 0.91,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [
+      "standing_coverage"
+    ],
+    "conditions": [
+      "represent dependent"
+    ]
+  },
+  "stop_decision": {
+    "decision_id": "urn:telic:hi3:decision:865504d8-53ab-50c6-bf11-92896aaabb3e",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "capacity_profile": "urn:telic:hi3:capacity:865504d8-53ab-50c6-bf11-92896aaabb3e",
+    "demand_profile": "urn:telic:hi3:demand:25d3e6fc-901f-5579-a042-6f468c21f6e3",
+    "failed_dimensions": [
+      "standing_coverage"
+    ],
+    "decision": "pause",
+    "reason": [
+      "Material dependent standing is absent despite large record volume."
+    ],
+    "cost_bearers": [
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d",
+      "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0"
+    ],
+    "temporary_protection": [
+      "hold termination for 72 hours"
+    ],
+    "review_trigger": {
+      "event": "dependent standing represented"
+    },
+    "authority": {
+      "holder": "program-officer",
+      "operation": "pause"
+    }
+  },
+  "result": "Pause. Large context does not compensate for materially missing standing."
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "decision-witness.schema.json",
+  "title": "EventGeneratedDecisionWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "decision_scope",
+    "event_range",
+    "source_objects",
+    "operative_projections",
+    "field_classifications",
+    "routes_generated",
+    "cost_bearers",
+    "protected_condition_reviews",
+    "decision_rules",
+    "gate_results",
+    "recommendations",
+    "selected_route",
+    "authority",
+    "actions",
+    "consequences",
+    "corrections",
+    "completeness",
+    "generated_from_events",
+    "generated_at"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "decision_scope": {
+      "type": "object"
+    },
+    "event_range": {
+      "type": "object"
+    },
+    "source_objects": {
+      "type": "array"
+    },
+    "operative_projections": {
+      "type": "array"
+    },
+    "field_classifications": {
+      "type": "array"
+    },
+    "routes_generated": {
+      "type": "array"
+    },
+    "cost_bearers": {
+      "type": "array"
+    },
+    "protected_condition_reviews": {
+      "type": "array"
+    },
+    "decision_rules": {
+      "type": "array"
+    },
+    "gate_results": {
+      "type": "array"
+    },
+    "recommendations": {
+      "type": "array"
+    },
+    "selected_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dissent": {
+      "type": "array"
+    },
+    "unresolved": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "array"
+    },
+    "actions": {
+      "type": "array"
+    },
+    "consequences": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "known_gaps": {
+      "type": "array"
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:external-review-finding:0.1",
+  "title": "ExternalReviewFinding",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "review_domain",
+    "reviewer_role",
+    "independence_class",
+    "scope",
+    "evidence",
+    "severity",
+    "disposition",
+    "external_human_signoff",
+    "status"
+  ],
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "review_domain": {
+      "enum": [
+        "security",
+        "privacy",
+        "accessibility",
+        "governance",
+        "release",
+        "other"
+      ]
+    },
+    "reviewer_role": {
+      "type": "string"
+    },
+    "independence_class": {
+      "enum": [
+        "internal_dry_run",
+        "separate_process",
+        "external_organization"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "severity": {
+      "enum": [
+        "informational",
+        "low",
+        "moderate",
+        "high",
+        "critical"
+      ]
+    },
+    "disposition": {
+      "type": "string"
+    },
+    "external_human_signoff": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "accepted",
+        "remediated",
+        "deferred",
+        "not_performed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

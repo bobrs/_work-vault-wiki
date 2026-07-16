@@ -1,0 +1,43 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Dissent remains attached to selected route",
+  "dissent_trail": {
+    "dissent_id": "urn:telic:hi7:dissent:9e3aa383-50e9-5fda-b835-221a36daafb7",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "decision": "urn:telic:hi7:decision:c0738863-73cd-5015-a8a4-38bb1f1ef2b5",
+    "centers": [
+      "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c"
+    ],
+    "positions": [
+      "support local service but oppose daytime-only mobile hours"
+    ],
+    "reasons": [
+      "work schedules make daytime attendance impractical",
+      "transport alternatives are limited"
+    ],
+    "evidence": [
+      "worker survey",
+      "appointment-hour utilization"
+    ],
+    "protected_conditions": [],
+    "predicted_consequences": [
+      "lower utilization in east industrial neighborhood"
+    ],
+    "requested_review": {
+      "request": "add evening hours",
+      "date": "at first ninety-day review"
+    },
+    "future_trigger": {
+      "metric": "east neighborhood utilization below 70 percent of county average"
+    },
+    "publication": {
+      "public": true,
+      "private_details_removed": true
+    },
+    "status": "active"
+  },
+  "selected_route_portfolio": "urn:telic:hi7:route-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "dissent_deleted": false,
+  "future_review_trigger_preserved": true,
+  "result": "The final action does not erase minority reasons or predictions."
+}

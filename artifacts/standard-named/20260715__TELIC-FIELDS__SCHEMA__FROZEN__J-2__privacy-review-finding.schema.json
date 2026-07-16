@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:privacy-review-finding:0.1",
+  "title": "PrivacyReviewFinding",
+  "type": "object",
+  "required": [
+    "review_id",
+    "data_flow",
+    "purpose",
+    "minimum_necessary",
+    "consent_or_authority",
+    "retention",
+    "disclosure_view",
+    "finding",
+    "external_privacy_review_complete",
+    "status"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "data_flow": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "minimum_necessary": {
+      "type": "boolean"
+    },
+    "consent_or_authority": {
+      "type": "object"
+    },
+    "retention": {
+      "type": "object"
+    },
+    "disclosure_view": {
+      "type": "string"
+    },
+    "finding": {
+      "type": "string"
+    },
+    "external_privacy_review_complete": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "pass_with_conditions",
+        "fail",
+        "not_performed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

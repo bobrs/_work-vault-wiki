@@ -1,0 +1,55 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Fork preserves lineage without preserving shared sovereignty",
+  "fork_exit": {
+    "fork_exit_id": "urn:telic:hi5:fork:4df0e2b6-4a3b-5b22-8e35-6966991806a4",
+    "source_loop": "urn:telic:hi5:loop:4df0e2b6-4a3b-5b22-8e35-6966991806a4",
+    "departing_centers": [
+      "privacy-first team"
+    ],
+    "remaining_centers": [
+      "open-data team"
+    ],
+    "reason": [
+      "incompatible future data-use authority",
+      "shared historical work remains valuable"
+    ],
+    "records": {
+      "shared_history": "immutable lineage copy",
+      "future_records": "separate",
+      "private_records": "remain with authorized branch"
+    },
+    "assets": {
+      "shared_code": "copied under existing license",
+      "restricted_funds": "allocated by purpose"
+    },
+    "obligations": {
+      "shared_bugs": "assigned",
+      "participant corrections": "propagated to both historical copies"
+    },
+    "authority": {
+      "future_governance": "separate",
+      "shared_name_use": "qualified by branch"
+    },
+    "shared_infrastructure": {
+      "repository_mirror": "read-only lineage",
+      "new_deployment": "separate"
+    },
+    "privacy": {
+      "cross-branch_data_use": "requires new authority"
+    },
+    "transition": {
+      "effective": "2026-08-01",
+      "notice": "participants and maintainers"
+    },
+    "repair": [
+      "correct public descriptions",
+      "provide export",
+      "preserve attribution"
+    ],
+    "status": "completed",
+    "lineage_preserved": true,
+    "shared_future_authority_presumed": false
+  },
+  "result": "The branches retain shared history and bounded assets while future authority, support, and records separate."
+}

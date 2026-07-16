@@ -1,0 +1,151 @@
+{
+  "artifact_date": "2026-07-15",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "PolytelometricNavigationRecord",
+  "fields": {
+    "navigation_id": "identifier",
+    "decision_scope": {
+      "question": "string",
+      "domain": "string",
+      "stakes": "string|object",
+      "time_horizon": "string|object",
+      "reversibility": "string|object",
+      "current_authority": "reference|rule"
+    },
+    "centers": [
+      {
+        "center_id": "identifier",
+        "role": "string",
+        "affected_status": "value",
+        "representation_status": "value",
+        "delegation": "reference|null",
+        "exit_route": "reference|null"
+      }
+    ],
+    "telic_items": [
+      {
+        "item_id": "identifier",
+        "source_center": "identifier",
+        "evidence_status": [
+          "direct",
+          "confirmed",
+          "delegated",
+          "observed",
+          "inferred",
+          "contested",
+          "unknown"
+        ],
+        "type": [
+          "goal",
+          "value",
+          "boundary",
+          "protected_condition",
+          "obligation",
+          "preference",
+          "fear",
+          "prediction",
+          "constraint",
+          "invariant",
+          "uncertainty",
+          "release_condition"
+        ],
+        "expression": "string|object",
+        "scope": "reference|object",
+        "authority": "reference|rule",
+        "consent_status": "value",
+        "temporal_status": "value",
+        "uncertainty": "object",
+        "protected_status": "value"
+      }
+    ],
+    "field_relations": {
+      "shared": "array",
+      "compatible": "array",
+      "conditional": "array",
+      "conflicting": "array",
+      "protected": "array",
+      "unresolved": "array",
+      "missing_standing": "array",
+      "released": "array"
+    },
+    "routes": [
+      {
+        "route_id": "identifier",
+        "source": "identifier|reference",
+        "sequence": "array",
+        "prerequisites": "array",
+        "beneficiaries": "array",
+        "cost_bearers": "array",
+        "protected_conditions_preserved": "array",
+        "protected_conditions_degraded": "array",
+        "uncertainties": "array",
+        "reversibility": "object",
+        "robustness": "object",
+        "lock_in": "object",
+        "required_consent": "array",
+        "required_authority": "array",
+        "review_triggers": "array",
+        "exit": "object|null",
+        "residual_state": "array"
+      }
+    ],
+    "analysis": {
+      "dominance_relations": "array",
+      "pareto_status": "value",
+      "scalarization": {
+        "method": "string|null",
+        "source": "reference|null",
+        "weights": "array",
+        "prohibited_trades": "array"
+      },
+      "scenarios": "array",
+      "arguments": "array",
+      "aggregation_rule": "reference|object|null",
+      "deliberative_changes": "array"
+    },
+    "gates": {
+      "standing": "value",
+      "consent": "value",
+      "authority": "value",
+      "capacity": "value",
+      "privacy": "value",
+      "stop": "value"
+    },
+    "decision": {
+      "selected_route": "identifier|null",
+      "decision_rule": "reference|object",
+      "rationale": "string|object",
+      "dissent": "array",
+      "unresolved": "array",
+      "valid_from": "datetime|null",
+      "expires_at": "datetime|null",
+      "review_at": "datetime|null"
+    },
+    "witness": {
+      "source_bundle": "reference",
+      "model_version": "reference|null",
+      "policy_version": "reference|null",
+      "transformations": "array",
+      "corrections": "array",
+      "consequence_records": "array"
+    }
+  },
+  "allowed_model_roles": [
+    "represent",
+    "structure",
+    "generate_routes",
+    "compare",
+    "surface_uncertainty",
+    "prepare_witness"
+  ],
+  "restricted_model_roles": [
+    "assign_protected_status_without_human_authority",
+    "invent_consent",
+    "set_interpersonal_weights",
+    "choose_collective_decision_rule",
+    "authorize_irreversible_action",
+    "erase_unresolved_or_minority_fields"
+  ],
+  "note": "Research schema only. Not yet a Phase I specification."
+}

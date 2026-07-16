@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "standing-admission-record.schema.json",
+  "title": "StandingAdmissionRecord",
+  "type": "object",
+  "required": [
+    "admission_id",
+    "assembly",
+    "center",
+    "standing_basis",
+    "role",
+    "representation_source",
+    "scope",
+    "authority",
+    "conflicts",
+    "correction",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "admission_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "center": {
+      "type": "string"
+    },
+    "standing_basis": {
+      "type": "array",
+      "minItems": 1
+    },
+    "role": {
+      "enum": [
+        "participant",
+        "representative",
+        "advocate",
+        "expert",
+        "witness",
+        "facilitator",
+        "decision_authority",
+        "observer",
+        "model_assistant",
+        "other"
+      ]
+    },
+    "representation_source": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "correction": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "admitted",
+        "admitted_with_conditions",
+        "pending",
+        "contested",
+        "denied",
+        "withdrawn",
+        "expired",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

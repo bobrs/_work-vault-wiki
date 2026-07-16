@@ -1,0 +1,92 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Present action preserves a later option",
+  "future_standing_assessment": {
+    "assessment_id": "urn:telic:hi4:future-standing:2c89b5ee-9a76-5992-8fc9-8fbc76fa5b70",
+    "present_action": "begin-training-trial",
+    "future_centers": [
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d"
+    ],
+    "represented_interests": [
+      "preserve access to meaningful future work",
+      "avoid irreversible financial or health commitment before evidence"
+    ],
+    "source_basis": [
+      "current direct statement",
+      "known health boundary",
+      "six-month projection"
+    ],
+    "uncertainty": {
+      "level": "material",
+      "items": [
+        "sustainable workload",
+        "caregiving demand"
+      ]
+    },
+    "possibilities_preserved": [
+      "continue program",
+      "pause program",
+      "return to prior work schedule"
+    ],
+    "possibilities_closed": [
+      "small nonrefundable enrollment fee"
+    ],
+    "irreversible_effects": [],
+    "temporary_effects": [
+      "reduced optional work for eight weeks"
+    ],
+    "protective_conditions": [
+      "health and housing review at week eight"
+    ],
+    "review_path": {
+      "authority": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "trigger": "week-eight review or material change"
+    },
+    "status": "adequately_represented_with_conditions",
+    "future_consent": "not_available"
+  },
+  "irreversibility_profile": {
+    "profile_id": "urn:telic:hi4:option-profile:fea20e30-706b-5bd8-bbdf-dd47d7e9c435",
+    "action": "begin-training-trial",
+    "affected_centers": [
+      "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d"
+    ],
+    "reversibility": "reversible_with_cost",
+    "rollback_window": {
+      "duration": "8 weeks"
+    },
+    "repairability": {
+      "financial": "partial",
+      "schedule": "high",
+      "health": "requires monitoring"
+    },
+    "possibilities_preserved": [
+      "continue",
+      "pause",
+      "leave without full tuition debt"
+    ],
+    "possibilities_closed": [
+      "recover enrollment fee"
+    ],
+    "closure_duration": {
+      "type": "temporary",
+      "duration": "8 weeks"
+    },
+    "closure_authority": {
+      "holder": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "basis": "self-governance"
+    },
+    "standing_review": "urn:telic:hi4:future-standing:2c89b5ee-9a76-5992-8fc9-8fbc76fa5b70",
+    "uncertainty": {
+      "level": "material"
+    },
+    "status": "active"
+  },
+  "selected_route": {
+    "route": "eight-week reversible trial",
+    "permanent_enrollment": false,
+    "review_required": true
+  },
+  "result": "The present begins learning without permanently closing the later state's exit."
+}

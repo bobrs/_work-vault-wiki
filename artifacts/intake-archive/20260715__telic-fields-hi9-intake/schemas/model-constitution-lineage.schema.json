@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-constitution-lineage.schema.json",
+  "title": "ModelConstitutionLineage",
+  "type": "object",
+  "required": [
+    "constitution_id",
+    "model_lineage",
+    "principles",
+    "principle_sources",
+    "authors_or_authorities",
+    "affected_centers",
+    "adoption_process",
+    "training_or_inference_use",
+    "conflicts",
+    "exceptions",
+    "revision_history",
+    "contest_route",
+    "status"
+  ],
+  "properties": {
+    "constitution_id": {
+      "type": "string"
+    },
+    "model_lineage": {
+      "type": "string"
+    },
+    "principles": {
+      "type": "array",
+      "minItems": 1
+    },
+    "principle_sources": {
+      "type": "object"
+    },
+    "authors_or_authorities": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "adoption_process": {
+      "type": "object"
+    },
+    "training_or_inference_use": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "exceptions": {
+      "type": "array"
+    },
+    "revision_history": {
+      "type": "array"
+    },
+    "contest_route": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "partial",
+        "contested",
+        "superseded",
+        "retired",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

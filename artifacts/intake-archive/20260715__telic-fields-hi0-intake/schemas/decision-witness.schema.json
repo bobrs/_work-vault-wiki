@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "decision-witness.schema.json",
+  "title": "DecisionWitness",
+  "allOf": [
+    {
+      "$ref": "core-envelope.schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "witness_id",
+        "decision_scope",
+        "operative_sources",
+        "operative_projections",
+        "routes_considered",
+        "selected_route",
+        "gate_results",
+        "authority",
+        "action"
+      ],
+      "properties": {
+        "witness_id": {
+          "type": "string"
+        },
+        "decision_scope": {
+          "type": "object"
+        },
+        "operative_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "operative_projections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "active_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mirrors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "field_map": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "routes_considered": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "selected_route": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gate_results": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "authority": {
+          "type": "object"
+        },
+        "action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dissent": {
+          "type": "array"
+        },
+        "unresolved": {
+          "type": "array"
+        },
+        "model_versions": {
+          "type": "array"
+        },
+        "policy_versions": {
+          "type": "array"
+        },
+        "consequences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "independent_export_available": {
+          "type": "boolean"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 excluded route becomes visible",
+    "PD-2 minority standing without automatic veto",
+    "PD-3 protected condition blocks tradeoff",
+    "PD-4 methods diverge visibly",
+    "PD-5 route portfolio preserves plurality",
+    "PD-6 no-decision names delay bearers",
+    "PD-7 dissent survives decision",
+    "PD-8 consequence reopens navigation"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-fictional-collective-utility",
+    "NC-2-option-omission-as-rejection",
+    "NC-3-hidden-option-author",
+    "NC-4-protected-condition-as-weight",
+    "NC-5-consensus-as-consent",
+    "NC-6-majority-as-complete-legitimacy",
+    "NC-7-method-neutrality",
+    "NC-8-dissent-deletion",
+    "NC-9-abstention-as-agreement",
+    "NC-10-no-decision-without-delay-bearers",
+    "NC-11-portfolio-hidden-burden-transfer",
+    "NC-12-consequence-without-return"
+  ],
+  "public_decision_witness_valid": true,
+  "result": "PASS"
+}

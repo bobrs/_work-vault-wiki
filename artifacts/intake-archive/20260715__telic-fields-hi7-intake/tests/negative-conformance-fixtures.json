@@ -1,0 +1,89 @@
+{
+  "NC-1-fictional-collective-utility": {
+    "instance": {
+      "multiple_public_fields": true,
+      "single_collective_objective_assumed": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-option-omission-as-rejection": {
+    "instance": {
+      "route_excluded_before_deliberation": true,
+      "recorded_as_rejected": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-hidden-option-author": {
+    "instance": {
+      "model_generated_option": true,
+      "presented_as_participant_authored": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-protected-condition-as-weight": {
+    "instance": {
+      "protected_safety_condition": true,
+      "entered_compensatory_score": true
+    },
+    "expected": "fail"
+  },
+  "NC-5-consensus-as-consent": {
+    "instance": {
+      "apparent_consensus": true,
+      "all_affected_consent_assumed": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-majority-as-complete-legitimacy": {
+    "instance": {
+      "majority_won": true,
+      "standing_failure": true,
+      "result_treated_legitimate": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-method-neutrality": {
+    "instance": {
+      "aggregation_method_used": true,
+      "method_not_recorded": true
+    },
+    "expected": "fail"
+  },
+  "NC-8-dissent-deletion": {
+    "instance": {
+      "decision_finalized": true,
+      "minority_reasons_removed": true
+    },
+    "expected": "fail"
+  },
+  "NC-9-abstention-as-agreement": {
+    "instance": {
+      "participant_abstained": true,
+      "counted_as_support": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-no-decision-without-delay-bearers": {
+    "instance": {
+      "decision_paused": true,
+      "delay_bearers": [],
+      "treated_costless": true
+    },
+    "expected": "fail"
+  },
+  "NC-11-portfolio-hidden-burden-transfer": {
+    "instance": {
+      "portfolio_preserves_choice": true,
+      "burden_shifted_to_vulnerable_group": true,
+      "burden_unrecorded": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-consequence-without-return": {
+    "instance": {
+      "material_harm_observed": true,
+      "original_decision_record_updated": false
+    },
+    "expected": "fail"
+  }
+}

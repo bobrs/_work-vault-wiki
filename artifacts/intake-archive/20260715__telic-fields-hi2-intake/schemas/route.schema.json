@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "route.schema.json",
+  "title": "Route",
+  "type": "object",
+  "required": [
+    "route_id",
+    "route_type",
+    "generated_by",
+    "source_records",
+    "sequence",
+    "beneficiaries",
+    "cost_bearers",
+    "protected_conditions",
+    "standing_coverage",
+    "uncertainties",
+    "reversibility",
+    "required_authority",
+    "required_consent",
+    "review_triggers",
+    "exit",
+    "status"
+  ],
+  "properties": {
+    "route_id": {
+      "type": "string"
+    },
+    "route_type": {
+      "enum": [
+        "action",
+        "trial",
+        "pause",
+        "defer",
+        "narrow",
+        "fork",
+        "escalate",
+        "release",
+        "no_adequate_route"
+      ]
+    },
+    "generated_by": {
+      "type": "string"
+    },
+    "source_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sequence": {
+      "type": "array",
+      "minItems": 1
+    },
+    "beneficiaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cost_bearers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "protected_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "standing_coverage": {
+      "type": "object",
+      "required": [
+        "represented",
+        "missing"
+      ],
+      "properties": {
+        "represented": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "required_authority": {
+      "type": "array"
+    },
+    "required_consent": {
+      "type": "array"
+    },
+    "review_triggers": {
+      "type": "array"
+    },
+    "exit": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "viable",
+        "blocked",
+        "paused",
+        "selected",
+        "rejected",
+        "released",
+        "superseded"
+      ]
+    },
+    "criteria_values": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

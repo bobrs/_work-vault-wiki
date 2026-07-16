@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-trail-event.schema.json",
+  "title": "SemanticTrailEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "trace",
+    "valid_at",
+    "recorded_at",
+    "actor",
+    "authority",
+    "source_event",
+    "purpose",
+    "effect"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "trace_created",
+        "trace_linked",
+        "trace_retrieved",
+        "trace_reinforced",
+        "trace_decayed",
+        "trace_archived",
+        "trace_reactivated",
+        "trace_corrected",
+        "trace_contested",
+        "trace_restricted",
+        "trace_released",
+        "trace_deleted",
+        "trace_transferred",
+        "trace_used_for_action",
+        "trace_breach_detected"
+      ]
+    },
+    "trace": {
+      "type": "string"
+    },
+    "valid_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "source_event": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

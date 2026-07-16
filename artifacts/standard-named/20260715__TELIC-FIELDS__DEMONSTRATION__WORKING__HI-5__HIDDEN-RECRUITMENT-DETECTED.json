@@ -1,0 +1,36 @@
+{
+  "demonstration_id": "PD-2",
+  "title": "Hidden recruitment is detected and paused",
+  "hidden_recruitment": {
+    "event_id": "urn:telic:hi5:hidden-recruitment:6ed10912-356a-58af-8f0f-2369f6fba823",
+    "dependent_loop": "urn:telic:hi5:loop:5e45f567-97e7-59e9-af64-8e955ce17e0a",
+    "supporting_loop": "urn:telic:hi5:loop:7221436c-09aa-5d7b-b541-86eec225fa27",
+    "contribution": "conversation content and preference signals",
+    "claimed_basis": "general service improvement",
+    "actual_basis": "no active authority for model training in this scope",
+    "scope_difference": {
+      "authorized": "respond within the current conversation",
+      "recruited": "persistent training and cross-user model improvement"
+    },
+    "burden": [
+      "privacy exposure",
+      "loss of control",
+      "future inference"
+    ],
+    "detected_at": "2026-07-15T09:00:00Z",
+    "immediate_response": [
+      "pause new recruitment",
+      "quarantine affected records",
+      "notify governance authority"
+    ],
+    "repair": [
+      "offer deletion or lawful retention review",
+      "correct authority record",
+      "record downstream gaps"
+    ],
+    "status": "paused"
+  },
+  "future_recruitment_enabled": false,
+  "historical_use_preserved_for_review": true,
+  "result": "Repeated availability does not become authority; new recruitment stops pending repair."
+}

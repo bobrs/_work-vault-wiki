@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lock-in-capture-profile.schema.json",
+  "title": "LockInCaptureProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "dependent_loop",
+    "affected_supporting_loops",
+    "lock_in_mechanisms",
+    "switching_costs",
+    "exit_available",
+    "exit_effective",
+    "authority_withdrawn",
+    "support_continues",
+    "capture_type",
+    "correction_route",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "affected_supporting_loops": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lock_in_mechanisms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "contractual",
+          "technical",
+          "data",
+          "financial",
+          "identity",
+          "reputational",
+          "social",
+          "institutional",
+          "legal",
+          "infrastructural",
+          "cognitive",
+          "dependency",
+          "network",
+          "other"
+        ]
+      }
+    },
+    "switching_costs": {
+      "type": "array"
+    },
+    "exit_available": {
+      "type": "boolean"
+    },
+    "exit_effective": {
+      "type": "boolean"
+    },
+    "authority_withdrawn": {
+      "type": "boolean"
+    },
+    "support_continues": {
+      "type": "boolean"
+    },
+    "capture_type": {
+      "enum": [
+        "support_capture",
+        "authority_capture",
+        "data_capture",
+        "role_capture",
+        "mission_capture",
+        "regulatory_capture",
+        "vendor_capture",
+        "model_capture",
+        "temporal_capture",
+        "other"
+      ]
+    },
+    "correction_route": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "captured",
+        "releasing",
+        "released",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

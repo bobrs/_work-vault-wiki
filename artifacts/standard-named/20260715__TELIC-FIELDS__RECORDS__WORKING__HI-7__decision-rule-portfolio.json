@@ -1,0 +1,71 @@
+{
+  "portfolio_id": "urn:telic:hi7:method-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+  "candidate_methods": [
+    "majority_vote",
+    "weighted_mcda",
+    "outranking",
+    "robust_trial"
+  ],
+  "method_authority": {
+    "selected_by": "county board after public method review",
+    "scope": "route recommendation"
+  },
+  "input_requirements": {
+    "majority_vote": [
+      "eligible participants",
+      "defined option set"
+    ],
+    "weighted_mcda": [
+      "criteria",
+      "weights",
+      "performance estimates"
+    ],
+    "outranking": [
+      "criteria",
+      "thresholds",
+      "protected conditions"
+    ],
+    "robust_trial": [
+      "uncertainty scenarios",
+      "review and rollback"
+    ]
+  },
+  "weight_sources": {
+    "cost": "county finance office",
+    "access": "patient and disability groups",
+    "speed": "clinical operations"
+  },
+  "aggregation_rules": {
+    "weighted_mcda": "additive score",
+    "outranking": "noncompensatory access threshold"
+  },
+  "noncompensatory_conditions": [
+    "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8"
+  ],
+  "uncertainties": [
+    "renovation cost range",
+    "mobile utilization"
+  ],
+  "method_comparison": [
+    {
+      "method": "majority_vote",
+      "leading_route": "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1"
+    },
+    {
+      "method": "weighted_mcda",
+      "leading_route": "urn:telic:hi7:route:8c5f1883-b55a-5e22-88fd-e232f845cc6d"
+    },
+    {
+      "method": "outranking",
+      "leading_route": "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe"
+    },
+    {
+      "method": "robust_trial",
+      "leading_route": "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe"
+    }
+  ],
+  "selected_method": "robust_trial",
+  "selection_reason": "Material uncertainty and reversibility favored a bounded portfolio with review.",
+  "status": "selected"
+}

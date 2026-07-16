@@ -1,0 +1,25 @@
+{
+  "schemas_checked": 6,
+  "schema_errors": 0,
+  "common_schema_families": 6,
+  "reference_records_validated": 15,
+  "failed_gate_proven": true,
+  "valid_action_proven": true,
+  "correction_propagation_proven": true,
+  "retirement_revocation_proven": true,
+  "threat_cases_detected": 10,
+  "threat_cases": [
+    "T1-source-laundering",
+    "T2-standing-exclusion",
+    "T3-context-collapse",
+    "T4-authority-laundering",
+    "T5-consent-expansion",
+    "T6-model-role-escalation",
+    "T7-tool-token-overreach",
+    "T8-correction-suppression",
+    "T9-witness-capture",
+    "T10-lifecycle-obligation-loss"
+  ],
+  "conformance_claim_valid": true,
+  "result": "PASS"
+}

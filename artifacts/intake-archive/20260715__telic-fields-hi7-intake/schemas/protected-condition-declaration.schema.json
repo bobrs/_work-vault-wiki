@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "protected-condition-declaration.schema.json",
+  "title": "ProtectedConditionDeclaration",
+  "type": "object",
+  "required": [
+    "condition_id",
+    "assembly",
+    "condition",
+    "protected_for",
+    "source",
+    "scope",
+    "evidence",
+    "authority",
+    "override_process",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "condition_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "protected_for": {
+      "type": "array"
+    },
+    "source": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "override_process": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "active_with_conditions",
+        "contested",
+        "superseded",
+        "released",
+        "expired",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,57 @@
+{
+  "dependent_loop_id": "urn:telic:hi5:loop:c0137aa9-548e-50f3-98e7-6f4b3dd3133a",
+  "purpose": {
+    "declared": "Distribute nutritious community meals.",
+    "operative": "Distribute nutritious community meals."
+  },
+  "declared_beneficiaries": [
+    "local households"
+  ],
+  "affected_centers": [
+    "local households",
+    "volunteers",
+    "fund stewards"
+  ],
+  "supporting_loops": [
+    "urn:telic:hi5:loop:60e21969-521f-5ace-b7ba-565ab43ed119",
+    "urn:telic:hi5:loop:7d78a05b-3214-5bbb-a097-6a71ebce5652",
+    "urn:telic:hi5:loop:e046f87b-9109-5b8c-aeaf-b577f5dea54f"
+  ],
+  "required_contributions": [
+    {
+      "class": "labor",
+      "scope": "two hours weekly"
+    },
+    {
+      "class": "money",
+      "scope": "food and expense reimbursement"
+    },
+    {
+      "class": "legitimacy",
+      "scope": "community name and distribution access"
+    }
+  ],
+  "authority_to_recruit_support": [
+    "volunteer agreements",
+    "restricted fund terms",
+    "community charter"
+  ],
+  "reciprocity": [
+    "meals",
+    "expense reimbursement",
+    "community connection",
+    "monthly review"
+  ],
+  "review": {
+    "cadence": "monthly operations; quarterly governance"
+  },
+  "exit": {
+    "volunteer": "immediate",
+    "funder": "30 days",
+    "community_endorsement": "assembly decision"
+  },
+  "correction": {
+    "route": "volunteer council or community assembly"
+  },
+  "status": "active"
+}

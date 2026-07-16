@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-correction-refusal-record.schema.json",
+  "title": "ModelCorrectionRefusalRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "model_instance",
+    "field_map",
+    "record_type",
+    "source",
+    "target_output",
+    "reason",
+    "scope",
+    "authority",
+    "effect",
+    "propagation",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "field_map": {
+      "type": "string"
+    },
+    "record_type": {
+      "enum": [
+        "participant_correction",
+        "participant_refusal",
+        "participant_abstention",
+        "model_self_correction",
+        "model_refusal",
+        "provider_refusal",
+        "authority_refusal",
+        "unresolved_contest",
+        "other"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "target_output": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "array"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "effect": {
+      "type": "object"
+    },
+    "propagation": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "propagating",
+        "partially_propagated",
+        "completed",
+        "contested",
+        "superseded",
+        "released"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

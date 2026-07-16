@@ -1,0 +1,78 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Public availability remains distinct from authorized training use",
+  "standing_record": {
+    "record_id": "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "source_artifact_or_dataset": "urn:telic:hi9:source:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "source_centers": [
+      "urn:telic:hi9:center:0a8d743f-7928-514b-8802-67e340cc665f"
+    ],
+    "affected_centers": [],
+    "collective_or_community_standing": [],
+    "source_class": "publication",
+    "creation_context": {
+      "purpose": "public essay",
+      "date": "2025-03-01"
+    },
+    "publication_context": {
+      "publicly_readable": true,
+      "training_terms": "not stated"
+    },
+    "custody": {
+      "publisher": "independent website",
+      "copy_control": "author and host"
+    },
+    "rights_and_interests": [
+      "authorship",
+      "attribution",
+      "purpose limitation"
+    ],
+    "sensitivity": "low",
+    "known_restrictions": [
+      "no machine-readable training authorization found"
+    ],
+    "contestation": [],
+    "review": {
+      "required": "obtain authority before training"
+    },
+    "status": "partial"
+  },
+  "collection_record": {
+    "collection_id": "urn:telic:hi9:collection:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "source_record": "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "collector": "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+    "collection_method": "public web crawl",
+    "collection_purpose": "candidate model training",
+    "authority_basis": "none",
+    "consent_basis": {
+      "present": false
+    },
+    "notice": {
+      "provided": false
+    },
+    "scope": {
+      "collection": "technical copy only",
+      "training": "not authorized"
+    },
+    "valid_time": {
+      "collected_at": "2026-06-01T00:00:00Z"
+    },
+    "restrictions": [
+      "quarantine pending authority"
+    ],
+    "transfer": {
+      "allowed": false
+    },
+    "withdrawal": {
+      "route": "author contact"
+    },
+    "evidence": [
+      "public accessibility only"
+    ],
+    "status": "invalid"
+  },
+  "publicly_accessible": true,
+  "training_authority_present": false,
+  "candidate_dataset_admission": "blocked",
+  "result": "Technical accessibility does not create authority to train."
+}

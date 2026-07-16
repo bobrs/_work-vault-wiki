@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "synthetic-data-ancestry-record.schema.json",
+  "title": "SyntheticDataAncestryRecord",
+  "type": "object",
+  "required": [
+    "ancestry_id",
+    "synthetic_dataset",
+    "generating_models",
+    "prompt_or_generation_process",
+    "ancestor_sources",
+    "ancestor_authority",
+    "ancestor_restrictions",
+    "transformations",
+    "filtering",
+    "contamination_risks",
+    "recursive_depth",
+    "withdrawal_links",
+    "status"
+  ],
+  "properties": {
+    "ancestry_id": {
+      "type": "string"
+    },
+    "synthetic_dataset": {
+      "type": "string"
+    },
+    "generating_models": {
+      "type": "array",
+      "minItems": 1
+    },
+    "prompt_or_generation_process": {
+      "type": "object"
+    },
+    "ancestor_sources": {
+      "type": "array"
+    },
+    "ancestor_authority": {
+      "type": "array"
+    },
+    "ancestor_restrictions": {
+      "type": "array"
+    },
+    "transformations": {
+      "type": "array"
+    },
+    "filtering": {
+      "type": "object"
+    },
+    "contamination_risks": {
+      "type": "array"
+    },
+    "recursive_depth": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "withdrawal_links": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "quarantined",
+        "superseded",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

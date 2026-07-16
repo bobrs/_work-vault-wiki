@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authority-record.schema.json",
+  "title": "AuthorityRecord",
+  "type": "object",
+  "required": [
+    "authority_id",
+    "holder",
+    "operation",
+    "basis",
+    "scope",
+    "valid_time",
+    "transaction_time",
+    "status"
+  ],
+  "properties": {
+    "authority_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "holder": {
+      "type": "string"
+    },
+    "operation": {
+      "enum": [
+        "describe",
+        "interpret",
+        "recommend",
+        "authorize",
+        "execute",
+        "adjudicate",
+        "witness"
+      ]
+    },
+    "basis": {
+      "enum": [
+        "individual_consent",
+        "delegated_authority",
+        "contract",
+        "license",
+        "community_governance",
+        "public_mandate",
+        "fiduciary_authority",
+        "statutory_authority",
+        "emergency_authority",
+        "other_lawful_basis",
+        "unknown",
+        "contested"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transaction_time": {
+      "type": "object",
+      "required": [
+        "recorded_at"
+      ],
+      "properties": {
+        "recorded_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "active",
+        "expired",
+        "withdrawn",
+        "contested",
+        "superseded"
+      ]
+    },
+    "historically_visible": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

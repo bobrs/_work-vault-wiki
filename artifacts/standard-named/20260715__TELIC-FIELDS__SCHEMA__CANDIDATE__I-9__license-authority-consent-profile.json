@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "license-authority-consent-profile.schema.json",
+  "title": "LicenseAuthorityConsentProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "source_or_dataset",
+    "transitions",
+    "authority_for_each_transition",
+    "consent_for_each_transition",
+    "license_for_each_transition",
+    "purpose_for_each_transition",
+    "restrictions",
+    "recipient_classes",
+    "revocation_or_expiry",
+    "unknowns",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "source_or_dataset": {
+      "type": "string"
+    },
+    "transitions": {
+      "type": "array",
+      "minItems": 1
+    },
+    "authority_for_each_transition": {
+      "type": "object"
+    },
+    "consent_for_each_transition": {
+      "type": "object"
+    },
+    "license_for_each_transition": {
+      "type": "object"
+    },
+    "purpose_for_each_transition": {
+      "type": "object"
+    },
+    "restrictions": {
+      "type": "array"
+    },
+    "recipient_classes": {
+      "type": "array"
+    },
+    "revocation_or_expiry": {
+      "type": "object"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "expired",
+        "withdrawn",
+        "invalid",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

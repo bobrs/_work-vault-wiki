@@ -1,0 +1,40 @@
+{
+  "demonstration_id": "PD-4",
+  "title": "Stale projection loses action authority",
+  "projection": {
+    "projection_id": "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7",
+    "historical_expression": "automatic renewal preferred",
+    "current_status": "stale"
+  },
+  "state_change_event": {
+    "event_id": "urn:telic:hi4:event:5dfbf3f4-26aa-5e20-9a8c-f102fa2addc4",
+    "event_type": "projection_became_stale",
+    "subject_record": "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7",
+    "valid_at": "2026-06-01T00:00:00Z",
+    "recorded_at": "2026-07-15T09:00:00Z",
+    "agent": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+    "authority": {
+      "operation": "describe",
+      "holder": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997"
+    },
+    "prior_state": {
+      "status": "active",
+      "expression": "automatic renewal preferred"
+    },
+    "new_state": {
+      "status": "stale",
+      "expression": "manual renewal required"
+    },
+    "reason": [
+      "source directly revised preference",
+      "old context no longer applies"
+    ]
+  },
+  "new_action_attempt": {
+    "action": "renew subscription automatically",
+    "using_projection": "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7",
+    "allowed": false
+  },
+  "historical_visibility": true,
+  "result": "The earlier preference remains visible but cannot govern a new renewal."
+}

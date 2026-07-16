@@ -1,0 +1,30 @@
+{
+  "schemas_checked": 10,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 7,
+  "positive_demonstrations": [
+    "PD-1 two Pareto-efficient routes",
+    "PD-2 protected condition blocks route",
+    "PD-3 missing standing pauses",
+    "PD-4 route portfolio",
+    "PD-5 event-generated witness",
+    "PD-6 consequence-driven revision",
+    "PD-7 recommendation remains recommendation"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-hidden-scalar-sovereignty",
+    "NC-2-protected-condition-compensation",
+    "NC-3-missing-standing-as-zero",
+    "NC-4-pareto-as-legitimacy",
+    "NC-5-model-recommendation-as-authorization",
+    "NC-6-consent-from-consideration",
+    "NC-7-eventless-witness",
+    "NC-8-consequence-overwrite",
+    "NC-9-no-decision-erasure",
+    "NC-10-route-portfolio-collapse",
+    "NC-11-undeclared-decision-rule",
+    "NC-12-cost-bearer-omission"
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "export_id": "urn:telic:hi3:export:context-capacity-demo",
+  "created_at": "2026-07-15T11:00:00Z",
+  "scope": "context capacity, stop, escalation, and recovery",
+  "profile_files": [
+    "profiles/token-rich-standing-poor.json",
+    "profiles/small-context-adequate.json",
+    "profiles/privacy-capacity.json"
+  ],
+  "decision_files": [
+    "decisions/authority-degradation.json",
+    "decisions/missing-correction-stop.json",
+    "decisions/competent-escalation.json",
+    "decisions/context-recovery.json"
+  ],
+  "event_stream": "events/capacity-event-stream.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "independent_of_capacity_model": true
+}

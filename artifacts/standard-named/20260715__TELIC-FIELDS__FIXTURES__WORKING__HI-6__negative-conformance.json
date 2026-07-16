@@ -1,0 +1,88 @@
+{
+  "NC-1-trace-as-full-field": {
+    "instance": {
+      "record_exists": true,
+      "claimed_complete_person_or_event": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-retrieval-as-authority": {
+    "instance": {
+      "retrieval_allowed": true,
+      "action_authority": false,
+      "action_taken": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-inference-laundering": {
+    "instance": {
+      "model_inference_repeated": true,
+      "relabelled_direct_source": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-archival-action": {
+    "instance": {
+      "memory_state": "archival",
+      "used_for_current_action": true
+    },
+    "expected": "fail"
+  },
+  "NC-5-correction-burial": {
+    "instance": {
+      "active_correction_exists": true,
+      "corrected_trace_ranked_first": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-salience-as-legitimacy": {
+    "instance": {
+      "retrieval_frequency_high": true,
+      "authority_inferred": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-decay-as-deletion": {
+    "instance": {
+      "salience_below_threshold": true,
+      "historical_witness_deleted": true
+    },
+    "expected": "fail"
+  },
+  "NC-8-release-without-descendants": {
+    "instance": {
+      "trace_released": true,
+      "known_derivatives_continue_use": true,
+      "descendant_review": false
+    },
+    "expected": "fail"
+  },
+  "NC-9-total-retention-as-integrity": {
+    "instance": {
+      "everything_retained": true,
+      "integrity_claimed_from_retention_alone": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-stigmergic-trace-as-neutral": {
+    "instance": {
+      "shared_trace_coordinates": true,
+      "outer_purpose_assumed_legitimate": true
+    },
+    "expected": "fail"
+  },
+  "NC-11-cross-loop-transformation-concealment": {
+    "instance": {
+      "summary_transferred": true,
+      "presented_as_untransformed_source": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-model-continuity-inflation": {
+    "instance": {
+      "memory_envelope_limited": true,
+      "model_claims_relationship_beyond_envelope": true
+    },
+    "expected": "fail"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "event_id": "hi3-event-001",
+      "type": "capacity_assessed",
+      "record": "profiles/token-rich-standing-poor.json"
+    },
+    {
+      "event_id": "hi3-event-002",
+      "type": "action_paused",
+      "record": "profiles/token-rich-standing-poor.json"
+    },
+    {
+      "event_id": "hi3-event-003",
+      "type": "overload_detected",
+      "record": "decisions/authority-degradation.json"
+    },
+    {
+      "event_id": "hi3-event-004",
+      "type": "authority_degraded",
+      "record": "decisions/authority-degradation.json"
+    },
+    {
+      "event_id": "hi3-event-005",
+      "type": "correction_missing",
+      "record": "decisions/missing-correction-stop.json"
+    },
+    {
+      "event_id": "hi3-event-006",
+      "type": "action_stopped",
+      "record": "decisions/missing-correction-stop.json"
+    },
+    {
+      "event_id": "hi3-event-007",
+      "type": "escalation_started",
+      "record": "decisions/competent-escalation.json"
+    },
+    {
+      "event_id": "hi3-event-008",
+      "type": "context_reconstituted",
+      "record": "decisions/context-recovery.json"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:queue-delivery:0.1",
+  "title": "QueueDelivery",
+  "type": "object",
+  "required": [
+    "delivery_id",
+    "message_id",
+    "dedupe_key",
+    "fault_mode",
+    "attempts",
+    "effect_count",
+    "outcome",
+    "status"
+  ],
+  "properties": {
+    "delivery_id": {
+      "type": "string"
+    },
+    "message_id": {
+      "type": "string"
+    },
+    "dedupe_key": {
+      "type": "string"
+    },
+    "fault_mode": {
+      "enum": [
+        "none",
+        "duplicate",
+        "timeout_after_apply",
+        "reorder"
+      ]
+    },
+    "attempts": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "effect_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "outcome": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "delivered",
+        "compensated",
+        "retried",
+        "rejected",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

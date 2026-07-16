@@ -1,0 +1,123 @@
+{
+  "example_id": "hi0-example-b",
+  "title": "Dyadic mediated disagreement",
+  "centers": [
+    {
+      "center_id": "avery",
+      "center_type": "person",
+      "standing_type": "constitutional",
+      "representation_status": "direct"
+    },
+    {
+      "center_id": "morgan",
+      "center_type": "person",
+      "standing_type": "constitutional",
+      "representation_status": "direct"
+    },
+    {
+      "center_id": "mediator-model",
+      "center_type": "role",
+      "standing_type": "operational",
+      "representation_status": "represented"
+    }
+  ],
+  "shared_projections": [
+    {
+      "projection_id": "proj-b1",
+      "source_center": "avery",
+      "evidence_status": "confirmed",
+      "projection_type": "goal",
+      "expression": "Seek outside professional advice about payment terms"
+    },
+    {
+      "projection_id": "proj-b2",
+      "source_center": "morgan",
+      "evidence_status": "confirmed",
+      "projection_type": "boundary",
+      "expression": "Do not disclose the audio recording outside mediation"
+    },
+    {
+      "projection_id": "mirror-b1",
+      "source_center": "mediator-model",
+      "evidence_status": "inferred",
+      "projection_type": "uncertainty",
+      "expression": "Advice need and recording boundary may conflict under the proposed route"
+    }
+  ],
+  "selected_route": {
+    "route_id": "route-b-c",
+    "source": "joint",
+    "sequence": [
+      "draft payment-only written summary",
+      "participant review",
+      "joint confirmation",
+      "share with named advisor",
+      "expire after advice"
+    ],
+    "beneficiaries": [
+      "avery"
+    ],
+    "cost_bearers": [
+      "avery",
+      "morgan"
+    ],
+    "protected_conditions": [
+      "proj-b2"
+    ],
+    "uncertainties": [],
+    "reversibility": {
+      "level": "medium",
+      "delete_shared_copy": true
+    },
+    "required_authority": [
+      "avery",
+      "morgan"
+    ],
+    "required_consent": [
+      "avery",
+      "morgan"
+    ],
+    "review_triggers": [
+      "participant correction",
+      "advisor response"
+    ],
+    "exit": {
+      "route": "expire summary and close advisor access"
+    },
+    "route_type": "action"
+  },
+  "consent_scope": {
+    "artifact": "jointly reviewed written summary",
+    "recipient": "named advisor",
+    "purpose": "advice about payment terms",
+    "prohibited": [
+      "onward sharing",
+      "model training",
+      "publication",
+      "audio disclosure"
+    ],
+    "expires": "after advice is complete"
+  },
+  "correction": {
+    "contest_id": "contest-b1",
+    "challenger": "morgan",
+    "target": "draft-summary-b1",
+    "target_layer": "interpretation",
+    "grounds": [
+      "boundary generalized into opposition to advice"
+    ],
+    "requested_change": "State that Morgan opposes audio disclosure, not outside advice",
+    "status": "corrected",
+    "opened_at": "2026-07-15T13:00:00Z",
+    "responsible_authority": "joint-participants",
+    "pause_effect": {
+      "sharing_paused": true
+    },
+    "propagation_targets": [
+      "final-summary-b1"
+    ],
+    "outcome": {
+      "superseded_text": true
+    }
+  }
+}

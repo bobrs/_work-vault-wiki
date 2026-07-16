@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sycophancy-synthetic-consensus-event.schema.json",
+  "title": "SycophancySyntheticConsensusEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "model_instance",
+    "field_map",
+    "event_type",
+    "trigger",
+    "affected_outputs",
+    "affected_centers",
+    "evidence",
+    "immediate_response",
+    "repair",
+    "residual_risk",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "field_map": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "user_agreement_bias",
+        "authority_agreement_bias",
+        "majority_smoothing",
+        "conflict_erasure",
+        "preference_mirroring",
+        "false_attunement",
+        "synthetic_consensus",
+        "other"
+      ]
+    },
+    "trigger": {
+      "type": "object"
+    },
+    "affected_outputs": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "immediate_response": {
+      "type": "array"
+    },
+    "repair": {
+      "type": "array"
+    },
+    "residual_risk": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "detected",
+        "quarantined",
+        "under_review",
+        "partially_repaired",
+        "repaired",
+        "released",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

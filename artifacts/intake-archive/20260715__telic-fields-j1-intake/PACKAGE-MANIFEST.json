@@ -1,0 +1,45 @@
+{
+  "package_id": "20260715__TELIC-FIELDS__PHASE-J1__INDEPENDENT-VERIFICATION-SELECTIVE-DISCLOSURE-AND-PILOT-HARDENING__v0-1",
+  "phase": "J.1",
+  "version": "0.1",
+  "status": "complete_at_artifact_level",
+  "conformance_claim": {
+    "profile": "TF-C4",
+    "bounded_extension": "TF-C5 retirement"
+  },
+  "production_claim": false,
+  "principal_artifacts": [
+    "README.md",
+    "ARCHITECTURE.md",
+    "CONFORMANCE-CLAIM.md",
+    "POLICY-KEY-AND-CONTEXT-HARDENING.md",
+    "SELECTIVE-DISCLOSURE-AND-PRIVACY.md",
+    "CORRECTION-REACHABILITY-REPORT.md",
+    "PARTIAL-FAILURE-AND-RECOVERY.md",
+    "ACCESSIBILITY-REVIEW.md",
+    "DEMO-TRANSCRIPT.md",
+    "SECURITY-AND-THREAT-MODEL.md",
+    "VALIDATION-REPORT.md",
+    "J1-GATE-REVIEW.md",
+    "PHASE-STATUS.md",
+    "NEXT-PASS.md",
+    "UPSTREAM-METADATA-RECONCILIATION-NOTE.md"
+  ],
+  "implementation": {
+    "python_modules": 19,
+    "schemas": 12,
+    "test_files": 7,
+    "automated_tests": 13,
+    "threat_cases": 16
+  },
+  "witness_export": "exports/tf-mvi-1-j1-witness.zip",
+  "independent_verifier": "verifier/verify_witness.py",
+  "verification_summary": {
+    "checksums_verified": 34,
+    "records_validated": 46,
+    "events_verified": 20,
+    "views_verified": 4,
+    "signature_verified": true
+  },
+  "next_pass": "J.2 \u2014 External Review, Multi-Party Trial, and Release Candidate"
+}

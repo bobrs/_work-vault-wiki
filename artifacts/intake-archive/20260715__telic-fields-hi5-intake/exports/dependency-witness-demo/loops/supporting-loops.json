@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "supporting_loop_id": "urn:telic:hi5:loop:60e21969-521f-5ace-b7ba-565ab43ed119",
+      "center": "community volunteers",
+      "loop_type": "team",
+      "standing": {
+        "type": "contributor",
+        "material": true
+      },
+      "contribution_classes": [
+        "labor",
+        "attention",
+        "care",
+        "correction"
+      ],
+      "authority_source": [
+        "volunteer agreement"
+      ],
+      "consent_or_governance_basis": {
+        "basis": "consent",
+        "scope": "two hours weekly"
+      },
+      "review": {
+        "cadence": "monthly",
+        "authority": "volunteer council"
+      },
+      "exit": {
+        "notice": "none required",
+        "penalty": "none",
+        "records_portable": true
+      },
+      "status": "active"
+    },
+    {
+      "supporting_loop_id": "urn:telic:hi5:loop:7d78a05b-3214-5bbb-a097-6a71ebce5652",
+      "center": "community meal fund",
+      "loop_type": "funding_loop",
+      "standing": {
+        "type": "resource-holder",
+        "material": true
+      },
+      "contribution_classes": [
+        "money",
+        "risk"
+      ],
+      "authority_source": [
+        "restricted donation terms"
+      ],
+      "consent_or_governance_basis": {
+        "basis": "community governance",
+        "scope": "meal purchase and expense reimbursement"
+      },
+      "review": {
+        "cadence": "quarterly",
+        "authority": "fund stewards"
+      },
+      "exit": {
+        "notice": "30 days",
+        "residual_obligation": "honor approved expenses"
+      },
+      "status": "active"
+    },
+    {
+      "supporting_loop_id": "urn:telic:hi5:loop:e046f87b-9109-5b8c-aeaf-b577f5dea54f",
+      "center": "served neighborhood",
+      "loop_type": "community",
+      "standing": {
+        "type": "beneficiary-and-legitimacy-source",
+        "material": true
+      },
+      "contribution_classes": [
+        "legitimacy",
+        "governance",
+        "correction",
+        "reputation"
+      ],
+      "authority_source": [
+        "community charter"
+      ],
+      "consent_or_governance_basis": {
+        "basis": "community governance",
+        "scope": "local meal distribution"
+      },
+      "review": {
+        "cadence": "quarterly assembly",
+        "authority": "community participants"
+      },
+      "exit": {
+        "withdraw_endorsement": true,
+        "public_name_use_stops": true
+      },
+      "status": "active"
+    }
+  ]
+}

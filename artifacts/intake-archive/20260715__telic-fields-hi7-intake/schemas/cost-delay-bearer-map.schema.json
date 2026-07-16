@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cost-delay-bearer-map.schema.json",
+  "title": "CostDelayBearerMap",
+  "type": "object",
+  "required": [
+    "map_id",
+    "assembly",
+    "routes",
+    "cost_bearers",
+    "benefit_receivers",
+    "delay_bearers",
+    "uncertainty_bearers",
+    "irreversible_loss_bearers",
+    "administrative_bearers",
+    "mitigations",
+    "status"
+  ],
+  "properties": {
+    "map_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "routes": {
+      "type": "array"
+    },
+    "cost_bearers": {
+      "type": "array"
+    },
+    "benefit_receivers": {
+      "type": "array"
+    },
+    "delay_bearers": {
+      "type": "array"
+    },
+    "uncertainty_bearers": {
+      "type": "array"
+    },
+    "irreversible_loss_bearers": {
+      "type": "array"
+    },
+    "administrative_bearers": {
+      "type": "array"
+    },
+    "mitigations": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "current",
+        "contested",
+        "superseded",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

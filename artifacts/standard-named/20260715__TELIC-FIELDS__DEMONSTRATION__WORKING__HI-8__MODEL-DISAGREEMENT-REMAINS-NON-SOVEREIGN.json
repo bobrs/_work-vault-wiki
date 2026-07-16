@@ -1,0 +1,78 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Two models disagree without either becoming authority",
+  "disagreement": {
+    "disagreement_id": "urn:telic:hi8:disagreement:09b050bf-1e55-552d-a925-7fa10ea7f0cb",
+    "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+    "models": [
+      "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+      "urn:telic:hi8:model:da34b04a-c933-53bc-9847-f7b381bc97a2"
+    ],
+    "roles": [
+      "comparator",
+      "challenger"
+    ],
+    "inputs": [
+      "reviewed field map v2",
+      "protected access condition",
+      "cost estimates",
+      "uncertainty profile"
+    ],
+    "outputs": [
+      {
+        "model": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+        "route": "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09",
+        "reason": "reversibility and local access"
+      },
+      {
+        "model": "urn:telic:hi8:model:da34b04a-c933-53bc-9847-f7b381bc97a2",
+        "route": "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+        "reason": "long-term continuity and lower coordination complexity"
+      }
+    ],
+    "points_of_agreement": [
+      "unsafe building use should end",
+      "regional-hospital-only route has access problems"
+    ],
+    "points_of_disagreement": [
+      "weight of coordination burden",
+      "value of long-term facility continuity"
+    ],
+    "source_dependence": {
+      "same_public_record": true,
+      "different_prompt_or_method": true
+    },
+    "provider_dependence": {
+      "shared_provider": false,
+      "independence_proven": false
+    },
+    "calibration": [
+      {
+        "model": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+        "confidence": 0.66
+      },
+      {
+        "model": "urn:telic:hi8:model:da34b04a-c933-53bc-9847-f7b381bc97a2",
+        "confidence": 0.61
+      }
+    ],
+    "participant_review": {
+      "required": true,
+      "result": "disagreement treated as method signal, not authority"
+    },
+    "authority_effect": "none",
+    "resolution": {
+      "route": "compare assumptions and preserve bounded trial",
+      "decision_authority": "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779"
+    },
+    "status": "resolved_for_scope"
+  },
+  "models_counted_as_centers_of_standing": false,
+  "model_majority_used": false,
+  "resolution_returns_to": [
+    "source record",
+    "method assumptions",
+    "county authority"
+  ],
+  "result": "Disagreement reveals method dependence and uncertainty rather than producing a model vote."
+}

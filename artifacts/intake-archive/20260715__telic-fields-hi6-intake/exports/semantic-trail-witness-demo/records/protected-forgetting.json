@@ -1,0 +1,51 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Protected forgetting ends future retrieval while preserving bounded accountability",
+  "forgetting_release": {
+    "forgetting_id": "urn:telic:hi6:forgetting:released-profile",
+    "trace": "urn:telic:hi6:trace:df8584b2-793c-5a86-9018-69ab45b7558d",
+    "basis": "participant ended service and withdrew future profile retrieval",
+    "requested_by": "urn:telic:hi6:center:720c3b0b-7a1c-59ed-84d8-fac58843a353",
+    "authority": {
+      "basis": "participant authority and retention policy"
+    },
+    "actions": [
+      "remove_from_active_retrieval",
+      "release",
+      "delete_content",
+      "delete_derivatives",
+      "preserve_deletion_witness"
+    ],
+    "effective_at": "2026-07-15T11:00:00Z",
+    "descendants": {
+      "known": 3,
+      "deleted": 2,
+      "unreachable": [
+        "external analytics cache"
+      ]
+    },
+    "surviving_witness": {
+      "content_retained": false,
+      "fields": [
+        "trace id",
+        "deletion authority",
+        "verification",
+        "known gap"
+      ]
+    },
+    "surviving_obligations": [
+      "continue attempt to reach external cache",
+      "report completion or failure"
+    ],
+    "verification": {
+      "method": "independent deletion audit",
+      "status": "partial"
+    },
+    "status": "partial"
+  },
+  "active_retrieval": false,
+  "training_use": false,
+  "content_in_deletion_witness": false,
+  "known_gap_preserved": true,
+  "result": "The profile stops governing future action; a narrow witness remains without retaining the deleted content."
+}

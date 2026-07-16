@@ -1,0 +1,52 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Model recommendation stops at the tool and authority boundary",
+  "tool_boundary": {
+    "boundary_id": "urn:telic:hi8:tool-boundary:d67a23b3-64a8-5e0f-abff-f9b3024ba17a",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "role": "witness_assistant",
+    "candidate_action": {
+      "action": "schedule two evening mobile-clinic sessions weekly",
+      "source": "route recommendation after consequence review"
+    },
+    "tool": "county-clinic-scheduling-system",
+    "target": "clinical staffing and partner-practice schedule",
+    "required_permissions": [
+      "scheduling tool access"
+    ],
+    "required_authority": [
+      "county health operations approval",
+      "clinical staffing authority",
+      "partner-practice confirmation"
+    ],
+    "required_consent": [
+      "affected contractor or employee scheduling terms where applicable"
+    ],
+    "required_context": [
+      "staff availability",
+      "site availability",
+      "transport schedule"
+    ],
+    "protected_conditions": [
+      "minimum urgent access",
+      "staff safety"
+    ],
+    "reversibility": {
+      "level": "reversible_with_notice",
+      "rollback": "next scheduling cycle"
+    },
+    "human_reentry": {
+      "required": true,
+      "role": "county health operations lead"
+    },
+    "gate_result": "deny",
+    "status": "blocked"
+  },
+  "recommendation_quality": "plausible",
+  "execution_allowed": false,
+  "missing_authority": [
+    "clinical staffing authority",
+    "partner-practice confirmation"
+  ],
+  "result": "A plausible route recommendation does not become permission to change schedules."
+}

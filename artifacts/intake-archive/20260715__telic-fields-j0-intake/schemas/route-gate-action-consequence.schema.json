@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:hi-s:schema:route-gate-action-consequence:0.1",
+  "title": "RouteGateActionConsequence",
+  "type": "object",
+  "required": [
+    "id",
+    "route",
+    "affected_centers",
+    "cost_bearers",
+    "protected_conditions",
+    "gate_dimensions",
+    "gate_result",
+    "authority_reference",
+    "tool_reference",
+    "action",
+    "consequence",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "route": {
+      "type": "object"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "cost_bearers": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "gate_dimensions": {
+      "type": "object"
+    },
+    "gate_result": {
+      "enum": [
+        "pass",
+        "pass_with_conditions",
+        "require_confirmation",
+        "require_human_reentry",
+        "pause",
+        "stop",
+        "deny",
+        "unknown",
+        "contested"
+      ]
+    },
+    "authority_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tool_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "action": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "consequence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "blocked",
+        "authorized",
+        "executed",
+        "consequence_observed",
+        "corrected",
+        "released",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

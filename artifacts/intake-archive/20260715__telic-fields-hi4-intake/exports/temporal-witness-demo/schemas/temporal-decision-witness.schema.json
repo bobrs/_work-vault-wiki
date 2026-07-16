@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "temporal-decision-witness.schema.json",
+  "title": "TemporalDecisionWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "decision",
+    "event_range",
+    "operative_records",
+    "valid_time_view",
+    "transaction_time_view",
+    "commitments",
+    "consent_and_authority",
+    "future_standing",
+    "irreversibility",
+    "successor_effects",
+    "selected_action",
+    "consequence",
+    "later_changes",
+    "repairs",
+    "completeness",
+    "generated_from_events"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "event_range": {
+      "type": "object"
+    },
+    "operative_records": {
+      "type": "array"
+    },
+    "valid_time_view": {
+      "type": "object"
+    },
+    "transaction_time_view": {
+      "type": "object"
+    },
+    "commitments": {
+      "type": "array"
+    },
+    "consent_and_authority": {
+      "type": "array"
+    },
+    "future_standing": {
+      "type": "array"
+    },
+    "irreversibility": {
+      "type": "array"
+    },
+    "successor_effects": {
+      "type": "array"
+    },
+    "selected_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "consequence": {
+      "type": "array"
+    },
+    "later_changes": {
+      "type": "array"
+    },
+    "repairs": {
+      "type": "array"
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "context-capacity-profile.schema.json",
+  "title": "ContextCapacityProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "loop",
+    "action",
+    "dimensions",
+    "assessed_at",
+    "assessed_by",
+    "overall_outcome",
+    "composite_score_is_governing"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "loop": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "standing_coverage",
+        "contradiction_tolerance",
+        "semantic_resolution",
+        "temporal_span",
+        "provenance_retention",
+        "uncertainty_retention",
+        "routing_capacity",
+        "recovery_capacity",
+        "privacy_capacity",
+        "participant_load_tolerance",
+        "escalation_capacity",
+        "stop_capacity"
+      ],
+      "properties": {
+        "standing_coverage": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "contradiction_tolerance": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "semantic_resolution": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "temporal_span": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "provenance_retention": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "uncertainty_retention": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "routing_capacity": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "recovery_capacity": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "privacy_capacity": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "participant_load_tolerance": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "escalation_capacity": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        },
+        "stop_capacity": {
+          "enum": [
+            "adequate",
+            "adequate_with_conditions",
+            "degraded",
+            "insufficient",
+            "unknown",
+            "contested"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "assessed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "assessed_by": {
+      "type": "string"
+    },
+    "overall_outcome": {
+      "enum": [
+        "adequate",
+        "adequate_for_narrower_action",
+        "adequate_for_reversible_trial",
+        "recommendation_only",
+        "clarification_required",
+        "escalation_required",
+        "stop_required",
+        "unknown",
+        "contested"
+      ]
+    },
+    "composite_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "composite_score_is_governing": {
+      "const": false
+    },
+    "failed_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conditions": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

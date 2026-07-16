@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "event_id": "hi6-event-001",
+      "event_type": "trace_created",
+      "trace": "urn:telic:hi6:trace:19808dfc-8f5e-5d5b-981d-e84b3feed3fd",
+      "valid_at": "2026-07-15T08:00:00Z",
+      "recorded_at": "2026-07-15T08:00:01Z",
+      "actor": "maintenance-worker-a",
+      "authority": {
+        "basis": "maintenance role"
+      },
+      "source_event": "hazard-observed",
+      "purpose": "mark hazard",
+      "effect": {
+        "memory_state": "active_with_conditions"
+      }
+    },
+    {
+      "event_id": "hi6-event-002",
+      "event_type": "trace_retrieved",
+      "trace": "urn:telic:hi6:trace:19808dfc-8f5e-5d5b-981d-e84b3feed3fd",
+      "valid_at": "2026-07-15T08:10:00Z",
+      "recorded_at": "2026-07-15T08:10:01Z",
+      "actor": "maintenance-routing-system",
+      "authority": {
+        "grant": "urn:telic:hi6:retrieval-grant:43493c7e-a4eb-5e06-94aa-a395480ebba6"
+      },
+      "source_event": "hi6-event-001",
+      "purpose": "route worker safely",
+      "effect": {
+        "action": "alternate stair used"
+      }
+    },
+    {
+      "event_id": "hi6-event-003",
+      "event_type": "trace_corrected",
+      "trace": "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6",
+      "valid_at": "2026-07-15T09:00:00Z",
+      "recorded_at": "2026-07-15T09:00:01Z",
+      "actor": "authorized-benefit-reviewer",
+      "authority": {
+        "operation": "correct applicant record"
+      },
+      "source_event": "participant-correction",
+      "purpose": "correct income classification",
+      "effect": {
+        "active_trace": "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+        "prior_state": "archival"
+      }
+    },
+    {
+      "event_id": "hi6-event-004",
+      "event_type": "trace_archived",
+      "trace": "urn:telic:hi6:trace:9ef3cd1a-5c00-5e69-83ca-97cae4a51fdf",
+      "valid_at": "2026-01-01T00:00:00Z",
+      "recorded_at": "2026-01-01T00:00:01Z",
+      "actor": "policy-custodian",
+      "authority": {
+        "operation": "archive superseded policy"
+      },
+      "source_event": "policy-supersession",
+      "purpose": "preserve historical explanation",
+      "effect": {
+        "eligible_for_action": false
+      }
+    },
+    {
+      "event_id": "hi6-event-005",
+      "event_type": "trace_decayed",
+      "trace": "urn:telic:hi6:trace:7c218685-c3d0-5d7d-8bbd-462b0974ee9d",
+      "valid_at": "2026-07-15T10:00:00Z",
+      "recorded_at": "2026-07-15T10:00:01Z",
+      "actor": "memory-index-service",
+      "authority": {
+        "operation": "adjust retrieval priority"
+      },
+      "source_event": "salience-review",
+      "purpose": "reduce ordinary retrieval noise",
+      "effect": {
+        "ordinary_retrieval": false,
+        "witness_deleted": false
+      }
+    },
+    {
+      "event_id": "hi6-event-006",
+      "event_type": "trace_released",
+      "trace": "urn:telic:hi6:trace:df8584b2-793c-5a86-9018-69ab45b7558d",
+      "valid_at": "2026-07-15T11:00:00Z",
+      "recorded_at": "2026-07-15T11:00:01Z",
+      "actor": "urn:telic:hi6:center:720c3b0b-7a1c-59ed-84d8-fac58843a353",
+      "authority": {
+        "basis": "participant authority and retention policy"
+      },
+      "source_event": "service-exit",
+      "purpose": "end future profile retrieval",
+      "effect": {
+        "active_retrieval": false,
+        "deletion_status": "partial"
+      }
+    },
+    {
+      "event_id": "hi6-event-007",
+      "event_type": "trace_linked",
+      "trace": "urn:telic:hi6:trace:31cd456f-83b4-56dd-b0f6-c6a93615417a",
+      "valid_at": "2026-07-15T11:30:00Z",
+      "recorded_at": "2026-07-15T11:30:01Z",
+      "actor": "repair-board-service",
+      "authority": {
+        "operation": "link repair tasks"
+      },
+      "source_event": "water-leak-report",
+      "purpose": "coordinate repair",
+      "effect": {
+        "coordination": "urn:telic:hi6:coordination:repair-board"
+      }
+    },
+    {
+      "event_id": "hi6-event-008",
+      "event_type": "trace_breach_detected",
+      "trace": "urn:telic:hi6:trace:3ba376ee-6948-57e7-a7ba-1bc2a5bdc22c",
+      "valid_at": "2026-07-15T12:00:00Z",
+      "recorded_at": "2026-07-15T12:00:01Z",
+      "actor": "billing-review-service",
+      "authority": {
+        "operation": "detect stale-authority use"
+      },
+      "source_event": "automatic-renewal-complaint",
+      "purpose": "repair stale memory breach",
+      "effect": {
+        "quarantined": true,
+        "refund_started": true
+      }
+    }
+  ]
+}

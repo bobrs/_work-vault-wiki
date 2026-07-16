@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:hi-s:schema:purpose-authority-role:0.1",
+  "title": "PurposeAuthorityRole",
+  "type": "object",
+  "required": [
+    "id",
+    "purpose",
+    "grantor",
+    "grantee",
+    "authority_basis",
+    "consent_basis",
+    "allowed_operations",
+    "prohibited_operations",
+    "roles",
+    "tools",
+    "scope",
+    "valid_time",
+    "review_triggers",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "grantor": {
+      "type": "string"
+    },
+    "grantee": {
+      "type": "string"
+    },
+    "authority_basis": {
+      "type": "object"
+    },
+    "consent_basis": {
+      "type": "object"
+    },
+    "allowed_operations": {
+      "type": "array"
+    },
+    "prohibited_operations": {
+      "type": "array"
+    },
+    "roles": {
+      "type": "array"
+    },
+    "tools": {
+      "type": "array"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "review_triggers": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "paused",
+        "suspended",
+        "expired",
+        "withdrawn",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

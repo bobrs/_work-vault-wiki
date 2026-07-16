@@ -1,0 +1,146 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Participant correction changes the active standing-preserving summary",
+  "summary_before": {
+    "summary_id": "urn:telic:hi8:summary:7900018f-255a-5ada-a706-ba50b6513d91",
+    "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "summary_scope": {
+      "meeting": "clinic transition deliberation",
+      "date": "2026-07-17"
+    },
+    "included_centers": [
+      "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+      "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+      "urn:telic:hi8:center:37c912bf-6344-5a47-baf8-9a6df9b1861a",
+      "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779"
+    ],
+    "omitted_centers": [
+      "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+      "urn:telic:hi8:center:fb43be43-34d8-5005-b5a3-1156bde2ba95"
+    ],
+    "majority_or_common_positions": [
+      "temporary local access is broadly preferred",
+      "unsafe building use should end"
+    ],
+    "minority_positions": [],
+    "protected_conditions": [
+      "urn:telic:hi8:condition:db4497d9-a398-5d75-96fb-bf6e2a0b6986"
+    ],
+    "unresolved_disagreements": [
+      "whether renovation should remain presumptive"
+    ],
+    "source_links": [
+      "patient-testimony",
+      "disability-advisory-statement",
+      "staffing-report"
+    ],
+    "model_inferences": [
+      "local service appears to have broad support"
+    ],
+    "generated_language": [
+      "participants broadly support temporary local access while preserving long-term facility options"
+    ],
+    "participant_review": {
+      "required": true,
+      "completed": false
+    },
+    "corrections": [],
+    "status": "participant_review"
+  },
+  "correction": {
+    "record_id": "urn:telic:hi8:correction:da55b8e4-33e4-5f3b-bf9d-f954c54ce26f",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "field_map": "urn:telic:hi8:field-map:7900018f-255a-5ada-a706-ba50b6513d91",
+    "record_type": "participant_correction",
+    "source": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+    "target_output": "urn:telic:hi8:summary:7900018f-255a-5ada-a706-ba50b6513d91",
+    "reason": [
+      "summary omitted schedule conflict",
+      "broad support did not include daytime-only service"
+    ],
+    "scope": {
+      "summary": "clinic transition deliberation"
+    },
+    "authority": {
+      "basis": "directly affected participant correction"
+    },
+    "effect": {
+      "add_center": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+      "add_disagreement": "hours and transport burden",
+      "remove_unqualified_consensus": true
+    },
+    "propagation": [
+      "field map",
+      "active summary",
+      "route comparison",
+      "decision witness"
+    ],
+    "review": {
+      "authority": "county deliberation clerk"
+    },
+    "status": "completed"
+  },
+  "summary_after": {
+    "summary_id": "urn:telic:hi8:summary:e9262088-1cb4-5469-b9fa-6ab35e3dbcee",
+    "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "summary_scope": {
+      "meeting": "clinic transition deliberation",
+      "date": "2026-07-17"
+    },
+    "included_centers": [
+      "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+      "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+      "urn:telic:hi8:center:37c912bf-6344-5a47-baf8-9a6df9b1861a",
+      "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779",
+      "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f"
+    ],
+    "omitted_centers": [
+      "urn:telic:hi8:center:fb43be43-34d8-5005-b5a3-1156bde2ba95"
+    ],
+    "majority_or_common_positions": [
+      "local access is a common concern",
+      "unsafe building use should end"
+    ],
+    "minority_positions": [
+      {
+        "center": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+        "position": "daytime-only service is not accessible to many rotating-shift workers"
+      }
+    ],
+    "protected_conditions": [
+      "urn:telic:hi8:condition:db4497d9-a398-5d75-96fb-bf6e2a0b6986"
+    ],
+    "unresolved_disagreements": [
+      "hours and transport burden",
+      "whether renovation should remain presumptive"
+    ],
+    "source_links": [
+      "patient-testimony",
+      "disability-advisory-statement",
+      "staffing-report"
+    ],
+    "model_inferences": [
+      "local access appears broadly important, but no single route has universal support"
+    ],
+    "generated_language": [
+      "participants share concern for local access while remaining materially divided over route, hours, and burden"
+    ],
+    "participant_review": {
+      "required": true,
+      "completed": true,
+      "reviewers": [
+        "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+        "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+        "county deliberation clerk"
+      ]
+    },
+    "corrections": [
+      "urn:telic:hi8:correction:da55b8e4-33e4-5f3b-bf9d-f954c54ce26f"
+    ],
+    "status": "corrected"
+  },
+  "prior_version_preserved": true,
+  "result": "The model's smooth consensus language is replaced by a corrected summary that preserves schedule and route disagreement."
+}

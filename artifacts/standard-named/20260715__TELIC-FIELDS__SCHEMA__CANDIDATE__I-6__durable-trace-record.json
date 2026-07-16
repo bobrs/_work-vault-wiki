@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "durable-trace-record.schema.json",
+  "title": "DurableTraceRecord",
+  "type": "object",
+  "required": [
+    "trace_id",
+    "trace_type",
+    "source_centers",
+    "affected_centers",
+    "source_events",
+    "content",
+    "scope",
+    "status",
+    "provenance",
+    "authority",
+    "integrity",
+    "lifecycle"
+  ],
+  "properties": {
+    "trace_id": {
+      "type": "string"
+    },
+    "trace_type": {
+      "enum": [
+        "linguistic",
+        "documentary",
+        "material",
+        "relational",
+        "institutional",
+        "computational",
+        "embodied",
+        "environmental",
+        "other"
+      ]
+    },
+    "source_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "assertion_class",
+        "value"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "restricted",
+        "contested",
+        "stale",
+        "archival",
+        "expired",
+        "released",
+        "deleted",
+        "superseded",
+        "unknown"
+      ]
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "integrity": {
+      "type": "object"
+    },
+    "lifecycle": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

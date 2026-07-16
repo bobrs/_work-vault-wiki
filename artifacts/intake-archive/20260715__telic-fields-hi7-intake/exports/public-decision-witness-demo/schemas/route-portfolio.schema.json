@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "route-portfolio.schema.json",
+  "title": "RoutePortfolio",
+  "type": "object",
+  "required": [
+    "route_portfolio_id",
+    "assembly",
+    "routes",
+    "portfolio_structure",
+    "allocation",
+    "shared_conditions",
+    "separate_conditions",
+    "coordination",
+    "conflicts",
+    "review",
+    "exit",
+    "status"
+  ],
+  "properties": {
+    "route_portfolio_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "routes": {
+      "type": "array",
+      "minItems": 1
+    },
+    "portfolio_structure": {
+      "enum": [
+        "parallel",
+        "geographic",
+        "temporal",
+        "pilot_and_review",
+        "rotational",
+        "budget_allocation",
+        "participant_choice",
+        "conditional_branch",
+        "redundant_safety",
+        "other"
+      ]
+    },
+    "allocation": {
+      "type": "object"
+    },
+    "shared_conditions": {
+      "type": "array"
+    },
+    "separate_conditions": {
+      "type": "object"
+    },
+    "coordination": {
+      "type": "object"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "exit": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "under_review",
+        "revised",
+        "released",
+        "closed",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

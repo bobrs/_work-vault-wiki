@@ -1,0 +1,17 @@
+{
+  "detected": 10,
+  "total": 10,
+  "results": {
+    "T17-role-assertion-forgery": true,
+    "T18-role-operation-confusion": true,
+    "T19-role-assertion-replay": true,
+    "T20-policy-migration-laundering": true,
+    "T21-single-custodian-release": true,
+    "T22-mixed-digest-release-approval": true,
+    "T23-timeout-duplicate-external-effect": true,
+    "T24-external-review-overclaim": true,
+    "T25-reproducibility-mismatch": true,
+    "T26-public-correction-content-leak": true
+  },
+  "pass": true
+}

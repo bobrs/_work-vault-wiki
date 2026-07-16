@@ -1,0 +1,59 @@
+{
+  "demonstration_id": "PD-8",
+  "title": "Community benefit remains concrete and governed",
+  "benefit_record": {
+    "record_id": "urn:telic:hi9:benefit:67b5362a-e443-513c-bbd5-f1d275e8710b",
+    "model_lineage": "urn:telic:hi9:model-lineage:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+    "contributors_or_communities": [
+      "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd"
+    ],
+    "contribution_classes": [
+      "community corpus",
+      "governance",
+      "review",
+      "correction"
+    ],
+    "benefit_claim": "The community receives governed access, local infrastructure, and a repair fund tied to use of the corpus.",
+    "benefit_mechanisms": [
+      {
+        "type": "community_license",
+        "mechanism": "community-governed deployment rights"
+      },
+      {
+        "type": "infrastructure",
+        "mechanism": "local hosting and archival tools"
+      },
+      {
+        "type": "repair_fund",
+        "mechanism": "two percent of service revenue within scope"
+      }
+    ],
+    "recognition": {
+      "public_attribution": "community-approved collective attribution",
+      "individual_names": false
+    },
+    "governance": {
+      "authority": "community archive council and provider joint review"
+    },
+    "distribution_rules": [
+      "repair fund limited to corpus governance and community digital infrastructure"
+    ],
+    "nonfinancial_benefits": [
+      "model access",
+      "training materials",
+      "data-governance tooling"
+    ],
+    "limitations": [
+      "benefit applies only to declared community-corpus deployment"
+    ],
+    "review": {
+      "cadence": "annual",
+      "audit": true
+    },
+    "status": "active"
+  },
+  "generic_public_benefit_claim_only": false,
+  "concrete_mechanisms": 3,
+  "community_governance_present": true,
+  "result": "The benefit claim remains connected to the community corpus, governance burden, and repair obligations."
+}

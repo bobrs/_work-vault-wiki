@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "consentful-training-witness.schema.json",
+  "title": "ConsentfulTrainingWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "model_lineage",
+    "source_standing_records",
+    "collection_authorizations",
+    "authority_consent_profiles",
+    "transformation_lineages",
+    "annotation_preference_records",
+    "constitution_lineages",
+    "optimization_records",
+    "synthetic_ancestry",
+    "withdrawal_unlearning_records",
+    "derivative_propagations",
+    "benefit_records",
+    "unknowns",
+    "contests",
+    "lineage_classification",
+    "event_ids",
+    "completeness",
+    "generated_from_events",
+    "generated_at"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "model_lineage": {
+      "type": "string"
+    },
+    "source_standing_records": {
+      "type": "array"
+    },
+    "collection_authorizations": {
+      "type": "array"
+    },
+    "authority_consent_profiles": {
+      "type": "array"
+    },
+    "transformation_lineages": {
+      "type": "array"
+    },
+    "annotation_preference_records": {
+      "type": "array"
+    },
+    "constitution_lineages": {
+      "type": "array"
+    },
+    "optimization_records": {
+      "type": "array"
+    },
+    "synthetic_ancestry": {
+      "type": "array"
+    },
+    "withdrawal_unlearning_records": {
+      "type": "array"
+    },
+    "derivative_propagations": {
+      "type": "array"
+    },
+    "benefit_records": {
+      "type": "array"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "contests": {
+      "type": "array"
+    },
+    "lineage_classification": {
+      "enum": [
+        "consent_authorized",
+        "community_authorized",
+        "licensed_and_provenance_audited",
+        "public_mandate_governed",
+        "mixed_authority",
+        "materially_unknown",
+        "contested_lineage",
+        "nonconsensual_or_unauthorized"
+      ]
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deployment-incident-repair-record.schema.json",
+  "title": "DeploymentIncidentRepairRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "incident_class",
+    "detected_at",
+    "affected_centers",
+    "affected_actions",
+    "source",
+    "immediate_containment",
+    "evidence",
+    "consequences",
+    "model_or_system_change",
+    "affected_center_repair",
+    "compensation",
+    "correction_propagation",
+    "accountability",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "incident_class": {
+      "enum": [
+        "unauthorized_action",
+        "wrongful_denial",
+        "data_misuse",
+        "privacy_breach",
+        "false_classification",
+        "hallucinated_record",
+        "tool_error",
+        "model_drift",
+        "discriminatory_effect",
+        "refusal_bypass",
+        "correction_failure",
+        "other"
+      ]
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "affected_actions": {
+      "type": "array"
+    },
+    "source": {
+      "type": "object"
+    },
+    "immediate_containment": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "consequences": {
+      "type": "array"
+    },
+    "model_or_system_change": {
+      "type": "array"
+    },
+    "affected_center_repair": {
+      "type": "array"
+    },
+    "compensation": {
+      "type": "array"
+    },
+    "correction_propagation": {
+      "type": "array"
+    },
+    "accountability": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "detected",
+        "contained",
+        "repairing",
+        "partially_repaired",
+        "repaired",
+        "open_claims",
+        "contested",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

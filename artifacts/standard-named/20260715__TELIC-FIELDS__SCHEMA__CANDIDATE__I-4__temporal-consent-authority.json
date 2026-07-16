@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "temporal-consent-authority.schema.json",
+  "title": "TemporalConsentAuthorityRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "record_type",
+    "source_center",
+    "basis",
+    "operation",
+    "scope",
+    "version",
+    "valid_time",
+    "transaction_time",
+    "state",
+    "renewal",
+    "withdrawal",
+    "surviving_obligations",
+    "historical_effect"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "enum": [
+        "consent",
+        "delegated_authority",
+        "contractual_authority",
+        "public_authority",
+        "fiduciary_authority",
+        "emergency_authority",
+        "other_authority"
+      ]
+    },
+    "source_center": {
+      "type": "string"
+    },
+    "basis": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "version": {
+      "type": "string"
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transaction_time": {
+      "type": "object",
+      "required": [
+        "recorded_at"
+      ],
+      "properties": {
+        "recorded_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "superseded_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "state": {
+      "enum": [
+        "valid_when_given",
+        "active",
+        "conditional",
+        "stale",
+        "expired",
+        "withdrawn",
+        "superseded",
+        "contested",
+        "incapacity_triggered",
+        "unknown"
+      ]
+    },
+    "renewal": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "surviving_obligations": {
+      "type": "array"
+    },
+    "historical_effect": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

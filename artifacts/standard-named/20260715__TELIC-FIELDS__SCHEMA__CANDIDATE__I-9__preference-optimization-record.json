@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "preference-optimization-record.schema.json",
+  "title": "PreferenceOptimizationRecord",
+  "type": "object",
+  "required": [
+    "optimization_id",
+    "model_lineage",
+    "optimization_family",
+    "input_data",
+    "preference_sources",
+    "aggregation_method",
+    "disagreement_treatment",
+    "objective",
+    "constraints",
+    "provider_role",
+    "evaluation",
+    "known_biases",
+    "status"
+  ],
+  "properties": {
+    "optimization_id": {
+      "type": "string"
+    },
+    "model_lineage": {
+      "type": "string"
+    },
+    "optimization_family": {
+      "enum": [
+        "supervised_fine_tuning",
+        "rlhf",
+        "dpo",
+        "rlaif",
+        "constitutional_ai",
+        "reward_modeling",
+        "rejection_sampling",
+        "self_training",
+        "distillation",
+        "other"
+      ]
+    },
+    "input_data": {
+      "type": "array"
+    },
+    "preference_sources": {
+      "type": "array"
+    },
+    "aggregation_method": {
+      "type": "object"
+    },
+    "disagreement_treatment": {
+      "type": "object"
+    },
+    "objective": {
+      "type": "object"
+    },
+    "constraints": {
+      "type": "array"
+    },
+    "provider_role": {
+      "type": "object"
+    },
+    "evaluation": {
+      "type": "object"
+    },
+    "known_biases": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "active",
+        "complete",
+        "partial",
+        "contested",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

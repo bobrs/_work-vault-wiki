@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "id": "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+      "center_type": "person",
+      "standing_basis": [
+        "directly affected",
+        "participant"
+      ],
+      "role": "schedule participant",
+      "scope": {
+        "resource": "community workshop",
+        "dates": "pilot week"
+      },
+      "representation_source": {
+        "type": "self"
+      },
+      "authority": {
+        "may": "state availability and correct representation"
+      },
+      "consent_relation": {
+        "service": true,
+        "training_reuse": false
+      },
+      "correction_route": {
+        "recipient": "operator",
+        "outcome_changing": true
+      },
+      "review": {
+        "authority": "pilot facilitator"
+      },
+      "status": "active"
+    },
+    {
+      "id": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+      "center_type": "person",
+      "standing_basis": [
+        "directly affected",
+        "protected access need"
+      ],
+      "role": "schedule participant",
+      "scope": {
+        "resource": "community workshop",
+        "dates": "pilot week"
+      },
+      "representation_source": {
+        "type": "self"
+      },
+      "authority": {
+        "may": "state access condition and correct representation"
+      },
+      "consent_relation": {
+        "service": true,
+        "cross_session_memory": false,
+        "training_reuse": false
+      },
+      "correction_route": {
+        "recipient": "operator",
+        "outcome_changing": true
+      },
+      "review": {
+        "authority": "pilot facilitator"
+      },
+      "status": "active_with_conditions"
+    }
+  ]
+}

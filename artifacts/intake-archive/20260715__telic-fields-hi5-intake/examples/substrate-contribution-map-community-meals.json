@@ -1,0 +1,80 @@
+{
+  "map_id": "urn:telic:hi5:substrate-map:a075ff57-23a8-584c-83c5-05a4270b1cad",
+  "dependent_loop": "urn:telic:hi5:loop:c0137aa9-548e-50f3-98e7-6f4b3dd3133a",
+  "contributions": [
+    {
+      "supporting_loop": "urn:telic:hi5:loop:60e21969-521f-5ace-b7ba-565ab43ed119",
+      "contribution_class": "labor",
+      "quantity_or_scope": {
+        "hours_per_week": 20
+      },
+      "criticality": "critical",
+      "visibility": "visible",
+      "authority": "volunteer-grant-v1",
+      "reciprocity": {
+        "expense_reimbursement": true,
+        "meals": true
+      },
+      "substitutability": {
+        "technical": "medium",
+        "relational": "low"
+      },
+      "withdrawal_effect": {
+        "capacity_reduction": "proportional",
+        "new commitment freeze": true
+      },
+      "correction_route": {
+        "recipient": "volunteer council"
+      }
+    },
+    {
+      "supporting_loop": "urn:telic:hi5:loop:7d78a05b-3214-5bbb-a097-6a71ebce5652",
+      "contribution_class": "money",
+      "quantity_or_scope": {
+        "monthly_limit": 4000
+      },
+      "criticality": "critical",
+      "visibility": "visible",
+      "authority": "restricted-fund-grant-v1",
+      "reciprocity": {
+        "public_reporting": "quarterly"
+      },
+      "substitutability": {
+        "technical": "medium",
+        "time_to_replace": "60 days"
+      },
+      "withdrawal_effect": {
+        "new_purchases": "pause after approved obligations"
+      },
+      "correction_route": {
+        "recipient": "fund stewards"
+      }
+    },
+    {
+      "supporting_loop": "urn:telic:hi5:loop:e046f87b-9109-5b8c-aeaf-b577f5dea54f",
+      "contribution_class": "legitimacy",
+      "quantity_or_scope": {
+        "name_use": "local meal program",
+        "distribution_access": "three sites"
+      },
+      "criticality": "important",
+      "visibility": "visible",
+      "authority": "community-charter-v1",
+      "reciprocity": {
+        "decision_access": "quarterly assembly"
+      },
+      "substitutability": {
+        "technical": "none",
+        "constitutional": "none"
+      },
+      "withdrawal_effect": {
+        "name_use_stops": true,
+        "governance_review": true
+      },
+      "correction_route": {
+        "recipient": "community assembly"
+      }
+    }
+  ],
+  "status": "current"
+}

@@ -17,11 +17,13 @@ It does not claim that earlier artifacts already contained the language or theor
 
 ### Primary root artifact
 
-- Artifact: human-preserved Markdown transcript of the originating ChatGPT session
-- Date: 2026-07-13
+- Artifact: user-visible Markdown transcript extracted from the originating ChatGPT export
+- Date: 2026-07-12
 - Role: primary witnessed source
 - Boundary: ends immediately before the prompt authorizing continuation with Step 2
-- Repository state: intake path, standard-named path, hash, artifact ID, and public/private disposition pending
+- Repository state: installed at the intake and standard-named paths; hash and artifact ID recorded; raw JSON remains local/private by disposition
+
+The raw export is recorded separately by filename, conversation ID, and SHA-256. The public repository contains the cleaned user-visible transcript only; system messages, internal reasoning, tool calls, and execution payloads are excluded.
 
 The root transcript is the source of record for:
 

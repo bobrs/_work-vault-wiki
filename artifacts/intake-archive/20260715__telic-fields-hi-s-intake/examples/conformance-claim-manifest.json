@@ -1,0 +1,23 @@
+{
+  "claim_id": "urn:telic:hi-s:claim:0ae989f4-2d7d-5b3d-9ad0-4f677e1be65f",
+  "profile": "TF-C4",
+  "profile_version": "0.1",
+  "bounded_extension": "TF-C5 retirement",
+  "scope": "TF-MVI-1 bounded scheduling scenario",
+  "domain": "community scheduling",
+  "records_tested": [
+    "center-standing",
+    "source-projection-context",
+    "purpose-authority-role",
+    "route-gate-action-consequence",
+    "event-witness-contest-repair",
+    "lifecycle-transfer-residual"
+  ],
+  "known_exclusions": [
+    "production security",
+    "legal certification",
+    "general model safety"
+  ],
+  "test_date": "2026-07-15",
+  "witness_export": "reference-scenario-witness.json"
+}

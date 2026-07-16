@@ -1,0 +1,44 @@
+{
+  "output_id": "urn:telic:hi8:output:2a6b3a43-fba6-556a-bae9-c86f1a0ad8b7",
+  "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+  "role": "route_generator",
+  "output_class": "generated_option",
+  "content": {
+    "route": "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09",
+    "components": [
+      "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+      "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290",
+      "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17"
+    ],
+    "description": "temporary mobile service plus local-practice partnership and renovation review"
+  },
+  "source_inputs": [
+    "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+    "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290",
+    "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+    "patient access concerns",
+    "county reversibility concern"
+  ],
+  "source_status": [
+    "retrieved",
+    "direct",
+    "generated"
+  ],
+  "transformations": [
+    "combined three candidate routes into a portfolio"
+  ],
+  "uncertainty": {
+    "level": "material",
+    "items": [
+      "staffing",
+      "partner capacity"
+    ]
+  },
+  "standing_effect": "none",
+  "authority_effect": "none",
+  "consent_effect": "none",
+  "correction_route": {
+    "recipient": "participants and option-set clerk"
+  },
+  "status": "participant_review"
+}

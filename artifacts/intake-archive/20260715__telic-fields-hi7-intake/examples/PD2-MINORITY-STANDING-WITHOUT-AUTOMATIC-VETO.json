@@ -1,0 +1,42 @@
+{
+  "demonstration_id": "PD-2",
+  "title": "Minority standing remains represented without automatic veto",
+  "standing_admission": {
+    "admission_id": "urn:telic:hi7:admission:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "center": "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "standing_basis": [
+      "directly_affected",
+      "rights_holder",
+      "consequence_bearer"
+    ],
+    "role": "representative",
+    "representation_source": {
+      "basis": "county disability advisory group",
+      "selection": "open meeting"
+    },
+    "scope": {
+      "issue": "minimum accessible urgent-care service"
+    },
+    "authority": {
+      "may": "state position, evidence, and protected-condition claim",
+      "may_not": "unilaterally select route"
+    },
+    "conflicts": [],
+    "correction": {
+      "route": "represented patients and advisory group"
+    },
+    "review": {
+      "authority": "standing review panel"
+    },
+    "status": "admitted"
+  },
+  "protected_condition_claim": "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8",
+  "automatic_veto": false,
+  "required_response": [
+    "test every route against minimum access",
+    "provide override process",
+    "preserve dissent"
+  ],
+  "result": "A small affected group changes what the decision must answer without controlling every route."
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:policy-migration:0.1",
+  "title": "PolicyMigration",
+  "type": "object",
+  "required": [
+    "migration_id",
+    "from_version",
+    "to_version",
+    "candidate_digest",
+    "validation_passed",
+    "validation_errors",
+    "rollback_version",
+    "created_at",
+    "status"
+  ],
+  "properties": {
+    "migration_id": {
+      "type": "string"
+    },
+    "from_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "to_version": {
+      "type": "integer",
+      "minimum": 2
+    },
+    "candidate_digest": {
+      "type": "string"
+    },
+    "validation_passed": {
+      "type": "boolean"
+    },
+    "validation_errors": {
+      "type": "array"
+    },
+    "rollback_version": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "rolled_back",
+        "superseded",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

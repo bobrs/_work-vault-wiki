@@ -1,0 +1,54 @@
+{
+  "demonstration_id": "PD-4",
+  "title": "Material mission drift triggers reauthorization",
+  "drift_record": {
+    "drift_id": "urn:telic:hi5:drift:9cf4c39d-f916-56a2-9870-d6b809a644b1",
+    "dependent_loop": "urn:telic:hi5:loop:838d8295-5e90-588e-9b40-ff3d590390da",
+    "drift_type": "mission_drift",
+    "declared_state": {
+      "purpose": "meet urgent neighbor needs",
+      "beneficiary": "neighbors in crisis"
+    },
+    "operative_state": {
+      "purpose": "maximize completed reportable cases",
+      "beneficiary": "grant renewal and institutional survival"
+    },
+    "evidence": [
+      "staff time allocation",
+      "eligibility narrowing",
+      "reporting incentives",
+      "participant interviews"
+    ],
+    "affected_centers": [
+      "neighbors denied by narrowed criteria",
+      "staff",
+      "funders"
+    ],
+    "authority_change": {
+      "renewed": false,
+      "old_authority": "community mutual-aid charter"
+    },
+    "burden_change": {
+      "participant_documentation": "increased",
+      "care_time": "decreased"
+    },
+    "beneficiary_change": {
+      "from": "neighbors in crisis",
+      "toward": "grant-reporting success"
+    },
+    "detected_at": "2026-07-15T10:00:00Z",
+    "review": {
+      "required": "community and funder reauthorization",
+      "deadline": "2026-08-15"
+    },
+    "status": "confirmed"
+  },
+  "new_expansion_allowed": false,
+  "current_routes": [
+    "restore original mission",
+    "reauthorize revised mission",
+    "fork service and reporting loops",
+    "release program"
+  ],
+  "result": "The loop may evolve, but the operative purpose cannot hide beneath the old name."
+}

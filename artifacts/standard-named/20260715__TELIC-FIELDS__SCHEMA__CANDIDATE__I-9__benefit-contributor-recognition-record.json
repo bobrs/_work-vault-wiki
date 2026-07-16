@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "benefit-contributor-recognition-record.schema.json",
+  "title": "BenefitContributorRecognitionRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "model_lineage",
+    "contributors_or_communities",
+    "contribution_classes",
+    "benefit_claim",
+    "benefit_mechanisms",
+    "recognition",
+    "governance",
+    "distribution_rules",
+    "nonfinancial_benefits",
+    "limitations",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "model_lineage": {
+      "type": "string"
+    },
+    "contributors_or_communities": {
+      "type": "array",
+      "minItems": 1
+    },
+    "contribution_classes": {
+      "type": "array"
+    },
+    "benefit_claim": {
+      "type": "string"
+    },
+    "benefit_mechanisms": {
+      "type": "array",
+      "minItems": 1
+    },
+    "recognition": {
+      "type": "object"
+    },
+    "governance": {
+      "type": "object"
+    },
+    "distribution_rules": {
+      "type": "array"
+    },
+    "nonfinancial_benefits": {
+      "type": "array"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "partial",
+        "contested",
+        "superseded",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

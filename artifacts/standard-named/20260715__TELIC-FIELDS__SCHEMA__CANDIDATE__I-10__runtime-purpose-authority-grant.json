@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runtime-purpose-authority-grant.schema.json",
+  "title": "RuntimePurposeAuthorityGrant",
+  "type": "object",
+  "required": [
+    "grant_id",
+    "assembly",
+    "grantor",
+    "grantee",
+    "runtime_purpose",
+    "allowed_operations",
+    "prohibited_operations",
+    "affected_centers",
+    "authority_basis",
+    "consent_basis",
+    "scope",
+    "valid_time",
+    "conditions",
+    "review_triggers",
+    "withdrawal_or_expiry",
+    "status"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "grantor": {
+      "type": "string"
+    },
+    "grantee": {
+      "type": "string"
+    },
+    "runtime_purpose": {
+      "type": "string"
+    },
+    "allowed_operations": {
+      "type": "array"
+    },
+    "prohibited_operations": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "authority_basis": {
+      "type": "object"
+    },
+    "consent_basis": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "review_triggers": {
+      "type": "array"
+    },
+    "withdrawal_or_expiry": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "expired",
+        "withdrawn",
+        "contested",
+        "suspended",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

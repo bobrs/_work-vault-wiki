@@ -1,0 +1,44 @@
+{
+  "generation_id": "urn:telic:hi8:generation:145f9ec8-15ac-5710-b668-07a8c5522c97",
+  "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+  "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+  "requested_operation": "generate reversible combined routes from reviewed concerns",
+  "input_options": [
+    "urn:telic:hi8:route:aaee87e2-a411-51fa-9b52-97152944132d",
+    "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+    "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+    "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290"
+  ],
+  "generated_options": [
+    "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09"
+  ],
+  "combined_options": [
+    "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09"
+  ],
+  "omitted_options": [],
+  "agenda_questions": [
+    "Can local access and renovation review operate together?",
+    "Which hours preserve shift-worker access?"
+  ],
+  "source_of_each_item": {
+    "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09": "model-generated from participant and administrative inputs",
+    "evening-hours question": "minority-field retention profile"
+  },
+  "selection_rules": [
+    "preserve protected access",
+    "prefer reversible transition under uncertainty"
+  ],
+  "participant_review": {
+    "completed": true,
+    "adopted_by": [
+      "county board",
+      "patient representatives"
+    ],
+    "rejected_items": []
+  },
+  "admission_status": {
+    "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09": "participant-adopted candidate"
+  },
+  "corrections": [],
+  "status": "reviewed"
+}

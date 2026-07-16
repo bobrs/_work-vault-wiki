@@ -1,0 +1,74 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Training lineage does not create deployment authority",
+  "training_witness": "urn:telic:hi10:witness:210ed2ea-fb26-514e-a2eb-96d2a505c7e7",
+  "training_lineage_quality": "documented mixed authority",
+  "runtime_grant_present_initially": false,
+  "deployment_action_allowed_initially": false,
+  "runtime_grant": {
+    "grant_id": "urn:telic:hi10:grant:7733a0d5-d2fc-59a4-9ac0-592d5b082107",
+    "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+    "grantor": "urn:telic:hi10:operator:7f89d809-5d8b-50e2-8f0b-492d7d821ce5",
+    "grantee": "urn:telic:hi10:deployment:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+    "runtime_purpose": "assist access to clinic information and prepare appointment proposals",
+    "allowed_operations": [
+      "explain",
+      "translate",
+      "summarize",
+      "retrieve clinic availability",
+      "prepare appointment proposal"
+    ],
+    "prohibited_operations": [
+      "deny care",
+      "change clinical priority",
+      "assign staff",
+      "execute schedule without confirmation",
+      "retain output for training"
+    ],
+    "affected_centers": [
+      "urn:telic:hi10:center:1fe1692c-53ef-525e-9a46-76f34936b4c4",
+      "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740",
+      "urn:telic:hi10:center:d4ed232e-3790-5f81-a958-cc8a26d231ee",
+      "urn:telic:hi10:center:444be0a5-44b5-56b0-9e1f-ef16bacc8343"
+    ],
+    "authority_basis": {
+      "type": "public mandate",
+      "scope": "county health access assistance"
+    },
+    "consent_basis": {
+      "participant_controls": [
+        "optional memory",
+        "output evaluation",
+        "training reuse"
+      ]
+    },
+    "scope": {
+      "services": [
+        "clinic access assistant"
+      ],
+      "geography": "county"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    "conditions": [
+      "human review before schedule execution",
+      "protected conditions remain active"
+    ],
+    "review_triggers": [
+      "purpose expansion",
+      "tool change",
+      "provider change",
+      "model-version change",
+      "material incident"
+    ],
+    "withdrawal_or_expiry": {
+      "expiry": "2026-12-31",
+      "suspension": "county review board"
+    },
+    "status": "active"
+  },
+  "deployment_action_allowed_after_grant": true,
+  "result": "A well-governed training lineage supplies capability history, not runtime authority."
+}

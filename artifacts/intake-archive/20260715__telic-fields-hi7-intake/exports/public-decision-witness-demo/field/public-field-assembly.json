@@ -1,0 +1,66 @@
+{
+  "assembly_id": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+  "decision_question": "How should urgent county health access continue after the local clinic building becomes unsafe?",
+  "convening_authority": {
+    "holder": "urn:telic:hi7:center:ddce569c-9e0f-5797-aada-fba4374b386e",
+    "operation": "convene and implement within county health mandate"
+  },
+  "jurisdiction": {
+    "geographic": "county",
+    "policy": "urgent outpatient access"
+  },
+  "time_scope": {
+    "immediate": "six months",
+    "review": "ninety days",
+    "long_term": "two years"
+  },
+  "affected_centers": [
+    "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+    "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+    "urn:telic:hi7:center:a50e2197-5df2-57c6-aeb2-0b7096266beb",
+    "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3",
+    "urn:telic:hi7:center:4345f3fe-7b59-5f46-8fd3-3b532a87eff6",
+    "urn:telic:hi7:center:52dddcae-6e15-5615-8a2d-ecf1ac84a005",
+    "urn:telic:hi7:center:1c106c0b-c34e-56ca-ae60-4558413ec438"
+  ],
+  "represented_centers": [
+    "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+    "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3",
+    "urn:telic:hi7:center:4345f3fe-7b59-5f46-8fd3-3b532a87eff6",
+    "urn:telic:hi7:center:52dddcae-6e15-5615-8a2d-ecf1ac84a005"
+  ],
+  "missing_centers": [
+    "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+    "urn:telic:hi7:center:1c106c0b-c34e-56ca-ae60-4558413ec438"
+  ],
+  "known_teloi": [
+    "maintain urgent access",
+    "preserve accessibility",
+    "control cost",
+    "avoid unsafe building use",
+    "retain clinical staff",
+    "preserve future facility options"
+  ],
+  "protected_conditions": [
+    "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8"
+  ],
+  "uncertainties": [
+    "renovation cost",
+    "mobile clinic utilization",
+    "commercial lease availability"
+  ],
+  "dependencies": [
+    "clinical staffing",
+    "transport",
+    "state licensing",
+    "capital funding"
+  ],
+  "decision_deadline": "2026-07-22T17:00:00Z",
+  "correction_route": {
+    "recipient": "county deliberation clerk",
+    "deadline": "before method freeze"
+  },
+  "status": "partial"
+}

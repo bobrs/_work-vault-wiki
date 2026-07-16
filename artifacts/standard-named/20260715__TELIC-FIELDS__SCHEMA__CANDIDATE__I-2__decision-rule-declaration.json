@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "decision-rule-declaration.schema.json",
+  "title": "DecisionRuleDeclaration",
+  "type": "object",
+  "required": [
+    "decision_rule_id",
+    "method",
+    "purpose",
+    "input_records",
+    "criteria_source",
+    "protected_exclusions",
+    "uncertainty_treatment",
+    "incomparability_behavior",
+    "authority",
+    "model_role",
+    "version"
+  ],
+  "properties": {
+    "decision_rule_id": {
+      "type": "string"
+    },
+    "method": {
+      "enum": [
+        "pareto",
+        "mcda",
+        "outranking",
+        "lexicographic",
+        "robustness",
+        "satisficing",
+        "argumentation",
+        "negotiation",
+        "deliberation",
+        "policy_rule",
+        "human_judgment",
+        "model_recommendation",
+        "no_comparison"
+      ]
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "input_records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "criteria_source": {
+      "type": "array"
+    },
+    "weight_source": {
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "thresholds": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "protected_exclusions": {
+      "type": "array"
+    },
+    "uncertainty_treatment": {
+      "type": "object"
+    },
+    "incomparability_behavior": {
+      "enum": [
+        "preserve",
+        "deliberate",
+        "portfolio",
+        "escalate",
+        "human_judgment",
+        "not_applicable"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "model_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "final_choice_authority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "method": {
+            "const": "mcda"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "weight_source"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

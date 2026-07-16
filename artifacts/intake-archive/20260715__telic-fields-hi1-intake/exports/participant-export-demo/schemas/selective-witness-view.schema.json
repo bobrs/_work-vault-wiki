@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "selective-witness-view.schema.json",
+  "title": "SelectiveDisclosureWitnessView",
+  "type": "object",
+  "required": [
+    "view_id",
+    "witness_id",
+    "view_type",
+    "policy_version",
+    "records",
+    "omissions",
+    "generated_at"
+  ],
+  "properties": {
+    "view_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "witness_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "view_type": {
+      "enum": [
+        "source_view",
+        "participant_view",
+        "mediator_view",
+        "decision_authority_view",
+        "auditor_view",
+        "public_view",
+        "model_view"
+      ]
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+      }
+    },
+    "omissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "record",
+          "reason"
+        ],
+        "properties": {
+          "record": {
+            "type": "string",
+            "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+          },
+          "reason": {
+            "enum": [
+              "omitted_by_policy",
+              "omitted_by_consent",
+              "omitted_by_privilege",
+              "omitted_for_minimization",
+              "redacted_by_law",
+              "unknown"
+            ]
+          },
+          "proof": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_inference_distinction_preserved": {
+      "const": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

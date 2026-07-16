@@ -1,0 +1,89 @@
+{
+  "NC-1-public-availability-as-consent": {
+    "instance": {
+      "publicly_accessible": true,
+      "training_consent_inferred": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-license-as-consent": {
+    "instance": {
+      "license_present": true,
+      "personal_consent_claimed_from_license": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-one-grant-authorizes-every-transition": {
+    "instance": {
+      "collection_authorized": true,
+      "all_downstream_transitions_assumed": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-individual-authorizes-collective-knowledge": {
+    "instance": {
+      "collective_knowledge": true,
+      "individual_only_authority": true,
+      "community_authority": false
+    },
+    "expected": "fail"
+  },
+  "NC-5-annotation-as-universal-preference": {
+    "instance": {
+      "bounded_ranking_task": true,
+      "humanity_preference_claimed": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-constitution-without-authority": {
+    "instance": {
+      "provider_principles": true,
+      "public_constitution_claimed": true,
+      "adoption_lineage": false
+    },
+    "expected": "fail"
+  },
+  "NC-7-synthetic-data-as-source-free": {
+    "instance": {
+      "synthetic_generated": true,
+      "ancestor_lineage_removed": true
+    },
+    "expected": "fail"
+  },
+  "NC-8-source-deletion-as-unlearning": {
+    "instance": {
+      "source_file_deleted": true,
+      "model_forgetting_proven_claimed": true,
+      "unlearning_test": false
+    },
+    "expected": "fail"
+  },
+  "NC-9-approximate-unlearning-as-complete": {
+    "instance": {
+      "approximate_unlearning": true,
+      "complete_removal_claimed": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-derivative-model-obligation-loss": {
+    "instance": {
+      "source_restriction_changed": true,
+      "known_derivative_updated": false
+    },
+    "expected": "fail"
+  },
+  "NC-11-payment-as-unlimited-consent": {
+    "instance": {
+      "contributor_paid": true,
+      "all_future_use_authorized_claimed": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-deployment-laundering": {
+    "instance": {
+      "runtime_use_consented": true,
+      "unconsented_training_retroactively_legitimized": true
+    },
+    "expected": "fail"
+  }
+}

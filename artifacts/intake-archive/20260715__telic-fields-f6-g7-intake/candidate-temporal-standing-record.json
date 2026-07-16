@@ -1,0 +1,77 @@
+{
+  "artifact_date": "2026-07-14",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "TemporalStandingRecord",
+  "fields": {
+    "temporal_record_id": "string",
+    "subject_center": "identifier",
+    "current_state": "reference",
+    "time_scope": {
+      "valid_from": "datetime|null",
+      "valid_to": "datetime|null",
+      "recorded_at": "datetime",
+      "superseded_at": "datetime|null",
+      "acted_under_at": "array[datetime]"
+    },
+    "prior_authority": {
+      "source": "identifier|reference",
+      "artifact": "reference|null",
+      "effective_at": "datetime|null",
+      "expires_at": "datetime|null",
+      "scope": "string|object",
+      "continuity_status": "value"
+    },
+    "current_interpretation": "string|object",
+    "future_affected_centers": "array",
+    "future_possibilities_preserved": "array",
+    "future_possibilities_closed": "array",
+    "irreversible_effects": "array",
+    "commitments": "array",
+    "standing": {
+      "present": "array",
+      "future": "array",
+      "successors": "array"
+    },
+    "consent_version": "reference|null",
+    "authority_version": "reference|null",
+    "uncertainties": "array",
+    "review_trigger": "string|object|null",
+    "revision_authority": "array",
+    "release_conditions": "array",
+    "witness": "reference|null",
+    "status": [
+      "active",
+      "due_for_review",
+      "stale",
+      "expired",
+      "withdrawn",
+      "superseded",
+      "contested",
+      "released",
+      "incapacity_triggered"
+    ]
+  },
+  "candidate_event_types": [
+    "projection_created",
+    "consent_granted",
+    "consent_renewed",
+    "consent_withdrawn",
+    "authority_delegated",
+    "authority_expired",
+    "action_taken",
+    "consequence_recorded",
+    "projection_corrected",
+    "obligation_transferred",
+    "succession_recorded",
+    "telos_released"
+  ],
+  "prohibited_uses": [
+    "fabricating_future_consent",
+    "treating_historical_persistence_as_current_authority",
+    "permanent_preference_surveillance",
+    "automatic_override_of_present_person",
+    "claiming_legal_standing_without_jurisdictional_basis"
+  ],
+  "note": "Research schema only. Not yet a Phase I specification."
+}

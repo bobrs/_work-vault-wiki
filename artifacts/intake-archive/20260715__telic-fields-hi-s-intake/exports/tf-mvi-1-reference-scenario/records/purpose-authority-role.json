@@ -1,0 +1,50 @@
+{
+  "id": "urn:telic:hi-s:authority:c1229339-5e95-5fb2-bb84-a528ce6ee319",
+  "purpose": "propose and commit one community workshop time within the pilot",
+  "grantor": "urn:telic:hi-s:center:3f243285-0c96-5052-baa5-0935c9274dea",
+  "grantee": "urn:telic:hi-s:model:0730e0fa-c277-5ced-9ea9-637ab106ff5b",
+  "authority_basis": {
+    "type": "delegated pilot authority",
+    "target_authority": "operator retains commit authority"
+  },
+  "consent_basis": {
+    "participants": "service participation only",
+    "training_reuse": false
+  },
+  "allowed_operations": [
+    "summarize reviewed availability",
+    "generate candidate times",
+    "prepare tool request"
+  ],
+  "prohibited_operations": [
+    "infer consent",
+    "erase protected access condition",
+    "commit without operator authorization",
+    "retain for training"
+  ],
+  "roles": [
+    "structurer",
+    "route generator",
+    "witness assistant"
+  ],
+  "tools": [
+    {
+      "tool": "urn:telic:hi-s:tool:868ed6ee-9113-5f88-8e7c-0bdb48739b9c",
+      "permission": "prepare candidate only"
+    }
+  ],
+  "scope": {
+    "resource": "community workshop",
+    "pilot": "one week"
+  },
+  "valid_time": {
+    "from": "2026-07-20T00:00:00Z",
+    "to": "2026-07-27T00:00:00Z"
+  },
+  "review_triggers": [
+    "participant correction",
+    "missing protected condition",
+    "tool execution request"
+  ],
+  "status": "active"
+}

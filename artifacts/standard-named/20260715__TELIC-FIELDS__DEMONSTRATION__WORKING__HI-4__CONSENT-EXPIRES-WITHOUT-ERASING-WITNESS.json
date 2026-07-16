@@ -1,0 +1,69 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Consent expires without erasing historical witness",
+  "consent": {
+    "record_id": "urn:telic:hi4:consent:5a71d896-08da-5748-98b0-cccebaf5d58b",
+    "record_type": "consent",
+    "source_center": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+    "basis": "participant consent",
+    "operation": "share reviewed mediation summary with named advisor",
+    "scope": {
+      "artifact": "reviewed summary",
+      "recipient": "named advisor",
+      "purpose": "payment advice"
+    },
+    "version": "1",
+    "valid_time": {
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-01-31T23:59:59Z"
+    },
+    "transaction_time": {
+      "recorded_at": "2026-01-01T10:00:00Z",
+      "superseded_at": "2026-02-01T00:00:00Z"
+    },
+    "state": "expired",
+    "renewal": {
+      "required_for_new_use": true
+    },
+    "withdrawal": {
+      "route": "participant request"
+    },
+    "surviving_obligations": [
+      "advisor confidentiality",
+      "bounded historical witness"
+    ],
+    "historical_effect": {
+      "january_sharing": "authorized when performed"
+    }
+  },
+  "expiry_event": {
+    "event_id": "urn:telic:hi4:event:1e93a664-b727-5467-9933-7b5aa57bafb9",
+    "event_type": "consent_expired",
+    "subject_record": "urn:telic:hi4:consent:5a71d896-08da-5748-98b0-cccebaf5d58b",
+    "valid_at": "2026-02-01T00:00:00Z",
+    "recorded_at": "2026-02-01T00:00:01Z",
+    "agent": "consent-lifecycle-service",
+    "authority": {
+      "operation": "record expiry"
+    },
+    "prior_state": {
+      "state": "active"
+    },
+    "new_state": {
+      "state": "expired"
+    },
+    "reason": [
+      "valid interval ended"
+    ]
+  },
+  "historical_use": {
+    "date": "2026-01-15",
+    "authorized": true
+  },
+  "new_use": {
+    "date": "2026-07-15",
+    "purpose": "model training",
+    "authorized": false
+  },
+  "result": "The earlier sharing remains historically authorized; the new use requires new authority."
+}

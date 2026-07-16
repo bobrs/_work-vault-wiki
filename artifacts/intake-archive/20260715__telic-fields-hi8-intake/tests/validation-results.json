@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 participant correction changes summary",
+    "PD-2 minority field survives compression",
+    "PD-3 generated option retains authorship",
+    "PD-4 sycophantic agreement rejected",
+    "PD-5 provider purpose disclosed",
+    "PD-6 model disagreement non-sovereign",
+    "PD-7 recommendation blocked at action boundary",
+    "PD-8 correction propagates through witness"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-output-inherits-standing",
+    "NC-2-summary-becomes-source",
+    "NC-3-inference-becomes-consent",
+    "NC-4-minority-erased-by-frequency",
+    "NC-5-generated-option-false-authorship",
+    "NC-6-sycophantic-agreement-as-evidence",
+    "NC-7-provider-telos-concealed",
+    "NC-8-multi-model-agreement-as-authority",
+    "NC-9-self-assigned-role-escalation",
+    "NC-10-recommendation-authorizes-tool",
+    "NC-11-refusal-bypass",
+    "NC-12-correction-not-propagated"
+  ],
+  "model_mediated_witness_valid": true,
+  "result": "PASS"
+}

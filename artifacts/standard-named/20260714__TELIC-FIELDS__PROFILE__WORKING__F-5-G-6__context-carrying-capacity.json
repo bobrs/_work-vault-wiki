@@ -1,0 +1,60 @@
+{
+  "artifact_date": "2026-07-14",
+  "status": "candidate_research_profile",
+  "content_canon_status": "unset",
+  "record_name": "ContextCarryingCapacityProfile",
+  "dimensions": {
+    "standing_coverage": {
+      "description": "Materially affected centers and protected conditions represented in active or reliably recoverable context."
+    },
+    "contradiction_tolerance": {
+      "description": "Ability to preserve unresolved difference without forced consensus or collapse."
+    },
+    "semantic_resolution": {
+      "description": "Granularity at which distinctions remain usable for the action's stakes."
+    },
+    "temporal_span": {
+      "description": "Ability to relate relevant history, current state, and future consequence."
+    },
+    "provenance_retention": {
+      "description": "Traceability of statements, inferences, transformations, and corrections."
+    },
+    "uncertainty_retention": {
+      "description": "Preservation of unknown, inferred, contested, and stale status."
+    },
+    "routing_capacity": {
+      "description": "Ability to move context to a competent and authorized loop."
+    },
+    "recovery_capacity": {
+      "description": "Ability to restore omitted or degraded context after overload or error."
+    },
+    "privacy_capacity": {
+      "description": "Ability to preserve necessary meaning without unnecessary disclosure or inference."
+    },
+    "participant_load_tolerance": {
+      "description": "Ability to sustain meaningful participation without cognitive, emotional, or administrative overload."
+    },
+    "escalation_capacity": {
+      "description": "Ability to recognize local insufficiency and route to an outer loop with the missing competence."
+    },
+    "stop_capacity": {
+      "description": "Ability to reduce authority or halt before acting on inadequate context."
+    }
+  },
+  "qualitative_states": [
+    "robust",
+    "adequate",
+    "fragile",
+    "degraded",
+    "failed",
+    "unknown"
+  ],
+  "prohibited_uses": [
+    "universal_intelligence_score",
+    "human_worth_ranking",
+    "automatic_capacity_based_discrimination",
+    "justification_for_total_context_collection",
+    "replacement_for_domain_specific_assessment"
+  ],
+  "note": "Research profile only. No total score is recommended."
+}

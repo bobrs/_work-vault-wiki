@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "tf": "https://example.invalid/telic-field/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "evidenceStatus": "tf:evidenceStatus",
+    "standingType": "tf:standingType",
+    "authorityOperation": "tf:authorityOperation",
+    "consentState": "tf:consentState",
+    "validFrom": {
+      "@id": "tf:validFrom",
+      "@type": "xsd:dateTime"
+    },
+    "validTo": {
+      "@id": "tf:validTo",
+      "@type": "xsd:dateTime"
+    },
+    "recordedAt": {
+      "@id": "tf:recordedAt",
+      "@type": "xsd:dateTime"
+    },
+    "protectedCondition": {
+      "@id": "tf:protectedCondition",
+      "@type": "@id"
+    },
+    "participantRecognition": "tf:participantRecognition",
+    "contestStatus": "tf:contestStatus",
+    "propagationStatus": "tf:propagationStatus",
+    "omissionProof": {
+      "@id": "tf:omissionProof",
+      "@type": "@id"
+    },
+    "releaseStatus": "tf:releaseStatus",
+    "consequence": {
+      "@id": "tf:consequence",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "wasRevisionOf": {
+      "@id": "prov:wasRevisionOf",
+      "@type": "@id"
+    },
+    "wasGeneratedBy": {
+      "@id": "prov:wasGeneratedBy",
+      "@type": "@id"
+    },
+    "wasAttributedTo": {
+      "@id": "prov:wasAttributedTo",
+      "@type": "@id"
+    },
+    "used": {
+      "@id": "prov:used",
+      "@type": "@id"
+    },
+    "wasAssociatedWith": {
+      "@id": "prov:wasAssociatedWith",
+      "@type": "@id"
+    }
+  }
+}

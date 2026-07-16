@@ -1,0 +1,75 @@
+{
+  "demonstration_id": "PD-8",
+  "title": "Dissolution preserves residual obligations and witness",
+  "dissolution": {
+    "dissolution_id": "urn:telic:hi5:dissolution:cfc834de-e570-5557-82fa-f08162ec1d13",
+    "loop": "urn:telic:hi5:loop:87cfc6a3-b63c-5c0c-816f-f4ff640051cc",
+    "reason": [
+      "maintainer support withdrawn",
+      "replacement funding unavailable",
+      "vendor transfer requires unauthorized data expansion"
+    ],
+    "authority": {
+      "holder": "cooperative membership",
+      "basis": "dissolution vote",
+      "date": "2026-07-15"
+    },
+    "effective_at": "2026-09-01T00:00:00Z",
+    "support_released": [
+      "volunteer on-call duty",
+      "community endorsement",
+      "donated hosting after migration"
+    ],
+    "assets": {
+      "reserve_fund": "migration and repair",
+      "software": "archived under existing license",
+      "hardware": "sold after secure erasure"
+    },
+    "records": {
+      "participant_export": "provided",
+      "incident_history": "preserved",
+      "governance_records": "archived"
+    },
+    "restricted_data": {
+      "transfer": "only with participant authority",
+      "custody": "independent records trustee"
+    },
+    "obligations": [
+      "maintain emergency access for 30 days",
+      "complete exports",
+      "resolve open complaints"
+    ],
+    "unresolved_harms": [
+      "two delayed correction requests"
+    ],
+    "repair_funds": {
+      "amount": 18000,
+      "purpose": "migration, complaint repair, independent audit"
+    },
+    "successor": null,
+    "deletion": {
+      "unnecessary_copies": "delete after export window",
+      "verification": "independent audit"
+    },
+    "public_notice": {
+      "date": "2026-07-20",
+      "contents": [
+        "timeline",
+        "export route",
+        "complaint route",
+        "data custody"
+      ]
+    },
+    "final_witness": "urn:telic:hi5:witness:f1f277fa-7782-5505-97b4-4ef62ecbc949",
+    "status": "approved",
+    "future_support_recruitment_ended": true
+  },
+  "service_form_preserved": false,
+  "protected_field_preserved": [
+    "participant control",
+    "restricted data",
+    "repair",
+    "history"
+  ],
+  "result": "The service ends because preserving the form would require unauthorized recruitment."
+}

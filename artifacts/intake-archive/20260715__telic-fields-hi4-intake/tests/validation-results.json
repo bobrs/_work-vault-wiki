@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 11,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 present action preserves later option",
+    "PD-2 valid commitment binds within scope",
+    "PD-3 changed conditions trigger review",
+    "PD-4 stale projection loses authority",
+    "PD-5 expired consent preserves witness",
+    "PD-6 future standing blocks irreversible action",
+    "PD-7 successor obligations separated from authority",
+    "PD-8 temporal breach repair and release"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-future-standing-as-consent",
+    "NC-2-persistence-as-legitimacy",
+    "NC-3-permanent-commitment-sovereignty",
+    "NC-4-historical-rewrite",
+    "NC-5-expired-consent-reuse",
+    "NC-6-stale-projection-action",
+    "NC-7-asset-only-succession",
+    "NC-8-unlimited-successor-authority",
+    "NC-9-irreversible-closure-without-standing",
+    "NC-10-present-erasure",
+    "NC-11-release-as-erasure",
+    "NC-12-repair-as-forced-continuation"
+  ],
+  "temporal_witness_valid": true,
+  "result": "PASS"
+}

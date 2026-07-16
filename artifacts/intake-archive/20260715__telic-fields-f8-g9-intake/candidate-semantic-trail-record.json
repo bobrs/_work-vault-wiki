@@ -1,0 +1,108 @@
+{
+  "artifact_date": "2026-07-15",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "SemanticTrailRecord",
+  "fields": {
+    "trail_id": "identifier",
+    "trace_type": "string",
+    "source_centers": "array[identifier]",
+    "affected_centers": "array[identifier]",
+    "created_by": "identifier|reference",
+    "created_at": "datetime",
+    "source_artifacts": "array[reference]",
+    "evidence_status": [
+      "direct",
+      "confirmed",
+      "delegated",
+      "observed",
+      "inferred",
+      "contested",
+      "unknown"
+    ],
+    "telic_function": {
+      "purpose": "string|object",
+      "protected_conditions": "array",
+      "possible_actions": "array",
+      "prohibited_actions": "array"
+    },
+    "semantic_content": {
+      "expression": "string|object",
+      "interpretation": "string|object",
+      "alternatives": "array",
+      "unresolved": "array"
+    },
+    "scope": {
+      "recipients": "array",
+      "domains": "array",
+      "downstream_uses": "array",
+      "expires_at": "datetime|null",
+      "review_trigger": "string|object|null"
+    },
+    "authority": {
+      "descriptive": "reference|rule",
+      "interpretive": "reference|rule",
+      "action": "reference|rule"
+    },
+    "provenance": {
+      "transformations": "array",
+      "models": "array",
+      "versions": "array",
+      "derivations": "array",
+      "prov_bundle": "reference|null"
+    },
+    "integrity": {
+      "source_status": "value",
+      "semantic_status": "value",
+      "temporal_status": "value",
+      "consent_status": "value",
+      "standing_status": "value",
+      "uncertainty_status": "value"
+    },
+    "uptake": [
+      {
+        "center": "identifier",
+        "context": "reference|object",
+        "interpretation": "string|object",
+        "action": "reference|null",
+        "consequence": "reference|null"
+      }
+    ],
+    "corrections": "array",
+    "forks": "array",
+    "derived_trails": "array",
+    "lifecycle_status": [
+      "active",
+      "restricted",
+      "contested",
+      "stale",
+      "expired",
+      "released",
+      "deleted",
+      "archived"
+    ]
+  },
+  "candidate_prov_mapping": {
+    "source_artifact": "prov:Entity",
+    "trace": "prov:Entity",
+    "creation_or_transformation": "prov:Activity",
+    "human_or_institution": "prov:Agent",
+    "language_model": "prov:SoftwareAgent",
+    "generated_trace": "prov:wasGeneratedBy",
+    "source_use": "prov:used",
+    "attribution": "prov:wasAttributedTo",
+    "derivation": "prov:wasDerivedFrom",
+    "revision": "prov:wasRevisionOf",
+    "responsible_activity": "prov:wasAssociatedWith",
+    "witness_package": "prov:Bundle"
+  },
+  "prohibited_uses": [
+    "treating_trace_as_complete_source_field",
+    "treating_provenance_as_truth_or_consent",
+    "using_model_inference_as_source_fact",
+    "unrestricted_appropriation_from_semantic_commons",
+    "permanent_reactivation_of_expired_or_released_trails",
+    "classifying_dissent_as_semantic_pollution"
+  ],
+  "note": "Research schema only. Not yet a Phase I specification."
+}

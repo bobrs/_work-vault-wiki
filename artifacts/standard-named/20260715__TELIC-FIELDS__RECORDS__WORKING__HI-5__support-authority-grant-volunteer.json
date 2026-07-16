@@ -1,0 +1,42 @@
+{
+  "grant_id": "urn:telic:hi5:grant:f4c29101-bb74-536b-9e24-ea7552e6d3b9",
+  "supporting_loop": "urn:telic:hi5:loop:60e21969-521f-5ace-b7ba-565ab43ed119",
+  "dependent_loop": "urn:telic:hi5:loop:c0137aa9-548e-50f3-98e7-6f4b3dd3133a",
+  "contribution": "labor and care",
+  "basis": "consent",
+  "scope": {
+    "hours_per_week": 2,
+    "roles": [
+      "meal preparation",
+      "distribution"
+    ],
+    "excludes": [
+      "24-hour on-call",
+      "cash contribution"
+    ]
+  },
+  "valid_time": {
+    "valid_from": "2026-07-01T00:00:00Z",
+    "valid_to": "2026-12-31T23:59:59Z"
+  },
+  "burden_limit": {
+    "hours_per_week": 2,
+    "emergency_extension": "requires renewed agreement"
+  },
+  "reciprocity": {
+    "expenses": "reimbursed",
+    "meals": "available",
+    "governance": "one vote"
+  },
+  "review": {
+    "cadence": "monthly"
+  },
+  "withdrawal": {
+    "notice": "none",
+    "future_shifts_cancelled": true
+  },
+  "transfer": {
+    "allowed": false
+  },
+  "status": "active"
+}

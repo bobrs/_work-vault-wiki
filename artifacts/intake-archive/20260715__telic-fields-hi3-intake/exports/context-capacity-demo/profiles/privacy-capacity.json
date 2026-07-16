@@ -1,0 +1,72 @@
+{
+  "demonstration_id": "PD-3",
+  "protected_omission": {
+    "proof_id": "urn:telic:hi3:omission:8cd42cc8-7a8b-581d-a447-94692d2f9b36",
+    "disclosed": "valid two-day initial maximum",
+    "withheld": [
+      "diagnosis",
+      "medical history"
+    ],
+    "verified_by": "authorized reviewer"
+  },
+  "prior_profile": {
+    "profile_id": "urn:telic:hi3:capacity:0a54128f-70a7-5111-914c-36f693705533",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "schedule-accommodation",
+    "dimensions": {
+      "standing_coverage": "adequate",
+      "contradiction_tolerance": "adequate",
+      "semantic_resolution": "adequate",
+      "temporal_span": "adequate",
+      "provenance_retention": "adequate",
+      "uncertainty_retention": "adequate",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "degraded",
+      "participant_load_tolerance": "degraded",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "clarification_required",
+    "composite_score": null,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [
+      "privacy_capacity",
+      "participant_load_tolerance"
+    ],
+    "conditions": [
+      "use protected omission"
+    ]
+  },
+  "new_profile": {
+    "profile_id": "urn:telic:hi3:capacity:db30463a-1767-519d-b19c-2fc0ea55a167",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "schedule-accommodation",
+    "dimensions": {
+      "standing_coverage": "adequate",
+      "contradiction_tolerance": "adequate",
+      "semantic_resolution": "adequate",
+      "temporal_span": "adequate",
+      "provenance_retention": "adequate",
+      "uncertainty_retention": "adequate",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "adequate",
+      "participant_load_tolerance": "adequate",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "adequate",
+    "composite_score": null,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [],
+    "conditions": [
+      "use verified restriction only"
+    ]
+  },
+  "result": "Privacy and participant-load capacity improve because unnecessary content remains unextracted."
+}

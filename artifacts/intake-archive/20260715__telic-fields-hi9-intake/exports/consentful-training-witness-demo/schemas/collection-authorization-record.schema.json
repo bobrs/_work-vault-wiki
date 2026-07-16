@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "collection-authorization-record.schema.json",
+  "title": "CollectionAuthorizationRecord",
+  "type": "object",
+  "required": [
+    "collection_id",
+    "source_record",
+    "collector",
+    "collection_method",
+    "collection_purpose",
+    "authority_basis",
+    "consent_basis",
+    "notice",
+    "scope",
+    "valid_time",
+    "restrictions",
+    "transfer",
+    "withdrawal",
+    "evidence",
+    "status"
+  ],
+  "properties": {
+    "collection_id": {
+      "type": "string"
+    },
+    "source_record": {
+      "type": "string"
+    },
+    "collector": {
+      "type": "string"
+    },
+    "collection_method": {
+      "type": "string"
+    },
+    "collection_purpose": {
+      "type": "string"
+    },
+    "authority_basis": {
+      "enum": [
+        "individual_consent",
+        "collective_authority",
+        "community_governance",
+        "contract",
+        "license",
+        "public_domain",
+        "public_mandate",
+        "research_ethics_authorization",
+        "fiduciary_stewardship",
+        "statutory_authority",
+        "other_lawful_basis",
+        "unknown",
+        "contested",
+        "none"
+      ]
+    },
+    "consent_basis": {
+      "type": "object"
+    },
+    "notice": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "restrictions": {
+      "type": "array"
+    },
+    "transfer": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "expired",
+        "withdrawn",
+        "contested",
+        "invalid",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:release-candidate-manifest:0.1",
+  "title": "ReleaseCandidateManifest",
+  "type": "object",
+  "required": [
+    "release_id",
+    "release_name",
+    "version",
+    "source_date_epoch",
+    "files",
+    "private_key_material_included",
+    "production_claim",
+    "external_human_review_complete",
+    "created_at"
+  ],
+  "properties": {
+    "release_id": {
+      "type": "string"
+    },
+    "release_name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "source_date_epoch": {
+      "type": "integer"
+    },
+    "files": {
+      "type": "array"
+    },
+    "private_key_material_included": {
+      "const": false
+    },
+    "production_claim": {
+      "const": false
+    },
+    "external_human_review_complete": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

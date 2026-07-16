@@ -21,17 +21,56 @@ The branch exists because a durable seam became visible across several existing 
 - comparators and correction;
 - local, consent-bound AI.
 
-The 2026-07-13 origin transcript remains the primary witnessed source. Its repository path, hash, artifact ID, and public/private disposition are still pending formal intake. The derived session compression, glossary, lineage map, and candidate concept pages should not outrank it.
+The recovered 2026-07-12 origin transcript is now the primary witnessed source. It was extracted from the verified ChatGPT export into a user-visible Markdown record; its repository path, hash, artifact ID, and public/private disposition are recorded on the [Sources](sources.md) page. The raw export remains a local/private forensic reference because it contains internal and tool-execution material. The derived session compression, glossary, lineage map, and candidate concept pages should not outrank the transcript.
 
 ## Current shape
 
 The current branch contains:
 
-- one human-preserved root transcript, pending formal repository intake;
+- one verified user-visible root transcript extracted from the ChatGPT export;
+- one recorded local/private raw-export source reference;
 - one session compression;
 - one working glossary and claim register;
 - one lineage map;
 - one artifact index and supporting artifact-facing pages;
+- one G.2 terminology and primary-source review package;
+- one F.1 v0.2 revised foundational paper;
+- one F.2 dyadic-composition paper;
+- one G.3 empirical and architecture-comparison package;
+- one F.3 constitutional-self paper with boundary and safety companions;
+- one G.4 plural-self and clinical-boundary review package;
+- one F.4 telic-projection-estimation paper with boundary and record companions;
+- one G.5 projection, preference-inference, and epistemic-boundary review package;
+- one F.5 context-carrying-capacity paper with boundary and profile companions;
+- one G.6 capacity, complexity, and requisite-variety review package;
+- one F.6 temporal-relations paper with temporal-boundary and record companions;
+- one G.7 time, identity, commitment, and future-standing review package;
+- one F.7 dependent-loops and telic-incompatibility paper with boundary, checklist, and record companions;
+- one G.8 transplantation, lock-in, drift, and dissolution review package;
+- one F.8 semantic-fields and durable-telic-trails paper with matrix, provenance, and record companions;
+- one G.9 meaning, trace, memory, and semantic-field review package;
+- one F.9 polytelometric-navigation paper with decision-method, checklist, and record companions;
+- one G.10 navigation, deliberation, and multiobjective-decision review package;
+- one F.10 semantic-polytelometry paper with architecture, role-boundary, and session-record companions;
+- one G.11 language-model governance and non-sovereignty review package;
+- one F.11 consentfully-trained-models paper with training-authority, withdrawal, public-profile, and lineage-record companions;
+- one G.12 training-data, preference-aggregation, constitution, and model-governance review package;
+- one FG-S cross-paper synthesis, terminology freeze, contradiction audit, record-envelope, claim-ledger, and HI-0 branch recommendation package;
+- one HI-0 controlled branch-opening package with H.0 public-reader architecture, I.0 candidate specification, schemas, worked examples, conformance matrix, and gate review;
+- one HI-1 paired provenance/correction and public-primer package with I.1 technical specifications, H.1 primer, demonstrations, schemas, negative fixtures, and independent participant export;
+- one HI-2 paired navigation/gates and projection-boundary package with I.2 specification, H.2 primer, route demonstrations, event-generated witness, schemas, negative fixtures, and independent decision-witness export;
+- one HI-3 paired context-capacity and legitimate-stop package with I.3 specification, H.3 primer, capacity/authority matrices, demonstrations, schemas, negative fixtures, and independent context-capacity export;
+- one HI-4 paired temporal-standing, commitment, and succession package with I.4 specification, H.4 primer, temporal-governance matrices, demonstrations, schemas, negative fixtures, and independent temporal witness export;
+- one HI-5 paired dependency, drift, lock-in, and dissolution package with I.5 specification, H.5 primer, dependency-governance matrices, demonstrations, schemas, negative fixtures, and independent dependency witness export;
+- one HI-6 paired semantic-trails, memory, and retrieval package with I.6 specification, H.6 primer, semantic-memory matrices, demonstrations, schemas, negative fixtures, and independent semantic-trail witness export;
+- one HI-7 paired polytelometric-deliberation and public-decision package with I.7 specification, H.7 primer, public-decision matrices, demonstrations, schemas, negative fixtures, and independent public-decision witness export;
+- one HI-8 paired non-sovereign semantic-navigation and model-mediation package with I.8 specification, H.8 primer, model-governance matrices, demonstrations, schemas, negative fixtures, and independent model-mediated witness export;
+- one HI-9 paired consentful-training, source-standing, and model-lineage package with I.9 specification, H.9 primer, training-lineage matrices, demonstrations, schemas, negative fixtures, and independent consentful-training witness export;
+- one HI-10 paired consentful-deployment, runtime-authority, and model-succession package with I.10 specification, H.10 primer, deployment-governance matrices, demonstrations, schemas, negative fixtures, and independent deployment witness export;
+- one HI-S cross-branch synthesis, public-to-technical concept map, terminology freeze, contradiction and omission audit, schema consolidation, canonical lifecycle vocabulary, conformance levels, minimum viable implementation profile, threat-model bridge, reference scenario, Stage J recommendation, consolidated schemas, and independent TF-MVI-1 reference-scenario export package;
+- one J.0 executable reference implementation and pilot-harness package with a local-first Python implementation, six consolidated schemas, external action gate, deterministic scheduling simulator, correction and consequence paths, retirement handling, independent witness verifier, web interface, and ten-threat harness;
+- one J.1 executable hardening package with policy and context versioning, key rotation and revocation, concurrent event and object safeguards, correction reachability, partial-failure compensation, four selective-disclosure witness views, Ed25519-signed manifests, standalone verification, accessible local interface, and sixteen-case threat harness;
+- one J.2 candidate release package with authenticated roles, split release custody, three-party corrections, policy migration and rollback, durable queue fault injection, exactly-once scheduling within the bounded simulator, 2-of-3 release approval, deterministic release construction, standalone release verification, and explicit non-claims about external human review;
 - six candidate concept pages;
 - a proposed foundational paper series;
 - a proposed AI and implementation branch;
@@ -175,9 +214,8 @@ This branch does not yet claim:
 
 ## Next actions
 
-1. Complete formal intake of the root transcript and first derivatives.
-2. Confirm actual repository paths and hashes.
-3. Install and validate this lineage container.
-4. Validate the artifact surfaces.
-5. Validate the candidate concept pages.
-6. Begin the first-principles paper and adjacent-fields review together.
+1. Begin J.3 as Observed External Exercise, Governance Handoff, and Pilot Admission.
+2. Obtain separate organizational key custody, real identity and role lifecycle, independent security and privacy findings, external assistive-technology testing, observed multi-party correction, networked queue-failure testing, signed reviewer dispositions, and governance ownership.
+3. Reconcile the cross-run release reproducibility boundary before treating the candidate as an admitted release.
+4. Preserve local-first, reversible, provider-independent, no-production-personal-data, and non-certification boundaries throughout J.3.
+5. Treat Stage D and Stage E repository installation as independently verified and integrated repository state; retain archived package caveats only as historical evidence.

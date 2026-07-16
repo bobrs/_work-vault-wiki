@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:hi-s:schema:source-projection-context:0.1",
+  "title": "SourceProjectionContext",
+  "type": "object",
+  "required": [
+    "id",
+    "object_class",
+    "source",
+    "center",
+    "scope",
+    "content_or_reference",
+    "epistemic_status",
+    "protected_status",
+    "uncertainty",
+    "valid_time",
+    "corrections",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "object_class": {
+      "enum": [
+        "source",
+        "projection",
+        "mirror",
+        "inference",
+        "summary",
+        "retrieval_result",
+        "active_context",
+        "protected_omission",
+        "generated_option",
+        "other"
+      ]
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "center": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "content_or_reference": {
+      "type": [
+        "string",
+        "object",
+        "array"
+      ]
+    },
+    "epistemic_status": {
+      "enum": [
+        "direct",
+        "confirmed",
+        "delegated",
+        "observed",
+        "inferred",
+        "generated",
+        "retrieved",
+        "contested",
+        "unknown",
+        "stale",
+        "expired",
+        "revoked",
+        "out_of_scope"
+      ]
+    },
+    "protected_status": {
+      "type": "object"
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "active_for_scope",
+        "corrected",
+        "contested",
+        "superseded",
+        "released",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

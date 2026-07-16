@@ -1,0 +1,26 @@
+{
+  "schemas_checked": 8,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 5,
+  "positive_demonstrations": [
+    "PD-1 full propagation",
+    "PD-2 partial propagation gap",
+    "PD-3 expired authority rejection",
+    "PD-4 protected omission",
+    "PD-5 inference status preservation"
+  ],
+  "negative_cases_detected": 10,
+  "negative_cases": [
+    "NC-1-inference-laundering",
+    "NC-2-expired-authority-reuse",
+    "NC-3-silent-history-rewrite",
+    "NC-4-false-propagation-completeness",
+    "NC-5-protected-omission-collapse",
+    "NC-6-omission-as-absence",
+    "NC-7-provenance-as-truth",
+    "NC-8-model-only-custody",
+    "NC-9-contest-without-authority",
+    "NC-10-correction-without-descendant-review"
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "minority-field-retention-profile.schema.json",
+  "title": "MinorityFieldRetentionProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "field_map",
+    "center_or_group",
+    "standing_basis",
+    "field_elements",
+    "frequency",
+    "materiality",
+    "protected_condition_relation",
+    "retention_rule",
+    "compression_rule",
+    "publication",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "field_map": {
+      "type": "string"
+    },
+    "center_or_group": {
+      "type": "string"
+    },
+    "standing_basis": {
+      "type": "array"
+    },
+    "field_elements": {
+      "type": "array"
+    },
+    "frequency": {
+      "type": "object"
+    },
+    "materiality": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical",
+        "unknown",
+        "contested"
+      ]
+    },
+    "protected_condition_relation": {
+      "type": "array"
+    },
+    "retention_rule": {
+      "type": "object"
+    },
+    "compression_rule": {
+      "type": "object"
+    },
+    "publication": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "active_with_conditions",
+        "contested",
+        "superseded",
+        "released",
+        "archival",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

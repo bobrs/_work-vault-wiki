@@ -1,0 +1,79 @@
+{
+  "phase": "J.2",
+  "result": "PASS_WITH_CONDITIONS",
+  "python_files_compiled": 28,
+  "compile_errors": 0,
+  "schemas_checked": 21,
+  "schema_errors": 0,
+  "automated_tests": 20,
+  "test_failures": 0,
+  "test_errors": 0,
+  "reference_events": 22,
+  "reference_objects": 68,
+  "active_policy_version": 4,
+  "proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true,
+    "stale_context_rejection": true,
+    "policy_version_enforcement": true,
+    "key_rotation": true,
+    "partial_failure_compensation": true,
+    "selective_disclosure": true,
+    "authenticated_roles": true,
+    "multi_party_correction": true,
+    "policy_rollback": true,
+    "queue_exactly_once": true,
+    "external_review_claim_bounded": true
+  },
+  "inherited_threats_detected": 16,
+  "inherited_threats_total": 16,
+  "release_threats_detected": 10,
+  "release_threats_total": 10,
+  "threats_detected": 26,
+  "threats_total": 26,
+  "standalone_witness_verifier": {
+    "valid": true,
+    "errors": [],
+    "checksums_verified": 49,
+    "records_validated": 68,
+    "events_verified": 22,
+    "views_verified": 4,
+    "signature_verified": true,
+    "verifier": "standalone-no-telic-j2-import"
+  },
+  "release_reproducible": true,
+  "release_first_digest": "f0febd06257443c6c3915d54fd1cb79f68a8a7dcbaacfaad89d1707f007a6866",
+  "release_second_digest": "f0febd06257443c6c3915d54fd1cb79f68a8a7dcbaacfaad89d1707f007a6866",
+  "release_threshold_valid": true,
+  "release_valid_custodians": [
+    "custodian-operator",
+    "custodian-verifier"
+  ],
+  "standalone_release_verifier": {
+    "valid": true,
+    "errors": [],
+    "manifest_files_verified": 75,
+    "valid_release_custodians": [
+      "custodian-operator",
+      "custodian-verifier"
+    ],
+    "threshold": 2,
+    "private_key_material_found": [],
+    "nested_witness": {
+      "valid": true,
+      "errors": [],
+      "checksums_verified": 49,
+      "records_validated": 68,
+      "events_verified": 22,
+      "views_verified": 4,
+      "signature_verified": true,
+      "verifier": "standalone-no-telic-j2-import"
+    },
+    "verifier": "standalone-release-verifier-no-telic-j2-import"
+  },
+  "private_key_material_found": [],
+  "external_human_review_complete": false
+}

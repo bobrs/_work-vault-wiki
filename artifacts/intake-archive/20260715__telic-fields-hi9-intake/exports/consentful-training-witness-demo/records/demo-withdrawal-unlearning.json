@@ -1,0 +1,76 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Withdrawal produces bounded action and truthful residuals",
+  "withdrawal_record": {
+    "record_id": "urn:telic:hi9:withdrawal:459be988-84eb-54a6-9142-3a7e5dca108b",
+    "source_or_contributor": "urn:telic:hi9:center:75ee564f-b039-5707-9880-a5830313e102",
+    "lineage_scope": {
+      "sources": [
+        "12 contributed dialogue examples"
+      ],
+      "models": [
+        "urn:telic:hi9:model:3b7208b9-58ad-5eb2-8d4c-0659e438d7c4",
+        "urn:telic:hi9:model:2fc297a0-ae79-56ae-a5f6-06eb162c3858"
+      ]
+    },
+    "withdrawal_basis": {
+      "basis": "community license withdrawal process",
+      "effective": "2026-07-01"
+    },
+    "requested_actions": [
+      "stop_new_collection",
+      "delete_source_copy",
+      "block_future_training",
+      "block_runtime_retrieval",
+      "apply_approximate_unlearning",
+      "verify_unlearning"
+    ],
+    "approved_actions": [
+      "stop_new_collection",
+      "delete_source_copy",
+      "block_future_training",
+      "block_runtime_retrieval",
+      "apply_approximate_unlearning",
+      "verify_unlearning"
+    ],
+    "technical_capability": {
+      "exact_unlearning": false,
+      "approximate_unlearning": true,
+      "retraining_available": true
+    },
+    "performed_actions": [
+      "new collection disabled",
+      "stored source deleted",
+      "runtime retrieval blocked",
+      "approximate unlearning applied to base model",
+      "derivative deployment profile restricted"
+    ],
+    "verification": {
+      "tests": "membership and targeted completion tests",
+      "result": "passed declared thresholds",
+      "complete_removal_proven": false
+    },
+    "known_residuals": [
+      "distributed influence may remain below detection threshold"
+    ],
+    "unreachable_descendants": [
+      "one offline research checkpoint"
+    ],
+    "surviving_witness": {
+      "content_retained": false,
+      "fields": [
+        "scope",
+        "actions",
+        "verification",
+        "residuals"
+      ]
+    },
+    "status": "partial"
+  },
+  "future_collection_stopped": true,
+  "runtime_retrieval_blocked": true,
+  "approximate_unlearning_disclosed": true,
+  "complete_removal_claimed": false,
+  "known_residuals_preserved": true,
+  "result": "The system acts on withdrawal without promising more forgetting than it can verify."
+}

@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "event_id": "hi4-event-001",
+      "event_type": "commitment_created",
+      "record": "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+      "recorded_at": "2026-07-15T08:00:00Z"
+    },
+    {
+      "event_id": "hi4-event-002",
+      "event_type": "future_standing_added",
+      "record": "urn:telic:hi4:future-standing:2c89b5ee-9a76-5992-8fc9-8fbc76fa5b70",
+      "recorded_at": "2026-07-15T08:05:00Z"
+    },
+    {
+      "event_id": "hi4-event-003",
+      "event_type": "commitment_narrowed",
+      "record": "urn:telic:hi4:commitment-review:ac1a2423-3f97-5afd-ac9e-0f803d4fd0a9",
+      "recorded_at": "2026-08-28T18:00:00Z"
+    },
+    {
+      "event_id": "hi4-event-004",
+      "event_type": "projection_became_stale",
+      "record": "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7",
+      "recorded_at": "2026-07-15T09:00:00Z"
+    },
+    {
+      "event_id": "hi4-event-005",
+      "event_type": "consent_expired",
+      "record": "urn:telic:hi4:consent:5a71d896-08da-5748-98b0-cccebaf5d58b",
+      "recorded_at": "2026-02-01T00:00:01Z"
+    },
+    {
+      "event_id": "hi4-event-006",
+      "event_type": "successor_assigned",
+      "record": "urn:telic:hi4:succession:dcb0e9b8-6210-5af8-9f7d-51e4e6dd8a54",
+      "recorded_at": "2026-07-15T12:00:00Z"
+    },
+    {
+      "event_id": "hi4-event-007",
+      "event_type": "temporal_repair_completed",
+      "record": "urn:telic:hi4:breach:7884c846-9e9f-5e71-b676-a4d905eec741",
+      "recorded_at": "2026-07-15T14:00:00Z"
+    }
+  ]
+}

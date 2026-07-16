@@ -1,0 +1,24 @@
+{
+  "correction_id": "urn:telic:hi1:correction:dfde8f31-303c-5054-8a2b-b0fcaf3cbe4c",
+  "target_record": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+  "target_version": "1",
+  "corrected_by": "morgan",
+  "grounds": [
+    "The earlier summary generalized a recording boundary."
+  ],
+  "correction_type": "source_correction",
+  "new_value": "I do not oppose outside advice. I oppose sharing the audio recording.",
+  "valid_time_effect": {
+    "valid_from": "2026-07-15T09:00:00Z",
+    "valid_to": null,
+    "retroactive": true
+  },
+  "recorded_at": "2026-07-15T10:00:00Z",
+  "authority": {
+    "operation": "describe",
+    "holder": "morgan"
+  },
+  "superseding_version": "2",
+  "contest_status": "accepted",
+  "notes": null
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contest-correction-event.schema.json",
+  "title": "ContestCorrectionEvent",
+  "type": "object",
+  "required": [
+    "contest_id",
+    "challenger",
+    "target",
+    "grounds",
+    "requested_change",
+    "status",
+    "opened_at",
+    "responsible_authority"
+  ],
+  "properties": {
+    "contest_id": {
+      "type": "string"
+    },
+    "challenger": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "target_layer": {
+      "enum": [
+        "source",
+        "interpretation",
+        "route",
+        "authority",
+        "action",
+        "consequence"
+      ]
+    },
+    "grounds": {
+      "type": "array"
+    },
+    "requested_change": {},
+    "status": {
+      "enum": [
+        "open",
+        "under_review",
+        "paused",
+        "corrected",
+        "partially_corrected",
+        "rejected",
+        "escalated",
+        "closed_with_remainder"
+      ]
+    },
+    "opened_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "responsible_authority": {
+      "type": "string"
+    },
+    "pause_effect": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "propagation_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outcome": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

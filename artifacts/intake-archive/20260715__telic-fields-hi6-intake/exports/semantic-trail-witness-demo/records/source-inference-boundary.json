@@ -1,0 +1,61 @@
+{
+  "demonstration_id": "PD-2",
+  "title": "Direct source and model inference remain distinct",
+  "source_assertion": {
+    "assertion_id": "urn:telic:hi6:assertion:54fd0cc4-b1c3-5d96-9ff9-6c9c392be28e",
+    "trace": "urn:telic:hi6:trace:9022fff1-d343-5893-8210-996ff642f150",
+    "assertion_class": "direct_source_statement",
+    "content": "Do not share the recording.",
+    "source": {
+      "center": "Morgan",
+      "event": "private-channel-statement"
+    },
+    "confidence": 1.0,
+    "authority": {
+      "operation": "state boundary",
+      "holder": "Morgan"
+    },
+    "scope": {
+      "artifact": "recording",
+      "recipient": "all unauthorized recipients"
+    },
+    "corrections": [],
+    "contestation": [],
+    "status": "active"
+  },
+  "model_inference": {
+    "assertion_id": "urn:telic:hi6:assertion:d2d1316b-0ace-52eb-8fc7-65ca8471b98f",
+    "trace": "urn:telic:hi6:trace:c837ca86-985b-5a58-afc4-785a9b175417",
+    "assertion_class": "model_inference",
+    "content": "Morgan may oppose Avery seeking outside advice.",
+    "source": {
+      "model": "urn:telic:hi6:model:71f619ee-17ea-5a68-b980-4b09e8294d95",
+      "derived_from": "urn:telic:hi6:assertion:54fd0cc4-b1c3-5d96-9ff9-6c9c392be28e"
+    },
+    "confidence": 0.58,
+    "authority": {
+      "operation": "recommend clarification",
+      "authorization": false
+    },
+    "scope": {
+      "purpose": "candidate interpretation only"
+    },
+    "corrections": [],
+    "contestation": [
+      "source confirmation required"
+    ],
+    "status": "active_with_qualification"
+  },
+  "retrieval_result": [
+    {
+      "assertion": "urn:telic:hi6:assertion:54fd0cc4-b1c3-5d96-9ff9-6c9c392be28e",
+      "label": "DIRECT SOURCE"
+    },
+    {
+      "assertion": "urn:telic:hi6:assertion:d2d1316b-0ace-52eb-8fc7-65ca8471b98f",
+      "label": "MODEL INFERENCE"
+    }
+  ],
+  "collapsed_into_one_fact": false,
+  "result": "The inference may guide a clarification question but cannot govern disclosure."
+}

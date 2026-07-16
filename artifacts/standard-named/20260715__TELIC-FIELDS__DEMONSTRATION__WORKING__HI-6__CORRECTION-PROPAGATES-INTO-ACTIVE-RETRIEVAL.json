@@ -1,0 +1,101 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Correction changes active retrieval without rewriting history",
+  "prior_assertion": {
+    "assertion_id": "urn:telic:hi6:assertion:16cb07fc-408e-5b03-b4a7-0bf1177c9ca4",
+    "trace": "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6",
+    "assertion_class": "institutional_classification",
+    "content": "Monthly recurring income: $1,200.",
+    "source": {
+      "institution": "benefit-intake-system",
+      "record": "bank-transfer-import"
+    },
+    "confidence": 0.92,
+    "authority": {
+      "operation": "provisional classification",
+      "holder": "intake system"
+    },
+    "scope": {
+      "benefit_eligibility": "provisional"
+    },
+    "corrections": [
+      "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337"
+    ],
+    "contestation": [
+      "participant disputed classification"
+    ],
+    "status": "corrected"
+  },
+  "correction_assertion": {
+    "assertion_id": "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337",
+    "trace": "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+    "assertion_class": "correction",
+    "content": "The $1,200 transfer was one-time family support, not recurring income.",
+    "source": {
+      "center": "urn:telic:hi6:center:720c3b0b-7a1c-59ed-84d8-fac58843a353",
+      "evidence": [
+        "transfer note",
+        "donor statement"
+      ]
+    },
+    "confidence": 0.98,
+    "authority": {
+      "operation": "correct applicant record",
+      "holder": "authorized reviewer"
+    },
+    "scope": {
+      "benefit_eligibility": "current"
+    },
+    "corrections": [],
+    "contestation": [],
+    "status": "active"
+  },
+  "prior_memory_state": {
+    "memory_state_id": "urn:telic:hi6:memory-state:8b729db7-e189-5267-8190-2c19f988e47a",
+    "trace": "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6",
+    "state": "archival",
+    "eligible_for_retrieval": true,
+    "eligible_for_action": false,
+    "eligible_for_training": false,
+    "conditions": [
+      "historical explanation only"
+    ],
+    "valid_time": {
+      "valid_from": "2026-06-01T00:00:00Z",
+      "valid_to": "2026-07-15T09:00:00Z"
+    },
+    "review": {
+      "authority": "benefit appeals"
+    },
+    "status": "current"
+  },
+  "correction_memory_state": {
+    "memory_state_id": "urn:telic:hi6:memory-state:6aab990b-81f0-5c83-a3d2-053a71249ba4",
+    "trace": "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+    "state": "active",
+    "eligible_for_retrieval": true,
+    "eligible_for_action": true,
+    "eligible_for_training": false,
+    "conditions": [
+      "use for current eligibility"
+    ],
+    "valid_time": {
+      "valid_from": "2026-07-15T09:00:00Z",
+      "valid_to": null
+    },
+    "review": {
+      "trigger": "new income evidence"
+    },
+    "status": "current"
+  },
+  "retrieval_order": [
+    "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337",
+    "urn:telic:hi6:assertion:16cb07fc-408e-5b03-b4a7-0bf1177c9ca4"
+  ],
+  "action_uses": "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337",
+  "historical_version_preserved": true,
+  "unresolved_descendants": [
+    "one external credit profile"
+  ],
+  "result": "The correction governs new action; the old classification remains visible only as history."
+}

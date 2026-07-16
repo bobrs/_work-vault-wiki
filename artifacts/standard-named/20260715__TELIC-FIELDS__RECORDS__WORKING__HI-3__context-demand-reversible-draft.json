@@ -1,0 +1,37 @@
+{
+  "demand_id": "urn:telic:hi3:demand:914a00f9-2c11-55d6-8209-bfc46aea1e98",
+  "action": "urn:telic:hi3:action:fa046a9f-4397-5592-b006-aa43b71a1fe8",
+  "action_class": "reversible_draft",
+  "affected_centers": [
+    "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46"
+  ],
+  "required_standing": {
+    "source_participant": "represented"
+  },
+  "required_evidence": [
+    "participant-request"
+  ],
+  "required_resolution": [
+    "purpose-level"
+  ],
+  "required_temporal_span": {
+    "current_request": true
+  },
+  "required_provenance": {
+    "source_status": "direct"
+  },
+  "required_uncertainty": {
+    "draft_only": true
+  },
+  "required_privacy": {
+    "no_unnecessary_history": true
+  },
+  "required_participant_capacity": {
+    "review_before_send": true
+  },
+  "required_escalation": {
+    "available": false
+  },
+  "irreversibility": "low",
+  "consequence_level": "low"
+}

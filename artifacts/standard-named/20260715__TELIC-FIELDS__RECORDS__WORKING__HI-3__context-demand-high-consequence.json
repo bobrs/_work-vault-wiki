@@ -1,0 +1,46 @@
+{
+  "demand_id": "urn:telic:hi3:demand:25d3e6fc-901f-5579-a042-6f468c21f6e3",
+  "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+  "action_class": "consequential_decision",
+  "affected_centers": [
+    "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+    "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d",
+    "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0"
+  ],
+  "required_standing": {
+    "material_centers": "complete_for_scope"
+  },
+  "required_evidence": [
+    "current-income",
+    "active-corrections",
+    "policy-version",
+    "appeal-rights"
+  ],
+  "required_resolution": [
+    "boundary-level",
+    "temporal-level",
+    "authority-level",
+    "consequence-level"
+  ],
+  "required_temporal_span": {
+    "active_corrections": true,
+    "authority_expiry": true
+  },
+  "required_provenance": {
+    "source_and_derivation": "required"
+  },
+  "required_uncertainty": {
+    "material_conflict": "preserve"
+  },
+  "required_privacy": {
+    "minimum_necessary": true
+  },
+  "required_participant_capacity": {
+    "appeal_understandable": true
+  },
+  "required_escalation": {
+    "available": true
+  },
+  "irreversibility": "high",
+  "consequence_level": "high"
+}

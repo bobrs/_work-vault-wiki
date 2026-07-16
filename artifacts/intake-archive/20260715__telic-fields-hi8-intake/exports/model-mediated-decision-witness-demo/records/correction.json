@@ -1,0 +1,33 @@
+{
+  "record_id": "urn:telic:hi8:correction:da55b8e4-33e4-5f3b-bf9d-f954c54ce26f",
+  "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+  "field_map": "urn:telic:hi8:field-map:7900018f-255a-5ada-a706-ba50b6513d91",
+  "record_type": "participant_correction",
+  "source": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+  "target_output": "urn:telic:hi8:summary:7900018f-255a-5ada-a706-ba50b6513d91",
+  "reason": [
+    "summary omitted schedule conflict",
+    "broad support did not include daytime-only service"
+  ],
+  "scope": {
+    "summary": "clinic transition deliberation"
+  },
+  "authority": {
+    "basis": "directly affected participant correction"
+  },
+  "effect": {
+    "add_center": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+    "add_disagreement": "hours and transport burden",
+    "remove_unqualified_consensus": true
+  },
+  "propagation": [
+    "field map",
+    "active summary",
+    "route comparison",
+    "decision witness"
+  ],
+  "review": {
+    "authority": "county deliberation clerk"
+  },
+  "status": "completed"
+}

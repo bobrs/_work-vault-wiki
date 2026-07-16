@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "event_id": "hi5-event-001",
+      "event_type": "dependency_registered",
+      "record": "urn:telic:hi5:loop:c0137aa9-548e-50f3-98e7-6f4b3dd3133a"
+    },
+    {
+      "event_id": "hi5-event-002",
+      "event_type": "support_grant_created",
+      "record": "urn:telic:hi5:grant:f4c29101-bb74-536b-9e24-ea7552e6d3b9"
+    },
+    {
+      "event_id": "hi5-event-003",
+      "event_type": "hidden_recruitment_detected",
+      "record": "urn:telic:hi5:hidden-recruitment:6ed10912-356a-58af-8f0f-2369f6fba823"
+    },
+    {
+      "event_id": "hi5-event-004",
+      "event_type": "compatibility_assessed",
+      "record": "urn:telic:hi5:compatibility:328b5c47-582e-541f-98e2-3ad32eac3a38"
+    },
+    {
+      "event_id": "hi5-event-005",
+      "event_type": "drift_confirmed",
+      "record": "urn:telic:hi5:drift:9cf4c39d-f916-56a2-9870-d6b809a644b1"
+    },
+    {
+      "event_id": "hi5-event-006",
+      "event_type": "burden_declared_disproportionate",
+      "record": "urn:telic:hi5:burden:4e376a3a-55d8-5726-b3e4-7f9cbbda8c51"
+    },
+    {
+      "event_id": "hi5-event-007",
+      "event_type": "capture_detected",
+      "record": "urn:telic:hi5:lockin:369a0cc1-d5df-56d1-a129-3432b5de1402"
+    },
+    {
+      "event_id": "hi5-event-008",
+      "event_type": "fork_completed",
+      "record": "urn:telic:hi5:fork:4df0e2b6-4a3b-5b22-8e35-6966991806a4"
+    },
+    {
+      "event_id": "hi5-event-009",
+      "event_type": "dissolution_approved",
+      "record": "urn:telic:hi5:dissolution:cfc834de-e570-5557-82fa-f08162ec1d13"
+    }
+  ]
+}

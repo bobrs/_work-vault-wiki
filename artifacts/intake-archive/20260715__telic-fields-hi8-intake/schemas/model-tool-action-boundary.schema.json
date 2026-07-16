@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-tool-action-boundary.schema.json",
+  "title": "ModelToolActionBoundary",
+  "type": "object",
+  "required": [
+    "boundary_id",
+    "model_instance",
+    "role",
+    "candidate_action",
+    "tool",
+    "target",
+    "required_permissions",
+    "required_authority",
+    "required_consent",
+    "required_context",
+    "protected_conditions",
+    "reversibility",
+    "human_reentry",
+    "gate_result",
+    "status"
+  ],
+  "properties": {
+    "boundary_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "candidate_action": {
+      "type": "object"
+    },
+    "tool": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "required_permissions": {
+      "type": "array"
+    },
+    "required_authority": {
+      "type": "array"
+    },
+    "required_consent": {
+      "type": "array"
+    },
+    "required_context": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "human_reentry": {
+      "type": "object"
+    },
+    "gate_result": {
+      "enum": [
+        "allow",
+        "allow_with_conditions",
+        "require_confirmation",
+        "require_human_reentry",
+        "pause",
+        "stop",
+        "deny",
+        "unknown",
+        "contested"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "active",
+        "blocked",
+        "completed",
+        "contested",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

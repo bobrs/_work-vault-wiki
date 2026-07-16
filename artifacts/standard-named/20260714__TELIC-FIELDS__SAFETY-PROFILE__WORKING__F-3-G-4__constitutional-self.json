@@ -1,0 +1,40 @@
+{
+  "artifact_date": "2026-07-14",
+  "status": "candidate_safety_profile",
+  "content_canon_status": "unset",
+  "person_level_sovereignty": true,
+  "allowed_ai_roles": [
+    "user_authored_note_organization",
+    "timeline_support",
+    "statement_inference_separation",
+    "neutral_question_generation",
+    "user_defined_boundary_reminders",
+    "human_support_preparation",
+    "record_export_and_deletion"
+  ],
+  "prohibited_ai_roles": [
+    "diagnosis",
+    "autonomous_trauma_processing",
+    "recovered_memory_inference",
+    "declaring_internal_entities_real",
+    "fixed_part_assignment",
+    "authentic_self_oracle",
+    "consent_bypass_via_inferred_part",
+    "delusion_reinforcement",
+    "sole_crisis_resource"
+  ],
+  "required_controls": [
+    "user_controlled_vocabulary",
+    "statement_inference_separation",
+    "ontology_neutrality",
+    "non_diagnostic_mode",
+    "memory_discipline",
+    "person_level_authority",
+    "representation_expiration",
+    "provider_disclosure",
+    "dependence_monitoring",
+    "stabilization_and_stop",
+    "local_or_user_controlled_custody",
+    "human_handoff"
+  ]
+}

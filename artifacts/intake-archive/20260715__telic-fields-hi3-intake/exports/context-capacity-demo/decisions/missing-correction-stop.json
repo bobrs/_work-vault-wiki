@@ -1,0 +1,67 @@
+{
+  "demonstration_id": "PD-5",
+  "active_correction": "urn:telic:hi3:correction:659800f6-c60e-5c77-a599-7da87f241442",
+  "retrieval_included": false,
+  "capacity_profile": {
+    "profile_id": "urn:telic:hi3:capacity:0d39b8bb-477d-511f-b9db-1722f2600cd2",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "dimensions": {
+      "standing_coverage": "adequate",
+      "contradiction_tolerance": "degraded",
+      "semantic_resolution": "adequate",
+      "temporal_span": "degraded",
+      "provenance_retention": "insufficient",
+      "uncertainty_retention": "adequate",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "adequate",
+      "participant_load_tolerance": "adequate",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "stop_required",
+    "composite_score": 0.82,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [
+      "provenance_retention",
+      "temporal_span"
+    ],
+    "conditions": [
+      "retrieve active correction"
+    ]
+  },
+  "decision": {
+    "decision_id": "urn:telic:hi3:decision:0d39b8bb-477d-511f-b9db-1722f2600cd2",
+    "action": "urn:telic:hi3:action:f1e19a3b-5470-5d21-aff0-bf4dae65958a",
+    "capacity_profile": "urn:telic:hi3:capacity:0d39b8bb-477d-511f-b9db-1722f2600cd2",
+    "demand_profile": "urn:telic:hi3:demand:25d3e6fc-901f-5579-a042-6f468c21f6e3",
+    "failed_dimensions": [
+      "provenance_retention",
+      "temporal_span"
+    ],
+    "decision": "stop",
+    "reason": [
+      "Active correction exists but is absent from retrieved context."
+    ],
+    "cost_bearers": [
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+      "urn:telic:hi3:center:968cb84c-5c56-5918-8c79-e7e67503013d",
+      "urn:telic:hi3:center:92fdf5e2-8f4e-5fca-b2f7-883492b965c0"
+    ],
+    "temporary_protection": [
+      "no denial",
+      "support remains active"
+    ],
+    "review_trigger": {
+      "event": "correction retrieved"
+    },
+    "authority": {
+      "holder": "capacity-monitor",
+      "operation": "stop"
+    }
+  },
+  "result": "Stop until the correction is active."
+}

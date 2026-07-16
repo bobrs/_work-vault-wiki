@@ -1,0 +1,14 @@
+{
+  "export_id": "urn:telic:hi6:export:semantic-trail-witness-demo",
+  "created_at": "2026-07-15T14:00:00Z",
+  "scope": "semantic trails, active and archival memory, retrieval, correction, salience, forgetting, transfer, and contamination",
+  "trace_directory": "traces/",
+  "record_directory": "records/",
+  "event_stream": "events/semantic-trail-event-stream.json",
+  "semantic_trail_witness": "witness/semantic-trail-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "trace_not_encoded_as_full_field": true,
+  "source_inference_boundary_preserved": true,
+  "independent_of_originating_model": true
+}

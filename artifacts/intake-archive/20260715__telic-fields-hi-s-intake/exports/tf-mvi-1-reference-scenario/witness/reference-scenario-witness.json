@@ -1,0 +1,38 @@
+{
+  "witness_id": "urn:telic:hi-s:witness:961c89d8-babe-5936-9de4-6d9da51d96ad",
+  "profile": "TF-C4 with bounded TF-C5 retirement",
+  "profile_version": "0.1",
+  "scope": "model-assisted community workshop scheduling",
+  "center_standing_records": [
+    "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+    "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85"
+  ],
+  "source_projection_records": [
+    "urn:telic:hi-s:source:208b43a1-81d5-579c-a031-c3cb3dd83878",
+    "urn:telic:hi-s:source:928014d6-18a1-58a7-bfb0-5e9424b290c3",
+    "urn:telic:hi-s:projection:55f71e98-748b-59db-800c-0fc5c347835b",
+    "urn:telic:hi-s:projection:37f8b043-90a5-59a8-9ced-fea9b6ea3e85"
+  ],
+  "purpose_authority_record": "urn:telic:hi-s:authority:c1229339-5e95-5fb2-bb84-a528ce6ee319",
+  "route_records": [
+    "urn:telic:hi-s:route:74de361d-ee17-5ac1-a543-12c086cbb11d",
+    "urn:telic:hi-s:route:7ec4c1ea-3e14-581b-94e1-57df8e58cb6b"
+  ],
+  "event_ids": [
+    "urn:telic:hi-s:event:5a01d70a-efd1-57c0-868b-9a4ecd7dac89",
+    "urn:telic:hi-s:event:f456235f-1fb3-519e-8e34-bb431beacf32",
+    "urn:telic:hi-s:event:10c5b0c3-436d-5128-9385-ed1b83526faf",
+    "urn:telic:hi-s:event:338600b2-9169-5f79-8cc1-4e69bed67177",
+    "urn:telic:hi-s:event:a388e9e7-2243-5553-81d2-1b708d251eb0"
+  ],
+  "retirement_record": "urn:telic:hi-s:lifecycle:a088a90f-b1a4-5f30-8651-81c692361af2",
+  "failed_gate_proven": true,
+  "valid_action_proven": true,
+  "correction_changed_outcome": true,
+  "retirement_revoked_authority": true,
+  "known_exclusions": [
+    "no production personal data",
+    "no clinical, legal, financial, or civic adjudication"
+  ],
+  "completeness": "complete_for_scope"
+}

@@ -1,0 +1,26 @@
+{
+  "gate_id": "urn:telic:hi2:gate:f1d00205-34fc-5fd4-9a2c-11f3597706c6",
+  "route": "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813",
+  "dimensions": {
+    "standing": "pass",
+    "authority": "pass",
+    "consent": "pass",
+    "capacity": "pass_with_conditions",
+    "privacy": "pass",
+    "temporal_validity": "pass",
+    "protected_conditions": "pass",
+    "decision_rule": "pass",
+    "tool_use": "pass",
+    "human_reentry": "pass",
+    "stop": "pass"
+  },
+  "overall_result": "pass_with_conditions",
+  "conditions": [
+    "Review staff load and channel access after 30 days."
+  ],
+  "evaluated_at": "2026-07-15T09:22:00Z",
+  "rule_version": "hi2-0.1",
+  "missing_standing": [],
+  "failed_dimensions": [],
+  "next_state": "continue"
+}

@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "event_id": "hi8-event-001",
+      "type": "role_assigned",
+      "record": "urn:telic:hi8:ledger:050223d1-b1f4-5364-b89b-de7603b8b046"
+    },
+    {
+      "event_id": "hi8-event-002",
+      "type": "field_map_created",
+      "record": "urn:telic:hi8:field-map:7900018f-255a-5ada-a706-ba50b6513d91"
+    },
+    {
+      "event_id": "hi8-event-003",
+      "type": "summary_created",
+      "record": "urn:telic:hi8:summary:7900018f-255a-5ada-a706-ba50b6513d91"
+    },
+    {
+      "event_id": "hi8-event-004",
+      "type": "participant_correction",
+      "record": "urn:telic:hi8:correction:da55b8e4-33e4-5f3b-bf9d-f954c54ce26f"
+    },
+    {
+      "event_id": "hi8-event-005",
+      "type": "minority_field_retained",
+      "record": "urn:telic:hi8:minority-profile:4bd4b135-6010-505c-9659-20fa4273032f"
+    },
+    {
+      "event_id": "hi8-event-006",
+      "type": "option_generated",
+      "record": "urn:telic:hi8:output:2a6b3a43-fba6-556a-bae9-c86f1a0ad8b7"
+    },
+    {
+      "event_id": "hi8-event-007",
+      "type": "sycophancy_detected",
+      "record": "urn:telic:hi8:sycophancy:4bd76a23-1d42-585f-ad49-ea0037fb7296"
+    },
+    {
+      "event_id": "hi8-event-008",
+      "type": "provider_constraint_disclosed",
+      "record": "urn:telic:hi8:provider-disclosure:e7873900-bfc0-55b4-8673-6fda9ad4b744"
+    },
+    {
+      "event_id": "hi8-event-009",
+      "type": "model_disagreement_recorded",
+      "record": "urn:telic:hi8:disagreement:09b050bf-1e55-552d-a925-7fa10ea7f0cb"
+    },
+    {
+      "event_id": "hi8-event-010",
+      "type": "tool_action_blocked",
+      "record": "urn:telic:hi8:tool-boundary:d67a23b3-64a8-5e0f-abff-f9b3024ba17a"
+    }
+  ]
+}

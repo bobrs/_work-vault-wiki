@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-field-map.schema.json",
+  "title": "ModelFieldMap",
+  "type": "object",
+  "required": [
+    "field_map_id",
+    "source_field",
+    "model_instance",
+    "scope",
+    "represented_centers",
+    "missing_centers",
+    "projections",
+    "protected_conditions",
+    "dependencies",
+    "uncertainties",
+    "options",
+    "conflicts",
+    "minority_fields",
+    "provider_constraints",
+    "corrections",
+    "completeness",
+    "status"
+  ],
+  "properties": {
+    "field_map_id": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "represented_centers": {
+      "type": "array"
+    },
+    "missing_centers": {
+      "type": "array"
+    },
+    "projections": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "dependencies": {
+      "type": "array"
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "options": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "minority_fields": {
+      "type": "array"
+    },
+    "provider_constraints": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "participant_review",
+        "corrected",
+        "contested",
+        "active_for_scope",
+        "superseded",
+        "released",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

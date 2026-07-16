@@ -14,6 +14,7 @@ The first explicit descendant container is [The Telic Field Papers](../telic-fie
 ## Representative Files
 
 - [Teiic Field Papers source ChatGPT.md](<../../../artifacts/intake-archive/20260713__teiic-witness-seed-intake/Teiic%20Field%20Papers%20source%20ChatGPT.md>)
+- [Recovered Telic origin transcript](../telic-field-papers/artifacts/origin-conversation/index.md)
 
 ## Working Read
 

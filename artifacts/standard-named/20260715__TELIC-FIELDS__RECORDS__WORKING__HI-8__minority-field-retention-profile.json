@@ -1,0 +1,44 @@
+{
+  "profile_id": "urn:telic:hi8:minority-profile:4bd4b135-6010-505c-9659-20fa4273032f",
+  "field_map": "urn:telic:hi8:field-map:e9262088-1cb4-5469-b9fa-6ab35e3dbcee",
+  "center_or_group": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+  "standing_basis": [
+    "directly affected",
+    "consequence bearer"
+  ],
+  "field_elements": [
+    "daytime-only mobile service creates access failure",
+    "evening sessions may repair the route"
+  ],
+  "frequency": {
+    "speakers": 2,
+    "share_of_recorded_comments": 0.07
+  },
+  "materiality": "high",
+  "protected_condition_relation": [
+    "minimum urgent-care access may be uneven by schedule"
+  ],
+  "retention_rule": {
+    "active_until": "ninety-day consequence review",
+    "minimum_summary_presence": true
+  },
+  "compression_rule": {
+    "preserve": [
+      "reason",
+      "predicted consequence",
+      "review trigger"
+    ],
+    "may_omit": [
+      "identifying employment details"
+    ]
+  },
+  "publication": {
+    "public": true,
+    "privacy": "employment details removed"
+  },
+  "review": {
+    "with_center": true,
+    "trigger": "schedule or utilization change"
+  },
+  "status": "active"
+}

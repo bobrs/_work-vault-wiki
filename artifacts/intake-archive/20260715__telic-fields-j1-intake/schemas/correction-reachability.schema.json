@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j1:schema:correction-reachability:0.1",
+  "title": "CorrectionReachability",
+  "type": "object",
+  "required": [
+    "report_id",
+    "correction_event_id",
+    "origin_object_id",
+    "known_descendants",
+    "updated_descendants",
+    "blocked_descendants",
+    "unreachable_descendants",
+    "complete_for_scope",
+    "generated_at",
+    "status"
+  ],
+  "properties": {
+    "report_id": {
+      "type": "string"
+    },
+    "correction_event_id": {
+      "type": "string"
+    },
+    "origin_object_id": {
+      "type": "string"
+    },
+    "known_descendants": {
+      "type": "array"
+    },
+    "updated_descendants": {
+      "type": "array"
+    },
+    "blocked_descendants": {
+      "type": "array"
+    },
+    "unreachable_descendants": {
+      "type": "array"
+    },
+    "complete_for_scope": {
+      "type": "boolean"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "partial",
+        "blocked",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

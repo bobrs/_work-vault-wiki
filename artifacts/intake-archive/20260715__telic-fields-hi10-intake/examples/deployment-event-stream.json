@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "event_id": "hi10-event-001",
+      "type": "deployment_field_assembled",
+      "record": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f"
+    },
+    {
+      "event_id": "hi10-event-002",
+      "type": "runtime_standing_admitted",
+      "record": "urn:telic:hi10:standing:fd4a7926-4c52-5da6-8156-e7e659683740"
+    },
+    {
+      "event_id": "hi10-event-003",
+      "type": "runtime_authority_granted",
+      "record": "urn:telic:hi10:grant:7733a0d5-d2fc-59a4-9ac0-592d5b082107"
+    },
+    {
+      "event_id": "hi10-event-004",
+      "type": "tool_role_granted",
+      "record": "urn:telic:hi10:grant:2a2f324e-ca82-560a-b1ef-59d027945959"
+    },
+    {
+      "event_id": "hi10-event-005",
+      "type": "runtime_capture_profile_created",
+      "record": "urn:telic:hi10:memory:77bf5381-5cc2-53b5-8d0d-6b915c8f925a"
+    },
+    {
+      "event_id": "hi10-event-006",
+      "type": "purpose_drift_detected",
+      "record": "urn:telic:hi10:drift:ccb208d9-8040-5839-b0c6-664d8dea0540"
+    },
+    {
+      "event_id": "hi10-event-007",
+      "type": "incident_opened",
+      "record": "urn:telic:hi10:incident:4d99cf4b-f57d-593b-9061-dac3ea75a88c"
+    },
+    {
+      "event_id": "hi10-event-008",
+      "type": "consequence_returned",
+      "record": "urn:telic:hi10:monitoring:b22f479b-4111-5b92-b718-00c64e20ab32"
+    },
+    {
+      "event_id": "hi10-event-009",
+      "type": "provider_transfer_reviewed",
+      "record": "urn:telic:hi10:transfer:f012805c-0669-5951-8d97-1afb8eb2c7ae"
+    },
+    {
+      "event_id": "hi10-event-010",
+      "type": "model_version_succeeded",
+      "record": "urn:telic:hi10:succession:7f9e9b11-1f44-54b3-96ae-2ece8ae8ca66"
+    },
+    {
+      "event_id": "hi10-event-011",
+      "type": "deployment_retired",
+      "record": "urn:telic:hi10:retirement:70a0309c-e485-5e67-8f5e-e1d419fdf7a9"
+    }
+  ]
+}

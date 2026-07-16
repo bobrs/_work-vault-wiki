@@ -1,0 +1,90 @@
+{
+  "records": [
+    {
+      "assertion_id": "urn:telic:hi7:assertion:9e3aa383-50e9-5fda-b835-221a36daafb7",
+      "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+      "speaker_or_source": "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+      "assertion_class": "prediction",
+      "content": "Daytime-only mobile service will reduce access for night and rotating-shift workers.",
+      "evidence": [
+        "worker schedule survey",
+        "current appointment utilization by hour"
+      ],
+      "standing_relation": {
+        "type": "directly affected"
+      },
+      "authority": {
+        "operation": "inform deliberation"
+      },
+      "scope": {
+        "routes": [
+          "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38",
+          "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe"
+        ]
+      },
+      "confidence": 0.76,
+      "responses": [],
+      "corrections": [],
+      "contestation": [
+        "sample underrepresents informal workers"
+      ],
+      "status": "active_with_qualification"
+    },
+    {
+      "assertion_id": "urn:telic:hi7:assertion:06f73fc9-d3b9-51f7-8ecb-44e855756a5b",
+      "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+      "speaker_or_source": "urn:telic:hi7:model:251ec764-4f56-59e2-b658-cf2ef602420b",
+      "assertion_class": "model_summary",
+      "content": "Participants broadly support temporary local access while preserving long-term facility options.",
+      "evidence": [
+        "urn:telic:hi7:assertion:9e3aa383-50e9-5fda-b835-221a36daafb7",
+        "public-comment-clusters"
+      ],
+      "standing_relation": {
+        "type": "none; summary role only"
+      },
+      "authority": {
+        "operation": "summarize",
+        "decision_authority": false
+      },
+      "scope": {
+        "meeting": "2026-07-17"
+      },
+      "confidence": 0.69,
+      "responses": [
+        "participant correction requested stronger statement of schedule disagreement"
+      ],
+      "corrections": [
+        "urn:telic:hi7:assertion:273e18a9-325c-5e7f-bdde-85487de7b29f"
+      ],
+      "contestation": [
+        "summary underrepresented opposition to daytime-only service"
+      ],
+      "status": "corrected"
+    },
+    {
+      "assertion_id": "urn:telic:hi7:assertion:273e18a9-325c-5e7f-bdde-85487de7b29f",
+      "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+      "speaker_or_source": "county deliberation clerk",
+      "assertion_class": "correction",
+      "content": "Participants broadly support temporary local access, but remain materially divided over hours, transport burden, and whether renovation should remain presumptive.",
+      "evidence": [
+        "participant review of model summary"
+      ],
+      "standing_relation": {
+        "type": "deliberative correction"
+      },
+      "authority": {
+        "operation": "correct active public summary"
+      },
+      "scope": {
+        "meeting": "2026-07-17"
+      },
+      "confidence": 0.95,
+      "responses": [],
+      "corrections": [],
+      "contestation": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dissent-minority-trail.schema.json",
+  "title": "DissentMinorityTrail",
+  "type": "object",
+  "required": [
+    "dissent_id",
+    "assembly",
+    "decision",
+    "centers",
+    "positions",
+    "reasons",
+    "evidence",
+    "protected_conditions",
+    "predicted_consequences",
+    "requested_review",
+    "future_trigger",
+    "publication",
+    "status"
+  ],
+  "properties": {
+    "dissent_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "centers": {
+      "type": "array",
+      "minItems": 1
+    },
+    "positions": {
+      "type": "array"
+    },
+    "reasons": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "predicted_consequences": {
+      "type": "array"
+    },
+    "requested_review": {
+      "type": "object"
+    },
+    "future_trigger": {
+      "type": "object"
+    },
+    "publication": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "acknowledged",
+        "partially_addressed",
+        "superseded",
+        "withdrawn",
+        "archival",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependency-witness.schema.json",
+  "title": "DependencyWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "dependent_loop",
+    "declared_purpose",
+    "operative_purpose",
+    "supporting_loops",
+    "substrate_map",
+    "support_grants",
+    "support_burdens",
+    "hidden_recruitment",
+    "compatibility_assessments",
+    "drift",
+    "lock_in",
+    "forks",
+    "dissolution",
+    "corrections",
+    "completeness",
+    "generated_from_events",
+    "event_ids",
+    "generated_at"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "declared_purpose": {
+      "type": "object"
+    },
+    "operative_purpose": {
+      "type": "object"
+    },
+    "supporting_loops": {
+      "type": "array"
+    },
+    "substrate_map": {
+      "type": "array"
+    },
+    "support_grants": {
+      "type": "array"
+    },
+    "support_burdens": {
+      "type": "array"
+    },
+    "hidden_recruitment": {
+      "type": "array"
+    },
+    "compatibility_assessments": {
+      "type": "array"
+    },
+    "drift": {
+      "type": "array"
+    },
+    "lock_in": {
+      "type": "array"
+    },
+    "forks": {
+      "type": "array"
+    },
+    "dissolution": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

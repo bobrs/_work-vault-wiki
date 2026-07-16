@@ -4,7 +4,7 @@ This page is for newly added files that have been inventoried but not yet classi
 
 Current state: `artifacts/incoming/` is now a mostly flat intake pool of 392 files plus the standalone `ipol_package/` ancillary bundle. The earlier branch-folder concentration has already been absorbed into project pages, lineage pages, or archive paths, so this queue should now stay focused on genuinely new intake rather than re-triaging settled branches.
 
-The 2026-07-13 semantic-lineage and Telic Fields follow-up set has been routed. Three semantic-lineage sources and four linked source artifacts now have standard-named copies; exact incoming clones are retained under the relevant archive `duplicates/` folders. The Telic Fields root transcript remains unresolved, as recorded in the Phase C witness package.
+The 2026-07-13 semantic-lineage and Telic Fields follow-up set has been routed. Three semantic-lineage sources and four linked source artifacts now have standard-named copies; exact incoming clones are retained under the relevant archive `duplicates/` folders. The Telic Fields root transcript is now resolved as a sanitized user-visible extraction from the verified ChatGPT export; the raw export remains a local/private source reference.
 
 Observed shape:
 

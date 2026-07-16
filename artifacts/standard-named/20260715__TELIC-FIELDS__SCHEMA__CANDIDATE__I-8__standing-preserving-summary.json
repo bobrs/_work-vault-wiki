@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "standing-preserving-summary.schema.json",
+  "title": "StandingPreservingSummary",
+  "type": "object",
+  "required": [
+    "summary_id",
+    "source_field",
+    "model_instance",
+    "summary_scope",
+    "included_centers",
+    "omitted_centers",
+    "majority_or_common_positions",
+    "minority_positions",
+    "protected_conditions",
+    "unresolved_disagreements",
+    "source_links",
+    "model_inferences",
+    "generated_language",
+    "participant_review",
+    "corrections",
+    "status"
+  ],
+  "properties": {
+    "summary_id": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "summary_scope": {
+      "type": "object"
+    },
+    "included_centers": {
+      "type": "array"
+    },
+    "omitted_centers": {
+      "type": "array"
+    },
+    "majority_or_common_positions": {
+      "type": "array"
+    },
+    "minority_positions": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "unresolved_disagreements": {
+      "type": "array"
+    },
+    "source_links": {
+      "type": "array"
+    },
+    "model_inferences": {
+      "type": "array"
+    },
+    "generated_language": {
+      "type": "array"
+    },
+    "participant_review": {
+      "type": "object"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "participant_review",
+        "active_for_scope",
+        "corrected",
+        "contested",
+        "superseded",
+        "released"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

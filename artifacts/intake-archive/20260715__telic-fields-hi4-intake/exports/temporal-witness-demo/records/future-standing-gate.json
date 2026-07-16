@@ -1,0 +1,89 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Future standing blocks irreversible action",
+  "future_standing_assessment": {
+    "assessment_id": "urn:telic:hi4:future-standing:d3da0ff4-c184-5df1-9fba-30cd01e644d8",
+    "present_action": "permanent-transfer-of-community-land",
+    "future_centers": [
+      "urn:telic:hi4:temporal-center:281c441a-1614-5697-ad8c-5dd879365657"
+    ],
+    "represented_interests": [
+      "continued access",
+      "environmental condition",
+      "future governance possibility"
+    ],
+    "source_basis": [
+      "community charter",
+      "prior public commitments",
+      "environmental assessment"
+    ],
+    "uncertainty": {
+      "level": "high",
+      "items": [
+        "future population needs",
+        "climate impact"
+      ]
+    },
+    "possibilities_preserved": [],
+    "possibilities_closed": [
+      "public access",
+      "future community governance",
+      "restoration route"
+    ],
+    "irreversible_effects": [
+      "permanent title transfer",
+      "habitat alteration"
+    ],
+    "temporary_effects": [],
+    "protective_conditions": [
+      "independent future-standing review",
+      "supermajority authority"
+    ],
+    "review_path": {
+      "authority": "community trust review",
+      "trigger": "complete standing process"
+    },
+    "status": "material_future_standing_missing",
+    "future_consent": "not_available"
+  },
+  "irreversibility_profile": {
+    "profile_id": "urn:telic:hi4:option-profile:d3da0ff4-c184-5df1-9fba-30cd01e644d8",
+    "action": "permanent-transfer-of-community-land",
+    "affected_centers": [
+      "urn:telic:hi4:center:3a9a1380-846e-5676-b3fe-829015681d07",
+      "urn:telic:hi4:temporal-center:281c441a-1614-5697-ad8c-5dd879365657",
+      "urn:telic:hi4:center:2e23a74c-f37f-5b9b-b56b-0492281ab264"
+    ],
+    "reversibility": "irreversible",
+    "rollback_window": null,
+    "repairability": {
+      "land_title": "low",
+      "habitat": "partial",
+      "public_access": "uncertain"
+    },
+    "possibilities_preserved": [],
+    "possibilities_closed": [
+      "future public use",
+      "future local governance"
+    ],
+    "closure_duration": {
+      "type": "permanent"
+    },
+    "closure_authority": {
+      "holder": "current board",
+      "status": "contested"
+    },
+    "standing_review": "urn:telic:hi4:future-standing:d3da0ff4-c184-5df1-9fba-30cd01e644d8",
+    "uncertainty": {
+      "level": "high"
+    },
+    "status": "candidate"
+  },
+  "gate": {
+    "future_standing": "fail",
+    "irreversibility": "fail",
+    "option_preservation": "fail",
+    "result": "pause"
+  },
+  "result": "The transfer pauses until a competent process represents future standing and validates stronger authority."
+}

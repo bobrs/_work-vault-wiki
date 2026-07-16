@@ -1,0 +1,317 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/telic-field/core-record-envelope.schema.json",
+  "title": "Candidate Telic Field Core Record Envelope",
+  "description": "Research schema produced by FG-S. URI is intentionally noncanonical.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "record_type",
+    "schema_version",
+    "record_version",
+    "status",
+    "transaction_time"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "record_version": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "paused",
+        "restricted",
+        "contested",
+        "stale",
+        "expired",
+        "superseded",
+        "released",
+        "deleted",
+        "archived",
+        "dissolved"
+      ]
+    },
+    "valid_time": {
+      "type": "object",
+      "properties": {
+        "valid_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transaction_time": {
+      "type": "object",
+      "required": [
+        "recorded_at"
+      ],
+      "properties": {
+        "recorded_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "superseded_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "source_objects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_centers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "represented_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_status": {
+          "enum": [
+            "direct",
+            "confirmed",
+            "delegated",
+            "observed",
+            "inferred",
+            "generated",
+            "retrieved",
+            "contested",
+            "unknown",
+            "stale",
+            "expired",
+            "revoked",
+            "out_of_scope"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "standing": {
+      "type": "object",
+      "properties": {
+        "affected_centers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "standing_type": {
+          "enum": [
+            "constitutional",
+            "legal",
+            "operational",
+            "temporal",
+            "internal_representational",
+            "unknown"
+          ]
+        },
+        "missing_standing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recipients": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "purposes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prohibited_uses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "descriptive": {},
+        "interpretive": {},
+        "recommendation": {},
+        "authorization": {},
+        "execution": {},
+        "adjudication": {},
+        "witness": {}
+      },
+      "additionalProperties": false
+    },
+    "consent": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {},
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state": {
+          "enum": [
+            "not_applicable",
+            "requested",
+            "active",
+            "conditional",
+            "declined",
+            "withdrawn",
+            "expired",
+            "contested",
+            "unknown"
+          ]
+        },
+        "withdrawal_route": {}
+      },
+      "additionalProperties": true
+    },
+    "uncertainty": {
+      "type": "object",
+      "properties": {
+        "factual": {},
+        "source": {},
+        "interpretation": {},
+        "authority": {},
+        "consequence": {},
+        "unresolved": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "bundle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "derivations": {
+          "type": "array"
+        },
+        "transformations": {
+          "type": "array"
+        },
+        "models": {
+          "type": "array"
+        },
+        "policy_versions": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "review_trigger": {},
+        "review_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "review_authority": {},
+        "correction_route": {}
+      },
+      "additionalProperties": true
+    },
+    "lifecycle": {
+      "type": "object",
+      "properties": {
+        "expiry": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "release_conditions": {
+          "type": "array"
+        },
+        "successor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "residual_state": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+  "x-research-status": "candidate",
+  "x-prohibited-interpretations": [
+    "schema completeness implies legitimacy",
+    "provenance implies truth",
+    "human identifier implies legal standing",
+    "consent field substitutes for authority analysis"
+  ]
+}

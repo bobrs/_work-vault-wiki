@@ -1,0 +1,18 @@
+{
+  "export_id": "urn:telic:hi2:export:decision-witness-demo",
+  "created_at": "2026-07-15T10:00:00Z",
+  "scope": "community relief intake redesign",
+  "event_stream": "events/decision-event-stream.json",
+  "decision_witness": "witness/generated-decision-witness.json",
+  "record_files": [
+    "records/pareto-routes.json",
+    "records/protected-condition-gate.json",
+    "records/missing-standing-gate.json",
+    "records/route-portfolio.json",
+    "records/model-recommendation.json"
+  ],
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "generated_from_events": true,
+  "independent_of_recommendation_model": true
+}

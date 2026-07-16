@@ -1,0 +1,17 @@
+{
+  "export_id": "urn:telic:hi-s:export:tf-mvi-1:0.1",
+  "created_at": "2026-07-15T23:45:00Z",
+  "profile": "TF-C4",
+  "bounded_extension": "TF-C5 retirement",
+  "scenario": "Model-Assisted Community Scheduling With Bounded Tool Use",
+  "schemas": "schemas/",
+  "records": "records/",
+  "event_stream": "events/reference-event-stream.json",
+  "witness": "witness/reference-scenario-witness.json",
+  "tests": "tests/",
+  "provider_independent": true,
+  "failed_gate_included": true,
+  "correction_included": true,
+  "retirement_included": true,
+  "production_claim": false
+}

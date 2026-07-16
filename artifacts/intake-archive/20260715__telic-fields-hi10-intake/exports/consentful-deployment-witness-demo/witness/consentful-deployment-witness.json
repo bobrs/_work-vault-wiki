@@ -1,0 +1,77 @@
+{
+  "witness_id": "urn:telic:hi10:witness:acf6a3bf-cbe2-546a-a372-8842131e0aad",
+  "witness_version": "1",
+  "deployment_classification": "retired_with_open_obligations",
+  "deployment_assemblies": [
+    "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f"
+  ],
+  "standing_records": [
+    "urn:telic:hi10:standing:fd4a7926-4c52-5da6-8156-e7e659683740",
+    "urn:telic:hi10:standing:e611b036-475e-5bc8-a930-eea3b0b4785f"
+  ],
+  "runtime_authority_grants": [
+    "urn:telic:hi10:grant:7733a0d5-d2fc-59a4-9ac0-592d5b082107"
+  ],
+  "capability_role_tool_grants": [
+    "urn:telic:hi10:grant:2a2f324e-ca82-560a-b1ef-59d027945959"
+  ],
+  "consent_notice_refusal_profiles": [
+    "urn:telic:hi10:consent-profile:fd4a7926-4c52-5da6-8156-e7e659683740"
+  ],
+  "memory_output_capture_records": [
+    "urn:telic:hi10:memory:77bf5381-5cc2-53b5-8d0d-6b915c8f925a"
+  ],
+  "drift_events": [
+    "urn:telic:hi10:drift:ccb208d9-8040-5839-b0c6-664d8dea0540"
+  ],
+  "incident_repair_records": [
+    "urn:telic:hi10:incident:4d99cf4b-f57d-593b-9061-dac3ea75a88c"
+  ],
+  "monitoring_consequence_records": [
+    "urn:telic:hi10:monitoring:b22f479b-4111-5b92-b718-00c64e20ab32"
+  ],
+  "operator_provider_transfers": [
+    "urn:telic:hi10:transfer:f012805c-0669-5951-8d97-1afb8eb2c7ae"
+  ],
+  "version_succession_retirement_records": [
+    "urn:telic:hi10:succession:7f9e9b11-1f44-54b3-96ae-2ece8ae8ca66",
+    "urn:telic:hi10:retirement:70a0309c-e485-5e67-8f5e-e1d419fdf7a9"
+  ],
+  "actions": [
+    "assistance deployed",
+    "eligibility expansion paused",
+    "incident repaired in part",
+    "provider transfer reviewed",
+    "model updated",
+    "pilot retired"
+  ],
+  "consequences": [
+    "faster routine scheduling",
+    "shift-worker burden identified",
+    "one wrongful denial repaired",
+    "open compensation duty remains"
+  ],
+  "open_obligations": [
+    "complete incident compensation",
+    "preserve appeal route for 180 days"
+  ],
+  "unknowns": [
+    "one provider backup deletion confirmation pending"
+  ],
+  "event_ids": [
+    "hi10-event-001",
+    "hi10-event-002",
+    "hi10-event-003",
+    "hi10-event-004",
+    "hi10-event-005",
+    "hi10-event-006",
+    "hi10-event-007",
+    "hi10-event-008",
+    "hi10-event-009",
+    "hi10-event-010",
+    "hi10-event-011"
+  ],
+  "completeness": "partial_known_gaps",
+  "generated_from_events": true,
+  "generated_at": "2026-12-31T23:00:00Z"
+}

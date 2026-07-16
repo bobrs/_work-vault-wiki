@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "continuity-relation.schema.json",
+  "title": "ContinuityRelation",
+  "type": "object",
+  "required": [
+    "continuity_id",
+    "from_center",
+    "to_center",
+    "carriers",
+    "scope",
+    "strength",
+    "contested",
+    "authority_effect",
+    "obligation_effect",
+    "review"
+  ],
+  "properties": {
+    "continuity_id": {
+      "type": "string"
+    },
+    "from_center": {
+      "type": "string"
+    },
+    "to_center": {
+      "type": "string"
+    },
+    "carriers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "embodiment",
+          "legal_identity",
+          "role",
+          "record",
+          "contract",
+          "causal_history",
+          "delegation",
+          "organizational_lineage",
+          "property",
+          "relationship",
+          "public_mandate",
+          "cryptographic_control",
+          "social_recognition"
+        ]
+      }
+    },
+    "scope": {
+      "type": "object"
+    },
+    "strength": {
+      "enum": [
+        "strong",
+        "partial",
+        "conditional",
+        "weak",
+        "broken",
+        "unknown",
+        "contested"
+      ]
+    },
+    "contested": {
+      "type": "boolean"
+    },
+    "authority_effect": {
+      "type": "object"
+    },
+    "obligation_effect": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

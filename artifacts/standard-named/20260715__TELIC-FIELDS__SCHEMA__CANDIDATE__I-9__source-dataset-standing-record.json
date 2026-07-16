@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source-dataset-standing-record.schema.json",
+  "title": "SourceDatasetStandingRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_artifact_or_dataset",
+    "source_centers",
+    "affected_centers",
+    "collective_or_community_standing",
+    "source_class",
+    "creation_context",
+    "publication_context",
+    "custody",
+    "rights_and_interests",
+    "sensitivity",
+    "known_restrictions",
+    "contestation",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "source_artifact_or_dataset": {
+      "type": "string"
+    },
+    "source_centers": {
+      "type": "array",
+      "minItems": 1
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "collective_or_community_standing": {
+      "type": "array"
+    },
+    "source_class": {
+      "enum": [
+        "individual_authored",
+        "collective_authored",
+        "community_held",
+        "public_record",
+        "publication",
+        "licensed_corpus",
+        "archival",
+        "research_data",
+        "platform_content",
+        "annotation",
+        "preference_data",
+        "model_output",
+        "synthetic",
+        "derived",
+        "unknown",
+        "mixed"
+      ]
+    },
+    "creation_context": {
+      "type": "object"
+    },
+    "publication_context": {
+      "type": "object"
+    },
+    "custody": {
+      "type": "object"
+    },
+    "rights_and_interests": {
+      "type": "array"
+    },
+    "sensitivity": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical",
+        "unknown",
+        "contested"
+      ]
+    },
+    "known_restrictions": {
+      "type": "array"
+    },
+    "contestation": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "restricted",
+        "superseded",
+        "withdrawn",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

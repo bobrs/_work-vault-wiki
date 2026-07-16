@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "temporal-breach-repair.schema.json",
+  "title": "TemporalBreachRepairRecord",
+  "type": "object",
+  "required": [
+    "breach_id",
+    "breach_type",
+    "affected_centers",
+    "source_commitment_or_authority",
+    "action",
+    "consequence",
+    "detected_at",
+    "repair_options",
+    "selected_repair",
+    "repair_authority",
+    "residual_harm",
+    "status"
+  ],
+  "properties": {
+    "breach_id": {
+      "type": "string"
+    },
+    "breach_type": {
+      "enum": [
+        "future_standing_breach",
+        "stale_projection_breach",
+        "inherited_authority_breach",
+        "consent_persistence_breach",
+        "succession_breach",
+        "revision_erasure_breach",
+        "release_breach",
+        "present_erasure_breach",
+        "temporal_capture",
+        "option_closure_breach"
+      ]
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_commitment_or_authority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action": {
+      "type": "string"
+    },
+    "consequence": {
+      "type": "array"
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "repair_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "selected_repair": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "repair_authority": {
+      "type": "object"
+    },
+    "residual_harm": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "repairing",
+        "partially_repaired",
+        "repaired",
+        "released",
+        "dissolved",
+        "contested"
+      ]
+    },
+    "prior_witness_preserved": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

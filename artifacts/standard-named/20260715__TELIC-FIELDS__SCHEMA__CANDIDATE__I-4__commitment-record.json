@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commitment-record.schema.json",
+  "title": "CommitmentRecord",
+  "type": "object",
+  "required": [
+    "commitment_id",
+    "committing_center",
+    "beneficiaries",
+    "affected_future_centers",
+    "commitment_type",
+    "expression",
+    "scope",
+    "formation_authority",
+    "valid_time",
+    "review_triggers",
+    "release_conditions",
+    "reliance",
+    "residual_obligations",
+    "status"
+  ],
+  "properties": {
+    "commitment_id": {
+      "type": "string"
+    },
+    "committing_center": {
+      "type": "string"
+    },
+    "beneficiaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_future_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commitment_type": {
+      "enum": [
+        "promise",
+        "contract",
+        "plan",
+        "directive",
+        "delegation",
+        "policy",
+        "role_duty",
+        "fiduciary_duty",
+        "public_commitment",
+        "self_commitment",
+        "other"
+      ]
+    },
+    "expression": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "formation_authority": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review_triggers": {
+      "type": "array"
+    },
+    "release_conditions": {
+      "type": "array"
+    },
+    "reliance": {
+      "type": "array"
+    },
+    "residual_obligations": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "due_for_review",
+        "contested",
+        "breached",
+        "partially_fulfilled",
+        "fulfilled",
+        "released",
+        "expired",
+        "superseded",
+        "dissolved"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

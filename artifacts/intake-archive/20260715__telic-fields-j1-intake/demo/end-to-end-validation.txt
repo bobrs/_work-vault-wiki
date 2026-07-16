@@ -1,0 +1,18 @@
+J.1 end-to-end validation
+
+Python modules compiled: 19
+Schemas checked: 12
+Automated tests: 13
+Test failures: 0
+Threat cases detected: 16 of 16
+Reference events: 20
+Reference objects: 46
+Implementation verifier valid: True
+Standalone verifier valid: True
+Checksums verified: 34
+Records validated: 46
+Events verified: 20
+Selective views verified: 4
+Manifest signature verified: True
+All required proofs: True
+Result: PASS WITH CONDITIONS

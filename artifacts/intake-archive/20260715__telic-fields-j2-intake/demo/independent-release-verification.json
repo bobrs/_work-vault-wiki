@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "errors": [],
+  "manifest_files_verified": 75,
+  "valid_release_custodians": [
+    "custodian-operator",
+    "custodian-verifier"
+  ],
+  "threshold": 2,
+  "private_key_material_found": [],
+  "nested_witness": {
+    "valid": true,
+    "errors": [],
+    "checksums_verified": 49,
+    "records_validated": 68,
+    "events_verified": 22,
+    "views_verified": 4,
+    "signature_verified": true,
+    "verifier": "standalone-no-telic-j2-import"
+  },
+  "verifier": "standalone-release-verifier-no-telic-j2-import"
+}

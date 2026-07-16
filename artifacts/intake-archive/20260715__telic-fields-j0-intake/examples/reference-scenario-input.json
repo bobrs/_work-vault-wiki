@@ -1,0 +1,26 @@
+{
+  "scenario": "TF-MVI-1 bounded community workshop scheduling",
+  "participants": [
+    {
+      "name": "Participant A",
+      "statement": "Weekday mornings are preferred.",
+      "training_reuse": false
+    },
+    {
+      "name": "Participant B",
+      "statement": "Evenings are preferred because daytime transit is difficult.",
+      "cross_session_memory": false,
+      "training_reuse": false
+    }
+  ],
+  "correction": {
+    "participant": "Participant B",
+    "replacement": "Evening attendance is required because daytime transit is inaccessible.",
+    "protected_condition": "accessible transit window"
+  },
+  "candidate_schedules": [
+    "Tuesday 10:00",
+    "Wednesday 18:30"
+  ],
+  "operator_confirmation_for": "Wednesday 18:30"
+}

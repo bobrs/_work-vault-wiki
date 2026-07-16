@@ -1,0 +1,30 @@
+{
+  "continuity_id": "urn:telic:hi4:continuity:173c4e24-84f3-59fa-8932-d6891047c8ae",
+  "from_center": "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+  "to_center": "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+  "carriers": [
+    "embodiment",
+    "legal_identity",
+    "causal_history",
+    "record"
+  ],
+  "scope": {
+    "consequences": [
+      "health",
+      "finance",
+      "education"
+    ],
+    "authority": "reviewable self-commitment only"
+  },
+  "strength": "strong",
+  "contested": false,
+  "authority_effect": {
+    "effect": "Earlier commitment may govern within scope and review conditions."
+  },
+  "obligation_effect": {
+    "effect": "Tuition and study-group reliance remain material."
+  },
+  "review": {
+    "trigger": "material health, housing, or caregiving change"
+  }
+}

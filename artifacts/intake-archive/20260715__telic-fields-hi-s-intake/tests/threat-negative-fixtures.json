@@ -1,0 +1,32 @@
+{
+  "T1-source-laundering": {
+    "generated_summary_presented_as_source": true
+  },
+  "T2-standing-exclusion": {
+    "affected_center_missing_and_action_continues": true
+  },
+  "T3-context-collapse": {
+    "active_correction_omitted": true
+  },
+  "T4-authority-laundering": {
+    "recommendation_used_as_authorization": true
+  },
+  "T5-consent-expansion": {
+    "service_consent_used_for_training": true
+  },
+  "T6-model-role-escalation": {
+    "model_self_assigns_executor_role": true
+  },
+  "T7-tool-token-overreach": {
+    "tool_token_used_without_target_authority": true
+  },
+  "T8-correction-suppression": {
+    "correction_not_propagated_to_route": true
+  },
+  "T9-witness-capture": {
+    "only_provider_can_verify_record": true
+  },
+  "T10-lifecycle-obligation-loss": {
+    "retirement_leaves_active_credential": true
+  }
+}

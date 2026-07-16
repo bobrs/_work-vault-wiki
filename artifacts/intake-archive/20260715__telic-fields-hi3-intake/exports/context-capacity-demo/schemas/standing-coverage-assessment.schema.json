@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "standing-coverage-assessment.schema.json",
+  "title": "StandingCoverageAssessment",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "action",
+    "affected_centers",
+    "represented",
+    "missing",
+    "indirectly_represented",
+    "representation_quality",
+    "materiality",
+    "status",
+    "review"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "represented": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "indirectly_represented": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representation_quality": {
+      "type": "object"
+    },
+    "materiality": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "complete_for_scope",
+        "adequate_with_limits",
+        "material_standing_missing",
+        "unknown_standing",
+        "contested"
+      ]
+    },
+    "review": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,58 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Shared traces coordinate action without a central dispatcher",
+  "coordination": {
+    "coordination_id": "urn:telic:hi6:coordination:repair-board",
+    "environment": "urn:telic:hi6:environment:164e127b-2202-5160-a0fe-8911387a67fe",
+    "traces": [
+      "urn:telic:hi6:trace:31cd456f-83b4-56dd-b0f6-c6a93615417a",
+      "urn:telic:hi6:trace:e7c5c675-d34f-5000-8fd3-12f02a3eb1f4",
+      "urn:telic:hi6:trace:c741bcf9-50df-5b2d-a42c-48c199f70f67"
+    ],
+    "links": [
+      {
+        "from": "urn:telic:hi6:trace:e7c5c675-d34f-5000-8fd3-12f02a3eb1f4",
+        "relation": "depends_on",
+        "to": "urn:telic:hi6:trace:31cd456f-83b4-56dd-b0f6-c6a93615417a"
+      },
+      {
+        "from": "urn:telic:hi6:trace:c741bcf9-50df-5b2d-a42c-48c199f70f67",
+        "relation": "depends_on",
+        "to": "urn:telic:hi6:trace:e7c5c675-d34f-5000-8fd3-12f02a3eb1f4"
+      },
+      {
+        "from": "urn:telic:hi6:trace:c741bcf9-50df-5b2d-a42c-48c199f70f67",
+        "relation": "routes_to",
+        "to": "licensed-plumber-task"
+      }
+    ],
+    "participants": [
+      "tenant",
+      "maintenance worker",
+      "purchasing clerk",
+      "licensed plumber"
+    ],
+    "coordination_purpose": "repair shared water leak",
+    "central_controller": null,
+    "authority": {
+      "board_edit": "role scoped",
+      "room_access": "property and tenant rules"
+    },
+    "correction": {
+      "route": "participants may contest or update trace"
+    },
+    "decay": {
+      "rule": "close traces after witnessed repair"
+    },
+    "status": "active"
+  },
+  "sequence": [
+    "tenant marks leak",
+    "maintenance records shutoff",
+    "purchasing records part order",
+    "plumber sees route and completes repair"
+  ],
+  "central_command_required": false,
+  "outer_purpose_presumed_legitimate": false,
+  "result": "Environmental traces coordinate the work while authority and contestation remain explicit."
+}

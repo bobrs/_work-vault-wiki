@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commitment-review-release.schema.json",
+  "title": "CommitmentReviewReleaseRecord",
+  "type": "object",
+  "required": [
+    "review_id",
+    "commitment",
+    "current_context",
+    "changed_conditions",
+    "current_standing",
+    "reliance",
+    "authority_status",
+    "review_result",
+    "release_effect",
+    "transition",
+    "residual_obligations",
+    "witness"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "commitment": {
+      "type": "string"
+    },
+    "current_context": {
+      "type": "array"
+    },
+    "changed_conditions": {
+      "type": "array"
+    },
+    "current_standing": {
+      "type": "array"
+    },
+    "reliance": {
+      "type": "array"
+    },
+    "authority_status": {
+      "enum": [
+        "active",
+        "conditional",
+        "stale",
+        "expired",
+        "contested",
+        "unknown"
+      ]
+    },
+    "review_result": {
+      "enum": [
+        "continue",
+        "continue_with_conditions",
+        "renew",
+        "narrow",
+        "transfer",
+        "pause",
+        "repair",
+        "release",
+        "dissolve",
+        "contested",
+        "unknown"
+      ]
+    },
+    "release_effect": {
+      "type": "object"
+    },
+    "transition": {
+      "type": "object"
+    },
+    "residual_obligations": {
+      "type": "array"
+    },
+    "witness": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

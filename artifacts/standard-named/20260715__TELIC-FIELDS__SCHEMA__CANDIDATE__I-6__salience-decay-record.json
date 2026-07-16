@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salience-decay-record.schema.json",
+  "title": "SalienceDecayRecord",
+  "type": "object",
+  "required": [
+    "salience_id",
+    "trace",
+    "salience_basis",
+    "initial_salience",
+    "current_salience",
+    "decay_rule",
+    "reinforcement_events",
+    "protected_floor",
+    "action_authority_effect",
+    "deletion_effect",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "salience_id": {
+      "type": "string"
+    },
+    "trace": {
+      "type": "string"
+    },
+    "salience_basis": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "recency",
+          "frequency",
+          "consequence",
+          "authority",
+          "source_request",
+          "task_relevance",
+          "correction_priority",
+          "protected_condition",
+          "risk",
+          "other"
+        ]
+      }
+    },
+    "initial_salience": {
+      "type": "number"
+    },
+    "current_salience": {
+      "type": "number"
+    },
+    "decay_rule": {
+      "type": "object"
+    },
+    "reinforcement_events": {
+      "type": "array"
+    },
+    "protected_floor": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "action_authority_effect": {
+      "const": "none"
+    },
+    "deletion_effect": {
+      "const": "none"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "decayed",
+        "protected",
+        "archived",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

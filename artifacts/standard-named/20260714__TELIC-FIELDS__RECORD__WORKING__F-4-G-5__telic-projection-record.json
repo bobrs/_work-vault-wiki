@@ -1,0 +1,69 @@
+{
+  "artifact_date": "2026-07-14",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "TelicProjectionRecord",
+  "fields": {
+    "projection_id": "string",
+    "source_center": "identifier",
+    "represented_by": "identifier|null",
+    "evidence_class": [
+      "direct_statement",
+      "source_confirmed_reformulation",
+      "delegated_representation",
+      "observed_behavior",
+      "historical_pattern",
+      "bodily_or_low_verbal_signal",
+      "model_inference",
+      "institutional_artifact",
+      "witnessed_consequence"
+    ],
+    "scope": {
+      "recipient": "identifier|set",
+      "purpose": "string",
+      "action": "string",
+      "domain": "string",
+      "downstream_use": "string|set"
+    },
+    "effective_at": "datetime",
+    "expires_at": "datetime|null",
+    "review_trigger": "string|null",
+    "desired_states": "array",
+    "avoided_states": "array",
+    "protected_conditions": "array",
+    "unacceptable_sacrifices": "array",
+    "boundaries": "array",
+    "uncertainty_profile": {
+      "source": "value",
+      "expression": "value",
+      "interpretation": "value",
+      "context": "value",
+      "temporal": "value",
+      "authority": "value",
+      "ontological": "value",
+      "model": "value"
+    },
+    "authority": {
+      "descriptive": "identifier|rule",
+      "interpretive": "identifier|rule",
+      "action": "identifier|rule"
+    },
+    "consent": {
+      "status": "value",
+      "scope": "string",
+      "revocation_route": "string"
+    },
+    "provenance": "reference",
+    "corrections": "array",
+    "derived_records": "array",
+    "status": [
+      "active",
+      "expired",
+      "corrected",
+      "revoked",
+      "contested",
+      "out_of_scope"
+    ]
+  },
+  "note": "Research schema only. Not yet a Phase I specification."
+}

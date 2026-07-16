@@ -1,0 +1,41 @@
+{
+  "transfer_id": "urn:telic:hi6:transfer:appeal-summary",
+  "source_loop": "urn:telic:hi6:loop:2bcb7d46-ee72-5715-82d8-f84159d1c5d1",
+  "target_loop": "urn:telic:hi6:loop:efe36086-1d4b-5aee-bac3-9d6724607ca8",
+  "traces": [
+    "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+    "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6"
+  ],
+  "purpose": "appeal current eligibility classification",
+  "authority": {
+    "basis": "participant appeal and program policy"
+  },
+  "transformations": [
+    {
+      "trace": "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+      "operation": "reviewed summary",
+      "source_preserved": true
+    },
+    {
+      "trace": "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6",
+      "operation": "historical classification excerpt",
+      "source_preserved": true
+    }
+  ],
+  "restrictions": [
+    "appeal use only",
+    "no training",
+    "no unrelated disclosure"
+  ],
+  "corrections": {
+    "return_path": "urn:telic:hi6:loop:2bcb7d46-ee72-5715-82d8-f84159d1c5d1",
+    "must_propagate": true
+  },
+  "retention": {
+    "duration": "appeal plus 90 days"
+  },
+  "return_or_deletion": {
+    "on_close": "archive witness and delete working copies"
+  },
+  "status": "active"
+}

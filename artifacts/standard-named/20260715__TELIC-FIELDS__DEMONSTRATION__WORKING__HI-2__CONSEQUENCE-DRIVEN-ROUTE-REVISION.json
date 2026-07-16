@@ -1,0 +1,186 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Observed consequence causes route revision",
+  "consequence_review": {
+    "review_id": "urn:telic:hi2:consequence-review:ac2c95bf-54cd-5259-a9f9-2954c8b9627c",
+    "route": "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813",
+    "action": "launch-hybrid-intake",
+    "expected_consequences": [
+      "offline applicants retain access",
+      "web applicants receive faster processing",
+      "staff load remains manageable"
+    ],
+    "observed_consequences": [
+      "offline access preserved",
+      "web processing improved",
+      "staff phone load exceeded expected capacity",
+      "some applicants switched channels after web verification difficulty"
+    ],
+    "affected_centers": [
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+      "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946",
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+    ],
+    "deviations": [
+      "phone workload 28 percent above estimate",
+      "cross-channel switching not represented in original route"
+    ],
+    "new_standing": [
+      "applicants with intermittent connectivity require explicit representation"
+    ],
+    "new_uncertainties": [
+      "whether callback scheduling reduces abandonment"
+    ],
+    "recommended_response": "modify",
+    "authority": {
+      "holder": "program-director",
+      "operation": "review_and_modify"
+    },
+    "reviewed_at": "2026-08-15T12:00:00Z",
+    "supersedes_route": "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813",
+    "new_route": "urn:telic:hi2:route:8da2db64-f726-50e1-be95-22564d334547",
+    "new_witness_version": "2"
+  },
+  "prior_route": {
+    "route_id": "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813",
+    "route_type": "trial",
+    "generated_by": "joint-design-team",
+    "source_records": [
+      "PD-1",
+      "PD-2",
+      "PD-3"
+    ],
+    "sequence": [
+      "launch optional web channel",
+      "retain phone and in-person channel",
+      "route applicants by their chosen access mode",
+      "review cost, access, and privacy after 30 days"
+    ],
+    "beneficiaries": [
+      "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946",
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+    ],
+    "cost_bearers": [
+      "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+    ],
+    "protected_conditions": [
+      "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+    ],
+    "standing_coverage": {
+      "represented": [
+        "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946",
+        "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+        "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+        "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+      ],
+      "missing": []
+    },
+    "uncertainties": [
+      "channel demand distribution",
+      "staffing balance"
+    ],
+    "reversibility": {
+      "level": "high",
+      "rollback": "adjust channel capacity without denying access"
+    },
+    "required_authority": [
+      "program-director"
+    ],
+    "required_consent": [],
+    "review_triggers": [
+      "14-day volume review",
+      "30-day access audit"
+    ],
+    "exit": {
+      "route": "continue, modify, fork, or release one channel"
+    },
+    "status": "selected",
+    "criteria_values": {
+      "processing_speed": 7,
+      "operating_cost": 6,
+      "accessibility": 9,
+      "privacy_burden": 8
+    },
+    "provenance": {
+      "generated_by": "joint-design-team",
+      "rule": "urn:telic:hi2:decision-rule:3bcd6aab-f1f5-5667-9f42-a051a5bf841b"
+    }
+  },
+  "revised_route": {
+    "route_id": "urn:telic:hi2:route:8da2db64-f726-50e1-be95-22564d334547",
+    "route_type": "trial",
+    "generated_by": "joint-design-team",
+    "source_records": [
+      "PD-1",
+      "PD-2",
+      "PD-3"
+    ],
+    "sequence": [
+      "retain web and assisted channels",
+      "add callback scheduling",
+      "simplify web verification",
+      "allow channel switching without restarting",
+      "review after 30 days"
+    ],
+    "beneficiaries": [
+      "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946",
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+    ],
+    "cost_bearers": [
+      "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+    ],
+    "protected_conditions": [
+      "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+    ],
+    "standing_coverage": {
+      "represented": [
+        "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946",
+        "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+        "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+        "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+      ],
+      "missing": []
+    },
+    "uncertainties": [
+      "channel demand distribution",
+      "staffing balance"
+    ],
+    "reversibility": {
+      "level": "high",
+      "rollback": "adjust channel capacity without denying access"
+    },
+    "required_authority": [
+      "program-director"
+    ],
+    "required_consent": [],
+    "review_triggers": [
+      "weekly callback load",
+      "30-day access audit"
+    ],
+    "exit": {
+      "route": "continue, modify, fork, or release one channel"
+    },
+    "status": "selected",
+    "criteria_values": {
+      "processing_speed": 7,
+      "operating_cost": 6,
+      "accessibility": 9,
+      "privacy_burden": 8
+    },
+    "provenance": {
+      "generated_by": "joint-design-team",
+      "rule": "urn:telic:hi2:decision-rule:3bcd6aab-f1f5-5667-9f42-a051a5bf841b"
+    }
+  },
+  "witness_versions": {
+    "prior": "urn:telic:hi2:witness:a2102be2-c5b7-5713-8784-1d125926eb51",
+    "new": "urn:telic:hi2:witness:4524a0ca-f500-5023-819a-06850324cf61",
+    "prior_preserved": true
+  },
+  "result": "Observed consequence creates a revised route and new witness version without overwriting the prior decision."
+}

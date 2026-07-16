@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "substrate-contribution-map.schema.json",
+  "title": "SubstrateContributionMap",
+  "type": "object",
+  "required": [
+    "map_id",
+    "dependent_loop",
+    "contributions",
+    "status"
+  ],
+  "properties": {
+    "map_id": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "contributions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "supporting_loop",
+          "contribution_class",
+          "quantity_or_scope",
+          "criticality",
+          "visibility",
+          "authority",
+          "reciprocity",
+          "substitutability",
+          "withdrawal_effect",
+          "correction_route"
+        ],
+        "properties": {
+          "supporting_loop": {
+            "type": "string"
+          },
+          "contribution_class": {
+            "type": "string"
+          },
+          "quantity_or_scope": {},
+          "criticality": {
+            "enum": [
+              "noncritical",
+              "important",
+              "critical",
+              "single_point_of_failure",
+              "unknown"
+            ]
+          },
+          "visibility": {
+            "enum": [
+              "visible",
+              "partly_visible",
+              "hidden",
+              "misattributed",
+              "unknown"
+            ]
+          },
+          "authority": {
+            "type": "string"
+          },
+          "reciprocity": {},
+          "substitutability": {
+            "type": "object"
+          },
+          "withdrawal_effect": {
+            "type": "object"
+          },
+          "correction_route": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "status": {
+      "enum": [
+        "current",
+        "partial",
+        "contested",
+        "superseded",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

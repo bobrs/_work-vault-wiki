@@ -1,0 +1,40 @@
+{
+  "demonstration_id": "PD-6",
+  "participant_load": {
+    "load_id": "urn:telic:hi3:load:c5e27ffd-fa09-50d8-a53d-c9290e155910",
+    "participant": "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46",
+    "operation": "review adverse-decision record",
+    "load_class": "reading",
+    "estimated_burden": {
+      "pages": 47,
+      "minutes": 95
+    },
+    "observed_burden": {
+      "status": "overwhelmed",
+      "completed_percent": 8
+    },
+    "support": [
+      "plain-language summary",
+      "advocate",
+      "full source on demand"
+    ],
+    "staging": {
+      "stage_1": "governing facts",
+      "stage_2": "inferences and corrections",
+      "stage_3": "full record"
+    },
+    "status": "overloaded",
+    "silence_is_consent": false
+  },
+  "decision": {
+    "action": "stage disclosure",
+    "rights_preserved": [
+      "correction",
+      "appeal",
+      "full access",
+      "pause"
+    ],
+    "silence_effect": "none"
+  },
+  "result": "Transparency is staged rather than converted into unusable disclosure."
+}

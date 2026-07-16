@@ -1,0 +1,37 @@
+{
+  "demonstration_id": "PD-4",
+  "title": "Archival memory explains history but cannot authorize current action",
+  "trace": {
+    "trace_id": "urn:telic:hi6:trace:9ef3cd1a-5c00-5e69-83ca-97cae4a51fdf",
+    "content": "2024 eligibility threshold",
+    "current_status": "archival"
+  },
+  "memory_state": {
+    "memory_state_id": "urn:telic:hi6:memory-state:89d77c84-7f3a-5084-99f5-08db549a8814",
+    "trace": "urn:telic:hi6:trace:9ef3cd1a-5c00-5e69-83ca-97cae4a51fdf",
+    "state": "archival",
+    "eligible_for_retrieval": true,
+    "eligible_for_action": false,
+    "eligible_for_training": false,
+    "conditions": [
+      "historical audit only"
+    ],
+    "valid_time": {
+      "valid_from": "2024-01-01T00:00:00Z",
+      "valid_to": "2025-12-31T23:59:59Z"
+    },
+    "review": {
+      "authority": "policy custodian"
+    },
+    "status": "current"
+  },
+  "historical_question": {
+    "retrieved": true,
+    "purpose": "explain 2024 decision"
+  },
+  "current_decision": {
+    "retrieved_as_authority": false,
+    "blocked": true
+  },
+  "result": "The archive can explain an earlier decision without governing a new applicant."
+}

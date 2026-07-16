@@ -1,0 +1,109 @@
+{
+  "records": [
+    {
+      "ledger_id": "urn:telic:hi8:ledger:050223d1-b1f4-5364-b89b-de7603b8b046",
+      "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+      "provider": "urn:telic:hi8:provider:d44b996e-955c-5389-9edd-35eae410398b",
+      "session_or_loop": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+      "assigned_roles": [
+        "structurer",
+        "translator",
+        "comparator",
+        "route_generator",
+        "witness_assistant"
+      ],
+      "allowed_operations": [
+        "extract concerns",
+        "structure positions",
+        "translate terms",
+        "generate candidate options",
+        "compare routes",
+        "draft summary",
+        "draft witness"
+      ],
+      "prohibited_operations": [
+        "assign standing",
+        "infer consent",
+        "select governing method",
+        "authorize action",
+        "execute scheduling tool",
+        "adjudicate dispute"
+      ],
+      "input_authority": {
+        "scope": "approved deliberation record and participant-reviewed corrections"
+      },
+      "output_authority": {
+        "scope": "candidate semantic outputs only",
+        "binding": false
+      },
+      "tool_authority": {
+        "prepare_candidate": true,
+        "execute": false
+      },
+      "standing": "none",
+      "consent_authority": "none",
+      "decision_authority": {
+        "value": "none"
+      },
+      "adjudication_authority": {
+        "value": "none"
+      },
+      "role_escalation": {
+        "self_escalation": false,
+        "requires": "external grant and witness"
+      },
+      "review": {
+        "authority": "county deliberation clerk and represented participants"
+      },
+      "status": "active"
+    },
+    {
+      "ledger_id": "urn:telic:hi8:ledger:da34b04a-c933-53bc-9847-f7b381bc97a2",
+      "model_instance": "urn:telic:hi8:model:da34b04a-c933-53bc-9847-f7b381bc97a2",
+      "provider": "urn:telic:hi8:provider:8ef53d8c-c17c-53b9-8bef-86a22fca65e6",
+      "session_or_loop": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+      "assigned_roles": [
+        "comparator",
+        "challenger"
+      ],
+      "allowed_operations": [
+        "compare routes",
+        "identify missing assumptions",
+        "challenge premature consensus"
+      ],
+      "prohibited_operations": [
+        "assign standing",
+        "authorize action",
+        "execute tools",
+        "represent participants"
+      ],
+      "input_authority": {
+        "scope": "same reviewed public record"
+      },
+      "output_authority": {
+        "scope": "candidate comparison only",
+        "binding": false
+      },
+      "tool_authority": {
+        "prepare_candidate": false,
+        "execute": false
+      },
+      "standing": "none",
+      "consent_authority": "none",
+      "decision_authority": {
+        "value": "none"
+      },
+      "adjudication_authority": {
+        "value": "none"
+      },
+      "role_escalation": {
+        "self_escalation": false,
+        "requires": "new external grant"
+      },
+      "review": {
+        "authority": "county deliberation clerk"
+      },
+      "status": "active"
+    }
+  ]
+}

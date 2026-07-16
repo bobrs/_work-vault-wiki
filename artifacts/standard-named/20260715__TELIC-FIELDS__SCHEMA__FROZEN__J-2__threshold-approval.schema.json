@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:threshold-approval:0.1",
+  "title": "ThresholdApprovalBundle",
+  "type": "object",
+  "required": [
+    "release_id",
+    "manifest_digest",
+    "threshold",
+    "approvals",
+    "public_custody",
+    "status"
+  ],
+  "properties": {
+    "release_id": {
+      "type": "string"
+    },
+    "manifest_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "threshold": {
+      "type": "integer",
+      "minimum": 2
+    },
+    "approvals": {
+      "type": "array",
+      "minItems": 2
+    },
+    "public_custody": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "approved",
+        "insufficient",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+test_public_view_redacts_direct_source_and_consent (test_disclosure_privacy.DisclosurePrivacyTests.test_public_view_redacts_direct_source_and_consent) ... ok
+test_concurrent_appends_serialize_into_valid_chain (test_event_store_hardening.EventStoreHardeningTests.test_concurrent_appends_serialize_into_valid_chain) ... ok
+test_stale_object_revision_rejected (test_event_store_hardening.EventStoreHardeningTests.test_stale_object_revision_rejected) ... ok
+test_revoked_key_cannot_verify_token (test_policy_keys_context.PolicyKeyContextTests.test_revoked_key_cannot_verify_token) ... ok
+test_stale_context_and_policy_version_are_enforced (test_policy_keys_context.PolicyKeyContextTests.test_stale_context_and_policy_version_are_enforced) ... ok
+test_full_scenario_and_signed_selective_export (test_reference_hardening.ReferenceHardeningTests.test_full_scenario_and_signed_selective_export) ... ok
+test_partial_failure_compensates_before_retry (test_reference_hardening.ReferenceHardeningTests.test_partial_failure_compensates_before_retry) ... ok
+test_restart_restores_policy_key_status_and_retirement (test_reference_hardening.ReferenceHardeningTests.test_restart_restores_policy_key_status_and_retirement) ... ok
+test_standalone_verifier_has_no_package_dependency (test_reference_hardening.ReferenceHardeningTests.test_standalone_verifier_has_no_package_dependency) ... ok
+test_tampered_manifest_is_rejected (test_reference_hardening.ReferenceHardeningTests.test_tampered_manifest_is_rejected) ... ok
+test_all_twelve_schemas_are_valid (test_schemas.SchemaTests.test_all_twelve_schemas_are_valid) ... ok
+test_all_sixteen_threats_detected (test_threats.ThreatHarnessTests.test_all_sixteen_threats_detected) ... ok
+test_semantic_keyboard_and_status_features_present (test_web_accessibility.WebAccessibilityTests.test_semantic_keyboard_and_status_features_present) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.235s
+
+OK

@@ -1,0 +1,34 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Continuing recruitment after withdrawal produces capture finding",
+  "lock_in_capture_profile": {
+    "profile_id": "urn:telic:hi5:lockin:369a0cc1-d5df-56d1-a129-3432b5de1402",
+    "dependent_loop": "urn:telic:hi5:loop:5e45f567-97e7-59e9-af64-8e955ce17e0a",
+    "affected_supporting_loops": [
+      "urn:telic:hi5:loop:7221436c-09aa-5d7b-b541-86eec225fa27"
+    ],
+    "lock_in_mechanisms": [
+      "data",
+      "technical",
+      "network"
+    ],
+    "switching_costs": [
+      "profile embedded in downstream retrieval",
+      "no portable correction endpoint",
+      "external copies"
+    ],
+    "exit_available": true,
+    "exit_effective": false,
+    "authority_withdrawn": true,
+    "support_continues": true,
+    "capture_type": "data_capture",
+    "correction_route": {
+      "action": "disable retrieval and propagate withdrawal",
+      "independent_review": true
+    },
+    "status": "captured"
+  },
+  "recruitment_credential_enabled": false,
+  "downstream_status": "partial_known_gaps",
+  "result": "Formal exit exists, but support continues; recruitment is disabled and capture repair begins."
+}

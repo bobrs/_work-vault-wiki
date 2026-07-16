@@ -1,0 +1,52 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Synthetic data preserves model and source ancestry",
+  "synthetic_ancestry": {
+    "ancestry_id": "urn:telic:hi9:synthetic-ancestry:88fec433-3c88-516e-aa89-87b65f63d707",
+    "synthetic_dataset": "urn:telic:hi9:dataset:082a17df-ef72-5b0d-83f2-b5307bbfec65",
+    "generating_models": [
+      "urn:telic:hi9:model:3b7208b9-58ad-5eb2-8d4c-0659e438d7c4"
+    ],
+    "prompt_or_generation_process": {
+      "templates": "community-reviewed civic scenarios",
+      "sampling": "bounded diversity generation"
+    },
+    "ancestor_sources": [
+      "urn:telic:hi9:dataset:521b1343-2041-52f2-b6d9-88a6463032e1",
+      "urn:telic:hi9:source:ea40213b-c17e-5b94-b34a-d59c91a7afb0",
+      "urn:telic:hi9:dataset:2afa32da-43c6-50bc-a857-6bca871834ff"
+    ],
+    "ancestor_authority": [
+      "community governance",
+      "research license",
+      "annotator task consent"
+    ],
+    "ancestor_restrictions": [
+      "no identity inference",
+      "research-only source not used in commercial deployment examples"
+    ],
+    "transformations": [
+      "generation",
+      "safety filtering",
+      "community review",
+      "deduplication"
+    ],
+    "filtering": {
+      "human_review": true,
+      "prohibited_content_removed": true
+    },
+    "contamination_risks": [
+      "model may reproduce restricted phrases",
+      "recursive error amplification"
+    ],
+    "recursive_depth": 1,
+    "withdrawal_links": [
+      "urn:telic:hi9:withdrawal:459be988-84eb-54a6-9142-3a7e5dca108b"
+    ],
+    "status": "active"
+  },
+  "source_free_claim": false,
+  "ancestor_restrictions_preserved": true,
+  "withdrawal_link_present": true,
+  "result": "Generated examples remain connected to their model, source, restriction, and withdrawal lineage."
+}

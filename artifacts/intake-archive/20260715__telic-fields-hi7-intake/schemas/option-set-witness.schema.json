@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "option-set-witness.schema.json",
+  "title": "OptionSetWitness",
+  "type": "object",
+  "required": [
+    "option_set_id",
+    "assembly",
+    "generation_process",
+    "included_options",
+    "excluded_options",
+    "combined_options",
+    "source_of_each_option",
+    "selection_or_exclusion_reasons",
+    "option_authors",
+    "affected_centers",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "option_set_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "generation_process": {
+      "type": "array"
+    },
+    "included_options": {
+      "type": "array"
+    },
+    "excluded_options": {
+      "type": "array"
+    },
+    "combined_options": {
+      "type": "array"
+    },
+    "source_of_each_option": {
+      "type": "object"
+    },
+    "selection_or_exclusion_reasons": {
+      "type": "object"
+    },
+    "option_authors": {
+      "type": "object"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "open",
+        "reviewed",
+        "contested",
+        "frozen_for_decision",
+        "superseded",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

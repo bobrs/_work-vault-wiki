@@ -1,0 +1,32 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Salience decay reduces ordinary retrieval without deleting witness",
+  "salience": {
+    "salience_id": "urn:telic:hi6:salience:low-use-guide",
+    "trace": "urn:telic:hi6:trace:7c218685-c3d0-5d7d-8bbd-462b0974ee9d",
+    "salience_basis": [
+      "recency",
+      "frequency",
+      "task_relevance"
+    ],
+    "initial_salience": 0.75,
+    "current_salience": 0.08,
+    "decay_rule": {
+      "half_life_days": 90,
+      "ordinary_retrieval_threshold": 0.15
+    },
+    "reinforcement_events": [],
+    "protected_floor": null,
+    "action_authority_effect": "none",
+    "deletion_effect": "none",
+    "review": {
+      "next": "2027-01-01",
+      "archive_when_below_threshold": true
+    },
+    "status": "decayed"
+  },
+  "ordinary_retrieval": false,
+  "archival_witness_available": true,
+  "trace_deleted": false,
+  "result": "Low use moves the guide out of ordinary retrieval; it does not erase history or decide legitimacy."
+}

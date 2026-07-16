@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "public-decision-witness.schema.json",
+  "title": "PublicDecisionWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "assembly",
+    "standing_records",
+    "option_set",
+    "protected_conditions",
+    "deliberative_assertions",
+    "corrections",
+    "decision_rule_portfolio",
+    "route_portfolio",
+    "selected_action",
+    "authority",
+    "cost_delay_map",
+    "dissent",
+    "abstention_or_no_decision",
+    "implementation_conditions",
+    "review_triggers",
+    "event_ids",
+    "completeness",
+    "generated_from_events"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "standing_records": {
+      "type": "array"
+    },
+    "option_set": {
+      "type": "string"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "deliberative_assertions": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "decision_rule_portfolio": {
+      "type": "string"
+    },
+    "route_portfolio": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selected_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authority": {
+      "type": "object"
+    },
+    "cost_delay_map": {
+      "type": "string"
+    },
+    "dissent": {
+      "type": "array"
+    },
+    "abstention_or_no_decision": {
+      "type": "array"
+    },
+    "implementation_conditions": {
+      "type": "array"
+    },
+    "review_triggers": {
+      "type": "array"
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

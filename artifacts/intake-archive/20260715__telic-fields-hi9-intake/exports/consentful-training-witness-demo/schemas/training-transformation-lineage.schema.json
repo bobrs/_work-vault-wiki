@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "training-transformation-lineage.schema.json",
+  "title": "TrainingTransformationLineage",
+  "type": "object",
+  "required": [
+    "lineage_id",
+    "input_sources",
+    "transformation_steps",
+    "operators",
+    "purpose",
+    "parameters_or_rules",
+    "restriction_propagation",
+    "losses",
+    "new_inferences",
+    "derived_outputs",
+    "quality_review",
+    "status"
+  ],
+  "properties": {
+    "lineage_id": {
+      "type": "string"
+    },
+    "input_sources": {
+      "type": "array",
+      "minItems": 1
+    },
+    "transformation_steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step_id",
+          "operation",
+          "input",
+          "output",
+          "operator",
+          "restrictions_preserved"
+        ],
+        "properties": {
+          "step_id": {
+            "type": "string"
+          },
+          "operation": {
+            "enum": [
+              "copy",
+              "normalize",
+              "filter",
+              "dedupe",
+              "redact",
+              "translate",
+              "summarize",
+              "chunk",
+              "tokenize",
+              "embed",
+              "label",
+              "rank",
+              "augment",
+              "synthesize",
+              "mix",
+              "sample",
+              "weight",
+              "remove",
+              "quarantine",
+              "other"
+            ]
+          },
+          "input": {
+            "type": "array"
+          },
+          "output": {
+            "type": "array"
+          },
+          "operator": {
+            "type": "string"
+          },
+          "restrictions_preserved": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "operators": {
+      "type": "array"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "parameters_or_rules": {
+      "type": "array"
+    },
+    "restriction_propagation": {
+      "type": "object"
+    },
+    "losses": {
+      "type": "array"
+    },
+    "new_inferences": {
+      "type": "array"
+    },
+    "derived_outputs": {
+      "type": "array"
+    },
+    "quality_review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "complete",
+        "partial",
+        "contested",
+        "quarantined",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

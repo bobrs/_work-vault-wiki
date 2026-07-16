@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-trail-event.schema.json",
+  "title": "SemanticTrailEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "subject_record",
+    "agent",
+    "recorded_at",
+    "provenance"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "center_registered",
+        "source_registered",
+        "projection_created",
+        "projection_confirmed",
+        "projection_corrected",
+        "projection_withdrawn",
+        "trail_created",
+        "trail_derived",
+        "trail_contested",
+        "context_retrieved",
+        "mirror_returned",
+        "field_classified",
+        "route_generated",
+        "route_rejected",
+        "gate_evaluated",
+        "consent_granted",
+        "consent_withdrawn",
+        "authority_delegated",
+        "authority_expired",
+        "action_authorized",
+        "action_executed",
+        "consequence_recorded",
+        "contest_opened",
+        "correction_propagated",
+        "route_revised",
+        "loop_forked",
+        "record_released",
+        "successor_assigned",
+        "record_dissolved"
+      ]
+    },
+    "subject_record": {
+      "type": "string"
+    },
+    "agent": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "previous_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "new_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

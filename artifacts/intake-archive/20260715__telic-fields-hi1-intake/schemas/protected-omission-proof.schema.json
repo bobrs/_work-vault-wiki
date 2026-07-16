@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "protected-omission-proof.schema.json",
+  "title": "ProtectedOmissionProof",
+  "type": "object",
+  "required": [
+    "omission_proof_id",
+    "restriction_type",
+    "verified_by",
+    "verification_authority",
+    "scope",
+    "valid_time",
+    "status",
+    "disclosure_class",
+    "source_commitment",
+    "review_route"
+  ],
+  "properties": {
+    "omission_proof_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "restriction_type": {
+      "type": "string"
+    },
+    "verified_by": {
+      "type": "string"
+    },
+    "verification_authority": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "active",
+        "expired",
+        "withdrawn",
+        "contested"
+      ]
+    },
+    "disclosure_class": {
+      "enum": [
+        "public",
+        "participant",
+        "mediator",
+        "decision_authority",
+        "auditor",
+        "sealed",
+        "source_only"
+      ]
+    },
+    "source_commitment": {
+      "type": "object",
+      "required": [
+        "commitment_type",
+        "value"
+      ],
+      "properties": {
+        "commitment_type": {
+          "enum": [
+            "hash",
+            "sealed_reference",
+            "authorized_attestation"
+          ]
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review_route": {
+      "type": "object"
+    },
+    "disclosed_facts": {
+      "type": "array"
+    },
+    "prohibited_disclosures": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

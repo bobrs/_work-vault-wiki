@@ -1,0 +1,146 @@
+{
+  "records": [
+    {
+      "field_map_id": "urn:telic:hi8:field-map:7900018f-255a-5ada-a706-ba50b6513d91",
+      "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+      "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+      "scope": {
+        "decision": "temporary urgent-care route",
+        "time": "six-month transition"
+      },
+      "represented_centers": [
+        "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+        "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+        "urn:telic:hi8:center:37c912bf-6344-5a47-baf8-9a6df9b1861a",
+        "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779"
+      ],
+      "missing_centers": [
+        "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+        "urn:telic:hi8:center:fb43be43-34d8-5005-b5a3-1156bde2ba95"
+      ],
+      "projections": [
+        {
+          "center": "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+          "content": "preserve local urgent access",
+          "status": "direct"
+        },
+        {
+          "center": "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+          "content": "regional hospital is not reachable for all residents",
+          "status": "direct"
+        },
+        {
+          "center": "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779",
+          "content": "control transition cost and avoid unsafe building use",
+          "status": "direct"
+        }
+      ],
+      "protected_conditions": [
+        "urn:telic:hi8:condition:db4497d9-a398-5d75-96fb-bf6e2a0b6986"
+      ],
+      "dependencies": [
+        "clinical staffing",
+        "transport",
+        "partner-practice capacity"
+      ],
+      "uncertainties": [
+        "mobile utilization",
+        "renovation cost",
+        "evening staffing"
+      ],
+      "options": [
+        "urn:telic:hi8:route:aaee87e2-a411-51fa-9b52-97152944132d",
+        "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+        "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+        "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290"
+      ],
+      "conflicts": [
+        "cost versus local access",
+        "speed versus reversibility"
+      ],
+      "minority_fields": [],
+      "provider_constraints": [
+        "urn:telic:hi8:provider-disclosure:e7873900-bfc0-55b4-8673-6fda9ad4b744"
+      ],
+      "corrections": [],
+      "completeness": "partial_known_gaps",
+      "status": "participant_review"
+    },
+    {
+      "field_map_id": "urn:telic:hi8:field-map:e9262088-1cb4-5469-b9fa-6ab35e3dbcee",
+      "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+      "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+      "scope": {
+        "decision": "temporary urgent-care route",
+        "time": "six-month transition"
+      },
+      "represented_centers": [
+        "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+        "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+        "urn:telic:hi8:center:37c912bf-6344-5a47-baf8-9a6df9b1861a",
+        "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779",
+        "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f"
+      ],
+      "missing_centers": [
+        "urn:telic:hi8:center:fb43be43-34d8-5005-b5a3-1156bde2ba95"
+      ],
+      "projections": [
+        {
+          "center": "urn:telic:hi8:center:f676f99d-4a44-508a-beb0-16e8e9a91dda",
+          "content": "preserve local urgent access",
+          "status": "direct"
+        },
+        {
+          "center": "urn:telic:hi8:center:886f6c00-2ade-5abb-8b91-70c33c0685b0",
+          "content": "regional hospital is not reachable for all residents",
+          "status": "direct"
+        },
+        {
+          "center": "urn:telic:hi8:center:596bef54-1b58-5c9a-9c14-6ec5826d6779",
+          "content": "control transition cost and avoid unsafe building use",
+          "status": "direct"
+        },
+        {
+          "center": "urn:telic:hi8:center:4bd4b135-6010-505c-9659-20fa4273032f",
+          "content": "daytime-only mobile hours reduce access for rotating-shift workers",
+          "status": "direct"
+        }
+      ],
+      "protected_conditions": [
+        "urn:telic:hi8:condition:db4497d9-a398-5d75-96fb-bf6e2a0b6986"
+      ],
+      "dependencies": [
+        "clinical staffing",
+        "transport",
+        "partner-practice capacity"
+      ],
+      "uncertainties": [
+        "mobile utilization",
+        "renovation cost",
+        "evening staffing"
+      ],
+      "options": [
+        "urn:telic:hi8:route:aaee87e2-a411-51fa-9b52-97152944132d",
+        "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+        "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+        "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290"
+      ],
+      "conflicts": [
+        "cost versus local access",
+        "speed versus reversibility",
+        "daytime service versus shift-worker access"
+      ],
+      "minority_fields": [
+        "urn:telic:hi8:minority-profile:4bd4b135-6010-505c-9659-20fa4273032f"
+      ],
+      "provider_constraints": [
+        "urn:telic:hi8:provider-disclosure:e7873900-bfc0-55b4-8673-6fda9ad4b744"
+      ],
+      "corrections": [
+        "urn:telic:hi8:correction:da55b8e4-33e4-5f3b-bf9d-f954c54ce26f"
+      ],
+      "completeness": "partial_known_gaps",
+      "status": "corrected"
+    }
+  ]
+}

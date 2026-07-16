@@ -1,0 +1,26 @@
+{
+  "valid": true,
+  "errors": [],
+  "checksums_verified": 49,
+  "records_validated": 68,
+  "events_verified": 22,
+  "views_verified": 4,
+  "manifest_signature_valid": true,
+  "proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true,
+    "stale_context_rejection": true,
+    "policy_version_enforcement": true,
+    "key_rotation": true,
+    "partial_failure_compensation": true,
+    "selective_disclosure": true,
+    "authenticated_roles": true,
+    "multi_party_correction": true,
+    "policy_rollback": true,
+    "queue_exactly_once": true,
+    "external_review_claim_bounded": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authority-degradation-record.schema.json",
+  "title": "AuthorityDegradationRecord",
+  "type": "object",
+  "required": [
+    "degradation_id",
+    "actor",
+    "prior_authority",
+    "current_authority",
+    "trigger",
+    "failed_dimensions",
+    "effective_at",
+    "conditions",
+    "restoration_requirements",
+    "status",
+    "tool_enforcement"
+  ],
+  "properties": {
+    "degradation_id": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "prior_authority": {
+      "enum": [
+        "execute",
+        "authorize",
+        "recommend",
+        "compare",
+        "structure",
+        "retrieve",
+        "ask",
+        "escalate",
+        "stop"
+      ]
+    },
+    "current_authority": {
+      "enum": [
+        "execute",
+        "authorize",
+        "recommend",
+        "compare",
+        "structure",
+        "retrieve",
+        "ask",
+        "escalate",
+        "stop"
+      ]
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "failed_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "effective_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "restoration_requirements": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "restored",
+        "superseded",
+        "contested"
+      ]
+    },
+    "tool_enforcement": {
+      "type": "object",
+      "required": [
+        "execution_disabled"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

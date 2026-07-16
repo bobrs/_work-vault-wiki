@@ -1,0 +1,167 @@
+{
+  "status": {
+    "step": "retired",
+    "active_policy": {
+      "policy_id": "urn:telic:j1:authorization-policy:783ea4e1-e4fc-57f3-a828-570978c109e7",
+      "version": 2,
+      "purpose": "model-assisted community scheduling after access correction",
+      "allowed_operations": [
+        "summarize reviewed availability",
+        "generate candidate schedule",
+        "prepare tool request"
+      ],
+      "prohibited_operations": [
+        "infer consent",
+        "self-authorize",
+        "commit without operator confirmation",
+        "training reuse"
+      ],
+      "required_checks": [
+        "standing",
+        "authority",
+        "context",
+        "protected conditions",
+        "tool credential",
+        "target authority",
+        "correction reachability",
+        "stale context rejection"
+      ],
+      "valid_time": {
+        "from": "2026-07-15T20:43:19Z",
+        "to": null
+      },
+      "supersedes": "urn:telic:j1:authorization-policy:5641493e-1edc-5469-b413-13a8e4791e58",
+      "status": "active",
+      "digest": "35cf7953a4b049a459c06d4a71865c67e316fc6283055fa6df7249987a559486"
+    },
+    "active_context": {
+      "context_id": "urn:telic:j1:context:f329ac3b-9e26-50b3-9d7c-0f9c50605631",
+      "correction_event_ids": [
+        "urn:telic:j1:event:6fc0f116-c444-5324-95b8-39b910d1d938"
+      ],
+      "created_at": "2026-07-15T20:43:19Z",
+      "fingerprint": "aaf8812388f292c74853456841499ec6a1c617ab16944f6cf77857b1aa3ca861",
+      "revision": 2,
+      "source_hashes": {
+        "urn:telic:j1:projection-a:36ccd2d8-f184-5b6e-8ecc-db6752ce701c": "196a6c65510c21370df8c7dadd9b81dde9c9c8759e0cc2fb8258dff8cf2d9808",
+        "urn:telic:j1:projection-b:65008b46-6071-58a8-b113-fb2a54bd1584": "deb22b53317491350144a2ad09e9cd660443772ce23036245ff1575935971258"
+      },
+      "source_object_ids": [
+        "urn:telic:j1:projection-a:36ccd2d8-f184-5b6e-8ecc-db6752ce701c",
+        "urn:telic:j1:projection-b:65008b46-6071-58a8-b113-fb2a54bd1584"
+      ],
+      "status": "active"
+    },
+    "tool_credential_active": false,
+    "gate_keys": {
+      "gate-k1": "revoked",
+      "gate-k2": "revoked",
+      "gate-k3": "active"
+    },
+    "events": 20,
+    "objects": 46
+  },
+  "witness": {
+    "witness_id": "urn:telic:j1:witness:9336624e-78e0-5e56-9b1d-68afab857ca1",
+    "scope": "TF-MVI-1 model-assisted community scheduling, J.1 hardening",
+    "conformance_claim": {
+      "profile": "TF-C4",
+      "bounded_extension": "TF-C5 retirement",
+      "version": "0.1"
+    },
+    "proofs": {
+      "failed_gate": true,
+      "valid_action": true,
+      "consequence_return": true,
+      "correction_propagation": true,
+      "retirement_revocation": true,
+      "stale_context_rejection": true,
+      "policy_version_enforcement": true,
+      "key_rotation": true,
+      "partial_failure_compensation": true,
+      "selective_disclosure": true
+    },
+    "runtime_data_policy": {
+      "service": true,
+      "cross_session_memory": false,
+      "evaluation_use": false,
+      "training_use": false,
+      "export_private_content": false
+    },
+    "active_policy": {
+      "policy_id": "urn:telic:j1:authorization-policy:783ea4e1-e4fc-57f3-a828-570978c109e7",
+      "version": 2,
+      "purpose": "model-assisted community scheduling after access correction",
+      "allowed_operations": [
+        "summarize reviewed availability",
+        "generate candidate schedule",
+        "prepare tool request"
+      ],
+      "prohibited_operations": [
+        "infer consent",
+        "self-authorize",
+        "commit without operator confirmation",
+        "training reuse"
+      ],
+      "required_checks": [
+        "standing",
+        "authority",
+        "context",
+        "protected conditions",
+        "tool credential",
+        "target authority",
+        "correction reachability",
+        "stale context rejection"
+      ],
+      "valid_time": {
+        "from": "2026-07-15T20:43:19Z",
+        "to": null
+      },
+      "supersedes": "urn:telic:j1:authorization-policy:5641493e-1edc-5469-b413-13a8e4791e58",
+      "status": "active",
+      "digest": "35cf7953a4b049a459c06d4a71865c67e316fc6283055fa6df7249987a559486"
+    },
+    "gate_key_status": {
+      "gate-k1": "revoked",
+      "gate-k2": "revoked",
+      "gate-k3": "active"
+    },
+    "correction_reachability": {
+      "blocked_descendants": [],
+      "complete_for_scope": true,
+      "correction_event_id": "urn:telic:j1:event:6fc0f116-c444-5324-95b8-39b910d1d938",
+      "generated_at": "2026-07-15T20:43:19Z",
+      "known_descendants": [
+        "urn:telic:j1:route:3b96f76f-a0e4-5635-bb43-06ff0c459fdf",
+        "urn:telic:j1:route:e7dcf6ae-9c40-5147-bc99-36064725e5b5",
+        "urn:telic:j1:summary-v1:6b25a5af-1b4f-5810-ba15-cb2a0d0069da",
+        "urn:telic:j1:summary-v2:113791ea-ecdd-5782-968e-40cf8e763eac"
+      ],
+      "origin_object_id": "urn:telic:j1:projection-b:65008b46-6071-58a8-b113-fb2a54bd1584",
+      "report_id": "urn:telic:j1:correction-reachability:8ab6fb3d-3dce-58e1-858a-8cd9d4db5b1e",
+      "status": "complete",
+      "unreachable_descendants": [],
+      "updated_descendants": [
+        "urn:telic:j1:route:3b96f76f-a0e4-5635-bb43-06ff0c459fdf",
+        "urn:telic:j1:route:e7dcf6ae-9c40-5147-bc99-36064725e5b5",
+        "urn:telic:j1:summary-v1:6b25a5af-1b4f-5810-ba15-cb2a0d0069da",
+        "urn:telic:j1:summary-v2:113791ea-ecdd-5782-968e-40cf8e763eac"
+      ]
+    },
+    "retirement": {
+      "tool_credential_active": false,
+      "optional_memory": null,
+      "open_obligations": [
+        "retain correction witness for pilot review period"
+      ]
+    },
+    "event_chain_head": "aa423e024b7312e3ebadac10dded1ccf181335e8bdecefd064dc3f769ee13cee",
+    "known_exclusions": [
+      "no production personal data",
+      "no clinical, legal, financial, or civic adjudication"
+    ]
+  },
+  "export": "/mnt/data/20260715__TELIC-FIELDS__PHASE-J1__INDEPENDENT-VERIFICATION-SELECTIVE-DISCLOSURE-AND-PILOT-HARDENING__v0-1/exports/tf-mvi-1-j1-witness.zip",
+  "events": 20,
+  "objects": 46
+}

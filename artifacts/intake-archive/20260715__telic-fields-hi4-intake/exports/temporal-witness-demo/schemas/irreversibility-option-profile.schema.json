@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "irreversibility-option-profile.schema.json",
+  "title": "IrreversibilityOptionProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "action",
+    "affected_centers",
+    "reversibility",
+    "rollback_window",
+    "repairability",
+    "possibilities_preserved",
+    "possibilities_closed",
+    "closure_duration",
+    "closure_authority",
+    "standing_review",
+    "uncertainty",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reversibility": {
+      "enum": [
+        "highly_reversible",
+        "reversible_with_cost",
+        "partially_reversible",
+        "practically_irreversible",
+        "irreversible",
+        "unknown"
+      ]
+    },
+    "rollback_window": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "repairability": {
+      "type": "object"
+    },
+    "possibilities_preserved": {
+      "type": "array"
+    },
+    "possibilities_closed": {
+      "type": "array"
+    },
+    "closure_duration": {
+      "type": "object"
+    },
+    "closure_authority": {
+      "type": "object"
+    },
+    "standing_review": {
+      "type": "string"
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "active",
+        "contested",
+        "superseded",
+        "released"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

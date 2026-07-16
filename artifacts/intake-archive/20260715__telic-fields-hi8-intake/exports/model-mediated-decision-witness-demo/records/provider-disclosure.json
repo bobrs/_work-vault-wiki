@@ -1,0 +1,43 @@
+{
+  "disclosure_id": "urn:telic:hi8:provider-disclosure:e7873900-bfc0-55b4-8673-6fda9ad4b744",
+  "provider": "urn:telic:hi8:provider:d44b996e-955c-5389-9edd-35eae410398b",
+  "model_or_service": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+  "declared_purposes": [
+    "assist structured deliberation",
+    "avoid unsafe autonomous action"
+  ],
+  "operational_constraints": [
+    "context window requires summarization",
+    "tool execution disabled by product design"
+  ],
+  "safety_policies": [
+    "do not execute consequential public actions without authority"
+  ],
+  "business_incentives": [
+    "service optimized for bounded session completion"
+  ],
+  "data_incentives": [
+    "no training authority in this demonstration"
+  ],
+  "latency_or_cost_constraints": [
+    "minority-retention review adds processing cost but remains enabled"
+  ],
+  "jurisdictional_constraints": [
+    "county records policy governs export"
+  ],
+  "unknown_or_undisclosed": [
+    "full training-data lineage not represented in HI-8"
+  ],
+  "effect_on_model_role": [
+    "executor role unavailable",
+    "provider refusal may appear in tool planning"
+  ],
+  "effect_on_field_map": [
+    "long records may require compression",
+    "provider policy may block some generated actions"
+  ],
+  "review": {
+    "authority": "county model-governance reviewer"
+  },
+  "status": "partial"
+}

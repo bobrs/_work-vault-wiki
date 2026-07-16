@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "portable-identifier.schema.json",
+  "title": "Telic Field Portable Identifier",
+  "type": "string",
+  "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$",
+  "examples": [
+    "urn:telic:demo:projection:6e33f8b4-54b5-4b12-9b31-8b5fc4d2ce93"
+  ]
+}

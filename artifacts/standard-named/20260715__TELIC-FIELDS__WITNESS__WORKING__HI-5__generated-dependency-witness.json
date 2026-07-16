@@ -1,0 +1,61 @@
+{
+  "witness_id": "urn:telic:hi5:witness:0858010a-9af4-5e7c-a747-88448d568f3d",
+  "witness_version": "1",
+  "dependent_loop": "urn:telic:hi5:loop:87cfc6a3-b63c-5c0c-816f-f4ff640051cc",
+  "declared_purpose": {
+    "purpose": "community-controlled identity service"
+  },
+  "operative_purpose": {
+    "purpose": "maintain identity service while preserving participant control"
+  },
+  "supporting_loops": [
+    "urn:telic:hi5:loop:67c07d2d-72ed-5a4a-9003-39939a440abd",
+    "urn:telic:hi5:loop:e046f87b-9109-5b8c-aeaf-b577f5dea54f"
+  ],
+  "substrate_map": [
+    "urn:telic:hi5:substrate-map:a075ff57-23a8-584c-83c5-05a4270b1cad"
+  ],
+  "support_grants": [
+    "urn:telic:hi5:grant:f4c29101-bb74-536b-9e24-ea7552e6d3b9"
+  ],
+  "support_burdens": [
+    "urn:telic:hi5:burden:3b21842b-657f-5963-b811-1f1cffcada79",
+    "urn:telic:hi5:burden:4e376a3a-55d8-5726-b3e4-7f9cbbda8c51"
+  ],
+  "hidden_recruitment": [
+    "urn:telic:hi5:hidden-recruitment:6ed10912-356a-58af-8f0f-2369f6fba823"
+  ],
+  "compatibility_assessments": [
+    "urn:telic:hi5:compatibility:328b5c47-582e-541f-98e2-3ad32eac3a38"
+  ],
+  "drift": [
+    "urn:telic:hi5:drift:9cf4c39d-f916-56a2-9870-d6b809a644b1"
+  ],
+  "lock_in": [
+    "urn:telic:hi5:lockin:369a0cc1-d5df-56d1-a129-3432b5de1402"
+  ],
+  "forks": [
+    "urn:telic:hi5:fork:4df0e2b6-4a3b-5b22-8e35-6966991806a4"
+  ],
+  "dissolution": [
+    "urn:telic:hi5:dissolution:cfc834de-e570-5557-82fa-f08162ec1d13"
+  ],
+  "corrections": [
+    "pause unauthorized training recruitment",
+    "correct public mission statement"
+  ],
+  "completeness": "partial_known_gaps",
+  "generated_from_events": true,
+  "event_ids": [
+    "hi5-event-001",
+    "hi5-event-002",
+    "hi5-event-003",
+    "hi5-event-004",
+    "hi5-event-005",
+    "hi5-event-006",
+    "hi5-event-007",
+    "hi5-event-008",
+    "hi5-event-009"
+  ],
+  "generated_at": "2026-07-15T15:00:00Z"
+}

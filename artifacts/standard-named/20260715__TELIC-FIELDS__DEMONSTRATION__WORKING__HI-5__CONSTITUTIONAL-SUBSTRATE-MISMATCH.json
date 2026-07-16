@@ -1,0 +1,69 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Copied process fails under constitutional substrate mismatch",
+  "compatibility_assessment": {
+    "assessment_id": "urn:telic:hi5:compatibility:328b5c47-582e-541f-98e2-3ad32eac3a38",
+    "transplanted_object": "automated national-benefit intake process",
+    "source_field": {
+      "loop": "urn:telic:hi5:loop:89693232-c8f3-5b2f-95dd-d8e240affec0",
+      "conditions": [
+        "multilingual staff",
+        "appeal desk",
+        "legal review",
+        "accommodation process",
+        "stable maintenance funding"
+      ]
+    },
+    "host_field": {
+      "loop": "urn:telic:hi5:loop:328b5c47-582e-541f-98e2-3ad32eac3a38",
+      "conditions": [
+        "small staff",
+        "limited internet access",
+        "no dedicated appeal desk",
+        "limited maintenance budget"
+      ]
+    },
+    "required_substrate": [
+      "appeal capacity",
+      "accommodation process",
+      "legal authority",
+      "maintenance",
+      "offline access"
+    ],
+    "available_substrate": [
+      "basic intake software",
+      "two caseworkers",
+      "limited hosting"
+    ],
+    "shared_invariants": [
+      "benefit eligibility policy",
+      "need for correction"
+    ],
+    "conflicts": [
+      "digital-only intake conflicts with protected access condition"
+    ],
+    "missing_support": [
+      "appeal desk",
+      "offline channel",
+      "legal review",
+      "maintenance budget"
+    ],
+    "authority_fit": "partial",
+    "burden_fit": "mismatch",
+    "correction_fit": "mismatch",
+    "exit_fit": "partial",
+    "status": "substrate_mismatch",
+    "biological_claim": false
+  },
+  "deployment_gate": {
+    "automatic_transplant": "fail",
+    "adaptation_required": true
+  },
+  "permitted_routes": [
+    "add missing substrate",
+    "narrow to document drafting",
+    "retain assisted intake",
+    "refuse transplant"
+  ],
+  "result": "Matching software form does not prove compatible authority, burden, correction, or access."
+}

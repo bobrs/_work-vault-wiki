@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "participant-load-record.schema.json",
+  "title": "ParticipantLoadRecord",
+  "type": "object",
+  "required": [
+    "load_id",
+    "participant",
+    "operation",
+    "load_class",
+    "estimated_burden",
+    "observed_burden",
+    "support",
+    "staging",
+    "status"
+  ],
+  "properties": {
+    "load_id": {
+      "type": "string"
+    },
+    "participant": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "load_class": {
+      "enum": [
+        "reading",
+        "disclosure",
+        "attention",
+        "emotional",
+        "cognitive",
+        "time",
+        "language",
+        "accessibility",
+        "correction",
+        "consent",
+        "appeal",
+        "coordination"
+      ]
+    },
+    "estimated_burden": {},
+    "observed_burden": {},
+    "support": {
+      "type": "array"
+    },
+    "staging": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "manageable",
+        "material",
+        "overloaded",
+        "unknown",
+        "contested"
+      ]
+    },
+    "silence_is_consent": {
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

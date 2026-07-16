@@ -1,0 +1,45 @@
+{
+  "record_id": "urn:telic:hi10:transfer:f012805c-0669-5951-8d97-1afb8eb2c7ae",
+  "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "change_type": "provider_change",
+  "prior_operator_or_provider": "urn:telic:hi10:provider:4722b94c-6d4f-50fe-8c33-c88a6da3fc7e",
+  "successor_operator_or_provider": "urn:telic:hi10:provider:40637f42-45f9-534e-85e8-f5a17df3efe5",
+  "effective_time": "2026-10-01T00:00:00Z",
+  "transferred_assets": [
+    "model service configuration",
+    "approved prompts",
+    "runtime schemas"
+  ],
+  "transferred_authority": [
+    "bounded service operation after review"
+  ],
+  "nontransferable_authority": [
+    "participant-specific optional-memory consent",
+    "training reuse permission"
+  ],
+  "consent_and_notice": {
+    "new_notice_required": true,
+    "renew_optional_permissions": true
+  },
+  "data_and_memory_transfer": {
+    "active_session_data": false,
+    "reviewed institutional records": "county custody"
+  },
+  "restrictions": [
+    "no training reuse",
+    "no cross-subject profiling",
+    "open correction obligations survive"
+  ],
+  "open_incidents": [
+    "urn:telic:hi10:incident:4d99cf4b-f57d-593b-9061-dac3ea75a88c"
+  ],
+  "repair_obligations": [
+    "complete compensation",
+    "preserve participant appeal"
+  ],
+  "review": {
+    "county_approval": true,
+    "participant_notice": true
+  },
+  "status": "conditional"
+}

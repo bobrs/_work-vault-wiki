@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "memory-contamination-event.schema.json",
+  "title": "MemoryContaminationEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "contamination_type",
+    "affected_traces",
+    "affected_actions",
+    "source",
+    "detected_at",
+    "immediate_response",
+    "repair",
+    "residual_risk",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "contamination_type": {
+      "enum": [
+        "source_inference_collapse",
+        "stale_authority_reuse",
+        "correction_not_propagated",
+        "duplicate_reinforcement",
+        "synthetic_citation",
+        "provenance_loss",
+        "scope_expansion",
+        "unauthorized_reactivation",
+        "deleted_trace_resurfaced",
+        "contestation_erasure",
+        "other"
+      ]
+    },
+    "affected_traces": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_actions": {
+      "type": "array"
+    },
+    "source": {
+      "type": "object"
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "immediate_response": {
+      "type": "array",
+      "minItems": 1
+    },
+    "repair": {
+      "type": "array"
+    },
+    "residual_risk": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "detected",
+        "quarantined",
+        "repairing",
+        "partially_repaired",
+        "repaired",
+        "released",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

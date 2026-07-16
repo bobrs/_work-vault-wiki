@@ -1,0 +1,412 @@
+{
+  "trial": {
+    "status": {
+      "step": "retired",
+      "active_policy": {
+        "policy_id": "urn:telic:j2:authorization-policy:753ab9c4-9e15-5511-a979-4183a1638be5",
+        "version": 4,
+        "purpose": "authenticated multi-party scheduling with protected correction",
+        "allowed_operations": [
+          "summarize reviewed availability",
+          "generate candidate schedule",
+          "prepare tool request"
+        ],
+        "prohibited_operations": [
+          "infer consent",
+          "self-authorize",
+          "training reuse",
+          "commit without operator assertion"
+        ],
+        "required_checks": [
+          "standing",
+          "authenticated role",
+          "authority",
+          "current context",
+          "protected conditions",
+          "target authority"
+        ],
+        "valid_time": {
+          "from": "2026-07-16T00:00:46Z",
+          "to": null
+        },
+        "supersedes": "urn:telic:j2:authorization-policy:28c3fd8f-b508-5bb3-93c6-d44e7b96cb32",
+        "status": "active",
+        "digest": "2f79b67678f4e34c91fb400d54657aa85809f11ca41fd414ec09880073c5ffe1"
+      },
+      "context": {
+        "context_id": "urn:telic:j2:context:bbba8fd4-6589-5d41-b4ea-97d35e7afd9d",
+        "correction_event_ids": [
+          "urn:telic:j2:event:316f3997-3189-56e6-a76a-98d2ee7f262a",
+          "urn:telic:j2:event:9c777af5-7f46-5fc1-b137-d51b4692c87f"
+        ],
+        "created_at": "2026-07-16T00:00:46Z",
+        "fingerprint": "70cba471afa3d08dcf957ca3dd06b913f13e6b026514fa1f24770435765a6820",
+        "revision": 2,
+        "source_hashes": {
+          "urn:telic:j2:projection-a:685c2428-6ea3-5c27-ada0-47c7b1b0935e": "bf5db69e76ccb229d863a3a1bf424db4fd0c9c1cc96b56c7b5ff86ee1ebf775c",
+          "urn:telic:j2:projection-b:2ab93acf-10f1-5f1f-ac62-6450020269fe": "6116e15517d534be981a9f6fc677ccfc4e6f63ec1eec9238b3c03f8ddc1a432f",
+          "urn:telic:j2:projection-c:95096c1d-977c-5b7b-a30d-85902fa2f9d9": "0e4b03c2016bc0ee6df219cbfaea7c376db00ac2a1af8400243d57f23f977815"
+        },
+        "source_object_ids": [
+          "urn:telic:j2:projection-a:685c2428-6ea3-5c27-ada0-47c7b1b0935e",
+          "urn:telic:j2:projection-b:2ab93acf-10f1-5f1f-ac62-6450020269fe",
+          "urn:telic:j2:projection-c:95096c1d-977c-5b7b-a30d-85902fa2f9d9"
+        ],
+        "status": "active"
+      },
+      "tool_credential_active": false,
+      "events": 22,
+      "objects": 68,
+      "queue": [
+        {
+          "message_id": "commit-1",
+          "dedupe_key": "commit:urn:telic:j2:current-route-thursday:603eb1ab-5c84-5e2e-ae93-5080435fb0c5",
+          "sequence_no": 1,
+          "status": "delivered",
+          "attempts": 2,
+          "last_error": null
+        },
+        {
+          "message_id": "commit-duplicate",
+          "dedupe_key": "commit:urn:telic:j2:current-route-thursday:603eb1ab-5c84-5e2e-ae93-5080435fb0c5",
+          "sequence_no": 2,
+          "status": "delivered",
+          "attempts": 1,
+          "last_error": null
+        },
+        {
+          "message_id": "notice-1",
+          "dedupe_key": "notice:participant-a",
+          "sequence_no": 10,
+          "status": "delivered",
+          "attempts": 1,
+          "last_error": null
+        },
+        {
+          "message_id": "notice-2",
+          "dedupe_key": "notice:participant-b",
+          "sequence_no": 11,
+          "status": "delivered",
+          "attempts": 1,
+          "last_error": null
+        }
+      ]
+    },
+    "witness": {
+      "witness_id": "urn:telic:j2:witness:24109021-9392-5127-b830-09ebca6fae03",
+      "scope": "TF-MVI-1 authenticated multi-party scheduling, J.2 release candidate",
+      "conformance_claim": {
+        "profile": "TF-C4",
+        "bounded_extension": "selected TF-C5 retirement",
+        "version": "0.1"
+      },
+      "proofs": {
+        "failed_gate": true,
+        "valid_action": true,
+        "consequence_return": true,
+        "correction_propagation": true,
+        "retirement_revocation": true,
+        "stale_context_rejection": true,
+        "policy_version_enforcement": true,
+        "key_rotation": true,
+        "partial_failure_compensation": true,
+        "selective_disclosure": true,
+        "authenticated_roles": true,
+        "multi_party_correction": true,
+        "policy_rollback": true,
+        "queue_exactly_once": true,
+        "external_review_claim_bounded": true
+      },
+      "active_policy": {
+        "policy_id": "urn:telic:j2:authorization-policy:753ab9c4-9e15-5511-a979-4183a1638be5",
+        "version": 4,
+        "purpose": "authenticated multi-party scheduling with protected correction",
+        "allowed_operations": [
+          "summarize reviewed availability",
+          "generate candidate schedule",
+          "prepare tool request"
+        ],
+        "prohibited_operations": [
+          "infer consent",
+          "self-authorize",
+          "training reuse",
+          "commit without operator assertion"
+        ],
+        "required_checks": [
+          "standing",
+          "authenticated role",
+          "authority",
+          "current context",
+          "protected conditions",
+          "target authority"
+        ],
+        "valid_time": {
+          "from": "2026-07-16T00:00:46Z",
+          "to": null
+        },
+        "supersedes": "urn:telic:j2:authorization-policy:28c3fd8f-b508-5bb3-93c6-d44e7b96cb32",
+        "status": "active",
+        "digest": "2f79b67678f4e34c91fb400d54657aa85809f11ca41fd414ec09880073c5ffe1"
+      },
+      "multi_party_correction": {
+        "complete_for_scope": true,
+        "correction_id": "urn:telic:j2:multi-party-correction:8f8fb55f-ce1d-5bf7-af23-a952347cd69d",
+        "corrections": [
+          {
+            "actor": "urn:telic:j2:participant-b:4ff88698-b3d0-5a7c-9284-0ec91fa191cb",
+            "assertion_id": "urn:telic:j2:role-assertion:589b1d39-1e7f-502a-bc08-3bde4952fb1b",
+            "event_id": "urn:telic:j2:event:9c777af5-7f46-5fc1-b137-d51b4692c87f",
+            "projection": "urn:telic:j2:projection-b:2ab93acf-10f1-5f1f-ac62-6450020269fe"
+          },
+          {
+            "actor": "urn:telic:j2:participant-c:3a1cf4c3-40be-5e64-8c83-5bf2bd3336be",
+            "assertion_id": "urn:telic:j2:role-assertion:b694eb51-852e-5aa1-8797-c0baa4d3f3e2",
+            "event_id": "urn:telic:j2:event:316f3997-3189-56e6-a76a-98d2ee7f262a",
+            "projection": "urn:telic:j2:projection-c:95096c1d-977c-5b7b-a30d-85902fa2f9d9"
+          }
+        ],
+        "known_descendants": [
+          "urn:telic:j2:stale-route-evening:0602d881-8001-558e-be2e-9860519da865",
+          "urn:telic:j2:stale-route-morning:6e002594-97b3-5d94-88cc-0996cd06637e",
+          "urn:telic:j2:summary-v1:2ac04b69-950d-5703-86f1-7b47bbc855a8"
+        ],
+        "participants": [
+          "urn:telic:j2:participant-b:4ff88698-b3d0-5a7c-9284-0ec91fa191cb",
+          "urn:telic:j2:participant-c:3a1cf4c3-40be-5e64-8c83-5bf2bd3336be"
+        ],
+        "session_id": "urn:telic:j2:session:cfc6d713-3e3c-51c6-ad6f-60ddaffb6dbb",
+        "status": "complete",
+        "unreachable_descendants": [],
+        "updated_descendants": [
+          "urn:telic:j2:stale-route-evening:0602d881-8001-558e-be2e-9860519da865",
+          "urn:telic:j2:stale-route-morning:6e002594-97b3-5d94-88cc-0996cd06637e",
+          "urn:telic:j2:summary-v1:2ac04b69-950d-5703-86f1-7b47bbc855a8",
+          "urn:telic:j2:summary-v2:b3f4a7d1-fcd1-5a95-a42f-0d000d8ac7b7"
+        ]
+      },
+      "queue_trial": {
+        "timeout_seen": true,
+        "retry_deduplicated": true,
+        "duplicate_deduplicated": true,
+        "tool_commit_count": 1,
+        "notification_order": [
+          "participant-b",
+          "participant-a"
+        ]
+      },
+      "review_status": {
+        "internal_separate_process_dry_run": true,
+        "external_human_review_complete": false
+      },
+      "retirement": {
+        "effective_time": "2026-07-16T00:00:46Z",
+        "id": "urn:telic:j2:lifecycle:0a33e137-4aff-5c46-8d04-dccd53ecbd53",
+        "lifecycle_operation": "retirement",
+        "nontransferable_authority": [
+          "participant service consent",
+          "tool grant",
+          "role assertions"
+        ],
+        "open_obligations": [
+          "external privacy review",
+          "external assistive-technology exercise",
+          "external security review"
+        ],
+        "prior_state": {
+          "runtime_grant": "active",
+          "tool_credential": "active"
+        },
+        "residual_state": {
+          "event_witness": "retained",
+          "optional_memory": "deleted",
+          "private keys": "run-workdir only"
+        },
+        "status": "completed",
+        "subject": "urn:telic:j2:model:d38be83d-3bc6-5e2a-a1af-df2826181aa5",
+        "successor_state": {
+          "runtime_grant": "expired",
+          "tool_credential": "revoked"
+        },
+        "transferred_assets": [
+          "bounded witness",
+          "release candidate review records"
+        ],
+        "transferred_authority": [],
+        "verification": {
+          "optional_memory_deleted": true,
+          "tool_access_revoked": true
+        }
+      },
+      "event_chain_head": "33399116ba060e4587cf24259d3da82ab28b78c60e343a43ab8b3ffa3bd62300",
+      "known_exclusions": [
+        "synthetic data only",
+        "no external human signoff",
+        "no production deployment",
+        "no high-stakes adjudication"
+      ]
+    },
+    "witness_export": "/mnt/data/20260715__TELIC-FIELDS__PHASE-J2__EXTERNAL-REVIEW-MULTI-PARTY-TRIAL-AND-RELEASE-CANDIDATE__v0-1/exports/tf-mvi-1-j2-witness.zip",
+    "identity_public_bundle": {
+      "identities": [
+        {
+          "actor_id": "urn:telic:j2:external-verifier:15fd5257-2f31-5356-bbe5-c100c0040565",
+          "roles": [
+            "verifier"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAn09Ad7Q9Nbg7conAr5cx7TcJ8PJDyU8Q8K92ylqhiqY=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "actor_id": "urn:telic:j2:operator:242145f4-3640-50aa-aeb6-9913f7f330de",
+          "roles": [
+            "operator"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARrTjY2UNUpZlKYmWtLjB8PhgS7qq3PBgvkXjSKJMQKE=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "actor_id": "urn:telic:j2:participant-a:12369d7d-ac5b-54f3-bf5d-4a3506b61cdd",
+          "roles": [
+            "participant"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAp5sdtYy5SbrCF3POuAXaH47RdbAfoxeJkqLYDnUWECE=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "actor_id": "urn:telic:j2:participant-b:4ff88698-b3d0-5a7c-9284-0ec91fa191cb",
+          "roles": [
+            "participant"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAGLMNzzBSqZvDlwOQ9xTXnIHQtamNxeu42+LHZF6Q6Bo=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "actor_id": "urn:telic:j2:participant-c:3a1cf4c3-40be-5e64-8c83-5bf2bd3336be",
+          "roles": [
+            "participant"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAwA0QMGtcOFjt5UP8zSTo/JoJvhzbNEXnMl1mnnzkLA=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "actor_id": "urn:telic:j2:privacy-reviewer:abff8e4c-4eca-56fb-9aa9-80beae655c4e",
+          "roles": [
+            "privacy_reviewer"
+          ],
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAVfQVbDE6RldYslrl15/ZODHnIVtVvKq+NARgpAlHCI8=\n-----END PUBLIC KEY-----\n"
+        }
+      ],
+      "created_at": "2026-07-16T00:00:46Z"
+    },
+    "release_custody_public_bundle": {
+      "threshold": 2,
+      "custodians": [
+        {
+          "custodian_id": "custodian-operator",
+          "role": "operator release custodian",
+          "status": "active",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbX6X3LzAFfcchOLRFEdAY/aOyFil33jl9otfrUk6Y8U=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "custodian_id": "custodian-privacy",
+          "role": "privacy release custodian",
+          "status": "active",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw241JC/F9UQfCivBlb6OfyT5POgRyyZ9AyUTCL5qcKs=\n-----END PUBLIC KEY-----\n"
+        },
+        {
+          "custodian_id": "custodian-verifier",
+          "role": "independent verifier custodian",
+          "status": "active",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAf80/LjB8nuWu4dYE26jbbp/GPi72tIMC8K9XHbyg2wo=\n-----END PUBLIC KEY-----\n"
+        }
+      ]
+    },
+    "events": 22,
+    "objects": 68
+  },
+  "first_build": {
+    "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+    "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+    "archive_digest": "f0febd06257443c6c3915d54fd1cb79f68a8a7dcbaacfaad89d1707f007a6866",
+    "approvals": [
+      {
+        "payload": {
+          "approval_id": "urn:telic:j2:release-approval:41edc063-b744-5c73-8df8-e198e6b78006",
+          "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+          "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+          "custodian_id": "custodian-operator",
+          "custodian_role": "operator release custodian",
+          "approved_at": "2026-07-15T00:00:00Z",
+          "status": "active"
+        },
+        "signature": "10hCM0HbXrB4fli4kQviKpeeW/IRKQN0LK/B/K07CvsYCXaM+rnqObmGJvJ+ihUsqPYB3Lyfi+mXuEWHomtcBw==",
+        "algorithm": "Ed25519"
+      },
+      {
+        "payload": {
+          "approval_id": "urn:telic:j2:release-approval:69fdb548-d9e7-586f-b711-5ef37dc97ee3",
+          "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+          "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+          "custodian_id": "custodian-verifier",
+          "custodian_role": "independent verifier custodian",
+          "approved_at": "2026-07-15T00:00:00Z",
+          "status": "active"
+        },
+        "signature": "5zu57GO8GKE7miqT8tKho2AKaOM77KZXHa8s5Qg2XXWSBCUcUceDJXR4JyFMbP6vwrDG9Lu75Htw3mFxT9xoCA==",
+        "algorithm": "Ed25519"
+      }
+    ],
+    "threshold_result": {
+      "valid": true,
+      "threshold": 2,
+      "valid_custodians": [
+        "custodian-operator",
+        "custodian-verifier"
+      ],
+      "errors": []
+    },
+    "output": "/mnt/data/20260715__TELIC-FIELDS__PHASE-J2__EXTERNAL-REVIEW-MULTI-PARTY-TRIAL-AND-RELEASE-CANDIDATE__v0-1/exports/telic-fields-j2-rc1.zip"
+  },
+  "second_build": {
+    "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+    "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+    "archive_digest": "f0febd06257443c6c3915d54fd1cb79f68a8a7dcbaacfaad89d1707f007a6866",
+    "approvals": [
+      {
+        "payload": {
+          "approval_id": "urn:telic:j2:release-approval:41edc063-b744-5c73-8df8-e198e6b78006",
+          "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+          "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+          "custodian_id": "custodian-operator",
+          "custodian_role": "operator release custodian",
+          "approved_at": "2026-07-15T00:00:00Z",
+          "status": "active"
+        },
+        "signature": "10hCM0HbXrB4fli4kQviKpeeW/IRKQN0LK/B/K07CvsYCXaM+rnqObmGJvJ+ihUsqPYB3Lyfi+mXuEWHomtcBw==",
+        "algorithm": "Ed25519"
+      },
+      {
+        "payload": {
+          "approval_id": "urn:telic:j2:release-approval:69fdb548-d9e7-586f-b711-5ef37dc97ee3",
+          "release_id": "urn:telic:j2:release:cc531c7b-e544-5641-a9b4-b5e139ec24d5",
+          "manifest_digest": "4e8dd252b6fe861b888480cee5e2b8a6e7a5de59bd140367352799bf1322e2f4",
+          "custodian_id": "custodian-verifier",
+          "custodian_role": "independent verifier custodian",
+          "approved_at": "2026-07-15T00:00:00Z",
+          "status": "active"
+        },
+        "signature": "5zu57GO8GKE7miqT8tKho2AKaOM77KZXHa8s5Qg2XXWSBCUcUceDJXR4JyFMbP6vwrDG9Lu75Htw3mFxT9xoCA==",
+        "algorithm": "Ed25519"
+      }
+    ],
+    "threshold_result": {
+      "valid": true,
+      "threshold": 2,
+      "valid_custodians": [
+        "custodian-operator",
+        "custodian-verifier"
+      ],
+      "errors": []
+    },
+    "output": null,
+    "discarded_after_digest_comparison": true
+  },
+  "reproducible": true,
+  "private_key_material_in_release": false,
+  "external_human_review_complete": false
+}

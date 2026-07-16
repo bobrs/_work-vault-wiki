@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "memory-state-record.schema.json",
+  "title": "MemoryStateRecord",
+  "type": "object",
+  "required": [
+    "memory_state_id",
+    "trace",
+    "state",
+    "eligible_for_retrieval",
+    "eligible_for_action",
+    "eligible_for_training",
+    "conditions",
+    "valid_time",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "memory_state_id": {
+      "type": "string"
+    },
+    "trace": {
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "active",
+        "active_with_conditions",
+        "reference_only",
+        "archival",
+        "restricted",
+        "quarantined",
+        "contested",
+        "stale",
+        "released",
+        "deleted",
+        "unknown"
+      ]
+    },
+    "eligible_for_retrieval": {
+      "type": "boolean"
+    },
+    "eligible_for_action": {
+      "type": "boolean"
+    },
+    "eligible_for_training": {
+      "type": "boolean"
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "current",
+        "superseded",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

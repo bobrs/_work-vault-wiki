@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "event_id": "hi7-event-001",
+      "type": "field_assembled",
+      "record": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa"
+    },
+    {
+      "event_id": "hi7-event-002",
+      "type": "standing_admitted",
+      "record": "urn:telic:hi7:admission:8d6f9719-9314-5597-9e74-d6e89bc55b9a"
+    },
+    {
+      "event_id": "hi7-event-003",
+      "type": "option_set_expanded",
+      "record": "urn:telic:hi7:option-set:30dbc007-1f00-5f11-b450-05b8304551cc"
+    },
+    {
+      "event_id": "hi7-event-004",
+      "type": "protected_condition_activated",
+      "record": "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8"
+    },
+    {
+      "event_id": "hi7-event-005",
+      "type": "deliberative_summary_corrected",
+      "record": "urn:telic:hi7:assertion:273e18a9-325c-5e7f-bdde-85487de7b29f"
+    },
+    {
+      "event_id": "hi7-event-006",
+      "type": "method_selected",
+      "record": "urn:telic:hi7:method-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc"
+    },
+    {
+      "event_id": "hi7-event-007",
+      "type": "route_portfolio_selected",
+      "record": "urn:telic:hi7:route-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc"
+    },
+    {
+      "event_id": "hi7-event-008",
+      "type": "dissent_attached",
+      "record": "urn:telic:hi7:dissent:9e3aa383-50e9-5fda-b835-221a36daafb7"
+    },
+    {
+      "event_id": "hi7-event-009",
+      "type": "consequence_returned",
+      "record": "urn:telic:hi7:consequence-return:171b36bc-c6b1-5d70-b2ae-d52bae3c3b06"
+    }
+  ]
+}

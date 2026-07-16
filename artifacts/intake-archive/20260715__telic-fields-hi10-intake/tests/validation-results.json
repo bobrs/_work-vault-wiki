@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 training lineage does not create deployment authority",
+    "PD-2 affected non-contributor receives standing",
+    "PD-3 tool-capable model remains blocked",
+    "PD-4 runtime output capture separately governed",
+    "PD-5 purpose drift triggers reauthorization",
+    "PD-6 incident creates repair and compensation",
+    "PD-7 model update preserves lineage and rollback",
+    "PD-8 retirement preserves residual obligations"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-training-lineage-as-deployment-authority",
+    "NC-2-noncontributor-has-no-standing",
+    "NC-3-capability-as-authority",
+    "NC-4-tool-permission-as-target-authority",
+    "NC-5-notice-as-consent",
+    "NC-6-service-consent-as-output-capture-consent",
+    "NC-7-purpose-drift-without-reauthorization",
+    "NC-8-model-tuning-as-complete-repair",
+    "NC-9-operator-transfer-erases-obligations",
+    "NC-10-silent-model-version-substitution",
+    "NC-11-human-click-cures-missing-authority",
+    "NC-12-retirement-erases-residual-duties"
+  ],
+  "consentful_deployment_witness_valid": true,
+  "result": "PASS"
+}

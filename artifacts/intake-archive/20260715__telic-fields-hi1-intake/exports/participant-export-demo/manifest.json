@@ -1,0 +1,29 @@
+{
+  "export_id": "urn:telic:hi1:export:95808f26-2469-519a-992b-b7fe324a6740",
+  "created_at": "2026-07-15T15:00:00Z",
+  "created_for": "demonstration-participant",
+  "schema_versions": [
+    "HI-1 0.1"
+  ],
+  "record_files": [
+    "records/source-correction.json",
+    "records/propagation.json",
+    "records/protected-omission-proof.json",
+    "records/inference-chain.json"
+  ],
+  "event_files": [
+    "events/event-stream.json"
+  ],
+  "witness_files": [
+    "witness/participant-witness.json"
+  ],
+  "view_files": [
+    "views/decision-authority-view.json"
+  ],
+  "checksums_file": "checksums.txt",
+  "omitted_protected_content": true,
+  "omission_proofs": [
+    "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+  ],
+  "independent_of_originating_model": true
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "capacity-debt-record.schema.json",
+  "title": "CapacityDebtRecord",
+  "type": "object",
+  "required": [
+    "debt_id",
+    "source",
+    "affected_center",
+    "unresolved_obligation",
+    "created_by",
+    "risk",
+    "temporary_authority",
+    "review_trigger",
+    "responsible_loop",
+    "age",
+    "status"
+  ],
+  "properties": {
+    "debt_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_center": {
+      "type": "string"
+    },
+    "unresolved_obligation": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "risk": {
+      "type": "object"
+    },
+    "temporary_authority": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "review_trigger": {
+      "type": "object"
+    },
+    "responsible_loop": {
+      "type": "string"
+    },
+    "age": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "acknowledged",
+        "mitigated",
+        "resolved",
+        "expired",
+        "transferred",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

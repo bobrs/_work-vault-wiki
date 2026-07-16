@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-role-authority.schema.json",
+  "title": "ModelRoleAuthorityEnvelope",
+  "type": "object",
+  "required": [
+    "model_instance",
+    "assigned_roles",
+    "allowed_inputs",
+    "allowed_outputs",
+    "allowed_tools",
+    "prohibited_actions",
+    "execution_authority",
+    "stop_conditions"
+  ],
+  "properties": {
+    "model_instance": {
+      "type": "string"
+    },
+    "assigned_roles": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "extract",
+          "structure",
+          "translate",
+          "retrieve",
+          "compare",
+          "generate_route",
+          "challenge",
+          "mediate",
+          "recommend",
+          "witness",
+          "execute",
+          "adjudicate"
+        ]
+      }
+    },
+    "allowed_inputs": {
+      "type": "array"
+    },
+    "allowed_outputs": {
+      "type": "array"
+    },
+    "allowed_tools": {
+      "type": "array"
+    },
+    "prohibited_actions": {
+      "type": "array"
+    },
+    "confirmation_required": {
+      "type": "array"
+    },
+    "execution_authority": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "review_authority": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "stop_conditions": {
+      "type": "array"
+    },
+    "role_version": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "assigned_roles": {
+            "contains": {
+              "const": "adjudicate"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "prohibited_actions": {
+            "contains": {
+              "const": "adjudicate_by_default"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

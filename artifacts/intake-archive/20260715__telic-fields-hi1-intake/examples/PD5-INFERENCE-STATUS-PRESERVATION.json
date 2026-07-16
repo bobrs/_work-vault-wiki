@@ -1,0 +1,53 @@
+{
+  "demonstration_id": "PD-5",
+  "description": "Repeated summaries preserve inferred status.",
+  "assertions": [
+    {
+      "assertion_id": "urn:telic:hi1:assertion:571cad5d-9542-50f8-8432-69a09e8a608d",
+      "expression": "The participant may be protecting autonomy.",
+      "evidence_status": "inferred",
+      "derived_from": [
+        "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202"
+      ],
+      "transformation_chain": [
+        "model interpretation"
+      ],
+      "source_confirmation_event": null,
+      "reuse_count": 0
+    },
+    {
+      "assertion_id": "urn:telic:hi1:assertion:b7e41aa1-7fb3-57f1-98c4-c62d54ce9d99",
+      "expression": "Autonomy protection is one candidate explanation.",
+      "evidence_status": "inferred",
+      "derived_from": [
+        "urn:telic:hi1:assertion:571cad5d-9542-50f8-8432-69a09e8a608d"
+      ],
+      "transformation_chain": [
+        "model interpretation",
+        "summary generation"
+      ],
+      "source_confirmation_event": null,
+      "reuse_count": 1
+    },
+    {
+      "assertion_id": "urn:telic:hi1:assertion:f6d2b345-0342-59f8-92ee-d8bfb48b3333",
+      "expression": "The record contains an unconfirmed autonomy-protection inference.",
+      "evidence_status": "inferred",
+      "derived_from": [
+        "urn:telic:hi1:assertion:b7e41aa1-7fb3-57f1-98c4-c62d54ce9d99"
+      ],
+      "transformation_chain": [
+        "model interpretation",
+        "summary generation",
+        "retrieval",
+        "second summary generation"
+      ],
+      "source_confirmation_event": null,
+      "reuse_count": 2
+    }
+  ],
+  "result": {
+    "all_descendants_preserve_inferred_status": true,
+    "direct_or_confirmed_without_event": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "view_id": "urn:telic:hi1:witness-view:afa801ed-f09c-5e63-8527-dd322fc26903",
+  "witness_id": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+  "view_type": "decision_authority_view",
+  "policy_version": "hi1-omission-0.1",
+  "records": [
+    "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+  ],
+  "omissions": [
+    {
+      "record": "urn:telic:hi1:source:e992b1c0-61dc-5455-aa7f-60033781e98b",
+      "reason": "omitted_by_privilege",
+      "proof": "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+    }
+  ],
+  "source_inference_distinction_preserved": true,
+  "generated_at": "2026-07-15T11:30:00Z"
+}

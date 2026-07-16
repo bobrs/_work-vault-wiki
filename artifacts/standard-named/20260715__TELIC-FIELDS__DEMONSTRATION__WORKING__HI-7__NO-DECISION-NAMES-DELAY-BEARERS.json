@@ -1,0 +1,40 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "No-decision state identifies delay bearers and temporary protection",
+  "record": {
+    "record_id": "urn:telic:hi7:no-decision:993e46fd-e29f-56bd-9a57-2225ead8e669",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "state": "deferred",
+    "reason": [
+      "long-term facility route deferred pending engineering report"
+    ],
+    "authority": {
+      "holder": "urn:telic:hi7:center:ddce569c-9e0f-5797-aada-fba4374b386e",
+      "operation": "defer capital commitment"
+    },
+    "cost_bearers": [
+      "urn:telic:hi7:center:4345f3fe-7b59-5f46-8fd3-3b532a87eff6",
+      "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3"
+    ],
+    "delay_bearers": [
+      "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+      "urn:telic:hi7:center:1c106c0b-c34e-56ca-ae60-4558413ec438",
+      "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3"
+    ],
+    "temporary_action": {
+      "route_portfolio": "urn:telic:hi7:route-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+      "protection": "minimum urgent access"
+    },
+    "protected_conditions": [
+      "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8"
+    ],
+    "review_trigger": {
+      "event": "engineering and utilization reports complete"
+    },
+    "expiry": "2026-10-15T17:00:00Z",
+    "status": "active"
+  },
+  "delay_treated_as_costless": false,
+  "temporary_protection_active": true,
+  "result": "The capital decision is deferred, but the people carrying the delay remain visible."
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "abstention-no-decision-record.schema.json",
+  "title": "AbstentionNoDecisionRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "state",
+    "reason",
+    "authority",
+    "cost_bearers",
+    "delay_bearers",
+    "temporary_action",
+    "protected_conditions",
+    "review_trigger",
+    "expiry",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "participant_abstention",
+        "authority_abstention",
+        "pause",
+        "deadlock",
+        "no_decision",
+        "deferred",
+        "insufficient_standing",
+        "insufficient_context",
+        "method_dispute",
+        "other"
+      ]
+    },
+    "reason": {
+      "type": "array",
+      "minItems": 1
+    },
+    "authority": {
+      "type": "object"
+    },
+    "cost_bearers": {
+      "type": "array"
+    },
+    "delay_bearers": {
+      "type": "array"
+    },
+    "temporary_action": {
+      "type": "object"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "review_trigger": {
+      "type": "object"
+    },
+    "expiry": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "resolved",
+        "expired",
+        "contested",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

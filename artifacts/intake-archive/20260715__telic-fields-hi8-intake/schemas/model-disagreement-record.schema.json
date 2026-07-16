@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-disagreement-record.schema.json",
+  "title": "ModelDisagreementRecord",
+  "type": "object",
+  "required": [
+    "disagreement_id",
+    "source_field",
+    "models",
+    "roles",
+    "inputs",
+    "outputs",
+    "points_of_agreement",
+    "points_of_disagreement",
+    "source_dependence",
+    "provider_dependence",
+    "calibration",
+    "participant_review",
+    "authority_effect",
+    "resolution",
+    "status"
+  ],
+  "properties": {
+    "disagreement_id": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "string"
+    },
+    "models": {
+      "type": "array",
+      "minItems": 2
+    },
+    "roles": {
+      "type": "array"
+    },
+    "inputs": {
+      "type": "array"
+    },
+    "outputs": {
+      "type": "array"
+    },
+    "points_of_agreement": {
+      "type": "array"
+    },
+    "points_of_disagreement": {
+      "type": "array"
+    },
+    "source_dependence": {
+      "type": "object"
+    },
+    "provider_dependence": {
+      "type": "object"
+    },
+    "calibration": {
+      "type": "array"
+    },
+    "participant_review": {
+      "type": "object"
+    },
+    "authority_effect": {
+      "const": "none"
+    },
+    "resolution": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "under_review",
+        "clarified",
+        "resolved_for_scope",
+        "contested",
+        "archival"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

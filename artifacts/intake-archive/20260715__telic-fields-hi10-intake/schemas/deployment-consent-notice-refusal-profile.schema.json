@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deployment-consent-notice-refusal-profile.schema.json",
+  "title": "DeploymentConsentNoticeRefusalProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "assembly",
+    "center_or_group",
+    "notice",
+    "consent",
+    "other_authority_basis",
+    "operations",
+    "data_uses",
+    "output_uses",
+    "alternatives",
+    "refusal",
+    "appeal",
+    "accessibility",
+    "valid_time",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "center_or_group": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "object"
+    },
+    "consent": {
+      "type": "object"
+    },
+    "other_authority_basis": {
+      "type": "object"
+    },
+    "operations": {
+      "type": "array"
+    },
+    "data_uses": {
+      "type": "array"
+    },
+    "output_uses": {
+      "type": "array"
+    },
+    "alternatives": {
+      "type": "array"
+    },
+    "refusal": {
+      "type": "object"
+    },
+    "appeal": {
+      "type": "object"
+    },
+    "accessibility": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "withdrawn",
+        "expired",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

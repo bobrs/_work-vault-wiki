@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "overload-event.schema.json",
+  "title": "OverloadEvent",
+  "type": "object",
+  "required": [
+    "overload_id",
+    "loop",
+    "action",
+    "causes",
+    "failed_dimensions",
+    "detected_at",
+    "detected_by",
+    "required_response",
+    "status"
+  ],
+  "properties": {
+    "overload_id": {
+      "type": "string"
+    },
+    "loop": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "causes": {
+      "type": "array",
+      "minItems": 1
+    },
+    "failed_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "detected_by": {
+      "type": "string"
+    },
+    "required_response": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "narrow_scope",
+          "reduce_action_authority",
+          "stage_process",
+          "request_clarification",
+          "add_witness",
+          "add_expertise",
+          "escalate",
+          "pause",
+          "stop"
+        ]
+      }
+    },
+    "status": {
+      "enum": [
+        "active",
+        "mitigated",
+        "resolved",
+        "contested"
+      ]
+    },
+    "fluent_output_continues": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

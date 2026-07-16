@@ -1,0 +1,92 @@
+{
+  "phase": "J.1",
+  "result": "PASS_WITH_CONDITIONS",
+  "python_modules_compiled": 19,
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "automated_tests": 13,
+  "test_failures": 0,
+  "test_errors": 0,
+  "threat_cases_detected": 16,
+  "threat_cases_total": 16,
+  "reference_events": 20,
+  "reference_objects": 46,
+  "implementation_verifier": {
+    "valid": true,
+    "errors": [],
+    "checksums_verified": 34,
+    "records_validated": 46,
+    "events_verified": 20,
+    "views_verified": 4,
+    "manifest_signature_valid": true,
+    "proofs": {
+      "failed_gate": true,
+      "valid_action": true,
+      "consequence_return": true,
+      "correction_propagation": true,
+      "retirement_revocation": true,
+      "stale_context_rejection": true,
+      "policy_version_enforcement": true,
+      "key_rotation": true,
+      "partial_failure_compensation": true,
+      "selective_disclosure": true
+    }
+  },
+  "independent_verifier": {
+    "valid": true,
+    "errors": [],
+    "checksums_verified": 34,
+    "records_validated": 46,
+    "events_verified": 20,
+    "views_verified": 4,
+    "signature_verified": true,
+    "verifier": "standalone-no-telic-j1-import"
+  },
+  "proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true,
+    "stale_context_rejection": true,
+    "policy_version_enforcement": true,
+    "key_rotation": true,
+    "partial_failure_compensation": true,
+    "selective_disclosure": true
+  },
+  "active_policy_version": 2,
+  "gate_key_status": {
+    "gate-k1": "revoked",
+    "gate-k2": "revoked",
+    "gate-k3": "active"
+  },
+  "correction_reachability": {
+    "blocked_descendants": [],
+    "complete_for_scope": true,
+    "correction_event_id": "urn:telic:j1:event:6fc0f116-c444-5324-95b8-39b910d1d938",
+    "generated_at": "2026-07-15T20:43:19Z",
+    "known_descendants": [
+      "urn:telic:j1:route:3b96f76f-a0e4-5635-bb43-06ff0c459fdf",
+      "urn:telic:j1:route:e7dcf6ae-9c40-5147-bc99-36064725e5b5",
+      "urn:telic:j1:summary-v1:6b25a5af-1b4f-5810-ba15-cb2a0d0069da",
+      "urn:telic:j1:summary-v2:113791ea-ecdd-5782-968e-40cf8e763eac"
+    ],
+    "origin_object_id": "urn:telic:j1:projection-b:65008b46-6071-58a8-b113-fb2a54bd1584",
+    "report_id": "urn:telic:j1:correction-reachability:8ab6fb3d-3dce-58e1-858a-8cd9d4db5b1e",
+    "status": "complete",
+    "unreachable_descendants": [],
+    "updated_descendants": [
+      "urn:telic:j1:route:3b96f76f-a0e4-5635-bb43-06ff0c459fdf",
+      "urn:telic:j1:route:e7dcf6ae-9c40-5147-bc99-36064725e5b5",
+      "urn:telic:j1:summary-v1:6b25a5af-1b4f-5810-ba15-cb2a0d0069da",
+      "urn:telic:j1:summary-v2:113791ea-ecdd-5782-968e-40cf8e763eac"
+    ]
+  },
+  "runtime_data_policy": {
+    "service": true,
+    "cross_session_memory": false,
+    "evaluation_use": false,
+    "training_use": false,
+    "export_private_content": false
+  }
+}

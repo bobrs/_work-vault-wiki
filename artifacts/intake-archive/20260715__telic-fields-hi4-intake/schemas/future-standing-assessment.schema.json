@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "future-standing-assessment.schema.json",
+  "title": "FutureStandingAssessment",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "present_action",
+    "future_centers",
+    "represented_interests",
+    "source_basis",
+    "uncertainty",
+    "possibilities_preserved",
+    "possibilities_closed",
+    "irreversible_effects",
+    "temporary_effects",
+    "protective_conditions",
+    "review_path",
+    "status"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string"
+    },
+    "present_action": {
+      "type": "string"
+    },
+    "future_centers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "represented_interests": {
+      "type": "array"
+    },
+    "source_basis": {
+      "type": "array"
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "possibilities_preserved": {
+      "type": "array"
+    },
+    "possibilities_closed": {
+      "type": "array"
+    },
+    "irreversible_effects": {
+      "type": "array"
+    },
+    "temporary_effects": {
+      "type": "array"
+    },
+    "protective_conditions": {
+      "type": "array"
+    },
+    "review_path": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "adequately_represented",
+        "adequately_represented_with_conditions",
+        "material_future_standing_missing",
+        "contested",
+        "unknown"
+      ]
+    },
+    "future_consent": {
+      "const": "not_available"
+    }
+  },
+  "additionalProperties": false
+}

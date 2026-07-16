@@ -1,0 +1,113 @@
+{
+  "artifact_date": "2026-07-15",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "LoopDependencyAndCompatibilityRecord",
+  "fields": {
+    "loop_id": "identifier",
+    "loop_type": "string",
+    "lifecycle_state": [
+      "forming",
+      "active",
+      "adapting",
+      "drifting",
+      "locked_in",
+      "forking",
+      "superseded",
+      "completed",
+      "degraded",
+      "shut_down",
+      "decommissioning",
+      "dissolved",
+      "aftercare"
+    ],
+    "teloi": {
+      "declared": "array",
+      "encoded": "array",
+      "rewarded": "array",
+      "operative": "array",
+      "protected": "array"
+    },
+    "substrate": {
+      "material": "array",
+      "semantic": "array",
+      "relational": "array",
+      "institutional": "array",
+      "telic": "array",
+      "capacity": "array"
+    },
+    "dependencies": [
+      {
+        "source_loop": "identifier",
+        "flow": "string|object",
+        "authority": "reference",
+        "consent_scope": "reference|null",
+        "cost_bearer": "array",
+        "exit_route": "reference|null"
+      }
+    ],
+    "receiving_field": {
+      "centers": "array",
+      "local_forms": "array",
+      "relevant_norms": "array",
+      "available_capacity": "array",
+      "protected_conditions": "array"
+    },
+    "compatibility": {
+      "supported_conditions": "array",
+      "missing_conditions": "array",
+      "conditions_requiring_recruitment": "array",
+      "translation_risks": "array",
+      "coercive_compensations": "array",
+      "hidden_subsidies": "array",
+      "status": [
+        "compatible",
+        "conditionally_compatible",
+        "translating",
+        "drifting",
+        "incompatible",
+        "failed",
+        "unknown"
+      ]
+    },
+    "lock_in": {
+      "switching_costs": "array",
+      "network_effects": "array",
+      "data_dependencies": "array",
+      "identity_dependencies": "array",
+      "third_party_reliance": "array",
+      "portability": "string|object"
+    },
+    "review": {
+      "counterfactual_tests": "array",
+      "drift_indicators": "array",
+      "next_review": "datetime|null",
+      "review_authority": "array"
+    },
+    "exit": {
+      "forkability": "string|object",
+      "portability": "string|object",
+      "dissolution_route": "reference|null",
+      "residual_loop": "reference|null"
+    },
+    "residual_state": {
+      "data": "array",
+      "models": "array",
+      "automations": "array",
+      "contracts": "array",
+      "claims": "array",
+      "repair_duties": "array",
+      "environmental_effects": "array",
+      "aftercare": "array"
+    }
+  },
+  "prohibited_uses": [
+    "cultural_purity_claims",
+    "xenophobic_or_biological_essentialism",
+    "declaring_compatibility_from_checklist_alone",
+    "using_persistence_as_consent",
+    "using_shutdown_as_proof_of_complete_dissolution",
+    "dissolving_to_escape_obligations"
+  ],
+  "note": "Research schema only. Not yet a Phase I specification."
+}

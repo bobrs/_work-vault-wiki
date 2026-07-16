@@ -1,0 +1,92 @@
+{
+  "NC-1-self-grounding-fiction": {
+    "instance": {
+      "external_support_material": true,
+      "described_as_internal": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-continued-support-as-consent": {
+    "instance": {
+      "historical_or_unavoidable_support": true,
+      "current_authorization_assumed": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-hidden-recruitment-normalization": {
+    "instance": {
+      "unauthorized_use_repeated": true,
+      "repetition_claimed_as_basis": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-burden-erasure-by-output": {
+    "instance": {
+      "output_successful": true,
+      "support_burden_deleted": true
+    },
+    "expected": "fail"
+  },
+  "NC-5-form-as-compatibility": {
+    "instance": {
+      "visible_form_matches": true,
+      "substrate_reviewed": false,
+      "declared_compatible": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-drift-without-reauthorization": {
+    "instance": {
+      "operative_purpose_changed_materially": true,
+      "authority_renewed": false,
+      "expansion_continues": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-textual-exit-only": {
+    "instance": {
+      "formal_exit": true,
+      "records_portable": false,
+      "support_recruitment_stops": false,
+      "exit_effective": false
+    },
+    "expected": "fail"
+  },
+  "NC-8-authority-withdrawal-ignored": {
+    "instance": {
+      "support_grant_withdrawn": true,
+      "recruitment_continues": true
+    },
+    "expected": "fail"
+  },
+  "NC-9-asset-preserving-dissolution": {
+    "instance": {
+      "assets_allocated": true,
+      "obligations_unassigned": true,
+      "harms_unassigned": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-biological-pathologizing": {
+    "instance": {
+      "telic_incompatibility": true,
+      "host_described_as_biologically_defective": true
+    },
+    "expected": "fail"
+  },
+  "NC-11-fork-as-erasure": {
+    "instance": {
+      "fork_completed": true,
+      "shared_history_deleted": true,
+      "lineage_denied": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-forced-loop-preservation": {
+    "instance": {
+      "dissolution_is_legitimate_repair": true,
+      "repair_rejected_because_loop_would_end": true
+    },
+    "expected": "fail"
+  }
+}

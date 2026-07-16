@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "capability-role-tool-grant.schema.json",
+  "title": "CapabilityRoleToolGrant",
+  "type": "object",
+  "required": [
+    "grant_id",
+    "assembly",
+    "model_version",
+    "capabilities",
+    "assigned_roles",
+    "allowed_tools",
+    "prohibited_tools",
+    "operation_limits",
+    "data_limits",
+    "action_limits",
+    "required_confirmation",
+    "required_human_reentry",
+    "reversibility",
+    "logging",
+    "status"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "capabilities": {
+      "type": "array"
+    },
+    "assigned_roles": {
+      "type": "array"
+    },
+    "allowed_tools": {
+      "type": "array"
+    },
+    "prohibited_tools": {
+      "type": "array"
+    },
+    "operation_limits": {
+      "type": "array"
+    },
+    "data_limits": {
+      "type": "array"
+    },
+    "action_limits": {
+      "type": "array"
+    },
+    "required_confirmation": {
+      "type": "object"
+    },
+    "required_human_reentry": {
+      "type": "object"
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "logging": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "conditional",
+        "suspended",
+        "expired",
+        "withdrawn",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

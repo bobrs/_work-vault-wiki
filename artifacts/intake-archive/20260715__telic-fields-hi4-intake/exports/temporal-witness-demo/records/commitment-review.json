@@ -1,0 +1,147 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Changed conditions trigger commitment review",
+  "commitment_before": {
+    "commitment_id": "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+    "committing_center": "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+    "beneficiaries": [
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+      "study-group"
+    ],
+    "affected_future_centers": [
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d"
+    ],
+    "commitment_type": "self_commitment",
+    "expression": "Reserve Tuesday and Thursday evenings for study for six months.",
+    "scope": {
+      "days": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "time": "evening",
+      "excludes": [
+        "health emergency",
+        "dependent care emergency"
+      ]
+    },
+    "formation_authority": {
+      "holder": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "basis": "self-governance"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-15T00:00:00Z",
+      "valid_to": "2027-01-15T00:00:00Z"
+    },
+    "review_triggers": [
+      "week-eight review",
+      "material health change",
+      "material caregiving change"
+    ],
+    "release_conditions": [
+      "health risk",
+      "housing risk",
+      "dependent care conflict"
+    ],
+    "reliance": [
+      "tuition payment",
+      "study-group scheduling"
+    ],
+    "residual_obligations": [
+      "notify study group",
+      "preserve completed work"
+    ],
+    "status": "active",
+    "version": "1",
+    "created_at": "2026-07-15T08:00:00Z"
+  },
+  "commitment_current": {
+    "commitment_id": "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+    "committing_center": "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+    "beneficiaries": [
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+      "study-group"
+    ],
+    "affected_future_centers": [
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d"
+    ],
+    "commitment_type": "self_commitment",
+    "expression": "Reserve Tuesday and Thursday evenings for study for six months.",
+    "scope": {
+      "days": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "time": "evening",
+      "excludes": [
+        "health emergency",
+        "dependent care emergency"
+      ]
+    },
+    "formation_authority": {
+      "holder": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "basis": "self-governance"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-15T00:00:00Z",
+      "valid_to": "2027-01-15T00:00:00Z"
+    },
+    "review_triggers": [
+      "week-eight review",
+      "material health change",
+      "material caregiving change"
+    ],
+    "release_conditions": [
+      "health risk",
+      "housing risk",
+      "dependent care conflict"
+    ],
+    "reliance": [
+      "tuition payment",
+      "study-group scheduling"
+    ],
+    "residual_obligations": [
+      "notify study group",
+      "preserve completed work"
+    ],
+    "status": "due_for_review",
+    "version": "2",
+    "created_at": "2026-07-15T08:00:00Z"
+  },
+  "review": {
+    "review_id": "urn:telic:hi4:commitment-review:ac1a2423-3f97-5afd-ac9e-0f803d4fd0a9",
+    "commitment": "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+    "current_context": [
+      "primary caregiving responsibility began",
+      "study program remains active"
+    ],
+    "changed_conditions": [
+      "material caregiving change"
+    ],
+    "current_standing": [
+      "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+      "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+      "dependent-family-member"
+    ],
+    "reliance": [
+      "tuition payment",
+      "study-group expectations"
+    ],
+    "authority_status": "conditional",
+    "review_result": "narrow",
+    "release_effect": {
+      "old_schedule": "no longer fully governing",
+      "new_schedule": "one evening weekly"
+    },
+    "transition": {
+      "notice": "study group notified",
+      "effective": "2026-09-01"
+    },
+    "residual_obligations": [
+      "complete current group assignment",
+      "preserve tuition records"
+    ],
+    "witness": "urn:telic:hi4:witness:52456717-357b-59f9-8dc2-0a4118590e87",
+    "reviewed_at": "2026-08-28T18:00:00Z"
+  },
+  "result": "The earlier promise remains historically valid, but changed caregiving conditions narrow its future authority."
+}

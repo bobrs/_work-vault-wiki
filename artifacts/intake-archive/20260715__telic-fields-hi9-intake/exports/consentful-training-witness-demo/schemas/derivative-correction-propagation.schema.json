@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "derivative-correction-propagation.schema.json",
+  "title": "DerivativeCorrectionPropagation",
+  "type": "object",
+  "required": [
+    "propagation_id",
+    "source_change",
+    "origin_record",
+    "affected_datasets",
+    "affected_models",
+    "affected_deployments",
+    "propagation_rules",
+    "performed_changes",
+    "unreachable_descendants",
+    "verification",
+    "residual_risk",
+    "status"
+  ],
+  "properties": {
+    "propagation_id": {
+      "type": "string"
+    },
+    "source_change": {
+      "type": "object"
+    },
+    "origin_record": {
+      "type": "string"
+    },
+    "affected_datasets": {
+      "type": "array"
+    },
+    "affected_models": {
+      "type": "array"
+    },
+    "affected_deployments": {
+      "type": "array"
+    },
+    "propagation_rules": {
+      "type": "array"
+    },
+    "performed_changes": {
+      "type": "array"
+    },
+    "unreachable_descendants": {
+      "type": "array"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "residual_risk": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "active",
+        "partial",
+        "complete",
+        "contested",
+        "failed",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

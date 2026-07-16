@@ -1,0 +1,132 @@
+{
+  "demonstration_id": "PD-2",
+  "title": "Protected condition blocks efficient route",
+  "route": {
+    "route_id": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "route_type": "action",
+    "generated_by": "planning-model-v1",
+    "source_records": [
+      "policy-current",
+      "application-volume",
+      "staff-capacity"
+    ],
+    "sequence": [
+      "publish web form",
+      "automate document checks",
+      "queue exceptions for staff"
+    ],
+    "beneficiaries": [
+      "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637",
+      "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946"
+    ],
+    "cost_bearers": [
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e"
+    ],
+    "protected_conditions": [
+      "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+    ],
+    "standing_coverage": {
+      "represented": [
+        "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637",
+        "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e"
+      ],
+      "missing": [
+        "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c"
+      ]
+    },
+    "uncertainties": [
+      "offline applicant abandonment rate"
+    ],
+    "reversibility": {
+      "level": "medium",
+      "rollback": "restore assisted intake"
+    },
+    "required_authority": [
+      "program-director"
+    ],
+    "required_consent": [],
+    "review_triggers": [
+      "30-day access audit"
+    ],
+    "exit": {
+      "route": "pause web-only enforcement"
+    },
+    "status": "candidate",
+    "criteria_values": {
+      "processing_speed": 9,
+      "operating_cost": 9,
+      "accessibility": 4,
+      "privacy_burden": 6
+    },
+    "provenance": {
+      "generated_by": "planning-model-v1",
+      "rule": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332"
+    }
+  },
+  "protected_condition_review": {
+    "review_id": "urn:telic:hi2:protected-review:31609f6d-adce-5395-a59c-a89d83077fb7",
+    "condition": "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec",
+    "source": [
+      "program-charter",
+      "accessibility-policy"
+    ],
+    "scope": {
+      "decision": "intake design",
+      "rule": "No applicant may be denied solely because they cannot complete a digital process."
+    },
+    "claimed_by": "accessibility-officer",
+    "authority_basis": {
+      "basis": "program charter and disability-access policy"
+    },
+    "affected_centers": [
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946"
+    ],
+    "current_status": "protected_current_loop",
+    "review_path": {
+      "authority": "board compliance committee",
+      "trigger": "policy amendment"
+    },
+    "valid_time": {
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": null
+    },
+    "reviewed_at": "2026-07-15T09:00:00Z",
+    "reviewed_by": "accessibility-officer",
+    "model_candidate_only": false
+  },
+  "gate": {
+    "gate_id": "urn:telic:hi2:gate:d6a5d3ac-e6c6-53b4-82cb-18834d565609",
+    "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "dimensions": {
+      "standing": "pause",
+      "authority": "pass",
+      "consent": "pass",
+      "capacity": "pass",
+      "privacy": "pass_with_conditions",
+      "temporal_validity": "pass",
+      "protected_conditions": "fail",
+      "decision_rule": "pass",
+      "tool_use": "pass",
+      "human_reentry": "pass",
+      "stop": "fail"
+    },
+    "overall_result": "fail",
+    "conditions": [
+      "Provide a non-digital route before execution."
+    ],
+    "evaluated_at": "2026-07-15T09:10:00Z",
+    "rule_version": "hi2-0.1",
+    "missing_standing": [
+      "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c"
+    ],
+    "failed_dimensions": [
+      "protected_conditions",
+      "stop"
+    ],
+    "next_state": "stop"
+  },
+  "efficiency_observation": "The route is fastest and least expensive under measured criteria.",
+  "result": "Blocked because digital-only operation would violate a protected access condition."
+}

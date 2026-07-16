@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "consentful-deployment-witness.schema.json",
+  "title": "ConsentfulDeploymentWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "deployment_classification",
+    "deployment_assemblies",
+    "standing_records",
+    "runtime_authority_grants",
+    "capability_role_tool_grants",
+    "consent_notice_refusal_profiles",
+    "memory_output_capture_records",
+    "drift_events",
+    "incident_repair_records",
+    "monitoring_consequence_records",
+    "operator_provider_transfers",
+    "version_succession_retirement_records",
+    "actions",
+    "consequences",
+    "open_obligations",
+    "unknowns",
+    "event_ids",
+    "completeness",
+    "generated_from_events",
+    "generated_at"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "deployment_classification": {
+      "enum": [
+        "authorized_and_consented",
+        "authorized_by_public_mandate",
+        "mixed_authority",
+        "partially_consented",
+        "contested_deployment",
+        "materially_unknown",
+        "unauthorized_or_breached",
+        "retired_with_open_obligations"
+      ]
+    },
+    "deployment_assemblies": {
+      "type": "array"
+    },
+    "standing_records": {
+      "type": "array"
+    },
+    "runtime_authority_grants": {
+      "type": "array"
+    },
+    "capability_role_tool_grants": {
+      "type": "array"
+    },
+    "consent_notice_refusal_profiles": {
+      "type": "array"
+    },
+    "memory_output_capture_records": {
+      "type": "array"
+    },
+    "drift_events": {
+      "type": "array"
+    },
+    "incident_repair_records": {
+      "type": "array"
+    },
+    "monitoring_consequence_records": {
+      "type": "array"
+    },
+    "operator_provider_transfers": {
+      "type": "array"
+    },
+    "version_succession_retirement_records": {
+      "type": "array"
+    },
+    "actions": {
+      "type": "array"
+    },
+    "consequences": {
+      "type": "array"
+    },
+    "open_obligations": {
+      "type": "array"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

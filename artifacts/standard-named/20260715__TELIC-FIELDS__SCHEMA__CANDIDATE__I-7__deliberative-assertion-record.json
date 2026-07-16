@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deliberative-assertion-record.schema.json",
+  "title": "DeliberativeAssertionRecord",
+  "type": "object",
+  "required": [
+    "assertion_id",
+    "assembly",
+    "speaker_or_source",
+    "assertion_class",
+    "content",
+    "evidence",
+    "standing_relation",
+    "authority",
+    "scope",
+    "confidence",
+    "responses",
+    "corrections",
+    "contestation",
+    "status"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "speaker_or_source": {
+      "type": "string"
+    },
+    "assertion_class": {
+      "enum": [
+        "direct_position",
+        "reason",
+        "evidence",
+        "prediction",
+        "value_claim",
+        "boundary",
+        "protected_condition_claim",
+        "model_summary",
+        "model_inference",
+        "expert_analysis",
+        "counterargument",
+        "correction",
+        "question",
+        "abstention_reason",
+        "unknown"
+      ]
+    },
+    "content": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "standing_relation": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "responses": {
+      "type": "array"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "contestation": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "active_with_qualification",
+        "contested",
+        "corrected",
+        "withdrawn",
+        "archival",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

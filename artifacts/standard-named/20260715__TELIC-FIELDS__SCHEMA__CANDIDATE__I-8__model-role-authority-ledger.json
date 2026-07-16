@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-role-authority-ledger.schema.json",
+  "title": "ModelRoleAuthorityLedger",
+  "type": "object",
+  "required": [
+    "ledger_id",
+    "model_instance",
+    "provider",
+    "session_or_loop",
+    "assigned_roles",
+    "allowed_operations",
+    "prohibited_operations",
+    "input_authority",
+    "output_authority",
+    "tool_authority",
+    "standing",
+    "consent_authority",
+    "decision_authority",
+    "adjudication_authority",
+    "role_escalation",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "ledger_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "session_or_loop": {
+      "type": "string"
+    },
+    "assigned_roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "extractor",
+          "structurer",
+          "translator",
+          "comparator",
+          "retriever",
+          "route_generator",
+          "challenger",
+          "mediator",
+          "witness_assistant",
+          "executor",
+          "other"
+        ]
+      }
+    },
+    "allowed_operations": {
+      "type": "array"
+    },
+    "prohibited_operations": {
+      "type": "array"
+    },
+    "input_authority": {
+      "type": "object"
+    },
+    "output_authority": {
+      "type": "object"
+    },
+    "tool_authority": {
+      "type": "object"
+    },
+    "standing": {
+      "const": "none"
+    },
+    "consent_authority": {
+      "const": "none"
+    },
+    "decision_authority": {
+      "type": "object"
+    },
+    "adjudication_authority": {
+      "type": "object"
+    },
+    "role_escalation": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "conditional",
+        "expired",
+        "withdrawn",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

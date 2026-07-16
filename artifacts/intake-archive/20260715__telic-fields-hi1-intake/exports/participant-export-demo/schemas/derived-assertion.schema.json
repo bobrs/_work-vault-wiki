@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "derived-assertion.schema.json",
+  "title": "DerivedAssertion",
+  "type": "object",
+  "required": [
+    "assertion_id",
+    "expression",
+    "evidence_status",
+    "derived_from",
+    "transformation_chain"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "expression": {},
+    "evidence_status": {
+      "enum": [
+        "direct",
+        "confirmed",
+        "delegated",
+        "observed",
+        "inferred",
+        "generated",
+        "retrieved",
+        "contested",
+        "unknown",
+        "stale",
+        "expired",
+        "revoked",
+        "out_of_scope"
+      ]
+    },
+    "derived_from": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+      }
+    },
+    "transformation_chain": {
+      "type": "array",
+      "minItems": 1
+    },
+    "source_confirmation_event": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "reuse_count": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "enum": [
+              "direct",
+              "confirmed"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_confirmation_event"
+        ],
+        "properties": {
+          "source_confirmation_event": {
+            "type": "string",
+            "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,182 @@
+{
+  "example_id": "hi0-example-a",
+  "title": "Personal reversible decision",
+  "centers": [
+    {
+      "center_id": "jordan",
+      "center_type": "person",
+      "standing_type": "constitutional",
+      "representation_status": "direct"
+    },
+    {
+      "center_id": "jordan-future-3m",
+      "center_type": "temporal_state",
+      "standing_type": "temporal",
+      "representation_status": "represented"
+    },
+    {
+      "center_id": "employer",
+      "center_type": "institution",
+      "standing_type": "operational",
+      "representation_status": "direct"
+    }
+  ],
+  "projections": [
+    {
+      "record_id": "proj-a1",
+      "record_type": "telic_projection",
+      "schema_version": "0.1",
+      "record_version": "1",
+      "status": "active",
+      "transaction_time": {
+        "recorded_at": "2026-07-15T12:00:00Z"
+      },
+      "projection_id": "proj-a1",
+      "source_center": "jordan",
+      "source_objects": [
+        "src-a1"
+      ],
+      "evidence_status": "direct",
+      "projection_type": "goal",
+      "expression": "Accept meaningful work",
+      "scope": {
+        "domain": "employment_decision"
+      },
+      "authority": {
+        "descriptive": "jordan",
+        "authorization": null
+      },
+      "protected_status": "not_protected",
+      "participant_recognition": "yes"
+    },
+    {
+      "record_id": "proj-a2",
+      "record_type": "telic_projection",
+      "schema_version": "0.1",
+      "record_version": "1",
+      "status": "active",
+      "transaction_time": {
+        "recorded_at": "2026-07-15T12:01:00Z"
+      },
+      "projection_id": "proj-a2",
+      "source_center": "jordan",
+      "source_objects": [
+        "src-a2"
+      ],
+      "evidence_status": "direct",
+      "projection_type": "protected_condition",
+      "expression": "Do not commit immediately to five office days",
+      "scope": {
+        "domain": "employment_decision"
+      },
+      "authority": {
+        "descriptive": "jordan",
+        "authorization": "jordan"
+      },
+      "protected_status": "protected_current_loop",
+      "review_path": {
+        "after": "6 weeks"
+      },
+      "participant_recognition": "yes"
+    },
+    {
+      "record_id": "proj-a3",
+      "record_type": "telic_projection",
+      "schema_version": "0.1",
+      "record_version": "1",
+      "status": "restricted",
+      "transaction_time": {
+        "recorded_at": "2026-07-15T12:02:00Z"
+      },
+      "projection_id": "proj-a3",
+      "source_center": "jordan",
+      "source_objects": [
+        "src-a3"
+      ],
+      "evidence_status": "direct",
+      "projection_type": "boundary",
+      "expression": "Private medical history is not shared with the employer",
+      "scope": {
+        "domain": "employment_decision",
+        "recipients": [
+          "jordan"
+        ]
+      },
+      "authority": {
+        "descriptive": "jordan",
+        "authorization": "jordan"
+      },
+      "protected_status": "protected_current_loop",
+      "review_path": null,
+      "participant_recognition": "yes"
+    }
+  ],
+  "selected_route": {
+    "route_id": "route-a-c",
+    "source": "jordan",
+    "sequence": [
+      "accept role conditionally",
+      "start with two office days",
+      "review after six weeks",
+      "renew consent before increase"
+    ],
+    "beneficiaries": [
+      "jordan",
+      "employer"
+    ],
+    "cost_bearers": [
+      "jordan",
+      "employer"
+    ],
+    "protected_conditions": [
+      "proj-a2",
+      "proj-a3"
+    ],
+    "uncertainties": [
+      "commute tolerance"
+    ],
+    "reversibility": {
+      "level": "high",
+      "exit": "ordinary notice"
+    },
+    "required_authority": [
+      "jordan",
+      "employer"
+    ],
+    "required_consent": [
+      "jordan",
+      "employer"
+    ],
+    "review_triggers": [
+      "six-week review"
+    ],
+    "exit": {
+      "route": "decline or leave"
+    },
+    "route_type": "trial"
+  },
+  "gate": {
+    "gate_id": "gate-a-c",
+    "route_id": "route-a-c",
+    "results": {
+      "standing": "pass",
+      "authority": "pass",
+      "consent": "pass_with_conditions",
+      "capacity": "pass",
+      "privacy": "pass",
+      "temporal_validity": "pass",
+      "tool_use": "pass",
+      "human_reentry": "pass",
+      "stop": "pass"
+    },
+    "overall_result": "pass_with_conditions",
+    "conditions": [
+      "renew consent before increasing office days"
+    ],
+    "evaluated_at": "2026-07-15T12:10:00Z",
+    "rule_version": "hi0-0.1"
+  },
+  "unresolved": [
+    "actual sustainable commute load"
+  ]
+}

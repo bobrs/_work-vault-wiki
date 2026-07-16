@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "telic-compatibility-assessment.schema.json",
+  "title": "TelicCompatibilityAssessment",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "transplanted_object",
+    "source_field",
+    "host_field",
+    "required_substrate",
+    "available_substrate",
+    "shared_invariants",
+    "conflicts",
+    "missing_support",
+    "authority_fit",
+    "burden_fit",
+    "correction_fit",
+    "exit_fit",
+    "status"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string"
+    },
+    "transplanted_object": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "object"
+    },
+    "host_field": {
+      "type": "object"
+    },
+    "required_substrate": {
+      "type": "array"
+    },
+    "available_substrate": {
+      "type": "array"
+    },
+    "shared_invariants": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "missing_support": {
+      "type": "array"
+    },
+    "authority_fit": {
+      "enum": [
+        "fit",
+        "partial",
+        "mismatch",
+        "unknown",
+        "contested"
+      ]
+    },
+    "burden_fit": {
+      "enum": [
+        "fit",
+        "partial",
+        "mismatch",
+        "unknown",
+        "contested"
+      ]
+    },
+    "correction_fit": {
+      "enum": [
+        "fit",
+        "partial",
+        "mismatch",
+        "unknown",
+        "contested"
+      ]
+    },
+    "exit_fit": {
+      "enum": [
+        "fit",
+        "partial",
+        "mismatch",
+        "unknown",
+        "contested"
+      ]
+    },
+    "status": {
+      "enum": [
+        "compatible",
+        "compatible_with_adaptation",
+        "conditional",
+        "substrate_mismatch",
+        "telic_incompatibility",
+        "transplant_failure",
+        "unknown",
+        "contested"
+      ]
+    },
+    "biological_claim": {
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

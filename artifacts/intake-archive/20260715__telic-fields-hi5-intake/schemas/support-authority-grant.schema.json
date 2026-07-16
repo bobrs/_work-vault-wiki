@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "support-authority-grant.schema.json",
+  "title": "SupportAuthorityGrant",
+  "type": "object",
+  "required": [
+    "grant_id",
+    "supporting_loop",
+    "dependent_loop",
+    "contribution",
+    "basis",
+    "scope",
+    "valid_time",
+    "burden_limit",
+    "reciprocity",
+    "review",
+    "withdrawal",
+    "transfer",
+    "status"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string"
+    },
+    "supporting_loop": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "contribution": {
+      "type": "string"
+    },
+    "basis": {
+      "enum": [
+        "consent",
+        "contract",
+        "employment",
+        "public_mandate",
+        "fiduciary_duty",
+        "community_governance",
+        "license",
+        "ownership",
+        "emergency",
+        "inherited_obligation",
+        "other_lawful_basis",
+        "unknown",
+        "contested"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "burden_limit": {
+      "type": "object"
+    },
+    "reciprocity": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "transfer": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "stale",
+        "expired",
+        "withdrawn",
+        "superseded",
+        "contested",
+        "breached",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

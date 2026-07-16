@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:accessibility-test-run:0.1",
+  "title": "AccessibilityTestRun",
+  "type": "object",
+  "required": [
+    "run_id",
+    "interface",
+    "test_mode",
+    "scenarios",
+    "automated_checks",
+    "human_assistive_technology_tested",
+    "findings",
+    "status"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "interface": {
+      "type": "string"
+    },
+    "test_mode": {
+      "enum": [
+        "structural_automation",
+        "scripted_dry_run",
+        "external_assistive_technology"
+      ]
+    },
+    "scenarios": {
+      "type": "array"
+    },
+    "automated_checks": {
+      "type": "array"
+    },
+    "human_assistive_technology_tested": {
+      "type": "boolean"
+    },
+    "findings": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "pass_with_conditions",
+        "fail",
+        "not_performed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

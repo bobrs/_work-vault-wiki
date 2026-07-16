@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:authenticated-role-session:0.1",
+  "title": "AuthenticatedRoleSession",
+  "type": "object",
+  "required": [
+    "id",
+    "payload",
+    "signature",
+    "algorithm"
+  ],
+  "properties": {
+    "payload": {
+      "type": "object",
+      "required": [
+        "assertion_id",
+        "actor_id",
+        "role",
+        "operation",
+        "session_id",
+        "subject",
+        "issued_at",
+        "expires_at",
+        "nonce",
+        "status"
+      ],
+      "properties": {
+        "assertion_id": {
+          "type": "string"
+        },
+        "actor_id": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "operation": {
+          "type": "string"
+        },
+        "session_id": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "issued_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expires_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "nonce": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "active",
+            "expired",
+            "revoked"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "signature": {
+      "type": "string"
+    },
+    "algorithm": {
+      "const": "Ed25519"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

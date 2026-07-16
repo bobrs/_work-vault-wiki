@@ -1,0 +1,70 @@
+{
+  "artifact_date": "2026-07-14",
+  "phase": "G.2",
+  "content_canon_status": "unset",
+  "decisions": [
+    {
+      "term": "telic field",
+      "disposition": "retain_with_mandatory_distinction",
+      "distinguish_from": [
+        "teleological center of life",
+        "telic system",
+        "telic/paratelic state",
+        "linguistic telicity",
+        "telic state",
+        "telic controllability"
+      ]
+    },
+    {
+      "term": "telic projection estimation",
+      "disposition": "adopt_for_technical_use",
+      "replaces": "simplified telic field calculation"
+    },
+    {
+      "term": "polytelometry",
+      "disposition": "retain_with_mandatory_distinction",
+      "distinguish_from": [
+        "polytely",
+        "multiobjective optimization"
+      ]
+    },
+    {
+      "term": "semantic polytelometry",
+      "disposition": "retain_as_candidate_capability_class"
+    },
+    {
+      "term": "constitutional self",
+      "disposition": "retain_as_governance_synthesis",
+      "novelty_boundary": "internal plurality is established prior art"
+    },
+    {
+      "term": "context carrying capacity",
+      "disposition": "retain",
+      "distinguish_from": [
+        "storage capacity",
+        "token window",
+        "working memory",
+        "cognitive load",
+        "requisite variety"
+      ]
+    },
+    {
+      "term": "temporal standing",
+      "disposition": "retain_as_candidate_normative_umbrella"
+    },
+    {
+      "term": "telic integrity",
+      "disposition": "prefer_in_technical_use",
+      "replaces": "teleological integrity"
+    },
+    {
+      "term": "teleological graft rejection",
+      "disposition": "retain_as_evocative_lineage_language",
+      "technical_alternatives": [
+        "telic transplant failure",
+        "telic incompatibility",
+        "constitutional substrate mismatch"
+      ]
+    }
+  ]
+}

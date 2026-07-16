@@ -1,0 +1,17 @@
+{
+  "witness_id": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+  "scope": "HI-1 correction and protected-omission demonstration",
+  "source_inference_distinction_preserved": true,
+  "correction_history": [
+    "records/source-correction.json",
+    "records/propagation.json"
+  ],
+  "protected_omission": [
+    "records/protected-omission-proof.json"
+  ],
+  "inference_chain": [
+    "records/inference-chain.json"
+  ],
+  "material_gaps": [],
+  "independent_export_available": true
+}

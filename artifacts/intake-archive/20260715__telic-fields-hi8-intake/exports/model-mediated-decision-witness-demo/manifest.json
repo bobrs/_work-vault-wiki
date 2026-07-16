@@ -1,0 +1,15 @@
+{
+  "export_id": "urn:telic:hi8:export:model-mediated-decision-witness-demo",
+  "created_at": "2026-07-15T21:00:00Z",
+  "scope": "model roles, field maps, summaries, minority retention, option generation, provider constraints, disagreement, action boundary, and correction",
+  "model_directory": "models/",
+  "record_directory": "records/",
+  "event_stream": "events/model-mediation-event-stream.json",
+  "model_mediated_witness": "witness/model-mediated-decision-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "model_standing": "none",
+  "model_authority_effect": "none",
+  "provider_constraints_visible": true,
+  "independent_of_model_provider": true
+}

@@ -1,0 +1,46 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Support burden becomes disproportionate",
+  "support_burden": {
+    "burden_id": "urn:telic:hi5:burden:4e376a3a-55d8-5726-b3e4-7f9cbbda8c51",
+    "supporting_loop": "urn:telic:hi5:loop:67c07d2d-72ed-5a4a-9003-39939a440abd",
+    "dependent_loop": "urn:telic:hi5:loop:87cfc6a3-b63c-5c0c-816f-f4ff640051cc",
+    "burden_class": "labor",
+    "expected_burden": {
+      "hours_per_week": 8,
+      "on_call": "none"
+    },
+    "observed_burden": {
+      "hours_per_week": 42,
+      "on_call": "continuous",
+      "security_incidents": 3
+    },
+    "reciprocity_received": {
+      "pay": 0,
+      "governance": "limited",
+      "replacement_plan": false
+    },
+    "visibility": "partly_visible",
+    "reversibility": {
+      "exit": "formally immediate",
+      "practical": "service failure without replacement"
+    },
+    "proportionality": "disproportionate",
+    "review": {
+      "required": "freeze enrollment and create transition plan"
+    },
+    "status": "under_review"
+  },
+  "gate": {
+    "burden_proportionality": "fail",
+    "exit_effectiveness": "fail",
+    "new_enrollment": "pause"
+  },
+  "response": [
+    "freeze expansion",
+    "fund replacement capacity",
+    "reduce service scope",
+    "prepare dissolution"
+  ],
+  "result": "Successful service output does not erase the maintainers' structurally excessive burden."
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deployment-field-assembly.schema.json",
+  "title": "DeploymentFieldAssembly",
+  "type": "object",
+  "required": [
+    "assembly_id",
+    "deployment",
+    "model_lineage",
+    "model_version",
+    "provider",
+    "operator",
+    "runtime_purpose",
+    "jurisdiction",
+    "affected_centers",
+    "represented_centers",
+    "missing_centers",
+    "dependencies",
+    "tools",
+    "data_flows",
+    "protected_conditions",
+    "known_risks",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "assembly_id": {
+      "type": "string"
+    },
+    "deployment": {
+      "type": "string"
+    },
+    "model_lineage": {
+      "type": "string"
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "operator": {
+      "type": "string"
+    },
+    "runtime_purpose": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "object"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "represented_centers": {
+      "type": "array"
+    },
+    "missing_centers": {
+      "type": "array"
+    },
+    "dependencies": {
+      "type": "array"
+    },
+    "tools": {
+      "type": "array"
+    },
+    "data_flows": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "known_risks": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "partial",
+        "ready_for_review",
+        "authorized",
+        "contested",
+        "paused",
+        "suspended",
+        "retired",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

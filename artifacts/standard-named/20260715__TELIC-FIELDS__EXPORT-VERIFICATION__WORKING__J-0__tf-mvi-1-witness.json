@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "errors": [],
+  "checksums_verified": 16,
+  "records_validated": 29,
+  "events_verified": 15,
+  "proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true
+  }
+}

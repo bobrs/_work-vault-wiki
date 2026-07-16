@@ -1,0 +1,16 @@
+{
+  "export_id": "urn:telic:hi4:export:temporal-witness-demo",
+  "created_at": "2026-07-15T15:00:00Z",
+  "scope": "temporal standing, commitment, consent expiry, succession, and repair",
+  "center_files": [
+    "centers/temporal-centers.json"
+  ],
+  "record_directory": "records/",
+  "event_stream": "events/temporal-event-stream.json",
+  "temporal_witness": "witness/temporal-decision-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "valid_time_and_transaction_time_preserved": true,
+  "future_standing_not_encoded_as_consent": true,
+  "independent_of_originating_model": true
+}

@@ -1,0 +1,37 @@
+{
+  "omission_proof_id": "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d",
+  "restriction_type": "schedule_accommodation_boundary",
+  "verified_by": "authorized-accommodation-reviewer",
+  "verification_authority": {
+    "basis": "institutional accommodation process",
+    "operation": "verify_restriction"
+  },
+  "scope": {
+    "decision": "initial office schedule",
+    "permitted_disclosure": "restriction applies; two-day initial maximum",
+    "prohibited_disclosure": "medical source and diagnosis"
+  },
+  "valid_time": {
+    "valid_from": "2026-07-15T00:00:00Z",
+    "valid_to": "2026-09-01T00:00:00Z"
+  },
+  "status": "active",
+  "disclosure_class": "decision_authority",
+  "source_commitment": {
+    "commitment_type": "hash",
+    "value": "45e0d3b40974903c88550ea1450f33eda015fa4bcec6c5dae285134f2bd22ecf"
+  },
+  "review_route": {
+    "reviewer": "independent accommodation officer",
+    "trigger": "scope dispute or expiry"
+  },
+  "disclosed_facts": [
+    "A valid schedule restriction exists.",
+    "The person can commit to no more than two office days initially."
+  ],
+  "prohibited_disclosures": [
+    "diagnosis",
+    "medical history",
+    "source document contents"
+  ]
+}

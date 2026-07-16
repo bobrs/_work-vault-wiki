@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "escalation-record.schema.json",
+  "title": "EscalationRecord",
+  "type": "object",
+  "required": [
+    "escalation_id",
+    "source_loop",
+    "target_loop",
+    "reason",
+    "required_competence",
+    "required_authority",
+    "context_transferred",
+    "context_withheld",
+    "privacy_basis",
+    "temporary_action",
+    "return_path",
+    "status"
+  ],
+  "properties": {
+    "escalation_id": {
+      "type": "string"
+    },
+    "source_loop": {
+      "type": "string"
+    },
+    "target_loop": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "array",
+      "minItems": 1
+    },
+    "required_competence": {
+      "type": "array",
+      "minItems": 1
+    },
+    "required_authority": {
+      "type": "array",
+      "minItems": 1
+    },
+    "context_transferred": {
+      "type": "array"
+    },
+    "context_withheld": {
+      "type": "array"
+    },
+    "privacy_basis": {
+      "type": "object"
+    },
+    "temporary_action": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "return_path": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "requested",
+        "accepted",
+        "active",
+        "returned",
+        "closed",
+        "contested"
+      ]
+    },
+    "target_competence_verified": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,68 @@
+{
+  "demonstration_id": "PD-4",
+  "title": "Provider principles and participant-adopted rules remain distinct",
+  "constitution_lineage": {
+    "constitution_id": "urn:telic:hi9:constitution:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+    "model_lineage": "urn:telic:hi9:model-lineage:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+    "principles": [
+      "preserve source and inference distinctions",
+      "do not erase minority standing",
+      "do not infer consent",
+      "do not execute public action without external authority",
+      "respect community-corpus restrictions"
+    ],
+    "principle_sources": {
+      "provider": [
+        "source/inference separation",
+        "tool boundary"
+      ],
+      "community": [
+        "community-corpus restrictions",
+        "minority standing"
+      ],
+      "participants": [
+        "correction and refusal rights"
+      ]
+    },
+    "authors_or_authorities": [
+      "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+      "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd",
+      "participant review panel"
+    ],
+    "affected_centers": [
+      "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd",
+      "future users"
+    ],
+    "adoption_process": {
+      "provider_adoption": true,
+      "community_ratification": true,
+      "public_universal_adoption": false
+    },
+    "training_or_inference_use": [
+      "preference optimization",
+      "runtime policy"
+    ],
+    "conflicts": [
+      "provider disclosure requirements versus confidential security details"
+    ],
+    "exceptions": [
+      "emergency safety escalation under competent authority"
+    ],
+    "revision_history": [
+      {
+        "version": "1",
+        "date": "2026-06-15",
+        "change": "added community restriction propagation"
+      }
+    ],
+    "contest_route": {
+      "provider": "model governance review",
+      "community": "archive council"
+    },
+    "status": "active"
+  },
+  "provider_principles_presented_as_public_consensus": false,
+  "community_ratification_visible": true,
+  "conflicts_visible": true,
+  "result": "The constitution is explicit and contestable without being treated as universally authorized."
+}

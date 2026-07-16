@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "option-agenda-generation-witness.schema.json",
+  "title": "OptionAgendaGenerationWitness",
+  "type": "object",
+  "required": [
+    "generation_id",
+    "source_field",
+    "model_instance",
+    "requested_operation",
+    "input_options",
+    "generated_options",
+    "combined_options",
+    "omitted_options",
+    "agenda_questions",
+    "source_of_each_item",
+    "selection_rules",
+    "participant_review",
+    "admission_status",
+    "corrections",
+    "status"
+  ],
+  "properties": {
+    "generation_id": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "requested_operation": {
+      "type": "string"
+    },
+    "input_options": {
+      "type": "array"
+    },
+    "generated_options": {
+      "type": "array"
+    },
+    "combined_options": {
+      "type": "array"
+    },
+    "omitted_options": {
+      "type": "array"
+    },
+    "agenda_questions": {
+      "type": "array"
+    },
+    "source_of_each_item": {
+      "type": "object"
+    },
+    "selection_rules": {
+      "type": "array"
+    },
+    "participant_review": {
+      "type": "object"
+    },
+    "admission_status": {
+      "type": "object"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "participant_review",
+        "reviewed",
+        "contested",
+        "frozen_for_deliberation",
+        "superseded",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

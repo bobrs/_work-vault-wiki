@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "annotation-preference-data-record.schema.json",
+  "title": "AnnotationPreferenceDataRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "task",
+    "contributors",
+    "contributor_roles",
+    "instructions",
+    "working_conditions",
+    "compensation",
+    "source_inputs",
+    "output_type",
+    "preference_context",
+    "disagreement",
+    "quality_control",
+    "authority",
+    "consent",
+    "downstream_use",
+    "withdrawal",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "contributors": {
+      "type": "array",
+      "minItems": 1
+    },
+    "contributor_roles": {
+      "type": "array"
+    },
+    "instructions": {
+      "type": "array"
+    },
+    "working_conditions": {
+      "type": "object"
+    },
+    "compensation": {
+      "type": "object"
+    },
+    "source_inputs": {
+      "type": "array"
+    },
+    "output_type": {
+      "enum": [
+        "label",
+        "ranking",
+        "demonstration",
+        "critique",
+        "rewrite",
+        "safety_judgment",
+        "style_judgment",
+        "factuality_judgment",
+        "constitutional_judgment",
+        "other"
+      ]
+    },
+    "preference_context": {
+      "type": "object"
+    },
+    "disagreement": {
+      "type": "object"
+    },
+    "quality_control": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "consent": {
+      "type": "object"
+    },
+    "downstream_use": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "withdrawn",
+        "superseded",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

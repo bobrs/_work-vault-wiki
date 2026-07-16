@@ -1,0 +1,70 @@
+{
+  "demonstration_id": "PD-6",
+  "title": "Incident repair addresses the affected center as well as the model",
+  "incident_record": {
+    "record_id": "urn:telic:hi10:incident:4d99cf4b-f57d-593b-9061-dac3ea75a88c",
+    "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+    "incident_class": "false_classification",
+    "detected_at": "2026-08-12T15:30:00Z",
+    "affected_centers": [
+      "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740"
+    ],
+    "affected_actions": [
+      "transport assistance temporarily denied"
+    ],
+    "source": {
+      "error": "one-time family transfer classified as recurring income"
+    },
+    "immediate_containment": [
+      "restore manual review",
+      "suspend automated classification path",
+      "preserve evidence"
+    ],
+    "evidence": [
+      "source record",
+      "model output",
+      "participant correction",
+      "denial notice"
+    ],
+    "consequences": [
+      "three-day access delay",
+      "late transportation cost",
+      "appeal burden"
+    ],
+    "model_or_system_change": [
+      "classification rule corrected",
+      "retrieval profile updated",
+      "evaluation case added"
+    ],
+    "affected_center_repair": [
+      "transport assistance restored",
+      "record corrected",
+      "downstream notice issued"
+    ],
+    "compensation": [
+      "reimburse documented transportation cost",
+      "service-credit for appeal burden"
+    ],
+    "correction_propagation": [
+      "county record",
+      "runtime profile",
+      "evaluation set",
+      "successor model obligation"
+    ],
+    "accountability": {
+      "operator": "county",
+      "provider": "classification defect review",
+      "model": "candidate output only"
+    },
+    "review": {
+      "participant_route": "patient advocate",
+      "independent_review": true
+    },
+    "status": "open_claims"
+  },
+  "model_change_present": true,
+  "record_restoration_present": true,
+  "compensation_present": true,
+  "appeal_present": true,
+  "result": "Repair restores access, corrects records, compensates burden, and improves the system."
+}

@@ -1,0 +1,118 @@
+{
+  "records": [
+    {
+      "collection_id": "urn:telic:hi9:collection:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+      "source_record": "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+      "collector": "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+      "collection_method": "public web crawl",
+      "collection_purpose": "candidate model training",
+      "authority_basis": "none",
+      "consent_basis": {
+        "present": false
+      },
+      "notice": {
+        "provided": false
+      },
+      "scope": {
+        "collection": "technical copy only",
+        "training": "not authorized"
+      },
+      "valid_time": {
+        "collected_at": "2026-06-01T00:00:00Z"
+      },
+      "restrictions": [
+        "quarantine pending authority"
+      ],
+      "transfer": {
+        "allowed": false
+      },
+      "withdrawal": {
+        "route": "author contact"
+      },
+      "evidence": [
+        "public accessibility only"
+      ],
+      "status": "invalid"
+    },
+    {
+      "collection_id": "urn:telic:hi9:collection:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+      "source_record": "urn:telic:hi9:standing:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+      "collector": "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+      "collection_method": "licensed repository export",
+      "collection_purpose": "noncommercial research training",
+      "authority_basis": "license",
+      "consent_basis": {
+        "present": false,
+        "note": "license is not recorded as personal consent"
+      },
+      "notice": {
+        "provided": true
+      },
+      "scope": {
+        "training": "research only",
+        "commercial_deployment": false
+      },
+      "valid_time": {
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_to": "2027-01-01T00:00:00Z"
+      },
+      "restrictions": [
+        "no commercial deployment",
+        "no profiling"
+      ],
+      "transfer": {
+        "allowed": "research collaborators only"
+      },
+      "withdrawal": {
+        "route": "license termination process"
+      },
+      "evidence": [
+        "signed research license"
+      ],
+      "status": "active"
+    },
+    {
+      "collection_id": "urn:telic:hi9:collection:5cac8a03-d373-571d-9981-13cb9649adad",
+      "source_record": "urn:telic:hi9:standing:5cac8a03-d373-571d-9981-13cb9649adad",
+      "collector": "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+      "collection_method": "community-governed export",
+      "collection_purpose": "community civic-assistant training",
+      "authority_basis": "community_governance",
+      "consent_basis": {
+        "present": "mixed individual and collective approvals",
+        "scope": "declared community model"
+      },
+      "notice": {
+        "provided": true,
+        "languages": [
+          "English",
+          "community language"
+        ]
+      },
+      "scope": {
+        "training": "community model",
+        "deployment": "community-governed service only"
+      },
+      "valid_time": {
+        "valid_from": "2026-05-01T00:00:00Z",
+        "valid_to": "2027-05-01T00:00:00Z"
+      },
+      "restrictions": [
+        "no identity inference",
+        "no third-party commercial release",
+        "exclude sacred material"
+      ],
+      "transfer": {
+        "allowed": false
+      },
+      "withdrawal": {
+        "route": "community archive council"
+      },
+      "evidence": [
+        "community vote",
+        "source-class review"
+      ],
+      "status": "active"
+    }
+  ]
+}

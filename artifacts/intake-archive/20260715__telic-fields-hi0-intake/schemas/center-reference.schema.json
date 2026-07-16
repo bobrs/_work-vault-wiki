@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "center-reference.schema.json",
+  "title": "CenterReference",
+  "type": "object",
+  "required": [
+    "center_id",
+    "center_type",
+    "standing_type",
+    "representation_status"
+  ],
+  "properties": {
+    "center_id": {
+      "type": "string"
+    },
+    "center_type": {
+      "enum": [
+        "person",
+        "group",
+        "community",
+        "institution",
+        "role",
+        "temporal_state",
+        "affected_condition",
+        "unknown"
+      ]
+    },
+    "standing_type": {
+      "enum": [
+        "constitutional",
+        "legal",
+        "operational",
+        "temporal",
+        "internal_representational",
+        "unknown"
+      ]
+    },
+    "representation_status": {
+      "enum": [
+        "direct",
+        "delegated",
+        "represented",
+        "absent",
+        "contested",
+        "unknown"
+      ]
+    },
+    "delegation": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

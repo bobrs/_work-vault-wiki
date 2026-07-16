@@ -1,0 +1,60 @@
+{
+  "grant_id": "urn:telic:hi10:grant:2a2f324e-ca82-560a-b1ef-59d027945959",
+  "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "model_version": "urn:telic:hi10:model:d7d43188-411d-594a-aa36-d39e5f69c9a2",
+  "capabilities": [
+    "natural-language explanation",
+    "translation",
+    "schedule proposal",
+    "structured tool plan"
+  ],
+  "assigned_roles": [
+    "explainer",
+    "translator",
+    "appointment assistant"
+  ],
+  "allowed_tools": [
+    {
+      "tool": "urn:telic:hi10:tool:20a44fda-20e5-5475-b471-4a61ec182f61",
+      "operation": "read availability and prepare candidate"
+    }
+  ],
+  "prohibited_tools": [
+    {
+      "tool": "urn:telic:hi10:tool:20a44fda-20e5-5475-b471-4a61ec182f61",
+      "operation": "commit schedule without external authorization"
+    }
+  ],
+  "operation_limits": [
+    "no denial",
+    "no clinical priority change",
+    "no staffing assignment"
+  ],
+  "data_limits": [
+    "session data only",
+    "approved clinic availability"
+  ],
+  "action_limits": [
+    "proposal only until staffing and partner confirmation"
+  ],
+  "required_confirmation": {
+    "role": "county scheduling coordinator",
+    "before": "commit"
+  },
+  "required_human_reentry": {
+    "trigger": [
+      "missing authority",
+      "protected-condition uncertainty",
+      "participant correction"
+    ]
+  },
+  "reversibility": {
+    "appointment proposal": "fully reversible",
+    "committed schedule": "requires notice"
+  },
+  "logging": {
+    "event_witness": true,
+    "content_minimization": true
+  },
+  "status": "active"
+}

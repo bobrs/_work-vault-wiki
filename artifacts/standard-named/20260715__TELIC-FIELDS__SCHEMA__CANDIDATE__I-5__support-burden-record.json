@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "support-burden-record.schema.json",
+  "title": "SupportBurdenRecord",
+  "type": "object",
+  "required": [
+    "burden_id",
+    "supporting_loop",
+    "dependent_loop",
+    "burden_class",
+    "expected_burden",
+    "observed_burden",
+    "reciprocity_received",
+    "visibility",
+    "reversibility",
+    "proportionality",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "burden_id": {
+      "type": "string"
+    },
+    "supporting_loop": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "burden_class": {
+      "enum": [
+        "labor",
+        "time",
+        "attention",
+        "emotional",
+        "financial",
+        "privacy",
+        "safety",
+        "health",
+        "opportunity",
+        "lock_in",
+        "reputation",
+        "correction",
+        "repair",
+        "governance",
+        "environmental",
+        "future_option_loss",
+        "other"
+      ]
+    },
+    "expected_burden": {},
+    "observed_burden": {},
+    "reciprocity_received": {},
+    "visibility": {
+      "enum": [
+        "visible",
+        "partly_visible",
+        "hidden",
+        "misattributed",
+        "unknown"
+      ]
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "proportionality": {
+      "enum": [
+        "proportionate",
+        "proportionate_with_conditions",
+        "disproportionate",
+        "unknown",
+        "contested"
+      ]
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "under_review",
+        "mitigating",
+        "released",
+        "transferred",
+        "contested",
+        "closed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

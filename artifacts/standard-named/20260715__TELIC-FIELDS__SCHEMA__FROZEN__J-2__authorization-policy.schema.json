@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:authorization-policy:0.1",
+  "title": "AuthorizationPolicy",
+  "type": "object",
+  "required": [
+    "policy_id",
+    "version",
+    "purpose",
+    "allowed_operations",
+    "prohibited_operations",
+    "required_checks",
+    "valid_time",
+    "supersedes",
+    "digest",
+    "status"
+  ],
+  "properties": {
+    "policy_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "allowed_operations": {
+      "type": "array"
+    },
+    "prohibited_operations": {
+      "type": "array"
+    },
+    "required_checks": {
+      "type": "array"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "superseded",
+        "revoked",
+        "expired",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

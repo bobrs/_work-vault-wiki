@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 useful trail without field reconstruction",
+    "PD-2 source and inference distinct",
+    "PD-3 correction changes active retrieval",
+    "PD-4 archival memory ineligible for action",
+    "PD-5 salience decay without deletion",
+    "PD-6 protected forgetting",
+    "PD-7 stigmergic coordination",
+    "PD-8 stale memory repair"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-trace-as-full-field",
+    "NC-2-retrieval-as-authority",
+    "NC-3-inference-laundering",
+    "NC-4-archival-action",
+    "NC-5-correction-burial",
+    "NC-6-salience-as-legitimacy",
+    "NC-7-decay-as-deletion",
+    "NC-8-release-without-descendants",
+    "NC-9-total-retention-as-integrity",
+    "NC-10-stigmergic-trace-as-neutral",
+    "NC-11-cross-loop-transformation-concealment",
+    "NC-12-model-continuity-inflation"
+  ],
+  "semantic_trail_witness_valid": true,
+  "result": "PASS"
+}

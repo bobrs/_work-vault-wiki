@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stop-escalation-decision.schema.json",
+  "title": "StopEscalationDecision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "action",
+    "capacity_profile",
+    "demand_profile",
+    "failed_dimensions",
+    "decision",
+    "reason",
+    "cost_bearers",
+    "temporary_protection",
+    "review_trigger",
+    "authority"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "capacity_profile": {
+      "type": "string"
+    },
+    "demand_profile": {
+      "type": "string"
+    },
+    "failed_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "continue",
+        "continue_with_conditions",
+        "narrow",
+        "reversible_trial",
+        "recommendation_only",
+        "clarify",
+        "stage",
+        "pause",
+        "escalate",
+        "fork",
+        "release",
+        "stop"
+      ]
+    },
+    "reason": {
+      "type": "array",
+      "minItems": 1
+    },
+    "cost_bearers": {
+      "type": "array",
+      "minItems": 1
+    },
+    "temporary_protection": {
+      "type": "array"
+    },
+    "review_trigger": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "object",
+      "minProperties": 1
+    }
+  },
+  "additionalProperties": false
+}

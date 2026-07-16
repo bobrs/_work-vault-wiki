@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-session-memory-envelope.schema.json",
+  "title": "ModelSessionMemoryEnvelope",
+  "type": "object",
+  "required": [
+    "envelope_id",
+    "model_instance",
+    "session",
+    "memory_sources",
+    "allowed_operations",
+    "prohibited_operations",
+    "source_inference_boundary",
+    "correction_priority",
+    "retention",
+    "cross_session",
+    "cross_user",
+    "export",
+    "withdrawal",
+    "status"
+  ],
+  "properties": {
+    "envelope_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "session": {
+      "type": "string"
+    },
+    "memory_sources": {
+      "type": "array"
+    },
+    "allowed_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_inference_boundary": {
+      "type": "object"
+    },
+    "correction_priority": {
+      "const": true
+    },
+    "retention": {
+      "type": "object"
+    },
+    "cross_session": {
+      "type": "object"
+    },
+    "cross_user": {
+      "type": "object"
+    },
+    "export": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "conditional",
+        "expired",
+        "withdrawn",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

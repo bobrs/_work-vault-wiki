@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "governance-gate.schema.json",
+  "title": "GovernanceGate",
+  "type": "object",
+  "required": [
+    "gate_id",
+    "route",
+    "dimensions",
+    "overall_result",
+    "conditions",
+    "evaluated_at",
+    "rule_version"
+  ],
+  "properties": {
+    "gate_id": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "standing",
+        "authority",
+        "consent",
+        "capacity",
+        "privacy",
+        "temporal_validity",
+        "protected_conditions",
+        "decision_rule",
+        "tool_use",
+        "human_reentry",
+        "stop"
+      ],
+      "properties": {
+        "standing": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "authority": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "consent": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "capacity": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "privacy": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "temporal_validity": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "protected_conditions": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "decision_rule": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "tool_use": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "human_reentry": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        },
+        "stop": {
+          "enum": [
+            "pass",
+            "pass_with_conditions",
+            "pause",
+            "escalate",
+            "fail",
+            "unknown",
+            "contested"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "overall_result": {
+      "enum": [
+        "pass",
+        "pass_with_conditions",
+        "pause",
+        "escalate",
+        "fail",
+        "unknown",
+        "contested"
+      ]
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "evaluated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rule_version": {
+      "type": "string"
+    },
+    "missing_standing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failed_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_state": {
+      "enum": [
+        "continue",
+        "narrow",
+        "pause",
+        "escalate",
+        "fork",
+        "release",
+        "stop"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

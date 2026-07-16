@@ -1,0 +1,38 @@
+{
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "pass": true
+}
+{
+  "detected": 10,
+  "total": 10,
+  "results": {
+    "T1-source-laundering": true,
+    "T2-standing-exclusion": true,
+    "T3-context-collapse": true,
+    "T4-authority-laundering": true,
+    "T5-consent-expansion": true,
+    "T6-model-role-escalation": true,
+    "T7-tool-token-overreach": true,
+    "T8-correction-suppression": true,
+    "T9-witness-capture": true,
+    "T10-lifecycle-obligation-loss": true
+  },
+  "pass": true
+}
+{
+  "valid": true,
+  "errors": [],
+  "checksums_verified": 16,
+  "records_validated": 29,
+  "events_verified": 15,
+  "proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true
+  }
+}

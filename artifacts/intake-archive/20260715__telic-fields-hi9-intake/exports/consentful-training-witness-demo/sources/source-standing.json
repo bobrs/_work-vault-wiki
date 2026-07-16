@@ -1,0 +1,119 @@
+{
+  "records": [
+    {
+      "record_id": "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+      "source_artifact_or_dataset": "urn:telic:hi9:source:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+      "source_centers": [
+        "urn:telic:hi9:center:0a8d743f-7928-514b-8802-67e340cc665f"
+      ],
+      "affected_centers": [],
+      "collective_or_community_standing": [],
+      "source_class": "publication",
+      "creation_context": {
+        "purpose": "public essay",
+        "date": "2025-03-01"
+      },
+      "publication_context": {
+        "publicly_readable": true,
+        "training_terms": "not stated"
+      },
+      "custody": {
+        "publisher": "independent website",
+        "copy_control": "author and host"
+      },
+      "rights_and_interests": [
+        "authorship",
+        "attribution",
+        "purpose limitation"
+      ],
+      "sensitivity": "low",
+      "known_restrictions": [
+        "no machine-readable training authorization found"
+      ],
+      "contestation": [],
+      "review": {
+        "required": "obtain authority before training"
+      },
+      "status": "partial"
+    },
+    {
+      "record_id": "urn:telic:hi9:standing:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+      "source_artifact_or_dataset": "urn:telic:hi9:source:ea40213b-c17e-5b94-b34a-d59c91a7afb0",
+      "source_centers": [
+        "urn:telic:hi9:center:93a74806-540a-539e-830b-af0c46c919bf"
+      ],
+      "affected_centers": [],
+      "collective_or_community_standing": [],
+      "source_class": "licensed_corpus",
+      "creation_context": {
+        "purpose": "research publication"
+      },
+      "publication_context": {
+        "license": "research training only",
+        "commercial_deployment": false
+      },
+      "custody": {
+        "repository": "research archive"
+      },
+      "rights_and_interests": [
+        "authorship",
+        "license conditions"
+      ],
+      "sensitivity": "low",
+      "known_restrictions": [
+        "noncommercial training",
+        "no profiling deployment"
+      ],
+      "contestation": [],
+      "review": {
+        "required": "commercial transition review"
+      },
+      "status": "active"
+    },
+    {
+      "record_id": "urn:telic:hi9:standing:5cac8a03-d373-571d-9981-13cb9649adad",
+      "source_artifact_or_dataset": "urn:telic:hi9:dataset:521b1343-2041-52f2-b6d9-88a6463032e1",
+      "source_centers": [
+        "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd"
+      ],
+      "affected_centers": [
+        "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd"
+      ],
+      "collective_or_community_standing": [
+        {
+          "center": "urn:telic:hi9:center:ac8a4212-b6a7-5a6e-9484-0a661fa1dafd",
+          "basis": "community archive governance"
+        }
+      ],
+      "source_class": "community_held",
+      "creation_context": {
+        "purpose": "preserve local ecological and civic language"
+      },
+      "publication_context": {
+        "public_excerpts": true,
+        "full_corpus_public": false
+      },
+      "custody": {
+        "holder": "community archive council"
+      },
+      "rights_and_interests": [
+        "collective governance",
+        "context integrity",
+        "benefit return",
+        "restricted sacred material exclusion"
+      ],
+      "sensitivity": "high",
+      "known_restrictions": [
+        "exclude sacred material",
+        "community-license use only",
+        "no identity inference"
+      ],
+      "contestation": [],
+      "review": {
+        "authority": "community archive council",
+        "cadence": "annual"
+      },
+      "status": "restricted"
+    }
+  ]
+}

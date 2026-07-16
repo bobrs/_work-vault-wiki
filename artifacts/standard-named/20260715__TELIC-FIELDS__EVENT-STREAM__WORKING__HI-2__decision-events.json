@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "event_id": "urn:telic:hi2:event:001",
+      "event_type": "field_classified",
+      "recorded_at": "2026-07-15T09:00:00Z",
+      "record": "urn:telic:hi2:protected-review:31609f6d-adce-5395-a59c-a89d83077fb7",
+      "record_type": "protected_condition_review"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:002",
+      "event_type": "route_generated",
+      "recorded_at": "2026-07-15T09:01:00Z",
+      "record": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "record_type": "route"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:003",
+      "event_type": "route_generated",
+      "recorded_at": "2026-07-15T09:02:00Z",
+      "record": "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+      "record_type": "route"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:004",
+      "event_type": "recommendation_created",
+      "recorded_at": "2026-07-15T09:03:00Z",
+      "record": "urn:telic:hi2:recommendation:d784bb94-b9f4-50bf-bbe9-9a97a9f95ac3",
+      "record_type": "model_recommendation"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:005",
+      "event_type": "field_classified",
+      "recorded_at": "2026-07-15T09:05:00Z",
+      "record": "urn:telic:hi2:classification:4304817c-10e9-537f-b32c-7761e5ed08f2",
+      "record_type": "field_classification"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:006",
+      "event_type": "gate_evaluated",
+      "recorded_at": "2026-07-15T09:07:00Z",
+      "record": "urn:telic:hi2:gate:671177f5-4d0e-5786-b506-b790db05714d",
+      "record_type": "governance_gate"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:007",
+      "event_type": "route_portfolio_created",
+      "recorded_at": "2026-07-15T09:20:00Z",
+      "record": "urn:telic:hi2:portfolio:5ff2abb0-9cb7-5880-80cf-e89cfa438129",
+      "record_type": "route_portfolio"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:008",
+      "event_type": "route_selected",
+      "recorded_at": "2026-07-15T09:21:00Z",
+      "record": "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813",
+      "record_type": "route"
+    },
+    {
+      "event_id": "urn:telic:hi2:event:009",
+      "event_type": "gate_evaluated",
+      "recorded_at": "2026-07-15T09:22:00Z",
+      "record": "urn:telic:hi2:gate:f1d00205-34fc-5fd4-9a2c-11f3597706c6",
+      "record_type": "governance_gate"
+    }
+  ]
+}

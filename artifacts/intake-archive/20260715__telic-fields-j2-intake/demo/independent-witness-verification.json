@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "errors": [],
+  "checksums_verified": 49,
+  "records_validated": 68,
+  "events_verified": 22,
+  "views_verified": 4,
+  "signature_verified": true,
+  "verifier": "standalone-no-telic-j2-import"
+}

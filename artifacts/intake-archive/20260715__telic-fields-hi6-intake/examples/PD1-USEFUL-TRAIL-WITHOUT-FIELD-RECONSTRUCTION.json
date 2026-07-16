@@ -1,0 +1,106 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Useful trail supports later navigation without reconstructing the source field",
+  "durable_trace": {
+    "trace_id": "urn:telic:hi6:trace:19808dfc-8f5e-5d5b-981d-e84b3feed3fd",
+    "trace_type": "material",
+    "source_centers": [
+      "urn:telic:hi6:center:a55b12c2-ca3b-5748-9c2e-4422912514be"
+    ],
+    "affected_centers": [
+      "urn:telic:hi6:center:7142eb99-7fd1-5ed4-9224-3d6a7823d858"
+    ],
+    "source_events": [
+      "urn:telic:hi6:event:ed4591fd-0e9d-54be-ab8b-31d9cc9d1566"
+    ],
+    "content": {
+      "assertion_class": "observation",
+      "value": "Temporary marker identifies unstable stair edge."
+    },
+    "scope": {
+      "location": "north stairwell",
+      "purpose": "avoid hazard until repair",
+      "private_context_excluded": true
+    },
+    "status": "active",
+    "provenance": {
+      "created_by": "urn:telic:hi6:center:a55b12c2-ca3b-5748-9c2e-4422912514be",
+      "created_at": "2026-07-15T08:00:00Z"
+    },
+    "authority": {
+      "basis": "maintenance role",
+      "operation": "mark hazard"
+    },
+    "integrity": {
+      "source_known": true,
+      "uncertainty": "low",
+      "complete_field_preserved": false
+    },
+    "lifecycle": {
+      "expires_on_repair": true,
+      "review": "daily"
+    }
+  },
+  "memory_state": {
+    "memory_state_id": "urn:telic:hi6:memory-state:dca6e36e-163a-50f6-8ff9-2f1b7b5288d7",
+    "trace": "urn:telic:hi6:trace:19808dfc-8f5e-5d5b-981d-e84b3feed3fd",
+    "state": "active_with_conditions",
+    "eligible_for_retrieval": true,
+    "eligible_for_action": true,
+    "eligible_for_training": false,
+    "conditions": [
+      "valid only until stair repair is witnessed"
+    ],
+    "valid_time": {
+      "valid_from": "2026-07-15T08:00:00Z",
+      "valid_to": null
+    },
+    "review": {
+      "trigger": "repair completed or daily inspection"
+    },
+    "status": "current"
+  },
+  "retrieval_grant": {
+    "grant_id": "urn:telic:hi6:retrieval-grant:43493c7e-a4eb-5e06-94aa-a395480ebba6",
+    "retriever": "maintenance-routing-system",
+    "trace_scope": {
+      "environment": "north stairwell",
+      "classes": [
+        "active hazard",
+        "repair status"
+      ]
+    },
+    "purpose": "route workers safely and sequence repair",
+    "recipient": "authorized maintenance workers",
+    "operation": "read",
+    "context": {
+      "location": "maintenance dashboard"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-15T08:00:00Z",
+      "valid_to": "2026-07-22T08:00:00Z"
+    },
+    "retention": {
+      "session": "current shift",
+      "persistent": "event witness only"
+    },
+    "downstream_use": {
+      "training": false,
+      "public_disclosure": false
+    },
+    "review": {
+      "authority": "maintenance supervisor"
+    },
+    "withdrawal": {
+      "trigger": "repair completed"
+    },
+    "status": "active"
+  },
+  "later_uptake": {
+    "participant": "urn:telic:hi6:center:7142eb99-7fd1-5ed4-9224-3d6a7823d858",
+    "action": "use alternate stair and request repair status",
+    "source_event_recreated": false,
+    "private_context_retrieved": false
+  },
+  "result": "The marker preserves the distinction needed for safe navigation without claiming to preserve the original event."
+}

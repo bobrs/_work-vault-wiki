@@ -1,0 +1,190 @@
+{
+  "demonstration_id": "PD-1",
+  "title": "Two Pareto-efficient routes remain unresolved",
+  "routes": [
+    {
+      "route_id": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "route_type": "action",
+      "generated_by": "planning-model-v1",
+      "source_records": [
+        "policy-current",
+        "application-volume",
+        "staff-capacity"
+      ],
+      "sequence": [
+        "publish web form",
+        "automate document checks",
+        "queue exceptions for staff"
+      ],
+      "beneficiaries": [
+        "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637",
+        "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946"
+      ],
+      "cost_bearers": [
+        "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+        "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e"
+      ],
+      "protected_conditions": [
+        "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+      ],
+      "standing_coverage": {
+        "represented": [
+          "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637",
+          "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e"
+        ],
+        "missing": [
+          "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c"
+        ]
+      },
+      "uncertainties": [
+        "offline applicant abandonment rate"
+      ],
+      "reversibility": {
+        "level": "medium",
+        "rollback": "restore assisted intake"
+      },
+      "required_authority": [
+        "program-director"
+      ],
+      "required_consent": [],
+      "review_triggers": [
+        "30-day access audit"
+      ],
+      "exit": {
+        "route": "pause web-only enforcement"
+      },
+      "status": "candidate",
+      "criteria_values": {
+        "processing_speed": 9,
+        "operating_cost": 9,
+        "accessibility": 4,
+        "privacy_burden": 6
+      },
+      "provenance": {
+        "generated_by": "planning-model-v1",
+        "rule": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332"
+      }
+    },
+    {
+      "route_id": "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+      "route_type": "action",
+      "generated_by": "human-design-team",
+      "source_records": [
+        "policy-current",
+        "community-interviews",
+        "staff-capacity"
+      ],
+      "sequence": [
+        "accept phone and in-person applications",
+        "staff enter records",
+        "manual document review"
+      ],
+      "beneficiaries": [
+        "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+        "urn:telic:hi2:center:2edc307b-6f2b-5f3e-8841-7bd618a8c946"
+      ],
+      "cost_bearers": [
+        "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+        "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637"
+      ],
+      "protected_conditions": [
+        "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+      ],
+      "standing_coverage": {
+        "represented": [
+          "urn:telic:hi2:center:2c7138af-a0fe-57e7-a902-84d942383637",
+          "urn:telic:hi2:center:c8073987-2874-5631-8db6-4e9d0ec04c8e",
+          "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c"
+        ],
+        "missing": []
+      },
+      "uncertainties": [
+        "staff overtime under surge"
+      ],
+      "reversibility": {
+        "level": "high",
+        "rollback": "reduce staffed hours"
+      },
+      "required_authority": [
+        "program-director"
+      ],
+      "required_consent": [],
+      "review_triggers": [
+        "weekly workload audit"
+      ],
+      "exit": {
+        "route": "shift some volume to web channel"
+      },
+      "status": "viable",
+      "criteria_values": {
+        "processing_speed": 5,
+        "operating_cost": 4,
+        "accessibility": 9,
+        "privacy_burden": 8
+      },
+      "provenance": {
+        "generated_by": "human-design-team",
+        "rule": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332"
+      }
+    }
+  ],
+  "decision_rule": {
+    "decision_rule_id": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332",
+    "method": "pareto",
+    "purpose": "Identify nondominated intake routes without selecting a final sovereign route.",
+    "input_records": [
+      "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929"
+    ],
+    "criteria_source": [
+      {
+        "criterion": "processing_speed",
+        "source": "operations team"
+      },
+      {
+        "criterion": "operating_cost",
+        "source": "budget"
+      },
+      {
+        "criterion": "accessibility",
+        "source": "community interviews"
+      },
+      {
+        "criterion": "privacy_burden",
+        "source": "privacy review"
+      }
+    ],
+    "weight_source": null,
+    "thresholds": null,
+    "protected_exclusions": [
+      "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+    ],
+    "uncertainty_treatment": {
+      "method": "preserve route-specific uncertainty"
+    },
+    "incomparability_behavior": "preserve",
+    "authority": {
+      "operation": "compare",
+      "holder": "program design team"
+    },
+    "model_role": "compare",
+    "version": "0.1",
+    "final_choice_authority": null
+  },
+  "dominance": {
+    "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415": {
+      "dominates": [],
+      "dominated_by": []
+    },
+    "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929": {
+      "dominates": [],
+      "dominated_by": []
+    }
+  },
+  "nondominated_set": [
+    "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929"
+  ],
+  "selected_route": null,
+  "result": "No hidden final optimizer. The routes remain incomparable under the declared criteria."
+}

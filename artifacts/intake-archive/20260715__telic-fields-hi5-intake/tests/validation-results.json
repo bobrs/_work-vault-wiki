@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 legitimate dependency",
+    "PD-2 hidden recruitment detected",
+    "PD-3 constitutional substrate mismatch",
+    "PD-4 mission drift reauthorization",
+    "PD-5 disproportionate support burden",
+    "PD-6 capture after authority withdrawal",
+    "PD-7 governed fork",
+    "PD-8 governed dissolution"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-self-grounding-fiction",
+    "NC-2-continued-support-as-consent",
+    "NC-3-hidden-recruitment-normalization",
+    "NC-4-burden-erasure-by-output",
+    "NC-5-form-as-compatibility",
+    "NC-6-drift-without-reauthorization",
+    "NC-7-textual-exit-only",
+    "NC-8-authority-withdrawal-ignored",
+    "NC-9-asset-preserving-dissolution",
+    "NC-10-biological-pathologizing",
+    "NC-11-fork-as-erasure",
+    "NC-12-forced-loop-preservation"
+  ],
+  "dependency_witness_valid": true,
+  "result": "PASS"
+}

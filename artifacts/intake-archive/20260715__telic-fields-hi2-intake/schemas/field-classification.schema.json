@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "field-classification.schema.json",
+  "title": "FieldClassification",
+  "type": "object",
+  "required": [
+    "classification_id",
+    "item",
+    "field_class",
+    "source_records",
+    "classified_by",
+    "classified_at",
+    "status"
+  ],
+  "properties": {
+    "classification_id": {
+      "type": "string"
+    },
+    "item": {
+      "type": "string"
+    },
+    "field_class": {
+      "enum": [
+        "shared",
+        "compatible",
+        "conditional",
+        "conflicting",
+        "protected",
+        "unresolved",
+        "missing_standing",
+        "released"
+      ]
+    },
+    "source_records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "classified_by": {
+      "type": "string"
+    },
+    "classified_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "contested",
+        "superseded",
+        "expired"
+      ]
+    },
+    "authority": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "review_path": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "valid_time": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "field_class": {
+            "const": "protected"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "authority",
+          "review_path"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

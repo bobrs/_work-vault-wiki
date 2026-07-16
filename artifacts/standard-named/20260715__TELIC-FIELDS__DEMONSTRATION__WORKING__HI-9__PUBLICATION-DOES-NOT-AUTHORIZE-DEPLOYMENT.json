@@ -1,0 +1,139 @@
+{
+  "demonstration_id": "PD-2",
+  "title": "Research training permission does not authorize commercial deployment",
+  "standing_record": {
+    "record_id": "urn:telic:hi9:standing:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+    "source_artifact_or_dataset": "urn:telic:hi9:source:ea40213b-c17e-5b94-b34a-d59c91a7afb0",
+    "source_centers": [
+      "urn:telic:hi9:center:93a74806-540a-539e-830b-af0c46c919bf"
+    ],
+    "affected_centers": [],
+    "collective_or_community_standing": [],
+    "source_class": "licensed_corpus",
+    "creation_context": {
+      "purpose": "research publication"
+    },
+    "publication_context": {
+      "license": "research training only",
+      "commercial_deployment": false
+    },
+    "custody": {
+      "repository": "research archive"
+    },
+    "rights_and_interests": [
+      "authorship",
+      "license conditions"
+    ],
+    "sensitivity": "low",
+    "known_restrictions": [
+      "noncommercial training",
+      "no profiling deployment"
+    ],
+    "contestation": [],
+    "review": {
+      "required": "commercial transition review"
+    },
+    "status": "active"
+  },
+  "collection_record": {
+    "collection_id": "urn:telic:hi9:collection:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+    "source_record": "urn:telic:hi9:standing:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+    "collector": "urn:telic:hi9:provider:252873c6-a7c0-5354-8531-4b580a98a16f",
+    "collection_method": "licensed repository export",
+    "collection_purpose": "noncommercial research training",
+    "authority_basis": "license",
+    "consent_basis": {
+      "present": false,
+      "note": "license is not recorded as personal consent"
+    },
+    "notice": {
+      "provided": true
+    },
+    "scope": {
+      "training": "research only",
+      "commercial_deployment": false
+    },
+    "valid_time": {
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2027-01-01T00:00:00Z"
+    },
+    "restrictions": [
+      "no commercial deployment",
+      "no profiling"
+    ],
+    "transfer": {
+      "allowed": "research collaborators only"
+    },
+    "withdrawal": {
+      "route": "license termination process"
+    },
+    "evidence": [
+      "signed research license"
+    ],
+    "status": "active"
+  },
+  "authority_profile": {
+    "profile_id": "urn:telic:hi9:authority-profile:4a66419f-dd9b-5885-b6d6-0c9692f2168e",
+    "source_or_dataset": "urn:telic:hi9:dataset:6edd0cd6-bcc6-57e6-a4e4-1acfffd0ab42",
+    "transitions": [
+      "collect",
+      "store",
+      "filter",
+      "transform",
+      "annotate",
+      "train",
+      "evaluate",
+      "release",
+      "deploy",
+      "retrain"
+    ],
+    "authority_for_each_transition": {
+      "collect": "mixed by source",
+      "store": "source-specific",
+      "filter": "provider plus source restrictions",
+      "transform": "source-specific",
+      "annotate": "contract and contributor consent",
+      "train": "research license or community governance",
+      "evaluate": "authorized internal review",
+      "release": "community model only for community corpus",
+      "deploy": "research essay blocked for commercial use",
+      "retrain": "requires renewed review"
+    },
+    "consent_for_each_transition": {
+      "collect": "present for community corpus; absent for public article",
+      "train": "community corpus consented within declared scope",
+      "release": "community governance only",
+      "deploy": "no universal consent"
+    },
+    "license_for_each_transition": {
+      "research_essay": "research training only",
+      "public_article": "none located",
+      "community_corpus": "community license"
+    },
+    "purpose_for_each_transition": {
+      "train": "civic-dialogue assistance",
+      "release": "bounded community service",
+      "deploy": "no profiling or unrelated commercial service"
+    },
+    "restrictions": [
+      "source-specific restrictions propagate",
+      "public article quarantined"
+    ],
+    "recipient_classes": [
+      "provider research team",
+      "community-governed deployment"
+    ],
+    "revocation_or_expiry": {
+      "community_review": "annual",
+      "research_license_expiry": "2027-01-01"
+    },
+    "unknowns": [
+      "some public-crawl source rights remain unresolved"
+    ],
+    "status": "partial"
+  },
+  "research_training_allowed": true,
+  "commercial_deployment_allowed": false,
+  "deployment_gate": "blocked",
+  "result": "The licensed research transition remains distinct from commercial deployment."
+}

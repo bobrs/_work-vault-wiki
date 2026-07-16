@@ -1,0 +1,15 @@
+{
+  "export_id": "urn:telic:hi10:export:consentful-deployment-witness-demo",
+  "created_at": "2026-07-15T23:30:00Z",
+  "scope": "deployment field, standing, runtime authority, tools, consent, data, drift, incident, transfer, succession, retirement, and residual obligations",
+  "field_directory": "field/",
+  "record_directory": "records/",
+  "event_stream": "events/deployment-event-stream.json",
+  "deployment_witness": "witness/consentful-deployment-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "deployment_classification": "retired_with_open_obligations",
+  "training_authority_used_as_runtime_authority": false,
+  "residual_obligations_preserved": true,
+  "independent_of_provider_and_operator": true
+}

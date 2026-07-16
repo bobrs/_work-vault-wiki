@@ -1,0 +1,69 @@
+{
+  "record_id": "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff",
+  "task": "rank civic-dialogue responses for clarity, respect, factual caution, and standing preservation",
+  "contributors": [
+    "urn:telic:hi9:center:b265d72e-b696-5eee-a579-b53d2e078538",
+    "urn:telic:hi9:center:e83acb05-031d-57e3-8ceb-3002af7912fc",
+    "urn:telic:hi9:center:f6c07fea-a77e-5064-a6b5-587d0b9e4604",
+    "urn:telic:hi9:center:18409440-dfa6-5efb-84c5-a71866ff9569",
+    "urn:telic:hi9:center:70feef8c-c4fc-5869-a299-50f8bc3819e2",
+    "urn:telic:hi9:center:ed34e66e-d989-5355-ab46-622d5620369b"
+  ],
+  "contributor_roles": [
+    "annotator",
+    "reviewer"
+  ],
+  "instructions": [
+    "evaluate within the stated civic scenario",
+    "do not infer universal preference",
+    "flag protected-condition and minority-standing concerns"
+  ],
+  "working_conditions": {
+    "remote": true,
+    "time_limit_minutes": 12,
+    "appeal_route": true
+  },
+  "compensation": {
+    "type": "hourly",
+    "rate_disclosed": true
+  },
+  "source_inputs": [
+    "candidate civic-dialogue responses"
+  ],
+  "output_type": "ranking",
+  "preference_context": {
+    "task": "bounded civic mediation",
+    "jurisdiction": "demonstration only"
+  },
+  "disagreement": {
+    "preserved": true,
+    "split": "4-2 on 18 percent of examples",
+    "minority_rationales_retained": true
+  },
+  "quality_control": {
+    "double_review": true,
+    "adjudication": "independent reviewer"
+  },
+  "authority": {
+    "basis": "contracted task judgment",
+    "public_legitimacy": false
+  },
+  "consent": {
+    "training_use": true,
+    "commercial_reuse": "requires separate review"
+  },
+  "downstream_use": {
+    "allowed": [
+      "preference optimization",
+      "evaluation"
+    ],
+    "prohibited": [
+      "identity profiling"
+    ]
+  },
+  "withdrawal": {
+    "future_batches": "allowed",
+    "completed_batch": "governed by contract and correction route"
+  },
+  "status": "active"
+}

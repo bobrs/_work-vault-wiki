@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "admission_id": "urn:telic:hi7:admission:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+      "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+      "center": "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+      "standing_basis": [
+        "directly_affected",
+        "rights_holder",
+        "consequence_bearer"
+      ],
+      "role": "representative",
+      "representation_source": {
+        "basis": "county disability advisory group",
+        "selection": "open meeting"
+      },
+      "scope": {
+        "issue": "minimum accessible urgent-care service"
+      },
+      "authority": {
+        "may": "state position, evidence, and protected-condition claim",
+        "may_not": "unilaterally select route"
+      },
+      "conflicts": [],
+      "correction": {
+        "route": "represented patients and advisory group"
+      },
+      "review": {
+        "authority": "standing review panel"
+      },
+      "status": "admitted"
+    },
+    {
+      "admission_id": "urn:telic:hi7:admission:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+      "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+      "center": "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+      "standing_basis": [
+        "directly_affected",
+        "consequence_bearer"
+      ],
+      "role": "representative",
+      "representation_source": {
+        "basis": "survey and two workplace delegates"
+      },
+      "scope": {
+        "issue": "hours and location access"
+      },
+      "authority": {
+        "may": "present burden and schedule evidence"
+      },
+      "conflicts": [],
+      "correction": {
+        "route": "worker delegates"
+      },
+      "review": {
+        "authority": "standing review panel"
+      },
+      "status": "admitted_with_conditions"
+    }
+  ]
+}

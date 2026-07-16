@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runtime-monitoring-consequence-return.schema.json",
+  "title": "RuntimeMonitoringConsequenceReturn",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "monitoring_scope",
+    "metrics",
+    "qualitative_evidence",
+    "affected_centers",
+    "expected_consequences",
+    "observed_consequences",
+    "unexpected_consequences",
+    "distributional_effects",
+    "protected_condition_status",
+    "drift_signals",
+    "review_triggered",
+    "revision_options",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "monitoring_scope": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "array"
+    },
+    "qualitative_evidence": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "expected_consequences": {
+      "type": "array"
+    },
+    "observed_consequences": {
+      "type": "array"
+    },
+    "unexpected_consequences": {
+      "type": "array"
+    },
+    "distributional_effects": {
+      "type": "array"
+    },
+    "protected_condition_status": {
+      "type": "object"
+    },
+    "drift_signals": {
+      "type": "array"
+    },
+    "review_triggered": {
+      "type": "boolean"
+    },
+    "revision_options": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "monitoring",
+        "review_required",
+        "revision_open",
+        "repaired",
+        "suspended",
+        "retired",
+        "closed",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

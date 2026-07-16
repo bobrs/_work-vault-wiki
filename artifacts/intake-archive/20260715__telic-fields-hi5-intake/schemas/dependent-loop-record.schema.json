@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependent-loop-record.schema.json",
+  "title": "DependentLoopRecord",
+  "type": "object",
+  "required": [
+    "dependent_loop_id",
+    "purpose",
+    "declared_beneficiaries",
+    "affected_centers",
+    "supporting_loops",
+    "required_contributions",
+    "authority_to_recruit_support",
+    "reciprocity",
+    "review",
+    "exit",
+    "correction",
+    "status"
+  ],
+  "properties": {
+    "dependent_loop_id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "object"
+    },
+    "declared_beneficiaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supporting_loops": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_contributions": {
+      "type": "array",
+      "minItems": 1
+    },
+    "authority_to_recruit_support": {
+      "type": "array"
+    },
+    "reciprocity": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "exit": {
+      "type": "object"
+    },
+    "correction": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "under_review",
+        "drifted",
+        "captured",
+        "forking",
+        "dissolving",
+        "dissolved",
+        "released",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

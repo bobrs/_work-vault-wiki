@@ -1,0 +1,64 @@
+{
+  "demonstration_id": "PD-4",
+  "description": "A restriction is verified without disclosing private source content.",
+  "omission_proof": {
+    "omission_proof_id": "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d",
+    "restriction_type": "schedule_accommodation_boundary",
+    "verified_by": "authorized-accommodation-reviewer",
+    "verification_authority": {
+      "basis": "institutional accommodation process",
+      "operation": "verify_restriction"
+    },
+    "scope": {
+      "decision": "initial office schedule",
+      "permitted_disclosure": "restriction applies; two-day initial maximum",
+      "prohibited_disclosure": "medical source and diagnosis"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-15T00:00:00Z",
+      "valid_to": "2026-09-01T00:00:00Z"
+    },
+    "status": "active",
+    "disclosure_class": "decision_authority",
+    "source_commitment": {
+      "commitment_type": "hash",
+      "value": "45e0d3b40974903c88550ea1450f33eda015fa4bcec6c5dae285134f2bd22ecf"
+    },
+    "review_route": {
+      "reviewer": "independent accommodation officer",
+      "trigger": "scope dispute or expiry"
+    },
+    "disclosed_facts": [
+      "A valid schedule restriction exists.",
+      "The person can commit to no more than two office days initially."
+    ],
+    "prohibited_disclosures": [
+      "diagnosis",
+      "medical history",
+      "source document contents"
+    ]
+  },
+  "decision_view": {
+    "view_id": "urn:telic:hi1:witness-view:afa801ed-f09c-5e63-8527-dd322fc26903",
+    "witness_id": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+    "view_type": "decision_authority_view",
+    "policy_version": "hi1-omission-0.1",
+    "records": [
+      "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+    ],
+    "omissions": [
+      {
+        "record": "urn:telic:hi1:source:e992b1c0-61dc-5455-aa7f-60033781e98b",
+        "reason": "omitted_by_privilege",
+        "proof": "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+      }
+    ],
+    "source_inference_distinction_preserved": true,
+    "generated_at": "2026-07-15T11:30:00Z"
+  },
+  "gate_result": {
+    "privacy": "pass",
+    "protected_condition": "pass",
+    "source_content_disclosed": false
+  }
+}

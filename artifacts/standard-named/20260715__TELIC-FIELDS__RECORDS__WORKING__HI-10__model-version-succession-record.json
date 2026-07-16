@@ -1,0 +1,56 @@
+{
+  "record_id": "urn:telic:hi10:succession:7f9e9b11-1f44-54b3-96ae-2ece8ae8ca66",
+  "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "prior_model_version": "urn:telic:hi10:model:d7d43188-411d-594a-aa36-d39e5f69c9a2",
+  "successor_model_version": "urn:telic:hi10:model:8d10f2c6-c720-5b5c-bb27-66a71133eb52",
+  "change_type": "model_update",
+  "reason": "improved multilingual support and corrected classification behavior",
+  "capability_changes": [
+    "expanded translation",
+    "improved schedule comparison"
+  ],
+  "behavior_changes": [
+    "lower false-recurring-income classification rate"
+  ],
+  "policy_changes": [
+    "no change to no-training runtime capture policy"
+  ],
+  "authority_review": {
+    "renewed": true,
+    "grant": "narrower assistance-only grant"
+  },
+  "consent_and_notice_review": {
+    "material_notice": true,
+    "new_optional_data_consent": false
+  },
+  "compatibility": {
+    "correction_records": true,
+    "refusals": true,
+    "incident_history": true
+  },
+  "migration": {
+    "active_memory": "none migrated without consent",
+    "institutional_records": "references preserved"
+  },
+  "rollback": {
+    "available": true,
+    "target": "urn:telic:hi10:model:d7d43188-411d-594a-aa36-d39e5f69c9a2",
+    "conditions": "if protected-condition failure rises"
+  },
+  "retirement": {
+    "prior_version": "suspended from new sessions"
+  },
+  "residual_state": {
+    "v1_logs": "retained under incident witness",
+    "credentials": "revoked after rollback window"
+  },
+  "open_obligations": [
+    "urn:telic:hi10:incident:4d99cf4b-f57d-593b-9061-dac3ea75a88c",
+    "complete provider transfer review"
+  ],
+  "verification": {
+    "shadow_test": true,
+    "participant_review": true
+  },
+  "status": "completed"
+}

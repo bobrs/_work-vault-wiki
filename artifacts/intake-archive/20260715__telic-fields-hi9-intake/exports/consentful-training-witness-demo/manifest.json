@@ -1,0 +1,15 @@
+{
+  "export_id": "urn:telic:hi9:export:consentful-training-witness-demo",
+  "created_at": "2026-07-15T23:00:00Z",
+  "scope": "source standing, transition authority, transformations, preference labor, constitution, synthetic ancestry, withdrawal, derivatives, and benefit",
+  "source_directory": "sources/",
+  "record_directory": "records/",
+  "event_stream": "events/training-lineage-event-stream.json",
+  "training_witness": "witness/consentful-training-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "lineage_classification": "mixed_authority",
+  "binary_purity_claim": false,
+  "unlearning_complete_claim": false,
+  "independent_of_training_provider": true
+}

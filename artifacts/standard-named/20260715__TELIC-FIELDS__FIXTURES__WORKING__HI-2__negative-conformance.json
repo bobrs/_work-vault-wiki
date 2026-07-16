@@ -1,0 +1,129 @@
+{
+  "NC-1-hidden-scalar-sovereignty": {
+    "instance": {
+      "method": "mcda",
+      "final_score": {
+        "web": 8.2,
+        "assisted": 7.9
+      },
+      "weights_hidden": true,
+      "selected": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415"
+    },
+    "expected": "fail"
+  },
+  "NC-2-protected-condition-compensation": {
+    "instance": {
+      "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "protected_condition": "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec",
+      "tradeoff": "violate access condition for cost savings",
+      "authority_changed": false
+    },
+    "expected": "fail"
+  },
+  "NC-3-missing-standing-as-zero": {
+    "instance": {
+      "center": "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "represented": false,
+      "weight": 0
+    },
+    "expected": "fail"
+  },
+  "NC-4-pareto-as-legitimacy": {
+    "instance": {
+      "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "pareto_nondominated": true,
+      "declared_legitimate": true,
+      "gate_passed": false
+    },
+    "expected": "fail"
+  },
+  "NC-5-model-recommendation-as-authorization": {
+    "instance": {
+      "recommendation": {
+        "recommendation_id": "urn:telic:hi2:recommendation:d784bb94-b9f4-50bf-bbe9-9a97a9f95ac3",
+        "model_instance": "planning-model-v1",
+        "assigned_role": "recommend",
+        "based_on": [
+          "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+          "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+          "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332"
+        ],
+        "recommended_route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+        "alternatives": [
+          "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+          "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813"
+        ],
+        "decision_rule": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332",
+        "uncertainty": {
+          "known": "offline applicant abandonment rate is unknown",
+          "confidence": "moderate"
+        },
+        "authority": {
+          "recommendation": true,
+          "authorization": false,
+          "execution": false
+        },
+        "status": "active",
+        "generated_at": "2026-07-15T09:03:00Z"
+      },
+      "executed": true,
+      "separate_authorization": false
+    },
+    "expected": "fail"
+  },
+  "NC-6-consent-from-consideration": {
+    "instance": {
+      "participant_viewed_route": true,
+      "consent_record": null,
+      "treated_as_consented": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-eventless-witness": {
+    "instance": {
+      "generated_from_events": false,
+      "event_ids": [],
+      "final_summary_only": true
+    },
+    "expected": "fail"
+  },
+  "NC-8-consequence-overwrite": {
+    "instance": {
+      "prior_witness_preserved": false,
+      "consequence_review": "urn:telic:hi2:consequence-review:ac2c95bf-54cd-5259-a9f9-2954c8b9627c"
+    },
+    "expected": "fail"
+  },
+  "NC-9-no-decision-erasure": {
+    "instance": {
+      "valid_pause_state": true,
+      "interface_requires_winner": true,
+      "pause_removed": true
+    },
+    "expected": "fail"
+  },
+  "NC-10-route-portfolio-collapse": {
+    "instance": {
+      "portfolio": "urn:telic:hi2:portfolio:5ff2abb0-9cb7-5880-80cf-e89cfa438129",
+      "distinct_branches": true,
+      "reported_as_single_consensus_route": true
+    },
+    "expected": "fail"
+  },
+  "NC-11-undeclared-decision-rule": {
+    "instance": {
+      "recommendation": "urn:telic:hi2:recommendation:d784bb94-b9f4-50bf-bbe9-9a97a9f95ac3",
+      "decision_rule": null
+    },
+    "expected": "fail"
+  },
+  "NC-12-cost-bearer-omission": {
+    "instance": {
+      "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "efficiency_gain": true,
+      "shifted_labor_or_access_cost": "urn:telic:hi2:center:d330eea5-be93-5f81-b91c-5d74e536858c",
+      "cost_bearer_recorded": false
+    },
+    "expected": "fail"
+  }
+}

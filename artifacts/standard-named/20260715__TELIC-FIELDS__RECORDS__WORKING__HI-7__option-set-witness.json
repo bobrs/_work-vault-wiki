@@ -1,0 +1,58 @@
+{
+  "option_set_id": "urn:telic:hi7:option-set:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+  "generation_process": [
+    "administrative staff proposed three initial routes",
+    "public participants proposed mobile and partnership routes",
+    "facilitator combined mobile service with renovation review"
+  ],
+  "included_options": [
+    "urn:telic:hi7:route:8c5f1883-b55a-5e22-88fd-e232f845cc6d",
+    "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1",
+    "urn:telic:hi7:route:f28aedc9-7c31-5379-9253-50f4e7148af7",
+    "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38",
+    "urn:telic:hi7:route:67aff2d4-620d-540e-974c-d25019eca401",
+    "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe"
+  ],
+  "excluded_options": [
+    "continue using unsafe building",
+    "permanent closure without replacement"
+  ],
+  "combined_options": [
+    "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe"
+  ],
+  "source_of_each_option": {
+    "urn:telic:hi7:route:8c5f1883-b55a-5e22-88fd-e232f845cc6d": "county administration",
+    "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1": "county administration",
+    "urn:telic:hi7:route:f28aedc9-7c31-5379-9253-50f4e7148af7": "county administration",
+    "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38": "patient and community proposal",
+    "urn:telic:hi7:route:67aff2d4-620d-540e-974c-d25019eca401": "local practices",
+    "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe": "model-assisted synthesis reviewed by participants"
+  },
+  "selection_or_exclusion_reasons": {
+    "continue using unsafe building": "fails safety condition",
+    "permanent closure without replacement": "fails minimum-access condition"
+  },
+  "option_authors": {
+    "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe": {
+      "author_type": "model_assisted",
+      "human_reviewed": true
+    },
+    "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38": {
+      "author_type": "participant"
+    }
+  },
+  "affected_centers": [
+    "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+    "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+    "urn:telic:hi7:center:a50e2197-5df2-57c6-aeb2-0b7096266beb",
+    "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3",
+    "urn:telic:hi7:center:4345f3fe-7b59-5f46-8fd3-3b532a87eff6"
+  ],
+  "review": {
+    "challenge_window": "2026-07-18T17:00:00Z",
+    "authority": "assembly participants"
+  },
+  "status": "reviewed"
+}

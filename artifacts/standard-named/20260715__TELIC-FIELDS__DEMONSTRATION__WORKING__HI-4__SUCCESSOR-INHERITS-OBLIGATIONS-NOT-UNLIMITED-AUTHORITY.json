@@ -1,0 +1,77 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Successor inherits obligations without unlimited authority",
+  "continuity": {
+    "continuity_id": "urn:telic:hi4:continuity:faced565-e783-5fc2-b262-ba09b17b65b2",
+    "from_center": "urn:telic:hi4:institution:ebaad3c3-c845-5eb9-b7ed-d81088083ace",
+    "to_center": "urn:telic:hi4:institution:79ac40f0-428e-53d5-b459-a703f2115698",
+    "carriers": [
+      "organizational_lineage",
+      "property",
+      "record",
+      "contract",
+      "public_mandate"
+    ],
+    "scope": {
+      "restricted_fund": "continues",
+      "private_data_authority": "requires revalidation"
+    },
+    "strength": "conditional",
+    "contested": false,
+    "authority_effect": {
+      "effect": "Fund administration transfers within restriction only."
+    },
+    "obligation_effect": {
+      "effect": "Open housing commitments and complaint transfer."
+    },
+    "review": {
+      "trigger": "successor board review within 30 days"
+    }
+  },
+  "succession": {
+    "succession_id": "urn:telic:hi4:succession:dcb0e9b8-6210-5af8-9f7d-51e4e6dd8a54",
+    "predecessor": "urn:telic:hi4:institution:ebaad3c3-c845-5eb9-b7ed-d81088083ace",
+    "successor": "urn:telic:hi4:institution:79ac40f0-428e-53d5-b459-a703f2115698",
+    "continuity_relation": "urn:telic:hi4:continuity:faced565-e783-5fc2-b262-ba09b17b65b2",
+    "assets_transferred": [
+      "restricted housing fund",
+      "administrative equipment"
+    ],
+    "capabilities_transferred": [
+      "payment administration",
+      "case management"
+    ],
+    "authority_transferred": [
+      "administer restricted fund",
+      "complete eligible open commitments"
+    ],
+    "authority_not_transferred": [
+      "repurpose applicant data",
+      "change beneficiary class",
+      "cancel commitments without review"
+    ],
+    "obligations_transferred": [
+      "honor eligible open commitments",
+      "review unresolved complaint",
+      "preserve donor restriction"
+    ],
+    "obligations_under_review": [
+      "long-term archive custody"
+    ],
+    "records_transferred": [
+      "fund ledger",
+      "open case records"
+    ],
+    "records_restricted": [
+      "applicant identity",
+      "medical and housing records"
+    ],
+    "effective_at": "2026-07-15T12:00:00Z",
+    "review": {
+      "authority": "successor board and community reviewer",
+      "due": "2026-08-15"
+    },
+    "status": "active"
+  },
+  "result": "Assets, bounded capabilities, records, and obligations transfer; unrelated predecessor authority does not."
+}

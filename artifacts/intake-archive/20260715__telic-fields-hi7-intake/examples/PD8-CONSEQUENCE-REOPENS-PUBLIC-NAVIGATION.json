@@ -1,0 +1,52 @@
+{
+  "demonstration_id": "PD-8",
+  "title": "Observed consequence reopens public navigation",
+  "consequence_return": {
+    "return_id": "urn:telic:hi7:consequence-return:171b36bc-c6b1-5d70-b2ae-d52bae3c3b06",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "decision": "urn:telic:hi7:decision:c0738863-73cd-5015-a8a4-38bb1f1ef2b5",
+    "observed_consequences": [
+      "urgent access maintained countywide",
+      "east industrial neighborhood utilization reached 58 percent of county average",
+      "mobile clinic transportation cost lower than forecast"
+    ],
+    "predicted_consequences": [
+      "shift-worker access may remain low under daytime-only hours"
+    ],
+    "unexpected_consequences": [
+      "partner practices absorbed more demand than expected"
+    ],
+    "affected_centers": [
+      "urn:telic:hi7:center:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c",
+      "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+      "urn:telic:hi7:center:6a968f8a-5818-574b-92d6-5c5b6e4f8ee3",
+      "urn:telic:hi7:center:4345f3fe-7b59-5f46-8fd3-3b532a87eff6"
+    ],
+    "dissent_confirmed_or_disconfirmed": {
+      "shift_hours_prediction": "partially confirmed"
+    },
+    "protected_condition_status": {
+      "minimum_access": "met overall but uneven by schedule"
+    },
+    "cost_bearer_change": {
+      "county transport cost": "decreased",
+      "partner practice workload": "increased"
+    },
+    "review_triggered": true,
+    "revision_options": [
+      "urn:telic:hi7:route:c5c54bde-5262-5bae-bfea-028ed4948424",
+      "increase partner-practice funding",
+      "adjust mobile schedule"
+    ],
+    "authority": {
+      "holder": "county public health review panel"
+    },
+    "status": "revision_open"
+  },
+  "dissent_link": "urn:telic:hi7:dissent:9e3aa383-50e9-5fda-b835-221a36daafb7",
+  "revision_selected": {
+    "route": "urn:telic:hi7:route:c5c54bde-5262-5bae-bfea-028ed4948424",
+    "action": "add two evening mobile sessions weekly"
+  },
+  "result": "Observed consequence confirms part of the dissent trail and changes the route portfolio."
+}

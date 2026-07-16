@@ -1,0 +1,15 @@
+{
+  "export_id": "urn:telic:hi7:export:public-decision-witness-demo",
+  "created_at": "2026-07-15T19:00:00Z",
+  "scope": "public-field assembly, standing, option construction, protected conditions, method comparison, route portfolio, dissent, delay, and consequence return",
+  "field_directory": "field/",
+  "record_directory": "records/",
+  "event_stream": "events/public-decision-event-stream.json",
+  "public_decision_witness": "witness/public-decision-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "fictional_collective_utility": false,
+  "dissent_preserved": true,
+  "option_authorship_preserved": true,
+  "independent_of_deliberation_platform": true
+}

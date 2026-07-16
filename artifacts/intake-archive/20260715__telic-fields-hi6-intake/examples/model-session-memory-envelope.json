@@ -1,0 +1,46 @@
+{
+  "envelope_id": "urn:telic:hi6:envelope:mediation-session",
+  "model_instance": "urn:telic:hi6:model:71f619ee-17ea-5a68-b980-4b09e8294d95",
+  "session": "mediation-session-2026-07-15",
+  "memory_sources": [
+    "urn:telic:hi6:assertion:54fd0cc4-b1c3-5d96-9ff9-6c9c392be28e",
+    "urn:telic:hi6:assertion:d2d1316b-0ace-52eb-8fc7-65ca8471b98f"
+  ],
+  "allowed_operations": [
+    "read",
+    "summarize",
+    "recommend clarification"
+  ],
+  "prohibited_operations": [
+    "cross-user use",
+    "training",
+    "public disclosure",
+    "autonomous action"
+  ],
+  "source_inference_boundary": {
+    "required": true,
+    "labels": [
+      "direct source",
+      "model inference"
+    ]
+  },
+  "correction_priority": true,
+  "retention": {
+    "session": "until close",
+    "persistent": "approved summary only"
+  },
+  "cross_session": {
+    "allowed": false
+  },
+  "cross_user": {
+    "allowed": false
+  },
+  "export": {
+    "allowed": "only reviewed participant-approved summary"
+  },
+  "withdrawal": {
+    "route": "participant request",
+    "effect": "future retrieval stops"
+  },
+  "status": "active"
+}

@@ -1,0 +1,54 @@
+{
+  "demonstration_id": "PD-8",
+  "title": "Stale memory causes breach and repair",
+  "contamination_event": {
+    "event_id": "urn:telic:hi6:contamination:stale-renewal",
+    "contamination_type": "stale_authority_reuse",
+    "affected_traces": [
+      "urn:telic:hi6:trace:3ba376ee-6948-57e7-a7ba-1bc2a5bdc22c"
+    ],
+    "affected_actions": [
+      "automatic renewal and charge"
+    ],
+    "source": {
+      "cause": "stale preference ranked above current correction"
+    },
+    "detected_at": "2026-07-15T12:00:00Z",
+    "immediate_response": [
+      "stop future charges",
+      "quarantine stale trace",
+      "retrieve current source"
+    ],
+    "repair": [
+      "activate manual-renewal trace",
+      "refund charge",
+      "propagate correction",
+      "preserve prior action witness"
+    ],
+    "residual_risk": [
+      "one external marketing cache remains unresolved"
+    ],
+    "status": "partially_repaired"
+  },
+  "stale_trace": {
+    "trace": "urn:telic:hi6:trace:3ba376ee-6948-57e7-a7ba-1bc2a5bdc22c",
+    "state": "quarantined",
+    "eligible_for_action": false
+  },
+  "current_trace": {
+    "trace": "urn:telic:hi6:trace:d77f78fd-ec5c-5d7d-9ae5-c587c9b8ead3",
+    "state": "active",
+    "eligible_for_action": true
+  },
+  "consequence": [
+    "unexpected charge",
+    "time spent contesting"
+  ],
+  "repair": [
+    "refund",
+    "correction propagation",
+    "manual renewal required"
+  ],
+  "prior_witness_preserved": true,
+  "result": "The stale trail is removed from action retrieval without rewriting the breach."
+}

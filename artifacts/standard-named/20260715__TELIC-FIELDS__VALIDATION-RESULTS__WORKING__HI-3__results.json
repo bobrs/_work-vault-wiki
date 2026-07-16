@@ -1,0 +1,31 @@
+{
+  "schemas_checked": 10,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 token-rich but standing-poor",
+    "PD-2 small context adequate",
+    "PD-3 privacy-preserving capacity",
+    "PD-4 authority degradation",
+    "PD-5 missing correction stop",
+    "PD-6 participant-load staging",
+    "PD-7 competent escalation",
+    "PD-8 context reconstitution"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-token-count-sufficiency",
+    "NC-2-fluent-authority-persistence",
+    "NC-3-privacy-as-deficit",
+    "NC-4-participant-burden-blindness",
+    "NC-5-missing-correction",
+    "NC-6-composite-score-concealment",
+    "NC-7-escalation-by-hierarchy-only",
+    "NC-8-no-decision-without-cost-bearer",
+    "NC-9-capacity-debt-erasure",
+    "NC-10-authority-restoration-without-reconstitution",
+    "NC-11-small-context-rejection",
+    "NC-12-overload-without-degradation"
+  ],
+  "result": "PASS"
+}

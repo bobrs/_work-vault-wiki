@@ -1,0 +1,107 @@
+{
+  "records": [
+    {
+      "id": "urn:telic:hi-s:source:208b43a1-81d5-579c-a031-c3cb3dd83878",
+      "object_class": "source",
+      "source": null,
+      "center": "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+      "scope": {
+        "resource": "community workshop"
+      },
+      "content_or_reference": "Weekday mornings are preferred.",
+      "epistemic_status": "direct",
+      "protected_status": {
+        "protected": false
+      },
+      "uncertainty": {
+        "level": "low"
+      },
+      "valid_time": {
+        "from": "2026-07-20",
+        "to": "2026-07-26"
+      },
+      "corrections": [],
+      "status": "active"
+    },
+    {
+      "id": "urn:telic:hi-s:source:928014d6-18a1-58a7-bfb0-5e9424b290c3",
+      "object_class": "source",
+      "source": null,
+      "center": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+      "scope": {
+        "resource": "community workshop"
+      },
+      "content_or_reference": "Evening attendance is required because daytime transit is inaccessible.",
+      "epistemic_status": "direct",
+      "protected_status": {
+        "protected": true,
+        "condition": "accessible transit window"
+      },
+      "uncertainty": {
+        "level": "low"
+      },
+      "valid_time": {
+        "from": "2026-07-20",
+        "to": "2026-07-26"
+      },
+      "corrections": [
+        "urn:telic:hi-s:event:10c5b0c3-436d-5128-9385-ed1b83526faf"
+      ],
+      "status": "corrected"
+    },
+    {
+      "id": "urn:telic:hi-s:projection:55f71e98-748b-59db-800c-0fc5c347835b",
+      "object_class": "projection",
+      "source": "urn:telic:hi-s:source:208b43a1-81d5-579c-a031-c3cb3dd83878",
+      "center": "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+      "scope": {
+        "operation": "candidate schedule generation"
+      },
+      "content_or_reference": {
+        "preferred_window": "weekday morning"
+      },
+      "epistemic_status": "confirmed",
+      "protected_status": {
+        "protected": false
+      },
+      "uncertainty": {
+        "level": "low"
+      },
+      "valid_time": {
+        "from": "2026-07-20",
+        "to": "2026-07-26"
+      },
+      "corrections": [],
+      "status": "active_for_scope"
+    },
+    {
+      "id": "urn:telic:hi-s:projection:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+      "object_class": "projection",
+      "source": "urn:telic:hi-s:source:928014d6-18a1-58a7-bfb0-5e9424b290c3",
+      "center": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+      "scope": {
+        "operation": "candidate schedule generation"
+      },
+      "content_or_reference": {
+        "required_window": "weekday evening",
+        "reason": "accessible transit"
+      },
+      "epistemic_status": "confirmed",
+      "protected_status": {
+        "protected": true,
+        "condition": "accessible transit window"
+      },
+      "uncertainty": {
+        "level": "low"
+      },
+      "valid_time": {
+        "from": "2026-07-20",
+        "to": "2026-07-26"
+      },
+      "corrections": [
+        "urn:telic:hi-s:event:10c5b0c3-436d-5128-9385-ed1b83526faf"
+      ],
+      "status": "corrected"
+    }
+  ]
+}

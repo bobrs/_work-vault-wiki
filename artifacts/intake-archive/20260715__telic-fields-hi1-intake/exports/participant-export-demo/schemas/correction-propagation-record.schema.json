@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "correction-propagation-record.schema.json",
+  "title": "CorrectionPropagationRecord",
+  "type": "object",
+  "required": [
+    "propagation_id",
+    "correction",
+    "root_target",
+    "descendants",
+    "initiated_by",
+    "authority",
+    "started_at",
+    "overall_status"
+  ],
+  "properties": {
+    "propagation_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "correction": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "root_target": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "descendants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "record",
+          "impact",
+          "status"
+        ],
+        "properties": {
+          "record": {
+            "type": "string",
+            "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+          },
+          "record_type": {
+            "type": "string"
+          },
+          "impact": {
+            "enum": [
+              "direct",
+              "material",
+              "possible",
+              "none",
+              "unknown"
+            ]
+          },
+          "status": {
+            "enum": [
+              "updated",
+              "superseded",
+              "marked_contested",
+              "recalculated",
+              "review_required",
+              "action_paused",
+              "not_authorized",
+              "not_reachable",
+              "external_system",
+              "deleted",
+              "no_change",
+              "unknown"
+            ]
+          },
+          "attempted_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "result": {},
+          "gap_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "initiated_by": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "overall_status": {
+      "enum": [
+        "complete",
+        "partial",
+        "failed",
+        "pending",
+        "unknown"
+      ]
+    },
+    "material_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "descendants": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "impact": {
+                  "enum": [
+                    "direct",
+                    "material"
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "not_reachable",
+                    "not_authorized",
+                    "external_system",
+                    "unknown"
+                  ]
+                }
+              },
+              "required": [
+                "impact",
+                "status"
+              ]
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "overall_status": {
+            "not": {
+              "const": "complete"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

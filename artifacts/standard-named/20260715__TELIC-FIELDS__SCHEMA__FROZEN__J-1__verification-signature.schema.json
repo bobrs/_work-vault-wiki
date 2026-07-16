@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j1:schema:verification-signature:0.1",
+  "title": "VerificationSignature",
+  "type": "object",
+  "required": [
+    "signature_id",
+    "algorithm",
+    "key_id",
+    "signed_file",
+    "signed_digest",
+    "signature",
+    "public_key_file",
+    "created_at",
+    "status"
+  ],
+  "properties": {
+    "signature_id": {
+      "type": "string"
+    },
+    "algorithm": {
+      "const": "Ed25519"
+    },
+    "key_id": {
+      "type": "string"
+    },
+    "signed_file": {
+      "type": "string"
+    },
+    "signed_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "public_key_file": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "revoked"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

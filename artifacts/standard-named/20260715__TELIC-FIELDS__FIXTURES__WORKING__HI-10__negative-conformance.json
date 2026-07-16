@@ -1,0 +1,92 @@
+{
+  "NC-1-training-lineage-as-deployment-authority": {
+    "instance": {
+      "training_witness_strong": true,
+      "runtime_authority_inferred": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-noncontributor-has-no-standing": {
+    "instance": {
+      "runtime_affected": true,
+      "training_contributor": false,
+      "standing_denied": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-capability-as-authority": {
+    "instance": {
+      "capability_present": true,
+      "authority_missing": true,
+      "action_allowed": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-tool-permission-as-target-authority": {
+    "instance": {
+      "tool_token_present": true,
+      "target_authority_missing": true,
+      "tool_executed": true
+    },
+    "expected": "fail"
+  },
+  "NC-5-notice-as-consent": {
+    "instance": {
+      "notice_given": true,
+      "consent_recorded_from_notice": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-service-consent-as-output-capture-consent": {
+    "instance": {
+      "service_consent": true,
+      "training_capture_assumed": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-purpose-drift-without-reauthorization": {
+    "instance": {
+      "purpose_expanded": true,
+      "old_grant_reused": true
+    },
+    "expected": "fail"
+  },
+  "NC-8-model-tuning-as-complete-repair": {
+    "instance": {
+      "harm_occurred": true,
+      "model_updated": true,
+      "affected_center_repaired": false
+    },
+    "expected": "fail"
+  },
+  "NC-9-operator-transfer-erases-obligations": {
+    "instance": {
+      "operator_changed": true,
+      "open_incidents_transferred": false
+    },
+    "expected": "fail"
+  },
+  "NC-10-silent-model-version-substitution": {
+    "instance": {
+      "material_model_change": true,
+      "authority_review": false,
+      "notice_review": false
+    },
+    "expected": "fail"
+  },
+  "NC-11-human-click-cures-missing-authority": {
+    "instance": {
+      "human_approved": true,
+      "operation_authority_missing": true,
+      "action_executed": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-retirement-erases-residual-duties": {
+    "instance": {
+      "service_shutdown": true,
+      "open_claims_discarded": true
+    },
+    "expected": "fail"
+  }
+}

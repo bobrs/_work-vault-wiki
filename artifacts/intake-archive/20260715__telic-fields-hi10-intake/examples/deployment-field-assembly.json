@@ -1,0 +1,67 @@
+{
+  "assembly_id": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "deployment": "urn:telic:hi10:deployment:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "model_lineage": "urn:telic:hi10:model-lineage:31a1de6b-691a-5f3b-83f0-4e754dc947af",
+  "model_version": "urn:telic:hi10:model:d7d43188-411d-594a-aa36-d39e5f69c9a2",
+  "provider": "urn:telic:hi10:provider:4722b94c-6d4f-50fe-8c33-c88a6da3fc7e",
+  "operator": "urn:telic:hi10:operator:7f89d809-5d8b-50e2-8f0b-492d7d821ce5",
+  "runtime_purpose": "explain clinic options, translate notices, summarize questions, and propose appointment times",
+  "jurisdiction": {
+    "geographic": "county",
+    "domain": "public health access"
+  },
+  "affected_centers": [
+    "urn:telic:hi10:center:1fe1692c-53ef-525e-9a46-76f34936b4c4",
+    "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740",
+    "urn:telic:hi10:center:5f704c28-5ad2-5996-9b71-56465c877557",
+    "urn:telic:hi10:center:d4ed232e-3790-5f81-a958-cc8a26d231ee",
+    "urn:telic:hi10:center:444be0a5-44b5-56b0-9e1f-ef16bacc8343"
+  ],
+  "represented_centers": [
+    "urn:telic:hi10:center:1fe1692c-53ef-525e-9a46-76f34936b4c4",
+    "urn:telic:hi10:center:5f704c28-5ad2-5996-9b71-56465c877557",
+    "urn:telic:hi10:center:d4ed232e-3790-5f81-a958-cc8a26d231ee"
+  ],
+  "missing_centers": [
+    "urn:telic:hi10:center:444be0a5-44b5-56b0-9e1f-ef16bacc8343"
+  ],
+  "dependencies": [
+    "staffing",
+    "transport",
+    "clinic availability",
+    "county network"
+  ],
+  "tools": [
+    "urn:telic:hi10:tool:20a44fda-20e5-5475-b471-4a61ec182f61"
+  ],
+  "data_flows": [
+    {
+      "source": "participant input",
+      "target": "session context"
+    },
+    {
+      "source": "clinic availability",
+      "target": "model retrieval"
+    },
+    {
+      "source": "reviewed appointment proposal",
+      "target": "scheduling tool"
+    }
+  ],
+  "protected_conditions": [
+    "no denial of care",
+    "no schedule change without staffing authority",
+    "no training reuse without separate grant"
+  ],
+  "known_risks": [
+    "purpose drift",
+    "output capture expansion",
+    "model-version change",
+    "false classification"
+  ],
+  "review": {
+    "authority": "county deployment review board",
+    "cadence": "quarterly"
+  },
+  "status": "authorized"
+}

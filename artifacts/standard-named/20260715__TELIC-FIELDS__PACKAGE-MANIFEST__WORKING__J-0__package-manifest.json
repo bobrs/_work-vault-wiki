@@ -1,0 +1,52 @@
+{
+  "package_id": "20260715__TELIC-FIELDS__PHASE-J0__REFERENCE-IMPLEMENTATION-AND-PILOT-HARNESS__v0-1",
+  "version": "0.1",
+  "stage": "J.0",
+  "profile": "TF-C4",
+  "bounded_extension": "TF-C5 retirement",
+  "scenario": "TF-MVI-1 bounded model-assisted scheduling",
+  "gate_result": "PASS WITH CONDITIONS",
+  "tests": {
+    "tests_run": 7,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "pass": true
+  },
+  "threats": {
+    "detected": 10,
+    "total": 10,
+    "pass": true
+  },
+  "independent_export": {
+    "valid": true,
+    "errors": [],
+    "checksums_verified": 16,
+    "records_validated": 29,
+    "events_verified": 15,
+    "proofs": {
+      "failed_gate": true,
+      "valid_action": true,
+      "consequence_return": true,
+      "correction_propagation": true,
+      "retirement_revocation": true
+    }
+  },
+  "runtime_proofs": {
+    "failed_gate": true,
+    "valid_action": true,
+    "consequence_return": true,
+    "correction_propagation": true,
+    "retirement_revocation": true
+  },
+  "final_state": {
+    "step": "retired",
+    "events": 15,
+    "objects": 29,
+    "tool_credential_active": false,
+    "training_reuse": false,
+    "chain_valid": true
+  },
+  "repository_ingestion_claimed": false,
+  "production_claim": false
+}

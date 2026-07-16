@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deployment-drift-event.schema.json",
+  "title": "DeploymentDriftEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "assembly",
+    "drift_type",
+    "baseline",
+    "observed_change",
+    "affected_centers",
+    "affected_operations",
+    "authority_impact",
+    "consent_impact",
+    "protected_condition_impact",
+    "immediate_response",
+    "reauthorization",
+    "repair",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "drift_type": {
+      "enum": [
+        "purpose_drift",
+        "role_drift",
+        "tool_drift",
+        "data_use_drift",
+        "affected_center_expansion",
+        "provider_drift",
+        "operator_drift",
+        "model_behavior_drift",
+        "policy_drift",
+        "automation_drift",
+        "other"
+      ]
+    },
+    "baseline": {
+      "type": "object"
+    },
+    "observed_change": {
+      "type": "object"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "affected_operations": {
+      "type": "array"
+    },
+    "authority_impact": {
+      "type": "object"
+    },
+    "consent_impact": {
+      "type": "object"
+    },
+    "protected_condition_impact": {
+      "type": "object"
+    },
+    "immediate_response": {
+      "type": "array"
+    },
+    "reauthorization": {
+      "type": "object"
+    },
+    "repair": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "detected",
+        "paused",
+        "under_review",
+        "reauthorized",
+        "repaired",
+        "rejected",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

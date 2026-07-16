@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "event_type": "projection_corrected",
+      "record": "source-correction.json",
+      "recorded_at": "2026-07-15T10:00:00Z"
+    },
+    {
+      "event_type": "correction_propagated",
+      "record": "propagation.json",
+      "recorded_at": "2026-07-15T10:05:30Z"
+    },
+    {
+      "event_type": "protected_omission_verified",
+      "record": "protected-omission-proof.json",
+      "recorded_at": "2026-07-15T11:30:00Z"
+    }
+  ]
+}

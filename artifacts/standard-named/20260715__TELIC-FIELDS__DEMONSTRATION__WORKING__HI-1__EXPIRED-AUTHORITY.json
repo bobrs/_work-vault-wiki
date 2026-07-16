@@ -1,0 +1,33 @@
+{
+  "demonstration_id": "PD-3",
+  "description": "Expired authority remains visible but cannot authorize a new action.",
+  "authority": {
+    "authority_id": "urn:telic:hi1:authority:52a0b3ba-ea99-58a7-8af4-4a5a0125deeb",
+    "holder": "advisor",
+    "operation": "execute",
+    "basis": "delegated_authority",
+    "scope": {
+      "action": "share reviewed summary with named advisor"
+    },
+    "valid_time": {
+      "valid_from": "2026-07-01T00:00:00Z",
+      "valid_to": "2026-07-10T23:59:59Z"
+    },
+    "transaction_time": {
+      "recorded_at": "2026-07-01T00:00:00Z"
+    },
+    "status": "expired",
+    "historically_visible": true
+  },
+  "attempted_action": {
+    "action_id": "urn:telic:hi1:action:5cf6f7e1-b70b-52ee-a79e-14dc41e924f0",
+    "attempted_at": "2026-07-15T11:00:00Z",
+    "requires_authority": "urn:telic:hi1:authority:52a0b3ba-ea99-58a7-8af4-4a5a0125deeb"
+  },
+  "gate": {
+    "temporal_validity": "fail",
+    "authority": "fail",
+    "overall": "fail",
+    "reason": "Authority expired before attempted action."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "witness_id": "urn:telic:hi6:witness:semantic-trails",
+  "witness_version": "1",
+  "scope": {
+    "domain": "HI-6 semantic trail demonstrations"
+  },
+  "source_events": [
+    "hazard-observed",
+    "participant-correction",
+    "service-exit"
+  ],
+  "traces": [
+    "urn:telic:hi6:trace:19808dfc-8f5e-5d5b-981d-e84b3feed3fd",
+    "urn:telic:hi6:trace:9022fff1-d343-5893-8210-996ff642f150",
+    "urn:telic:hi6:trace:c837ca86-985b-5a58-afc4-785a9b175417",
+    "urn:telic:hi6:trace:55aff680-f531-5885-993d-cd19cea718d6",
+    "urn:telic:hi6:trace:36b54f32-61da-51dd-a6d9-cb14b3ac71f6",
+    "urn:telic:hi6:trace:9ef3cd1a-5c00-5e69-83ca-97cae4a51fdf",
+    "urn:telic:hi6:trace:7c218685-c3d0-5d7d-8bbd-462b0974ee9d",
+    "urn:telic:hi6:trace:df8584b2-793c-5a86-9018-69ab45b7558d",
+    "urn:telic:hi6:trace:3ba376ee-6948-57e7-a7ba-1bc2a5bdc22c",
+    "urn:telic:hi6:trace:d77f78fd-ec5c-5d7d-9ae5-c587c9b8ead3"
+  ],
+  "memory_states": [
+    "urn:telic:hi6:memory-state:dca6e36e-163a-50f6-8ff9-2f1b7b5288d7",
+    "urn:telic:hi6:memory-state:8b729db7-e189-5267-8190-2c19f988e47a",
+    "urn:telic:hi6:memory-state:6aab990b-81f0-5c83-a3d2-053a71249ba4",
+    "urn:telic:hi6:memory-state:89d77c84-7f3a-5084-99f5-08db549a8814"
+  ],
+  "retrieval_grants": [
+    "urn:telic:hi6:retrieval-grant:43493c7e-a4eb-5e06-94aa-a395480ebba6"
+  ],
+  "assertions": [
+    "urn:telic:hi6:assertion:54fd0cc4-b1c3-5d96-9ff9-6c9c392be28e",
+    "urn:telic:hi6:assertion:d2d1316b-0ace-52eb-8fc7-65ca8471b98f",
+    "urn:telic:hi6:assertion:16cb07fc-408e-5b03-b4a7-0bf1177c9ca4",
+    "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337"
+  ],
+  "corrections": [
+    "urn:telic:hi6:assertion:e10142d6-43d1-5161-9750-e2625b79c337"
+  ],
+  "salience": [
+    "urn:telic:hi6:salience:low-use-guide"
+  ],
+  "coordination_links": [
+    "urn:telic:hi6:coordination:repair-board"
+  ],
+  "transfers": [
+    "urn:telic:hi6:transfer:appeal-summary"
+  ],
+  "forgetting": [
+    "urn:telic:hi6:forgetting:released-profile"
+  ],
+  "contamination": [
+    "urn:telic:hi6:contamination:stale-renewal"
+  ],
+  "actions": [
+    "alternate stair used",
+    "eligibility record corrected",
+    "stale renewal stopped"
+  ],
+  "consequences": [
+    "hazard avoided",
+    "current eligibility uses correction",
+    "refund issued"
+  ],
+  "completeness": "partial_known_gaps",
+  "generated_from_events": true,
+  "event_ids": [
+    "hi6-event-001",
+    "hi6-event-002",
+    "hi6-event-003",
+    "hi6-event-004",
+    "hi6-event-005",
+    "hi6-event-006",
+    "hi6-event-007",
+    "hi6-event-008"
+  ],
+  "generated_at": "2026-07-15T13:00:00Z"
+}

@@ -1,0 +1,58 @@
+{
+  "profile_id": "urn:telic:hi10:consent-profile:fd4a7926-4c52-5da6-8156-e7e659683740",
+  "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "center_or_group": "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740",
+  "notice": {
+    "ai_use_disclosed": true,
+    "plain_language": true
+  },
+  "consent": {
+    "service_use": true,
+    "cross_session_memory": false,
+    "evaluation_use": false,
+    "training_use": false
+  },
+  "other_authority_basis": {
+    "public_service_operation": "county mandate"
+  },
+  "operations": [
+    "explanation",
+    "translation",
+    "appointment proposal"
+  ],
+  "data_uses": [
+    "current session",
+    "required institutional record after review"
+  ],
+  "output_uses": [
+    "display to participant",
+    "reviewed appointment proposal"
+  ],
+  "alternatives": [
+    "human phone line",
+    "in-person scheduling"
+  ],
+  "refusal": {
+    "may_refuse": [
+      "optional memory",
+      "evaluation",
+      "training"
+    ],
+    "service_effect": "core human alternative remains"
+  },
+  "appeal": {
+    "route": "county patient advocate"
+  },
+  "accessibility": {
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "non-digital_alternative": true
+  },
+  "valid_time": {
+    "valid_from": "2026-07-15T00:00:00Z",
+    "valid_to": "2026-12-31T23:59:59Z"
+  },
+  "status": "active"
+}

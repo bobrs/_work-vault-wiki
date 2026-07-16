@@ -1,0 +1,36 @@
+{
+  "grant_id": "urn:telic:hi6:retrieval-grant:43493c7e-a4eb-5e06-94aa-a395480ebba6",
+  "retriever": "maintenance-routing-system",
+  "trace_scope": {
+    "environment": "north stairwell",
+    "classes": [
+      "active hazard",
+      "repair status"
+    ]
+  },
+  "purpose": "route workers safely and sequence repair",
+  "recipient": "authorized maintenance workers",
+  "operation": "read",
+  "context": {
+    "location": "maintenance dashboard"
+  },
+  "valid_time": {
+    "valid_from": "2026-07-15T08:00:00Z",
+    "valid_to": "2026-07-22T08:00:00Z"
+  },
+  "retention": {
+    "session": "current shift",
+    "persistent": "event witness only"
+  },
+  "downstream_use": {
+    "training": false,
+    "public_disclosure": false
+  },
+  "review": {
+    "authority": "maintenance supervisor"
+  },
+  "withdrawal": {
+    "trigger": "repair completed"
+  },
+  "status": "active"
+}

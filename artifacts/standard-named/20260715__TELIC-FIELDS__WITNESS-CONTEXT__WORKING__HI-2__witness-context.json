@@ -1,0 +1,47 @@
+{
+  "witness_id": "urn:telic:hi2:witness:a2102be2-c5b7-5713-8784-1d125926eb51",
+  "witness_version": "1",
+  "decision_scope": {
+    "domain": "community relief intake redesign",
+    "period": "initial decision"
+  },
+  "source_objects": [
+    "program-charter",
+    "accessibility-policy",
+    "community-interviews",
+    "staff-capacity"
+  ],
+  "operative_projections": [
+    "access-goal",
+    "cost-goal",
+    "speed-goal",
+    "urn:telic:hi2:condition:d2d278e8-dbe7-52f5-8ca7-961e6bb18fec"
+  ],
+  "cost_bearers": [
+    "urn:telic:hi2:cost:88007731-f2ae-583c-ac68-87a84ff1831a",
+    "urn:telic:hi2:cost:0ce3b023-c657-5451-bd5f-5bd7f2f56651",
+    "urn:telic:hi2:cost:56903732-e3c6-556d-b13b-d654333e6f91"
+  ],
+  "decision_rules": [
+    "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332",
+    "urn:telic:hi2:decision-rule:3bcd6aab-f1f5-5667-9f42-a051a5bf841b"
+  ],
+  "dissent": [
+    "Some staff prefer one standardized channel."
+  ],
+  "unresolved": [
+    "Long-term cost of maintaining both channels."
+  ],
+  "authority": [
+    {
+      "holder": "program-director",
+      "operation": "authorize"
+    }
+  ],
+  "actions": [],
+  "consequences": [],
+  "corrections": [],
+  "completeness": "complete_for_scope",
+  "known_gaps": [],
+  "generated_at": "2026-07-15T09:23:00Z"
+}

@@ -1,0 +1,79 @@
+{
+  "demonstration_id": "PD-8",
+  "title": "Temporal breach produces repair and release",
+  "breach_repair": {
+    "breach_id": "urn:telic:hi4:breach:7884c846-9e9f-5e71-b676-a4d905eec741",
+    "breach_type": "stale_projection_breach",
+    "affected_centers": [
+      "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997"
+    ],
+    "source_commitment_or_authority": [
+      "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7"
+    ],
+    "action": "automatic-renewal-and-charge",
+    "consequence": [
+      "unexpected charge",
+      "temporary loss of funds",
+      "trust damage"
+    ],
+    "detected_at": "2026-07-15T13:00:00Z",
+    "repair_options": [
+      "correct_projection",
+      "pause_action",
+      "reopen_option",
+      "release_obligation",
+      "compensate",
+      "document_irreversible_loss"
+    ],
+    "selected_repair": [
+      "correct_projection",
+      "release_obligation",
+      "compensate",
+      "reopen_option"
+    ],
+    "repair_authority": {
+      "holder": "service-provider",
+      "basis": "billing and complaint authority"
+    },
+    "residual_harm": [
+      "time spent contesting charge"
+    ],
+    "status": "partially_repaired",
+    "prior_witness_preserved": true
+  },
+  "commitment_review_release": {
+    "review_id": "urn:telic:hi4:commitment-review:1fee641a-bdbc-5ceb-843c-a99c1b40bd45",
+    "commitment": "subscription-renewal-obligation",
+    "current_context": [
+      "source preference changed",
+      "renewal already charged"
+    ],
+    "changed_conditions": [
+      "projection became stale before renewal"
+    ],
+    "current_standing": [
+      "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997"
+    ],
+    "reliance": [
+      "provider delivered seven days of service"
+    ],
+    "authority_status": "stale",
+    "review_result": "release",
+    "release_effect": {
+      "future_charges": "stopped",
+      "current_charge": "refunded pro rata"
+    },
+    "transition": {
+      "access": "ends after seven paid days",
+      "data": "retained only under policy"
+    },
+    "residual_obligations": [
+      "refund",
+      "correction propagation",
+      "complaint witness"
+    ],
+    "witness": "urn:telic:hi4:witness:c3d6cd53-0104-5a60-80e4-107c54a46736",
+    "reviewed_at": "2026-07-15T14:00:00Z"
+  },
+  "result": "Repair corrects the record, compensates loss, reopens choice, and releases future obligation without erasing the prior action."
+}

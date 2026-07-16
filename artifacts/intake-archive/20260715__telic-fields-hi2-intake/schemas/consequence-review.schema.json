@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "consequence-review.schema.json",
+  "title": "ConsequenceReview",
+  "type": "object",
+  "required": [
+    "review_id",
+    "route",
+    "action",
+    "expected_consequences",
+    "observed_consequences",
+    "affected_centers",
+    "deviations",
+    "new_standing",
+    "new_uncertainties",
+    "recommended_response",
+    "authority",
+    "reviewed_at"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "expected_consequences": {
+      "type": "array"
+    },
+    "observed_consequences": {
+      "type": "array"
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deviations": {
+      "type": "array"
+    },
+    "new_standing": {
+      "type": "array"
+    },
+    "new_uncertainties": {
+      "type": "array"
+    },
+    "recommended_response": {
+      "enum": [
+        "continue",
+        "modify",
+        "pause",
+        "escalate",
+        "fork",
+        "repair",
+        "release",
+        "dissolve"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "supersedes_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "new_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "new_witness_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

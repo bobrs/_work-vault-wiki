@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "temporal_center_id": "urn:telic:hi4:temporal-center:b7b37736-a479-5dfd-8887-ff81adf4ec55",
+      "base_center": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "center_type": "person",
+      "time_position": "present",
+      "valid_time": {
+        "valid_from": "2026-07-15T00:00:00Z",
+        "valid_to": null
+      },
+      "representation_status": "direct",
+      "standing_type": "constitutional",
+      "continuity_claim": "Current embodied and legal person state.",
+      "consent_state": "active",
+      "notes": null
+    },
+    {
+      "temporal_center_id": "urn:telic:hi4:temporal-center:18201acf-866f-59cc-a08e-9fd5dc61667d",
+      "base_center": "urn:telic:hi4:center:f8ce3883-c405-51b5-b7d5-c4f311a54997",
+      "center_type": "person",
+      "time_position": "later",
+      "valid_time": {
+        "valid_from": "2027-01-15T00:00:00Z",
+        "valid_to": null
+      },
+      "representation_status": "projected",
+      "standing_type": "temporal",
+      "continuity_claim": "Later state inherits health, financial, and educational consequences.",
+      "consent_state": "not_available",
+      "notes": "Future standing is represented without future consent."
+    }
+  ]
+}

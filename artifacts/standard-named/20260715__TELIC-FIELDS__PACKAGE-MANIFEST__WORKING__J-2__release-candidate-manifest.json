@@ -1,0 +1,44 @@
+{
+  "package_id": "20260715__TELIC-FIELDS__PHASE-J2__EXTERNAL-REVIEW-MULTI-PARTY-TRIAL-AND-RELEASE-CANDIDATE__v0-1",
+  "phase": "J.2",
+  "version": "0.1.0-rc1",
+  "created_at": "2026-07-15T00:00:00Z",
+  "conformance_claim": {
+    "profile": "TF-C4",
+    "bounded_extension": "selected TF-C5 retirement",
+    "version": "0.1"
+  },
+  "principal_artifacts": [
+    "README.md",
+    "ARCHITECTURE.md",
+    "CONFORMANCE-CLAIM.md",
+    "MULTI-PARTY-TRIAL-REPORT.md",
+    "AUTHENTICATION-AND-SPLIT-CUSTODY.md",
+    "POLICY-MIGRATION-AND-ROLLBACK.md",
+    "NETWORK-QUEUE-FAULT-INJECTION.md",
+    "PRIVACY-REVIEW.md",
+    "ACCESSIBILITY-ASSISTIVE-TECH-REVIEW.md",
+    "RELEASE-CANDIDATE-REPRODUCIBILITY.md",
+    "EXTERNAL-REVIEW-READINESS.md",
+    "DEMO-TRANSCRIPT.md",
+    "SECURITY-AND-THREAT-MODEL.md",
+    "VALIDATION-REPORT.md",
+    "J2-GATE-REVIEW.md"
+  ],
+  "schemas": 21,
+  "automated_tests": 20,
+  "threat_cases": 26,
+  "reference_events": 22,
+  "reference_objects": 68,
+  "exports": [
+    "exports/tf-mvi-1-j2-witness.zip",
+    "exports/telic-fields-j2-rc1.zip"
+  ],
+  "release_digest": "f0febd06257443c6c3915d54fd1cb79f68a8a7dcbaacfaad89d1707f007a6866",
+  "release_threshold": "2-of-3",
+  "external_human_review_complete": false,
+  "production_claim": false,
+  "repository_ingestion_claim": false,
+  "roadmap_metadata_reconciliation_claim": false,
+  "gate_result": "PASS_WITH_CONDITIONS"
+}

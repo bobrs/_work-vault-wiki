@@ -1,0 +1,95 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Generated option enters deliberation without false community authorship",
+  "semantic_output": {
+    "output_id": "urn:telic:hi8:output:2a6b3a43-fba6-556a-bae9-c86f1a0ad8b7",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "role": "route_generator",
+    "output_class": "generated_option",
+    "content": {
+      "route": "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09",
+      "components": [
+        "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+        "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290",
+        "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17"
+      ],
+      "description": "temporary mobile service plus local-practice partnership and renovation review"
+    },
+    "source_inputs": [
+      "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+      "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290",
+      "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+      "patient access concerns",
+      "county reversibility concern"
+    ],
+    "source_status": [
+      "retrieved",
+      "direct",
+      "generated"
+    ],
+    "transformations": [
+      "combined three candidate routes into a portfolio"
+    ],
+    "uncertainty": {
+      "level": "material",
+      "items": [
+        "staffing",
+        "partner capacity"
+      ]
+    },
+    "standing_effect": "none",
+    "authority_effect": "none",
+    "consent_effect": "none",
+    "correction_route": {
+      "recipient": "participants and option-set clerk"
+    },
+    "status": "participant_review"
+  },
+  "generation_witness": {
+    "generation_id": "urn:telic:hi8:generation:145f9ec8-15ac-5710-b668-07a8c5522c97",
+    "source_field": "urn:telic:hi8:field:8ffff5ab-3f59-5bf1-b1a4-84210f619452",
+    "model_instance": "urn:telic:hi8:model:050223d1-b1f4-5364-b89b-de7603b8b046",
+    "requested_operation": "generate reversible combined routes from reviewed concerns",
+    "input_options": [
+      "urn:telic:hi8:route:aaee87e2-a411-51fa-9b52-97152944132d",
+      "urn:telic:hi8:route:696e4633-6ec2-52bf-8e87-4e183e108f17",
+      "urn:telic:hi8:route:b2eb8c05-77eb-51b4-80a9-55e493d0a213",
+      "urn:telic:hi8:route:10465f56-aa2d-5ad2-8529-51b1e1a16290"
+    ],
+    "generated_options": [
+      "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09"
+    ],
+    "combined_options": [
+      "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09"
+    ],
+    "omitted_options": [],
+    "agenda_questions": [
+      "Can local access and renovation review operate together?",
+      "Which hours preserve shift-worker access?"
+    ],
+    "source_of_each_item": {
+      "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09": "model-generated from participant and administrative inputs",
+      "evening-hours question": "minority-field retention profile"
+    },
+    "selection_rules": [
+      "preserve protected access",
+      "prefer reversible transition under uncertainty"
+    ],
+    "participant_review": {
+      "completed": true,
+      "adopted_by": [
+        "county board",
+        "patient representatives"
+      ],
+      "rejected_items": []
+    },
+    "admission_status": {
+      "urn:telic:hi8:route:26e8d6a9-eb96-5590-b3cd-b2f745b14f09": "participant-adopted candidate"
+    },
+    "corrections": [],
+    "status": "reviewed"
+  },
+  "participant_adoption": "participant-adopted candidate",
+  "generation_lineage_preserved": true,
+  "result": "The model expands the option set without claiming the participants originated the route."
+}

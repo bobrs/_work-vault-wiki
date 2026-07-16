@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j1:schema:disclosure-profile:0.1",
+  "title": "DisclosureProfile",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "audience",
+    "included_families",
+    "included_object_ids",
+    "redaction_rules",
+    "commitment_rules",
+    "purpose",
+    "valid_time",
+    "status"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "audience": {
+      "enum": [
+        "participant",
+        "operator",
+        "public",
+        "auditor",
+        "verifier"
+      ]
+    },
+    "included_families": {
+      "type": "array"
+    },
+    "included_object_ids": {
+      "type": "array"
+    },
+    "redaction_rules": {
+      "type": "array"
+    },
+    "commitment_rules": {
+      "type": "array"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "revoked",
+        "expired",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

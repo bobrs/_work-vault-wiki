@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runtime-memory-output-capture-record.schema.json",
+  "title": "RuntimeMemoryOutputCaptureRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "session_or_subject",
+    "input_sources",
+    "runtime_memory",
+    "output_capture",
+    "purpose",
+    "authority",
+    "consent",
+    "retention",
+    "cross_session_use",
+    "cross_subject_use",
+    "training_or_evaluation_use",
+    "export",
+    "correction",
+    "withdrawal",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "session_or_subject": {
+      "type": "string"
+    },
+    "input_sources": {
+      "type": "array"
+    },
+    "runtime_memory": {
+      "type": "object"
+    },
+    "output_capture": {
+      "type": "object"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "consent": {
+      "type": "object"
+    },
+    "retention": {
+      "type": "object"
+    },
+    "cross_session_use": {
+      "type": "object"
+    },
+    "cross_subject_use": {
+      "type": "object"
+    },
+    "training_or_evaluation_use": {
+      "type": "object"
+    },
+    "export": {
+      "type": "object"
+    },
+    "correction": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "conditional",
+        "restricted",
+        "contested",
+        "released",
+        "deleted",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

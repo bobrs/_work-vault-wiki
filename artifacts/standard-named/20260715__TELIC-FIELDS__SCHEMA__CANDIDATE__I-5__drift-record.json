@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "drift-record.schema.json",
+  "title": "DriftRecord",
+  "type": "object",
+  "required": [
+    "drift_id",
+    "dependent_loop",
+    "drift_type",
+    "declared_state",
+    "operative_state",
+    "evidence",
+    "affected_centers",
+    "authority_change",
+    "burden_change",
+    "beneficiary_change",
+    "detected_at",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "drift_id": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "drift_type": {
+      "enum": [
+        "mission_drift",
+        "value_drift",
+        "authority_drift",
+        "beneficiary_drift",
+        "scope_drift",
+        "incentive_drift",
+        "data_use_drift",
+        "risk_drift",
+        "governance_drift",
+        "other"
+      ]
+    },
+    "declared_state": {
+      "type": "object"
+    },
+    "operative_state": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority_change": {
+      "type": "object"
+    },
+    "burden_change": {
+      "type": "object"
+    },
+    "beneficiary_change": {
+      "type": "object"
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "confirmed",
+        "contested",
+        "correcting",
+        "reauthorized",
+        "forking",
+        "released",
+        "dissolved"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

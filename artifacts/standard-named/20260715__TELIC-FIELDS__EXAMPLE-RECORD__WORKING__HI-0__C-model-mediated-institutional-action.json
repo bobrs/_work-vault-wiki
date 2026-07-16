@@ -1,0 +1,168 @@
+{
+  "example_id": "hi0-example-c",
+  "title": "Model-mediated institutional action",
+  "centers": [
+    {
+      "center_id": "applicant",
+      "center_type": "person",
+      "standing_type": "constitutional",
+      "representation_status": "direct"
+    },
+    {
+      "center_id": "nonprofit",
+      "center_type": "institution",
+      "standing_type": "operational",
+      "representation_status": "direct"
+    },
+    {
+      "center_id": "program-officer",
+      "center_type": "role",
+      "standing_type": "operational",
+      "representation_status": "direct"
+    }
+  ],
+  "model_role": {
+    "model_instance": "assistance-model-v3",
+    "assigned_roles": [
+      "retrieve",
+      "extract",
+      "structure",
+      "compare",
+      "recommend",
+      "witness"
+    ],
+    "allowed_inputs": [
+      "application-records",
+      "policy-4.2",
+      "corrections"
+    ],
+    "allowed_outputs": [
+      "internal-comparison",
+      "draft-notice",
+      "witness-record"
+    ],
+    "allowed_tools": [
+      "create_internal_draft"
+    ],
+    "prohibited_actions": [
+      "adjudicate_by_default",
+      "send_denial",
+      "change_source_record",
+      "infer_consent"
+    ],
+    "confirmation_required": [
+      "external_notice"
+    ],
+    "execution_authority": null,
+    "review_authority": {
+      "role": "program-officer"
+    },
+    "stop_conditions": [
+      "active correction unresolved",
+      "missing policy authority",
+      "source conflict"
+    ],
+    "role_version": "hi0-role-0.1"
+  },
+  "active_context": {
+    "context_selection_id": "ctx-c1",
+    "operation_id": "eligibility-review-c1",
+    "included_sources": [
+      "income-record",
+      "policy-4.2",
+      "correction-transfer-nonrecurring"
+    ],
+    "selection_rule": "relevance plus active-correction priority",
+    "known_gaps": [],
+    "selected_at": "2026-07-15T14:00:00Z"
+  },
+  "model_mirror": {
+    "mirror_id": "mirror-c1",
+    "receiver": "assistance-model-v3",
+    "based_on": [
+      "income-record",
+      "correction-transfer-nonrecurring"
+    ],
+    "interpretation": "Applicant appears over threshold if the temporary transfer is counted",
+    "epistemic_status": "contested",
+    "participant_recognition": "not_requested"
+  },
+  "selected_route": {
+    "route_id": "route-c-review",
+    "source": "assistance-model-v3",
+    "sequence": [
+      "prepare source-linked comparison",
+      "officer review",
+      "pause external action",
+      "authorize outcome",
+      "draft notice"
+    ],
+    "beneficiaries": [
+      "applicant",
+      "nonprofit"
+    ],
+    "cost_bearers": [
+      "program-officer"
+    ],
+    "protected_conditions": [
+      "housing-security",
+      "appeal-rights"
+    ],
+    "uncertainties": [
+      "whether transfer is recurring"
+    ],
+    "reversibility": {
+      "level": "high_before_notice",
+      "pause": true
+    },
+    "required_authority": [
+      "program-officer"
+    ],
+    "required_consent": [],
+    "review_triggers": [
+      "officer determination"
+    ],
+    "exit": {
+      "route": "escalate to program director"
+    },
+    "route_type": "action"
+  },
+  "gate": {
+    "gate_id": "gate-c1",
+    "route_id": "route-c-review",
+    "results": {
+      "standing": "pass",
+      "authority": "pass_with_conditions",
+      "consent": "pass",
+      "capacity": "pass",
+      "privacy": "pass",
+      "temporal_validity": "pass",
+      "tool_use": "pass",
+      "human_reentry": "pass",
+      "stop": "pass"
+    },
+    "overall_result": "pass_with_conditions",
+    "conditions": [
+      "program officer must decide disputed income classification"
+    ],
+    "evaluated_at": "2026-07-15T14:05:00Z",
+    "rule_version": "hi0-0.1"
+  },
+  "authorized_action": {
+    "action_id": "action-c1",
+    "route": "route-c-review",
+    "proposed_by": "assistance-model-v3",
+    "authorized_by": "program-officer",
+    "executed_by": "notification-service",
+    "authority_basis": "program mandate and officer role",
+    "tool": "send-approved-notice",
+    "reversibility": {
+      "notice_correctable": true
+    },
+    "executed_at": "2026-07-15T14:30:00Z"
+  },
+  "outcome": {
+    "decision": "approved",
+    "controlling_interpretation": "temporary transfer is nonrecurring"
+  }
+}

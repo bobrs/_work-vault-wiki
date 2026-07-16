@@ -1,0 +1,54 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Correction and restriction propagate into derivative models",
+  "propagation_record": {
+    "propagation_id": "urn:telic:hi9:propagation:35334f78-18ab-5250-a53d-677f57a9a11b",
+    "source_change": {
+      "type": "correction_and_restriction",
+      "description": "community phrase previously classified as public slogan is restricted ceremonial language"
+    },
+    "origin_record": "urn:telic:hi9:standing:5cac8a03-d373-571d-9981-13cb9649adad",
+    "affected_datasets": [
+      "urn:telic:hi9:dataset:521b1343-2041-52f2-b6d9-88a6463032e1",
+      "urn:telic:hi9:dataset:6edd0cd6-bcc6-57e6-a4e4-1acfffd0ab42",
+      "urn:telic:hi9:dataset:082a17df-ef72-5b0d-83f2-b5307bbfec65"
+    ],
+    "affected_models": [
+      "urn:telic:hi9:model:3b7208b9-58ad-5eb2-8d4c-0659e438d7c4",
+      "urn:telic:hi9:model:2fc297a0-ae79-56ae-a5f6-06eb162c3858"
+    ],
+    "affected_deployments": [
+      "community civic assistant",
+      "provider evaluation sandbox"
+    ],
+    "propagation_rules": [
+      "remove phrase from active training set",
+      "block runtime generation",
+      "update source class",
+      "carry restriction to derivatives"
+    ],
+    "performed_changes": [
+      "dataset records corrected",
+      "synthetic generator filter updated",
+      "base model runtime block added",
+      "derivative model profile updated"
+    ],
+    "unreachable_descendants": [
+      "archived external evaluation copy"
+    ],
+    "verification": {
+      "dataset_check": true,
+      "runtime_check": true,
+      "derivative_profile_check": true
+    },
+    "residual_risk": [
+      "memorized paraphrase may remain"
+    ],
+    "status": "partial"
+  },
+  "base_model_updated": true,
+  "derivative_model_updated": true,
+  "runtime_policy_updated": true,
+  "known_gap_preserved": true,
+  "result": "The obligation travels beyond the source dataset into known model and deployment descendants."
+}

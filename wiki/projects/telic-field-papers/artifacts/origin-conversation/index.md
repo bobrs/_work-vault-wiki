@@ -10,20 +10,23 @@ Content canon status: unset
 ## Source artifact
 
 - Standard-named source: [20260713__TELIC-FIELDS__TRANSCRIPT__SOURCE__ORIGIN-SESSION__from-attractors-to-semantic-polytelometry.md](../../../../../artifacts/standard-named/20260713__TELIC-FIELDS__TRANSCRIPT__SOURCE__ORIGIN-SESSION__from-attractors-to-semantic-polytelometry.md)
-- Inbound original: use the manifest-recorded intake path
-- Artifact ID: use the installed manifest record
-- Content hash: use the installed manifest record
-- Date: 2026-07-13
+- Inbound archive copy: [20260713__TELIC-FIELDS__TRANSCRIPT__SOURCE__ORIGIN-SESSION__from-attractors-to-semantic-polytelometry.md](../../../../../artifacts/intake-archive/20260715__telic-fields-origin-export-intake/20260713__TELIC-FIELDS__TRANSCRIPT__SOURCE__ORIGIN-SESSION__from-attractors-to-semantic-polytelometry.md)
+- Raw export reference: [SOURCE-EXPORT-REFERENCE.md](../../../../../artifacts/intake-archive/20260715__telic-fields-origin-export-intake/SOURCE-EXPORT-REFERENCE.md)
+- Artifact ID: `sha256:e3e235f14f149a5931722ecaf603d70a6082b0d8a39922b53f93c7dfa9b148d4`
+- Content hash: `e3e235f14f149a5931722ecaf603d70a6082b0d8a39922b53f93c7dfa9b148d4`
+- Date: 2026-07-12
 
 The manifest is authoritative for the exact original filename, inbound path, hash, and artifact identity.
 
 ## Working read
 
-This conversation is the primary provenance record for the emergence of the Telic Field Papers.
+This conversation is the primary provenance record for the emergence of the Telic Field Papers. It is the exact user-visible root segment recovered from the ChatGPT export, ending immediately before the Step 2 continuation prompt.
 
 It begins with a question about whether attractors are fundamentally teleological and moves through declared and operative teloi, polytelometric navigation, semantic fields, local telic fields, dyadic composition, simplified telic projections, constitutional selves, context carrying capacity, temporal standing, semantic polytelometry, and the requirement for open consentfully trained models.
 
 The value of the transcript is not only the resulting terminology. It preserves the order of discovery, hesitation, correction, uncertainty, personal examples, and the points where the user identified a new fork before the language for it was stable.
+
+The raw export remains local/private because it contains internal and tool-execution material. This public repository record preserves only user-visible user and assistant text.
 
 ## Core movement
 

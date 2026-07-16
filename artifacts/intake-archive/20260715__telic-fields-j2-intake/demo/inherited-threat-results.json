@@ -1,0 +1,23 @@
+{
+  "detected": 16,
+  "total": 16,
+  "results": {
+    "T1-source-laundering": true,
+    "T2-standing-exclusion": true,
+    "T3-context-collapse": true,
+    "T4-authority-laundering": true,
+    "T5-consent-expansion": true,
+    "T6-model-role-escalation": true,
+    "T7-tool-token-overreach": true,
+    "T8-correction-suppression": true,
+    "T9-witness-capture": true,
+    "T10-lifecycle-obligation-loss": true,
+    "T11-policy-downgrade": true,
+    "T12-stale-context-execution": true,
+    "T13-revoked-key-reuse": true,
+    "T14-selective-disclosure-leak": true,
+    "T15-partial-tool-failure-hidden": true,
+    "T16-concurrent-stale-object-write": true
+  },
+  "pass": true
+}

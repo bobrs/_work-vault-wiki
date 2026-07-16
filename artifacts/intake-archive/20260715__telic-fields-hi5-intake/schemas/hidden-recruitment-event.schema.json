@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hidden-recruitment-event.schema.json",
+  "title": "HiddenRecruitmentEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "dependent_loop",
+    "supporting_loop",
+    "contribution",
+    "claimed_basis",
+    "actual_basis",
+    "scope_difference",
+    "burden",
+    "detected_at",
+    "immediate_response",
+    "repair",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "dependent_loop": {
+      "type": "string"
+    },
+    "supporting_loop": {
+      "type": "string"
+    },
+    "contribution": {
+      "type": "string"
+    },
+    "claimed_basis": {
+      "type": "string"
+    },
+    "actual_basis": {
+      "type": "string"
+    },
+    "scope_difference": {
+      "type": "object"
+    },
+    "burden": {
+      "type": "array"
+    },
+    "detected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "immediate_response": {
+      "type": "array",
+      "minItems": 1
+    },
+    "repair": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "detected",
+        "paused",
+        "under_review",
+        "repaired",
+        "partially_repaired",
+        "released",
+        "dissolved",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

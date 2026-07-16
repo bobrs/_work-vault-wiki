@@ -1,0 +1,59 @@
+{
+  "record_id": "urn:telic:hi10:memory:77bf5381-5cc2-53b5-8d0d-6b915c8f925a",
+  "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+  "session_or_subject": "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740",
+  "input_sources": [
+    "participant statements",
+    "clinic availability",
+    "reviewed county notices"
+  ],
+  "runtime_memory": {
+    "session_only": true,
+    "cross_session_saved_preferences": []
+  },
+  "output_capture": {
+    "captured": [
+      "reviewed appointment proposal"
+    ],
+    "not_captured": [
+      "draft dialogue",
+      "model chain or hidden state"
+    ]
+  },
+  "purpose": "deliver and document clinic access service",
+  "authority": {
+    "institutional_record": "county mandate",
+    "optional_data": "participant consent required"
+  },
+  "consent": {
+    "service": true,
+    "evaluation": false,
+    "training": false
+  },
+  "retention": {
+    "session_context": "delete at close",
+    "reviewed proposal": "institutional schedule retention"
+  },
+  "cross_session_use": {
+    "allowed": false
+  },
+  "cross_subject_use": {
+    "allowed": false
+  },
+  "training_or_evaluation_use": {
+    "evaluation": false,
+    "training": false
+  },
+  "export": {
+    "allowed": "reviewed institutional record only"
+  },
+  "correction": {
+    "route": "participant or county records office",
+    "propagation": "active profile and institutional record"
+  },
+  "withdrawal": {
+    "optional_memory": "immediate",
+    "institutional_record": "governed retention and correction"
+  },
+  "status": "active"
+}

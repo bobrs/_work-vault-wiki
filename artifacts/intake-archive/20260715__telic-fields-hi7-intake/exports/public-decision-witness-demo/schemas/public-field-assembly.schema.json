@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "public-field-assembly.schema.json",
+  "title": "PublicFieldAssembly",
+  "type": "object",
+  "required": [
+    "assembly_id",
+    "decision_question",
+    "convening_authority",
+    "jurisdiction",
+    "time_scope",
+    "affected_centers",
+    "represented_centers",
+    "missing_centers",
+    "known_teloi",
+    "protected_conditions",
+    "uncertainties",
+    "dependencies",
+    "decision_deadline",
+    "correction_route",
+    "status"
+  ],
+  "properties": {
+    "assembly_id": {
+      "type": "string"
+    },
+    "decision_question": {
+      "type": "string"
+    },
+    "convening_authority": {
+      "type": "object"
+    },
+    "jurisdiction": {
+      "type": "object"
+    },
+    "time_scope": {
+      "type": "object"
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "represented_centers": {
+      "type": "array"
+    },
+    "missing_centers": {
+      "type": "array"
+    },
+    "known_teloi": {
+      "type": "array"
+    },
+    "protected_conditions": {
+      "type": "array"
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "dependencies": {
+      "type": "array"
+    },
+    "decision_deadline": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "correction_route": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "open",
+        "partial",
+        "ready_for_deliberation",
+        "contested",
+        "paused",
+        "closed",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

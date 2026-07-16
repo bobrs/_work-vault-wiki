@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:hi-s:schema:lifecycle-transfer-residual:0.1",
+  "title": "LifecycleTransferResidual",
+  "type": "object",
+  "required": [
+    "id",
+    "lifecycle_operation",
+    "subject",
+    "prior_state",
+    "successor_state",
+    "effective_time",
+    "transferred_assets",
+    "transferred_authority",
+    "nontransferable_authority",
+    "open_obligations",
+    "residual_state",
+    "verification",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "lifecycle_operation": {
+      "enum": [
+        "release",
+        "withdrawal",
+        "revocation",
+        "expiry",
+        "fork",
+        "succession",
+        "transfer",
+        "dissolution",
+        "retirement",
+        "deletion",
+        "unlearning",
+        "rollback"
+      ]
+    },
+    "subject": {
+      "type": "string"
+    },
+    "prior_state": {
+      "type": "object"
+    },
+    "successor_state": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "effective_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "transferred_assets": {
+      "type": "array"
+    },
+    "transferred_authority": {
+      "type": "array"
+    },
+    "nontransferable_authority": {
+      "type": "array"
+    },
+    "open_obligations": {
+      "type": "array"
+    },
+    "residual_state": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "active",
+        "partial",
+        "completed",
+        "failed",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

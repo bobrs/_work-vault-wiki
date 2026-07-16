@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-version-succession-retirement-record.schema.json",
+  "title": "ModelVersionSuccessionRetirementRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "prior_model_version",
+    "successor_model_version",
+    "change_type",
+    "reason",
+    "capability_changes",
+    "behavior_changes",
+    "policy_changes",
+    "authority_review",
+    "consent_and_notice_review",
+    "compatibility",
+    "migration",
+    "rollback",
+    "retirement",
+    "residual_state",
+    "open_obligations",
+    "verification",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "prior_model_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "successor_model_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "change_type": {
+      "enum": [
+        "patch",
+        "model_update",
+        "model_replacement",
+        "fine_tune_change",
+        "provider_model_swap",
+        "rollback",
+        "suspension",
+        "retirement",
+        "shutdown",
+        "other"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "capability_changes": {
+      "type": "array"
+    },
+    "behavior_changes": {
+      "type": "array"
+    },
+    "policy_changes": {
+      "type": "array"
+    },
+    "authority_review": {
+      "type": "object"
+    },
+    "consent_and_notice_review": {
+      "type": "object"
+    },
+    "compatibility": {
+      "type": "object"
+    },
+    "migration": {
+      "type": "object"
+    },
+    "rollback": {
+      "type": "object"
+    },
+    "retirement": {
+      "type": "object"
+    },
+    "residual_state": {
+      "type": "object"
+    },
+    "open_obligations": {
+      "type": "array"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "completed",
+        "rolled_back",
+        "suspended",
+        "retired",
+        "shutdown",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

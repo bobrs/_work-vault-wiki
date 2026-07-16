@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:hi-s:schema:event-witness-contest-repair:0.1",
+  "title": "EventWitnessContestRepair",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "subject",
+    "actor",
+    "valid_time",
+    "recorded_time",
+    "source_references",
+    "authority_reference",
+    "scope",
+    "prior_state",
+    "new_state",
+    "affected_centers",
+    "descendant_impact",
+    "witness",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "observed",
+        "asserted",
+        "projected",
+        "inferred",
+        "generated",
+        "retrieved",
+        "admitted",
+        "authorized",
+        "consented",
+        "refused",
+        "abstained",
+        "gated",
+        "acted",
+        "consequence_observed",
+        "contested",
+        "corrected",
+        "repaired",
+        "released",
+        "withdrawn",
+        "transferred",
+        "succeeded",
+        "forked",
+        "dissolved",
+        "retired"
+      ]
+    },
+    "subject": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "valid_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "recorded_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_references": {
+      "type": "array"
+    },
+    "authority_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scope": {
+      "type": "object"
+    },
+    "prior_state": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "new_state": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "affected_centers": {
+      "type": "array"
+    },
+    "descendant_impact": {
+      "type": "array"
+    },
+    "contest": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "correction": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "repair": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "witness": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "partial",
+        "contested",
+        "corrected",
+        "repaired",
+        "released",
+        "closed",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

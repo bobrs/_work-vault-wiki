@@ -1,0 +1,58 @@
+{
+  "witness_id": "urn:telic:hi7:witness:ce7feec4-f741-5057-9890-1d15c33e28b9",
+  "witness_version": "1",
+  "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+  "standing_records": [
+    "urn:telic:hi7:admission:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+    "urn:telic:hi7:admission:2fcc6ab4-0d85-5046-a0b9-daa6a78ee75c"
+  ],
+  "option_set": "urn:telic:hi7:option-set:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "protected_conditions": [
+    "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8"
+  ],
+  "deliberative_assertions": [
+    "urn:telic:hi7:assertion:9e3aa383-50e9-5fda-b835-221a36daafb7",
+    "urn:telic:hi7:assertion:06f73fc9-d3b9-51f7-8ecb-44e855756a5b",
+    "urn:telic:hi7:assertion:273e18a9-325c-5e7f-bdde-85487de7b29f"
+  ],
+  "corrections": [
+    "urn:telic:hi7:assertion:273e18a9-325c-5e7f-bdde-85487de7b29f"
+  ],
+  "decision_rule_portfolio": "urn:telic:hi7:method-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "route_portfolio": "urn:telic:hi7:route-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "selected_action": "implement temporary access portfolio and defer permanent facility commitment",
+  "authority": {
+    "holder": "urn:telic:hi7:center:ddce569c-9e0f-5797-aada-fba4374b386e",
+    "operation": "implement county health services"
+  },
+  "cost_delay_map": "urn:telic:hi7:cost-map:30dbc007-1f00-5f11-b450-05b8304551cc",
+  "dissent": [
+    "urn:telic:hi7:dissent:9e3aa383-50e9-5fda-b835-221a36daafb7"
+  ],
+  "abstention_or_no_decision": [
+    "urn:telic:hi7:no-decision:993e46fd-e29f-56bd-9a57-2225ead8e669"
+  ],
+  "implementation_conditions": [
+    "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8",
+    "ninety-day public review"
+  ],
+  "review_triggers": [
+    "east utilization below 70 percent",
+    "protected condition breach",
+    "engineering report complete"
+  ],
+  "event_ids": [
+    "hi7-event-001",
+    "hi7-event-002",
+    "hi7-event-003",
+    "hi7-event-004",
+    "hi7-event-005",
+    "hi7-event-006",
+    "hi7-event-007",
+    "hi7-event-008",
+    "hi7-event-009"
+  ],
+  "completeness": "partial_known_gaps",
+  "generated_from_events": true,
+  "generated_at": "2026-07-22T18:00:00Z"
+}

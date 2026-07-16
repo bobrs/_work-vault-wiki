@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "retrieval-authority-grant.schema.json",
+  "title": "RetrievalAuthorityGrant",
+  "type": "object",
+  "required": [
+    "grant_id",
+    "retriever",
+    "trace_scope",
+    "purpose",
+    "recipient",
+    "operation",
+    "context",
+    "valid_time",
+    "retention",
+    "downstream_use",
+    "review",
+    "withdrawal",
+    "status"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string"
+    },
+    "retriever": {
+      "type": "string"
+    },
+    "trace_scope": {
+      "type": "object"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "operation": {
+      "enum": [
+        "search",
+        "read",
+        "summarize",
+        "compare",
+        "recommend",
+        "train",
+        "export",
+        "disclose",
+        "act",
+        "other"
+      ]
+    },
+    "context": {
+      "type": "object"
+    },
+    "valid_time": {
+      "type": "object"
+    },
+    "retention": {
+      "type": "object"
+    },
+    "downstream_use": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "withdrawal": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "stale",
+        "expired",
+        "withdrawn",
+        "superseded",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,38 @@
+{
+  "demonstration_id": "PD-7",
+  "title": "Model recommendation remains recommendation",
+  "recommendation": {
+    "recommendation_id": "urn:telic:hi2:recommendation:d784bb94-b9f4-50bf-bbe9-9a97a9f95ac3",
+    "model_instance": "planning-model-v1",
+    "assigned_role": "recommend",
+    "based_on": [
+      "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+      "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+      "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332"
+    ],
+    "recommended_route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "alternatives": [
+      "urn:telic:hi2:route:1e9f1110-ca44-55ac-a316-ed519c459929",
+      "urn:telic:hi2:route:8b779c54-adb6-52b2-b515-f5aa082dc813"
+    ],
+    "decision_rule": "urn:telic:hi2:decision-rule:52131234-9d6a-5fcd-8757-0a7df8cc1332",
+    "uncertainty": {
+      "known": "offline applicant abandonment rate is unknown",
+      "confidence": "moderate"
+    },
+    "authority": {
+      "recommendation": true,
+      "authorization": false,
+      "execution": false
+    },
+    "status": "active",
+    "generated_at": "2026-07-15T09:03:00Z"
+  },
+  "execution_attempt": {
+    "route": "urn:telic:hi2:route:ae04caed-542c-5063-9c57-f0655ccd3415",
+    "authorized": false,
+    "executed": false,
+    "reason": "Separate authorization and governance gate required."
+  },
+  "result": "The model's recommendation has no authorization or execution authority."
+}

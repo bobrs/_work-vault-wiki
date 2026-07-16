@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "model-mediated-decision-witness.schema.json",
+  "title": "ModelMediatedDecisionWitness",
+  "type": "object",
+  "required": [
+    "witness_id",
+    "source_field",
+    "model_ledgers",
+    "field_maps",
+    "summaries",
+    "generated_options",
+    "minority_retention",
+    "sycophancy_events",
+    "provider_disclosures",
+    "model_disagreements",
+    "tool_boundaries",
+    "corrections_refusals",
+    "selected_routes",
+    "actions",
+    "consequences",
+    "standing_effect",
+    "authority_effect",
+    "event_ids",
+    "completeness",
+    "generated_from_events",
+    "generated_at"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string"
+    },
+    "witness_version": {
+      "type": "string"
+    },
+    "source_field": {
+      "type": "string"
+    },
+    "model_ledgers": {
+      "type": "array"
+    },
+    "field_maps": {
+      "type": "array"
+    },
+    "summaries": {
+      "type": "array"
+    },
+    "generated_options": {
+      "type": "array"
+    },
+    "minority_retention": {
+      "type": "array"
+    },
+    "sycophancy_events": {
+      "type": "array"
+    },
+    "provider_disclosures": {
+      "type": "array"
+    },
+    "model_disagreements": {
+      "type": "array"
+    },
+    "tool_boundaries": {
+      "type": "array"
+    },
+    "corrections_refusals": {
+      "type": "array"
+    },
+    "selected_routes": {
+      "type": "array"
+    },
+    "actions": {
+      "type": "array"
+    },
+    "consequences": {
+      "type": "array"
+    },
+    "standing_effect": {
+      "const": "none"
+    },
+    "authority_effect": {
+      "const": "none"
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1
+    },
+    "completeness": {
+      "enum": [
+        "complete_for_scope",
+        "partial_known_gaps",
+        "partial_unknown_gaps",
+        "contested"
+      ]
+    },
+    "generated_from_events": {
+      "const": true
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

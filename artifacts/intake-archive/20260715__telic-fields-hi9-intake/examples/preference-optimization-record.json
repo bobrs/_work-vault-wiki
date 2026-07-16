@@ -1,0 +1,42 @@
+{
+  "optimization_id": "urn:telic:hi9:optimization:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+  "model_lineage": "urn:telic:hi9:model-lineage:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+  "optimization_family": "dpo",
+  "input_data": [
+    "urn:telic:hi9:dataset:2afa32da-43c6-50bc-a857-6bca871834ff"
+  ],
+  "preference_sources": [
+    "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff"
+  ],
+  "aggregation_method": {
+    "method": "pairwise preference aggregation",
+    "majority_rule": "used for gradient target",
+    "minority_rationales": "retained for audit and evaluation"
+  },
+  "disagreement_treatment": {
+    "collapsed_for_step": true,
+    "preserved_in_record": true,
+    "high-materiality_minority": "separate evaluation set"
+  },
+  "objective": {
+    "target": "improve standing-preserving civic responses"
+  },
+  "constraints": [
+    "community restrictions",
+    "no consent inference",
+    "tool-action boundary"
+  ],
+  "provider_role": {
+    "selects optimization parameters": true,
+    "public_authority": false
+  },
+  "evaluation": {
+    "human_review": true,
+    "community_review": true
+  },
+  "known_biases": [
+    "annotator language and task framing",
+    "provider-selected candidate responses"
+  ],
+  "status": "complete"
+}

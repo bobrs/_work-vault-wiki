@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cost-bearer-record.schema.json",
+  "title": "CostBearerRecord",
+  "type": "object",
+  "required": [
+    "cost_record_id",
+    "route",
+    "center",
+    "cost_class",
+    "estimate",
+    "evidence",
+    "uncertainty",
+    "reversibility",
+    "represented",
+    "authority_or_consent_relation"
+  ],
+  "properties": {
+    "cost_record_id": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "center": {
+      "type": "string"
+    },
+    "cost_class": {
+      "enum": [
+        "financial",
+        "labor",
+        "time",
+        "privacy",
+        "surveillance",
+        "safety",
+        "health",
+        "opportunity",
+        "reputation",
+        "lock_in",
+        "repair",
+        "uncertainty",
+        "future_option_loss",
+        "environmental",
+        "institutional",
+        "community"
+      ]
+    },
+    "estimate": {},
+    "evidence": {
+      "type": "array"
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "represented": {
+      "type": "boolean"
+    },
+    "authority_or_consent_relation": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

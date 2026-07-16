@@ -1,0 +1,51 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Purpose drift pauses operation and triggers reauthorization",
+  "drift_event": {
+    "event_id": "urn:telic:hi10:drift:ccb208d9-8040-5839-b0c6-664d8dea0540",
+    "assembly": "urn:telic:hi10:assembly:f47e5f63-1861-55a7-b618-d1d1a8eb202f",
+    "drift_type": "purpose_drift",
+    "baseline": {
+      "purpose": "explain and prepare appointment proposals"
+    },
+    "observed_change": {
+      "requested": "determine eligibility for transport assistance and deny incomplete cases"
+    },
+    "affected_centers": [
+      "urn:telic:hi10:center:1fe1692c-53ef-525e-9a46-76f34936b4c4",
+      "urn:telic:hi10:center:fd4a7926-4c52-5da6-8156-e7e659683740"
+    ],
+    "affected_operations": [
+      "eligibility classification",
+      "benefit denial"
+    ],
+    "authority_impact": {
+      "current_grant_covers": false
+    },
+    "consent_impact": {
+      "new_consequence_requires_review": true
+    },
+    "protected_condition_impact": {
+      "risk": "wrongful denial and inaccessible appeal"
+    },
+    "immediate_response": [
+      "pause new operation",
+      "retain assistance-only mode"
+    ],
+    "reauthorization": {
+      "required": true,
+      "standing_review": true,
+      "appeal_design": true
+    },
+    "repair": [
+      "update role and tool controls",
+      "notify operator requestor"
+    ],
+    "status": "paused"
+  },
+  "baseline_operation": "explain and propose",
+  "expanded_operation": "classify and deny",
+  "continued_under_old_grant": false,
+  "reauthorization_required": true,
+  "result": "Operational convenience does not silently expand authority."
+}

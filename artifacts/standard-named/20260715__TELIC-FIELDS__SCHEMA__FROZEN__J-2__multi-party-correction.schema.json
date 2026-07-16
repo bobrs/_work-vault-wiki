@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:multi-party-correction:0.1",
+  "title": "MultiPartyCorrection",
+  "type": "object",
+  "required": [
+    "correction_id",
+    "session_id",
+    "participants",
+    "corrections",
+    "known_descendants",
+    "updated_descendants",
+    "unreachable_descendants",
+    "complete_for_scope",
+    "status"
+  ],
+  "properties": {
+    "correction_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "participants": {
+      "type": "array",
+      "minItems": 2
+    },
+    "corrections": {
+      "type": "array",
+      "minItems": 2
+    },
+    "known_descendants": {
+      "type": "array"
+    },
+    "updated_descendants": {
+      "type": "array"
+    },
+    "unreachable_descendants": {
+      "type": "array"
+    },
+    "complete_for_scope": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "partial",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

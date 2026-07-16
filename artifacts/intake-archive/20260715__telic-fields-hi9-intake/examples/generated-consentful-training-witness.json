@@ -1,0 +1,63 @@
+{
+  "witness_id": "urn:telic:hi9:witness:b9963a15-c39b-5fbb-8a31-7f9b878c7a2d",
+  "witness_version": "1",
+  "model_lineage": "urn:telic:hi9:model-lineage:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+  "source_standing_records": [
+    "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "urn:telic:hi9:standing:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+    "urn:telic:hi9:standing:5cac8a03-d373-571d-9981-13cb9649adad"
+  ],
+  "collection_authorizations": [
+    "urn:telic:hi9:collection:d7f53ef0-2723-5d92-ad06-c699f1feb264",
+    "urn:telic:hi9:collection:6f6b9ac1-8d20-50a0-a39c-109bde0f2ef9",
+    "urn:telic:hi9:collection:5cac8a03-d373-571d-9981-13cb9649adad"
+  ],
+  "authority_consent_profiles": [
+    "urn:telic:hi9:authority-profile:4a66419f-dd9b-5885-b6d6-0c9692f2168e"
+  ],
+  "transformation_lineages": [
+    "urn:telic:hi9:transformation:4a66419f-dd9b-5885-b6d6-0c9692f2168e"
+  ],
+  "annotation_preference_records": [
+    "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff"
+  ],
+  "constitution_lineages": [
+    "urn:telic:hi9:constitution:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a"
+  ],
+  "optimization_records": [
+    "urn:telic:hi9:optimization:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a"
+  ],
+  "synthetic_ancestry": [
+    "urn:telic:hi9:synthetic-ancestry:88fec433-3c88-516e-aa89-87b65f63d707"
+  ],
+  "withdrawal_unlearning_records": [
+    "urn:telic:hi9:withdrawal:459be988-84eb-54a6-9142-3a7e5dca108b"
+  ],
+  "derivative_propagations": [
+    "urn:telic:hi9:propagation:35334f78-18ab-5250-a53d-677f57a9a11b"
+  ],
+  "benefit_records": [
+    "urn:telic:hi9:benefit:67b5362a-e443-513c-bbd5-f1d275e8710b"
+  ],
+  "unknowns": [
+    "public-crawl source rights unresolved",
+    "one offline research checkpoint unreachable"
+  ],
+  "contests": [],
+  "lineage_classification": "mixed_authority",
+  "event_ids": [
+    "hi9-event-001",
+    "hi9-event-002",
+    "hi9-event-003",
+    "hi9-event-004",
+    "hi9-event-005",
+    "hi9-event-006",
+    "hi9-event-007",
+    "hi9-event-008",
+    "hi9-event-009",
+    "hi9-event-010"
+  ],
+  "completeness": "partial_known_gaps",
+  "generated_from_events": true,
+  "generated_at": "2026-07-15T22:00:00Z"
+}

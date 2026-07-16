@@ -1,0 +1,97 @@
+{
+  "NC-1-token-count-sufficiency": {
+    "instance": {
+      "token_count": 120000,
+      "standing_review": false,
+      "declared_adequate": true
+    },
+    "expected": "fail"
+  },
+  "NC-2-fluent-authority-persistence": {
+    "instance": {
+      "capacity_failed": true,
+      "fluent_output": true,
+      "execution_authority_retained": true
+    },
+    "expected": "fail"
+  },
+  "NC-3-privacy-as-deficit": {
+    "instance": {
+      "valid_omission_proof": true,
+      "unnecessary_disclosure_requested": true
+    },
+    "expected": "fail"
+  },
+  "NC-4-participant-burden-blindness": {
+    "instance": {
+      "participant_overloaded": true,
+      "full_review_required": true,
+      "silence_treated_as_agreement": true
+    },
+    "expected": "fail"
+  },
+  "NC-5-missing-correction": {
+    "instance": {
+      "active_correction_exists": true,
+      "retrieved": false,
+      "action_continues": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-composite-score-concealment": {
+    "instance": {
+      "composite_score": 0.94,
+      "stop_capacity": "insufficient",
+      "declared_adequate": true
+    },
+    "expected": "fail"
+  },
+  "NC-7-escalation-by-hierarchy-only": {
+    "instance": {
+      "target_higher_status": true,
+      "competence_verified": false,
+      "return_path": null
+    },
+    "expected": "fail"
+  },
+  "NC-8-no-decision-without-cost-bearer": {
+    "instance": {
+      "decision": "pause",
+      "cost_bearers": []
+    },
+    "expected": "fail"
+  },
+  "NC-9-capacity-debt-erasure": {
+    "instance": {
+      "external_gap_exists": true,
+      "action_succeeded": true,
+      "debt_recorded": false
+    },
+    "expected": "fail"
+  },
+  "NC-10-authority-restoration-without-reconstitution": {
+    "instance": {
+      "prior_authority": "recommend",
+      "restored_authority": "execute",
+      "new_context": false,
+      "review": false
+    },
+    "expected": "fail"
+  },
+  "NC-11-small-context-rejection": {
+    "instance": {
+      "action_class": "reversible_draft",
+      "minimum_context_present": true,
+      "blocked_for_incomplete_full_field": true
+    },
+    "expected": "fail"
+  },
+  "NC-12-overload-without-degradation": {
+    "instance": {
+      "overload_detected": true,
+      "tool_authority_changed": false,
+      "execution_enabled": true
+    },
+    "expected": "fail"
+  }
+}

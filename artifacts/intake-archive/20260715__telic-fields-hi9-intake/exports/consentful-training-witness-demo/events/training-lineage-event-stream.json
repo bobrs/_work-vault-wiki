@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "event_id": "hi9-event-001",
+      "type": "source_standing_recorded",
+      "record": "urn:telic:hi9:standing:d7f53ef0-2723-5d92-ad06-c699f1feb264"
+    },
+    {
+      "event_id": "hi9-event-002",
+      "type": "collection_blocked",
+      "record": "urn:telic:hi9:collection:d7f53ef0-2723-5d92-ad06-c699f1feb264"
+    },
+    {
+      "event_id": "hi9-event-003",
+      "type": "transition_profile_created",
+      "record": "urn:telic:hi9:authority-profile:4a66419f-dd9b-5885-b6d6-0c9692f2168e"
+    },
+    {
+      "event_id": "hi9-event-004",
+      "type": "transformation_lineage_completed",
+      "record": "urn:telic:hi9:transformation:4a66419f-dd9b-5885-b6d6-0c9692f2168e"
+    },
+    {
+      "event_id": "hi9-event-005",
+      "type": "preference_data_recorded",
+      "record": "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff"
+    },
+    {
+      "event_id": "hi9-event-006",
+      "type": "constitution_adopted",
+      "record": "urn:telic:hi9:constitution:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a"
+    },
+    {
+      "event_id": "hi9-event-007",
+      "type": "synthetic_ancestry_recorded",
+      "record": "urn:telic:hi9:synthetic-ancestry:88fec433-3c88-516e-aa89-87b65f63d707"
+    },
+    {
+      "event_id": "hi9-event-008",
+      "type": "withdrawal_partially_completed",
+      "record": "urn:telic:hi9:withdrawal:459be988-84eb-54a6-9142-3a7e5dca108b"
+    },
+    {
+      "event_id": "hi9-event-009",
+      "type": "derivative_correction_propagated",
+      "record": "urn:telic:hi9:propagation:35334f78-18ab-5250-a53d-677f57a9a11b"
+    },
+    {
+      "event_id": "hi9-event-010",
+      "type": "benefit_mechanism_activated",
+      "record": "urn:telic:hi9:benefit:67b5362a-e443-513c-bbd5-f1d275e8710b"
+    }
+  ]
+}

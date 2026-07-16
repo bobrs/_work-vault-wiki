@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "operator-provider-transfer-record.schema.json",
+  "title": "OperatorProviderTransferRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "assembly",
+    "change_type",
+    "prior_operator_or_provider",
+    "successor_operator_or_provider",
+    "effective_time",
+    "transferred_assets",
+    "transferred_authority",
+    "nontransferable_authority",
+    "consent_and_notice",
+    "data_and_memory_transfer",
+    "restrictions",
+    "open_incidents",
+    "repair_obligations",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "assembly": {
+      "type": "string"
+    },
+    "change_type": {
+      "enum": [
+        "operator_transfer",
+        "provider_change",
+        "acquisition",
+        "outsourcing",
+        "jurisdiction_change",
+        "infrastructure_migration",
+        "custody_transfer",
+        "other"
+      ]
+    },
+    "prior_operator_or_provider": {
+      "type": "string"
+    },
+    "successor_operator_or_provider": {
+      "type": "string"
+    },
+    "effective_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "transferred_assets": {
+      "type": "array"
+    },
+    "transferred_authority": {
+      "type": "array"
+    },
+    "nontransferable_authority": {
+      "type": "array"
+    },
+    "consent_and_notice": {
+      "type": "object"
+    },
+    "data_and_memory_transfer": {
+      "type": "object"
+    },
+    "restrictions": {
+      "type": "array"
+    },
+    "open_incidents": {
+      "type": "array"
+    },
+    "repair_obligations": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "under_review",
+        "approved",
+        "conditional",
+        "completed",
+        "rejected",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

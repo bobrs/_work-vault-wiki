@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-operator-output.schema.json",
+  "title": "SemanticOperatorOutput",
+  "type": "object",
+  "required": [
+    "output_id",
+    "model_instance",
+    "role",
+    "output_class",
+    "content",
+    "source_inputs",
+    "source_status",
+    "transformations",
+    "uncertainty",
+    "standing_effect",
+    "authority_effect",
+    "consent_effect",
+    "correction_route",
+    "status"
+  ],
+  "properties": {
+    "output_id": {
+      "type": "string"
+    },
+    "model_instance": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "output_class": {
+      "enum": [
+        "extraction",
+        "structure",
+        "translation",
+        "comparison",
+        "retrieval_result",
+        "summary",
+        "inference",
+        "generated_option",
+        "generated_argument",
+        "challenge",
+        "clarification_question",
+        "route_recommendation",
+        "tool_plan",
+        "tool_result",
+        "witness_draft",
+        "other"
+      ]
+    },
+    "content": {
+      "type": "object"
+    },
+    "source_inputs": {
+      "type": "array"
+    },
+    "source_status": {
+      "type": "array"
+    },
+    "transformations": {
+      "type": "array"
+    },
+    "uncertainty": {
+      "type": "object"
+    },
+    "standing_effect": {
+      "const": "none"
+    },
+    "authority_effect": {
+      "const": "none"
+    },
+    "consent_effect": {
+      "const": "none"
+    },
+    "correction_route": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "participant_review",
+        "active_for_scope",
+        "corrected",
+        "contested",
+        "quarantined",
+        "superseded",
+        "released",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

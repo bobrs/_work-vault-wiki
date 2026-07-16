@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "supporting-loop-reference.schema.json",
+  "title": "SupportingLoopReference",
+  "type": "object",
+  "required": [
+    "supporting_loop_id",
+    "center",
+    "loop_type",
+    "standing",
+    "contribution_classes",
+    "authority_source",
+    "consent_or_governance_basis",
+    "review",
+    "exit",
+    "status"
+  ],
+  "properties": {
+    "supporting_loop_id": {
+      "type": "string"
+    },
+    "center": {
+      "type": "string"
+    },
+    "loop_type": {
+      "enum": [
+        "person",
+        "team",
+        "household",
+        "community",
+        "institution",
+        "market",
+        "public_authority",
+        "technical_system",
+        "ecological_system",
+        "funding_loop",
+        "data_source",
+        "maintenance_loop",
+        "other"
+      ]
+    },
+    "standing": {
+      "type": "object"
+    },
+    "contribution_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "labor",
+          "attention",
+          "care",
+          "data",
+          "money",
+          "legitimacy",
+          "authority",
+          "infrastructure",
+          "energy",
+          "correction",
+          "risk",
+          "repair",
+          "reputation",
+          "access",
+          "storage",
+          "compute",
+          "governance",
+          "other"
+        ]
+      }
+    },
+    "authority_source": {
+      "type": "array"
+    },
+    "consent_or_governance_basis": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "exit": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "conditional",
+        "withdrawing",
+        "withdrawn",
+        "transferred",
+        "contested",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

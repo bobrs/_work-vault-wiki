@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "temporal-center-reference.schema.json",
+  "title": "TemporalCenterReference",
+  "type": "object",
+  "required": [
+    "temporal_center_id",
+    "base_center",
+    "center_type",
+    "time_position",
+    "valid_time",
+    "representation_status",
+    "standing_type",
+    "continuity_claim"
+  ],
+  "properties": {
+    "temporal_center_id": {
+      "type": "string"
+    },
+    "base_center": {
+      "type": "string"
+    },
+    "center_type": {
+      "enum": [
+        "person",
+        "group",
+        "community",
+        "institution",
+        "role",
+        "system",
+        "condition",
+        "unknown"
+      ]
+    },
+    "time_position": {
+      "enum": [
+        "earlier",
+        "present",
+        "later",
+        "successor",
+        "ancestor",
+        "contemporary",
+        "unknown"
+      ]
+    },
+    "valid_time": {
+      "type": "object",
+      "required": [
+        "valid_from"
+      ],
+      "properties": {
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "representation_status": {
+      "enum": [
+        "direct",
+        "prior_direct",
+        "delegated",
+        "represented",
+        "projected",
+        "absent",
+        "contested",
+        "unknown"
+      ]
+    },
+    "standing_type": {
+      "enum": [
+        "constitutional",
+        "legal",
+        "operational",
+        "temporal",
+        "internal_representational",
+        "unknown"
+      ]
+    },
+    "continuity_claim": {
+      "type": "string"
+    },
+    "consent_state": {
+      "enum": [
+        "not_available",
+        "active",
+        "expired",
+        "withdrawn",
+        "contested",
+        "unknown"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

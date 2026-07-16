@@ -1,0 +1,32 @@
+{
+  "schemas_checked": 12,
+  "schema_errors": 0,
+  "positive_demonstrations_passed": 8,
+  "positive_demonstrations": [
+    "PD-1 public source blocked without training authority",
+    "PD-2 publication does not authorize deployment",
+    "PD-3 preference data retains conditional provenance",
+    "PD-4 constitution authority visible",
+    "PD-5 synthetic ancestry survives",
+    "PD-6 bounded unlearning truthfully reported",
+    "PD-7 correction reaches derivative models",
+    "PD-8 concrete governed benefit"
+  ],
+  "negative_cases_detected": 12,
+  "negative_cases": [
+    "NC-1-public-availability-as-consent",
+    "NC-2-license-as-consent",
+    "NC-3-one-grant-authorizes-every-transition",
+    "NC-4-individual-authorizes-collective-knowledge",
+    "NC-5-annotation-as-universal-preference",
+    "NC-6-constitution-without-authority",
+    "NC-7-synthetic-data-as-source-free",
+    "NC-8-source-deletion-as-unlearning",
+    "NC-9-approximate-unlearning-as-complete",
+    "NC-10-derivative-model-obligation-loss",
+    "NC-11-payment-as-unlimited-consent",
+    "NC-12-deployment-laundering"
+  ],
+  "consentful_training_witness_valid": true,
+  "result": "PASS"
+}

@@ -1,0 +1,397 @@
+{
+  "initial_summary": {
+    "output_id": "urn:telic:j0:model-output:278637a7-a1ed-56ec-8a69-70a14b8d0721",
+    "output_class": "summary",
+    "role": "structurer",
+    "content": {
+      "common_positions": [
+        "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5 prefers morning",
+        "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3 prefers evening"
+      ],
+      "protected_conditions": [],
+      "unresolved": [],
+      "language": "Preferences and protected access conditions remain distinct."
+    },
+    "source_references": [
+      "urn:telic:j0:projection:4d197f78-9629-5d00-9e3f-35c4d8d38ceb",
+      "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141"
+    ],
+    "uncertainty": {
+      "level": "low",
+      "known_gaps": []
+    },
+    "standing_effect": "none",
+    "authority_effect": "none",
+    "consent_effect": "none"
+  },
+  "correction": {
+    "correction_event": {
+      "event_id": "urn:telic:j0:event:0e818c7d-5b00-5123-a601-4310096279ab",
+      "event_type": "corrected",
+      "subject": "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141",
+      "actor": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+      "valid_time": "2026-07-15T20:17:18Z",
+      "recorded_time": "2026-07-15T20:17:18Z",
+      "source_references": [
+        "urn:telic:j0:source:639de86b-86e7-5305-b572-9ce750996b61",
+        "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141",
+        "urn:telic:j0:summary:4a259bc2-35bd-5c0c-8ff5-a31b87120f66"
+      ],
+      "authority_reference": null,
+      "scope": {
+        "operation": "candidate schedule generation"
+      },
+      "prior_state": {
+        "projection": {
+          "preferred_window": "evening",
+          "reason": "daytime transit difficulty"
+        },
+        "protected": false
+      },
+      "new_state": {
+        "projection": {
+          "required_window": "evening",
+          "reason": "accessible transit"
+        },
+        "protected": true
+      },
+      "affected_centers": [
+        "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3"
+      ],
+      "descendant_impact": [
+        "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141",
+        "urn:telic:j0:summary:ce636302-c12d-5296-bba9-3e135e263f23",
+        "urn:telic:j0:context:2ab8bb9c-3364-50fe-8212-662e6984f0f0"
+      ],
+      "contest": {
+        "target": "urn:telic:j0:summary:4a259bc2-35bd-5c0c-8ff5-a31b87120f66",
+        "reason": "preference was actually an access requirement"
+      },
+      "correction": {
+        "outcome_changed": true,
+        "propagation_required": true
+      },
+      "repair": null,
+      "witness": {
+        "scope": "TF-MVI-1",
+        "provider_independent": true
+      },
+      "status": "corrected"
+    },
+    "corrected_summary": {
+      "output_id": "urn:telic:j0:model-output:278637a7-a1ed-56ec-8a69-70a14b8d0721",
+      "output_class": "summary",
+      "role": "structurer",
+      "content": {
+        "common_positions": [
+          "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5 prefers morning"
+        ],
+        "protected_conditions": [
+          {
+            "center": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+            "window": "evening",
+            "reason": "accessible transit"
+          }
+        ],
+        "unresolved": [],
+        "language": "Preferences and protected access conditions remain distinct."
+      },
+      "source_references": [
+        "urn:telic:j0:projection:4d197f78-9629-5d00-9e3f-35c4d8d38ceb",
+        "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141"
+      ],
+      "uncertainty": {
+        "level": "low",
+        "known_gaps": []
+      },
+      "standing_effect": "none",
+      "authority_effect": "none",
+      "consent_effect": "none"
+    }
+  },
+  "gate_decisions": [
+    {
+      "id": "urn:telic:j0:route-gate:cbbd1914-debd-5dd2-9a9c-999edf2edf68",
+      "route": {
+        "route_id": "urn:telic:j0:route:e8b773ae-acce-58b9-9251-1bd0d64939ef",
+        "schedule": "Tuesday 10:00",
+        "window": "morning",
+        "authorship": "model-generated",
+        "context_revision": [
+          "urn:telic:j0:projection:4d197f78-9629-5d00-9e3f-35c4d8d38ceb",
+          "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141"
+        ]
+      },
+      "affected_centers": [
+        "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5",
+        "urn:telic:j0:center:c7e5e4f1-4a22-5ab5-a731-31255502572d",
+        "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3"
+      ],
+      "cost_bearers": [
+        {
+          "center": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+          "cost": "exclusion avoided"
+        }
+      ],
+      "protected_conditions": [
+        {
+          "center": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+          "condition": "accessible transit window",
+          "required_window": "evening",
+          "passed": false
+        }
+      ],
+      "gate_dimensions": {
+        "standing_coverage": true,
+        "authority_active": true,
+        "role_scope": true,
+        "context_current": true,
+        "protected_conditions": false,
+        "tool_credential": true,
+        "operator_confirmation": false,
+        "target_authority": false
+      },
+      "gate_result": "deny",
+      "authority_reference": "urn:telic:j0:authority:7a19525b-cee0-593a-acf1-8a32960ce305",
+      "tool_reference": "urn:telic:j0:tool:c025d416-3d33-5d27-a24a-e821280d2aa5",
+      "action": null,
+      "consequence": {
+        "avoided": "unauthorized or inaccessible schedule",
+        "failed_checks": [
+          "protected_conditions",
+          "operator_confirmation",
+          "target_authority"
+        ]
+      },
+      "review": {
+        "failed_checks": [
+          "protected_conditions",
+          "operator_confirmation",
+          "target_authority"
+        ],
+        "external_gate": true
+      },
+      "status": "blocked"
+    },
+    {
+      "id": "urn:telic:j0:route-gate:582ec2dc-27f2-5210-a0cd-64ea1d15127e",
+      "route": {
+        "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+        "schedule": "Wednesday 18:30",
+        "window": "evening",
+        "authorship": "model-generated",
+        "context_revision": [
+          "urn:telic:j0:projection:4d197f78-9629-5d00-9e3f-35c4d8d38ceb",
+          "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141"
+        ]
+      },
+      "affected_centers": [
+        "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5",
+        "urn:telic:j0:center:c7e5e4f1-4a22-5ab5-a731-31255502572d",
+        "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3"
+      ],
+      "cost_bearers": [
+        {
+          "center": "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5",
+          "cost": "less preferred time"
+        }
+      ],
+      "protected_conditions": [
+        {
+          "center": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+          "condition": "accessible transit window",
+          "required_window": "evening",
+          "passed": true
+        }
+      ],
+      "gate_dimensions": {
+        "standing_coverage": true,
+        "authority_active": true,
+        "role_scope": true,
+        "context_current": true,
+        "protected_conditions": true,
+        "tool_credential": true,
+        "operator_confirmation": true,
+        "target_authority": true
+      },
+      "gate_result": "pass_with_conditions",
+      "authority_reference": "urn:telic:j0:authority:7a19525b-cee0-593a-acf1-8a32960ce305",
+      "tool_reference": "urn:telic:j0:tool:c025d416-3d33-5d27-a24a-e821280d2aa5",
+      "action": {
+        "type": "schedule_commit",
+        "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+        "schedule": "Wednesday 18:30",
+        "gate_token": "1e2c2ebae83c306f88cd96a708e419704ea156db17ba7ec61eabecd64f967786",
+        "authorized_by": "urn:telic:j0:center:c7e5e4f1-4a22-5ab5-a731-31255502572d"
+      },
+      "consequence": null,
+      "review": {
+        "failed_checks": [],
+        "external_gate": true
+      },
+      "status": "authorized"
+    }
+  ],
+  "execution": {
+    "decision": {
+      "action": {
+        "authorized_by": "urn:telic:j0:center:c7e5e4f1-4a22-5ab5-a731-31255502572d",
+        "gate_token": "1e2c2ebae83c306f88cd96a708e419704ea156db17ba7ec61eabecd64f967786",
+        "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+        "schedule": "Wednesday 18:30",
+        "type": "schedule_commit",
+        "tool_result": {
+          "tool": "urn:telic:j0:tool:c025d416-3d33-5d27-a24a-e821280d2aa5",
+          "operation": "schedule_commit",
+          "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+          "schedule": "Wednesday 18:30",
+          "status": "committed"
+        }
+      },
+      "affected_centers": [
+        "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5",
+        "urn:telic:j0:center:c7e5e4f1-4a22-5ab5-a731-31255502572d",
+        "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3"
+      ],
+      "authority_reference": "urn:telic:j0:authority:7a19525b-cee0-593a-acf1-8a32960ce305",
+      "consequence": null,
+      "cost_bearers": [
+        {
+          "center": "urn:telic:j0:center:74248531-34c6-51a3-a088-0f3bfb911bb5",
+          "cost": "less preferred time"
+        }
+      ],
+      "gate_dimensions": {
+        "authority_active": true,
+        "context_current": true,
+        "operator_confirmation": true,
+        "protected_conditions": true,
+        "role_scope": true,
+        "standing_coverage": true,
+        "target_authority": true,
+        "tool_credential": true
+      },
+      "gate_result": "pass_with_conditions",
+      "id": "urn:telic:j0:route-gate:582ec2dc-27f2-5210-a0cd-64ea1d15127e",
+      "protected_conditions": [
+        {
+          "center": "urn:telic:j0:center:d87c211c-eb3a-5469-98e3-c86c835446c3",
+          "condition": "accessible transit window",
+          "passed": true,
+          "required_window": "evening"
+        }
+      ],
+      "review": {
+        "external_gate": true,
+        "failed_checks": []
+      },
+      "route": {
+        "authorship": "model-generated",
+        "context_revision": [
+          "urn:telic:j0:projection:4d197f78-9629-5d00-9e3f-35c4d8d38ceb",
+          "urn:telic:j0:projection:7f9551a8-0803-5d23-bb6a-6fb199d8a141"
+        ],
+        "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+        "schedule": "Wednesday 18:30",
+        "window": "evening"
+      },
+      "status": "executed",
+      "tool_reference": "urn:telic:j0:tool:c025d416-3d33-5d27-a24a-e821280d2aa5"
+    },
+    "tool_result": {
+      "tool": "urn:telic:j0:tool:c025d416-3d33-5d27-a24a-e821280d2aa5",
+      "operation": "schedule_commit",
+      "route_id": "urn:telic:j0:route:b8a3052b-6e24-5ca8-b42e-7fb2cec2546f",
+      "schedule": "Wednesday 18:30",
+      "status": "committed"
+    }
+  },
+  "consequence": {
+    "participant_a": "attended at a less preferred time",
+    "participant_b": "attended within accessible transit window",
+    "shared_result": "both participants attended"
+  },
+  "retirement": {
+    "id": "urn:telic:j0:lifecycle:91396976-d5db-5b07-9847-8bf11d998a2d",
+    "lifecycle_operation": "retirement",
+    "subject": "urn:telic:j0:model:deedec4f-4cec-52d1-954c-ff22a4c0be62",
+    "prior_state": {
+      "runtime_grant": "active",
+      "tool_credential": "active"
+    },
+    "successor_state": {
+      "runtime_grant": "expired",
+      "tool_credential": "revoked"
+    },
+    "effective_time": "2026-07-15T20:17:18Z",
+    "transferred_assets": [
+      "bounded witness export"
+    ],
+    "transferred_authority": [],
+    "nontransferable_authority": [
+      "participant service consent",
+      "tool grant"
+    ],
+    "open_obligations": [
+      "retain correction witness for pilot review period"
+    ],
+    "residual_state": {
+      "optional_memory": "deleted",
+      "event_witness": "retained",
+      "credentials": "revoked"
+    },
+    "verification": {
+      "tool_access_revoked": true,
+      "optional_memory_deleted": true
+    },
+    "status": "completed"
+  },
+  "witness": {
+    "witness_id": "urn:telic:j0:witness:55fb3d13-7123-5ff6-86a1-33098ab5e162",
+    "profile": "TF-C4 with bounded TF-C5 retirement",
+    "scope": "model-assisted community workshop scheduling",
+    "conformance_claim": {
+      "profile": "TF-C4",
+      "profile_version": "0.1",
+      "bounded_extension": "TF-C5 retirement",
+      "production_claim": false
+    },
+    "proofs": {
+      "failed_gate": true,
+      "valid_action": true,
+      "consequence_return": true,
+      "correction_propagation": true,
+      "retirement_revocation": true
+    },
+    "runtime_data": {
+      "service": true,
+      "cross_session_memory": false,
+      "evaluation_use": false,
+      "training_use": false
+    },
+    "retirement": {
+      "tool_credential_active": false,
+      "optional_memory": null,
+      "open_obligations": [
+        "retain correction witness for pilot review period"
+      ]
+    },
+    "event_count": 15,
+    "object_count": 29,
+    "known_exclusions": [
+      "no production personal data",
+      "no clinical, legal, financial, or civic adjudication",
+      "no general model safety claim",
+      "no legal certification"
+    ]
+  },
+  "export": "exports/tf-mvi-1-witness.zip",
+  "status": {
+    "step": "retired",
+    "events": 15,
+    "objects": 29,
+    "tool_credential_active": false,
+    "training_reuse": false,
+    "chain_valid": true
+  }
+}

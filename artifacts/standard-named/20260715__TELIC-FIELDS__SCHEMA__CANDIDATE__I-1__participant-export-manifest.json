@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "participant-export-manifest.schema.json",
+  "title": "IndependentParticipantExportManifest",
+  "type": "object",
+  "required": [
+    "export_id",
+    "created_at",
+    "created_for",
+    "schema_versions",
+    "record_files",
+    "event_files",
+    "witness_files",
+    "view_files",
+    "checksums_file",
+    "independent_of_originating_model"
+  ],
+  "properties": {
+    "export_id": {
+      "type": "string",
+      "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_for": {
+      "type": "string"
+    },
+    "schema_versions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "event_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "witness_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "view_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checksums_file": {
+      "type": "string"
+    },
+    "omitted_protected_content": {
+      "type": "boolean"
+    },
+    "omission_proofs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^urn:telic:[a-z0-9][a-z0-9._-]*:[a-z][a-z0-9_-]*:[0-9a-fA-F-]{36}$"
+      }
+    },
+    "independent_of_originating_model": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

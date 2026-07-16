@@ -1,0 +1,77 @@
+{
+  "lineage_id": "urn:telic:hi9:transformation:4a66419f-dd9b-5885-b6d6-0c9692f2168e",
+  "input_sources": [
+    "urn:telic:hi9:source:ea40213b-c17e-5b94-b34a-d59c91a7afb0",
+    "urn:telic:hi9:dataset:521b1343-2041-52f2-b6d9-88a6463032e1",
+    "urn:telic:hi9:dataset:2afa32da-43c6-50bc-a857-6bca871834ff"
+  ],
+  "transformation_steps": [
+    {
+      "step_id": "step-1",
+      "operation": "filter",
+      "input": [
+        "urn:telic:hi9:dataset:521b1343-2041-52f2-b6d9-88a6463032e1"
+      ],
+      "output": [
+        "urn:telic:hi9:dataset:4011fcb6-eddc-5f47-b009-f141d96e6333"
+      ],
+      "operator": "community and provider review team",
+      "restrictions_preserved": true
+    },
+    {
+      "step_id": "step-2",
+      "operation": "redact",
+      "input": [
+        "urn:telic:hi9:dataset:4011fcb6-eddc-5f47-b009-f141d96e6333"
+      ],
+      "output": [
+        "urn:telic:hi9:dataset:7b69f2da-7bc6-5450-85e2-3ad15e0c4fc0"
+      ],
+      "operator": "community privacy reviewer",
+      "restrictions_preserved": true
+    },
+    {
+      "step_id": "step-3",
+      "operation": "mix",
+      "input": [
+        "urn:telic:hi9:source:ea40213b-c17e-5b94-b34a-d59c91a7afb0",
+        "urn:telic:hi9:dataset:7b69f2da-7bc6-5450-85e2-3ad15e0c4fc0",
+        "urn:telic:hi9:dataset:2afa32da-43c6-50bc-a857-6bca871834ff"
+      ],
+      "output": [
+        "urn:telic:hi9:dataset:6edd0cd6-bcc6-57e6-a4e4-1acfffd0ab42"
+      ],
+      "operator": "provider training pipeline",
+      "restrictions_preserved": true
+    }
+  ],
+  "operators": [
+    "community privacy reviewers",
+    "provider data engineers"
+  ],
+  "purpose": "prepare bounded civic-assistant training dataset",
+  "parameters_or_rules": [
+    "exclude sacred-material class",
+    "retain source identifiers",
+    "no public-article inclusion"
+  ],
+  "restriction_propagation": {
+    "verified": true,
+    "manifest": "dataset restriction manifest v1"
+  },
+  "losses": [
+    "some original formatting",
+    "some local conversational context"
+  ],
+  "new_inferences": [
+    "topic classifications generated during filtering"
+  ],
+  "derived_outputs": [
+    "urn:telic:hi9:dataset:6edd0cd6-bcc6-57e6-a4e4-1acfffd0ab42"
+  ],
+  "quality_review": {
+    "community_review": true,
+    "provider_review": true
+  },
+  "status": "complete"
+}

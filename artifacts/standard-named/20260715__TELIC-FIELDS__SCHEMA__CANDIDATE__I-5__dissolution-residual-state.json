@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dissolution-residual-state.schema.json",
+  "title": "DissolutionResidualStateRecord",
+  "type": "object",
+  "required": [
+    "dissolution_id",
+    "loop",
+    "reason",
+    "authority",
+    "effective_at",
+    "support_released",
+    "assets",
+    "records",
+    "restricted_data",
+    "obligations",
+    "unresolved_harms",
+    "repair_funds",
+    "successor",
+    "deletion",
+    "public_notice",
+    "final_witness",
+    "status"
+  ],
+  "properties": {
+    "dissolution_id": {
+      "type": "string"
+    },
+    "loop": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "array",
+      "minItems": 1
+    },
+    "authority": {
+      "type": "object"
+    },
+    "effective_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "support_released": {
+      "type": "array"
+    },
+    "assets": {
+      "type": "object"
+    },
+    "records": {
+      "type": "object"
+    },
+    "restricted_data": {
+      "type": "object"
+    },
+    "obligations": {
+      "type": "array"
+    },
+    "unresolved_harms": {
+      "type": "array"
+    },
+    "repair_funds": {
+      "type": "object"
+    },
+    "successor": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "deletion": {
+      "type": "object"
+    },
+    "public_notice": {
+      "type": "object"
+    },
+    "final_witness": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "approved",
+        "in_progress",
+        "partial",
+        "completed",
+        "contested",
+        "failed"
+      ]
+    },
+    "future_support_recruitment_ended": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

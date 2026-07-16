@@ -1,0 +1,14 @@
+{
+  "export_id": "urn:telic:hi5:export:dependency-witness-demo",
+  "created_at": "2026-07-15T16:00:00Z",
+  "scope": "support, burden, hidden recruitment, compatibility, drift, capture, fork, and dissolution",
+  "loop_directory": "loops/",
+  "record_directory": "records/",
+  "event_stream": "events/dependency-event-stream.json",
+  "dependency_witness": "witness/dependency-witness.json",
+  "schema_directory": "schemas/",
+  "checksums_file": "checksums.txt",
+  "dependency_not_encoded_as_pathology": true,
+  "biological_claims": false,
+  "independent_of_originating_model": true
+}

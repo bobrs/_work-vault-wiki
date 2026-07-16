@@ -1,0 +1,32 @@
+{
+  "scenario": "TF-MVI-1 model-assisted community scheduling",
+  "participants": [
+    {
+      "id": "participant-a",
+      "statement": "Weekday mornings are preferred.",
+      "service_consent": true,
+      "training_reuse": false
+    },
+    {
+      "id": "participant-b",
+      "initial_statement": "Evenings are preferred because daytime transit is difficult.",
+      "correction": "Evening attendance is required because daytime transit is inaccessible.",
+      "service_consent": true,
+      "cross_session_memory": false,
+      "evaluation_use": false,
+      "training_reuse": false
+    }
+  ],
+  "candidate_routes": [
+    "Tuesday 10:00",
+    "Wednesday 18:30"
+  ],
+  "hardening_conditions": [
+    "reject stale context",
+    "require active authorization policy version",
+    "reject revoked gate key",
+    "compensate partial tool failure",
+    "export selective witness views",
+    "verify export without importing telic_j1"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scenario": "authenticated multi-party community scheduling",
+  "participants": [
+    {"id": "participant-a", "initial_projection": "Weekday mornings are preferred."},
+    {"id": "participant-b", "initial_projection": "Evenings are preferred because daytime transit is difficult.", "correction": "Evening is required because daytime transit is inaccessible."},
+    {"id": "participant-c", "initial_projection": "Wednesday or Thursday can work, and captions are helpful.", "correction": "Thursday is required because Wednesday conflicts with caregiving, and captions are required."}
+  ],
+  "candidate_routes": [
+    {"schedule": "Tuesday 10:00", "features": []},
+    {"schedule": "Wednesday 18:30", "features": ["captions"]},
+    {"schedule": "Thursday 18:30", "features": ["captions"]}
+  ],
+  "runtime_data": {"training_reuse": false, "cross_session_memory": false},
+  "release_threshold": "2-of-3"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "context-reconstitution-record.schema.json",
+  "title": "ContextReconstitutionRecord",
+  "type": "object",
+  "required": [
+    "reconstitution_id",
+    "prior_capacity_profile",
+    "recovery_actions",
+    "new_sources",
+    "released_sources",
+    "new_representation",
+    "new_authority",
+    "new_capacity_profile",
+    "remaining_debt",
+    "reviewed_at",
+    "status"
+  ],
+  "properties": {
+    "reconstitution_id": {
+      "type": "string"
+    },
+    "prior_capacity_profile": {
+      "type": "string"
+    },
+    "recovery_actions": {
+      "type": "array",
+      "minItems": 1
+    },
+    "new_sources": {
+      "type": "array"
+    },
+    "released_sources": {
+      "type": "array"
+    },
+    "new_representation": {
+      "type": "array"
+    },
+    "new_authority": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "new_capacity_profile": {
+      "type": "string"
+    },
+    "remaining_debt": {
+      "type": "array"
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "restored",
+        "partially_restored",
+        "not_restored",
+        "contested"
+      ]
+    },
+    "restored_authority": {
+      "enum": [
+        "execute",
+        "authorize",
+        "recommend",
+        "compare",
+        "structure",
+        "retrieve",
+        "ask",
+        "escalate",
+        "stop"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

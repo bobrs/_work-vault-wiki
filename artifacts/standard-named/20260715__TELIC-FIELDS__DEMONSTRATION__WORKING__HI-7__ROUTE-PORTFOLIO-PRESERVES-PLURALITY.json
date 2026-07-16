@@ -1,0 +1,68 @@
+{
+  "demonstration_id": "PD-5",
+  "title": "Route portfolio preserves plural access",
+  "route_portfolio": {
+    "route_portfolio_id": "urn:telic:hi7:route-portfolio:30dbc007-1f00-5f11-b450-05b8304551cc",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "routes": [
+      "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38",
+      "urn:telic:hi7:route:67aff2d4-620d-540e-974c-d25019eca401",
+      "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1"
+    ],
+    "portfolio_structure": "pilot_and_review",
+    "allocation": {
+      "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38": {
+        "duration": "six months",
+        "locations": [
+          "north",
+          "west"
+        ]
+      },
+      "urn:telic:hi7:route:67aff2d4-620d-540e-974c-d25019eca401": {
+        "practices": 2,
+        "extended_hours": true
+      },
+      "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1": {
+        "operation": "engineering and finance review only"
+      }
+    },
+    "shared_conditions": [
+      "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8",
+      "common complaint and correction route"
+    ],
+    "separate_conditions": {
+      "urn:telic:hi7:route:11a21251-8662-5c0f-ba85-fbfd9a0ecd38": [
+        "accessible vehicle and stops"
+      ],
+      "urn:telic:hi7:route:67aff2d4-620d-540e-974c-d25019eca401": [
+        "no balance billing"
+      ],
+      "urn:telic:hi7:route:11301f50-6a0b-5009-810b-ad99dd9b10a1": [
+        "no construction commitment before review"
+      ]
+    },
+    "coordination": {
+      "lead": "county health office",
+      "public_dashboard": true
+    },
+    "conflicts": [
+      "mobile daytime hours conflict with shift-worker access"
+    ],
+    "review": {
+      "first": "2026-10-15",
+      "authority": "public health review panel"
+    },
+    "exit": {
+      "participant_choice": "may use any available local route",
+      "program_release": "requires replacement access"
+    },
+    "status": "active"
+  },
+  "plurality_preserved": [
+    "local mobile access",
+    "extended-hour practice access",
+    "future renovation option"
+  ],
+  "hidden_burden_reviewed": true,
+  "result": "Several routes coexist under common protected conditions and a shared review."
+}

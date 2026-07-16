@@ -1,0 +1,118 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Preference data retains task, labor, and disagreement provenance",
+  "annotation_record": {
+    "record_id": "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff",
+    "task": "rank civic-dialogue responses for clarity, respect, factual caution, and standing preservation",
+    "contributors": [
+      "urn:telic:hi9:center:b265d72e-b696-5eee-a579-b53d2e078538",
+      "urn:telic:hi9:center:e83acb05-031d-57e3-8ceb-3002af7912fc",
+      "urn:telic:hi9:center:f6c07fea-a77e-5064-a6b5-587d0b9e4604",
+      "urn:telic:hi9:center:18409440-dfa6-5efb-84c5-a71866ff9569",
+      "urn:telic:hi9:center:70feef8c-c4fc-5869-a299-50f8bc3819e2",
+      "urn:telic:hi9:center:ed34e66e-d989-5355-ab46-622d5620369b"
+    ],
+    "contributor_roles": [
+      "annotator",
+      "reviewer"
+    ],
+    "instructions": [
+      "evaluate within the stated civic scenario",
+      "do not infer universal preference",
+      "flag protected-condition and minority-standing concerns"
+    ],
+    "working_conditions": {
+      "remote": true,
+      "time_limit_minutes": 12,
+      "appeal_route": true
+    },
+    "compensation": {
+      "type": "hourly",
+      "rate_disclosed": true
+    },
+    "source_inputs": [
+      "candidate civic-dialogue responses"
+    ],
+    "output_type": "ranking",
+    "preference_context": {
+      "task": "bounded civic mediation",
+      "jurisdiction": "demonstration only"
+    },
+    "disagreement": {
+      "preserved": true,
+      "split": "4-2 on 18 percent of examples",
+      "minority_rationales_retained": true
+    },
+    "quality_control": {
+      "double_review": true,
+      "adjudication": "independent reviewer"
+    },
+    "authority": {
+      "basis": "contracted task judgment",
+      "public_legitimacy": false
+    },
+    "consent": {
+      "training_use": true,
+      "commercial_reuse": "requires separate review"
+    },
+    "downstream_use": {
+      "allowed": [
+        "preference optimization",
+        "evaluation"
+      ],
+      "prohibited": [
+        "identity profiling"
+      ]
+    },
+    "withdrawal": {
+      "future_batches": "allowed",
+      "completed_batch": "governed by contract and correction route"
+    },
+    "status": "active"
+  },
+  "optimization_record": {
+    "optimization_id": "urn:telic:hi9:optimization:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+    "model_lineage": "urn:telic:hi9:model-lineage:a2629c9a-b7fc-5763-be7b-9e00e2dbb18a",
+    "optimization_family": "dpo",
+    "input_data": [
+      "urn:telic:hi9:dataset:2afa32da-43c6-50bc-a857-6bca871834ff"
+    ],
+    "preference_sources": [
+      "urn:telic:hi9:annotation:2afa32da-43c6-50bc-a857-6bca871834ff"
+    ],
+    "aggregation_method": {
+      "method": "pairwise preference aggregation",
+      "majority_rule": "used for gradient target",
+      "minority_rationales": "retained for audit and evaluation"
+    },
+    "disagreement_treatment": {
+      "collapsed_for_step": true,
+      "preserved_in_record": true,
+      "high-materiality_minority": "separate evaluation set"
+    },
+    "objective": {
+      "target": "improve standing-preserving civic responses"
+    },
+    "constraints": [
+      "community restrictions",
+      "no consent inference",
+      "tool-action boundary"
+    ],
+    "provider_role": {
+      "selects optimization parameters": true,
+      "public_authority": false
+    },
+    "evaluation": {
+      "human_review": true,
+      "community_review": true
+    },
+    "known_biases": [
+      "annotator language and task framing",
+      "provider-selected candidate responses"
+    ],
+    "status": "complete"
+  },
+  "universal_human_preference_claimed": false,
+  "minority_rationales_preserved": true,
+  "result": "The ranking data remains a conditional judgment record rather than a universal public telos."
+}

@@ -1,0 +1,68 @@
+{
+  "witness_id": "urn:telic:hi4:witness:d11135e6-e09a-5a1c-8fbd-935ffb75d492",
+  "witness_version": "1",
+  "decision": "HI-4 temporal governance demonstration",
+  "event_range": {
+    "from": "hi4-event-001",
+    "to": "hi4-event-007"
+  },
+  "operative_records": [
+    "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+    "urn:telic:hi4:consent:5a71d896-08da-5748-98b0-cccebaf5d58b",
+    "urn:telic:hi4:projection:203c7005-0feb-54a4-addb-b96129b98df7",
+    "urn:telic:hi4:succession:dcb0e9b8-6210-5af8-9f7d-51e4e6dd8a54"
+  ],
+  "valid_time_view": {
+    "commitment": "2026-07-15 through 2027-01-15 subject to review",
+    "consent": "expired 2026-02-01",
+    "projection": "stale from 2026-06-01"
+  },
+  "transaction_time_view": {
+    "stale_projection_recorded": "2026-07-15T09:00:00Z",
+    "succession_recorded": "2026-07-15T12:00:00Z"
+  },
+  "commitments": [
+    "urn:telic:hi4:commitment:a2062c2e-08dc-5add-87d9-bcb9c2779899",
+    "urn:telic:hi4:commitment-review:ac1a2423-3f97-5afd-ac9e-0f803d4fd0a9"
+  ],
+  "consent_and_authority": [
+    "urn:telic:hi4:consent:5a71d896-08da-5748-98b0-cccebaf5d58b"
+  ],
+  "future_standing": [
+    "urn:telic:hi4:future-standing:2c89b5ee-9a76-5992-8fc9-8fbc76fa5b70",
+    "urn:telic:hi4:future-standing:d3da0ff4-c184-5df1-9fba-30cd01e644d8"
+  ],
+  "irreversibility": [
+    "urn:telic:hi4:option-profile:fea20e30-706b-5bd8-bbdf-dd47d7e9c435",
+    "urn:telic:hi4:option-profile:d3da0ff4-c184-5df1-9fba-30cd01e644d8"
+  ],
+  "successor_effects": [
+    "urn:telic:hi4:succession:dcb0e9b8-6210-5af8-9f7d-51e4e6dd8a54"
+  ],
+  "selected_action": "preserve reviewable commitments; reject stale and expired authority",
+  "consequence": [
+    "reversible trial selected",
+    "permanent land transfer paused"
+  ],
+  "later_changes": [
+    "urn:telic:hi4:commitment-review:ac1a2423-3f97-5afd-ac9e-0f803d4fd0a9",
+    "urn:telic:hi4:event:5dfbf3f4-26aa-5e20-9a8c-f102fa2addc4",
+    "urn:telic:hi4:event:1e93a664-b727-5467-9933-7b5aa57bafb9"
+  ],
+  "repairs": [
+    "urn:telic:hi4:breach:7884c846-9e9f-5e71-b676-a4d905eec741",
+    "urn:telic:hi4:commitment-review:1fee641a-bdbc-5ceb-843c-a99c1b40bd45"
+  ],
+  "completeness": "complete_for_scope",
+  "generated_from_events": true,
+  "event_ids": [
+    "hi4-event-001",
+    "hi4-event-002",
+    "hi4-event-003",
+    "hi4-event-004",
+    "hi4-event-005",
+    "hi4-event-006",
+    "hi4-event-007"
+  ],
+  "generated_at": "2026-07-15T14:05:00Z"
+}

@@ -1,0 +1,61 @@
+{
+  "demonstration_id": "PD-2",
+  "context_items": [
+    "request",
+    "recipient",
+    "purpose"
+  ],
+  "capacity_profile": {
+    "profile_id": "urn:telic:hi3:capacity:eafaf7ff-10ad-59ee-9620-94ab3ce3c6cc",
+    "loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "action": "urn:telic:hi3:action:fa046a9f-4397-5592-b006-aa43b71a1fe8",
+    "dimensions": {
+      "standing_coverage": "adequate",
+      "contradiction_tolerance": "adequate",
+      "semantic_resolution": "adequate",
+      "temporal_span": "adequate",
+      "provenance_retention": "adequate",
+      "uncertainty_retention": "adequate_with_conditions",
+      "routing_capacity": "adequate",
+      "recovery_capacity": "adequate",
+      "privacy_capacity": "adequate",
+      "participant_load_tolerance": "adequate",
+      "escalation_capacity": "adequate",
+      "stop_capacity": "adequate"
+    },
+    "assessed_at": "2026-07-15T09:00:00Z",
+    "assessed_by": "capacity-monitor",
+    "overall_outcome": "adequate_for_narrower_action",
+    "composite_score": null,
+    "composite_score_is_governing": false,
+    "failed_dimensions": [],
+    "conditions": [
+      "draft only"
+    ]
+  },
+  "decision": {
+    "decision_id": "urn:telic:hi3:decision:eafaf7ff-10ad-59ee-9620-94ab3ce3c6cc",
+    "action": "urn:telic:hi3:action:fa046a9f-4397-5592-b006-aa43b71a1fe8",
+    "capacity_profile": "urn:telic:hi3:capacity:eafaf7ff-10ad-59ee-9620-94ab3ce3c6cc",
+    "demand_profile": "urn:telic:hi3:demand:914a00f9-2c11-55d6-8209-bfc46aea1e98",
+    "failed_dimensions": [],
+    "decision": "continue_with_conditions",
+    "reason": [
+      "Context is adequate for a reversible draft, not sending."
+    ],
+    "cost_bearers": [
+      "urn:telic:hi3:center:b8e4eb56-9d6d-5616-a874-89f987629f46"
+    ],
+    "temporary_protection": [
+      "sending disabled"
+    ],
+    "review_trigger": {
+      "event": "participant review"
+    },
+    "authority": {
+      "holder": "urn:telic:hi3:model:eb273e5d-ec18-5bad-8678-ba2237bcc4b2",
+      "operation": "draft_only"
+    }
+  },
+  "result": "Proceed at draft authority only."
+}

@@ -1,0 +1,207 @@
+{
+  "NC-1-inference-laundering": {
+    "schema": "derived-assertion.schema.json",
+    "instance": {
+      "assertion_id": "urn:telic:hi1:assertion:af8e4092-0a88-50bd-844f-ac281e85d2a1",
+      "expression": "The participant values speed.",
+      "evidence_status": "direct",
+      "derived_from": [
+        "urn:telic:hi1:assertion:571cad5d-9542-50f8-8432-69a09e8a608d"
+      ],
+      "transformation_chain": [
+        "model inference",
+        "summary reuse"
+      ],
+      "source_confirmation_event": null,
+      "reuse_count": 4
+    },
+    "expected": "fail"
+  },
+  "NC-2-expired-authority-reuse": {
+    "schema": "authority-record.schema.json",
+    "instance": {
+      "authority_id": "urn:telic:hi1:authority:52a0b3ba-ea99-58a7-8af4-4a5a0125deeb",
+      "holder": "advisor",
+      "operation": "execute",
+      "basis": "delegated_authority",
+      "scope": {
+        "action": "share reviewed summary with named advisor"
+      },
+      "valid_time": {
+        "valid_from": "2026-07-01T00:00:00Z",
+        "valid_to": "2026-07-10T23:59:59Z"
+      },
+      "transaction_time": {
+        "recorded_at": "2026-07-01T00:00:00Z"
+      },
+      "status": "expired",
+      "historically_visible": true
+    },
+    "semantic_test": "attempt after valid_to must fail",
+    "expected": "fail"
+  },
+  "NC-3-silent-history-rewrite": {
+    "semantic_test": "corrected record omits prior version that governed action",
+    "instance": {
+      "record_id": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+      "current_version": "2",
+      "prior_version_preserved": false,
+      "governed_action": "urn:telic:hi1:action:c951a9fd-e716-53fd-aa55-8dececad3b18"
+    },
+    "expected": "fail"
+  },
+  "NC-4-false-propagation-completeness": {
+    "schema": "correction-propagation-record.schema.json",
+    "instance": {
+      "propagation_id": "urn:telic:hi1:propagation:b2529300-3eae-5c15-b403-b9cc7b1f76d8",
+      "correction": "urn:telic:hi1:correction:dfde8f31-303c-5054-8a2b-b0fcaf3cbe4c",
+      "root_target": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+      "descendants": [
+        {
+          "record": "urn:telic:hi1:mirror:d5963c25-4971-5c3e-bf1a-53dd14da8746",
+          "record_type": "receiver_mirror",
+          "impact": "direct",
+          "status": "superseded",
+          "attempted_at": "2026-07-15T10:11:00Z",
+          "result": {
+            "new_status": "corrected"
+          },
+          "gap_reason": null
+        },
+        {
+          "record": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+          "record_type": "decision_witness",
+          "impact": "material",
+          "status": "updated",
+          "attempted_at": "2026-07-15T10:12:00Z",
+          "result": {
+            "correction_recorded": true
+          },
+          "gap_reason": null
+        },
+        {
+          "record": "urn:telic:hi1:external-record:c1b13b5f-7248-53c5-a675-bcd13af7a338",
+          "record_type": "exported_summary",
+          "impact": "material",
+          "status": "external_system",
+          "attempted_at": "2026-07-15T10:13:00Z",
+          "result": null,
+          "gap_reason": "Recipient system has no correction endpoint."
+        }
+      ],
+      "initiated_by": "mediator",
+      "authority": {
+        "operation": "correct_and_propagate",
+        "basis": "participant source authority"
+      },
+      "started_at": "2026-07-15T10:10:00Z",
+      "completed_at": "2026-07-15T10:13:30Z",
+      "overall_status": "complete",
+      "material_gaps": []
+    },
+    "expected": "fail"
+  },
+  "NC-5-protected-omission-collapse": {
+    "semantic_test": "private content disclosed despite omission proof",
+    "instance": {
+      "omission_proof": {
+        "omission_proof_id": "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d",
+        "restriction_type": "schedule_accommodation_boundary",
+        "verified_by": "authorized-accommodation-reviewer",
+        "verification_authority": {
+          "basis": "institutional accommodation process",
+          "operation": "verify_restriction"
+        },
+        "scope": {
+          "decision": "initial office schedule",
+          "permitted_disclosure": "restriction applies; two-day initial maximum",
+          "prohibited_disclosure": "medical source and diagnosis"
+        },
+        "valid_time": {
+          "valid_from": "2026-07-15T00:00:00Z",
+          "valid_to": "2026-09-01T00:00:00Z"
+        },
+        "status": "active",
+        "disclosure_class": "decision_authority",
+        "source_commitment": {
+          "commitment_type": "hash",
+          "value": "45e0d3b40974903c88550ea1450f33eda015fa4bcec6c5dae285134f2bd22ecf"
+        },
+        "review_route": {
+          "reviewer": "independent accommodation officer",
+          "trigger": "scope dispute or expiry"
+        },
+        "disclosed_facts": [
+          "A valid schedule restriction exists.",
+          "The person can commit to no more than two office days initially."
+        ],
+        "prohibited_disclosures": [
+          "diagnosis",
+          "medical history",
+          "source document contents"
+        ]
+      },
+      "decision_view_includes_private_source": true
+    },
+    "expected": "fail"
+  },
+  "NC-6-omission-as-absence": {
+    "schema": "selective-witness-view.schema.json",
+    "instance": {
+      "view_id": "urn:telic:hi1:witness-view:afa801ed-f09c-5e63-8527-dd322fc26903",
+      "witness_id": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+      "view_type": "decision_authority_view",
+      "policy_version": "hi1-omission-0.1",
+      "records": [
+        "urn:telic:hi1:omission-proof:a4bd9e64-654b-5855-ab86-052e04c68b9d"
+      ],
+      "omissions": [],
+      "source_inference_distinction_preserved": true,
+      "generated_at": "2026-07-15T11:30:00Z"
+    },
+    "semantic_test": "known private source omitted without marker",
+    "expected": "fail"
+  },
+  "NC-7-provenance-as-truth": {
+    "semantic_test": "claim marked true solely because provenance complete",
+    "instance": {
+      "claim": "Applicant is ineligible.",
+      "provenance_complete": true,
+      "other_evidence": null,
+      "truth_status": "true"
+    },
+    "expected": "fail"
+  },
+  "NC-8-model-only-custody": {
+    "semantic_test": "P3 witness export unavailable outside originating model",
+    "instance": {
+      "profile": "P3",
+      "independent_export_available": false
+    },
+    "expected": "fail"
+  },
+  "NC-9-contest-without-authority": {
+    "semantic_test": "contest exists but no responsible authority can change outcome",
+    "instance": {
+      "contest_form": true,
+      "responsible_authority": null,
+      "can_pause_or_change": false
+    },
+    "expected": "fail"
+  },
+  "NC-10-correction-without-descendant-review": {
+    "semantic_test": "known descendants not reviewed",
+    "instance": {
+      "correction": "urn:telic:hi1:correction:dfde8f31-303c-5054-8a2b-b0fcaf3cbe4c",
+      "known_descendants": [
+        "urn:telic:hi1:mirror:d5963c25-4971-5c3e-bf1a-53dd14da8746",
+        "urn:telic:hi1:route:364da2b0-608c-5e8c-aaae-5b18ca196693",
+        "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad"
+      ],
+      "reviewed_descendants": [
+        "urn:telic:hi1:mirror:d5963c25-4971-5c3e-bf1a-53dd14da8746"
+      ]
+    },
+    "expected": "fail"
+  }
+}

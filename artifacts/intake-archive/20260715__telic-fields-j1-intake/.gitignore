@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+*.sqlite3-wal
+*.sqlite3-shm
+witness-private-key.pem
+*.private.pem
+gate-keyring.private.json

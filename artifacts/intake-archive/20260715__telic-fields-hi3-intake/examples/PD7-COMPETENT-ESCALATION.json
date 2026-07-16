@@ -1,0 +1,45 @@
+{
+  "demonstration_id": "PD-7",
+  "escalation": {
+    "escalation_id": "urn:telic:hi3:escalation:e2a75bec-afe4-5fc7-ba20-54f25e8913f0",
+    "source_loop": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+    "target_loop": "urn:telic:hi3:loop:f84c5c4a-3ee0-586c-95e8-b3831c1f41ff",
+    "reason": [
+      "policy conflict",
+      "dependent standing",
+      "local authority insufficient"
+    ],
+    "required_competence": [
+      "policy interpretation",
+      "dependent standing",
+      "privacy review"
+    ],
+    "required_authority": [
+      "appeal adjudication",
+      "temporary protection"
+    ],
+    "context_transferred": [
+      "policy clauses",
+      "income records",
+      "active correction",
+      "standing assessment"
+    ],
+    "context_withheld": [
+      "unrelated medical history",
+      "unrelated communications"
+    ],
+    "privacy_basis": {
+      "rule": "minimum necessary"
+    },
+    "temporary_action": {
+      "action": "maintain assistance for 72 hours"
+    },
+    "return_path": {
+      "recipient": "urn:telic:hi3:loop:0a8c7147-ab04-5133-9b16-b997b0778e83",
+      "required_output": "reasoned decision and authority update"
+    },
+    "status": "active",
+    "target_competence_verified": true
+  },
+  "result": "The issue moves by competence and authority, not hierarchy alone."
+}

@@ -1,0 +1,53 @@
+{
+  "demonstration_id": "PD-3",
+  "title": "Protected condition blocks ordinary compensatory tradeoff",
+  "protected_condition": {
+    "condition_id": "urn:telic:hi7:condition:b5bc26c3-230a-5163-9022-39fd9d5d30a8",
+    "assembly": "urn:telic:hi7:assembly:912f2d52-7eac-52fb-a986-f281174475aa",
+    "condition": "No route may create a period without minimum urgent-care access for residents unable to reach the regional hospital.",
+    "protected_for": [
+      "urn:telic:hi7:center:8d6f9719-9314-5597-9e74-d6e89bc55b9a",
+      "urn:telic:hi7:center:1e203bdf-653b-5088-a82b-960512f648be",
+      "urn:telic:hi7:center:a50e2197-5df2-57c6-aeb2-0b7096266beb"
+    ],
+    "source": {
+      "basis": [
+        "county health duty",
+        "accessibility obligations",
+        "patient evidence"
+      ]
+    },
+    "scope": {
+      "service": "urgent outpatient access",
+      "duration": "transition and implementation"
+    },
+    "evidence": [
+      "transport assessment",
+      "patient testimony",
+      "emergency diversion data"
+    ],
+    "authority": {
+      "holder": "county health authority with public oversight"
+    },
+    "override_process": {
+      "ordinary_weighting": false,
+      "required": "formal legal and protected-condition review"
+    },
+    "review": {
+      "trigger": "transport or service conditions materially change"
+    },
+    "status": "active"
+  },
+  "high_scoring_route": {
+    "route": "urn:telic:hi7:route:8c5f1883-b55a-5e22-88fd-e232f845cc6d",
+    "weighted_score": 0.84,
+    "condition_passed": false
+  },
+  "lower_scoring_route": {
+    "route": "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe",
+    "weighted_score": 0.78,
+    "condition_passed": true
+  },
+  "selected_for_further_review": "urn:telic:hi7:route:747a51b9-8c4f-59f3-828c-6f0bd4c510fe",
+  "result": "Cost and speed gains cannot compensate for the failed minimum-access condition."
+}

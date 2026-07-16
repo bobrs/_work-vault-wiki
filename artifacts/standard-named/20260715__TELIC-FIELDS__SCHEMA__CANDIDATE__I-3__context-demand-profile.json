@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "context-demand-profile.schema.json",
+  "title": "ContextDemandProfile",
+  "type": "object",
+  "required": [
+    "demand_id",
+    "action",
+    "action_class",
+    "affected_centers",
+    "required_standing",
+    "required_evidence",
+    "required_resolution",
+    "required_temporal_span",
+    "required_provenance",
+    "required_uncertainty",
+    "required_privacy",
+    "required_participant_capacity",
+    "required_escalation",
+    "irreversibility",
+    "consequence_level"
+  ],
+  "properties": {
+    "demand_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "action_class": {
+      "enum": [
+        "ephemeral_assistance",
+        "reversible_draft",
+        "recommendation",
+        "bounded_trial",
+        "consequential_decision",
+        "irreversible_action",
+        "emergency_protective_action"
+      ]
+    },
+    "affected_centers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_standing": {
+      "type": "object"
+    },
+    "required_evidence": {
+      "type": "array"
+    },
+    "required_resolution": {
+      "type": "array"
+    },
+    "required_temporal_span": {
+      "type": "object"
+    },
+    "required_provenance": {
+      "type": "object"
+    },
+    "required_uncertainty": {
+      "type": "object"
+    },
+    "required_privacy": {
+      "type": "object"
+    },
+    "required_participant_capacity": {
+      "type": "object"
+    },
+    "required_escalation": {
+      "type": "object"
+    },
+    "irreversibility": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "consequence_level": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

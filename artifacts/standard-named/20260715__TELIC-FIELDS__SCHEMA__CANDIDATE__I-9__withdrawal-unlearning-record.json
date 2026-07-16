@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "withdrawal-unlearning-record.schema.json",
+  "title": "WithdrawalUnlearningRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_or_contributor",
+    "lineage_scope",
+    "withdrawal_basis",
+    "requested_actions",
+    "approved_actions",
+    "technical_capability",
+    "performed_actions",
+    "verification",
+    "known_residuals",
+    "unreachable_descendants",
+    "surviving_witness",
+    "status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "source_or_contributor": {
+      "type": "string"
+    },
+    "lineage_scope": {
+      "type": "object"
+    },
+    "withdrawal_basis": {
+      "type": "object"
+    },
+    "requested_actions": {
+      "type": "array",
+      "minItems": 1
+    },
+    "approved_actions": {
+      "type": "array"
+    },
+    "technical_capability": {
+      "type": "object"
+    },
+    "performed_actions": {
+      "type": "array"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "known_residuals": {
+      "type": "array"
+    },
+    "unreachable_descendants": {
+      "type": "array"
+    },
+    "surviving_witness": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "requested",
+        "approved",
+        "in_progress",
+        "partial",
+        "completed",
+        "contested",
+        "failed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

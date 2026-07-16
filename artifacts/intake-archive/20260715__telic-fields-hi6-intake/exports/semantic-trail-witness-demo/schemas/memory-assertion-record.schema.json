@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "memory-assertion-record.schema.json",
+  "title": "MemoryAssertionRecord",
+  "type": "object",
+  "required": [
+    "assertion_id",
+    "trace",
+    "assertion_class",
+    "content",
+    "source",
+    "confidence",
+    "authority",
+    "scope",
+    "corrections",
+    "contestation",
+    "status"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string"
+    },
+    "trace": {
+      "type": "string"
+    },
+    "assertion_class": {
+      "enum": [
+        "direct_source_statement",
+        "observation",
+        "derived_fact",
+        "model_inference",
+        "model_generation",
+        "institutional_classification",
+        "contested_claim",
+        "correction",
+        "revocation",
+        "unknown"
+      ]
+    },
+    "content": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "authority": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contestation": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "active_with_qualification",
+        "contested",
+        "corrected",
+        "revoked",
+        "stale",
+        "archival",
+        "released",
+        "unknown"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,149 @@
+{
+  "artifact_date": "2026-07-15",
+  "status": "candidate_research_schema",
+  "content_canon_status": "unset",
+  "record_name": "SemanticPolytelometrySessionRecord",
+  "fields": {
+    "session_id": "identifier",
+    "session_scope": {
+      "purpose": "string",
+      "domain": "string",
+      "stakes": "string|object",
+      "affected_centers": "array",
+      "duration": "string|object",
+      "expiry": "datetime|null"
+    },
+    "participants": [
+      {
+        "center_id": "identifier",
+        "role": "string",
+        "representation_status": "value",
+        "authority": "reference|rule",
+        "consent_scope": "reference|object",
+        "private_channel": "reference|null",
+        "correction_route": "reference"
+      }
+    ],
+    "provider": {
+      "identity": "identifier",
+      "operative_purposes": "array",
+      "retention": "object",
+      "training_use": "object",
+      "external_sharing": "object",
+      "applicable_policies": "array"
+    },
+    "model_instances": [
+      {
+        "model_id": "identifier",
+        "version": "string",
+        "provider": "identifier",
+        "assigned_role": "string",
+        "allowed_inputs": "array",
+        "allowed_outputs": "array",
+        "allowed_tools": "array",
+        "prohibited_actions": "array",
+        "confirmation_required": "array",
+        "execution_authority": "reference|rule|null",
+        "review_authority": "reference|rule|null"
+      }
+    ],
+    "source_objects": "array[reference]",
+    "projections": "array[reference]",
+    "semantic_trails": "array[reference]",
+    "active_context": {
+      "retrieval_events": "array",
+      "excluded_classes": "array",
+      "protected_priorities": "array",
+      "known_gaps": "array"
+    },
+    "model_outputs": [
+      {
+        "output_id": "identifier",
+        "model_id": "identifier",
+        "role": "string",
+        "epistemic_status": "value",
+        "source_links": "array",
+        "transformations": "array",
+        "uncertainty": "object",
+        "participant_recognition": "value",
+        "action_authority": "reference|rule|null"
+      }
+    ],
+    "field_map": {
+      "shared": "array",
+      "compatible": "array",
+      "conditional": "array",
+      "conflicting": "array",
+      "protected": "array",
+      "unresolved": "array",
+      "missing_standing": "array",
+      "released": "array"
+    },
+    "routes": "array[reference]",
+    "governance_gates": {
+      "standing": "value",
+      "consent": "value",
+      "authority": "value",
+      "capacity": "value",
+      "privacy": "value",
+      "tool_use": "value",
+      "human_reentry": "value",
+      "stop": "value"
+    },
+    "actions": [
+      {
+        "action_id": "identifier",
+        "proposed_by": "identifier",
+        "authorized_by": "identifier|reference",
+        "executed_by": "identifier|reference",
+        "tool": "reference|null",
+        "reversibility": "object",
+        "result": "reference|object",
+        "consequence": "reference|object"
+      }
+    ],
+    "semantic_trajectory": [
+      {
+        "source_expression": "reference|object",
+        "transformed_expression": "reference|object",
+        "agent": "identifier",
+        "status_change": "object",
+        "scope_change": "object",
+        "affected_action": "reference|null"
+      }
+    ],
+    "contest": {
+      "challenges": "array",
+      "corrections": "array",
+      "appeals": "array",
+      "recourse": "array"
+    },
+    "witness": {
+      "model_versions": "array",
+      "policy_versions": "array",
+      "source_bundle": "reference",
+      "event_stream": "reference|array",
+      "consequence_records": "array"
+    },
+    "lifecycle_status": [
+      "active",
+      "paused",
+      "contested",
+      "corrected",
+      "expired",
+      "released",
+      "dissolved"
+    ]
+  },
+  "prohibited_collapses": [
+    "field_to_profile",
+    "projection_to_preference",
+    "trail_to_current_truth",
+    "retrieved_context_to_complete_context",
+    "model_mirror_to_source_statement",
+    "route_to_consent",
+    "human_approval_to_meaningful_control",
+    "model_agent_count_to_standing_plurality"
+  ],
+  "note": "Research schema only. Production should reference earlier canonical record types rather than duplicate them."
+}

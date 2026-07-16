@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:telic:j2:schema:tool-transaction:0.1",
+  "title": "ToolTransaction",
+  "type": "object",
+  "required": [
+    "transaction_id",
+    "route_id",
+    "tool_id",
+    "policy_version",
+    "key_id",
+    "phase",
+    "reservation_id",
+    "attempt",
+    "result",
+    "compensation",
+    "events",
+    "status"
+  ],
+  "properties": {
+    "transaction_id": {
+      "type": "string"
+    },
+    "route_id": {
+      "type": "string"
+    },
+    "tool_id": {
+      "type": "string"
+    },
+    "policy_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "key_id": {
+      "type": "string"
+    },
+    "phase": {
+      "enum": [
+        "prepared",
+        "reserved",
+        "committed",
+        "failed_after_reservation",
+        "compensated",
+        "cancelled"
+      ]
+    },
+    "reservation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "result": {
+      "type": "object"
+    },
+    "compensation": {
+      "type": "object"
+    },
+    "events": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "complete",
+        "failed",
+        "compensated",
+        "contested"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

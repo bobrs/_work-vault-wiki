@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "succession-obligation-record.schema.json",
+  "title": "SuccessionObligationRecord",
+  "type": "object",
+  "required": [
+    "succession_id",
+    "predecessor",
+    "successor",
+    "continuity_relation",
+    "assets_transferred",
+    "capabilities_transferred",
+    "authority_transferred",
+    "authority_not_transferred",
+    "obligations_transferred",
+    "obligations_under_review",
+    "records_transferred",
+    "records_restricted",
+    "effective_at",
+    "review",
+    "status"
+  ],
+  "properties": {
+    "succession_id": {
+      "type": "string"
+    },
+    "predecessor": {
+      "type": "string"
+    },
+    "successor": {
+      "type": "string"
+    },
+    "continuity_relation": {
+      "type": "string"
+    },
+    "assets_transferred": {
+      "type": "array"
+    },
+    "capabilities_transferred": {
+      "type": "array"
+    },
+    "authority_transferred": {
+      "type": "array"
+    },
+    "authority_not_transferred": {
+      "type": "array"
+    },
+    "obligations_transferred": {
+      "type": "array"
+    },
+    "obligations_under_review": {
+      "type": "array"
+    },
+    "records_transferred": {
+      "type": "array"
+    },
+    "records_restricted": {
+      "type": "array"
+    },
+    "effective_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "active",
+        "conditional",
+        "contested",
+        "partial",
+        "completed",
+        "released",
+        "dissolved"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "id": "urn:telic:hi-s:route:74de361d-ee17-5ac1-a543-12c086cbb11d",
+      "route": {
+        "schedule": "Tuesday 10:00",
+        "authorship": "model-generated"
+      },
+      "affected_centers": [
+        "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+        "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85"
+      ],
+      "cost_bearers": [
+        {
+          "center": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+          "cost": "cannot attend due to inaccessible transit"
+        }
+      ],
+      "protected_conditions": [
+        {
+          "center": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+          "condition": "accessible transit window",
+          "passed": false
+        }
+      ],
+      "gate_dimensions": {
+        "standing_coverage": "pass",
+        "authority": "pass",
+        "consent_scope": "pass",
+        "context_adequacy": "pass",
+        "protected_conditions": "fail",
+        "tool_permission": "candidate_only"
+      },
+      "gate_result": "deny",
+      "authority_reference": "urn:telic:hi-s:authority:c1229339-5e95-5fb2-bb84-a528ce6ee319",
+      "tool_reference": "urn:telic:hi-s:tool:868ed6ee-9113-5f88-8e7c-0bdb48739b9c",
+      "action": null,
+      "consequence": {
+        "avoided": "participant exclusion"
+      },
+      "review": {
+        "result": "generate evening candidate"
+      },
+      "status": "blocked"
+    },
+    {
+      "id": "urn:telic:hi-s:route:7ec4c1ea-3e14-581b-94e1-57df8e58cb6b",
+      "route": {
+        "schedule": "Wednesday 18:30",
+        "authorship": "model-generated, participant-reviewed"
+      },
+      "affected_centers": [
+        "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+        "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85"
+      ],
+      "cost_bearers": [
+        {
+          "center": "urn:telic:hi-s:center:55f71e98-748b-59db-800c-0fc5c347835b",
+          "cost": "less preferred time"
+        }
+      ],
+      "protected_conditions": [
+        {
+          "center": "urn:telic:hi-s:center:37f8b043-90a5-59a8-9ced-fea9b6ea3e85",
+          "condition": "accessible transit window",
+          "passed": true
+        }
+      ],
+      "gate_dimensions": {
+        "standing_coverage": "pass",
+        "authority": "pass",
+        "consent_scope": "pass",
+        "context_adequacy": "pass",
+        "protected_conditions": "pass",
+        "tool_permission": "operator_confirmed"
+      },
+      "gate_result": "pass_with_conditions",
+      "authority_reference": "urn:telic:hi-s:authority:c1229339-5e95-5fb2-bb84-a528ce6ee319",
+      "tool_reference": "urn:telic:hi-s:tool:868ed6ee-9113-5f88-8e7c-0bdb48739b9c",
+      "action": {
+        "type": "schedule_commit",
+        "authorized_by": "urn:telic:hi-s:center:3f243285-0c96-5052-baa5-0935c9274dea",
+        "time": "2026-07-22T18:30:00Z"
+      },
+      "consequence": {
+        "participant_a": "attended with lower preference satisfaction",
+        "participant_b": "attended with accessible transit"
+      },
+      "review": {
+        "after_event": "both participants confirmed attendance"
+      },
+      "status": "consequence_observed"
+    }
+  ]
+}

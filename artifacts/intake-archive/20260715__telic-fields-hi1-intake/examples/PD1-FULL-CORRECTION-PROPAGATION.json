@@ -1,0 +1,111 @@
+{
+  "demonstration_id": "PD-1",
+  "description": "A source correction reaches mirror, field map, route, gate, and decision witness.",
+  "source_before": {
+    "record_id": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+    "record_version": "1",
+    "evidence_status": "direct",
+    "expression": "I oppose outside advice.",
+    "status": "superseded"
+  },
+  "correction": {
+    "correction_id": "urn:telic:hi1:correction:dfde8f31-303c-5054-8a2b-b0fcaf3cbe4c",
+    "target_record": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+    "target_version": "1",
+    "corrected_by": "morgan",
+    "grounds": [
+      "The earlier summary generalized a recording boundary."
+    ],
+    "correction_type": "source_correction",
+    "new_value": "I do not oppose outside advice. I oppose sharing the audio recording.",
+    "valid_time_effect": {
+      "valid_from": "2026-07-15T09:00:00Z",
+      "valid_to": null,
+      "retroactive": true
+    },
+    "recorded_at": "2026-07-15T10:00:00Z",
+    "authority": {
+      "operation": "describe",
+      "holder": "morgan"
+    },
+    "superseding_version": "2",
+    "contest_status": "accepted",
+    "notes": null
+  },
+  "propagation": {
+    "propagation_id": "urn:telic:hi1:propagation:412c1432-15e2-5c87-8147-8e5fc9fadfb5",
+    "correction": "urn:telic:hi1:correction:dfde8f31-303c-5054-8a2b-b0fcaf3cbe4c",
+    "root_target": "urn:telic:hi1:projection:9822fb40-3220-5ece-a61b-199a22186202",
+    "descendants": [
+      {
+        "record": "urn:telic:hi1:mirror:d5963c25-4971-5c3e-bf1a-53dd14da8746",
+        "record_type": "receiver_mirror",
+        "impact": "direct",
+        "status": "superseded",
+        "attempted_at": "2026-07-15T10:01:00Z",
+        "result": {
+          "new_status": "corrected"
+        },
+        "gap_reason": null
+      },
+      {
+        "record": "urn:telic:hi1:field-map:f03c5644-5f4a-543d-9054-dd1daf824415",
+        "record_type": "field_map",
+        "impact": "material",
+        "status": "recalculated",
+        "attempted_at": "2026-07-15T10:02:00Z",
+        "result": {
+          "conflict": "advice need versus audio boundary"
+        },
+        "gap_reason": null
+      },
+      {
+        "record": "urn:telic:hi1:route:364da2b0-608c-5e8c-aaae-5b18ca196693",
+        "record_type": "route",
+        "impact": "material",
+        "status": "updated",
+        "attempted_at": "2026-07-15T10:03:00Z",
+        "result": {
+          "selected": "written summary route"
+        },
+        "gap_reason": null
+      },
+      {
+        "record": "urn:telic:hi1:gate:018d1332-1770-5960-9102-fa260b4545a1",
+        "record_type": "governance_gate",
+        "impact": "material",
+        "status": "recalculated",
+        "attempted_at": "2026-07-15T10:04:00Z",
+        "result": {
+          "consent": "pass_with_conditions"
+        },
+        "gap_reason": null
+      },
+      {
+        "record": "urn:telic:hi1:witness:a4e0a1b2-a37f-5f47-aa4e-403b45e990ad",
+        "record_type": "decision_witness",
+        "impact": "material",
+        "status": "updated",
+        "attempted_at": "2026-07-15T10:05:00Z",
+        "result": {
+          "correction_recorded": true
+        },
+        "gap_reason": null
+      }
+    ],
+    "initiated_by": "mediator",
+    "authority": {
+      "operation": "correct_and_propagate",
+      "basis": "participant source authority"
+    },
+    "started_at": "2026-07-15T10:00:30Z",
+    "completed_at": "2026-07-15T10:05:30Z",
+    "overall_status": "complete",
+    "material_gaps": []
+  },
+  "historical_witness": {
+    "prior_version_preserved": true,
+    "prior_action_reference": null,
+    "current_version": "2"
+  }
+}
