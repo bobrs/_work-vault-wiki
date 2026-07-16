@@ -69,6 +69,16 @@ Start with:
 - [Concepts Index](../concepts/index.md)
 - [Published Essays](../external/shimmerymemory/essays/index.md)
 
+## I want to follow the Telic Field Papers
+
+Start with:
+
+- [Telic A–K Control Plane](../projects/telic-field-papers/control-plane/index.md)
+- [Telic Field Papers](../projects/telic-field-papers/index.md)
+- [Telic Artifact Index](../projects/telic-field-papers/artifacts/index.md)
+- [Telic Sources](../projects/telic-field-papers/sources.md)
+- [Telic Concepts — Stage 5](../concepts/index-stage-5.md)
+
 ## I want to read published essays
 
 Start with:

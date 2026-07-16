@@ -103,6 +103,7 @@ These pages remain candidate material. Their inclusion here does not make them c
 
 ## Lineage surfaces
 
+- [A–K Control Plane](control-plane/index.md)
 - [Lineage](lineage.md)
 - [Sources](sources.md)
 - [Open Questions](open-questions.md)

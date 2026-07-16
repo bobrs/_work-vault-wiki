@@ -9,6 +9,8 @@ This page provides the semantic interface to the primary and first-derived artif
 
 The source artifacts remain the evidentiary record. These pages summarize, connect, and orient without replacing them.
 
+- [A–K Control Plane](../control-plane/index.md)
+
 ## Primary source
 
 - [Origin Conversation Transcript](origin-conversation/index.md)
