@@ -2,6 +2,8 @@
 
 Subtitle: `Meaning is not complete until uptake is reflected`
 
+> Historical slug retained for provenance. The current canonical page is [The Loop Requirement](../the-loop-requirement/index.md).
+
 ## Source Artifact
 
 - Source role: `published_external`

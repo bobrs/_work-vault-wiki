@@ -52,7 +52,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -60,12 +60,6 @@ Excerpt:
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [ULiUA](../../../../projects/uliua/index.md)
-- [Manifestation Works (And Not for the Reason You Think)](../manifestation-works-and-thats-not-why-you-think/index.md)
-- [Semantic Stochastic Anchor-Based Manifestation Protocol (SSAMP)](../semantic-stochastic-anchor-based-manifestation-protocol/index.md)
 
 ## Working Read
 
@@ -87,6 +81,8 @@ Excerpt:
 - When does instrumental viewpoint use start to become self-deception?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

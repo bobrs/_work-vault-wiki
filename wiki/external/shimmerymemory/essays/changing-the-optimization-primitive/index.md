@@ -29,6 +29,14 @@ Excerpt:
 
 ### The Enclosure of Meaning The contemporary architecture of artificial intelligence functions as a one-way thermodynamic valve. High-entropy, decentralized human expression—shared across decades of digital commons on forums, creative networks, and open repositories—is vacuumed
 
+## Canonical Glyphs
+
+- None listed
+
+## Related Invariants
+
+- None listed
+
 ## Working Read
 
 This essay is a governance argument about changing the primitive that AI systems optimize against. Its center of gravity is not just consent, but the mechanics of provenance, traceability, and public reuse when commercial optimization is allowed to proceed from scraped data by default.
@@ -60,18 +68,6 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 - [Accounting for Meaning](./accounting-for-meaning/index.md)
 - [Defending Meaning](./defending-meaning/index.md)
 
-## Related Invariants
-
-- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
-- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
-- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
-- [P8 — Reversibility / Exit](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
-- [P9 — Power-Proportionate Governance](https://quantuminvariants.com/spine/primitives#P9) · Quantum Invariants · primitive
-- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
-- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
-- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
-- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
-
 ## Open Questions
 
 - What counts as sufficient proof of consent for a training input or optimization step?
@@ -79,14 +75,6 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 - How much of the historical model stack can actually be socialized without breaking downstream utility?
 - Can provenance stay legible without becoming a surveillance layer?
 - How should machines distinguish inherited capability from newly consented optimization?
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Earned Insight](../../../projects/semantic-integrity/earned-insight/index.md)
-- [Voting Machine](../../../projects/patents/governance-and-games/voting-machine/index.md)
-- [Consent Economy and Sovereignty](../../../projects/side-projects-desktop/governance/consent-economy-and-sovereignty/index.md)
 
 ## Attractor Bridge
 
@@ -103,19 +91,11 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 - The “civilizational amnesty” move is a transition mechanism that socializes old capability without endorsing old extraction.
 - The piece belongs with consent, governance, trust, and provenance material more than with general AI commentary.
 
-## Canonical Glyphs
-
-- None listed
-
-## Related Invariants
-
-- None listed
-
 ## Ingest Metadata
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -124,27 +104,9 @@ If consent cannot be demonstrated, optimization should not be allowed by default
 
 - `pending`
 
-## Work Vault Links
-
-- Reserved for internal page links once salience extraction begins.
-
-## Working Read
-
-- Pending.
-
-## Core Claim
-
-- Pending.
-
-## Key Ideas
-
-- Pending.
-
-## Open Questions
-
-- Pending.
-
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

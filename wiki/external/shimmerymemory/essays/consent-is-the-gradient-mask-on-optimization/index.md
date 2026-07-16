@@ -53,6 +53,8 @@ There is a class of truths that first appears ethical, then later reveals itself
 - [C5 — Authority Drift](https://quantuminvariants.com/spine/composites#C5) · Quantum Invariants · composite
 - [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
 - [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
+- [C11 — Witnessed State Change](https://quantuminvariants.com/spine/composites#C11) · Quantum Invariants · composite
+- [C12 — Threshold Cascade](https://quantuminvariants.com/spine/composites#C12) · Quantum Invariants · composite
 
 ## Related Projects
 
@@ -76,7 +78,7 @@ There is a class of truths that first appears ethical, then later reveals itself
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -84,13 +86,6 @@ There is a class of truths that first appears ethical, then later reveals itself
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Voting Machine](../../../projects/voting-machine/index.md)
-- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
 
 ## Working Read
 
@@ -114,6 +109,8 @@ Consent is not a decorative constraint on optimization; it is the mechanism that
 - Which signals should remain outside the optimization loop entirely?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

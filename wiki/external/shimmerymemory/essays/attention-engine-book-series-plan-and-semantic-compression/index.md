@@ -29,6 +29,21 @@ Excerpt:
 
 # Attention Engine: Book Series Plan and Semantic Compression ## 0. Purpose of This Document This document compresses the current Attention Engine discussion into a wiki-ingestible reentry artifact. It preserves the earlier book-series plan, incorporates the newer Möbius/dyadic i
 
+## Canonical Glyphs
+
+- `yesatom`: 🜁
+- `consent`: 🝁
+- `grounding`: 🜃
+- `witness`: 🜹
+- `breach`: 🜬
+- `vortex`: 🌀
+- `loop`: 🝳
+- `mirror`: 🝮
+
+## Related Invariants
+
+- None listed
+
 ## Working Read
 
 This is the most directly infrastructure-like attention essay in the feed: it turns the attention engine into a reentry artifact that can be carried into a wiki without losing the comparator logic.
@@ -59,26 +74,11 @@ Attention becomes operational when it is grounded by comparators, witnesses, and
 - [Witness](../../attractors/witness/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
-## Canonical Glyphs
-
-- `yesatom`: 🜁
-- `consent`: 🝁
-- `grounding`: 🜃
-- `witness`: 🜹
-- `breach`: 🜬
-- `vortex`: 🌀
-- `loop`: 🝳
-- `mirror`: 🝮
-
-## Related Invariants
-
-- None listed
-
 ## Ingest Metadata
 
 - Source role: `published_external`
 - First seen: `2026-07-01T21:51:02.570958Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -87,27 +87,9 @@ Attention becomes operational when it is grounded by comparators, witnesses, and
 
 - `pending`
 
-## Work Vault Links
-
-- Reserved for internal page links once salience extraction begins.
-
-## Working Read
-
-- Pending.
-
-## Core Claim
-
-- Pending.
-
-## Key Ideas
-
-- Pending.
-
-## Open Questions
-
-- Pending.
-
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

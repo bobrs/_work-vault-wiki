@@ -69,7 +69,7 @@ There is a widespread assumption in contemporary AI discourse that cost is a pro
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -77,13 +77,6 @@ There is a widespread assumption in contemporary AI discourse that cost is a pro
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Voting Machine](../../../projects/voting-machine/index.md)
-- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
 
 ## Working Read
 
@@ -107,6 +100,8 @@ If a system wants to stay consentful, it has to pay for witness, reversibility, 
 - What evidence would prove a system stayed consentful across time?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

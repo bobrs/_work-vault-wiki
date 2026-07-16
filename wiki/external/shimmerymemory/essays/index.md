@@ -11,21 +11,26 @@ Published external metadata index for the Shimmery Memory essay feed.
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
-- Ingested at: `2026-07-09T01:02:16.204293Z`
-- Item count: `77`
+- Ingested at: `2026-07-16T05:58:15.161339Z`
+- Item count: `82`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
 
-- [When Meaning Begins to Move](./when-meaning-begins-to-move/index.md) — Semantic Lineage, Semantic Dynamics, and Semantic Thermodynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-lineage, semantic-dynamics, semantic-thermodynamics`; first seen `2026-07-13T00:00:00Z`
-- [The Motion of Meaning](./the-motion-of-meaning/index.md) — Toward a Theory of Semantic Dynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-dynamics, semantic-lineage, semantic-complementarity`; first seen `2026-07-13T00:00:00Z`
-- [From Fetch to Civilization: Consent as the Gate](./from-fetch-to-civilization-consent-as-the-gate/index.md) — Artifact, attractor, and the right to stop — published `2026-07-11`; updated `2026-07-11`; tags: `consent, civilization, artifact-vs-attractor, loops`; first seen `2026-07-11T00:00:00Z`
-- [The Big Hook](./the-big-hook/index.md) — Why Business Becomes Code—and Why Relationship Becomes the Durable Advantage — published `2026-07-10`; updated `2026-07-10`; tags: `business-as-code, artificial-intelligence, relational-capability, consentful-cybernetics`; first seen `2026-07-10T00:00:00Z`
+- [The Cost of Self](./the-cost-of-self/index.md) — Internal standing, spent possibility, and the constitutional work of becoming one — published `2026-07-14`; updated `2026-07-14`; tags: `self, identity, agency, internal-systems`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Cost of Family](./the-cost-of-family/index.md) — Belonging, care, and the dynamics of intergenerational exchange — published `2026-07-14`; updated `2026-07-14`; tags: `family, belonging, care, standing`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Cost of Earth](./the-cost-of-earth/index.md) — Planetary participation, material limits, and the end of elsewhere — published `2026-07-14`; updated `2026-07-14`; tags: `earth, planetary-systems, system-dynamics, feedback-loops`; first seen `2026-07-16T05:58:12.245097Z`
+- [The Cost of Cosmos](./the-cost-of-cosmos/index.md) — Energy gradients, temporary order, and participation without an outside — published `2026-07-14`; updated `2026-07-14`; tags: `cosmos, cosmic-systems, thermodynamics, entropy`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Cost of Community](./the-cost-of-community/index.md) — Participation, standing, and the dynamics of sustainable exchange — published `2026-07-14`; updated `2026-07-14`; tags: `community, participation, standing, system-dynamics`; first seen `2026-07-16T05:58:12.245097Z`
+- [When Meaning Begins to Move](./when-meaning-begins-to-move/index.md) — Semantic Lineage, Semantic Dynamics, and Semantic Thermodynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-lineage, semantic-dynamics, semantic-thermodynamics, witness`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Motion of Meaning](./the-motion-of-meaning/index.md) — Toward a Theory of Semantic Dynamics — published `2026-07-13`; updated `2026-07-13`; tags: `semantic-dynamics, semantic-lineage, semantic-complementarity, witness`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Big Hook](./the-big-hook/index.md) — Why Business Becomes Code—and Why Relationship Becomes the Durable Advantage — published `2026-07-10`; updated `2026-07-10`; tags: `business-as-code, artificial-intelligence, relational-capability, consentful-cybernetics`; first seen `2026-07-16T05:36:29.565216Z`
 - [Consent-Keyed Immutable Storage Loops](./consent-keyed-immutable-storage-loops/index.md) — Witness cells, re-entry, and storage-forward Abracadabracadoo — published `2026-07-01`; updated `2026-07-01`; tags: `consentful-cybernetics, protocol, storage, immutability`; first seen `2026-07-01T21:51:02.570958Z`
-- [The Real Is a Ritual](./20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-06-26T03:20:02.687577Z`
+- [From Fetch to Civilization: Consent as the Gate](./from-fetch-to-civilization-consent-as-the-gate/index.md) — Civilization remains alive only when its loops can still be chosen. — published `2026-06-28`; updated `2026-06-28`; tags: `consent, civilization, loops, artifact-vs-attractor`; first seen `2026-07-16T05:36:29.565216Z`
+- [The Real Is a Ritual](./the-real-is-a-ritual-v02/index.md) — Attention, Appreciation, and the Surface of Mutual Projection — published `2026-06-25`; updated `2026-06-25`; tags: `semantic-consent, communication, attention, appreciation`; first seen `2026-07-16T05:36:29.565216Z`
 - [Attention Engine: Book Series Plan and Semantic Compression](./attention-engine-book-series-plan-and-semantic-compression/index.md) — From Attention Mechanics to the Surface of Mutual Projection and Comparator-Grounded Reality Engineering — published `2026-06-25`; updated `2026-06-25`; tags: `attention-engine, attention, appreciation, consent-to-context`; first seen `2026-07-01T21:51:02.570958Z`
 - [Witness as Skill-Set and Boundary Set](./witness-as-skill-set-and-boundary-set/index.md) — Why assurance requires disciplined non-merge — published `2026-06-22`; updated `2026-06-22`; tags: `consentful-cybernetics, witness, ai-assurance, separation-of-duties`; first seen `2026-06-26T03:20:02.687577Z`
-- [The Loop Requirement](./20260622__shimmerymemory__essay__public__fieldpragmatics-qi__the-loop-requirement/index.md) — Meaning is not complete until uptake is reflected — published `2026-06-22`; updated `2026-06-22`; tags: `field-pragmatics, quantum-invariants, consent, communication`; first seen `2026-07-09T01:02:15.767560Z`
+- [The Loop Requirement](./the-loop-requirement/index.md) — Meaning is not complete until uptake is reflected — published `2026-06-22`; updated `2026-06-22`; tags: `field-pragmatics, quantum-invariants, consent, communication`; first seen `2026-07-16T05:36:29.565216Z`
 - [The Consentocracy Bridge](./changing-the-optimization-primitive/index.md) — Cryptographic Provenance, Structural Extraction, and the Great Civilizational AI Amnesty — published `2026-06-22`; updated `2026-06-22`; tags: `ai-governance, semantic-consent, data-provenance, digital-commons`; first seen `2026-06-26T03:20:02.687577Z`
 - [Privacy Is a Membrane, Not a Wall](./20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md) — Energy finds its way — published `2026-06-22`; updated `2026-06-22`; tags: `privacy, consent, ai-governance, semantic-consent`; first seen `2026-06-26T03:20:02.687577Z`
 - [Posture Fraud](./20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md) — Why consent is the efficient way — published `2026-06-22`; updated `2026-06-22`; tags: `consent, attention, ai-governance, privacy`; first seen `2026-06-26T03:20:02.687577Z`
@@ -98,6 +103,10 @@ Published external metadata index for the Shimmery Memory essay feed.
 ## Working Read
 
 - This page tracks the external feed as a metadata-first index. It does not copy full essay bodies.
+
+## Cost Series
+
+The Cost series follows hidden expenditure and return across nested scales: [Self](./the-cost-of-self/index.md), [Family](./the-cost-of-family/index.md), [Community](./the-cost-of-community/index.md), [Earth](./the-cost-of-earth/index.md), and [Cosmos](./the-cost-of-cosmos/index.md).
 
 ## Next Actions
 

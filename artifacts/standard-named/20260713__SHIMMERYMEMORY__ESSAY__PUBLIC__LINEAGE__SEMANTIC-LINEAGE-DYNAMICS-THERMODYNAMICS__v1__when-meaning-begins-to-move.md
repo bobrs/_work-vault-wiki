@@ -15,18 +15,19 @@ tags:
   - cybernetics
   - field-pragmatics
 canonical_glyphs:
-  - "🜹 witness"
-  - "🝁 consent"
-  - "🝳 loop"
-  - "🝚 boundary"
-  - "🜲 collapse"
-related_elements:
-  - Semantic Lineage
-  - Semantic Dynamics
-  - Semantic Thermodynamics
-  - Consentful Cybernetics
-  - Field Pragmatics
-  - Shimmery Memory
+  - name: "witness"
+    glyph: "🜹"
+  - name: "consent"
+    glyph: "🝁"
+  - name: "loop"
+    glyph: "🝳"
+  - name: "boundary"
+    glyph: "🝚"
+  - name: "collapse"
+    glyph: "🜲"
+attribution:
+  label: "Bobby Simpson"
+  url: "https://BobbySimpson.com"
 ---
 
 A document does not remain meaningful merely because its words remain unchanged.

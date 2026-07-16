@@ -29,6 +29,30 @@ Excerpt:
 
 --- ## 0) Purpose of This Framework This framework unifies: - **Attention mechanics** (pointing, artifacts, decay) - **Curiosity / interestingness** (compression improvement) - **Reality formation** (fossilized attention) into a single, operational model. It is intended to be: -
 
+## Canonical Glyphs
+
+- `shimmer`: ⋆✴︎˚｡⋆
+- `loop`: 🝳
+- `consent`: 🝁
+- `boundary`: 🝚
+- `witness`: 🜹
+- `collapse`: 🜲
+
+## Related Invariants
+
+- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
+- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
+- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
+- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
+- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
+- [P7 — Attractor / Basin](https://quantuminvariants.com/spine/primitives#P7) · Quantum Invariants · primitive
+- [P8 — Reversibility / Optionality](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
+- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
+- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
+- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
+- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
+- [C11 — Witnessed State Change](https://quantuminvariants.com/spine/composites#C11) · Quantum Invariants · composite
+
 ## Working Read
 
 This framework is one of the cleanest attention attractor essays in the feed because it treats attention as a generative selection system rather than a passive label.
@@ -59,35 +83,11 @@ Attention is the substrate-independent mechanism by which a system chooses what 
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 - [Witness](../../attractors/witness/index.md)
 
-## Canonical Glyphs
-
-- `shimmer`: ⋆✴︎˚｡⋆
-- `loop`: 🝳
-- `consent`: 🝁
-- `boundary`: 🝚
-- `witness`: 🜹
-- `collapse`: 🜲
-
-## Related Invariants
-
-- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
-- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
-- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
-- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
-- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
-- [P7 — Attractor / Basin](https://quantuminvariants.com/spine/primitives#P7) · Quantum Invariants · primitive
-- [P8 — Reversibility / Optionality](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
-- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
-- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
-- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
-- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
-- [C11 — Witnessed State Change](https://quantuminvariants.com/spine/composites#C11) · Quantum Invariants · composite
-
 ## Ingest Metadata
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -96,29 +96,6 @@ Attention is the substrate-independent mechanism by which a system chooses what 
 
 - `pending`
 
-## Work Vault Links
-
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Voting Machine](../../../projects/voting-machine/index.md)
-- [How Intuition Works](../../../projects/how-intuition-works/index.md)
-
-## Working Read
-
-This framework is one of the clearest salience essays in the feed because it treats attention as the mechanism that decides what becomes real enough to shape a shared world.
-It belongs with meaning, agency, grounding, and witness because selection only matters when the resulting compression still remains accountable to context.
-
-## Core Claim
-
-Attention is the substrate-independent selection process that turns repeated notice into salience, compression, and eventual reality formation.
-
-## Key Ideas
-
-- Curiosity is compression-seeking behavior.
-- Reality formation depends on repeated selection and artifact decay.
-- Attention is power because it determines what can later be treated as real.
-- Consent and ethics matter because selection can be extractive even when it looks neutral.
-
 ## Open Questions
 
 - What makes an attention loop consentful rather than extractive?
@@ -126,6 +103,8 @@ Attention is the substrate-independent selection process that turns repeated not
 - How much repetition is needed before a selection hardens into shared reality?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

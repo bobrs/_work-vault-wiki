@@ -54,7 +54,7 @@ Law did not become essential because society needed experts to memorize rules. L
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -62,10 +62,6 @@ Law did not become essential because society needed experts to memorize rules. L
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- Reserved for internal page links once salience extraction begins.
 
 ## Working Read
 This essay treats generated language as a legal event surface, not just a text-production problem. Its core move is that law has to preserve responsibility when language can be produced by systems no single person fully authored, understood, or controlled.
@@ -82,14 +78,6 @@ When language begins to act, law must keep the responsibility chain visible so g
 - Semantic integrity becomes a legal concern.
 - Responsibility has to survive the transformation chain.
 
-## Work Vault Links
-
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Witness-to-Witness Messaging Protocol](../../../concepts/witness-to-witness-messaging/index.md)
-- [Contextual Authority Principle](../../../concepts/contextual-authority-principle/index.md)
-- [Consent-Scoped Communication](../../../projects/side-projects-desktop/consent-scoped-communication/index.md)
-- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
-
 ## Open Questions
 
 - What counts as meaningful human review when AI drafts the language?
@@ -97,6 +85,8 @@ When language begins to act, law must keep the responsibility chain visible so g
 - How should law distinguish assistance from delegation?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

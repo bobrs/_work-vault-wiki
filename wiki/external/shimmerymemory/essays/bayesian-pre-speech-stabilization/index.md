@@ -29,6 +29,25 @@ Excerpt:
 
 ## Purpose Introduce a lightweight, consent-aligned architectural layer that helps users stabilize meaning *before* speech becomes an irreversible artifact. The goal is not moderation or correctness, but **belief hygiene**: allowing users to witness and update their own confidenc
 
+## Canonical Glyphs
+
+- `yesatom`: 🜁
+- `witness`: 🜹
+- `boundary`: 🝚
+- `loop`: 🝳
+- `liminal`: ❓
+
+## Related Invariants
+
+- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
+- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
+- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
+- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
+- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
+- [P8 — Reversibility / Optionality](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
+- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
+- [C11 — Witnessed State Change](https://quantuminvariants.com/spine/composites#C11) · Quantum Invariants · composite
+
 ## Working Read
 
 This essay is a direct bridge between intuition and grounding: it tries to stabilize meaning before speech turns it into an artifact.
@@ -58,30 +77,11 @@ Speech should be preceded by a consent-aligned stabilization step that helps the
 - [Agency](../../attractors/agency/index.md)
 - [Meaning](../../attractors/meaning/index.md)
 
-## Canonical Glyphs
-
-- `yesatom`: 🜁
-- `witness`: 🜹
-- `boundary`: 🝚
-- `loop`: 🝳
-- `liminal`: ❓
-
-## Related Invariants
-
-- [P1 — Boundary / Scope](https://quantuminvariants.com/spine/primitives#P1) · Quantum Invariants · primitive
-- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
-- [P3 — Authorization and Consent Gate](https://quantuminvariants.com/spine/primitives#P3) · Quantum Invariants · primitive
-- [P4 — Legibility / Interpretability](https://quantuminvariants.com/spine/primitives#P4) · Quantum Invariants · primitive
-- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
-- [P8 — Reversibility / Optionality](https://quantuminvariants.com/spine/primitives#P8) · Quantum Invariants · primitive
-- [C6 — Consent Gradient](https://quantuminvariants.com/spine/composites#C6) · Quantum Invariants · composite
-- [C11 — Witnessed State Change](https://quantuminvariants.com/spine/composites#C11) · Quantum Invariants · composite
-
 ## Ingest Metadata
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -90,27 +90,9 @@ Speech should be preceded by a consent-aligned stabilization step that helps the
 
 - `pending`
 
-## Work Vault Links
-
-- Reserved for internal page links once salience extraction begins.
-
-## Working Read
-
-- Pending.
-
-## Core Claim
-
-- Pending.
-
-## Key Ideas
-
-- Pending.
-
-## Open Questions
-
-- Pending.
-
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

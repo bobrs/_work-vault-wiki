@@ -70,7 +70,7 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -78,16 +78,6 @@ Accounting did not become essential because arithmetic was difficult. Counting w
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Witness Infrastructure](../../../concepts/witness-infrastructure/index.md)
-- [Responsibility-Bounded Observability](../../../concepts/responsibility-bounded-observability/index.md)
-- [Trust Interoperability Standard](../../../projects/trust-interoperability-standard/index.md)
-- [Voting Machine](../../../projects/voting-machine/index.md)
-- [Quantum Invariants](../../../projects/quantum-invariants/index.md)
 
 ## Working Read
 
@@ -118,6 +108,8 @@ When language can change the world, accounting has to preserve not only what was
 - What evidence is enough to justify downstream reliance without turning every utterance into a permanent control surface?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

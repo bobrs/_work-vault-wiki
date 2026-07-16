@@ -1,13 +1,12 @@
 ---
 title: "The Motion of Meaning"
 subtitle: "Toward a Theory of Semantic Dynamics"
+description: "A proposal for studying how meanings, relationships, authorities, ambiguities, purposes, boundaries, and attractors change position within a semantic field over time."
 date: 2026-07-13
-document_type: essay
-standing: active
-authority: exploratory
-authors:
-  - Bobby Simpson
-  - ChatGPT
+draft: false
+attribution:
+  label: "Bobby Simpson"
+  url: "https://BobbySimpson.com"
 tags:
   - semantic-dynamics
   - semantic-lineage
@@ -18,16 +17,19 @@ tags:
   - meaning
   - field-theory
 canonical_glyphs:
-  - "🜹 witness"
-  - "🝁 consent"
-  - "🝳 loop"
-  - "🝚 boundary"
-  - "🜲 collapse"
+  - name: "witness"
+    glyph: "🜹"
+  - name: "consent"
+    glyph: "🝁"
+  - name: "loop"
+    glyph: "🝳"
+  - name: "boundary"
+    glyph: "🝚"
+  - name: "collapse"
+    glyph: "🜲"
 ---
 
-# The Motion of Meaning
-
-## Toward a Theory of Semantic Dynamics
+<!-- Source authorship note: Bobby Simpson with ChatGPT. -->
 
 Meaning does not merely exist. It moves.
 

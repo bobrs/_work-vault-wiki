@@ -2,6 +2,8 @@
 
 Subtitle: `Attention, Appreciation, and the Surface of Mutual Projection`
 
+> Historical slug retained for provenance. The current canonical page is [The Real Is a Ritual](../the-real-is-a-ritual-v02/index.md).
+
 ## Source Artifact
 
 - Source role: `published_external`

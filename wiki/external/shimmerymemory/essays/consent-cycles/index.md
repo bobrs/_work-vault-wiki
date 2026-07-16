@@ -69,7 +69,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -77,12 +77,6 @@ Excerpt:
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../projects/consentful-cybernetics/index.md)
-- [Loop and Phase Training](../../../projects/side-projects-desktop/loop-and-phase-training/index.md)
-- [Semantic Integrity](../../../projects/semantic-integrity/index.md)
 
 ## Working Read
 
@@ -107,6 +101,8 @@ Readiness cannot be forced; a system has to move through its own cycles before c
 - What does consent look like when the body and the plan are not yet in phase?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

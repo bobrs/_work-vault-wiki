@@ -29,6 +29,23 @@ Excerpt:
 
 When most of us learn about evolution, we’re taught a tidy story: random mutations happen, the environment selects what works, and over time species adapt. Claws get sharper. Camouflage improves. Seeds spread better. Nature does its thing. That story is not wrong — it’s just inco
 
+## Canonical Glyphs
+
+- `shimmer`: ⋆✴︎˚｡⋆
+- `witness`: 🜹
+- `loop`: 🝳
+- `fun`: 🫧
+
+## Related Invariants
+
+- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
+- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
+- [P7 — Attractor / Basin](https://quantuminvariants.com/spine/primitives#P7) · Quantum Invariants · primitive
+- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
+- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
+- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
+- [C12 — Threshold Cascade](https://quantuminvariants.com/spine/composites#C12) · Quantum Invariants · composite
+
 ## Working Read
 
 This essay turns attention into ecology: what gets noticed survives longer, and what survives longer gets to reshape the field that notices it.
@@ -58,28 +75,11 @@ Being noticed is itself a survival strategy, which means attention can be a forc
 - [Agency](../../attractors/agency/index.md)
 - [Loop Mechanics](../../attractors/loop-mechanics/index.md)
 
-## Canonical Glyphs
-
-- `shimmer`: ⋆✴︎˚｡⋆
-- `witness`: 🜹
-- `loop`: 🝳
-- `fun`: 🫧
-
-## Related Invariants
-
-- [P2 — Agency / Capacity](https://quantuminvariants.com/spine/primitives#P2) · Quantum Invariants · primitive
-- [P6 — Feedback / Recursion](https://quantuminvariants.com/spine/primitives#P6) · Quantum Invariants · primitive
-- [P7 — Attractor / Basin](https://quantuminvariants.com/spine/primitives#P7) · Quantum Invariants · primitive
-- [P10 — Distinction / Comparator](https://quantuminvariants.com/spine/primitives#P10) · Quantum Invariants · primitive
-- [C3 — Compression Distortion](https://quantuminvariants.com/spine/composites#C3) · Quantum Invariants · composite
-- [C9 — Dynamic Stability](https://quantuminvariants.com/spine/composites#C9) · Quantum Invariants · composite
-- [C12 — Threshold Cascade](https://quantuminvariants.com/spine/composites#C12) · Quantum Invariants · composite
-
 ## Ingest Metadata
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-09T01:02:15.767560Z`
+- Last checked: `2026-07-16T05:58:12.245097Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -88,27 +88,9 @@ Being noticed is itself a survival strategy, which means attention can be a forc
 
 - `pending`
 
-## Work Vault Links
-
-- Reserved for internal page links once salience extraction begins.
-
-## Working Read
-
-- Pending.
-
-## Core Claim
-
-- Pending.
-
-## Key Ideas
-
-- Pending.
-
-## Open Questions
-
-- Pending.
-
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
+
 
 
 

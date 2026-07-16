@@ -184,6 +184,73 @@ def split_preserved_notes(existing: str | None) -> str:
     return existing.split(PAGE_MARKER, 1)[1]
 
 
+GENERATED_SECTIONS = {
+    "Source Artifact",
+    "Description / Excerpt",
+    "Canonical Glyphs",
+    "Related Invariants",
+    "Ingest Metadata",
+    "Salience Status",
+}
+
+SEMANTIC_SECTIONS = {
+    "Working Read",
+    "Core Claim",
+    "Key Ideas",
+    "Open Questions",
+    "Related Projects",
+    "Related Materials",
+    "Related Concepts",
+    "Related Artifacts",
+    "Attractor Bridge",
+    "Semantic Extraction Notes",
+    "Related Sources",
+    "Related Essays",
+    "Cost Series",
+    "Historical Provenance",
+}
+
+
+def extract_sections(text: str) -> list[tuple[str, str]]:
+    sections: list[tuple[str, str]] = []
+    matches = list(re.finditer(r"(?ms)^## ([^\n]+)\n(.*?)(?=^## |\Z)", text))
+    for match in matches:
+        sections.append((match.group(1).strip(), match.group(0).rstrip()))
+    return sections
+
+
+def split_preserved_semantics(existing: str | None) -> tuple[str, str]:
+    """Keep human semantic sections while allowing feed metadata to refresh."""
+    if not existing or PAGE_MARKER not in existing or "## Ingest Metadata" not in existing:
+        return "", ""
+
+    before_metadata, after_metadata = existing.split("## Ingest Metadata", 1)
+    pre_sections = []
+    for heading, block in extract_sections(before_metadata):
+        if heading not in GENERATED_SECTIONS and heading in SEMANTIC_SECTIONS:
+            pre_sections.append((heading, block))
+
+    pre_headings = {heading for heading, _ in pre_sections}
+    post_sections = []
+    post_body = after_metadata.split(PAGE_MARKER, 1)[0]
+    for heading, block in extract_sections(post_body):
+        if heading in GENERATED_SECTIONS or heading not in SEMANTIC_SECTIONS:
+            continue
+        if heading in pre_headings:
+            continue
+        body = block.split("\n", 1)[1].strip() if "\n" in block else ""
+        normalized = re.sub(r"\s+", " ", body).strip().lower()
+        if heading == "Work Vault Links" and normalized == "- reserved for internal page links once salience extraction begins.":
+            continue
+        if heading in {"Working Read", "Core Claim", "Key Ideas", "Open Questions"} and normalized in {"- pending.", "pending."}:
+            continue
+        post_sections.append((heading, block))
+
+    pre_text = "\n\n".join(block for _, block in pre_sections)
+    post_text = "\n\n".join(block for _, block in post_sections)
+    return pre_text, post_text
+
+
 def format_tags(tags: list[str]) -> str:
     return ", ".join(f"`{tag}`" for tag in tags) if tags else "None listed"
 
@@ -219,16 +286,25 @@ def display_item_title(item: dict[str, Any]) -> str:
     return item["title"]
 
 
-def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_notes: str = "") -> str:
+def format_item_page(
+    item: dict[str, Any],
+    record: dict[str, Any],
+    existing_notes: str = "",
+    preserved_pre_sections: str = "",
+    preserved_post_sections: str = "",
+) -> str:
     page_path = WIKI_ROOT / item["slug"] / "index.md"
     index_link = relpath(page_path, WIKI_ROOT / "index.md")
     wiki_root_link = relpath(page_path, WORK_VAULT_INDEX)
+    source_path = record.get("source_path") or item.get("source_path")
+    artifact_spine_filename = record.get("artifact_spine_filename") or item.get("artifact_spine_filename")
+    content_hash = record.get("content_hash") or item.get("content_hash")
     source_link = (
-        relpath(page_path, ROOT / item["source_path"])
-        if isinstance(item.get("source_path"), str) and item["source_path"]
+        relpath(page_path, ROOT / source_path)
+        if isinstance(source_path, str) and source_path
         else None
     )
-    artifact_spine = display_optional(item["artifact_spine_filename"])
+    artifact_spine = display_optional(artifact_spine_filename)
     artifact_spine_line = (
         f"- Artifact spine filename: [{artifact_spine}]({source_link})"
         if source_link and artifact_spine != "None listed"
@@ -256,8 +332,8 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
         f"- Updated date: `{item['updated_date']}`",
         f"- Author/source: `{item['author']}` / `{item['source']}`",
         artifact_spine_line,
-        f"- Source path: `{display_optional(item['source_path'])}`",
-        f"- Content hash: `{display_optional(item['content_hash'])}`",
+        f"- Source path: `{display_optional(source_path)}`",
+        f"- Content hash: `{display_optional(content_hash)}`",
         f"- Language: `{item['language']}`",
         f"- License: `{item['license']}`",
         f"- License URL: [{item['license_url']}]({item['license_url']})",
@@ -282,6 +358,10 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
         "",
         *invariant_lines,
         "",
+    ]
+    if preserved_pre_sections:
+        lines.extend([preserved_pre_sections, ""])
+    lines.extend([
         "## Ingest Metadata",
         "",
         f"- Source role: `published_external`",
@@ -295,30 +375,37 @@ def format_item_page(item: dict[str, Any], record: dict[str, Any], existing_note
         "",
         "- `pending`",
         "",
-        "## Work Vault Links",
-        "",
-        "- Reserved for internal page links once salience extraction begins.",
-        "",
-        "## Working Read",
-        "",
-        "- Pending.",
-        "",
-        "## Core Claim",
-        "",
-        "- Pending.",
-        "",
-        "## Key Ideas",
-        "",
-        "- Pending.",
-        "",
-        "## Open Questions",
-        "",
-        "- Pending.",
-        "",
+    ])
+    if preserved_post_sections:
+        lines.extend([preserved_post_sections, ""])
+    elif not preserved_pre_sections:
+        lines.extend([
+            "## Work Vault Links",
+            "",
+            "- Reserved for internal page links once salience extraction begins.",
+            "",
+            "## Working Read",
+            "",
+            "- Pending.",
+            "",
+            "## Core Claim",
+            "",
+            "- Pending.",
+            "",
+            "## Key Ideas",
+            "",
+            "- Pending.",
+            "",
+            "## Open Questions",
+            "",
+            "- Pending.",
+            "",
+        ])
+    lines.extend([
         PAGE_MARKER,
         notes_tail.rstrip("\n"),
         "",
-    ]
+    ])
     return "\n".join(lines)
 
 
@@ -472,8 +559,19 @@ def main() -> None:
     for item in data["items"]:
         page_path = WIKI_ROOT / item["slug"] / "index.md"
         existing = page_path.read_text(encoding="utf-8") if page_path.exists() else ""
+        if existing and PAGE_MARKER not in existing:
+            # A source-rich semantic page owns its body; the external feed only
+            # updates the machine-readable index for it.
+            continue
         notes = split_preserved_notes(existing)
-        content = format_item_page(item, records_by_item_id[item["id"]], notes)
+        preserved_pre, preserved_post = split_preserved_semantics(existing)
+        content = format_item_page(
+            item,
+            records_by_item_id[item["id"]],
+            notes,
+            preserved_pre,
+            preserved_post,
+        )
         write_if_changed(page_path, content)
 
     print(f"Ingested {data['item_count']} published external essays from Shimmery Memory.")
