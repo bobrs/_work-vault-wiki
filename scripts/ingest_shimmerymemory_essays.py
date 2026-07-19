@@ -206,6 +206,7 @@ SEMANTIC_SECTIONS = {
     "Semantic Extraction Notes",
     "Related Sources",
     "Related Essays",
+    "Related Telic Field Papers",
     "Cost Series",
     "Historical Provenance",
 }

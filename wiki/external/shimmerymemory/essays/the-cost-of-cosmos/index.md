@@ -53,7 +53,7 @@ Earth is the first system in this sequence with no terrestrial outside. The cosm
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:36:29.565216Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -61,19 +61,6 @@ Earth is the first system in this sequence with no terrestrial outside. The cosm
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Quantum Invariants](../../../../projects/quantum-invariants/index.md)
-- [Cosmic Consent](../../../../projects/side-projects-desktop/cosmic-consent/index.md)
-- [Semantic Integrity](../../../../projects/semantic-integrity/index.md)
-- [Consent Physics](../../../../concepts/consent-physics/index.md)
-- [Loop Economy](../../../../concepts/loop-economy/index.md)
-- [Consent](../../../../attractors/consent/index.md)
-- [Loop Mechanics](../../../../attractors/loop-mechanics/index.md)
-- [Meaning](../../../../attractors/meaning/index.md)
-- [Memory](../../../../attractors/memory/index.md)
-- [Witness](../../../../attractors/witness/index.md)
 
 ## Working Read
 
@@ -106,6 +93,7 @@ Cosmos is the widest scale of the Cost series: [Self](../the-cost-of-self/index.
 - Can cosmic language remain useful without turning physical continuation into moral entitlement?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

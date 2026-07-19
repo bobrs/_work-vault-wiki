@@ -107,12 +107,18 @@
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/schemas/participant-load-record.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-3__participant-load-record.json"
   ],
+  "02419adfde8c98d239b64773a30964d0cc1e49d5f29f608d85b199f37bc50316": [
+    "wiki/external/shimmerymemory/essays/the-cost-of-cosmos/index.md"
+  ],
   "02575ab6857c5f1c9f7d141dd636f6ca39f833d5a99e3205a2a30ec063f5c864": [
     "artifacts/incoming/three_minute_talk_from_accounting_to_semantic_presence.md"
   ],
   "026b8881128b38b3e535dabdcdfd804905027aaee27204f4fe91589072318c45": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 6- Deployment as Training Tool.docx"
+  ],
+  "0299241dd8ee3d6c34e6b7c28c2a3d2802554365b7604a2fdbd862484d6cce38": [
+    "wiki/external/shimmerymemory/essays/how-to-prepare-a-document-for-shimmery-memory/index.md"
   ],
   "02ae0b1b29623d56a535a1ffecbfb826700ea841bb18eeb38148472e962c7932": [
     "artifacts/incoming/GlyphCompression and suggestions.docx"
@@ -298,6 +304,9 @@
   "0666aea9a3256a37eabb9bf86ba731a01788652d13a7a73682775e8be4b7242b": [
     "artifacts/incoming/ProgramSelf Overview.docx"
   ],
+  "06a2107d8021d4e485e6436727de980995a6eef9629b3accc82972fbab0aec57": [
+    "wiki/external/shimmerymemory/essays/defending-meaning/index.md"
+  ],
   "06c584ed1d8979815762409ddf5348df7c2b6414539c88857d813be9310c01f5": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/extra-shimmer/consent-and-field-guide/index.md"
   ],
@@ -410,9 +419,6 @@
     "artifacts/intake-archive/20260714__semantic-lineage-follow-up-intake/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__LINEAGE__semantic-lineage-dynamics-thermodynamics.md",
     "wiki/external/shimmerymemory/essays/when-meaning-begins-to-move/index.md"
   ],
-  "08bf88fede40c6a499a8a54137fff56cc8a64d757c4b31d6dc44ce7fe1be052d": [
-    "wiki/external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md"
-  ],
   "08e7c946cfd5db598cc999648e9d98a939a1a5943c29c8f92b44ec76bab9857d": [
     "wiki/projects/telic-field-papers/artifacts/hi-6-semantic-trails/index.md"
   ],
@@ -466,9 +472,6 @@
   "0a1b43afcafd8d411395387f794c14aa1d5646ed758872bfcb2c1c278f9c0d3d": [
     "artifacts/intake-archive/20260622__patents-intake/Offline Gambling/Provisional_Patent_Cover_Sheet_Bobby_Simpson.pdf"
   ],
-  "0a422e5ed13d9788b6e30f866a5634896130a9c9ce4e8f15fc864ea51c062499": [
-    "wiki/external/shimmerymemory/essays/rewilding-became-fun/index.md"
-  ],
   "0a55080bc3fe070d943843d7a9255e8bedc3bdecee7a7c1860c793dbb7c79ba8": [
     "wiki/projects/side-projects-desktop/consent-grammar/physics-of-agency/index.md"
   ],
@@ -483,6 +486,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/examples/PD8-CORRECTION-PROPAGATES-THROUGH-WITNESS.json",
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/exports/model-mediated-decision-witness-demo/records/demo-correction-propagation.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-8__CORRECTION-PROPAGATES-THROUGH-WITNESS.json"
+  ],
+  "0ab9cdcb689806746612a1a813b4697cb242de23f2b8bd6d4676b0075bf86b26": [
+    "manifest/external_ingest_log.jsonl"
   ],
   "0acfb4bb2d910e7dfb9b58a72fcf35f1766a120af55944b4f7c09c37c4efdf54": [
     "artifacts/incoming/uli_ua_micro_aphorisms_consent_knowing.md"
@@ -502,9 +508,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/examples/PD1-EXCLUDED-ROUTE-BECOMES-VISIBLE.json",
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/exports/public-decision-witness-demo/records/demo-option-set.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-7__EXCLUDED-ROUTE-BECOMES-VISIBLE.json"
-  ],
-  "0b4fee65f7a61e97f23600613fee79ab0014f379bae2166c6cff492b269497fb": [
-    "wiki/external/shimmerymemory/essays/durable-coordination/index.md"
   ],
   "0b57060b4366ad7fbb2f653cc1581cd271a054b8d46f1e2d55632e66206e7214": [
     "wiki/projects/telic-field-papers/artifacts/g8-loop-incompatibility/index.md"
@@ -554,9 +557,6 @@
   ],
   "0cb43bfe30ec760147b90ec441981f8bae0973b684b18c07fecbe2d6fbf6ca4e": [
     "wiki/projects/patents/encoding-and-semantic-interfaces/color-alpha-codec-patent/index.md"
-  ],
-  "0cd217c0c0f0c2edc262e9938444376f3567b12298de8357e3b4cffb6d69696a": [
-    "wiki/external/shimmerymemory/essays/from-aspiration-to-constraint/index.md"
   ],
   "0ceca35695b162678fa6397c8709573bd70cbfbcf9c9af9dda76f736b6c76575": [
     "artifacts/incoming/context_consent_as_infrastructure.md"
@@ -638,9 +638,6 @@
   "0e78b015b9b697ae57b99f42d5d9e313cba72c562ae2e3e2061608fd0bea0ec0": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Dialogica/Media/Steampunk Digital Face.png"
   ],
-  "0e7b254857190a081be66a0f69583bb0f136745cb0d92f471097aec1f2c0fb50": [
-    "wiki/external/shimmerymemory/essays/artifacts-ambiguity-and-the-temperature-of-meaning/index.md"
-  ],
   "0e7c3c93ae66a02ec0636da00debb2475bd45cae6caac0f21478bb5a9e40fc9d": [
     "artifacts/intake-archive/20260623__humankey-protocol-bridge-intake/20260610__ABRACADOO__INVITE__HUMANKEY-LANE__V0-6__bobby.json"
   ],
@@ -699,6 +696,9 @@
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__COLOR-GRADIENT__ARCHIVE-UPDATE__dramatic-green-charcoal/assets/cc-logo-text-white.png",
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive/assets/cc-logo-text-white.png"
   ],
+  "10081e7a063da27410acadd52ab2a53ab889b247c4d83aa2950bf3fae45ce740": [
+    "wiki/external/shimmerymemory/essays/why-consentful-ai-is-expensive/index.md"
+  ],
   "10494037348da0732b1e8db8e0ea688a663bde751f3b198a94e1dd2f8a85ba2d": [
     "artifacts/intake-archive/20260715__telic-fields-g2-intake/NEXT-PASS.md"
   ],
@@ -718,6 +718,9 @@
   "1083d8fd6c0e4ccf8bb1d67ddc0c194b87c7f05025ab1be3b1130cbbda3e5be9": [
     "artifacts/incoming/InterDimensional_Navigation_Audiobook_Script_v0_2.md"
   ],
+  "109b34eba4720114851d46806751978c2d0f19d92270531ef950fe2e14f48e56": [
+    "wiki/external/shimmerymemory/essays/the-mobius-flip-giving/index.md"
+  ],
   "10baf707359f62bcfc78ab527c89ea9b7f75c54086554e71849c6f9e7f964531": [
     "artifacts/incoming/Riding the Razor.docx"
   ],
@@ -734,6 +737,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/exports/temporal-witness-demo/schemas/temporal-consent-authority.schema.json",
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/schemas/temporal-consent-authority.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-4__temporal-consent-authority.json"
+  ],
+  "117549972e0858ab6817b807cde31ad6cbf54824d7716bea47a70202f7c5cf5a": [
+    "wiki/external/shimmerymemory/essays/index.md"
   ],
   "119d3e47536eb5e1660fd4e0c757f46e663fc2f80b4d626dde3de38b12771d0d": [
     "artifacts/incoming/20260619__LOOPtLOOP__PLAN__WITNESS-INTEGRATION__v0-1__cloudflare-mvi-roadmap.pdf"
@@ -757,9 +763,6 @@
   "11d37977e0ec1cd65030c31b46ecb042ebef17d1e9af731cdc5a8e1fd8624481": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/src/telic_j1/ids.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-1__ids.py"
-  ],
-  "11eedee7bf9959f51efac7f1abd9589c4b88d94e94f07e5e54e08dbbc132a232": [
-    "wiki/external/shimmerymemory/essays/the-king-who-measured-everything/index.md"
   ],
   "121d1c69e41d931e8413806d58bcfef424efd2905d1b00c552dcabce7113b9a5": [
     "artifacts/intake-archive/20260715__telic-fields-hi0-intake/examples/example-b-dyadic-mediated-disagreement.json",
@@ -792,6 +795,9 @@
   "12b8fffbfca64dcd5657614d3f3b96b579f1eeb31cd352e47f6515f3c61537e8": [
     "artifacts/intake-archive/20260623__continuity-engine-intake/AI Strategy Opportunity for F&C.docx",
     "artifacts/standard-named/20260623__CONTINUITY-ENGINE__STRATEGY__FINLEY-COOK-AI-CAPABILITY__v1__ai-strategy-opportunity-for-fc.docx"
+  ],
+  "12c307fbb2197f48b22172432a236a0904a291a725b93d4f409ab38c1b9de0fe": [
+    "wiki/external/shimmerymemory/essays/gentle-control-in-a-non-orientable-life/index.md"
   ],
   "12dfa74f1efaab41d27c3a865dcb4d526df4e04f64fa42848bbc2eb7778db995": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Physics As Consent Substrate.docx"
@@ -1011,6 +1017,9 @@
   "18b1999529ef328aa3f027de8a80d0b78fac88ed31ddd1e9fa5b4d46b21e1849": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc1.docx"
   ],
+  "18c0b1ba76ef7bc94e26f4fb540ca358075d690a49c912ac7aae4ce0d01f7634": [
+    "wiki/external/shimmerymemory/essays/artifacts-attractors-and-the-relativity-of-appearance/index.md"
+  ],
   "18cfe4002c961fde3810e3c2d51305053a1c0c93215b4f85a6c111f0d0d961a4": [
     "wiki/projects/trust-interoperability-standard/core-standard-and-semantics/index.md"
   ],
@@ -1138,6 +1147,9 @@
   "1a29349e31c4ea4149e2ce05906c7d380d8b94c6c5e347e209cf2f42df37e2fb": [
     "artifacts/incoming/glyph_invocation_canon.md"
   ],
+  "1aa04b083ff3cd8d093965349485e84f72cb550077ca03e2cf251566b2405478": [
+    "wiki/external/shimmerymemory/essays/machiavelli-reconsidered/index.md"
+  ],
   "1aa3ff34927f05fad489d46cbb291345b3c90e2b179ea72208abe312f63ce487": [
     "artifacts/incoming/Privacy Is a Membrane, Not a Wall.docx"
   ],
@@ -1236,6 +1248,9 @@
   "1d1335cdc5d163beb527e190b5d468e774e45149841fe06d686977d773a29191": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/src/telic_j1/crypto.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-1__crypto.py"
+  ],
+  "1d13cfd7d52d181a7cfc767907f40c14336f6d7a4ff0af05823f4aa9b0fa4ef4": [
+    "wiki/external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md"
   ],
   "1d32539ddfdf5e2c1e8bfda5fe941165c3efd3496ca8771b7236e64226352206": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/CONFORMANCE-CLAIM.md",
@@ -1336,6 +1351,9 @@
     "artifacts/intake-archive/20260715__telic-fields-f8-g9-intake/20260715__TELIC-FIELDS__REVIEW__WORKING__G-9__meaning-trace-memory-and-semantic-field.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__REVIEW__WORKING__G-9__meaning-trace-memory-and-semantic-field.md"
   ],
+  "1fbe4c271a78ee4e51db00a1536762b149b85ce9639461a010be9676399c47b4": [
+    "wiki/external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md"
+  ],
   "1fd30973f26579989934b6b97fb9f59d4edb941e7194cfff6deea6e5c214abf2": [
     "artifacts/intake-archive/20260710__continuity-and-attention-intake/20260218_ai_orchestration_document_semantic_orchestration_fabric_v_1_spec.md",
     "artifacts/standard-named/20260218__CONTINUITAI__SPEC__SEMANTIC-ORCHESTRATION-FABRIC__v1__semantic-orchestration-fabric.md"
@@ -1375,9 +1393,6 @@
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/src/telic_j2/correction.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-1__correction.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-2__correction.py"
-  ],
-  "20dd73e024f8a32b59766f7ed54c0cffc45aa6e1010d139da86e9a68655e6043": [
-    "manifest/external_published_index.jsonl"
   ],
   "20e01557af7ea03cfb80739c464e6fa40f4c62960fad6a6775512b131a3cd1e7": [
     "artifacts/incoming/ambiguity_as_shock_absorption.md"
@@ -1435,6 +1450,9 @@
   ],
   "21bbdf0d7a94810a00ffe64a85b5cc612c6b73942ab64d0ecd350db81249c0d6": [
     ".vault/config.yaml"
+  ],
+  "21c871864596a93e0163aba09df0dfe4af8c5977c55dddd59de9e5d27cb97989": [
+    "wiki/external/shimmerymemory/essays/accounting-for-meaning/index.md"
   ],
   "21e965935d16deb12f4db0de3a4bca299ea238bf9c5727e028efa01da13248b2": [
     "wiki/projects/similar-projects/protocol-and-sovereignty/index.md"
@@ -1538,9 +1556,6 @@
   "248ae7d373400d2b7682bb7ad958acbd7320c396f9228ddf954a031a12fa4a8f": [
     "wiki/projects/how-intuition-works/planning-and-pull/index.md"
   ],
-  "248cc087c44ba4ac2c0119c6e5fd0dbd69fe7fedbb97a6c554ce2edefe9c8030": [
-    "wiki/external/shimmerymemory/essays/how-to-prepare-a-document-for-shimmery-memory/index.md"
-  ],
   "24b1ef6195220fb659d70b6262626d8d326bfe5fa95a2ca3b710170e8ec15a82": [
     "artifacts/intake-archive/20260622__patents-encoding-intake/Color Alpha Codec Patent/Decoder_Final.ts",
     "artifacts/intake-archive/20260622__patents-intake/Color Alpha Codec Patent/Decoder_Final.ts",
@@ -1609,6 +1624,9 @@
     "artifacts/intake-archive/20260624__consentful-cybernetics-site-variants-intake/20260607__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__H1-LEAD__archive (1).zip",
     "artifacts/standard-named/20260624__CONSENTFUL-CYBERNETICS__SITE__TYPOGRAPHY-TWEAK__v1__h1-lead-archive.zip"
   ],
+  "2627ccaa91ca957a5dd206a625980eab13237b27469d052d1d8fb3bd048a3d2d": [
+    "wiki/external/shimmerymemory/essays/the-rewild-invariant/index.md"
+  ],
   "262871977c3183b1d4e7a32a1ab449a12650cd989c6f6ede14d72ef60b79f72c": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-compass-intake/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧭 The Consent Loop Guide to Please, Thank You, and Sorry.docx",
@@ -1661,11 +1679,11 @@
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/tests/run_hi9_validation.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__VALIDATION-RUNNER__WORKING__HI-9__run-validation.py"
   ],
-  "278305f6d2f97fca72b717739c09e4b894b1b076eabded6da88daf7b990bdcdb": [
-    "wiki/external/shimmerymemory/essays/why-consentful-ai-is-expensive/index.md"
-  ],
   "278ecc9394f2c9a4ce61b160c5132af9947d496c15af7db5cea8407691337bb0": [
     "wiki/status-vocabulary/index.md"
+  ],
+  "27ff5da69a6d7041db188907ed7343da0024d70c81af55f36469058aa6e2ba4b": [
+    "wiki/external/shimmerymemory/essays/a-place-to-stand-bathroom-edition/index.md"
   ],
   "281fc49c75cc679f9066c193938d4d980ae0a0fe0eb86a0b1ac947ddbb216ed6": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-19- Loop Taxonomy — A Semantic Grammar of Collapse Structures.docx",
@@ -1726,6 +1744,12 @@
   "298c8ca7fd2457d2dddd868159057dbc3099646e4f65a9de18662df59b0edc8e": [
     "wiki/projects/side-projects-desktop/freepour/index.md"
   ],
+  "29ad5b9cab746831ef64d364f91a23976281543c9d09b60fc0b169790f88ed10": [
+    "scripts/ingest_shimmerymemory_essays.py"
+  ],
+  "29c3d432a1c82fea43bc3e26ba8ce57dda0737a094e13d847fcb45d46cd1054b": [
+    "wiki/external/shimmerymemory/essays/stop-anthropomorphizing-software-3-0/index.md"
+  ],
   "29efd099003315b45fe18228d33dc515e5f198ef36426dd34dce177f7ddea240": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Abracadabra Protocol/Abracadabradoo Protocol Addendum IV.docx",
     "artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum IV.docx",
@@ -1752,6 +1776,9 @@
   ],
   "2a4c89cfd185bd00d1544d0457c0f0a19c708c60178c1369c56a81078563a958": [
     "wiki/projects/infinite-play-open-license/index.md"
+  ],
+  "2a600d3463a8e6804aeb93cd660f5653fc0f1ca8675f5996282daeec18991d7c": [
+    "wiki/external/shimmerymemory/essays/mobiusself-vs-optimization-culture/index.md"
   ],
   "2a63f646cd6d054162099c9d7778ee5e0e10919c4c7a32b6a4e1885344561c62": [
     "wiki/projects/semantic-collapse-theory/temporal-loops-and-memory/index.md"
@@ -1851,9 +1878,6 @@
   "2c92bb96a3036172d14b7a81ddac9c1add6645fe852a04850e5b6d621eb8e4d2": [
     "artifacts/incoming/checkpointing_a_moment_v_0_concept_electron_implementation.md"
   ],
-  "2cbc0dcd072de835f55f0ed453a4c74835785a6feaadcfeab5d82508de355b73": [
-    "wiki/external/shimmerymemory/essays/20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md"
-  ],
   "2cc2d0ffe9d1fad822db6e83be29d06261dd6b673fc06358e594a77792d13b55": [
     "wiki/projects/continuity-engine/firm-materials/strategy-notes/index.md"
   ],
@@ -1898,9 +1922,6 @@
   ],
   "2dd247fb416e695e1d943521b336b70c74a08b8d151e8e0adbf5323a369e0154": [
     "artifacts/standard-named/20260622__SCT__PDSP__CORE__v2__personal-data-sovereignty-protocol-looplink-based-architecture.md"
-  ],
-  "2dd9b0d7792150dbe57bbfb6e69ff8be1398bfc6ac25cfb805ffe0e4cca30715": [
-    "wiki/external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md"
   ],
   "2dda1a2156fb1aef108834925167c683f0504005d57ec0c4280c36e26d643c57": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/README.md"
@@ -1956,6 +1977,9 @@
   ],
   "2f0649baa850dd78de8283412f2a4c6a6cc19d312a4da74a6714ad3bdc72dbd7": [
     "artifacts/incoming/Penguin Eye Glyph Pool.docx"
+  ],
+  "2f1db0c18577daa4c31651fc71f4b5beaf561d912dc586bb4c851cc1323378be": [
+    "wiki/external/shimmerymemory/essays/from-aspiration-to-constraint/index.md"
   ],
   "2f4ae30cabb9dd7a72c38c35f63e764c4d1d117ea47c4cf31d68c931f059d457": [
     "artifacts/incoming/SCT_Presentation_Strategy_Draft.docx"
@@ -2082,9 +2106,6 @@
   "325ce3404eae8b91f2be0a137eaf91f1f9b5fe49ff1cac508799ff372a12a408": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/demo/restart-inspection.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RESTART-INSPECTION__WORKING__J-1__state-restoration.json"
-  ],
-  "326c5a21009ac09719e99266bbbafcdba847f4c266e8fc7d519d9ac3b805700e": [
-    "wiki/external/shimmerymemory/essays/what-stories-really-carry/index.md"
   ],
   "326d302821a6a13e323e2a328ff548cfb50016d8ca541a9308b1071502078885": [
     "artifacts/standard-named/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__LINEAGE__SEMANTIC-LINEAGE-DYNAMICS-THERMODYNAMICS__v1__when-meaning-begins-to-move.md"
@@ -2282,9 +2303,6 @@
   "37294ab6b34ce73467d7e6c3b5638e9de4cb9cf44bea2ca740b15ef7e1b76d54": [
     "docs/20260621__WORKVAULT__INSTRUCTIONS__ROOT__v0-3__lineage-aware-intake-operating-protocol.md"
   ],
-  "37acf8902635abcd5cbc2cd06d73a801653c82135999d1bf9d2fdaaab3caa25e": [
-    "wiki/external/shimmerymemory/essays/artifacts-attractors-and-the-relativity-of-appearance/index.md"
-  ],
   "37d1efa19522e123592a8364d36639d744c8c49d1f6d250b2f241264a867d742": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Cosmic Consent/Cosmic_Consent_Protocol.pdf"
   ],
@@ -2319,9 +2337,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/schemas/authority-degradation-record.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-3__authority-degradation-record.json"
   ],
-  "38ab0a37622c21e6ad073446101c2c3602cb26b20c84504acafe06c1b54e6efe": [
-    "wiki/external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md"
-  ],
   "38c2acad770070635ec1991120771db2bbd741e752ca894ede131de76380e3ae": [
     "scripts/inventory.py"
   ],
@@ -2341,9 +2356,6 @@
   ],
   "391999de082f9c66ac3c676a86eb34ef93ed0eaea3f12380e7c005dbb506a221": [
     "artifacts/incoming/Mobius Witness Chapter.docx"
-  ],
-  "39253464033d34df964ba586bc972a63e7b9f1360a73859d2216bf2740576970": [
-    "wiki/external/shimmerymemory/essays/consent-cycles/index.md"
   ],
   "39308cea910119be21d93c2c5649f958e8828a48e7fe7ecf927fb5673385139d": [
     "artifacts/intake-archive/20260715__telic-fields-j0-intake/demo/test-run-output.txt",
@@ -2389,6 +2401,9 @@
   ],
   "3a49dad27414ed82465953bd4fb4d8bdb70f79c08eab4bb818408eebdbf8578a": [
     "artifacts/incoming/Fractal Consent Print.docx"
+  ],
+  "3a598e529b5a6d494e35a5e87772cb9e5e5f3f7822a2054ae5f16f29a6480042": [
+    "wiki/external/shimmerymemory/essays/from-archive-to-interface/index.md"
   ],
   "3a8887b52a6479800c0726e92219e32bb8f4d79482e591c7a693139c50bb85f8": [
     "artifacts/intake-archive/20260624__abracadoo-implementation-lineage-intake/20260624__ABRACADOO__CODE__HUMANKEY-SEED__v2__abracadoo-humankey-seed.zip",
@@ -2542,9 +2557,6 @@
   "3d87d47cc426855bbfe009c91b268cd9f4bf5a805e0da6d2ee8ad9df01b6494b": [
     "artifacts/intake-archive/20260623__polememelop-site-variants-intake/20260604__POLEMEMELOP__HOMEPAGE__V1-2__WARMTH-INVITATION__INDEX.html"
   ],
-  "3d917fdd8a99ebc14990f51a0e16b85321b172790a037c5e5cc33a29e460d0a6": [
-    "wiki/external/shimmerymemory/essays/field-events-anchor-singularities/index.md"
-  ],
   "3de3164057f450dfeec72379e695fe66e71b035ed40f0231662cd0c90f038bed": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Safety and Stable Loop Language/Safety Seeking/Internal/index.html"
   ],
@@ -2683,14 +2695,8 @@
     "artifacts/intake-archive/20260715__telic-fields-f9-g10-intake/DECISION-METHOD-COMPARISON-AND-BOUNDARY-MATRIX.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DECISION-MATRIX__WORKING__F-9-G-10__polytelometric-navigation.md"
   ],
-  "41a19ffcf8d6f713ed463219520ea6ad8feae9c8e0aca2c808e799a54040a853": [
-    "wiki/external/shimmerymemory/essays/the-loop-requirement/index.md"
-  ],
   "41aeda0fbf97841878015fb47901872dbb71f761dba6817ebe0721852f362abd": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/Loop Series.zip"
-  ],
-  "41b06d62245de43dd6f3895fc0fd5d45bf1c30c52fce2325eebb5e087276bc60": [
-    "wiki/external/shimmerymemory/essays/manifestation-works-and-thats-not-why-you-think/index.md"
   ],
   "41bb34a1aacf7c55325f9cb24e4d3e86b7a587ff73bda2c13f3ceea4b1e3ee0d": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/🌍 Not When, Not Where — What World.docx"
@@ -2764,9 +2770,6 @@
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/20260610__QUANTUMINVARIANTS__BRIEF__PUBLIC__SHIMMER__semantic-shimmer-team-brief.md",
     "artifacts/standard-named/20260709__QUANTUM-INVARIANTS__BRIEF__SEMANTIC-SHIMMER__v1__semantic-shimmer-team-brief.md"
   ],
-  "43ea5b3c3d062d821e01efe1c1f52e6705a01386866f3b3bb0c7295393f50330": [
-    "wiki/external/shimmerymemory/essays/the-cost-of-earth/index.md"
-  ],
   "43ebc4349159a9b161ebf39b3e4bc1bd3aea1b3a983758990591de155b4bff5f": [
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/HI4-GATE-REVIEW.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__GATE-REVIEW__WORKING__HI-4__temporal-standing-commitment-and-succession.md"
@@ -2823,6 +2826,9 @@
     "artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Crystalstream/Consent Atom Format- Self-Modding Glyph Protocol v0.1.docx"
   ],
+  "461130c7b10bc4c4901c5be68eb8f9e67bf2148024f41d4f38c6abc8a69d6760": [
+    "wiki/external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md"
+  ],
   "4616783af93432eef21b755a795119717bd357eaa68f83f8fae929b50a1e7f5d": [
     "artifacts/incoming/mobius_self_gentle_control_in_a_non_orientable_life.md"
   ],
@@ -2851,6 +2857,9 @@
   ],
   "4674912c14ef6bfc859d86951fd7793c5bb15338bc4676911b4cb42ebed750e3": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260605__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-10__ROOT__BG-COLOR-UPDATE.zip"
+  ],
+  "46af1528d7185542f893b131afbbb4bcc941ac66035072479845c1ad29921de4": [
+    "wiki/external/shimmerymemory/essays/shimmery-memory-publishing-contract/index.md"
   ],
   "46bd807f76ca7f03eff0bc837398ff1e877f66d5f98bc313e269e52817794ba1": [
     "artifacts/intake-archive/20260715__telic-fields-hi1-intake/exports/participant-export-demo/schemas/participant-export-manifest.schema.json",
@@ -2986,8 +2995,8 @@
   "49aa0135c5dadfeb93c75da707b7161d580c19f899392648467b7618a3587992": [
     "artifacts/standard-named/20260622__SCT__PDSP__INTEGRATION__v2__pdsp-integration-bundle.md"
   ],
-  "49e850952b59b88e339cf4d27ffb30d3e1c320e905c5cf81eda45f33a2d4188c": [
-    "wiki/external/shimmerymemory/essays/a-place-to-stand-bathroom-edition/index.md"
+  "49ac17c82cfa61e298f0cb6bdfa72d9b561199b24579e30e298c999da98fc251": [
+    "wiki/external/shimmerymemory/essays/open-blessing-license/index.md"
   ],
   "49f228453a04315313880bbf4a33435f85e03dc8387941008283f93d4982ac9a": [
     "artifacts/standard-named/20260622__SCT__PDSP__INTEGRATION__v1__pdsp-integration-bundle.md"
@@ -3027,6 +3036,9 @@
   "4a95e6ea41e1a891c2871e7b1efea1b31b4d13e8790897e5a3ee5108049f4fcb": [
     "wiki/projects/patents/governance-and-games/progressive-resonance-gating/index.md"
   ],
+  "4ab3299caa5e4d6d0ebdc323dc53e8f61bde50e306850ff0b6a9b50c1aa49819": [
+    "wiki/external/shimmerymemory/essays/the-real-is-a-ritual-v02/index.md"
+  ],
   "4ac5892291d563775c5069cda78c7071019c6bc69e87076bd808693d9363ebf7": [
     "llms-full.txt"
   ],
@@ -3035,9 +3047,6 @@
   ],
   "4ac8704716f7b8b0f879bc79efa3e47520b8a80f9b292d2fe5eb33fdea88d4b6": [
     "artifacts/incoming/Deepvibe Manifestor and other suggestions.docx"
-  ],
-  "4ad000f9089115d9992025245d86eef93d93f2856cc0eec2ae121ed74030e778": [
-    "wiki/external/shimmerymemory/essays/the-cost-of-self/index.md"
   ],
   "4af1caf431f7302723e42349a1faf33ea1ca289e081147c082716e6e22091743": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/assets/cc-logo-text-black.png",
@@ -3067,9 +3076,6 @@
   ],
   "4bd2a56c494316d327bfa8fb5b7ab419382b4bf7b83437f697fa5f4cc3279f7a": [
     "wiki/concepts/witness-to-witness-messaging/index.md"
-  ],
-  "4bd5ff6bae62933b204f96911984b58d3651c96179eaf0343808a0be3f4f0785": [
-    "wiki/external/shimmerymemory/essays/bayesian-pre-speech-stabilization/index.md"
   ],
   "4c4bc5d3a8a71abc9d9968f330d00a9a46296d1e203eba67e2c76fbc26ed7dd5": [
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/examples/PD4-ROUTE-PORTFOLIO.json",
@@ -3141,9 +3147,6 @@
   "4e05261bf354177e8025844995b5276824a04b94b63fb54144eb239e7eda12a3": [
     "artifacts/incoming/20260619__WITNESSKEY__SPEC__PRIVATE-AUTHORIZATION-WITNESSING__v0-1__api-looptloop-online.pdf"
   ],
-  "4e09c05ce2c8932121e3245c9712bb47faf65742727ea1876041776f083d2a78": [
-    "wiki/concepts/index.md"
-  ],
   "4e0a0db2c7670bbac56ec7678256cf74e038574bd4266e2e1aaed493324eaa4a": [
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/20260715__TELIC-FIELDS__PHASE-HI4__TEMPORAL-STANDING-COMMITMENT-AND-SUCCESSION__v0-1.zip"
   ],
@@ -3158,8 +3161,8 @@
   "4e20138db156e2b339fd1bee0a5aea869d9797675a3bcbc6aae373c4e34b3cc2": [
     "wiki/projects/quantum-invariants/semantic-shimmer/index.md"
   ],
-  "4e274c6b5407727ae149847d8a76f5970d0b5b4733748b6a5d06ddd5b43ed164": [
-    "manifest/external_ingest_log.jsonl"
+  "4e32b8ed788b219c0388b85e98e453e29b85a9dc4ab1f0e6b210fecbfebb50a4": [
+    "wiki/external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md"
   ],
   "4e4c007231df1dbd7d75b558ca6a8466c0aba8ee239ee2d270c3d11e3f43e6a4": [
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/examples/PD3-PREFERENCE-DATA-RETAINS-CONDITIONAL-PROVENANCE.json",
@@ -3216,9 +3219,6 @@
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/artifacts-ambiguity-and-the-temperature-of-meaning.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/artifacts-ambiguity-and-the-temperature-of-meaning.md"
   ],
-  "4f34b479233741746b8066109430b04c4ec6a1d992676dded1019b79a55e3e75": [
-    "wiki/external/shimmerymemory/essays/energy-routing-core-model/index.md"
-  ],
   "4f55ab816ec87dbd04982e06d49201a273f1ec0a55e424bbaa1c5871ec31f986": [
     "artifacts/intake-archive/20260715__telic-fields-hi5-intake/tests/run_hi5_validation.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__VALIDATION-RUNNER__WORKING__HI-5__run-validation.py"
@@ -3241,14 +3241,14 @@
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/exports/temporal-witness-demo/records/expired-consent.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-4__CONSENT-EXPIRES-WITHOUT-ERASING-WITNESS.json"
   ],
-  "4fbd2d21610c13033fa7d97a3f0e60bee13b0da4f3965649278cd0131d1f5ce5": [
-    "wiki/external/shimmerymemory/essays/mobiusself-vs-optimization-culture/index.md"
-  ],
   "5010e93c01b18e30b86c3f216999fee7e2be10253d5b36eb6217eb52efac3973": [
     "wiki/projects/semantic-integrity/investor-framing/index.md"
   ],
   "5016df1a40827daef6f639659ad31f17111843d1a3b40411ad116a0096ee5494": [
     "artifacts/incoming/attractor_system_roadmap_lego_build_order_v_0_→_v_1.md"
+  ],
+  "503588349186198e8a89f2ac8f57c642e2497dc25b6cdd9ec5387985b682f617": [
+    "wiki/external/shimmerymemory/essays/how-self-works__cross-context-reconciliation__v100/index.md"
   ],
   "503dacac33572ef26d0d28ea1584b486c4946753ad53a79d5835ce9e44404909": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-preface-intake/🌀 Preface.docx",
@@ -3265,9 +3265,6 @@
   ],
   "50c0b8617a884f87c53f7146aff19c6cfc2d249a49e73b5cd01f39f6bc8b88a9": [
     "wiki/projects/continuity-office/support-materials/index.md"
-  ],
-  "50c5a0972824e6bbe4adefe847a459cedb83a91a6598f7f944e9fc1c40ab050d": [
-    "wiki/external/shimmerymemory/essays/when-language-begins-to-act/index.md"
   ],
   "50c666a119d32ef31441bb5a8ed5b9b4b196f58a0658562337ac0af4c9883bca": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/semantic-stochastic-anchor-based-manifestation-protocol.md",
@@ -3312,9 +3309,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/examples/model-retirement-residual-state-record.json",
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/records/retirement-residuals.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RECORDS__WORKING__HI-10__model-retirement-residual-state-record.json"
-  ],
-  "5226d2fa8788cb9c7ea7686bf15a1d316c40422d9ef2d780423f1be70a9b1bd2": [
-    "wiki/external/shimmerymemory/essays/selection-pressure-via-attention/index.md"
   ],
   "5226f6228f92f23b406b8469a96eb5668d0a61977f7b430d80bd35d6d6a0c13a": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Ephemeral Trust/Ephemeral Trust Doc6.docx"
@@ -3376,9 +3370,6 @@
   "5398e4bb822243f2967c94879b9c99dcbde772efd35097d3fd81850b617eefb0": [
     "artifacts/intake-archive/20260715__telic-fields-f5-g6-intake/NEXT-PASS.md"
   ],
-  "53b67b0031d08c59e678a38ce6f5dc2cbcb706499eb9552f43f89c2482768638": [
-    "wiki/external/shimmerymemory/essays/the-cost-of-community/index.md"
-  ],
   "53bb1427d4a9039c0a685a3cf3eaa12502d000310e21b31f03125f373fd16421": [
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/H2-THE-PROJECTION-IS-NOT-THE-PERSON.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__PRIMER__WORKING__H-2__the-projection-is-not-the-person.md"
@@ -3412,11 +3403,8 @@
   "54289f0a99b1d335d3db93de7285037390cbc4d00d4709b4342f1043c2cb2c23": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/quantum-network/index.md"
   ],
-  "5459dd504d9ad3ee8450296d430b84e20733bab8f84eaf103223dda68e01a622": [
-    "wiki/external/shimmerymemory/essays/do-ais-have-permission/index.md"
-  ],
-  "546a414480714b986fcb685542fc09a19af469b02c66e84438ff0ca9c328ecbb": [
-    "wiki/external/shimmerymemory/essays/the-universal-constraint-tragedy/index.md"
+  "547de92dd2f3463b65cf7476924eda32350f757c6e974e90ca84dc7ae983cb5f": [
+    "wiki/external/shimmerymemory/essays/relativity-witness-and-the-glyph-we-orbit/index.md"
   ],
   "5494a0a40a648aef84d0c16ad410de9b54e1e152d2b17357c66b81e8106aeda6": [
     "artifacts/intake-archive/20260715__telic-fields-f5-g6-intake/README.md"
@@ -3429,6 +3417,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/exports/decision-witness-demo/schemas/governance-gate.schema.json",
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/schemas/governance-gate.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-2__governance-gate.json"
+  ],
+  "54f6cfec1d9d2239e2ac8c99144708b5c47cc97238bca24264a861a975317dd5": [
+    "wiki/external/shimmerymemory/essays/what-stories-really-carry/index.md"
   ],
   "55283aa52cfbfb4d37c00a57101b183f904b90f4a2f9450deccd7708a18bc379": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/shimmer-interface-manifesto.md"
@@ -3495,12 +3486,18 @@
     "artifacts/intake-archive/20260715__telic-fields-hi0-intake/examples/EXAMPLE-B-DYADIC-MEDIATED-DISAGREEMENT.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__EXAMPLE__WORKING__HI-0__B-dyadic-mediated-disagreement.md"
   ],
+  "567a8653cefde4acbb09aa2c04da9d4300088fc3ea3251529e6315608131b2d5": [
+    "wiki/concepts/appreciation/index.md"
+  ],
   "56904ea5e2248913f6159abfdcb6847712017e3a5afd1073047bc83b979d2a88": [
     "artifacts/incoming/Semantic Algebra (1).docx"
   ],
   "569c7af47f70b40542ce232431f9781a2d008e04ba024dc73757acc4edd5b188": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/src/telic_j2/scenario.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-2__scenario.py"
+  ],
+  "56c5d0a3458bf67a1bbf603b245d12dd1bbb979dbf1934966fb7297063d590a9": [
+    "wiki/external/shimmerymemory/essays/waves-particles-and-the-discipline-of-not-lying-to-ourselves/index.md"
   ],
   "56d9b930665d9d872eb2527f022d2fbbfb7c7a08a3820d653c6e8b84efbb9f1e": [
     "wiki/projects/side-projects-desktop/consent-grammar/how-consent-works/index.md"
@@ -3545,6 +3542,9 @@
   "57ca70d3afd2abd71ee05f2943db7c30f13f187edbf378531fce4a0299178721": [
     "artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_os_operating_system_vision.md",
     "artifacts/standard-named/20260624__SEMANTIC-INTEGRITY__VISION__v0-1__semantic-os-ai-human-collaboration.md"
+  ],
+  "5820914fd68befa984db68ea6cf8e67006c18f103afabbf17ec30577f4718762": [
+    "wiki/external/shimmerymemory/essays/forgetting-first-ai/index.md"
   ],
   "582376396e8fe49bf1fa41b2961682072efb6b58634f560c3e85238d1480e62a": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Stage3_Meta_Analysis.md"
@@ -3607,9 +3607,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/exports/public-decision-witness-demo/records/demo-dissent.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-7__DISSENT-SURVIVES-DECISION.json"
   ],
-  "59b8cfe25fd036c6a3935e6f9efe4d091d8e94bfe328446cba0c0ed8760d5930": [
-    "wiki/external/shimmerymemory/essays/from-fairness-to-consent-vectors/index.md"
-  ],
   "59ccea6dc999d008fd5a266a712a436303915b7dbd25678285d18f4977c3e398": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/scripts/run_demo.sh",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCRIPT__WORKING__J-2__run_demo.sh"
@@ -3659,6 +3656,9 @@
   ],
   "5aee1133b8562aab6d63841c4073b2fe753c57b3d45533f9b99340b24766142c": [
     "artifacts/incoming/Homestead Pours.docx"
+  ],
+  "5b1444e0f4cc17a10997dd025a98038600c92824af1f568c1977d820ce226f5c": [
+    "wiki/external/shimmerymemory/essays/rewilding-became-fun/index.md"
   ],
   "5b1ff9155f20c1e02bf5ae907526a44b26974c990fb042bb245d6a644d298421": [
     "wiki/projects/patents/governance-and-games/voting-machine/index.md"
@@ -3724,9 +3724,6 @@
   "5c3f6c2f82a2f667141ce0ed8e6cb393d54ca3e64f5c2b52729f6aca65223670": [
     "artifacts/incoming/Endurance_Master_Glyph.docx"
   ],
-  "5c429fa0042756442b54fcac403dd2c4084e1738c8e467b4258ffe9af221d2c0": [
-    "wiki/external/shimmerymemory/essays/open-blessing-license/index.md"
-  ],
   "5c65a4f1ead90a06391bbe51f1e564315e0f05e5377bfb0d8e79b3226821f52e": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Protocol Practical Exploration.docx",
     "artifacts/standard-named/20260622__HUMANKEY__EXPLORATION__PRACTICAL__v1__humankey-protocol-practical-exploration.docx"
@@ -3766,8 +3763,8 @@
   "5d94b3def17c5a4a24af3af4ee8a37d2adcd0504d0670696119ffd68654e1b34": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/Slide 6.png"
   ],
-  "5d9e8e303743693991e6c8f2e9fa84276bea509a16561bf73af763c226365e71": [
-    "wiki/external/shimmerymemory/essays/why-smart-people-secretly-hate-manifestation-advice/index.md"
+  "5db6c17ba3da4cbfcd850a9d8b3a38d378cf229a12ded16adaff7593e0a9f568": [
+    "wiki/external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md"
   ],
   "5dc3186926fc6613d02cc2e7f41280cb820e08a1c92567cc14e7f768ad6543e8": [
     "artifacts/archived/Side Projects Desktop/-Conceptual Consolidation/Starting zips/SCT Series 20250528/SCT-29- Loop-Based Logic Engine and the Cognitive-Emotive Merge.docx",
@@ -3805,6 +3802,9 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Rituals/🌀 RITUAL SPIRAL- Glyphgate — The Fractal Transition Rite.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__SPIRAL__RITUALS__v2__glyphgate-the-fractal-transition-rite.docx"
   ],
+  "5e95efc5f97adafc59ef9f61412f55bd353da6fc02273ed29b97f0ca7232ef41": [
+    "wiki/external/shimmerymemory/essays/the-universal-constraint-tragedy/index.md"
+  ],
   "5e9638edf37eebea44eaa0ef814afae4369e8ae5c7e5edc950f592d643263577": [
     "artifacts/intake-archive/20260715__telic-fields-f11-g12-intake/SHA256SUMS.txt"
   ],
@@ -3822,9 +3822,6 @@
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/demo/release-build-results.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RELEASE-BUILD-OUTPUT__WORKING__J-2__deterministic-build.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RELEASE-BUILD-RESULTS__WORKING__J-2__threshold-and-reproducibility.json"
-  ],
-  "5f2d73cc867c73926dd2a46a877d5273760b57761c77b9cbc66c23d7e5ce4bee": [
-    "wiki/external/shimmerymemory/essays/machiavelli-reconsidered/index.md"
   ],
   "5f36547768c16aa801d407ef2d94a81be18ec75d914e5d656b3607d3a89aad66": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/accounting_for_meaning.md",
@@ -3868,11 +3865,14 @@
     "artifacts/intake-archive/20260715__telic-fields-f8-g9-intake/candidate-semantic-trail-record.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RECORD__WORKING__F-8-G-9__semantic-trail.json"
   ],
-  "6002e79c103bc2123e4ebe4569efe008918a78010288ccc6e8c5c8458aa244f6": [
-    "wiki/external/shimmerymemory/essays/semantic-stochastic-anchor-based-manifestation-protocol/index.md"
+  "600941941295a7f560ace1160f86ed42afc7ff863f523b1040c432b5d5b3a5a8": [
+    "wiki/external/shimmerymemory/essays/selection-pressure-via-attention/index.md"
   ],
   "601dbc8cbc681c7c48dd5fec94d323e8d18ac774c01c842f735e3ad12c344454": [
     "artifacts/incoming/The Möbius Primer (markdown).pdf"
+  ],
+  "6029bfd7ca84a72f9c10473ec6ae8c4ea36a65417e6220c9428e14391b9cb19b": [
+    "wiki/concepts/consent-to-context/index.md"
   ],
   "6061fa5bd28fd230bccac51cfc73c65c2a99f8a1314a79edb68c35cdfdcabd9b": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🕊️ Lesson Six- Closing With Elegance.docx",
@@ -3883,9 +3883,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/exports/decision-witness-demo/schemas/cost-bearer-record.schema.json",
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/schemas/cost-bearer-record.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-2__cost-bearer-record.json"
-  ],
-  "6083901a25aafad67803f463c90914643cb2c80c3e0f2053d7d553fe7c7bb657": [
-    "wiki/external/shimmerymemory/essays/the-mobius-flip-giving/index.md"
   ],
   "608b8a5cfb924408b2a501e67fdff7b8511dda6a4a0e68e4fc5a6b1f887f87d8": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/FreePour/Reaction_Coaster_Protocol.docx"
@@ -3933,15 +3930,9 @@
     "artifacts/intake-archive/20260622__new-ideas-intake/Cryptographic Heartbeat Circuit.docx",
     "artifacts/standard-named/20260622__NEW-IDEAS__LIVENESS__CRYPTOGRAPHIC-HEARTBEAT-CIRCUIT__v1__cryptographic-heartbeat-circuit.docx"
   ],
-  "61ac8477dde01dbc10786c744e5ca98b2767869b6bd775972f4393d456e788a6": [
-    "wiki/external/shimmerymemory/essays/the-witness-twist/index.md"
-  ],
   "61b3b964b72ab16746288da8c371ee2284919ac39727c4d06ec834775f92f419": [
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/tests/negative-conformance-fixtures.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__FIXTURES__WORKING__HI-4__negative-conformance.json"
-  ],
-  "61fefadc05fdc806be4e903dddc0e1f8d96ba98dd0d07c4685fa8aca2c8790a0": [
-    "wiki/external/shimmerymemory/essays/machine-invitation/index.md"
   ],
   "6220ca05760d7944f98891f1b8485cd54fd1f1306cbc1ded70bdb0c2856717a8": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/schemas/deployment-drift-event.schema.json",
@@ -3977,9 +3968,6 @@
   ],
   "62b359c75eb895e53c79b597a4114bee369e90e86629bec1facf857220cc926a": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/-Conceptual Consolidation/Starting Primer/Primer- Semantic Loop Theory and the Monday Universe.docx"
-  ],
-  "62b367113eaf41d938630537655017bc23503a6fe01f1beb618e93a70f680bed": [
-    "wiki/external/shimmerymemory/essays/from-output-to-constitutional-ai/index.md"
   ],
   "62d97ecdb97d7b1aaee7ea51eccf516882fc6c7f6ca444d6a2fc8d466e6118d4": [
     "artifacts/intake-archive/20260715__telic-fields-f9-g10-intake/CANDIDATE-ROUTE-GOVERNANCE-CHECKLIST.md",
@@ -4052,6 +4040,9 @@
   "6442301d67c58c132841a4ec034037773b993a367bbd34f319d2140d8a9a693d": [
     "artifacts/incoming/forgetting_first_ai_design_principles_and_reference_architecture.md"
   ],
+  "6451c014dbd742ec0dbbb3f8cbe08d25fe535decb146300f8b16d22320fdbf14": [
+    "wiki/external/shimmerymemory/essays/consent-cycles/index.md"
+  ],
   "6454f0f791d6cd21e108591ccac5f80c8e60385bce4aa5310b9c3bbbe3ad2259": [
     "artifacts/intake-archive/20260622__similar-projects-intake/Bobbys Brain Primer.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__CONTEXT-REFLECTION__BOBBYS-BRAIN-PRIMER__v1__bobbys-brain-primer.docx"
@@ -4068,9 +4059,6 @@
   "64c40335ea533ab80e8769381e638f57c9faf2d02f59d7129d2357d5c9077862": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Witnessing/Witnessing 301.docx"
   ],
-  "64d12c0630fa7fea23d6382e2d20d636a94dade89e6f4acd383055028282e70e": [
-    "wiki/external/shimmerymemory/essays/shimmer-interface-manifesto/index.md"
-  ],
   "64d78970a3e6186a35d0cbd1f7bb59f27c7e1be78399572eb9c30d605bf981b7": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/scripts/serve_demo.sh",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SERVER__WORKING__J-1__serve-demo.sh"
@@ -4081,6 +4069,12 @@
   ],
   "64f48e87dbd2430b97c04b9612af2bebcbd4e75fcda65b1a9be6e333555941fe": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__SPIRAL__SYMBOLA__master.svg"
+  ],
+  "650609e0373289faef8b51f7e7707e3a7f844495c5dfbe2957d6abd7b4d89ac9": [
+    "wiki/external/shimmerymemory/essays/aiming-beyond-the-horizon/index.md"
+  ],
+  "65201045e46e8c941807cdff6035958e0ece784e08b2ec875a62120cec9d8c88": [
+    "wiki/external/shimmerymemory/essays/the-cost-of-earth/index.md"
   ],
   "65213350b0036f80020d566d36d9d6e2e1772d2a9e66f30a66415ee2b14265d6": [
     "wiki/projects/side-projects-desktop/programself-you-and-your-ai/control-your-ai/index.md"
@@ -4109,12 +4103,12 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Loopwalker Training/Advanced Discussion/Deep Spiral Foundations- The Consent-Loop Substrate.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__FOUNDATIONS__LOOPWALKER-TRAINING__v1__deep-spiral-foundations-the-consent-loop-substrate.docx"
   ],
+  "65705d41385cbdc8242a12afadb9c6f14cae7afba8796c0335e1ad11e333e979": [
+    "wiki/external/shimmerymemory/essays/how-intuition-works/index.md"
+  ],
   "659070a49eb433bb166e07edccf107b1f766044b1e551a1ff6b480b000d8e1e5": [
     "artifacts/intake-archive/20260715__telic-fields-hi0-intake/schemas/route-and-gate.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-0__route-and-gate.json"
-  ],
-  "65a447ed2218df516e0039798060746687475a93c856c17f0e8eaac2cb696303": [
-    "wiki/external/shimmerymemory/essays/shimmery-memory-publishing-contract/index.md"
   ],
   "65a5dc31069c3c2c4d3f724150eb4506477b863f6dc026e2dc7d74b6a7d40741": [
     "artifacts/incoming/Glyph Storm Safety Guide.docx"
@@ -4122,9 +4116,6 @@
   "65be5d2c3ab5c77703c8e956486aeb9cb54c41abbcb4094ce4d4538e87852f76": [
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/tests/negative-conformance-fixtures.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__FIXTURES__WORKING__HI-8__negative-conformance.json"
-  ],
-  "65dae52fbdb3bce01bd66df5236a31c23fc809b9ddb1dd29296ffe4ab3ee2448": [
-    "wiki/external/shimmerymemory/essays/defending-meaning/index.md"
   ],
   "65df49d097ff62b3ff4627b00b204cdb6dbbc5919fba28b2b3cf532ea9ab93c1": [
     "wiki/projects/side-projects-desktop/source-text/source/document-inputs/index.md"
@@ -4146,9 +4137,6 @@
   ],
   "6642a2855fb27a3f7aa1614c3fe867b38a86350446bd2cb5a118eb1141932303": [
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/SHA256SUMS.txt"
-  ],
-  "6650f6dea9f7d6d6e9b4263e6749da0aaa1f03439a2e48745b6b78c517ea95a5": [
-    "wiki/external/shimmerymemory/essays/shimmer-vocabulary/index.md"
   ],
   "667073201782d2bbf73611803011fa5932aa718296d848c5f61c08155b793d8b": [
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/20260715__TELIC-FIELDS__PHASE-HI7__POLYTELOMETRIC-DELIBERATION-AND-PUBLIC-DECISION__v0-1.zip"
@@ -4177,9 +4165,6 @@
   "66f8d2893803eb2443d3376ddb9fae937893f6a0022cf874c5182f6a4d9ffb6d": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/tests/run_hi10_validation.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__VALIDATION-RUNNER__WORKING__HI-10__run-validation.py"
-  ],
-  "67191898c46f71715aa84b22a3322628d9a9fd7baf17ea8577f0d197d346ed9f": [
-    "scripts/ingest_shimmerymemory_essays.py"
   ],
   "6727b0b82653ed7169c3c10458f51b7af6982ad7a34cae52ffcabc2a1e763986": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/schemas/consentful-deployment-witness.schema.json",
@@ -4318,9 +4303,6 @@
     "artifacts/intake-archive/20260624__quantum-invariants-doc-intake/quantum_invariants_recommended_additions.md",
     "artifacts/standard-named/20260624__QUANTUM-INVARIANTS__RECOMMENDED-ADDITIONS__v0-1__recommended-structural-additions.md"
   ],
-  "6a86fd0671f3d31d0af8435ca58400c9e6c6403aa872e2cbefeef8687f93b42f": [
-    "wiki/external/shimmerymemory/essays/forgetting-first-ai/index.md"
-  ],
   "6a873bcd5bdb56499d8f6944c861d4970c643b90572e7202c609224035c42482": [
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/exports/decision-witness-demo/checksums.txt"
   ],
@@ -4341,6 +4323,9 @@
   "6accb0709f85e6996fae8ee9a80417c05c8dd36a41a934196d1d7aec218cb574": [
     "artifacts/incoming/How Zombies Work Vision.pdf"
   ],
+  "6acd1afc5d73805243aa2df4d29f56074ec3c67785cc84bc53f6dfcc7d26d2e4": [
+    "wiki/external/shimmerymemory/essays/the-cost-of-community/index.md"
+  ],
   "6ad68d51ace5adead6016b3e48860808c8bc2f4d31075a86fbc3a1c522ac00f1": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/schemas/operator-provider-transfer-record.schema.json",
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/schemas/operator-provider-transfer-record.schema.json",
@@ -4351,6 +4336,9 @@
   ],
   "6b1551fa854021b6a20f0efbea53c6aba1ce78633c8a9ddecb385fe80c2128db": [
     "wiki/projects/side-projects-desktop/governance/index.md"
+  ],
+  "6b273926fccc30624a79612352a6f997bf878a3f2907c75d870ff114e04ead6f": [
+    "wiki/external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md"
   ],
   "6b375ce9ba04c7f691edc5c43b9531e65b1355acabcfc442605fc73bbc877a8c": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/tests/test_web_accessibility.py",
@@ -4364,6 +4352,9 @@
   "6b8b2fbbe259164de7c9b813111d7c5a035bb89d3e33fb3c70f3d404067e81d5": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/mobiusself-vs-optimization-culture.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/mobiusself-vs-optimization-culture.md"
+  ],
+  "6bc63caea29f628193b79f843a473dce2b4cbc8ada0ab57848678bfe16e3f0a0": [
+    "wiki/external/shimmerymemory/essays/bifli-check/index.md"
   ],
   "6bdbd42f3e3b8cccd165217c021015420c51645ba7c250bc00031f6e647eeef1": [
     "artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo - The Promise of Self-sovereign Privacy.docx"
@@ -4387,14 +4378,14 @@
   "6c25cfd4863b7015cbe3d42ac7041922fe80579250887df1bf447a979f23d449": [
     "artifacts/intake-archive/20260622__patents-intake/Voting Machine/Provisional_Patent_Cover_Sheet_Bobby_Simpson_Voting_System.pdf"
   ],
-  "6c468add1604b15679c9c1df260022ca90174d6c0729e4f660acd5d31795b42e": [
-    "wiki/external/shimmerymemory/essays/edge-without-madness/index.md"
-  ],
   "6cb12d5d727cabbcea8abb249b78eb000f819d4f3d50c2451b40d50e802683a3": [
     "wiki/projects/side-projects-desktop/reference-stored-crystals/dialogica/index.md"
   ],
   "6cbe241facba9c6c086ba754944167b9c8fa501ac086aab7d6ddd6ccd48ac352": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260603__CONSENTFUL-CYBERNETICS__HOMEPAGE__V0-3__CAT-BIT__INDEX.html"
+  ],
+  "6ce32ca43bfe86baa0a949a20d254f7df09851835896904f9d7d72c184b4f5c4": [
+    "wiki/external/shimmerymemory/essays/free-will-is-expensive/index.md"
   ],
   "6d0a180b6e11cff6e02a9376e5a86a1ea67222af40c966da05eeeed4b25b99c4": [
     "artifacts/incoming/The Consent Substrate Problem.docx"
@@ -4516,18 +4507,12 @@
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/styles.css",
     "artifacts/standard-named/20260624__ABRACADOO__SITE__FRONTPAGE__EPHEMERAL-CONTACTS__v2__abracadoo-styles.css"
   ],
-  "6f88a869093bc992cd1e15e5a78dac679f2a0610d4e4da2dc7fc6751a18c8cff": [
-    "wiki/external/shimmerymemory/essays/historical-record-future-consentful-loops/index.md"
-  ],
   "6f8b919f945da987958aad76ea262c97ac696d889e0b178c83b0ec922320b228": [
     "artifacts/intake-archive/20260715__telic-fields-fg-s-intake/20260715__TELIC-FIELDS__PHASE-FG-S__CROSS-PAPER-SYNTHESIS-AND-TERMINOLOGY-FREEZE__v0-1.zip"
   ],
   "6fb12056d91ab33e0c88a49a5c6262a0e47225a8e87315b46171c19be18fd542": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/src/telic_j1/policy.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-1__policy.py"
-  ],
-  "6fb7b1989f6c719581524d1199ee808c01b0d7a0fa606c3c1b584ad74c161a80": [
-    "wiki/external/shimmerymemory/essays/rest-as-resource-error/index.md"
   ],
   "6fbd10f2a9248e04b048557577f69b719c0651c96ab70478a82d4136161869b3": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Source text/Source/Source 2505_Analysis.md"
@@ -4551,15 +4536,15 @@
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/schemas/retrieval-authority-grant.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__CANDIDATE__I-6__retrieval-authority-grant.json"
   ],
+  "7009f0700156db8545280ec2fe6708d4a7922c4a161f7488f6836c841291ff86": [
+    "wiki/external/shimmerymemory/essays/when-language-begins-to-act/index.md"
+  ],
   "7041f51c097ffe721a562193802eaf8dee54a87c1fe8426aaad84705daa1c393": [
     "artifacts/intake-archive/20260622__continuity-engine-intake/continuity_engine_client_faq_v_1.md",
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/assets/docs/20260217__CONTINUITYENGINE__DOC__FAQ__V1__PUBLIC__CLIENT__continuity_engine_client_faq.md",
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/assets/docs/continuity_engine_client_faq_v_1.md",
     "artifacts/intake-archive/20260623__continuity-engine-intake/duplicates/20260217__CONTINUITYENGINE__DOC__FAQ__V1__PUBLIC__CLIENT__continuity_engine_client_faq.md",
     "artifacts/standard-named/20260622__CONTINUITY-ENGINE__FAQ__CLIENT__v1__continuity-engine-client-faq.md"
-  ],
-  "704a33d81bb9d87e3f5f7e920eeb29615343ce8f8b015fe5f3cbd65406ed7e68": [
-    "wiki/external/shimmerymemory/essays/shimmer-v0-4-host-lab-bridge/index.md"
   ],
   "7053ae6c4c88508368462ce94466dfd2895e88d3798e893e4ec3c2d3288ee670": [
     "artifacts/intake-archive/20260715__telic-fields-hi1-intake/examples/PD5-INFERENCE-STATUS-PRESERVATION.json",
@@ -4736,6 +4721,9 @@
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/rest_as_resource_error.md",
     "artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__REST-AS-RESOURCE-ERROR__v1__rest-as-resource-error.md"
   ],
+  "7453cfaa10e3fb4abbb6d8eaa7054d7e833542700c98942c85634f3ee7729ef0": [
+    "wiki/concepts/surface-of-mutual-projection/index.md"
+  ],
   "7455c9fcfc200917c35e9163873b234c40ded09984de4b31f29f63ab06ea0863": [
     "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260605__ABRACADABRACADOO__SITE__APP-BRIDGE__V006__GITHUB-REPO-LINK.zip",
     "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__APP-BRIDGE__v6__github-repo-link.zip"
@@ -4745,9 +4733,6 @@
   ],
   "745b469bbbe1379ae773c00f3fa0408b5c89d0f75eaed84bb661c1e4b31a539a": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-5__acceptself-bridge.zip"
-  ],
-  "747953b87f1c0f64325bc6b3726002d270b4798ac5a720f23af2be23c602a26b": [
-    "wiki/external/shimmerymemory/essays/index.md"
   ],
   "74c6c3bba245a504d9e627b80a13aa373f829b054bd9df1058977c32941e4e19": [
     "artifacts/incoming/consent_cycles_essay.md"
@@ -4924,9 +4909,6 @@
   "79a821570820535a7e45bedfd70ff269652e97aa5aed73c275f76dbdbe753cee": [
     "artifacts/incoming/conversation_as_a_persistent_system.md"
   ],
-  "79f4d816461f1b0221fe3c13b2ab6176b45c813a239d4ce89d5f9e7c1b8dba4d": [
-    "wiki/external/shimmerymemory/essays/the-cost-of-cosmos/index.md"
-  ],
   "79f74049adf8d03e56315b68fe5057f676bb73c4489833bac0fa3658363587fc": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-rituals-intake/🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Rituals/🕊️ RITUAL SPIRAL- When the Anchor is Gone.docx",
@@ -4995,6 +4977,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/STANDING-OPTION-CONSTRUCTION-AND-PROTECTED-CONDITIONS-MATRIX.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__MATRIX__WORKING__HI-7__standing-option-construction-and-protected-conditions.md"
   ],
+  "7b9def3d6c38ce9876f6c4a19c7d9dcf92df588610ce286e89bc01e3581fd6b4": [
+    "wiki/external/shimmerymemory/essays/the-alexander-principle-of-the-ego/index.md"
+  ],
   "7b9fdf48ae18dcd48d681ca2c6f4f6cf4870cd027aef90e1e6d047ebbb653fd0": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260610__ULIUA__MERCH__download-pack__v2__transparent-refresh/png/breach.png"
   ],
@@ -5022,6 +5007,9 @@
   "7c3e79e89c2054d50b607f6db52ace26c3d84454ed17f996f1e45e46b247a0cb": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/tests/test_disclosure_privacy.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__TEST-SUITE__WORKING__J-1__test_disclosure_privacy.py"
+  ],
+  "7c53e3276baa67a3ad958b79830f8f1c25e12a063d20d406bb7222b6889bb861": [
+    "wiki/external/shimmerymemory/essays/do-ais-have-permission/index.md"
   ],
   "7c54c3abefef44e398bca117e93152700e5ed6960a096f809c0deb5a4a1bd587": [
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/examples/PD8-CONTEXT-RECONSTITUTION-RECOVERY.json",
@@ -5105,9 +5093,6 @@
   "7d617066acf655576edbe001fe8efc67db22319b6467c6479feaa8fc5396fe78": [
     "artifacts/standard-named/20260622__CICP__TRAINING__v1__foundational-premise-what-is-a-loop.md"
   ],
-  "7d68739317027739acf1837df34fc1c3033e5c0615b3c90bc6dfa4938ebb9342": [
-    "wiki/attractors/attention/index.md"
-  ],
   "7d69e46adbc68e5a61e753b5e7420942517f2fd83bef967c7512a5c2b59eb8f4": [
     "wiki/missing-files.md"
   ],
@@ -5125,13 +5110,13 @@
   "7db8847afb14663b8b4606b3c9bac26ab653d62f510de19b9705afa6dcd26142": [
     "wiki/projects/patents/index.md"
   ],
-  "7dc6445313c93823c6ad18ccfa06763e36a6bf0b5f5883caa54ffc18cd211506": [
-    "wiki/external/shimmerymemory/essays/the-mobius-flip/index.md"
-  ],
   "7dd4278b105ceb5af6a530b2f28a87614e3a97c92b398fe5a1970c0dceaee643": [
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/examples/model-constitution-lineage.json",
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/exports/consentful-training-witness-demo/records/constitution-lineage.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RECORDS__WORKING__HI-9__model-constitution-lineage.json"
+  ],
+  "7dd50c7afca7549fd95214284732330dcb2244a612cc2bcbd4aae80c62691b83": [
+    "wiki/external/shimmerymemory/essays/semantic-stochastic-anchor-based-manifestation-protocol/index.md"
   ],
   "7df92e0514051af9b0bc89dc6392413a13b83da3885e1db87a1e0f8f75a5d53b": [
     "artifacts/intake-archive/20260624__semantic-integrity-intake/semantic_integrity_conversation_reconstitution.md",
@@ -5356,9 +5341,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi5-intake/exports/dependency-witness-demo.zip",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEPENDENCY-WITNESS-EXPORT__WORKING__HI-5__dependency-witness-demo.zip"
   ],
-  "83fde1a7c34a82d814b8e8be59f7e66284bc38a2bb120223881cad32a174400c": [
-    "wiki/external/shimmerymemory/essays/witness-as-skill-set-and-boundary-set/index.md"
-  ],
   "8402fc3d4bc9e6a48f73e52603aeda9d13e97d39a9f26a0f861230b84f3168cc": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/examples/deployment-incident-repair-record.json",
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/records/incident-repair.json",
@@ -5471,9 +5453,6 @@
   "86fe48064439e573e25a387c5cf8ed15dabcb2d12c3ed53bfadd57b186770a77": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/GlyphStory/Looplang Social Good.docx"
   ],
-  "87029035ebe1928a6829e83fa78e6df0fd8e239b2764ac24edf46ccb5f38994c": [
-    "wiki/external/shimmerymemory/essays/aiming-beyond-the-horizon/index.md"
-  ],
   "870ef694e0e8c1f17a01750184007464f6f93325583aba06f57e5538a30627d4": [
     "artifacts/intake-archive/20260622__patents-intake/LoopLock Mutual-TOTP-based Physical Lock/LoopLock - Why Bidirectional.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopLock Mutual-TOTP-based Physical Lock/LoopLock - Why Bidirectional.docx",
@@ -5563,6 +5542,9 @@
   "89894dd47c3bb3bfeaca3f2b6ae486528b2cc773cc7fe1faf6b18c1bdfa3c429": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/SHA256SUMS.txt"
   ],
+  "8999eef02baf3088b38a56dc5254af12f3547ad353562ab4f77513ba65134528": [
+    "wiki/external/shimmerymemory/essays/machine-invitation/index.md"
+  ],
   "89a5858d09e754ca373b9cf52d8fc64d96230b34e59aac0a45830aed329f2172": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/examples/PD3-TOOL-CAPABLE-MODEL-REMAINS-BLOCKED.json",
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/records/demo-tool-boundary.json",
@@ -5595,6 +5577,9 @@
   ],
   "8a4a54a17bdb923c2210c6e7458ec4719c8e7e717da0ebb4176bb8d132fdc923": [
     "artifacts/standard-named/20260713__SHIMMERYMEMORY__ESSAY__PUBLIC__SEMANTIC-DYNAMICS__v1__the-motion-of-meaning.md"
+  ],
+  "8a4ba18fc0d2fc5d65c55777e5178828a72b14f00d38a1d5edccdde772b0e80a": [
+    "manifest/inventory.jsonl"
   ],
   "8a4bef0103c6cf823351dd8e015bccbb439faa7c8cc00fe3b383733b3592bfdf": [
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/examples/collection-authorization-records.json",
@@ -5754,9 +5739,6 @@
   "8e48300d5582880a62cf4fae095cd2bc9d3e50d837738af9ba39753981f34e8b": [
     "artifacts/intake-archive/20260715__telic-fields-hi-s-intake/STAGE-J-OPENING-RECOMMENDATION.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RECOMMENDATION__WORKING__J-0__stage-j-opening.md"
-  ],
-  "8e5c74989ec5958db69f1c3e1d58820d8dbd8995837d5a1fe5546c84e947a093": [
-    "wiki/external/shimmerymemory/essays/the-real-is-a-ritual-v02/index.md"
   ],
   "8f01e16219ebe38ff97abeaf68c04ca1c924e60fdbcce48d079c38d321b6d0a0": [
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/exports/public-decision-witness-demo/schemas/cost-delay-bearer-map.schema.json",
@@ -6042,6 +6024,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/tests/validation-results.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__VALIDATION-RESULTS__WORKING__HI-2__results.json"
   ],
+  "95cb9ed2a0860ac56382595b2b3b7365dd4d91ec17001e4fb0c0e622efdd9daf": [
+    "wiki/external/shimmerymemory/essays/attention-compression-framework/index.md"
+  ],
   "95e63cc0041b89a4bde6dfa536e0ab2ec8bcf3981cb93a2c7702f88ebb386b64": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/aiming-beyond-the-horizon.md",
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 4/src/content/essays/aiming-beyond-the-horizon.md"
@@ -6052,9 +6037,6 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250505/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-17- The Loop-Based Economy — Scalar Collapse and Emergent Value.docx"
-  ],
-  "96093b9c1bc906eb4d92872c9010aa7f1e6cbd0f66126371e50d32dbbfb8591a": [
-    "wiki/external/shimmerymemory/essays/the-subtle-art-of-exaptation/index.md"
   ],
   "9640693099975308b18496d8b70d94330606afd9eed1731dda46124d3eb0d99e": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/attractor-gardening.md",
@@ -6122,9 +6104,6 @@
   "97ea634b4b973d0ed71e8153b13ee37ea707452a0b37aa71d7e30b9c2d0d88fc": [
     "artifacts/intake-archive/20260623__polememelop-site-variants-intake/20260604__POLEMEMELOP__HOMEPAGE__V1-3__ILLUMINATION-POSTURE__INDEX.html"
   ],
-  "98053f7653dbd720785cdc30692e6e39a13c2083fea719cdb1294e54ad3256ea": [
-    "wiki/external/shimmerymemory/essays/accounting-for-meaning/index.md"
-  ],
   "981483d265acc9172dcbad88b2687f5b1d6ad12458f48f8baa883d664cf46263": [
     "scripts/build-site.mjs"
   ],
@@ -6178,6 +6157,9 @@
     "artifacts/intake-archive/20260622__patents-intake/Color Alpha Codec Patent/app.js",
     "artifacts/standard-named/20260622__PATENTS__ENCODING-SEMANTIC-INTERFACES__COLOR-ALPHA-CODEC__JAVASCRIPT-APP__v1__app.js"
   ],
+  "9978e49cdd9e8b4d5cccff73b608ad9d0e3cbb0eac76384bf71f49ab658288a0": [
+    "wiki/external/shimmerymemory/essays/why-smart-people-secretly-hate-manifestation-advice/index.md"
+  ],
   "99933d53fe535e69860f4024047b56c8e7a3abfce2ee2a920489cdb8d83dfd19": [
     "artifacts/incoming/The Universal Constraint Tragedy.docx"
   ],
@@ -6187,6 +6169,9 @@
   ],
   "99b6d2bccf390ab1d66e8b9332af15a4b1d413e1b18b91acdcda83bf56c4554d": [
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/assets/design-reference.png"
+  ],
+  "99cdcea3e8f2b693dd9f22c3c253574995cf98d17d2fbb2d997de05ff4d527b9": [
+    "wiki/external/shimmerymemory/essays/edge-without-madness/index.md"
   ],
   "99d9450d16f832f4cc511a4f6d943b7c67cac1d0cd39252c19ce8f628bddff2a": [
     "artifacts/intake-archive/20260623__abracadoo-intake/Abracadoo Brand Notes.docx",
@@ -6220,6 +6205,9 @@
   ],
   "9a7afa37ee1ec1a341a7236cf9fc1b5a92138ae42c6629f25a4d508ce1ea4aa1": [
     "artifacts/intake-archive/20260715__telic-fields-hi1-intake/exports/participant-export-demo/events/event-stream.json"
+  ],
+  "9ab2f6521eeb96d98e5e632b2d62db55e83d595fd9a3312c5b3af7d7615c3140": [
+    "wiki/external/shimmerymemory/essays/durable-coordination/index.md"
   ],
   "9ab90cd1b50b28da98b5760eac6b7d042d35dec95ca504c2773197a6716f24d5": [
     "artifacts/incoming/Loopverse Summary Notes.docx"
@@ -6289,9 +6277,6 @@
   "9c282e358b6c034e919f0aab4dc5c5261da9d7528a37acdf107773480fd329c4": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Misc Loop/🌱 Outline new - From NPC to “I KNEW IT!”.docx"
   ],
-  "9c3bec3214377cd12c470168cb30672423318b6f5271de2379a33b58b9a0f29d": [
-    "wiki/external/shimmerymemory/essays/riding-the-razor/index.md"
-  ],
   "9c4b197e633b2023040ee7e8382b1f4b08120ff1c81852d2746bc4cccf2f5f98": [
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/exports/model-mediated-decision-witness-demo/manifest.json"
   ],
@@ -6330,9 +6315,6 @@
   "9d34a806f8af6bd80f24c06ce92184e803e2d574fc40bf54056ab15d21dbc366": [
     "wiki/attractors/trust/index.md"
   ],
-  "9d506f00312ff11e697c9ff631f819753f4b20ad88c117848caa99fdf2568fa1": [
-    "wiki/external/shimmerymemory/essays/consent-keyed-immutable-storage-loops/index.md"
-  ],
   "9d53b55bf169a9d9f8e1aadcf598b5f551ee383ab93a6f3c1d16c1946037fc7f": [
     "artifacts/intake-archive/20260709__shimmerymemory-essay-source-intake/morality_as_physics_and_biology.md",
     "artifacts/standard-named/20260709__SHIMMERY-MEMORY__ESSAY__MORALITY-AS-PHYSICS-AND-BIOLOGY__v1__morality-as-physics-and-biology.md"
@@ -6340,9 +6322,6 @@
   "9d78f84bb70ffe19acf609cca75542ab504917c27f93c9a4cb7c1e95e06b605a": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/verifier/verify_witness.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__INDEPENDENT-VERIFIER__CANDIDATE__J-1__verify-witness.py"
-  ],
-  "9d830c81dbebf02c253124620bde61cad935c6c865441140741c72ad2eedc53f": [
-    "wiki/external/shimmerymemory/essays/attractor-gardening/index.md"
   ],
   "9d8bf6a11ebcca2a92598516bac8bd69ae3acfda42f6188b2817f643af451a13": [
     "artifacts/intake-archive/20260715__telic-fields-j1-intake/schemas/disclosure-profile.schema.json",
@@ -6472,6 +6451,9 @@
     "artifacts/intake-archive/20260622__continuity-office-intake/raw/ContinuityOffice/training/010-incident-memory/index.md",
     "artifacts/standard-named/20260622__CONTINUITY-OFFICE__TRAINING__CORE-PRACTICES__v1__incident-memory.md"
   ],
+  "a111c78b66311a12b75fcf9939f5b633a3f2c9cc8d4359a24aa11a7ce2bcbd91": [
+    "wiki/external/shimmerymemory/essays/attractor-gardening/index.md"
+  ],
   "a11d2eeb3cd949fc1b808c8cdb97c0a76592687233f32c44a81f35818f254b4e": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loopwalker-training-intake/🧭 Lesson One- Recognizing the Illusion of the Wheel.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/Loopwalker Training/🧭 Lesson One- Recognizing the Illusion of the Wheel.docx",
@@ -6530,9 +6512,6 @@
   "a2a7f362c67730252b4a54620172ef844286780304fbec61d72cca0e523fcc40": [
     "artifacts/intake-archive/20260715__telic-fields-hi-s-intake/SCHEMA-CONSOLIDATION-REPORT.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__REPORT__WORKING__HI-S__schema-consolidation.md"
-  ],
-  "a2c172dd1db7543866290143752f8b3af7fa93dd911be4918d5aee474bfe75bd": [
-    "wiki/external/shimmerymemory/essays/co-yoga-hop-yoga/index.md"
   ],
   "a2cce31dfba14947486b788fb2a3c3b777118506fdc302c26d9bdf4a68220c11": [
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/README.md"
@@ -6660,6 +6639,9 @@
     "artifacts/intake-archive/20260622__standard-named-tis-slice/Dialogica Integration Profile.docx",
     "artifacts/standard-named/20260622__TIS__PROFILE__DIALOGICA-INTEGRATION-PROFILE__v1__dialogica-integration-profile.docx"
   ],
+  "a63da6bc46d7e98a3e470cb7d3054dd5889095852559842c85ec020af9fc07c0": [
+    "wiki/external/shimmerymemory/essays/changing-the-optimization-primitive/index.md"
+  ],
   "a6415f803dcdfd6798f85f368601fc52d63c6d65245da8a7c9ba7af83c81336f": [
     "agents/standard-naming-agent.md"
   ],
@@ -6702,12 +6684,18 @@
   "a7396ee7988f49647a4463f69bbdb3ebf295a85a43981d48fed36eb2a44915ea": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/manifest.json"
   ],
+  "a75a72a62df8f57e35764accf1d632189645a208c7865035df3e3bb3edd83fde": [
+    "wiki/external/shimmerymemory/essays/shimmer-vocabulary/index.md"
+  ],
   "a75bd659c08a233c9da35de7143852751a1b5e964362ffcb8f6924a7b81f24b1": [
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Synaptic Dyad Protocol Specification (SDPS).docx"
   ],
   "a75bf02a5b7ba40072e7057005d23c2528770da1ded81350bdab9d9917ec1f94": [
     "artifacts/incoming/rowdy_puppies_and_sharp_baby_teeth_a_two_minute_talk.md"
+  ],
+  "a7638ad9d422d716fe41367200598fdbfbb2dcaea5a6f6a7182b4ea4e2909a0c": [
+    "manifest/external_published_index.jsonl"
   ],
   "a775277c30a17e73c38474b18c4c35d58ccd5c5c69a98a6bf2d26f6e473023a3": [
     "artifacts/incoming/When Language Begins To Act Law Ai Essay.docx"
@@ -6816,6 +6804,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/exports/context-capacity-demo/decisions/missing-correction-stop.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-3__MISSING-CORRECTION-STOP.json"
   ],
+  "aaf7a7653a322695ccaf9f94d777c0a2d34efe9e427c30c357f1df8e04db6abc": [
+    "wiki/attractors/attention/index.md"
+  ],
   "aafac257ff78366a6cabcee278445606cf4ba24935f460bfee6d373baf885cfd": [
     "artifacts/intake-archive/20260715__telic-fields-j0-intake/RUNBOOK.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__RUNBOOK__WORKING__J-0__reference-implementation-and-pilot-harness.md"
@@ -6908,9 +6899,6 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🧬 Latent Intent Activation Loop.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__LOOP__CONSENT-PHYSICS__v5__latent-intent-activation-loop.docx"
   ],
-  "ad270508e3717f7a50aead6f3bf6174c1322f2569bddd3ee3be94aebe4598d3f": [
-    "wiki/external/shimmerymemory/essays/bifli-check/index.md"
-  ],
   "ad31432c125ad98985cbe1031d5876c17da310bd61539cedcf525d475429ddc9": [
     "wiki/projects/semantic-collapse-theory/loop-series/looplink-and-trust/presence-and-recovery/index.md"
   ],
@@ -6940,6 +6928,9 @@
   ],
   "ae1e50e358b4336b166fcecdc42efd3adc4e148dcaae3b839d04978ea90a548c": [
     "artifacts/incoming/idioms_as_social_control_cluster_i_intelligence_curiosity_punishment.md"
+  ],
+  "ae1fde8cd4ac6c77f75438a80c45e629b764621ccff3a8a761db6710c4a452a0": [
+    "wiki/external/shimmerymemory/essays/the-loop-requirement/index.md"
   ],
   "ae402477eb1eee7d744ea36a54629226f245c0180c0e1fbc884f27141754ec91": [
     "artifacts/incoming/ai_readiness_email_general_revised.md"
@@ -6993,9 +6984,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/examples/PD8-STALE-MEMORY-BREACH-AND-REPAIR.json",
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/exports/semantic-trail-witness-demo/records/stale-memory-repair.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-6__STALE-MEMORY-BREACH-AND-REPAIR.json"
-  ],
-  "afb413e5f56dc354e77b7ea3d3dadaf0c69842b10ea7adda3ccab7d8ddec5308": [
-    "wiki/external/shimmerymemory/essays/attention-compression-framework/index.md"
   ],
   "afb5bad96417534b39a2819e9ef787742ca7bc064f222f0c5662085bdc9111c4": [
     "artifacts/incoming/Lantern Essay Engine — Dev Brief (v1).docx"
@@ -7056,6 +7044,9 @@
   "b06b810b670f21a81c5549433177168bd7a7f2dc8d5a405abb38b47bda440c59": [
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/tests/negative-conformance-fixtures.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__FIXTURES__WORKING__HI-7__negative-conformance.json"
+  ],
+  "b088efad195fc1f7613d9b4ca782c6fe4bd9662a0fee8b89857aac2f5c267b03": [
+    "wiki/external/shimmerymemory/essays/consent-keyed-immutable-storage-loops/index.md"
   ],
   "b0b75a8b98509cbe20add40dded87bb83fdd8849398a7466a7a00d023348416b": [
     "artifacts/intake-archive/20260715__telic-fields-fg-s-intake/RECORD-CONSOLIDATION-AND-CANONICAL-SPINE.md",
@@ -7260,14 +7251,14 @@
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/Client-to-client P2P TOTP + Message Patent/DeepTrust_Expanded_Provisional_Patent_Complete.docx",
     "artifacts/standard-named/20260622__PATENTS__TRUST-PAIRING__CLIENT-TO-CLIENT-P2P-TOTP-MESSAGE-PATENT__v2__deeptrust-expanded-provisional-patent-complete.docx"
   ],
+  "b5e2b19520004d0ce0a8f8b5972fffb4911feb16c97dea11fac4ed4c9200148c": [
+    "wiki/external/shimmerymemory/essays/riding-the-razor/index.md"
+  ],
   "b61f11c326531626e0176af994f4fa230ea869cd2c42ea8364610aa89ff5453e": [
     "artifacts/incoming/Glyph Game Overview.docx"
   ],
   "b625235d8dfddd912436d72d374a2a7d83d9dd024e09c3e4666f4b4497e7ecc7": [
     "artifacts/incoming/canon_of_persistence_and_project_mapping.md"
-  ],
-  "b628d1b6474e1f15c3b9476e12fbee108e9245b0e3bd6d3b6f931180a89e01d9": [
-    "wiki/external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md"
   ],
   "b647365c41463ab113cc287b80b2da569e9883d01761d107cb5ca4dfdaecf1cc": [
     "artifacts/intake-archive/20260622__loop-and-phase-training-loop-life-intake/Loop Life - Phase 2- Recursive Integration Deck.docx",
@@ -7305,6 +7296,9 @@
   "b6be0e76525fbc17a5161d7130c522200fd377cd9832681ab6bed629124add64": [
     "artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/abracadabracadoo_storage_forgetting_addendum_draft_v_0.md"
   ],
+  "b6ca5649c075e0e183523027018771d5adf00f1bf9647a4fc1dd402db95a1794": [
+    "wiki/external/shimmerymemory/essays/field-events-anchor-singularities/index.md"
+  ],
   "b6fd7090b8051f6575713e703577160b27f905300547fe5fb2c2286295833e46": [
     "wiki/projects/semantic-collapse-theory/affective-interfaces/emotional-modeling/index.md"
   ],
@@ -7323,8 +7317,14 @@
   "b73426cec3514c56127dc212fbaae2cbc1932bb059555d028283ae5982dbe9e3": [
     "artifacts/incoming/idioms_as_social_control_cluster_iv_agency_nullification_fatalism.md"
   ],
+  "b7374aacfdb2e32d9764eb6046e3bbd58584a9351441409b4467774f8783a3cc": [
+    "wiki/external/shimmerymemory/essays/rest-as-resource-error/index.md"
+  ],
   "b7630856f984f2d7731a8e6d3c22258fe0924d8bc092090ed2b97479c88ed673": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/glyph-glossary/index.md"
+  ],
+  "b7a478787c989f01facfe9e36a1c21f31ea0576797a8fde9d74e2b6d81be9bf3": [
+    "wiki/external/shimmerymemory/essays/from-fetch-to-civilization-consent-as-the-gate/index.md"
   ],
   "b7c58d2b97c11b999038abf1238342592652cae3465075ae0b6c9135267c2b22": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/loop-maintenance-kit/index.md"
@@ -7377,6 +7377,9 @@
     "artifacts/intake-archive/20260625__attention-intake/attention_mechanics_base_system_real_world.md",
     "artifacts/standard-named/20260625__ATTENTION__MECHANICS__BASE-SYSTEM__v1__attention-mechanics-base-system-real-world.md"
   ],
+  "b8bac964ae6964a5ee347efb6b0d118dd4b0a6135ef028d6649e10bab17e9e83": [
+    "wiki/external/shimmerymemory/essays/energy-routing-core-model/index.md"
+  ],
   "b8be2e3a5f9b309f86183662cdfeeaabc019223ea5fcaa7a470dddd46f1fe3c4": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/schemas/accessibility-test-run.schema.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SCHEMA__FROZEN__J-2__accessibility-test-run.schema.json"
@@ -7394,6 +7397,9 @@
   ],
   "b924eedd94247cf6c50fb25bdd384d816d6d75f1a450bc87a67aeaa659d7bd73": [
     "artifacts/incoming/Glyph Os Intro For Allies.docx"
+  ],
+  "b92f2be81163d4324d9ea82e6e896b7b30872023404848b7f88301067669fe4d": [
+    "wiki/external/shimmerymemory/essays/shimmer-interface-manifesto/index.md"
   ],
   "b92f333b3f370d75fda073e7b4de505dce3e8bd0bf0dd249b5701fb9a97c0dbe": [
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/exports/consentful-training-witness-demo/schemas/consentful-training-witness.schema.json",
@@ -7518,9 +7524,6 @@
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent Protocol Intro.docx",
     "artifacts/standard-named/20260624__INTENT-CONSENT__INTRO__CONSENT-PROTOCOL__v1__consent-protocol-intro.docx"
   ],
-  "bbf27c8527b75b25bf498b7a1d2eb42223af401297a84ca9587fec504038047b": [
-    "manifest/inventory.jsonl"
-  ],
   "bbf44a4e1d5365c2bafff493c5de8c9fd7dbc96a13a7026fb7bd6d8f999b4921": [
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/exports/temporal-witness-demo/schemas/commitment-record.schema.json",
     "artifacts/intake-archive/20260715__telic-fields-hi4-intake/schemas/commitment-record.schema.json",
@@ -7612,9 +7615,6 @@
   "be1716720f2f48b78e91a89bdff60ec0853bdbe0ed462c394b33edd02bfb29e6": [
     "artifacts/incoming/Semantic Fractal Summary.docx"
   ],
-  "be18fc58dc5908c94aa8ee85c4de3512138b2ccd3c944ee00e1d46feb57cd077": [
-    "wiki/external/shimmerymemory/essays/consent-is-the-gradient-mask-on-optimization/index.md"
-  ],
   "be3cfd7d64ef67ef517b21451f6998a4d3d80a3824a15afe26ceffd05924c428": [
     "wiki/projects/telic-field-papers/open-questions.md"
   ],
@@ -7700,9 +7700,6 @@
   "bffe9cc08fdc161d62979e7c9634904b8589bce7da3c6113757a63a2b2061841": [
     "wiki/concepts/consent-physics/index.md"
   ],
-  "bffed7980cf4526229ce626e328a0c17a3b050257b43ed40af4494b815f00d64": [
-    "wiki/external/shimmerymemory/essays/the-rewild-invariant/index.md"
-  ],
   "c024ad641e43c70eacf44ba3be82b92540fc531efd9fce1405e5393eeefa553f": [
     "artifacts/incoming/🌍 ContextSquared.docx"
   ],
@@ -7728,12 +7725,18 @@
   "c0fb63afb4c740988cace25380cf50e06c6f968c8d8dcbb03892fdc993bcd334": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01.zip"
   ],
+  "c103306f736e29739305c7b65a9aa78ea17e732985aa655897bf43002e7ce762": [
+    "wiki/external/shimmerymemory/essays/shimmer-v0-4-host-lab-bridge/index.md"
+  ],
   "c1046d27dee14cb4a180f4b9e059436cda73236fb0f0c361a52c74db0bc4b5e5": [
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/tests/validation-results.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__VALIDATION-RESULTS__WORKING__HI-3__results.json"
   ],
   "c13c23af5ba52f8605a3927ac8a078dcc73bdb5e50776f9008478f8a6b03b50e": [
     "package-lock.json"
+  ],
+  "c14c832561311628ebb44b40703d9561305e0fe257644b9f8d0fa5fab5875237": [
+    "wiki/external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md"
   ],
   "c15cc8e811ac2004a4d0bdc1efec7fb887d3284af17086d39aeb6687fe4c3621": [
     "artifacts/intake-archive/20260622__patents-intake/Abracadabra Protocol/Abracadabracadoo_Protocol_Addendum_V.docx"
@@ -7757,11 +7760,20 @@
   "c1b6fbacb2d8524d96ceaca0ec1a403600546696101a8c18cf1d11d233ed8807": [
     "artifacts/intake-archive/20260715__telic-fields-f11-g12-intake/NEXT-PASS.md"
   ],
+  "c1bc3e35cf18fc8a1c9d8699c21291cc3dd3842a5bff2d073714ecd312d38f68": [
+    "wiki/external/shimmerymemory/essays/the-witness-twist/index.md"
+  ],
+  "c1d7d5cc10a692027ca4974c4cd2064cc8c2e4046839fd895ddbb32869d29465": [
+    "wiki/external/shimmerymemory/essays/unexamined-meaning-as-an-ecological-hazard/index.md"
+  ],
   "c1e82d1e04a91e37a09705dea83109e51b9ad8929f3056486a5d963589b39eca": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Multiverse As Shimmering Potential.docx"
   ],
   "c22a5aa8e1b035aa3abe002a916a98c491bd2920432c903a9fb0935875c9d809": [
     "wiki/projects/semantic-collapse-theory/loop-series/loop-dynamics-framework/index.md"
+  ],
+  "c24a525dcba9e9402a40b03a95eda2b276d164dbb7144aabf6b06244e600b34e": [
+    "wiki/external/shimmerymemory/essays/the-subtle-art-of-exaptation/index.md"
   ],
   "c269057215f9aa3ac528e9990f052d2e03c07f8be611d11b7c02492e957525ba": [
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/examples/model-tool-action-boundary.json",
@@ -7819,9 +7831,6 @@
   "c3bbd0abf748fff1c2e9c1c7ad8ebed627064076b307210cf0441c87fecf9169": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/loopwalker-training/advanced-discussion/infrastructure-of-reality/index.md"
   ],
-  "c3ee0100a51628b47b3e5752ab3ae30a4a284fe39a3448137394c6e337e27ae4": [
-    "wiki/external/shimmerymemory/essays/from-fetch-to-civilization-consent-as-the-gate/index.md"
-  ],
   "c40d53c477f69efcb24794959a2819c4dde6175786bb070c9880b38aa4c98f0d": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Governance/Tribal Governance Consulting Opportunity.docx"
   ],
@@ -7831,6 +7840,9 @@
   ],
   "c430b64a21028d5cfde8488872e6f915e610f4b3d3be0748f632d3e58fe8d344": [
     "artifacts/intake-archive/20260715__telic-fields-hi2-intake/SHA256SUMS.txt"
+  ],
+  "c4570aeb33bd13159f18206c639307e5e7f46ad6355bf37509222f33e7d16d56": [
+    "wiki/external/shimmerymemory/essays/bayesian-pre-speech-stabilization/index.md"
   ],
   "c4827d52fb34ea28ace661df76ae770d4784ef205e03f82396bef639b8b77f72": [
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/examples/memory-state-hazard.json",
@@ -7845,6 +7857,9 @@
   ],
   "c4c73af7c69eea1e83d5ad94c5594916f5d3b5a3b4c1d37981fded6ee0880f66": [
     "artifacts/incoming/the_intelligence_reorg_manifesto_2026.md"
+  ],
+  "c4ed1009782601235a3151397774146c33b5692ffa29e8d4d3f72e20b1ce9dc9": [
+    "wiki/external/shimmerymemory/essays/co-yoga-hop-yoga/index.md"
   ],
   "c50bb2198190fc8c54fcfc346360e6f638d6849a932ab4d235b38fdabaf6688c": [
     "artifacts/incoming/invariant_essay_backwards_compression.md"
@@ -7996,6 +8011,9 @@
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-5__acceptself-bridge/assets/uliua-wordmark.png",
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16__abracadoo-bridge-machine-refs 2/assets/uliua-wordmark.png"
   ],
+  "c8b5879d4b5f26b9ca18f92601d1f236e933d0b3e2e166e708dd9e0090eec778": [
+    "wiki/external/shimmerymemory/essays/good-faith-is-not-a-defense-mechanism/index.md"
+  ],
   "c8bc7d3d36df88a7a894a7d5522cabac8ccd9b3367fd5a586fff63e815aadf27": [
     "artifacts/incoming/Spectral Bearing- The Loop Requirement.docx"
   ],
@@ -8084,9 +8102,6 @@
   "cb20d532fac176ebb11465bb7420d241045fb8424b64544c4f2557468c6e298d": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-2__color-lab-no-auto-hide.zip"
   ],
-  "cb5c09f26d15d7e6a4f13103e606dd627a44ec186ff8c1e6f31b14d25d629691": [
-    "wiki/external/shimmerymemory/essays/stochastic-anchors-loops-and-the-puzzle-of-agency/index.md"
-  ],
   "cb5decee27b24a8168689fa3de5a771429e8bc447ead2b01ee5bb57d74f75887": [
     "artifacts/intake-archive/20260715__telic-fields-hi5-intake/exports/dependency-witness-demo/checksums.txt"
   ],
@@ -8104,12 +8119,6 @@
   ],
   "cbae818813c5e929ef45dd41c61a69a98b51c1ed9fe860ca50b978c27422ae45": [
     "wiki/projects/semantic-collapse-theory/loop-series/looplink-and-trust/index.md"
-  ],
-  "cbb04b53ef8a953bdd18c806467747101c65bb47495bb506e6e401080ceead13": [
-    "wiki/external/shimmerymemory/essays/from-archive-to-interface/index.md"
-  ],
-  "cbc0244c786b792354ba30039a7dcd4a98a92f3107e13c108b31406958dde0b8": [
-    "wiki/external/shimmerymemory/essays/unexamined-meaning-as-an-ecological-hazard/index.md"
   ],
   "cbd10168cb6977abf3dd56eaa3211fd23476a8ab0f0a4373feea9ed0e5920ddc": [
     "artifacts/intake-archive/20260715__telic-fields-hi10-intake/exports/consentful-deployment-witness-demo/schemas/capability-role-tool-grant.schema.json",
@@ -8266,6 +8275,9 @@
     "artifacts/intake-archive/20260715__telic-fields-fg-s-intake/BRANCH-RECOMMENDATION.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__BRANCH-RECOMMENDATION__WORKING__HI-0__controlled-branch-opening.md"
   ],
+  "cf7f366b02e1f6d2e799cb69fc0881d15d46bc48ccfd077309e3a15fbf4ce377": [
+    "wiki/external/shimmerymemory/essays/20260622__shimmerymemory__essay__posture-fraud__v0-1__consent-efficient-way/index.md"
+  ],
   "cf9a47ba591868e82f4b3054fc8f7fe7b72d0852feee5da97619a84e5359ef4d": [
     "artifacts/archived/Side Projects Desktop/Consent-based Atomic genesis and Stream/Glyphlog Method v0.docx",
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Glyphlog/Glyphlog Method v0.docx"
@@ -8286,6 +8298,9 @@
   "cfffe3fe2878a598ba6d5e6b6d97753b3fb506b23e711255dd6e0f45dc55bbe8": [
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/exports/context-capacity-demo.zip",
     "artifacts/standard-named/20260715__TELIC-FIELDS__CONTEXT-CAPACITY-EXPORT__WORKING__HI-3__context-capacity-demo.zip"
+  ],
+  "d0079e280bc5de53a49323d75a3ae61237a856dbfdf30f6112d5dc1b7fc6b977": [
+    "wiki/external/shimmerymemory/essays/consent-aware-ai-in-organizations/index.md"
   ],
   "d01be1f176a3b8ad9a5ffd3d7c5ef1cf6a324408a748ea7cf586992f0db92099": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v16-5__acceptself-bridge/assets/btc-donation-qr.png",
@@ -8308,20 +8323,20 @@
     "artifacts/intake-archive/20260622__similar-projects-intake/Bobby Brain Os.docx",
     "artifacts/standard-named/20260622__SIMILAR-PROJECTS__COGNITIVE-RUNTIME__BOBBY-BRAIN-OS__v1__bobby-brain-os.docx"
   ],
-  "d0ddc43af11694c2c8ca40934f3756e092e4e725ef80c94328efe0ae02771fa9": [
-    "wiki/external/shimmerymemory/essays/relativity-witness-and-the-glyph-we-orbit/index.md"
+  "d093b11b5f2fff3fd642798ba001a697643fb78df669535dac86ea3343872eb0": [
+    "wiki/concepts/attention/index.md"
   ],
   "d0ed1d08c4fc60b5a6487fe47ad4c6185b778158f09b2e00ff2f25c7e1453d71": [
     "artifacts/intake-archive/20260623__uliua-assets-intake/20260609__ULIUA__ASSETPACK__GLYPHS__SYMBOLA__v01/svg/20260609__ULIUA__GLYPH__BIFLI__SYMBOLA__master.svg"
-  ],
-  "d162ea7be59a9795c941e7aeee3014e7cf2222288430630839930551b8749f92": [
-    "wiki/external/shimmerymemory/essays/20260622__shimmerymemory__essay__privacy-membrane__v0-1__energy-finds-its-way/index.md"
   ],
   "d1639ca6159f43f434a97ed355ccb93eb21c958c05ac2f52000a8075d63b8629": [
     "docs/20260625__WORKVAULT__INSTRUCTIONS__EXTERNAL-PUBLISHED__v0-1__published-external-ingest-workflow.md"
   ],
   "d171a28971d9860718d722f61a4d759292fd8a98b962ae45aa6f8e910cb90c4d": [
     "wiki/projects/consent-intent-compression-protocol/loop-training/field-identity-and-deployment/index.md"
+  ],
+  "d1966b7e6d3ad89c622f40903a038a6d7b729df7d76247d31beaaada7bd22491": [
+    "wiki/external/shimmerymemory/essays/the-cost-of-self/index.md"
   ],
   "d1c0ed3e29918c48002c93e67d075597d95ecfa4fba48ff1277301ffb0380cbc": [
     "artifacts/intake-archive/20260623__uliua-site-variants-intake/20260609__ULIUA__SITE__HOME__v15__wordmark-btc-donation-panels.zip"
@@ -8332,9 +8347,6 @@
   ],
   "d2045b96ecfe83b5b4373ea024270aba781e14854b4cad8b949f0b06691154b1": [
     "artifacts/intake-archive/20260715__telic-fields-hi9-intake/20260715__TELIC-FIELDS__PHASE-HI9__CONSENTFUL-TRAINING-SOURCE-STANDING-AND-MODEL-LINEAGE__v0-1.zip"
-  ],
-  "d2122148edabb55685b84fc7538534f6ee6115c7fff711e5a4b54e2eb0d7dc11": [
-    "wiki/external/shimmerymemory/essays/shimmer-lab-concept-and-code-summary/index.md"
   ],
   "d22ca3219b1e2848d5e4beb568d513f6ca10720b02299cdcaca7c011676434d5": [
     "artifacts/intake-archive/20260629__semantic-integrity-intake/20260603__SEMANTIC-INTEGRITY__TECH-MEMO__INTERNAL__V0-1__SEMANTIC-MOVEMENT-SIGNALS.md",
@@ -8364,9 +8376,6 @@
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/examples/PD7-COMPETENT-ESCALATION.json",
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/exports/context-capacity-demo/decisions/competent-escalation.json",
     "artifacts/standard-named/20260715__TELIC-FIELDS__DEMONSTRATION__WORKING__HI-3__COMPETENT-ESCALATION.json"
-  ],
-  "d2c98cd63d811e70482859bf6c52806390594d8d597498dd09b4d2854b8c746e": [
-    "wiki/projects/quantum-invariants/semantic-compression-layer/index.md"
   ],
   "d2e3cbc6700a1c719155a73c148c353f9110e5b5ac54ae4a2b0e6060ce2227f8": [
     "artifacts/archived/Side Projects Desktop/Reference - Stored Crystals/Trust Interoperability Standard/Consent Semantics v1.docx",
@@ -8429,11 +8438,11 @@
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Loop and Phase Training/Advanced/🌀 Loop Physics Primer- Latency and the Fractal Delay.docx",
     "artifacts/standard-named/20260622__SIDE-PROJECTS-DESKTOP__PRIMER__CONSENT-PHYSICS__v3__loop-physics-primer-latency-and-the-fractal-delay.docx"
   ],
+  "d44eca2270b81ecb558400f759c6548cfe7afeb09baf79489dd38c2fcd6ee1c6": [
+    "wiki/external/shimmerymemory/essays/the-room-youre-in/index.md"
+  ],
   "d4589168366e5f80817e475fc142dc8bdcbd0dbbada282c6cff7c9d215c15bc0": [
     "artifacts/incoming/idioms_as_social_control_cluster_iii_status_policing_humiliation.md"
-  ],
-  "d46664a5416ca4c36c3ebc56af7593722e1f3bc94b53d19e35de0f0673b02f04": [
-    "manifest/hash_index.json"
   ],
   "d47257ae4811d9369f8692c09b495974dbe87db2693bfb1112b5524450c86aae": [
     "artifacts/intake-archive/20260624__intent-consent-research-intake/Consent-Constrained Intelligence.pdf"
@@ -8556,6 +8565,9 @@
     "artifacts/intake-archive/20260623__abracadoo-intake/Abracadoo.app Overview.docx",
     "artifacts/standard-named/20260623__ABRACADOO__OVERVIEW__APP__v1__abracadoo-app-overview.docx"
   ],
+  "d7a0af7126d1f988ec3ab5aa67033ac339825e478b08877c353e1e062636eade": [
+    "wiki/external/shimmerymemory/essays/from-fairness-to-consent-vectors/index.md"
+  ],
   "d7ad829db7aefb4bd958c1980b46661293edd06d983557af79b6bea2aee077fd": [
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/examples/trace-hazard-marker.json",
     "artifacts/intake-archive/20260715__telic-fields-hi6-intake/exports/semantic-trail-witness-demo/traces/hazard-trace.json",
@@ -8575,9 +8587,6 @@
   ],
   "d7f1c7d41815af88ca094d3317ae9a658f09980c4a2bcd8b596a581aaba1e011": [
     "wiki/attractors/agency/index.md"
-  ],
-  "d7f65a94f17054b43f8430ad8b86747ae003ed56eec1650ecda7e469293011ee": [
-    "wiki/external/shimmerymemory/essays/changing-the-optimization-primitive/index.md"
   ],
   "d82e6466f64974b4d0d9ec8ff76b64c8dcf3537985d0b938229382f1a49624ab": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/J2-GATE-REVIEW.md",
@@ -8756,6 +8765,9 @@
   "dbf1d10028422eb2beae448ccaccd917f2e2b19c378b8d4e819ae0228999f1d7": [
     "artifacts/intake-archive/20260715__telic-fields-hi5-intake/exports/dependency-witness-demo/manifest.json"
   ],
+  "dbfce544da34731d49c7b74cd5fe52ee4586dc64fd134649befc427679b16aa7": [
+    "wiki/external/shimmerymemory/essays/from-output-to-constitutional-ai/index.md"
+  ],
   "dc4b8751ea019b7cf91fc6392aef1f1b79232a10811c717c0adb127a002d02fe": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Multiverse/Monday Consensual Vision.docx"
   ],
@@ -8879,6 +8891,9 @@
   "e02117614929c72bccacf9969a14f931ce91e1c6b0864ceee757929332a161fb": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Consent Seed/index.html"
   ],
+  "e03662d1fc6d221cf9fe35d232ad9055c809d0b5d83cbf18a189a0dee250878a": [
+    "wiki/external/shimmerymemory/essays/artifacts-ambiguity-and-the-temperature-of-meaning/index.md"
+  ],
   "e03a22bb7670024c13ff54fdb5d7a28782be2ae39455d38cc24153eaf953d022": [
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/src/telic_j2/disclosure.py",
     "artifacts/standard-named/20260715__TELIC-FIELDS__IMPLEMENTATION__CANDIDATE__J-2__disclosure.py"
@@ -8907,6 +8922,9 @@
   ],
   "e0e1df55a6befb7f654e14c1142c3ffd90ca63333ce9662b2b29b9a6c6b1d296": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Attention - Five Modes/index.html"
+  ],
+  "e0f0bc8071355a899011eb62ad498838cdc7ef8d7c0f42d98d3cb5a38b0ea31b": [
+    "wiki/external/shimmerymemory/essays/the-mobius-flip/index.md"
   ],
   "e1010de9079d197865d9d1192da50867a58b18f117012d11930c6b643ec19da0": [
     "artifacts/intake-archive/20260715__telic-fields-hi8-intake/exports/model-mediated-decision-witness-demo/schemas/model-mediated-decision-witness.schema.json",
@@ -8944,9 +8962,6 @@
   "e18cc68529fbff4b11234f16d5670ad63c000f22873eb73eb4b3f945c0a45e54": [
     "wiki/projects/side-projects-desktop/loop-and-phase-training/advanced/consent-physics/index.md"
   ],
-  "e19104d2ef982a6b7b58d8a8db051aace9b2bce11be0f3b0096475fe834c5f38": [
-    "wiki/external/shimmerymemory/essays/morality-as-physics-and-biology/index.md"
-  ],
   "e1bfbb47e864363efe2b09339311508de517ec265cbad3a7d55f180912f7316c": [
     "artifacts/intake-archive/20260715__telic-fields-hi-s-intake/examples/conformance-claim-manifest.json",
     "artifacts/intake-archive/20260715__telic-fields-hi-s-intake/exports/tf-mvi-1-reference-scenario/records/conformance-claim-manifest.json",
@@ -8960,6 +8975,9 @@
   ],
   "e1e0e8bd0c789526ef8558bc5fd5aea926512c1f4c0f0f882985b2bf9765d94f": [
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/exports/public-decision-witness-demo/checksums.txt"
+  ],
+  "e1ffba7e483a8b007813efae25f99bcd2d53746eec57f7038f568d5c946352f5": [
+    "wiki/external/shimmerymemory/essays/the-cost-of-family/index.md"
   ],
   "e2134136a126186a3e5357a22e88594fddcfd24e8bd1db25b82ca4189301595f": [
     "artifacts/archived/Side Projects Desktop/Personal/Butterfly Bush Time Portals.html",
@@ -9084,6 +9102,9 @@
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT Series 20250528/SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx",
     "artifacts/archived/Side Projects Desktop/Semantic Collapse Theory/SCT-7- Governance as Collapsed Consent — A Model for Semantic Authority.docx"
   ],
+  "e474a5356bf25c86953db679602b8848373f2ffd1c698468ec736073a782bc2e": [
+    "wiki/external/shimmerymemory/essays/how-consentful-loops-are-constructed/index.md"
+  ],
   "e48962841ee2ca8e0ed20168775a84c23210801210c37b9fdd4d6e78e98a5811": [
     "artifacts/intake-archive/20260715__telic-fields-hi7-intake/I7-POLYTELOMETRIC-DELIBERATION-PORTFOLIO-AND-PUBLIC-DECISION-SPECIFICATION.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__SPECIFICATION__CANDIDATE__I-7__polytelometric-deliberation-portfolio-and-public-decision.md"
@@ -9111,9 +9132,6 @@
   ],
   "e58db5388b3bd863374b8a934d57ec7621e329536f4bb60ec96800cdd8d9c68b": [
     "artifacts/intake-archive/20260622__side-projects-desktop-intake/Unification/Interprotocol Concordance.docx"
-  ],
-  "e5a5f07678964eee140dc5d11f5515b0a4ad06120ff54ec425604ab5ecebce4c": [
-    "wiki/external/shimmerymemory/essays/waves-particles-and-the-discipline-of-not-lying-to-ourselves/index.md"
   ],
   "e5c60afd7011ac02baee75f4baafa3afc33c9003a0377033ba13e559c0945bf9": [
     "artifacts/incoming/tribal-consent-talk.md"
@@ -9386,9 +9404,6 @@
   "ec15480945e2bc76d6c5d37f7d61f9764fffaee895293ab50a5b24a300a87764": [
     "artifacts/incoming/fsgf_0.md"
   ],
-  "ec337765e28f508115203f77d58fc5f74d56dc6d71c47a68b0888a6be3d6e91c": [
-    "wiki/external/shimmerymemory/essays/free-will-is-expensive/index.md"
-  ],
   "ec5e9f0d69dfa4bd5a4571e4905f8d5deeaf4d654d2c85c5f1fec8e57ba27119": [
     "artifacts/intake-archive/20260622__patents-intake/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx",
     "artifacts/intake-archive/20260622__patents-trust-pairing-intake/LoopLock Mutual-TOTP-based Physical Lock/Adaptive-Length Mutual TOTP-Based Physical Lock System.docx",
@@ -9479,6 +9494,9 @@
   ],
   "ef064058924cfbd175cf69b69bc0806ec5c8b8a8c1ac54d6471905b6f15bde85": [
     "artifacts/incoming/rowdy_puppies_sharp_baby_teeth_and_how_to_stay_intact.md"
+  ],
+  "ef3c2e96126288c26dff3330fe9dcf63b7f4f83bbef317bbea07f7e9f72e6408": [
+    "wiki/concepts/comparator/index.md"
   ],
   "ef3ccc4c48fc4a632525870c7dca3ad8f3c0bbe42059fbd5aea2c49731dc2174": [
     "artifacts/incoming/Endurance_Master_Glyph.pdf"
@@ -9614,6 +9632,9 @@
     "artifacts/archived/Side Projects Desktop/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx",
     "artifacts/intake-archive/20260622__consent-crystal-structure-research-intake/Consent–Intent Compression Protocol (CICP)/Loop Training/Section 3- From Loop Structure to Awareness.docx"
   ],
+  "f1b3e2222dd02e8a76c559c8d32b5315db3ae95f44c3fd9f14c2bd3c6375de82": [
+    "wiki/projects/quantum-invariants/semantic-compression-layer/index.md"
+  ],
   "f1e82cc21a417a8020f3cf1959c883170655b3c186c4739bb8d96d0610701efe": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-5__ROOT__LOOPNOUGHT-BREADCRUMBS.zip"
   ],
@@ -9622,6 +9643,9 @@
   ],
   "f1fc7d228fbfb093e25caaa98d36120ab4c5dbc1ac06f5d1966a9d1359a2ed65": [
     "wiki/projects/telic-field-papers/control-plane/index.md"
+  ],
+  "f2114f7163eb52c7e31ecb4d1e00338457f3d7473a9b6e50a1c937108b2a2b54": [
+    "wiki/external/shimmerymemory/essays/shimmer-lab-concept-and-code-summary/index.md"
   ],
   "f2513bd1ebb89b5ccba7df25ae8c56b2462e603bcc325c58cf4d7cd0fd31e17f": [
     "wiki/projects/telic-field-papers/artifacts/hi-4-temporal-standing/index.md"
@@ -9656,6 +9680,9 @@
     "artifacts/intake-archive/20260715__telic-fields-hi3-intake/STOP-ESCALATION-AND-RECOVERY-MATRIX.md",
     "artifacts/standard-named/20260715__TELIC-FIELDS__MATRIX__WORKING__HI-3__stop-escalation-and-recovery.md"
   ],
+  "f2bac9e01aacea89af6fa3f9e366e2603212545bb6cef9e6001ab453ffa7fbf9": [
+    "wiki/external/shimmerymemory/essays/manifestation-works-and-thats-not-why-you-think/index.md"
+  ],
   "f2c1897fa445a68fb7f377efd5e6cedf81b204bae534b6191efa99a82afb6fe0": [
     "artifacts/standard-named/20260622__CICP__IDENTITY__v1__graftable-identity-tree-a-fractal-index-of-presence.md"
   ],
@@ -9671,9 +9698,6 @@
   ],
   "f2f3f69112a7ed3a72a2e6d31e35469dddc5af1610ebba2304d85ed2d4df4283": [
     "artifacts/incoming/Waves, Particles, and the Discipline of Not Lying to Ourselves.md"
-  ],
-  "f31dc9f5d1fd7c14bd93e148ee2dcd1e2051ae418c224491c14043ec8ecc2246": [
-    "wiki/external/shimmerymemory/essays/the-cost-of-family/index.md"
   ],
   "f322fd4758a5237ba069496af2df4731e9cae17b0be1c86f828c414531749155": [
     "artifacts/intake-archive/20260624__abracadoo-site-variants-intake/20260613__ABRACADOO__WEBSITE__FRONTPAGE__EPHEMERAL-CONTACTS__PATCH/abracadoo/assets/abracadoo-app-placeholder.png"
@@ -9753,6 +9777,9 @@
     "artifacts/intake-archive/20260624__abracadabracadoo-site-variants-intake/20260521__ABRACADABRACADOO__ZIP__SITE__V003__uliua-parent.zip",
     "artifacts/standard-named/20260624__ABRACADABRACADOO__SITE__ULIUA-PARENT__v3__uliua-parent.zip"
   ],
+  "f5309627fd4b752a0aef649d5ec65959334e191e7af8696f050ad4e4e39e81b5": [
+    "wiki/concepts/index.md"
+  ],
   "f531523ca4305549cd5577a31e22e1c3a9fd0f6ff0decdfa513ad918c6c21c7a": [
     "docs/README.md"
   ],
@@ -9782,11 +9809,8 @@
   "f64e136bfcb903bb31778657e460a39c117c4d75d6cb6713ea5e55717c47032a": [
     "artifacts/incoming/Continuity Training Roadmap.docx"
   ],
-  "f64f5b14555d94b526d70d9a5761a3910dca3f386543c5d5adb18d5a43ac5fdc": [
-    "wiki/concepts/attention/index.md"
-  ],
-  "f65b7b1045133a88d94023042afed33e22229ee33c1d2bfcfe3a6d23e64b5489": [
-    "wiki/external/shimmerymemory/essays/how-intuition-works/index.md"
+  "f652a0c954c544bd281271fe62eb0b03ee928acb1c500143ceb152c93d4333a1": [
+    "manifest/hash_index.json"
   ],
   "f66f5715a9f90e0d9c702fecc9222996eb1bf6dc500a32061fffca28b68f8fdf": [
     "artifacts/intake-archive/20260623__consentful-cybernetics-site-variants-intake/20260604__CONSENTFUL-CYBERNETICS__SITE-UPDATE__V2-8__ROOT__RESEARCH-HERO-AI-CONSENT/assets/mark-white.png",
@@ -9835,6 +9859,9 @@
   ],
   "f774d17531bb0394ce962667f580cbb1a56b20db871397233652c21ce085b247": [
     "wiki/projects/consent-intent-compression-protocol/applications-and-outreach/vertical-application-briefs/index.md"
+  ],
+  "f789d0b8201c9a9ecfcef0550dae1d71420e490e8cbbc532897bc9637c41c819": [
+    "wiki/external/shimmerymemory/essays/the-king-who-measured-everything/index.md"
   ],
   "f78b953be3b1221a8388aeb886eb11dca758b180a5276f6ed95f210c811f9940": [
     "artifacts/intake-archive/20260624__shimmerymemory-site-variants-intake/shimmerymemory 3/src/content/essays/bayesian-pre-speech-stabilization.md",
@@ -9942,9 +9969,6 @@
     "artifacts/intake-archive/20260715__telic-fields-j2-intake/demo/test-output.txt",
     "artifacts/standard-named/20260715__TELIC-FIELDS__TEST-OUTPUT__WORKING__J-2__run-output.txt"
   ],
-  "fafa85c84a0d8bcd5cb7c001bcc2f86a0c0536d59a2b59faccbe642cc998e9f6": [
-    "wiki/external/shimmerymemory/essays/gentle-control-in-a-non-orientable-life/index.md"
-  ],
   "fafda55f8f3eb049cd464e599a39b28de71632d783bc9ce560f6c70348e91cf3": [
     "AGENTS.md"
   ],
@@ -10044,17 +10068,14 @@
   "fd26df7548031548c94df45ae65809ef8eb8c736934dc50a7cb3460d9b0ec1db": [
     "wiki/projects/pdsp/index.md"
   ],
-  "fd3c08375bd7664df2ed0d884943f4ddb9ab7e119e7a2efa2fc5f72db6017c6c": [
-    "wiki/external/shimmerymemory/essays/the-room-youre-in/index.md"
-  ],
-  "fd3d87e0d315ff5a2e580f7dcc88ba8676ef5ba02926779283e190f796431577": [
-    "wiki/external/shimmerymemory/essays/stable-artifacts-tunable-projections/index.md"
-  ],
   "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb": [
     "artifacts/intake-archive/20260715__telic-fields-j0-intake/demo/threats/pilot.sqlite3-shm"
   ],
   "fd634563229209d999b1d93ced208c4b62c00dac962385c35c55e651035edcec": [
     "artifacts/incoming/ai_adoption_in_historical_context_lessons_from_past_general_purpose_technologies.md"
+  ],
+  "fd79288b18b8eb9d80eff3e04873fe213ba891e05bce2a415b7968701e75196d": [
+    "wiki/external/shimmerymemory/essays/morality-as-physics-and-biology/index.md"
   ],
   "fd7cf486604b50f2564ca2dc6ea2ffb8bc59eabbc6dcb164084163d3471bdef8": [
     "wiki/projects/telic-field-papers/artifacts/f5-context-capacity/index.md"
@@ -10103,9 +10124,6 @@
   ],
   "ff05c2c56e8b4805d7eb5c4149d6e78fae5c8a73c218c5cbff3134d04a08ff11": [
     "wiki/projects/shimmerymemory/site-variants/index.md"
-  ],
-  "ff0707914831111109698ec2c491c9d973ae866fc1ca912a37c8a6d4c61bf836": [
-    "wiki/external/shimmerymemory/essays/good-faith-is-not-a-defense-mechanism/index.md"
   ],
   "ff167fc89dc5bda894ee641fe110f532358708ccd86a178551f1ec561eb40fd4": [
     "artifacts/intake-archive/20260622__humankey-protocol-intake/HumanKey Explainer/Slide 5.png"

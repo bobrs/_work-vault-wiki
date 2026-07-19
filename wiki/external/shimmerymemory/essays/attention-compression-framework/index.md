@@ -87,7 +87,7 @@ Attention is the substrate-independent mechanism by which a system chooses what 
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -103,6 +103,7 @@ Attention is the substrate-independent mechanism by which a system chooses what 
 - How much repetition is needed before a selection hardens into shared reality?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

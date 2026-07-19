@@ -30,6 +30,7 @@ In this vault, attention is also the first filter on legitimacy: it decides what
 ## Primary Research
 
 - [Attention](../../concepts/attention/index.md)
+- [Attention Engine: Book Series Plan and Semantic Compression](../../external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md)
 - [Attention-Compression Framework](../../external/shimmerymemory/essays/attention-compression-framework/index.md)
 - [Selection Pressure via Attention](../../external/shimmerymemory/essays/selection-pressure-via-attention/index.md)
 - [The Real Is a Ritual](../../external/shimmerymemory/essays/20260625__shimmerymemory__essay__public__mobius-dyad__the-real-is-a-ritual-v02/index.md)
@@ -57,6 +58,10 @@ In this vault, attention is also the first filter on legitimacy: it decides what
 - [Intuition](../intuition/index.md)
 - [Agency](../agency/index.md)
 - [Memory](../memory/index.md)
+- [Appreciation](../../concepts/appreciation/index.md)
+- [Consent to Context](../../concepts/consent-to-context/index.md)
+- [Comparator](../../concepts/comparator/index.md)
+- [Surface of Mutual Projection](../../concepts/surface-of-mutual-projection/index.md)
 
 ## Related Invariants
 
@@ -90,5 +95,6 @@ In this vault, attention is also the first filter on legitimacy: it decides what
 - Continue to [Selection Pressure via Attention](../../external/shimmerymemory/essays/selection-pressure-via-attention/index.md) for the ecology and survival-pressure route.
 - Continue to [Free Will Is Expensive](../../external/shimmerymemory/essays/free-will-is-expensive/index.md) when attention has to be read as exit capacity and cost.
 - Use [Meaning](../meaning/index.md) when attention becomes language, interpretation, or shared reality.
+- Use [Comparator](../../concepts/comparator/index.md) when an attention claim needs a disclosed evaluative standard.
 
 <!-- END OPEN RESEARCH EDGES -->

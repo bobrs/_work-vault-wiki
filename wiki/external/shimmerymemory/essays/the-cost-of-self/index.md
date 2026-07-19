@@ -55,7 +55,7 @@ A community can hide cost in another community. A family can hide cost in one of
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:36:29.565216Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -63,20 +63,6 @@ A community can hide cost in another community. A family can hide cost in one of
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../../projects/semantic-integrity/index.md)
-- [Quantum Invariants](../../../../projects/quantum-invariants/index.md)
-- [Consent Physics](../../../../concepts/consent-physics/index.md)
-- [Loop Economy](../../../../concepts/loop-economy/index.md)
-- [Witnessing](../../../../concepts/witnessing/index.md)
-- [Agency](../../../../attractors/agency/index.md)
-- [Consent](../../../../attractors/consent/index.md)
-- [Loop Mechanics](../../../../attractors/loop-mechanics/index.md)
-- [Witness](../../../../attractors/witness/index.md)
-- [Memory](../../../../attractors/memory/index.md)
 
 ## Working Read
 
@@ -109,6 +95,7 @@ This essay is the inward scale of the Cost series: [Self](../the-cost-of-self/in
 - What forms of repair restore capacity without pretending that expenditure did not occur?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

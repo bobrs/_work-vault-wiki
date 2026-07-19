@@ -50,7 +50,7 @@ A community is not merely a collection of people who happen to occupy the same p
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:58:12.245097Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -58,19 +58,6 @@ A community is not merely a collection of people who happen to occupy the same p
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../../projects/semantic-integrity/index.md)
-- [Trust Interoperability Standard](../../../../projects/trust-interoperability-standard/index.md)
-- [Governance Diad](../../../../concepts/governance-diad/index.md)
-- [Loop Economy](../../../../concepts/loop-economy/index.md)
-- [Consent](../../../../attractors/consent/index.md)
-- [Governance](../../../../attractors/governance/index.md)
-- [Loop Mechanics](../../../../attractors/loop-mechanics/index.md)
-- [Trust](../../../../attractors/trust/index.md)
-- [Witness](../../../../attractors/witness/index.md)
 
 ## Working Read
 
@@ -103,6 +90,7 @@ Community is the collective scale of the Cost series: [Self](../the-cost-of-self
 - What evidence shows that participation is producing shared continuation rather than depletion?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 Add salience notes below this marker.

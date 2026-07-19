@@ -43,6 +43,8 @@ Semantic compression is the place where abstract language becomes a stable mappi
 - [Velocity and Braking](../../../concepts/velocity-and-braking/index.md)
 - [Glyph Invocation and Reference](../../../concepts/glyph-invocation-and-reference/index.md)
 - [Conversation as a Persistent System](../../../concepts/conversation-as-a-persistent-system/index.md)
+- [Comparator](../../../concepts/comparator/index.md)
+- [Attention Engine: Book Series Plan and Semantic Compression](../../../external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md)
 
 ## Next Actions
 

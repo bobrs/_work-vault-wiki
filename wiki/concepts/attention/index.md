@@ -10,6 +10,10 @@ The attention-engine materials frame the subject as both narrative and system. T
 
 The newer axioms draft makes the rule-set even sharper: attention creates, sustains, or destroys depending on allocation; artifacts decay without renewed notice; and continued attention fossilizes traces into structure. The consent and legibility essays in this batch extend that same model under operational load. Consent stays expensive because it has to keep paying attention, organizations become legible only when attention can be traced, and the block-persistence spec turns attention into a concrete persistence mechanic.
 
+The current Attention Engine book-series compression adds an important limit: attention is reality-forming but not automatically truth-forming, care-forming, or coherence-forming. Evaluation requires a disclosed [Comparator](../comparator/index.md), an expectation set, and a consequence trace. Without that disclosure, a hidden standard can masquerade as reality and send attention toward the wrong side of an error.
+
+The same compression organizes attention across three scales: personal lived-world formation, relational meaning on a surface of mutual projection, and shared-world engineering through consent, grounding, witness, and autonomy. The stabilizing stack is openness (`🜁`), consent to context (`🝁`), grounding (`🜃`), and witness/returnability (`🜹`).
+
 ## Related Artifacts
 
 - [The Attention Engine - Intro & Narrative Spine.md](<../../../artifacts/standard-named/20260625__SIMILAR-PROJECTS__INTRO__ATTENTION-ENGINE__v2__the-attention-engine-intro-narrative-spine.md>) · [archive copy](<../../../artifacts/intake-archive/20260625__attention-intake/the_attention_engine_intro_narrative_spine.md>)
@@ -29,6 +33,10 @@ The newer axioms draft makes the rule-set even sharper: attention creates, susta
 - [Similar Projects / Cognitive Runtime](../../projects/similar-projects/cognitive-runtime/index.md)
 - [Attention - Five Modes](../../projects/side-projects-desktop/attention-five-modes/index.md)
 - [Attention Engine: Book Series Plan and Semantic Compression](../../external/shimmerymemory/essays/attention-engine-book-series-plan-and-semantic-compression/index.md)
+- [Appreciation](../appreciation/index.md)
+- [Consent to Context](../consent-to-context/index.md)
+- [Comparator](../comparator/index.md)
+- [Surface of Mutual Projection](../surface-of-mutual-projection/index.md)
 - [Consentful Cybernetics](../../projects/consentful-cybernetics/index.md)
 - [AI Did Not Break Consent](../ai-did-not-break-consent/index.md)
 

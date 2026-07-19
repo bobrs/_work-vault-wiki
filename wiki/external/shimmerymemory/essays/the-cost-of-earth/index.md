@@ -52,7 +52,7 @@ Earth is the first system in this sequence that has no terrestrial outside. A fa
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:58:12.245097Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -60,19 +60,6 @@ Earth is the first system in this sequence that has no terrestrial outside. A fa
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Quantum Invariants](../../../../projects/quantum-invariants/index.md)
-- [Consentful Cybernetics](../../../../projects/consentful-cybernetics/index.md)
-- [Cosmic Consent](../../../../projects/side-projects-desktop/cosmic-consent/index.md)
-- [Governance Diad](../../../../concepts/governance-diad/index.md)
-- [Consent Physics](../../../../concepts/consent-physics/index.md)
-- [Consent](../../../../attractors/consent/index.md)
-- [Governance](../../../../attractors/governance/index.md)
-- [Loop Mechanics](../../../../attractors/loop-mechanics/index.md)
-- [Memory](../../../../attractors/memory/index.md)
-- [Witness](../../../../attractors/witness/index.md)
 
 ## Working Read
 
@@ -105,6 +92,7 @@ Earth is the planetary scale of the Cost series: [Self](../the-cost-of-self/inde
 - What does consent mean when the affected system cannot answer in human language?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 Add salience notes below this marker.

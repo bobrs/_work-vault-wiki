@@ -51,7 +51,7 @@ A family is the first system in which most people learn what it means to belong 
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:36:29.565216Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -59,19 +59,6 @@ A family is the first system in which most people learn what it means to belong 
 ## Salience Status
 
 - `pending`
-
-## Work Vault Links
-
-- [Consentful Cybernetics](../../../../projects/consentful-cybernetics/index.md)
-- [Semantic Integrity](../../../../projects/semantic-integrity/index.md)
-- [Governance Diad](../../../../concepts/governance-diad/index.md)
-- [Loop Economy](../../../../concepts/loop-economy/index.md)
-- [Witnessing](../../../../concepts/witnessing/index.md)
-- [Consent](../../../../attractors/consent/index.md)
-- [Governance](../../../../attractors/governance/index.md)
-- [Loop Mechanics](../../../../attractors/loop-mechanics/index.md)
-- [Trust](../../../../attractors/trust/index.md)
-- [Witness](../../../../attractors/witness/index.md)
 
 ## Working Read
 
@@ -104,6 +91,7 @@ Family is the first social scale of the Cost series: [Self](../the-cost-of-self/
 - What makes a family loop open enough to carry care into the wider world?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

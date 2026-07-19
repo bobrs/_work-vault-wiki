@@ -11,12 +11,14 @@ Published external metadata index for the Shimmery Memory essay feed.
 - License URL: [https://shimmerymemory.com/license](https://shimmerymemory.com/license)
 - Legal substrate: `CC0 1.0 Universal`
 - License: `CC0 + Infinite Play Open License`
-- Ingested at: `2026-07-16T05:58:15.161339Z`
-- Item count: `82`
+- Ingested at: `2026-07-16T20:47:12.039679Z`
+- Item count: `84`
 - Source config: `manifest/external_sources.json`
 
 ## Essays
 
+- [How Self Works: Cross-Context Reconciliation](./how-self-works__cross-context-reconciliation__v100/index.md) — Predictive routing, constitutional plurality, capacity, and the operating model of the self — published `2026-07-16`; updated `2026-07-16`; tags: `self, teleology, predictive-routing, capacity`; first seen `2026-07-16T20:47:11.806602Z`
+- [How Consentful Loops Are Constructed](./how-consentful-loops-are-constructed/index.md) — From 🜁 presence and sovereignty to feedback, Mobius, regulation, repair, and release — published `2026-07-16`; updated `2026-07-16`; tags: `consentful-cybernetics, loop-construction, constitutional-loops, consent`; first seen `2026-07-16T20:47:11.806602Z`
 - [The Cost of Self](./the-cost-of-self/index.md) — Internal standing, spent possibility, and the constitutional work of becoming one — published `2026-07-14`; updated `2026-07-14`; tags: `self, identity, agency, internal-systems`; first seen `2026-07-16T05:36:29.565216Z`
 - [The Cost of Family](./the-cost-of-family/index.md) — Belonging, care, and the dynamics of intergenerational exchange — published `2026-07-14`; updated `2026-07-14`; tags: `family, belonging, care, standing`; first seen `2026-07-16T05:36:29.565216Z`
 - [The Cost of Earth](./the-cost-of-earth/index.md) — Planetary participation, material limits, and the end of elsewhere — published `2026-07-14`; updated `2026-07-14`; tags: `earth, planetary-systems, system-dynamics, feedback-loops`; first seen `2026-07-16T05:58:12.245097Z`
@@ -103,10 +105,6 @@ Published external metadata index for the Shimmery Memory essay feed.
 ## Working Read
 
 - This page tracks the external feed as a metadata-first index. It does not copy full essay bodies.
-
-## Cost Series
-
-The Cost series follows hidden expenditure and return across nested scales: [Self](./the-cost-of-self/index.md), [Family](./the-cost-of-family/index.md), [Community](./the-cost-of-community/index.md), [Earth](./the-cost-of-earth/index.md), and [Cosmos](./the-cost-of-cosmos/index.md).
 
 ## Next Actions
 

@@ -78,7 +78,7 @@ There is a class of truths that first appears ethical, then later reveals itself
 
 - Source role: `published_external`
 - First seen: `2026-06-26T03:20:02.687577Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -109,6 +109,7 @@ Consent is not a decorative constraint on optimization; it is the mechanism that
 - Which signals should remain outside the optimization loop entirely?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 

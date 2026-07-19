@@ -60,7 +60,7 @@ Excerpt:
 
 - Source role: `published_external`
 - First seen: `2026-07-16T05:36:29.565216Z`
-- Last checked: `2026-07-16T05:58:12.245097Z`
+- Last checked: `2026-07-16T20:47:11.806602Z`
 - Schema version: `0.1`
 - Source index: [Shimmery Memory Essays](../index.md)
 - Work Vault root: [Work Vault Index](../../../../index.md)
@@ -83,6 +83,24 @@ The real is not simply found; it is ritually maintained by attention, appreciati
 - Attention and appreciation co-produce the shared surface.
 - Witness matters because it prevents projection from becoming unaccountable.
 
+## Semantic Extraction Notes
+
+The Attention Engine companion essay sharpens this page’s “real” language: the field is not a self-authenticating authority, and a comparator—not an unnamed appeal to reality—grounds evaluation. In a dyad, field-as-disclosed-to-A, field-as-disclosed-to-B, artifacts, expectation sets, and consequence traces may differ; the work is to make those differences contestable without declaring one participant sovereign over the exchange.
+
+The page therefore belongs in the Book II / Surface of Mutual Projection seam. Its existing attention–appreciation–witness stack is the relational counterpart to the Attention Engine’s three-scale trilogy, with consent to context and comparator disclosure supplying the missing conditions for non-coercive mutual projection.
+
+## Related Concepts
+
+- [Appreciation](../../../../concepts/appreciation/index.md)
+- [Consent to Context](../../../../concepts/consent-to-context/index.md)
+- [Comparator](../../../../concepts/comparator/index.md)
+- [Surface of Mutual Projection](../../../../concepts/surface-of-mutual-projection/index.md)
+
+## Related Essays
+
+- [Attention Engine: Book Series Plan and Semantic Compression](../attention-engine-book-series-plan-and-semantic-compression/index.md)
+- [Attention–Compression Framework](../attention-compression-framework/index.md)
+
 ## Related Projects
 
 - [Semantic Integrity](../../../../projects/semantic-integrity/index.md)
@@ -102,6 +120,7 @@ The real is not simply found; it is ritually maintained by attention, appreciati
 - What witness conditions keep a ritual from becoming an unaccountable reality claim?
 
 <!-- BEGIN HUMAN / AI SALIENCE NOTES -->
+
 
 
 
